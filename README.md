@@ -3,7 +3,7 @@
 Site Next.js estático — quadro de **opens** Pipoca + Chill.
 Deploy: **GitHub Pages** via Actions (sem Vercel).
 
-URL: https://leifshinigami.github.io/trade1-web/
+URL: https://tobiasassobiolda.github.io/
 
 ## Local
 
@@ -17,10 +17,10 @@ npm install
 npm run dev
 ```
 
-Para `npm run build` local com Pages path:
+Build de produção (raiz do github.io):
 
 ```bash
-NEXT_PUBLIC_BASE_PATH=/trade1-web npm run build
+npm run build
 ```
 
 ## Secrets no GitHub (Settings → Secrets → Actions)

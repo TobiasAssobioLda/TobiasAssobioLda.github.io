@@ -26,7 +26,7 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /trade1-web
+          NEXT_PUBLIC_BASE_PATH: ""
           NEXT_PUBLIC_OPENS_URL: ${{ secrets.NEXT_PUBLIC_OPENS_URL }}
           NEXT_PUBLIC_SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
       - uses: actions/upload-pages-artifact@v3
