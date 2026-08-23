@@ -1,0 +1,26 @@
+{
+  "updated_at": "2026-08-22T17:23:31+01:00",
+  "timezone": "Europe/Lisbon",
+  "when_label": "test",
+  "pipoca": {
+    "rows": [
+      {
+        "ticker": "TSM",
+        "entry": 416.0,
+        "price": 418.95,
+        "qty": 0.48,
+        "notional": 200.0,
+        "pnl_pct": 0.7,
+        "pnl_eur": 1.42,
+        "pnl_r": 0.3
+      }
+    ],
+    "total_pnl_pct": 0.71,
+    "total_pnl_eur": 1.42
+  },
+  "chill": {
+    "rows": [],
+    "total_pnl_pct": 0.0,
+    "total_pnl_eur": 0.0
+  }
+}

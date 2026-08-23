@@ -16,8 +16,8 @@ const empty: OpensPayload = {
 function opensTarget(): string {
   const remote = (process.env.NEXT_PUBLIC_OPENS_URL || "").trim();
   if (remote) return remote;
-  const base = process.env.NEXT_PUBLIC_BASE_PATH || "";
-  return `${base}/opens.sample.json`;
+  // JSON vivo no GitHub (actualizado pelo bot) — sem redeploy do site
+  return "https://raw.githubusercontent.com/TobiasAssobioLda/TobiasAssobioLda.github.io/main/opens.json";
 }
 
 export function OpensApp() {
