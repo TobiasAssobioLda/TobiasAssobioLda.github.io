@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-23T20:38:41+01:00",
+  "updated_at": "2026-08-23T21:08:40+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "20:38",
+  "when_label": "21:08",
   "pipoca": {
     "rows": [
       {
@@ -219,9 +219,19 @@
         "pnl_pct": 0.0,
         "pnl_eur": 0.0,
         "pnl_r": 0.0
+      },
+      {
+        "ticker": "KYIV",
+        "entry": 13.25,
+        "price": 13.25,
+        "qty": 3.018868,
+        "notional": 40.0,
+        "pnl_pct": 0.0,
+        "pnl_eur": 0.0,
+        "pnl_r": 0.0
       }
     ],
-    "total_pnl_pct": 0.24,
+    "total_pnl_pct": 0.23,
     "total_pnl_eur": 1.84
   }
 }
