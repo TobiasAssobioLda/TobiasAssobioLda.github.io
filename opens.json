@@ -1,26 +1,227 @@
 {
-  "updated_at": "2026-08-22T17:23:31+01:00",
+  "updated_at": "2026-08-23T20:08:40+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "test",
+  "when_label": "20:08",
   "pipoca": {
     "rows": [
       {
         "ticker": "TSM",
         "entry": 416.0,
         "price": 418.95,
-        "qty": 0.48,
+        "qty": 0.480769,
         "notional": 200.0,
-        "pnl_pct": 0.7,
+        "pnl_pct": 0.71,
         "pnl_eur": 1.42,
-        "pnl_r": 0.3
+        "pnl_r": 0.28
+      },
+      {
+        "ticker": "ONDS",
+        "entry": 8.38,
+        "price": 8.71,
+        "qty": 23.866348,
+        "notional": 200.0,
+        "pnl_pct": 3.94,
+        "pnl_eur": 7.88,
+        "pnl_r": 0.97
       }
     ],
-    "total_pnl_pct": 0.71,
-    "total_pnl_eur": 1.42
+    "total_pnl_pct": 2.32,
+    "total_pnl_eur": 9.29
   },
   "chill": {
-    "rows": [],
-    "total_pnl_pct": 0.0,
-    "total_pnl_eur": 0.0
+    "rows": [
+      {
+        "ticker": "TSM",
+        "entry": 416.0,
+        "price": 418.95,
+        "qty": 0.096154,
+        "notional": 40.0,
+        "pnl_pct": 0.71,
+        "pnl_eur": 0.28,
+        "pnl_r": 0.28
+      },
+      {
+        "ticker": "ONDS",
+        "entry": 8.38,
+        "price": 8.71,
+        "qty": 4.77327,
+        "notional": 40.0,
+        "pnl_pct": 3.94,
+        "pnl_eur": 1.58,
+        "pnl_r": 0.97
+      },
+      {
+        "ticker": "ONDS",
+        "entry": 8.705,
+        "price": 8.71,
+        "qty": 4.59506,
+        "notional": 40.0,
+        "pnl_pct": 0.06,
+        "pnl_eur": 0.02,
+        "pnl_r": 0.01
+      },
+      {
+        "ticker": "XOM",
+        "entry": 165.275,
+        "price": 165.11,
+        "qty": 0.242021,
+        "notional": 40.0,
+        "pnl_pct": -0.1,
+        "pnl_eur": -0.04,
+        "pnl_r": -0.02
+      },
+      {
+        "ticker": "XOM",
+        "entry": 165.275,
+        "price": 165.11,
+        "qty": 0.242021,
+        "notional": 40.0,
+        "pnl_pct": -0.1,
+        "pnl_eur": -0.04,
+        "pnl_r": -0.02
+      },
+      {
+        "ticker": "TSLA",
+        "entry": 364.515,
+        "price": 362.86,
+        "qty": 0.109735,
+        "notional": 40.0,
+        "pnl_pct": -0.45,
+        "pnl_eur": -0.18,
+        "pnl_r": -0.05
+      },
+      {
+        "ticker": "GLD",
+        "entry": 423.7816,
+        "price": 423.36,
+        "qty": 0.094388,
+        "notional": 40.0,
+        "pnl_pct": -0.1,
+        "pnl_eur": -0.04,
+        "pnl_r": -0.02
+      },
+      {
+        "ticker": "GLD",
+        "entry": 424.14,
+        "price": 423.36,
+        "qty": 0.094308,
+        "notional": 40.0,
+        "pnl_pct": -0.18,
+        "pnl_eur": -0.07,
+        "pnl_r": -0.03
+      },
+      {
+        "ticker": "GLD",
+        "entry": 424.14,
+        "price": 423.36,
+        "qty": 0.094308,
+        "notional": 40.0,
+        "pnl_pct": -0.18,
+        "pnl_eur": -0.07,
+        "pnl_r": -0.03
+      },
+      {
+        "ticker": "PLTR",
+        "entry": 179.02,
+        "price": 179.94,
+        "qty": 0.223439,
+        "notional": 40.0,
+        "pnl_pct": 0.51,
+        "pnl_eur": 0.21,
+        "pnl_r": 0.06
+      },
+      {
+        "ticker": "PLTR",
+        "entry": 179.02,
+        "price": 179.94,
+        "qty": 0.223439,
+        "notional": 40.0,
+        "pnl_pct": 0.51,
+        "pnl_eur": 0.21,
+        "pnl_r": 0.06
+      },
+      {
+        "ticker": "DNN",
+        "entry": 3.5,
+        "price": 3.5,
+        "qty": 11.428571,
+        "notional": 40.0,
+        "pnl_pct": 0.0,
+        "pnl_eur": 0.0,
+        "pnl_r": 0.0
+      },
+      {
+        "ticker": "ABCL",
+        "entry": 11.32,
+        "price": 11.32,
+        "qty": 3.533569,
+        "notional": 40.0,
+        "pnl_pct": 0.0,
+        "pnl_eur": 0.0,
+        "pnl_r": 0.0
+      },
+      {
+        "ticker": "COIN",
+        "entry": 186.49,
+        "price": 186.49,
+        "qty": 0.214489,
+        "notional": 40.0,
+        "pnl_pct": 0.0,
+        "pnl_eur": 0.0,
+        "pnl_r": 0.0
+      },
+      {
+        "ticker": "BP",
+        "entry": 44.76,
+        "price": 44.76,
+        "qty": 0.893655,
+        "notional": 40.0,
+        "pnl_pct": 0.0,
+        "pnl_eur": 0.0,
+        "pnl_r": 0.0
+      },
+      {
+        "ticker": "CTSH",
+        "entry": 61.87,
+        "price": 61.87,
+        "qty": 0.646517,
+        "notional": 40.0,
+        "pnl_pct": 0.0,
+        "pnl_eur": 0.0,
+        "pnl_r": 0.0
+      },
+      {
+        "ticker": "FOX",
+        "entry": 61.05,
+        "price": 61.05,
+        "qty": 0.655201,
+        "notional": 40.0,
+        "pnl_pct": 0.0,
+        "pnl_eur": 0.0,
+        "pnl_r": 0.0
+      },
+      {
+        "ticker": "ESLT",
+        "entry": 741.33,
+        "price": 741.33,
+        "qty": 0.053957,
+        "notional": 40.0,
+        "pnl_pct": 0.0,
+        "pnl_eur": 0.0,
+        "pnl_r": 0.0
+      },
+      {
+        "ticker": "EE",
+        "entry": 39.35,
+        "price": 39.35,
+        "qty": 1.016518,
+        "notional": 40.0,
+        "pnl_pct": 0.0,
+        "pnl_eur": 0.0,
+        "pnl_r": 0.0
+      }
+    ],
+    "total_pnl_pct": 0.24,
+    "total_pnl_eur": 1.84
   }
 }
