@@ -1,6 +1,14 @@
 /** @type {import('next').NextConfig} */
+const basePath = (process.env.NEXT_PUBLIC_BASE_PATH || "").replace(/\/$/, "");
+
 const nextConfig = {
-  // Site só lê JSON — sem server actions pesadas
+  output: "export",
+  images: { unoptimized: true },
+  ...(basePath ? { basePath } : {}),
+  trailingSlash: true,
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
 };
 
 module.exports = nextConfig;

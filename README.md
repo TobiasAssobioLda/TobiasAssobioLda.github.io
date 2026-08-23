@@ -1,37 +1,41 @@
-# Trade1 Web (Vercel)
+# Trade1 Web
 
-Site Next.js / TSX — quadro de **opens** Pipoca + Chill.
-Telegram fica para entradas/alertas; isto é só consulta.
+Site Next.js estático — quadro de **opens** Pipoca + Chill.
+Deploy: **GitHub Pages** via Actions (sem Vercel).
+
+URL: https://leifshinigami.github.io/trade1-web/
 
 ## Local
 
 ```bash
 cd web
 npm install
+# opcional: .env.local
+# NEXT_PUBLIC_SITE_PASSWORD=segredo
+# NEXT_PUBLIC_OPENS_URL=https://teu-servidor/opens.json
+# NEXT_PUBLIC_BASE_PATH=   # vazio em localhost
 npm run dev
 ```
 
-Abre http://localhost:3000 — usa `public/opens.sample.json` se não houver URL.
+Para `npm run build` local com Pages path:
+
+```bash
+NEXT_PUBLIC_BASE_PATH=/trade1-web npm run build
+```
+
+## Secrets no GitHub (Settings → Secrets → Actions)
+
+| Secret | Função |
+|--------|--------|
+| `SITE_PASSWORD` | Password à entrada do site |
+| `NEXT_PUBLIC_OPENS_URL` | URL pública do `opens.json` (Kamatera) |
+
+Sem `SITE_PASSWORD` = site sem pass. Sem `OPENS_URL` = sample estático.
+
+## Password
+
+É um ecrã no browser (sessionStorage). Afastas curiosos; **não** é autenticação de servidor. A pass vai no bundle do build — não uses a mesma que emails/bancos.
 
 ## Dados reais
 
-O bot grava `data/web/opens.json` a cada report (30 min) no Kamatera.
-
-1. Serve esse JSON por HTTP (nginx no VPS, ou path público).
-2. Na Vercel → Environment Variables:
-
-```
-NEXT_PUBLIC_OPENS_URL=https://TEU-DOMINIO-OU-IP/opens.json
-```
-
-Sem essa var = sample estático (demo).
-
-## Deploy Vercel
-
-1. Repo GitHub só com esta pasta **ou** monorepo com Root Directory = `web`
-2. Import project na Vercel → Framework: Next.js
-3. Deploy. Depois: mudanças de UI = `git push` (auto). Opens = o bot actualiza o JSON (sem redeploy).
-
-## Não vai para o Kamatera
-
-`scripts/deploy.sh` exclui `web/node_modules` e o site em si não precisa no VPS — só o JSON em `data/web/`.
+O bot grava `data/web/opens.json` no Kamatera. Serve por HTTP e mete essa URL em `NEXT_PUBLIC_OPENS_URL`.
