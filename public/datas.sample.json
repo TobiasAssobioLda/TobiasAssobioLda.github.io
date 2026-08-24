@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T21:30:00+01:00",
+  "updated_at": "2026-08-24T22:00:00+01:00",
   "timezone": "Europe/Lisbon",
   "opens_count": 1,
   "calendar_count": 2,
@@ -8,23 +8,18 @@
       "rank": 1,
       "event_date": "2026-08-26",
       "date_label": "26/08",
-      "title": "Nvidia earnings — posição TSM",
+      "title": "Nvidia earnings",
       "horse": "Chips",
       "tickers": "TSM",
       "ticker_up": "TSM",
       "ticker_down": "",
       "ticker_open": "TSM",
-      "book": "pipoca",
       "action": "open",
       "status": "open",
       "score": 72,
-      "price": 185.2,
       "sl": 172.5,
       "tp1": 210.6,
-      "tp2": 225.0,
-      "url": "",
-      "source": "position",
-      "note": "pipoca"
+      "source": "position"
     }
   ],
   "calendar_rows": [
@@ -40,13 +35,9 @@
       "action": "alerta",
       "status": "candidate",
       "score": 62,
-      "price": 208.49,
-      "sl": 195.2,
-      "tp1": 234.8,
-      "tp2": 250.1,
+      "range": "178.20-186.40",
       "url": "https://www.fool.com/investing/2026/08/24/nvidia-reports-earnings-on-aug-26-here-are-3-other/",
-      "source": "spam",
-      "note": "dated"
+      "source": "spam"
     },
     {
       "rank": 2,
@@ -60,13 +51,8 @@
       "action": "alerta",
       "status": "confirmed",
       "score": 70,
-      "price": 52.1,
-      "sl": 50.4,
-      "tp1": 55.5,
-      "tp2": 57.2,
-      "url": "",
-      "source": "calendar",
-      "note": "macro-event"
+      "range": "",
+      "source": "calendar"
     }
   ]
 }

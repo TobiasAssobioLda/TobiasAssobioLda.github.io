@@ -12,6 +12,7 @@ export type DatasRow = {
   action: string;
   status: string;
   score: number;
+  range?: string;
   price?: number | null;
   sl?: number | null;
   tp1?: number | null;

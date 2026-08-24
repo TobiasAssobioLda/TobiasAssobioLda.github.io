@@ -5,10 +5,10 @@ function fmtPx(n?: number | null): string {
   return n.toFixed(2);
 }
 
-function DatasTable({ title, rows }: { title: string; rows: DatasRow[] }) {
+function OpenTable({ rows }: { rows: DatasRow[] }) {
   return (
     <section className="book">
-      <h2>{title}</h2>
+      <h2>Open</h2>
       {!rows.length ? (
         <p className="empty">—</p>
       ) : (
@@ -27,7 +27,48 @@ function DatasTable({ title, rows }: { title: string; rows: DatasRow[] }) {
             <tbody>
               {rows.map((r) => (
                 <tr
-                  key={`${title}-${r.rank}-${r.event_date}-${r.ticker_open || r.ticker_up}-${r.title.slice(0, 20)}`}
+                  key={`open-${r.rank}-${r.event_date}-${r.ticker_open || r.ticker_up}`}
+                >
+                  <td>{r.rank}</td>
+                  <td>{r.date_label || r.event_date || "—"}</td>
+                  <td className="cell-title">{r.title}</td>
+                  <td className="ticker">
+                    {r.ticker_open || r.tickers || r.ticker_up || "—"}
+                  </td>
+                  <td>{fmtPx(r.sl)}</td>
+                  <td className="pos">{fmtPx(r.tp1)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+    </section>
+  );
+}
+
+function AgendaTable({ rows }: { rows: DatasRow[] }) {
+  return (
+    <section className="book">
+      <h2>Agenda</h2>
+      {!rows.length ? (
+        <p className="empty">—</p>
+      ) : (
+        <div className="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Data</th>
+                <th>Evento</th>
+                <th>Activo</th>
+                <th>Range</th>
+              </tr>
+            </thead>
+            <tbody>
+              {rows.map((r) => (
+                <tr
+                  key={`agenda-${r.rank}-${r.event_date}-${r.title.slice(0, 20)}`}
                 >
                   <td>{r.rank}</td>
                   <td>{r.date_label || r.event_date || "—"}</td>
@@ -40,11 +81,8 @@ function DatasTable({ title, rows }: { title: string; rows: DatasRow[] }) {
                       r.title
                     )}
                   </td>
-                  <td className="ticker">
-                    {r.ticker_open || r.tickers || r.ticker_up || "—"}
-                  </td>
-                  <td>{fmtPx(r.sl)}</td>
-                  <td className="pos">{fmtPx(r.tp1)}</td>
+                  <td className="ticker">{r.tickers || r.ticker_up || "—"}</td>
+                  <td>{r.range?.trim() || "—"}</td>
                 </tr>
               ))}
             </tbody>
@@ -68,8 +106,8 @@ export function DatasDashboard({ data }: { data: DatasPayload }) {
         <p className="meta">open + agenda</p>
       </header>
 
-      <DatasTable title="Open" rows={opens} />
-      <DatasTable title="Agenda" rows={calendar} />
+      <OpenTable rows={opens} />
+      <AgendaTable rows={calendar} />
     </main>
   );
 }
