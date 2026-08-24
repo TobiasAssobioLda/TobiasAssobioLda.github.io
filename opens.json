@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-24T07:04:15+01:00",
+  "updated_at": "2026-08-24T07:33:53+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "07:04",
+  "when_label": "07:33",
   "pipoca": {
     "rows": [
       {
@@ -44,7 +44,9 @@
       }
     ],
     "total_pnl_pct": 2.26,
-    "total_pnl_eur": 9.03
+    "total_pnl_eur": 9.03,
+    "bank_eur": 2000.0,
+    "equity_eur": 2009.03
   },
   "chill": {
     "rows": [
