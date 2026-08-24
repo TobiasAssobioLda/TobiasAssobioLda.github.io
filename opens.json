@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-08-25T00:10:39+01:00",
+  "updated_at": "2026-08-25T00:11:56+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "00:10",
+  "when_label": "00:11",
   "pipoca": {
     "rows": [
       {
         "ticker": "ONDS",
         "entry": 8.35,
-        "price": 8.225,
+        "price": 8.222,
         "qty": 23.866348,
         "notional": 199.284,
-        "pnl_pct": -1.497,
-        "pnl_eur": -2.983294,
-        "pnl_r": -0.4,
+        "pnl_pct": -1.533,
+        "pnl_eur": -3.054893,
+        "pnl_r": -0.41,
         "sl": 8.04,
         "tp1": 9.8,
         "tp2": 10.38,
@@ -24,10 +24,10 @@
         "opened_at": "2026-08-21T03:18:23.309684+00:00"
       }
     ],
-    "total_pnl_pct": -1.4970062374197755,
-    "total_pnl_eur": -2.983294,
+    "total_pnl_pct": -1.5329343590172508,
+    "total_pnl_eur": -3.054893,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.02
+    "equity_eur": 1996.95
   },
   "chill": {
     "rows": [
@@ -152,7 +152,7 @@
   "possible": {
     "rows": [],
     "day": "2026-08-25",
-    "retry_min": 120,
-    "max_tries": 3
+    "retry_min": 15,
+    "max_tries": 6
   }
 }
