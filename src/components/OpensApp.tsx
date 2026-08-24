@@ -13,6 +13,7 @@ import { PopularDashboard } from "./PopularDashboard";
 import { fetchPaper } from "@/lib/paper";
 import { fetchDatas } from "@/lib/datas";
 import { fetchPopular } from "@/lib/popular";
+import { fetchOpens } from "@/lib/opens";
 
 const emptyOpens: OpensPayload = {
   updated_at: "",
@@ -61,16 +62,8 @@ const emptyPopular: PopularPayload = {
   top6_20: [],
 };
 
-function opensTarget(): string {
-  const remote = (process.env.NEXT_PUBLIC_OPENS_URL || "").trim();
-  const base = remote || "/opens.sample.json";
-  const build = (process.env.NEXT_PUBLIC_BUILD_ID || "dev").slice(0, 7);
-  const sep = base.includes("?") ? "&" : "?";
-  return `${base}${sep}v=${encodeURIComponent(build)}&t=${Date.now()}`;
-}
-
 /** Poll leve — não martela free tier / servidor. */
-const OPENS_POLL_MS = 5 * 60_000;
+const OPENS_POLL_MS = 2 * 60_000;
 
 type Tab = "opens" | "datas" | "popular" | "nop-chill" | "nop-pipoca" | "paper";
 
@@ -83,9 +76,7 @@ export function OpensApp() {
 
   const loadOpens = useCallback(async () => {
     try {
-      const res = await fetch(opensTarget(), { cache: "no-store" });
-      if (!res.ok) throw new Error(String(res.status));
-      setOpens((await res.json()) as OpensPayload);
+      setOpens(await fetchOpens());
     } catch {
       setOpens(emptyOpens);
     }
