@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-24T13:50:50+01:00",
+  "updated_at": "2026-08-24T14:20:47+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "13:50",
+  "when_label": "14:20",
   "pipoca": {
     "rows": [
       {
@@ -448,6 +448,25 @@
         "news_blurb": "Irão: pending cluster",
         "news_impact": 74,
         "opened_at": "2026-08-24T09:36:41.145495+00:00"
+      },
+      {
+        "ticker": "KSPI",
+        "entry": 105.49,
+        "price": 105.49,
+        "qty": 0.189591,
+        "notional": 20.0,
+        "pnl_pct": 0.0,
+        "pnl_eur": 0.0,
+        "pnl_r": 0.0,
+        "sl": 96.19,
+        "tp1": 124.09,
+        "tp2": 133.39,
+        "horse": "Rússia",
+        "news_hook": "Rússia × líderes europeus celebram na Ucrânia",
+        "news_what": "Líderes europeus acompanham Zelenskyy na celebração de 24 de abril na Ucrânia, invasão russa persiste",
+        "news_blurb": "🎤 Rússia × líderes europeus celebram na Ucrânia",
+        "news_impact": 85,
+        "opened_at": "2026-08-24T13:10:47.396233+00:00"
       }
     ],
     "total_pnl_pct": 0.22,
