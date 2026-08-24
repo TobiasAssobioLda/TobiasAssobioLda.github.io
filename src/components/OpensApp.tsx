@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import type { OpensPayload } from "@/lib/types";
+import { AppShell } from "./IntroSplash";
 import { OpensDashboard } from "./OpensDashboard";
 import { SiteGate } from "./SiteGate";
 
@@ -16,7 +17,6 @@ const empty: OpensPayload = {
 function opensTarget(): string {
   const remote = (process.env.NEXT_PUBLIC_OPENS_URL || "").trim();
   if (remote) return remote;
-  // JSON vivo no GitHub (actualizado pelo bot) — sem redeploy do site
   return "https://raw.githubusercontent.com/TobiasAssobioLda/TobiasAssobioLda.github.io/main/opens.json";
 }
 
@@ -46,13 +46,15 @@ export function OpensApp() {
   }, []);
 
   return (
-    <SiteGate>
-      <OpensDashboard
-        whenLabel={data.when_label}
-        updatedAt={data.updated_at}
-        pipoca={data.pipoca}
-        chill={data.chill}
-      />
-    </SiteGate>
+    <AppShell>
+      <SiteGate>
+        <OpensDashboard
+          whenLabel={data.when_label}
+          updatedAt={data.updated_at}
+          pipoca={data.pipoca}
+          chill={data.chill}
+        />
+      </SiteGate>
+    </AppShell>
   );
 }

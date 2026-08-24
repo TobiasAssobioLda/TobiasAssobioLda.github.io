@@ -3,7 +3,6 @@
 import { FormEvent, ReactNode, useEffect, useState } from "react";
 
 const COVER_SRC = "/capa/cover.png";
-const SPLASH_MS = 5000;
 
 function expectedPassword(): string {
   return (process.env.NEXT_PUBLIC_SITE_PASSWORD || "").trim();
@@ -52,8 +51,6 @@ function CoverImage({ className }: { className: string }) {
 
 export function SiteGate({ children }: { children: ReactNode }) {
   const password = expectedPassword();
-  const [splashDone, setSplashDone] = useState(false);
-  const [splashLeaving, setSplashLeaving] = useState(false);
   const [unlocked, setUnlocked] = useState(() => !password || isStoredUnlock());
   const [value, setValue] = useState("");
   const [error, setError] = useState(false);
@@ -64,14 +61,9 @@ export function SiteGate({ children }: { children: ReactNode }) {
     }
   }, [password]);
 
-  useEffect(() => {
-    const fadeTimer = window.setTimeout(() => setSplashLeaving(true), SPLASH_MS - 400);
-    const doneTimer = window.setTimeout(() => setSplashDone(true), SPLASH_MS);
-    return () => {
-      window.clearTimeout(fadeTimer);
-      window.clearTimeout(doneTimer);
-    };
-  }, []);
+  if (unlocked) {
+    return <>{children}</>;
+  }
 
   function onSubmit(e: FormEvent) {
     e.preventDefault();
@@ -82,23 +74,6 @@ export function SiteGate({ children }: { children: ReactNode }) {
       return;
     }
     setError(true);
-  }
-
-  if (!splashDone) {
-    return (
-      <main
-        className={
-          splashLeaving ? "splash-screen splash-screen--out" : "splash-screen"
-        }
-        aria-hidden="true"
-      >
-        <CoverImage className="splash-cover" />
-      </main>
-    );
-  }
-
-  if (unlocked) {
-    return <>{children}</>;
   }
 
   return (

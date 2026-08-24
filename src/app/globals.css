@@ -24,6 +24,10 @@ body {
   font-family: var(--font);
 }
 
+body.splash-open {
+  overflow: hidden;
+}
+
 .page {
   max-width: 720px;
   margin: 0 auto;
@@ -144,7 +148,7 @@ footer {
 .splash-screen {
   position: fixed;
   inset: 0;
-  z-index: 1000;
+  z-index: 99999;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,7 +161,7 @@ footer {
     radial-gradient(600px 500px at 100% 100%, rgba(255, 40, 140, 0.12), transparent 50%),
     #07040f;
   opacity: 1;
-  transition: opacity 0.4s ease;
+  transition: opacity 0.45s ease;
 }
 
 .splash-screen--out {
@@ -175,6 +179,16 @@ footer {
   box-shadow:
     0 24px 80px rgba(0, 0, 0, 0.55),
     0 0 48px rgba(170, 60, 255, 0.18);
+  opacity: 0;
+  transform: scale(0.98);
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease;
+}
+
+.splash-cover--ready {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .gate-screen {
