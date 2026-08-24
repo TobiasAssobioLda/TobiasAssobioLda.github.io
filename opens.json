@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-24T10:10:36+01:00",
+  "updated_at": "2026-08-24T10:46:43+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "10:10",
+  "when_label": "10:46",
   "pipoca": {
     "rows": [
       {
@@ -429,9 +429,28 @@
         "news_blurb": "🎤 Rússia × nova vaga de recrutamento no horizonte",
         "news_impact": 0,
         "opened_at": "2026-08-23T19:38:43.553853+00:00"
+      },
+      {
+        "ticker": "FRO",
+        "entry": 43.67,
+        "price": 43.67,
+        "qty": 0.45798,
+        "notional": 20.0,
+        "pnl_pct": 0.0,
+        "pnl_eur": 0.0,
+        "pnl_r": 0.0,
+        "sl": 41.3,
+        "tp1": 48.41,
+        "tp2": 50.78,
+        "horse": "Irão",
+        "news_hook": "",
+        "news_what": "",
+        "news_blurb": "Irão: pending cluster",
+        "news_impact": 74,
+        "opened_at": "2026-08-24T09:36:41.145495+00:00"
       }
     ],
-    "total_pnl_pct": 0.23,
+    "total_pnl_pct": 0.22,
     "total_pnl_eur": 1.81
   }
 }
