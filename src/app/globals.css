@@ -14,7 +14,9 @@
   --paper-muted: #5a564e;
   --paper-rule: #2c2c2c;
   --paper-accent: #8b1e1e;
-  --paper-header: #f0d84a;
+  --paper-capa: #f0d84a;
+  --paper-zebra-a: #efeae0;
+  --paper-zebra-b: #d9e3ea;
   --serif: "Libre Baskerville", "Georgia", serif;
   --display: "Playfair Display", "Georgia", serif;
 }
@@ -294,7 +296,7 @@ footer {
 .paper-masthead {
   text-align: center;
   padding: 0.85rem 1.4rem 0.7rem;
-  background: var(--paper-header);
+  background: var(--paper-bg);
 }
 
 .paper-masthead--fixed {
@@ -306,7 +308,7 @@ footer {
 }
 
 .paper-body {
-  padding: 1.1rem 1.4rem 0;
+  padding: 0;
 }
 
 .paper-eyebrow {
@@ -373,6 +375,44 @@ footer {
 
 .paper-block {
   margin: 0;
+  padding: 1.15rem 1.4rem 1.25rem;
+}
+
+.paper-block--a {
+  background: var(--paper-zebra-a);
+}
+
+.paper-block--b {
+  background: var(--paper-zebra-b);
+}
+
+.paper-block--capa {
+  background: var(--paper-zebra-a);
+}
+
+.paper-capa {
+  margin: 0 0 0.85rem;
+  padding: 0.85rem 1rem;
+  background: var(--paper-capa);
+  border: 2px solid var(--paper-rule);
+  box-shadow: 3px 3px 0 var(--paper-rule);
+}
+
+.paper-capa-label {
+  margin: 0 0 0.35rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.paper-capa-title {
+  margin: 0;
+  font-family: var(--display);
+  font-size: clamp(1.35rem, 4.2vw, 1.85rem);
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--paper-ink);
 }
 
 .paper-date {
@@ -388,7 +428,7 @@ footer {
   font-family: var(--serif);
   font-style: italic;
   color: var(--paper-muted);
-  padding: 2rem 0;
+  padding: 2rem 1.4rem;
 }
 
 .paper-story {
@@ -429,8 +469,10 @@ footer {
 }
 
 .paper-archive-wrap {
-  margin-top: 2rem;
+  margin-top: 0;
+  padding: 1.5rem 1.4rem 0.5rem;
   text-align: center;
+  background: var(--paper-bg);
 }
 
 .paper-archive-toggle {

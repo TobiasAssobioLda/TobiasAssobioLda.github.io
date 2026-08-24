@@ -37,7 +37,7 @@ function impactBand(n: number): string {
 }
 
 /** Chapado = card Telegram (emojis + linhas), sem moldura. */
-function Story({ item }: { item: PaperItem }) {
+function Story({ item, capa }: { item: PaperItem; capa?: boolean }) {
   const href = item.read_url || item.url;
   const horse = item.horse || "Mundo";
   const horseEm = item.horse_emoji || HORSE_EMOJI[horse] || "📌";
@@ -54,7 +54,13 @@ function Story({ item }: { item: PaperItem }) {
   const band = item.impact_band || impactBand(impact);
 
   return (
-    <article className="paper-story">
+    <article className={capa ? "paper-story paper-story--capa" : "paper-story"}>
+      {capa && hook ? (
+        <div className="paper-capa">
+          <p className="paper-capa-label">💥 capa do dia</p>
+          <p className="paper-capa-title">{hook}</p>
+        </div>
+      ) : null}
       <p className="tg-line">
         {badge} <strong>{kind}</strong> · {horseEm} {horse}
       </p>
@@ -68,7 +74,7 @@ function Story({ item }: { item: PaperItem }) {
           </a>
         </p>
       ) : null}
-      {hook ? (
+      {!capa && hook ? (
         <p className="tg-line tg-hook">
           🎤 <strong>{hook}</strong>
         </p>
@@ -141,9 +147,17 @@ export function PaperDashboard({
         ) : (
           <div className="paper-stack">
             {ordered.map((it, i) => (
-              <div key={it.uid} className="paper-block">
-                {i > 0 ? <div className="paper-rule thick" aria-hidden /> : null}
-                <Story item={it} />
+              <div
+                key={it.uid}
+                className={
+                  i === 0
+                    ? "paper-block paper-block--capa"
+                    : i % 2 === 1
+                      ? "paper-block paper-block--b"
+                      : "paper-block paper-block--a"
+                }
+              >
+                <Story item={it} capa={i === 0} />
               </div>
             ))}
           </div>
