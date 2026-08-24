@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-08-24T23:22:55+01:00",
+  "updated_at": "2026-08-25T00:10:39+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "23:22",
+  "when_label": "00:10",
   "pipoca": {
     "rows": [
       {
         "ticker": "ONDS",
         "entry": 8.35,
-        "price": 8.24,
+        "price": 8.225,
         "qty": 23.866348,
         "notional": 199.284,
-        "pnl_pct": -1.317,
-        "pnl_eur": -2.625298,
-        "pnl_r": -0.35,
+        "pnl_pct": -1.497,
+        "pnl_eur": -2.983294,
+        "pnl_r": -0.4,
         "sl": 8.04,
         "tp1": 9.8,
         "tp2": 10.38,
@@ -24,22 +24,22 @@
         "opened_at": "2026-08-21T03:18:23.309684+00:00"
       }
     ],
-    "total_pnl_pct": -1.3173651276359828,
-    "total_pnl_eur": -2.625298,
+    "total_pnl_pct": -1.4970062374197755,
+    "total_pnl_eur": -2.983294,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.37
+    "equity_eur": 1997.02
   },
   "chill": {
     "rows": [
       {
         "ticker": "ARM",
         "entry": 235.898,
-        "price": 238.4,
+        "price": 238.0,
         "qty": 0.084846,
         "notional": 20.015,
-        "pnl_pct": 1.061,
-        "pnl_eur": 0.212284,
-        "pnl_r": 0.1,
+        "pnl_pct": 0.8909999999999999,
+        "pnl_eur": 0.178346,
+        "pnl_r": 0.09,
         "sl": 211.9,
         "tp1": 283.36,
         "tp2": 307.18,
@@ -53,12 +53,12 @@
       {
         "ticker": "FLO",
         "entry": 7.14,
-        "price": 7.27,
+        "price": 7.28,
         "qty": 2.80112,
         "notional": 20.0,
-        "pnl_pct": 1.821,
-        "pnl_eur": 0.364145,
-        "pnl_r": 0.31,
+        "pnl_pct": 1.9609999999999999,
+        "pnl_eur": 0.392157,
+        "pnl_r": 0.33,
         "sl": 6.72,
         "tp1": 7.98,
         "tp2": 8.4,
@@ -91,12 +91,12 @@
       {
         "ticker": "FRO",
         "entry": 43.32,
-        "price": 44.04,
+        "price": 44.09,
         "qty": 0.45798,
         "notional": 19.8397,
-        "pnl_pct": 1.662,
-        "pnl_eur": 0.329745,
-        "pnl_r": 0.36,
+        "pnl_pct": 1.7770000000000001,
+        "pnl_eur": 0.352644,
+        "pnl_r": 0.38,
         "sl": 41.3,
         "tp1": 48.41,
         "tp2": 50.78,
@@ -129,12 +129,12 @@
       {
         "ticker": "TSM",
         "entry": 413.3079,
-        "price": 410.04,
+        "price": 409.75,
         "qty": 0.433448,
         "notional": 179.1475,
-        "pnl_pct": -0.791,
-        "pnl_eur": -1.416485,
-        "pnl_r": -0.16,
+        "pnl_pct": -0.861,
+        "pnl_eur": -1.542185,
+        "pnl_r": -0.18,
         "sl": 393.17,
         "tp1": 442.32,
         "tp2": 458.71,
@@ -146,7 +146,13 @@
         "opened_at": "2026-08-24T15:44:27.295174+00:00"
       }
     ],
-    "total_pnl_pct": -0.09106021058492432,
-    "total_pnl_eur": -0.25414000000000003
+    "total_pnl_pct": -0.13001788555252897,
+    "total_pnl_eur": -0.36286699999999983
+  },
+  "possible": {
+    "rows": [],
+    "day": "2026-08-25",
+    "retry_min": 120,
+    "max_tries": 3
   }
 }
