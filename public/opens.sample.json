@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-22T16:15:00+01:00",
+  "updated_at": "2026-08-24T12:00:00+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "sample",
+  "when_label": "12:00",
   "pipoca": {
     "rows": [
       {
@@ -12,36 +12,44 @@
         "notional": 200.0,
         "pnl_pct": 0.7,
         "pnl_eur": 1.42,
-        "pnl_r": 0.3
-      },
-      {
-        "ticker": "ONDS",
-        "entry": 8.38,
-        "price": 8.71,
-        "qty": 23.87,
-        "notional": 200.0,
-        "pnl_pct": 3.9,
-        "pnl_eur": 7.88,
-        "pnl_r": 1.1
+        "pnl_r": 0.3,
+        "sl": 408.0,
+        "tp1": 428.0,
+        "tp2": 436.0,
+        "horse": "Chips",
+        "news_hook": "Chips × China a subsidiar silício",
+        "news_what": "Pequim alarga apoios a semicondutores domésticos.",
+        "news_blurb": "🎤 Chips × China a subsidiar silício",
+        "news_impact": 78,
+        "opened_at": "2026-08-24T09:15:00+00:00"
       }
     ],
-    "total_pnl_pct": 2.3,
-    "total_pnl_eur": 9.29
+    "total_pnl_pct": 0.71,
+    "total_pnl_eur": 1.42
   },
   "chill": {
     "rows": [
       {
-        "ticker": "PLTR",
-        "entry": 180.0,
-        "price": 181.2,
-        "qty": 0.22,
+        "ticker": "ONDS",
+        "entry": 8.4,
+        "price": 8.71,
+        "qty": 4.76,
         "notional": 40.0,
-        "pnl_pct": 0.7,
-        "pnl_eur": 0.26,
-        "pnl_r": 0.2
+        "pnl_pct": 3.69,
+        "pnl_eur": 1.48,
+        "pnl_r": 0.9,
+        "sl": 7.9,
+        "tp1": 9.2,
+        "tp2": 9.6,
+        "horse": "Chips",
+        "news_hook": "Chips × o Wi‑Fi da guerra",
+        "news_what": "EUA avaliam pacote Starlink para uso militar contínuo.",
+        "news_blurb": "🎤 Chips × o Wi‑Fi da guerra",
+        "news_impact": 74,
+        "opened_at": "2026-08-24T08:02:00+00:00"
       }
     ],
-    "total_pnl_pct": 0.7,
-    "total_pnl_eur": 0.26
+    "total_pnl_pct": 3.69,
+    "total_pnl_eur": 1.48
   }
 }

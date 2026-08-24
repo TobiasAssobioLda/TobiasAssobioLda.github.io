@@ -97,7 +97,7 @@ export function OpensDashboard({
       <OpenTable title="Pipoca" book={pipoca} />
       <OpenTable title="Chill" book={chill} />
       <footer>
-        Telegram continua para entradas/alertas. Isto é só o quadro.
+        Actualiza ~30 min no bot · site refresca a cada 5 min. Telegram = entrada + SL/TP.
       </footer>
     </main>
   );

@@ -1,0 +1,29 @@
+{
+  "updated_at": "2026-08-24T03:00:00+01:00",
+  "timezone": "Europe/Lisbon",
+  "count": 2,
+  "items": [
+    {
+      "uid": "sample1",
+      "title": "Trump impõe tarifas de 50% sobre bens canadenses",
+      "url": "",
+      "source": "wesh.com",
+      "horse": "Trump",
+      "sent_at": "2026-08-24T02:31:00+01:00",
+      "impact": 70,
+      "when_label": "24/08 · 02:31",
+      "read_url": "https://www.google.com/search?q=Trump+tarifas+50%25+Canada"
+    },
+    {
+      "uid": "sample2",
+      "title": "Fed officials signal cautious approach on rates",
+      "url": "https://example.com/fed-story",
+      "source": "reuters",
+      "horse": "Fed",
+      "sent_at": "2026-08-24T01:15:00+01:00",
+      "impact": 82,
+      "when_label": "24/08 · 01:15",
+      "read_url": "https://example.com/fed-story"
+    }
+  ]
+}

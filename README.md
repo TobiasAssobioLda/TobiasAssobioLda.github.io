@@ -38,4 +38,22 @@ Sem `SITE_PASSWORD` = site sem pass. Sem `OPENS_URL` = sample estático.
 
 ## Dados reais
 
-O bot grava `data/web/opens.json` no Kamatera. Serve por HTTP e mete essa URL em `NEXT_PUBLIC_OPENS_URL`.
+O bot grava em `data/web/`:
+
+| Ficheiro | Conteúdo | Frequência |
+|----------|----------|------------|
+| `opens.json` | Pipoca + Chill (preço, P/L, notícia da entrada) | ~30 min |
+| `paper.json` | Jornal do dia (Rumors até 13:55) | **14:00** |
+| `paper/paper_YYYY-MM-DD.json` | Arquivo | 14:00 |
+
+Env no site:
+
+```
+NEXT_PUBLIC_OPENS_URL=…/opens.json
+NEXT_PUBLIC_PAPER_URL=…/paper.json
+```
+
+Abas: **Opens** · **NOP Chill** · **NOP Pipoca** · **Jornal**.
+
+Telegram: entradas + SL/TP. Tabela de opens no Telegram = off (`OPENS_TELEGRAM_TABLE=0`).
+Poll do browser: **5 min** (não tempo real).

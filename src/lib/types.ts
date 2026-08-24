@@ -9,6 +9,15 @@ export type OpenRow = {
   pnl_pct: number;
   pnl_eur: number;
   pnl_r: number;
+  sl?: number;
+  tp1?: number;
+  tp2?: number;
+  horse?: string;
+  news_hook?: string;
+  news_what?: string;
+  news_blurb?: string;
+  news_impact?: number;
+  opened_at?: string;
 };
 
 export type BookSnapshot = {

@@ -1,0 +1,52 @@
+{
+  "day": "2026-08-24",
+  "published_at": "2026-08-24T14:00:00+01:00",
+  "timezone": "Europe/Lisbon",
+  "cutoff": "13:55",
+  "count": 3,
+  "masthead": "O Rumors",
+  "tagline": "geopolítica & mercados · sem o ruído",
+  "lead_uid": "sample-1",
+  "items": [
+    {
+      "uid": "sample-1",
+      "title": "Fed Chair Powell says rate cuts may come later this year",
+      "url": "https://example.com/fed",
+      "source": "reuters.com",
+      "horse": "Fed",
+      "sent_at": "2026-08-24T10:00:00+00:00",
+      "impact": 82,
+      "hook": "Fed × juro a atrasar o corte",
+      "what": "Powell sugere cortes só se a inflação continuar a arrefecer.",
+      "when_label": "24/08 · 11:00",
+      "read_url": "https://example.com/fed"
+    },
+    {
+      "uid": "sample-2",
+      "title": "China chip subsidies expand",
+      "url": "https://example.com/china",
+      "source": "bloomberg.com",
+      "horse": "China",
+      "sent_at": "2026-08-24T09:00:00+00:00",
+      "impact": 78,
+      "hook": "China × silício com cheque do Estado",
+      "what": "Pequim alarga apoios a semicondutores domésticos.",
+      "when_label": "24/08 · 10:00",
+      "read_url": "https://example.com/china"
+    },
+    {
+      "uid": "sample-3",
+      "title": "Oil climbs on OPEC talk",
+      "url": "https://example.com/oil",
+      "source": "ft.com",
+      "horse": "Petróleo",
+      "sent_at": "2026-08-24T08:00:00+00:00",
+      "impact": 71,
+      "hook": "Petróleo × OPEC a limpar a garganta",
+      "what": "Mercado reage a rumores de cortes de oferta.",
+      "when_label": "24/08 · 09:00",
+      "read_url": "https://example.com/oil"
+    }
+  ],
+  "archive_days": ["2026-08-24"]
+}
