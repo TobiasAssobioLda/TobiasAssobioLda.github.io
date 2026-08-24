@@ -66,6 +66,7 @@ const emptyPopular: PopularPayload = {
 
 /** Poll leve — não martela free tier / servidor. */
 const OPENS_POLL_MS = 2 * 60_000;
+const PAPER_POLL_MS = 3 * 60_000;
 
 type Tab =
   | "opens"
@@ -126,7 +127,13 @@ export function OpensApp() {
       loadDatas();
       loadPopular();
     }, OPENS_POLL_MS);
-    return () => window.clearInterval(id);
+    const paperId = window.setInterval(() => {
+      loadPaper();
+    }, PAPER_POLL_MS);
+    return () => {
+      window.clearInterval(id);
+      window.clearInterval(paperId);
+    };
   }, [loadOpens, loadPaper, loadDatas, loadPopular]);
 
   useEffect(() => {

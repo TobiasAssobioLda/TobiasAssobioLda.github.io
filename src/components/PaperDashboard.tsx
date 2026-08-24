@@ -97,9 +97,9 @@ function Story({ item, capa }: { item: PaperItem; capa?: boolean }) {
 }
 
 function editionVol(day: string): string {
-  if (!day || day.length < 10) return "edição da tarde";
+  if (!day || day.length < 10) return "edição do dia";
   const [y, m, d] = day.split("-").map(Number);
-  if (!y || !m || !d) return "edição da tarde";
+  if (!y || !m || !d) return "edição do dia";
   const n = m * 31 + d;
   return `Vol. ${y - 2025} · Nº ${n} · Viseu`;
 }
@@ -116,8 +116,9 @@ export function PaperDashboard({
   const ordered = useMemo(() => {
     const items = [...(paper.items || [])];
     items.sort((a, b) => (b.impact || 0) - (a.impact || 0));
-    return items;
-  }, [paper.items]);
+    const cap = Math.max(1, paper.max_items || 20);
+    return items.slice(0, cap);
+  }, [paper.items, paper.max_items]);
 
   const dayLabel = paper.day
     ? new Date(`${paper.day}T12:00:00`).toLocaleDateString("pt-PT", {
@@ -139,11 +140,22 @@ export function PaperDashboard({
         </p>
         <div className="paper-rule double" />
         <p className="paper-date">{dayLabel}</p>
+        <p className="paper-tag" style={{ marginTop: "0.35rem", fontSize: "0.78rem" }}>
+          top {ordered.length}
+          {paper.max_items ? `/${paper.max_items}` : ""} · ranking impacto ·
+          reinicia à meia-noite
+          {paper.published_at
+            ? ` · upd ${paper.published_at.slice(11, 16)}`
+            : ""}
+        </p>
       </header>
 
       <div className="paper-body">
         {ordered.length === 0 ? (
-          <p className="paper-empty">Ainda sem edição de hoje.</p>
+          <p className="paper-empty">
+            Ainda sem notícias de hoje — o ranking enche com o spam do dia
+            (máx. 20 · meia-noite limpa).
+          </p>
         ) : (
           <div className="paper-stack">
             {ordered.map((it, i) => (

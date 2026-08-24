@@ -71,8 +71,8 @@ export function PossibleDashboard({
                     <td>
                       {r.tries}/{r.max_tries || maxT}
                     </td>
-                    <td>{fmtWhen(r.next_check)}</td>
-                    <td className="cell-title">{shortReason(r.reason)}</td>
+                    <td>{fmtWhen(r.next_check || "")}</td>
+                    <td className="cell-title">{shortReason(r.reason || "")}</td>
                   </tr>
                 ))}
               </tbody>

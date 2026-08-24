@@ -24,6 +24,8 @@ export type PaperPayload = {
   published_at: string;
   timezone: string;
   cutoff: string;
+  window?: string;
+  max_items?: number;
   count: number;
   masthead: string;
   tagline: string;

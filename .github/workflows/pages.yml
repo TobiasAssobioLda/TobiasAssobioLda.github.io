@@ -3,6 +3,13 @@ name: Deploy GitHub Pages
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - "opens.json"
+      - "paper.json"
+      - "paper/**"
+      - "datas.json"
+      - "popular.json"
+      - "news.json"
   workflow_dispatch:
 
 permissions:
