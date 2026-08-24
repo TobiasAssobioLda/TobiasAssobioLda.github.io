@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-08-24T22:32:55+01:00",
+  "updated_at": "2026-08-24T22:38:59+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 556,
+  "n_events": 562,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
     {
       "rank": 1,
       "ticker": "GLD",
-      "total": 196,
+      "total": 197,
       "as_up": 27,
-      "as_down": 169,
-      "last_horse": "Musk"
+      "as_down": 170,
+      "last_horse": "Saúde"
     },
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 104,
-      "as_up": 92,
+      "total": 105,
+      "as_up": 93,
       "as_down": 12,
-      "last_horse": "Petróleo"
+      "last_horse": "Irão"
     },
     {
       "rank": 3,
@@ -59,10 +59,10 @@
     {
       "rank": 7,
       "ticker": "KO",
-      "total": 60,
+      "total": 62,
       "as_up": 0,
-      "as_down": 60,
-      "last_horse": "Chips"
+      "as_down": 62,
+      "last_horse": "Drones"
     },
     {
       "rank": 8,
@@ -75,9 +75,9 @@
     {
       "rank": 9,
       "ticker": "UAL",
-      "total": 42,
+      "total": 43,
       "as_up": 0,
-      "as_down": 42,
+      "as_down": 43,
       "last_horse": "Irão"
     },
     {
@@ -91,8 +91,8 @@
     {
       "rank": 11,
       "ticker": "FOXA",
-      "total": 38,
-      "as_up": 38,
+      "total": 39,
+      "as_up": 39,
       "as_down": 0,
       "last_horse": "Trump"
     },
@@ -174,18 +174,18 @@
     {
       "rank": 1,
       "ticker": "GLD",
-      "total": 196,
+      "total": 197,
       "as_up": 27,
-      "as_down": 169,
-      "last_horse": "Musk"
+      "as_down": 170,
+      "last_horse": "Saúde"
     },
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 104,
-      "as_up": 92,
+      "total": 105,
+      "as_up": 93,
       "as_down": 12,
-      "last_horse": "Petróleo"
+      "last_horse": "Irão"
     },
     {
       "rank": 3,
@@ -222,10 +222,10 @@
     {
       "rank": 7,
       "ticker": "KO",
-      "total": 60,
+      "total": 62,
       "as_up": 0,
-      "as_down": 60,
-      "last_horse": "Chips"
+      "as_down": 62,
+      "last_horse": "Drones"
     },
     {
       "rank": 8,
@@ -238,9 +238,9 @@
     {
       "rank": 9,
       "ticker": "UAL",
-      "total": 42,
+      "total": 43,
       "as_up": 0,
-      "as_down": 42,
+      "as_down": 43,
       "last_horse": "Irão"
     },
     {
@@ -254,8 +254,8 @@
     {
       "rank": 11,
       "ticker": "FOXA",
-      "total": 38,
-      "as_up": 38,
+      "total": 39,
+      "as_up": 39,
       "as_down": 0,
       "last_horse": "Trump"
     },
