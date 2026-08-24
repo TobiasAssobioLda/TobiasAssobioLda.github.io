@@ -6,7 +6,6 @@ import type { PaperPayload } from "@/lib/paper-types";
 import { OpensDashboard } from "./OpensDashboard";
 import { NopDashboard } from "./NopDashboard";
 import { PaperDashboard } from "./PaperDashboard";
-import { SiteGate } from "./SiteGate";
 import { fetchPaper } from "@/lib/paper";
 
 const emptyOpens: OpensPayload = {
@@ -79,7 +78,7 @@ export function OpensApp() {
   }, [tab, loadPaper]);
 
   return (
-    <SiteGate>
+    <>
       <nav className="tabs">
         {(
           [
@@ -124,6 +123,6 @@ export function OpensApp() {
       {tab === "paper" ? (
         <PaperDashboard paper={paper} onPickDay={(d) => loadPaper(d)} />
       ) : null}
-    </SiteGate>
+    </>
   );
 }

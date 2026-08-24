@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { OpensApp } from "@/components/OpensApp";
+import { SiteShell } from "@/components/SiteShell";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Trade1 · Opens",
-  description: "Pipoca / Chill open positions",
+  title: "O Rumors",
+  description: "geopolítica & mercados",
 };
 
 export default function HomePage() {
-  return <OpensApp />;
+  return <SiteShell />;
 }

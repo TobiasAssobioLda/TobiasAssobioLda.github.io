@@ -24,10 +24,16 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      - name: Abertura do site (+1h Lisboa)
+        run: |
+          LIVE=$(TZ=Europe/Lisbon date -d '+1 hour' '+%Y-%m-%dT%H:%M:%S%z' | sed 's/\+\([0-9][0-9]\)\([0-9][0-9]\)$/+\1:\2/')
+          echo "NEXT_PUBLIC_SITE_LIVE_AT=$LIVE" >> "$GITHUB_ENV"
+          echo "Site abre: $LIVE"
       - run: npm run build
         env:
           NEXT_PUBLIC_BASE_PATH: ""
           NEXT_PUBLIC_BUILD_ID: ${{ github.sha }}
+          NEXT_PUBLIC_SITE_LIVE_AT: ${{ env.NEXT_PUBLIC_SITE_LIVE_AT }}
           NEXT_PUBLIC_OPENS_URL: ${{ secrets.NEXT_PUBLIC_OPENS_URL }}
           NEXT_PUBLIC_PAPER_URL: ${{ secrets.NEXT_PUBLIC_PAPER_URL }}
           NEXT_PUBLIC_NEWS_URL: ${{ secrets.NEXT_PUBLIC_NEWS_URL }}
