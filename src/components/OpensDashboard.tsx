@@ -8,6 +8,31 @@ function fmtEur(n: number): string {
   return `${n >= 0 ? "+" : ""}${n.toFixed(2)}`;
 }
 
+function fmtBank(n: number): string {
+  return n.toLocaleString("pt-PT", {
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0,
+  });
+}
+
+function BankLine({ book }: { book: BookSnapshot }) {
+  const bank = book.bank_eur && book.bank_eur > 0 ? book.bank_eur : 0;
+  if (!bank) return null;
+  const equity =
+    book.equity_eur != null ? book.equity_eur : bank + (book.total_pnl_eur || 0);
+  return (
+    <p className="bank-line">
+      Banca {fmtBank(bank)} €
+      <span className="bank-sep">·</span>
+      agora {fmtBank(equity)} €
+      <span className={book.total_pnl_eur >= 0 ? "pos" : "neg"}>
+        {" "}
+        {fmtEur(book.total_pnl_eur || 0)}
+      </span>
+    </p>
+  );
+}
+
 function OpenTable({
   title,
   book,
@@ -20,6 +45,7 @@ function OpenTable({
     return (
       <section className="book">
         <h2>{title}</h2>
+        <BankLine book={book} />
         <p className="empty">sem posições abertas</p>
       </section>
     );
@@ -30,6 +56,7 @@ function OpenTable({
       <h2>
         {title} <span className="count">{rows.length} open</span>
       </h2>
+      <BankLine book={book} />
       <div className="table-wrap">
         <table>
           <thead>

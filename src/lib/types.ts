@@ -24,6 +24,9 @@ export type BookSnapshot = {
   rows: OpenRow[];
   total_pnl_pct: number;
   total_pnl_eur: number;
+  /** Banca interna no site (Pipoca). Chill não usa. */
+  bank_eur?: number;
+  equity_eur?: number;
 };
 
 export type OpensPayload = {

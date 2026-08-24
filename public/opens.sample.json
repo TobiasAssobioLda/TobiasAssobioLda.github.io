@@ -25,7 +25,9 @@
       }
     ],
     "total_pnl_pct": 0.71,
-    "total_pnl_eur": 1.42
+    "total_pnl_eur": 1.42,
+    "bank_eur": 2000,
+    "equity_eur": 2001.42
   },
   "chill": {
     "rows": [

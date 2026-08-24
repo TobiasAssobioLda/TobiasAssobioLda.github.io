@@ -12,7 +12,13 @@ const emptyOpens: OpensPayload = {
   updated_at: "",
   timezone: "Europe/Lisbon",
   when_label: "offline",
-  pipoca: { rows: [], total_pnl_pct: 0, total_pnl_eur: 0 },
+  pipoca: {
+    rows: [],
+    total_pnl_pct: 0,
+    total_pnl_eur: 0,
+    bank_eur: 2000,
+    equity_eur: 2000,
+  },
   chill: { rows: [], total_pnl_pct: 0, total_pnl_eur: 0 },
 };
 
