@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import type { OpensPayload } from "@/lib/types";
-import { AppShell } from "./IntroSplash";
 import { OpensDashboard } from "./OpensDashboard";
 import { SiteGate } from "./SiteGate";
 
@@ -46,15 +45,13 @@ export function OpensApp() {
   }, []);
 
   return (
-    <AppShell>
-      <SiteGate>
-        <OpensDashboard
-          whenLabel={data.when_label}
-          updatedAt={data.updated_at}
-          pipoca={data.pipoca}
-          chill={data.chill}
-        />
-      </SiteGate>
-    </AppShell>
+    <SiteGate>
+      <OpensDashboard
+        whenLabel={data.when_label}
+        updatedAt={data.updated_at}
+        pipoca={data.pipoca}
+        chill={data.chill}
+      />
+    </SiteGate>
   );
 }
