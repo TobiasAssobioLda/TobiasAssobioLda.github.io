@@ -13,6 +13,7 @@ cd "$ROOT"
 export PATH="$HOME/.local/bin:$PATH"
 
 MSG="${1:-update site}"
+SITE_URL="https://tobiasassobiolda.github.io/"
 
 if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
   echo "ERRO: esta pasta não é um repo git."
@@ -30,7 +31,8 @@ fi
 
 echo ""
 echo "=========================================="
-echo "  PUSH SITE → GitHub (tobiasassobiolda.github.io)"
+echo "  PUSH SITE → GitHub"
+echo "  URL: $SITE_URL"
 echo "=========================================="
 echo ""
 
@@ -51,7 +53,7 @@ echo "[4/4] push..."
 git push origin main
 
 echo ""
-echo "OK — GitHub Actions faz o deploy sozinho (~1 min)."
-echo "Site: https://tobiasassobiolda.github.io/"
-echo "Actions: https://github.com/TobiasAssobioLda/TobiasAssobioLda.github.io/actions"
+echo "OK — deploy automático (~1 min)."
+echo "Abre: $SITE_URL"
+echo "(NÃO uses leifshinigami.github.io/trade1-web — é o site antigo)"
 echo ""
