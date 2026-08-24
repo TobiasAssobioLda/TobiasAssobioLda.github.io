@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-08-24T22:38:56+01:00",
+  "updated_at": "2026-08-24T22:43:36+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "22:38",
+  "when_label": "22:43",
   "pipoca": {
     "rows": [
       {
         "ticker": "ONDS",
         "entry": 8.35,
-        "price": 8.22,
+        "price": 8.23,
         "qty": 23.866348,
         "notional": 199.28,
-        "pnl_pct": -1.56,
-        "pnl_eur": -3.1,
-        "pnl_r": -0.42,
+        "pnl_pct": -1.44,
+        "pnl_eur": -2.86,
+        "pnl_r": -0.39,
         "sl": 8.04,
         "tp1": 9.8,
         "tp2": 10.38,
@@ -24,10 +24,10 @@
         "opened_at": "2026-08-21T03:18:23.309684+00:00"
       }
     ],
-    "total_pnl_pct": -1.56,
-    "total_pnl_eur": -3.1,
+    "total_pnl_pct": -1.44,
+    "total_pnl_eur": -2.86,
     "bank_eur": 2000.0,
-    "equity_eur": 1996.9
+    "equity_eur": 1997.14
   },
   "chill": {
     "rows": [
@@ -129,12 +129,12 @@
       {
         "ticker": "TSM",
         "entry": 413.3079,
-        "price": 409.75,
+        "price": 409.85,
         "qty": 0.433448,
         "notional": 179.15,
-        "pnl_pct": -0.86,
-        "pnl_eur": -1.54,
-        "pnl_r": -0.18,
+        "pnl_pct": -0.84,
+        "pnl_eur": -1.5,
+        "pnl_r": -0.17,
         "sl": 393.17,
         "tp1": 442.32,
         "tp2": 458.71,
@@ -146,7 +146,7 @@
         "opened_at": "2026-08-24T15:44:27.295174+00:00"
       }
     ],
-    "total_pnl_pct": -0.13,
-    "total_pnl_eur": -0.37
+    "total_pnl_pct": -0.12,
+    "total_pnl_eur": -0.33
   }
 }
