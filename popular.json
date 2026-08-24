@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-08-24T22:27:12+01:00",
+  "updated_at": "2026-08-24T22:32:55+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 548,
+  "n_events": 556,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
     {
       "rank": 1,
       "ticker": "GLD",
-      "total": 195,
+      "total": 196,
       "as_up": 27,
-      "as_down": 168,
+      "as_down": 169,
       "last_horse": "Musk"
     },
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 102,
-      "as_up": 91,
-      "as_down": 11,
-      "last_horse": "Irão"
+      "total": 104,
+      "as_up": 92,
+      "as_down": 12,
+      "last_horse": "Petróleo"
     },
     {
       "rank": 3,
@@ -59,10 +59,10 @@
     {
       "rank": 7,
       "ticker": "KO",
-      "total": 59,
+      "total": 60,
       "as_up": 0,
-      "as_down": 59,
-      "last_horse": "Trump"
+      "as_down": 60,
+      "last_horse": "Chips"
     },
     {
       "rank": 8,
@@ -130,6 +130,14 @@
     },
     {
       "rank": 16,
+      "ticker": "TSLA",
+      "total": 9,
+      "as_up": 9,
+      "as_down": 0,
+      "last_horse": "Musk"
+    },
+    {
+      "rank": 17,
       "ticker": "TSM",
       "total": 9,
       "as_up": 9,
@@ -137,20 +145,12 @@
       "last_horse": "China"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "ticker": "IEF",
       "total": 9,
       "as_up": 0,
       "as_down": 9,
       "last_horse": "Fed"
-    },
-    {
-      "rank": 18,
-      "ticker": "TSLA",
-      "total": 8,
-      "as_up": 8,
-      "as_down": 0,
-      "last_horse": "Musk"
     },
     {
       "rank": 19,
@@ -174,18 +174,18 @@
     {
       "rank": 1,
       "ticker": "GLD",
-      "total": 195,
+      "total": 196,
       "as_up": 27,
-      "as_down": 168,
+      "as_down": 169,
       "last_horse": "Musk"
     },
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 102,
-      "as_up": 91,
-      "as_down": 11,
-      "last_horse": "Irão"
+      "total": 104,
+      "as_up": 92,
+      "as_down": 12,
+      "last_horse": "Petróleo"
     },
     {
       "rank": 3,
@@ -222,10 +222,10 @@
     {
       "rank": 7,
       "ticker": "KO",
-      "total": 59,
+      "total": 60,
       "as_up": 0,
-      "as_down": 59,
-      "last_horse": "Trump"
+      "as_down": 60,
+      "last_horse": "Chips"
     },
     {
       "rank": 8,
@@ -293,6 +293,14 @@
     },
     {
       "rank": 16,
+      "ticker": "TSLA",
+      "total": 9,
+      "as_up": 9,
+      "as_down": 0,
+      "last_horse": "Musk"
+    },
+    {
+      "rank": 17,
       "ticker": "TSM",
       "total": 9,
       "as_up": 9,
@@ -300,20 +308,12 @@
       "last_horse": "China"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "ticker": "IEF",
       "total": 9,
       "as_up": 0,
       "as_down": 9,
       "last_horse": "Fed"
-    },
-    {
-      "rank": 18,
-      "ticker": "TSLA",
-      "total": 8,
-      "as_up": 8,
-      "as_down": 0,
-      "last_horse": "Musk"
     },
     {
       "rank": 19,
