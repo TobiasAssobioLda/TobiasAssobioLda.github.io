@@ -39,13 +39,17 @@ function impactBand(n: number): string {
   return "ruído";
 }
 
-/** Só texto Gemini/Groq já gravado — sem inventar headline. */
-function geminiLines(row: OpenRow): { hook: string; what: string } {
+/** Texto Gemini/Groq gravado; sem card → título/blurb da notícia. */
+function newsLines(row: OpenRow): { hook: string; what: string } {
   let hook = (row.news_hook || "").replace(/^🎤\s*/, "").trim();
-  let what = (row.news_what || "").trim();
+  const what = (row.news_what || "").trim();
   const blurb = (row.news_blurb || "").trim();
   if (!hook && blurb.startsWith("🎤")) {
     hook = blurb.replace(/^🎤\s*/, "").trim();
+  }
+  if (!hook && blurb) {
+    // título cru gravado na entrada (ex: "Irão: pending cluster")
+    hook = blurb.split(/\s·\s/)[0].trim();
   }
   return { hook, what };
 }
@@ -53,8 +57,9 @@ function geminiLines(row: OpenRow): { hook: string; what: string } {
 function NopCard({ row }: { row: OpenRow }) {
   const horse = (row.horse || "").trim();
   const horseEm = horse ? HORSE_EMOJI[horse] || "📌" : "📌";
-  const { hook, what } = geminiLines(row);
+  const { hook, what } = newsLines(row);
   const impact = row.news_impact || 0;
+  const hasCard = Boolean((row.news_hook || "").trim() || (row.news_what || "").trim());
 
   return (
     <article className="nop-card">
@@ -78,11 +83,15 @@ function NopCard({ row }: { row: OpenRow }) {
         ) : null}
         {hook ? (
           <p className="tg-line tg-hook">
-            🎤 <strong>{hook}</strong>
+            {hasCard ? (
+              <>
+                🎤 <strong>{hook}</strong>
+              </>
+            ) : (
+              <strong>{hook}</strong>
+            )}
           </p>
-        ) : (
-          <p className="tg-line nop-news-empty">sem card Gemini/Groq nesta entrada</p>
-        )}
+        ) : null}
         {what ? <p className="tg-line">📋 {what}</p> : null}
         {impact > 0 ? (
           <p className="tg-line">
@@ -137,7 +146,7 @@ export function NopDashboard({
         <p className="brand">Trade1</p>
         <h1>NOP · {label}</h1>
         <p className="meta">
-          card Gemini/Groq da entrada
+          notícia da entrada
           {updatedAt ? ` · act. ${updatedAt.slice(11, 16)}` : ""}
         </p>
       </header>
@@ -153,7 +162,7 @@ export function NopDashboard({
           ))}
         </div>
       )}
-      <footer>Opens = Alpaca. Aqui = 🎤/📋 gravados na entrada.</footer>
+      <footer>Opens = Alpaca. Aqui = notícia da entrada (🎤/📋 ou título).</footer>
     </main>
   );
 }
