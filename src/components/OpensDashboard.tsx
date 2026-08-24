@@ -124,7 +124,7 @@ export function OpensDashboard({
       <OpenTable title="Pipoca" book={pipoca} />
       <OpenTable title="Chill" book={chill} />
       <footer>
-        Só posições abertas (preço / P/L). Notícia da entrada → abas NOP.
+        Valores Alpaca (posição real). Notícia da entrada → abas NOP.
       </footer>
     </main>
   );
