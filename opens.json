@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-08-24T22:52:54+01:00",
+  "updated_at": "2026-08-24T23:22:55+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "22:52",
+  "when_label": "23:22",
   "pipoca": {
     "rows": [
       {
         "ticker": "ONDS",
         "entry": 8.35,
-        "price": 8.2367,
+        "price": 8.24,
         "qty": 23.866348,
         "notional": 199.284,
-        "pnl_pct": -1.357,
-        "pnl_eur": -2.704057,
-        "pnl_r": -0.37,
+        "pnl_pct": -1.317,
+        "pnl_eur": -2.625298,
+        "pnl_r": -0.35,
         "sl": 8.04,
         "tp1": 9.8,
         "tp2": 10.38,
@@ -24,10 +24,10 @@
         "opened_at": "2026-08-21T03:18:23.309684+00:00"
       }
     ],
-    "total_pnl_pct": -1.3568861115728474,
-    "total_pnl_eur": -2.704057,
+    "total_pnl_pct": -1.3173651276359828,
+    "total_pnl_eur": -2.625298,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.3
+    "equity_eur": 1997.37
   },
   "chill": {
     "rows": [
@@ -53,12 +53,12 @@
       {
         "ticker": "FLO",
         "entry": 7.14,
-        "price": 7.25,
+        "price": 7.27,
         "qty": 2.80112,
         "notional": 20.0,
-        "pnl_pct": 1.541,
-        "pnl_eur": 0.308123,
-        "pnl_r": 0.26,
+        "pnl_pct": 1.821,
+        "pnl_eur": 0.364145,
+        "pnl_r": 0.31,
         "sl": 6.72,
         "tp1": 7.98,
         "tp2": 8.4,
@@ -91,12 +91,12 @@
       {
         "ticker": "FRO",
         "entry": 43.32,
-        "price": 44.22,
+        "price": 44.04,
         "qty": 0.45798,
         "notional": 19.8397,
-        "pnl_pct": 2.078,
-        "pnl_eur": 0.412182,
-        "pnl_r": 0.45,
+        "pnl_pct": 1.662,
+        "pnl_eur": 0.329745,
+        "pnl_r": 0.36,
         "sl": 41.3,
         "tp1": 48.41,
         "tp2": 50.78,
@@ -129,11 +129,11 @@
       {
         "ticker": "TSM",
         "entry": 413.3079,
-        "price": 410.1672,
+        "price": 410.04,
         "qty": 0.433448,
         "notional": 179.1475,
-        "pnl_pct": -0.76,
-        "pnl_eur": -1.36135,
+        "pnl_pct": -0.791,
+        "pnl_eur": -1.416485,
         "pnl_r": -0.16,
         "sl": 393.17,
         "tp1": 442.32,
@@ -146,7 +146,7 @@
         "opened_at": "2026-08-24T15:44:27.295174+00:00"
       }
     ],
-    "total_pnl_pct": -0.06184025239966981,
-    "total_pnl_eur": -0.17259000000000002
+    "total_pnl_pct": -0.09106021058492432,
+    "total_pnl_eur": -0.25414000000000003
   }
 }
