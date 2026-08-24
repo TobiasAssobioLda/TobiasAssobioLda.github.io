@@ -1,0 +1,47 @@
+{
+  "updated_at": "2026-08-24T21:00:00+01:00",
+  "timezone": "Europe/Lisbon",
+  "count": 2,
+  "rows": [
+    {
+      "rank": 1,
+      "event_date": "2026-08-26",
+      "date_label": "26/08",
+      "title": "Nvidia Reports Earnings on Aug. 26",
+      "horse": "Chips",
+      "tickers": "TSM / AMD",
+      "ticker_up": "TSM",
+      "ticker_down": "AMD",
+      "action": "alerta",
+      "status": "candidate",
+      "score": 62,
+      "price": 208.49,
+      "sl": 195.2,
+      "tp1": 234.8,
+      "tp2": 250.1,
+      "url": "https://www.fool.com/investing/2026/08/24/nvidia-reports-earnings-on-aug-26-here-are-3-other/",
+      "source": "spam",
+      "note": "dated"
+    },
+    {
+      "rank": 2,
+      "event_date": "2026-09-17",
+      "date_label": "17/09",
+      "title": "FOMC rate decision",
+      "horse": "Fed",
+      "tickers": "XLF / TLT",
+      "ticker_up": "XLF",
+      "ticker_down": "TLT",
+      "action": "alerta",
+      "status": "confirmed",
+      "score": 70,
+      "price": 52.1,
+      "sl": 50.4,
+      "tp1": 55.5,
+      "tp2": 57.2,
+      "url": "",
+      "source": "calendar",
+      "note": "macro-event"
+    }
+  ]
+}

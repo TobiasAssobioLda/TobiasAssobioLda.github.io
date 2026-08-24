@@ -108,9 +108,29 @@ h1 {
   font-size: 0.95rem;
 }
 
-.table-wrap {
-  overflow-x: auto;
+td.cell-title {
+  max-width: 280px;
+  font-family: var(--font);
+  font-size: 0.82rem;
+  line-height: 1.35;
 }
+
+td.cell-title a {
+  color: var(--fg);
+  text-decoration: none;
+}
+
+td.cell-title a:hover {
+  text-decoration: underline;
+}
+
+.cell-sub {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
 
 table {
   width: 100%;

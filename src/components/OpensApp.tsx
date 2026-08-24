@@ -3,10 +3,16 @@
 import { useCallback, useEffect, useState } from "react";
 import type { OpensPayload } from "@/lib/types";
 import type { PaperPayload } from "@/lib/paper-types";
+import type { DatasPayload } from "@/lib/datas-types";
+import type { PopularPayload } from "@/lib/popular-types";
 import { OpensDashboard } from "./OpensDashboard";
 import { NopDashboard } from "./NopDashboard";
 import { PaperDashboard } from "./PaperDashboard";
+import { DatasDashboard } from "./DatasDashboard";
+import { PopularDashboard } from "./PopularDashboard";
 import { fetchPaper } from "@/lib/paper";
+import { fetchDatas } from "@/lib/datas";
+import { fetchPopular } from "@/lib/popular";
 
 const emptyOpens: OpensPayload = {
   updated_at: "",
@@ -35,6 +41,22 @@ const emptyPaper: PaperPayload = {
   archive_days: [],
 };
 
+const emptyDatas: DatasPayload = {
+  updated_at: "",
+  timezone: "Europe/Lisbon",
+  count: 0,
+  rows: [],
+};
+
+const emptyPopular: PopularPayload = {
+  updated_at: "",
+  timezone: "Europe/Lisbon",
+  days: 7,
+  n_events: 0,
+  count: 0,
+  rows: [],
+};
+
 function opensTarget(): string {
   const remote = (process.env.NEXT_PUBLIC_OPENS_URL || "").trim();
   const base = remote || "/opens.sample.json";
@@ -46,12 +68,14 @@ function opensTarget(): string {
 /** Poll leve — não martela free tier / servidor. */
 const OPENS_POLL_MS = 5 * 60_000;
 
-type Tab = "opens" | "nop-chill" | "nop-pipoca" | "paper";
+type Tab = "opens" | "datas" | "popular" | "nop-chill" | "nop-pipoca" | "paper";
 
 export function OpensApp() {
   const [tab, setTab] = useState<Tab>("opens");
   const [opens, setOpens] = useState<OpensPayload>(emptyOpens);
   const [paper, setPaper] = useState<PaperPayload>(emptyPaper);
+  const [datas, setDatas] = useState<DatasPayload>(emptyDatas);
+  const [popular, setPopular] = useState<PopularPayload>(emptyPopular);
 
   const loadOpens = useCallback(async () => {
     try {
@@ -72,12 +96,34 @@ export function OpensApp() {
     }
   }, []);
 
+  const loadPopular = useCallback(async () => {
+    try {
+      setPopular(await fetchPopular());
+    } catch {
+      setPopular(emptyPopular);
+    }
+  }, []);
+
+  const loadDatas = useCallback(async () => {
+    try {
+      setDatas(await fetchDatas());
+    } catch {
+      setDatas(emptyDatas);
+    }
+  }, []);
+
   useEffect(() => {
     loadOpens();
     loadPaper();
-    const id = window.setInterval(loadOpens, OPENS_POLL_MS);
+    loadDatas();
+    loadPopular();
+    const id = window.setInterval(() => {
+      loadOpens();
+      loadDatas();
+      loadPopular();
+    }, OPENS_POLL_MS);
     return () => window.clearInterval(id);
-  }, [loadOpens, loadPaper]);
+  }, [loadOpens, loadPaper, loadDatas, loadPopular]);
 
   useEffect(() => {
     if (tab === "paper") loadPaper();
@@ -89,6 +135,8 @@ export function OpensApp() {
         {(
           [
             ["opens", "Opens"],
+            ["datas", "Datas"],
+            ["popular", "Popular"],
             ["nop-chill", "NOP Chill"],
             ["nop-pipoca", "NOP Pipoca"],
             ["paper", "Jornal"],
@@ -112,6 +160,8 @@ export function OpensApp() {
           chill={opens.chill}
         />
       ) : null}
+      {tab === "datas" ? <DatasDashboard data={datas} /> : null}
+      {tab === "popular" ? <PopularDashboard data={popular} /> : null}
       {tab === "nop-chill" ? (
         <NopDashboard
           book={opens.chill}

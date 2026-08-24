@@ -31,6 +31,8 @@ jobs:
           NEXT_PUBLIC_OPENS_URL: ${{ secrets.NEXT_PUBLIC_OPENS_URL }}
           NEXT_PUBLIC_PAPER_URL: ${{ secrets.NEXT_PUBLIC_PAPER_URL }}
           NEXT_PUBLIC_NEWS_URL: ${{ secrets.NEXT_PUBLIC_NEWS_URL }}
+          NEXT_PUBLIC_DATAS_URL: ${{ secrets.NEXT_PUBLIC_DATAS_URL }}
+          NEXT_PUBLIC_POPULAR_URL: ${{ secrets.NEXT_PUBLIC_POPULAR_URL }}
           NEXT_PUBLIC_SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
       - uses: actions/upload-pages-artifact@v3
         with:
