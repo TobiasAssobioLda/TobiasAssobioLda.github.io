@@ -4,10 +4,17 @@ export type PaperItem = {
   url: string;
   source: string;
   horse: string;
+  horse_emoji?: string;
   sent_at: string;
   impact: number;
+  impact_band?: string;
+  kind?: string;
+  badge?: string;
   hook: string;
   what: string;
+  up?: string;
+  down?: string;
+  vibe?: string;
   when_label?: string;
   read_url?: string;
 };

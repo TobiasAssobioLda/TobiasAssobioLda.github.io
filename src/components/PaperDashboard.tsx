@@ -3,54 +3,89 @@
 import { useMemo, useState } from "react";
 import type { PaperItem, PaperPayload } from "@/lib/paper-types";
 
-function alike(a: string, b: string): boolean {
-  const na = a
-    .toLowerCase()
-    .replace(/[^a-z0-9à-ú\s]/gi, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-  const nb = b
-    .toLowerCase()
-    .replace(/[^a-z0-9à-ú\s]/gi, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-  if (!na || !nb) return false;
-  if (na === nb) return true;
-  if (na.includes(nb) || nb.includes(na)) return true;
-  const wa = new Set(na.split(" ").filter((w) => w.length > 3));
-  const wb = nb.split(" ").filter((w) => w.length > 3);
-  if (wb.length < 3) return false;
-  const hits = wb.filter((w) => wa.has(w)).length;
-  return hits >= Math.ceil(wb.length * 0.6);
+const HORSE_EMOJI: Record<string, string> = {
+  Trump: "🦅",
+  Musk: "🚀",
+  Fed: "🏦",
+  Buffett: "🎩",
+  China: "🐉",
+  Índia: "🪷",
+  UE: "🇪🇺",
+  Venezuela: "🛢️",
+  Irão: "☢️",
+  Gaza: "🕊️",
+  Rússia: "🐻",
+  Ucrânia: "🌻",
+  Drones: "🛸",
+  Inflação: "📈",
+  Cripto: "₿",
+  Chips: "💾",
+  AI: "🤖",
+  Nuclear: "💥",
+  Ouro: "🥇",
+  Prata: "🪙",
+  Petróleo: "🛢️",
+  Saúde: "💊",
+};
+
+function impactBand(n: number): string {
+  if (n >= 90) return "extremo";
+  if (n >= 70) return "alto";
+  if (n >= 50) return "médio";
+  if (n >= 20) return "baixo";
+  return "ruído";
 }
 
-/** Bloco = chapado do card Telegram (hook + what), sem moldura TG. */
-function Story({ item, lead }: { item: PaperItem; lead?: boolean }) {
+/** Chapado = card Telegram (emojis + linhas), sem moldura. */
+function Story({ item }: { item: PaperItem }) {
   const href = item.read_url || item.url;
-  const headline = (item.hook || item.title || "").trim();
-  const rawDek = (item.what || "").trim();
-  const dek =
-    rawDek && !alike(headline, rawDek) && !alike(item.title || "", rawDek)
-      ? rawDek
-      : "";
+  const horse = item.horse || "Mundo";
+  const horseEm = item.horse_emoji || HORSE_EMOJI[horse] || "📌";
+  const badge = item.badge || (item.kind?.toUpperCase().startsWith("OFIC") ? "✅" : "🟠");
+  const kind = (item.kind || "RUMOR").toUpperCase().startsWith("OFIC")
+    ? "OFICIAL"
+    : "RUMOR";
+  const hook = (item.hook || item.title || "").trim();
+  const what = (item.what || "").trim();
+  const up = (item.up || "").trim();
+  const down = (item.down || "").trim();
+  const vibe = (item.vibe || "").trim();
+  const impact = item.impact || 0;
+  const band = item.impact_band || impactBand(impact);
 
   return (
-    <article className={lead ? "paper-lead" : "paper-story"}>
-      <p className="paper-kicker">
-        {item.horse || "Mundo"}
-        {lead ? " · capa" : ""}
+    <article className="paper-story">
+      <p className="tg-line">
+        {badge} <strong>{kind}</strong> · {horseEm} {horse}
       </p>
-      <h2 className="paper-headline">
-        <a href={href} target="_blank" rel="noopener noreferrer">
-          {headline}
-        </a>
-      </h2>
-      {dek ? <p className="paper-dek">{dek}</p> : null}
-      <p className="paper-meta-line">
-        {item.when_label || "—"}
-        {item.source ? ` · ${item.source}` : ""}
-        {item.impact ? ` · impacto ${item.impact}` : ""}
-      </p>
+      {item.when_label ? (
+        <p className="tg-line">📅 {item.when_label}</p>
+      ) : null}
+      {href ? (
+        <p className="tg-line">
+          <a href={href} target="_blank" rel="noopener noreferrer">
+            🔗 ler
+          </a>
+        </p>
+      ) : null}
+      {hook ? (
+        <p className="tg-line tg-hook">
+          🎤 <strong>{hook}</strong>
+        </p>
+      ) : null}
+      {what ? <p className="tg-line">📋 {what}</p> : null}
+      {up ? <p className="tg-line">🟢 UP — {up}</p> : null}
+      {down ? <p className="tg-line">🔴 DOWN — {down}</p> : null}
+      {vibe ? (
+        <p className="tg-line tg-vibe">
+          🍺 <em>{vibe}</em>
+        </p>
+      ) : null}
+      {impact > 0 ? (
+        <p className="tg-line">
+          📊 impacto <strong>{impact}</strong>/99 · {band}
+        </p>
+      ) : null}
     </article>
   );
 }
@@ -98,26 +133,17 @@ export function PaperDashboard({
         </p>
         <div className="paper-rule double" />
         <p className="paper-date">{dayLabel}</p>
-        <p className="paper-sub">
-          {paper.count
-            ? `${paper.count} peças até ${paper.cutoff || "13:55"}`
-            : `corte ${paper.cutoff || "13:55"}`}
-          {paper.published_at ? ` · saiu ${paper.published_at.slice(11, 16)}` : ""}
-        </p>
       </header>
 
       <div className="paper-body">
-        <div className="paper-rule thick" aria-hidden />
         {ordered.length === 0 ? (
-          <p className="paper-empty">
-            Ainda sem edição — o bot grava o jornal às 14:00 com os Rumors do dia.
-          </p>
+          <p className="paper-empty">Ainda sem edição de hoje.</p>
         ) : (
           <div className="paper-stack">
             {ordered.map((it, i) => (
               <div key={it.uid} className="paper-block">
                 {i > 0 ? <div className="paper-rule thick" aria-hidden /> : null}
-                <Story item={it} lead={i === 0} />
+                <Story item={it} />
               </div>
             ))}
           </div>
