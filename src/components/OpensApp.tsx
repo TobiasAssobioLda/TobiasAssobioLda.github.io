@@ -32,8 +32,10 @@ const emptyPaper: PaperPayload = {
 
 function opensTarget(): string {
   const remote = (process.env.NEXT_PUBLIC_OPENS_URL || "").trim();
-  if (remote) return remote;
-  return "/opens.sample.json";
+  const base = remote || "/opens.sample.json";
+  const build = (process.env.NEXT_PUBLIC_BUILD_ID || "dev").slice(0, 7);
+  const sep = base.includes("?") ? "&" : "?";
+  return `${base}${sep}v=${encodeURIComponent(build)}&t=${Date.now()}`;
 }
 
 /** Poll leve — não martela free tier / servidor. */

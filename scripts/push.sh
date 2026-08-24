@@ -20,7 +20,6 @@ START_TS=$(date +%s)
 die() { echo "ERRO: $*" >&2; exit 1; }
 
 # Barra aproximada 0–100 (largura 24)
-# Uso: progress PCT "mensagem"
 progress() {
   local pct="$1"
   local msg="${2:-}"
@@ -51,13 +50,11 @@ echo ""
 git rev-parse --is-inside-work-tree >/dev/null 2>&1 \
   || die "esta pasta não é um repo git ($ROOT)"
 
-# identidade local só neste repo (não mexe no git config global)
 if ! git config --local user.email >/dev/null 2>&1; then
   git config --local user.email "peanutbrain@users.noreply.github.com"
   git config --local user.name "peanutbrain"
 fi
 
-# HTTPS + gh: evita password popup partido
 if command -v gh >/dev/null 2>&1; then
   if ! gh auth status >/dev/null 2>&1; then
     echo "AVISO: gh não autenticado. Corre: gh auth login"
@@ -104,57 +101,65 @@ if ! git push -u origin "$BRANCH" >/dev/null 2>&1; then
   echo "  bash scripts/push.sh"
   exit 1
 fi
-progress 55 "push ok — à espera do Actions"
 
-# Espera deploy Pages (~1 min). Barra sobe ~55→98 enquanto corre; 100 no fim.
+SHA="$(git rev-parse HEAD)"
+SHORT="${SHA:0:7}"
+progress 55 "push ok — Actions p/ $SHORT"
+
+# Espera o run DESTE commit (não o deploy anterior já concluído).
 wait_actions() {
-  if ! command -v gh >/dev/null 2>&1; then
-    progress 90 "sem gh — assume deploy ~1 min"
-    sleep 8
-    progress 100 "feito (confirma no browser)"
-    return 0
-  fi
-  if ! gh auth status >/dev/null 2>&1; then
-    progress 90 "gh sem auth — assume deploy ~1 min"
-    sleep 8
-    progress 100 "feito (confirma no browser)"
+  if ! command -v gh >/dev/null 2>&1 || ! gh auth status >/dev/null 2>&1; then
+    progress 80 "sem gh — espera CDN ~45s"
+    sleep 45
+    progress 100 "feito — abre link com ?v="
     return 0
   fi
 
-  # deixa o workflow aparecer
   local run_id=""
-  local i
-  for i in 1 2 3 4 5 6; do
-    run_id="$(gh run list --branch "$BRANCH" --limit 1 --json databaseId,status,conclusion,displayTitle \
-      --jq '.[0].databaseId' 2>/dev/null || true)"
-    [[ -n "$run_id" && "$run_id" != "null" ]] && break
-    progress $((55 + i * 3)) "à procura do workflow..."
-    sleep 2
+  local i status conclusion
+  for i in $(seq 1 20); do
+    run_id="$(gh run list --branch "$BRANCH" --limit 8 \
+      --json databaseId,headSha,status,conclusion \
+      --jq ".[] | select(.headSha==\"$SHA\") | .databaseId" 2>/dev/null | head -1 || true)"
+    if [[ -n "$run_id" && "$run_id" != "null" ]]; then
+      break
+    fi
+    progress $((55 + i)) "à procura do run $SHORT…"
+    sleep 3
   done
 
   if [[ -z "$run_id" || "$run_id" == "null" ]]; then
-    progress 95 "workflow não encontrado"
-    sleep 3
+    progress 85 "run não apareceu — espera CDN"
+    sleep 40
     progress 100 "push ok — confere Actions"
     return 0
   fi
 
-  local max_wait=180
+  local max_wait=240
   local waited=0
-  local status="queued"
-  local conclusion=""
   while [[ $waited -lt $max_wait ]]; do
     status="$(gh run view "$run_id" --json status --jq '.status' 2>/dev/null || echo unknown)"
     conclusion="$(gh run view "$run_id" --json conclusion --jq '.conclusion // empty' 2>/dev/null || true)"
 
-    # 55% → 98% ao longo de ~90s típicos
-    local pct=$((55 + waited * 43 / 90))
-    [[ $pct -gt 98 ]] && pct=98
+    local pct=$((55 + waited * 40 / 120))
+    [[ $pct -gt 95 ]] && pct=95
 
     if [[ "$status" == "completed" ]]; then
       if [[ "$conclusion" == "success" ]]; then
-        progress 100 "deploy OK"
+        progress 96 "deploy OK — CDN a propagar…"
+        # GitHub Pages / browser ainda podem servir HTML antigo uns segundos
+        sleep 12
+        progress 100 "no ar ($SHORT)"
         return 0
+      fi
+      if [[ "$conclusion" == "cancelled" ]]; then
+        progress 60 "run cancelado — à procura do novo…"
+        sleep 4
+        run_id="$(gh run list --branch "$BRANCH" --limit 8 \
+          --json databaseId,headSha,status \
+          --jq ".[] | select(.headSha==\"$SHA\") | .databaseId" 2>/dev/null | head -1 || true)"
+        waited=0
+        continue
       fi
       echo ""
       echo "Actions falhou ($conclusion). Vê: gh run view $run_id"
@@ -162,20 +167,22 @@ wait_actions() {
     fi
 
     progress "$pct" "Actions: $status…"
-    sleep 3
-    waited=$((waited + 3))
+    sleep 4
+    waited=$((waited + 4))
   done
 
   echo ""
-  echo "timeout à espera do Actions (run $run_id). Continua no browser."
+  echo "timeout Actions (run $run_id). Continua no browser."
   progress 100 "push ok — Actions ainda a correr?"
 }
 
 wait_actions
 
 TOTAL=$(( $(date +%s) - START_TS ))
+BUST_URL="${SITE_URL}?v=${SHORT}&t=$(date +%s)"
 echo ""
-echo "OK — site actualizado (~${TOTAL}s)."
-echo "Abre: $SITE_URL"
+echo "OK — site actualizado (~${TOTAL}s) · build $SHORT"
+echo "Abre ESTE link (fura cache do browser):"
+echo "  $BUST_URL"
 echo "(NÃO uses leifshinigami.github.io/trade1-web — site antigo)"
 echo ""

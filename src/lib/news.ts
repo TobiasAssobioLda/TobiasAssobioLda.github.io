@@ -7,7 +7,10 @@ export function newsTarget(): string {
 }
 
 export async function fetchNews(): Promise<NewsPayload> {
-  const target = newsTarget();
+  const base = newsTarget();
+  const build = (process.env.NEXT_PUBLIC_BUILD_ID || "dev").slice(0, 7);
+  const sep = base.includes("?") ? "&" : "?";
+  const target = `${base}${sep}v=${encodeURIComponent(build)}&t=${Date.now()}`;
   const res = await fetch(target, { cache: "no-store" });
   if (!res.ok) throw new Error(String(res.status));
   return res.json() as Promise<NewsPayload>;

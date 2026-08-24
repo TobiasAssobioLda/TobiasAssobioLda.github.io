@@ -27,6 +27,7 @@ jobs:
       - run: npm run build
         env:
           NEXT_PUBLIC_BASE_PATH: ""
+          NEXT_PUBLIC_BUILD_ID: ${{ github.sha }}
           NEXT_PUBLIC_OPENS_URL: ${{ secrets.NEXT_PUBLIC_OPENS_URL }}
           NEXT_PUBLIC_PAPER_URL: ${{ secrets.NEXT_PUBLIC_PAPER_URL }}
           NEXT_PUBLIC_NEWS_URL: ${{ secrets.NEXT_PUBLIC_NEWS_URL }}
