@@ -1,11 +1,13 @@
 import type { BookSnapshot, OpenRow } from "@/lib/types";
 
 function fmtPct(n: number): string {
-  return `${n >= 0 ? "+" : ""}${n.toFixed(1)}%`;
+  return `${n >= 0 ? "+" : ""}${n.toFixed(2)}%`;
 }
 
-function fmtEur(n: number): string {
-  return `${n >= 0 ? "+" : ""}${n.toFixed(2)}`;
+/** P/L Alpaca em USD — mesmas casas que a app (ex. $0.1953). */
+function fmtUsd(n: number): string {
+  const abs = Math.abs(n).toFixed(4);
+  return n >= 0 ? `$${abs}` : `-$${abs}`;
 }
 
 function fmtBank(n: number): string {
@@ -27,7 +29,7 @@ function BankLine({ book }: { book: BookSnapshot }) {
       agora {fmtBank(equity)} €
       <span className={book.total_pnl_eur >= 0 ? "pos" : "neg"}>
         {" "}
-        {fmtEur(book.total_pnl_eur || 0)}
+        {fmtUsd(book.total_pnl_eur || 0)}
       </span>
     </p>
   );
@@ -65,7 +67,7 @@ function OpenTable({
               <th>Px/INI</th>
               <th>Px AC</th>
               <th>P/L%</th>
-              <th>P/L€</th>
+              <th>P/L$</th>
             </tr>
           </thead>
           <tbody>
@@ -78,7 +80,7 @@ function OpenTable({
                   {fmtPct(r.pnl_pct)}
                 </td>
                 <td className={r.pnl_eur >= 0 ? "pos" : "neg"}>
-                  {fmtEur(r.pnl_eur)}
+                  {fmtUsd(r.pnl_eur)}
                 </td>
               </tr>
             ))}
@@ -90,7 +92,7 @@ function OpenTable({
                 {fmtPct(book.total_pnl_pct)}
               </td>
               <td className={book.total_pnl_eur >= 0 ? "pos" : "neg"}>
-                {fmtEur(book.total_pnl_eur)}
+                {fmtUsd(book.total_pnl_eur)}
               </td>
             </tr>
           </tbody>
