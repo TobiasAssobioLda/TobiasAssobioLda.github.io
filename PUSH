@@ -1,2 +1,13 @@
 #!/bin/bash
-exec bash "$(cd "$(dirname "$0")" && pwd)/scripts/push.sh" "$@"
+# Duplo-clique no gestor: abre terminal e corre push (vê erros).
+ROOT="$(cd "$(dirname "$0")" && pwd)"
+LOG="$ROOT/../data/push-web.log"
+mkdir -p "$(dirname "$LOG")" 2>/dev/null || LOG="/tmp/trade1-push-web.log"
+
+if command -v x-terminal-emulator >/dev/null 2>&1; then
+  exec x-terminal-emulator -e bash -lc \
+    "cd '$ROOT' && bash scripts/push.sh 2>&1 | tee -a '$LOG'; echo; read -r -p 'Enter para fechar... ' _"
+fi
+
+# fallback: terminal corrente
+cd "$ROOT" && exec bash scripts/push.sh "$@"
