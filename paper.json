@@ -1,6 +1,6 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T00:49:10+01:00",
+  "published_at": "2026-08-25T00:52:10+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -69,6 +69,26 @@
       "up": "",
       "down": "",
       "vibe": ""
+    },
+    {
+      "uid": "60c31a71b10f6371bd87c463",
+      "title": "US public support for Iran war falls as Trump approval at record low: Poll - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVEIwTjRsMEVZR0Y1anpISy16SnpnZ2ZXWURndm1UVlp5bml0TUZTQmRuNzVpTmx6Smg1ckJqVllBN1BxU0ZuZ0M4aFpuWGEySlNnMTZPVzlGLXJmVGtlaFMxREczNUVHTEtaVzdSRy1LRjM2TzdCR19TcnhKdTdja2NuRXNhcWdzMUVzZTNZVE5UaHI2eE1LY3BlX2ZhZW5QRXU2UzNDaHhIQldlQmtaR2x6Um_SAboBQVVfeXFMTzFBbU8xNXQ5RkxyNW1qWnhXWF9jZ3MtUXpkcnlvd2dLSElCUjNfOUlnSzF5V0tYbzhPV3YteERjMFdtZG9ITzNRNXZVNE9rVEZKQnFOdWxLQ0VDaVZqdnRfS3pDbk1yMHFscklSYlZpeHROSU1QSmFab2o0WExVSG11Nkl2LXNhemVyYWtvUGNmV0c1eEJWY3lRU0d6MWJ",
+      "source": "Al Jazeera",
+      "horse": "Trump",
+      "sent_at": "2026-08-24T23:51:26.863068+00:00",
+      "impact": 89,
+      "impact_band": "alto",
+      "when_label": "25/08 · 00:51",
+      "read_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVEIwTjRsMEVZR0Y1anpISy16SnpnZ2ZXWURndm1UVlp5bml0TUZTQmRuNzVpTmx6Smg1ckJqVllBN1BxU0ZuZ0M4aFpuWGEySlNnMTZPVzlGLXJmVGtlaFMxREczNUVHTEtaVzdSRy1LRjM2TzdCR19TcnhKdTdja2NuRXNhcWdzMUVzZTNZVE5UaHI2eE1LY3BlX2ZhZW5QRXU2UzNDaHhIQldlQmtaR2x6Um_SAboBQVVfeXFMTzFBbU8xNXQ5RkxyNW1qWnhXWF9jZ3MtUXpkcnlvd2dLSElCUjNfOUlnSzF5V0tYbzhPV3YteERjMFdtZG9ITzNRNXZVNE9rVEZKQnFOdWxLQ0VDaVZqdnRfS3pDbk1yMHFscklSYlZpeHROSU1QSmFab2o0WExVSG11Nkl2LXNhemVyYWtvUGNmV0c1eEJWY3lRU0d6MWJ",
+      "kind": "RUMOR",
+      "badge": "🟠",
+      "horse_emoji": "🦅",
+      "hook": "Trump × o povo já não quer guerra",
+      "what": "Apoio público para guerra com Irão cai enquanto aprovação de Trump bate mínimos históricos",
+      "up": "o povo quer paz, não mais facturas de funeral",
+      "down": "aprovação no chão, é a hora de fugir da responsabilidade",
+      "vibe": "nervos à flor da pele em casa"
     },
     {
       "uid": "eec26cad6bc2e190177bf402",
@@ -389,26 +409,6 @@
       "up": "",
       "down": "",
       "vibe": ""
-    },
-    {
-      "uid": "4f7d4c8cf85b1e479fab9b65",
-      "title": "Experts react: Will Trump’s Operation Economic Outcast isolate Iran? - Atlantic Council",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLVJzRzNvV3ZhV0dXZHJCVkZQUno2WkJ2ckRFQmVBYWo1X1V2VW9pSDNTSEZwakNNVU5tRUVJV09JT2ZYakZEQWk3T2I4eE9DYkdJWVhiR0FUanh6V2tRMnFlcXczWHZkM25GVVdxNFF5ZHp6dXUxbkFNYW1rY2VMZHJPRUFKYW5UYl92Z2lfVC1MQzhBbk5Mc0lNN1Q0dU10SDBkT0VOZW5ZYUZWVUE?oc=5",
-      "source": "Atlantic Council",
-      "horse": "Trump",
-      "sent_at": "2026-08-24T23:16:29.037205+00:00",
-      "impact": 74,
-      "impact_band": "alto",
-      "when_label": "25/08 · 00:16",
-      "read_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLVJzRzNvV3ZhV0dXZHJCVkZQUno2WkJ2ckRFQmVBYWo1X1V2VW9pSDNTSEZwakNNVU5tRUVJV09JT2ZYakZEQWk3T2I4eE9DYkdJWVhiR0FUanh6V2tRMnFlcXczWHZkM25GVVdxNFF5ZHp6dXUxbkFNYW1rY2VMZHJPRUFKYW5UYl92Z2lfVC1MQzhBbk5Mc0lNN1Q0dU10SDBkT0VOZW5ZYUZWVUE?oc=5",
-      "kind": "OFICIAL",
-      "badge": "✅",
-      "horse_emoji": "🦅",
-      "hook": "Trump × Irão no gelo económico",
-      "what": "Especialistas debatem se sanções de Trump isolam o Irão",
-      "up": "o vizinho rude corta a ficha eléctrica",
-      "down": "ou o Irão já tem pilhas próprias",
-      "vibe": "tapar buracos com dinheiro velho"
     }
   ],
   "archive_days": [
