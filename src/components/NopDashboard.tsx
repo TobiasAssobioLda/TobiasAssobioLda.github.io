@@ -2,24 +2,82 @@
 
 import type { BookSnapshot, OpenRow } from "@/lib/types";
 
+const HORSE_EMOJI: Record<string, string> = {
+  Trump: "🦅",
+  Musk: "🚀",
+  Fed: "🏦",
+  Buffett: "🎩",
+  China: "🐉",
+  Índia: "🪷",
+  UE: "🇪🇺",
+  Venezuela: "🛢️",
+  Irão: "☢️",
+  Gaza: "🕊️",
+  Rússia: "🐻",
+  Ucrânia: "🌻",
+  Drones: "🛸",
+  Inflação: "📈",
+  Cripto: "₿",
+  Chips: "💾",
+  AI: "🤖",
+  Nuclear: "💥",
+  Ouro: "🥇",
+  Prata: "🪙",
+  Petróleo: "🛢️",
+  Saúde: "💊",
+};
+
 function fmtPct(n: number): string {
   return `${n >= 0 ? "+" : ""}${n.toFixed(1)}%`;
 }
 
+function impactBand(n: number): string {
+  if (n >= 90) return "extremo";
+  if (n >= 70) return "alto";
+  if (n >= 50) return "médio";
+  if (n >= 20) return "baixo";
+  return "ruído";
+}
+
 function NopCard({ row }: { row: OpenRow }) {
-  const hook = (row.news_hook || row.news_blurb || "").replace(/^🎤\s*/, "");
-  const what = row.news_what || "";
+  const horse = (row.horse || "").trim();
+  const horseEm = horse ? HORSE_EMOJI[horse] || "📌" : "";
+  const hook = (row.news_hook || "").replace(/^🎤\s*/, "").trim();
+  const what = (row.news_what || "").trim();
+  const blurb = (row.news_blurb || "")
+    .replace(/^🎤\s*/, "")
+    .trim();
+  const lead = hook || blurb;
+  const impact = row.news_impact || 0;
+
   return (
     <article className="nop-card">
       <header className="nop-head">
         <span className="nop-ticker">{row.ticker}</span>
-        {row.horse ? <span className="nop-horse">{row.horse}</span> : null}
-        {row.news_impact ? (
-          <span className="nop-impact">{row.news_impact}/99</span>
+        {horse ? (
+          <span className="nop-horse">
+            {horseEm ? `${horseEm} ` : ""}
+            {horse}
+          </span>
         ) : null}
       </header>
-      {hook ? <h3 className="nop-hook">{hook}</h3> : null}
-      {what ? <p className="nop-what">{what}</p> : null}
+
+      <div className="nop-news">
+        {lead ? (
+          <p className="tg-line tg-hook">
+            🎤 <strong>{lead}</strong>
+          </p>
+        ) : (
+          <p className="tg-line nop-news-empty">sem notícia da entrada</p>
+        )}
+        {what ? <p className="tg-line">📋 {what}</p> : null}
+        {impact > 0 ? (
+          <p className="tg-line">
+            📊 impacto <strong>{impact}</strong>/99 · {impactBand(impact)}
+          </p>
+        ) : null}
+      </div>
+
       <dl className="nop-nums">
         <div>
           <dt>entrada</dt>
@@ -27,11 +85,15 @@ function NopCard({ row }: { row: OpenRow }) {
         </div>
         <div>
           <dt>agora</dt>
-          <dd className={row.pnl_pct >= 0 ? "pos" : "neg"}>{row.price.toFixed(2)}</dd>
+          <dd className={row.pnl_pct >= 0 ? "pos" : "neg"}>
+            {row.price.toFixed(2)}
+          </dd>
         </div>
         <div>
           <dt>P/L</dt>
-          <dd className={row.pnl_pct >= 0 ? "pos" : "neg"}>{fmtPct(row.pnl_pct)}</dd>
+          <dd className={row.pnl_pct >= 0 ? "pos" : "neg"}>
+            {fmtPct(row.pnl_pct)}
+          </dd>
         </div>
         <div>
           <dt>SL</dt>
@@ -62,7 +124,7 @@ export function NopDashboard({
         <p className="brand">Trade1</p>
         <h1>NOP · {label}</h1>
         <p className="meta">
-          notícia da entrada
+          notícia da entrada · estilo Telegram
           {updatedAt ? ` · act. ${updatedAt.slice(11, 16)}` : ""}
         </p>
       </header>
@@ -71,12 +133,15 @@ export function NopDashboard({
       ) : (
         <div className="nop-list">
           {rows.map((r) => (
-            <NopCard key={`${r.ticker}-${r.entry}-${r.opened_at || ""}`} row={r} />
+            <NopCard
+              key={`${r.ticker}-${r.entry}-${r.opened_at || ""}`}
+              row={r}
+            />
           ))}
         </div>
       )}
       <footer>
-        Preços actualizam ~30 min (bot). Entrada / SL / TP continuam no Telegram.
+        Mesmas opens do Alpaca. A notícia é a da entrada (🎤 / 📋).
       </footer>
     </main>
   );

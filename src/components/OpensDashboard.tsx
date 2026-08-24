@@ -117,14 +117,14 @@ export function OpensDashboard({
         <p className="brand">Trade1</p>
         <h1>Opens</h1>
         <p className="meta">
-          {whenLabel || "—"}
+          Alpaca · {whenLabel || "—"}
           {updatedAt ? ` · ${updatedAt}` : ""}
         </p>
       </header>
       <OpenTable title="Pipoca" book={pipoca} />
       <OpenTable title="Chill" book={chill} />
       <footer>
-        Actualiza ~30 min no bot · site refresca a cada 5 min. Telegram = entrada + SL/TP.
+        Só posições abertas (preço / P/L). Notícia da entrada → abas NOP.
       </footer>
     </main>
   );
