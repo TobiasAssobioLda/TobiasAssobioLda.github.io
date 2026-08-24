@@ -1,27 +1,10 @@
 {
-  "updated_at": "2026-08-24T21:29:20+01:00",
+  "updated_at": "2026-08-24T21:40:53+01:00",
   "timezone": "Europe/Lisbon",
-  "count": 1,
-  "rows": [
-    {
-      "event_date": "",
-      "date_label": "",
-      "title": "Connecticut To Join New England Nuclear Power Summit Next Month - CT News Junkie",
-      "horse": "Nuclear",
-      "tickers": "SMR / UEC",
-      "ticker_up": "SMR",
-      "ticker_down": "UEC",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 65,
-      "price": null,
-      "sl": null,
-      "tp1": null,
-      "tp2": null,
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYWVTRUVUMWsySTFwUlhJNWRnd1dYS2ptdlhDZ29RallkWUd5WmdmbVM2OTB2b1JQamJSazEzS1RuLUxfU3oySHFkdzlxVC13V01mZ05DekxHQzhzeE1xOUJRbUxfaUhkby1jblRjMnJKUlYxUEVZYnVtcm8zNDZ6UkxMLWk1Q1E5V0VDWU5DNjBsUWYyX0Zob2YwczFISU9VRFE?oc=5",
-      "source": "spam",
-      "note": "summit+date-hint",
-      "rank": 1
-    }
-  ]
+  "opens_count": 0,
+  "calendar_count": 0,
+  "opens_rows": [],
+  "calendar_rows": [],
+  "count": 0,
+  "rows": []
 }
