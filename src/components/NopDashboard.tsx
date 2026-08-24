@@ -27,9 +27,6 @@ const HORSE_EMOJI: Record<string, string> = {
   Saúde: "💊",
 };
 
-const DIAG_NOISE =
-  /^(reteste|score|preparar|esperar|compressao|rth|i60|cluster|amigos|inimigos|rivais|pending)/i;
-
 function fmtPct(n: number): string {
   return `${n >= 0 ? "+" : ""}${n.toFixed(1)}%`;
 }
@@ -42,37 +39,21 @@ function impactBand(n: number): string {
   return "ruído";
 }
 
-/** Tira lixo de diag antigo do blurb → linha 🎤 legível. */
-function newsLead(row: OpenRow): string {
-  const hook = (row.news_hook || "").replace(/^🎤\s*/, "").trim();
-  if (hook) return hook;
-
-  let raw = (row.news_blurb || "").replace(/^🎤\s*/, "").trim();
-  if (!raw) return "";
-
-  const parts = raw
-    .split(/\s·\s/)
-    .map((p) => p.trim())
-    .filter(Boolean);
-  const kept: string[] = [];
-  for (const p of parts) {
-    if (DIAG_NOISE.test(p)) break;
-    kept.push(p);
+/** Só texto Gemini/Groq já gravado — sem inventar headline. */
+function geminiLines(row: OpenRow): { hook: string; what: string } {
+  let hook = (row.news_hook || "").replace(/^🎤\s*/, "").trim();
+  let what = (row.news_what || "").trim();
+  const blurb = (row.news_blurb || "").trim();
+  if (!hook && blurb.startsWith("🎤")) {
+    hook = blurb.replace(/^🎤\s*/, "").trim();
   }
-  raw = (kept[0] || parts[0] || raw).trim();
-
-  const horse = (row.horse || "").trim();
-  if (horse && raw.toLowerCase().startsWith(horse.toLowerCase() + ":")) {
-    raw = raw.slice(horse.length + 1).trim();
-  }
-  return raw;
+  return { hook, what };
 }
 
 function NopCard({ row }: { row: OpenRow }) {
   const horse = (row.horse || "").trim();
   const horseEm = horse ? HORSE_EMOJI[horse] || "📌" : "📌";
-  const lead = newsLead(row);
-  const what = (row.news_what || "").trim();
+  const { hook, what } = geminiLines(row);
   const impact = row.news_impact || 0;
 
   return (
@@ -84,18 +65,23 @@ function NopCard({ row }: { row: OpenRow }) {
             {horseEm} {horse}
           </span>
         ) : null}
+        {impact > 0 ? (
+          <span className="nop-impact">{impact}/99</span>
+        ) : null}
       </header>
 
       <div className="nop-news">
-        <p className="tg-line">
-          🟠 <strong>RUMOR</strong> · {horseEm} {horse || "Mundo"}
-        </p>
-        {lead ? (
+        {horse ? (
+          <p className="tg-line">
+            🟠 <strong>RUMOR</strong> · {horseEm} {horse}
+          </p>
+        ) : null}
+        {hook ? (
           <p className="tg-line tg-hook">
-            🎤 <strong>{lead}</strong>
+            🎤 <strong>{hook}</strong>
           </p>
         ) : (
-          <p className="tg-line nop-news-empty">sem notícia da entrada</p>
+          <p className="tg-line nop-news-empty">sem card Gemini/Groq nesta entrada</p>
         )}
         {what ? <p className="tg-line">📋 {what}</p> : null}
         {impact > 0 ? (
@@ -151,7 +137,7 @@ export function NopDashboard({
         <p className="brand">Trade1</p>
         <h1>NOP · {label}</h1>
         <p className="meta">
-          notícia da entrada (Telegram)
+          card Gemini/Groq da entrada
           {updatedAt ? ` · act. ${updatedAt.slice(11, 16)}` : ""}
         </p>
       </header>
@@ -167,7 +153,7 @@ export function NopDashboard({
           ))}
         </div>
       )}
-      <footer>Mesmas opens Alpaca · bloco 🎤/📋 = notícia da entrada.</footer>
+      <footer>Opens = Alpaca. Aqui = 🎤/📋 gravados na entrada.</footer>
     </main>
   );
 }
