@@ -27,6 +27,9 @@ const HORSE_EMOJI: Record<string, string> = {
   Saúde: "💊",
 };
 
+const DIAG_NOISE =
+  /^(reteste|score|preparar|esperar|compressao|rth|i60|cluster|amigos|inimigos|rivais|pending)/i;
+
 function fmtPct(n: number): string {
   return `${n >= 0 ? "+" : ""}${n.toFixed(1)}%`;
 }
@@ -39,15 +42,37 @@ function impactBand(n: number): string {
   return "ruído";
 }
 
+/** Tira lixo de diag antigo do blurb → linha 🎤 legível. */
+function newsLead(row: OpenRow): string {
+  const hook = (row.news_hook || "").replace(/^🎤\s*/, "").trim();
+  if (hook) return hook;
+
+  let raw = (row.news_blurb || "").replace(/^🎤\s*/, "").trim();
+  if (!raw) return "";
+
+  const parts = raw
+    .split(/\s·\s/)
+    .map((p) => p.trim())
+    .filter(Boolean);
+  const kept: string[] = [];
+  for (const p of parts) {
+    if (DIAG_NOISE.test(p)) break;
+    kept.push(p);
+  }
+  raw = (kept[0] || parts[0] || raw).trim();
+
+  const horse = (row.horse || "").trim();
+  if (horse && raw.toLowerCase().startsWith(horse.toLowerCase() + ":")) {
+    raw = raw.slice(horse.length + 1).trim();
+  }
+  return raw;
+}
+
 function NopCard({ row }: { row: OpenRow }) {
   const horse = (row.horse || "").trim();
-  const horseEm = horse ? HORSE_EMOJI[horse] || "📌" : "";
-  const hook = (row.news_hook || "").replace(/^🎤\s*/, "").trim();
+  const horseEm = horse ? HORSE_EMOJI[horse] || "📌" : "📌";
+  const lead = newsLead(row);
   const what = (row.news_what || "").trim();
-  const blurb = (row.news_blurb || "")
-    .replace(/^🎤\s*/, "")
-    .trim();
-  const lead = hook || blurb;
   const impact = row.news_impact || 0;
 
   return (
@@ -56,13 +81,15 @@ function NopCard({ row }: { row: OpenRow }) {
         <span className="nop-ticker">{row.ticker}</span>
         {horse ? (
           <span className="nop-horse">
-            {horseEm ? `${horseEm} ` : ""}
-            {horse}
+            {horseEm} {horse}
           </span>
         ) : null}
       </header>
 
       <div className="nop-news">
+        <p className="tg-line">
+          🟠 <strong>RUMOR</strong> · {horseEm} {horse || "Mundo"}
+        </p>
         {lead ? (
           <p className="tg-line tg-hook">
             🎤 <strong>{lead}</strong>
@@ -124,7 +151,7 @@ export function NopDashboard({
         <p className="brand">Trade1</p>
         <h1>NOP · {label}</h1>
         <p className="meta">
-          notícia da entrada · estilo Telegram
+          notícia da entrada (Telegram)
           {updatedAt ? ` · act. ${updatedAt.slice(11, 16)}` : ""}
         </p>
       </header>
@@ -140,9 +167,7 @@ export function NopDashboard({
           ))}
         </div>
       )}
-      <footer>
-        Mesmas opens do Alpaca. A notícia é a da entrada (🎤 / 📋).
-      </footer>
+      <footer>Mesmas opens Alpaca · bloco 🎤/📋 = notícia da entrada.</footer>
     </main>
   );
 }
