@@ -10,6 +10,7 @@ import { NopDashboard } from "./NopDashboard";
 import { PaperDashboard } from "./PaperDashboard";
 import { DatasDashboard } from "./DatasDashboard";
 import { PopularDashboard } from "./PopularDashboard";
+import { PossibleDashboard } from "./PossibleDashboard";
 import { fetchPaper } from "@/lib/paper";
 import { fetchDatas } from "@/lib/datas";
 import { fetchPopular } from "@/lib/popular";
@@ -27,6 +28,7 @@ const emptyOpens: OpensPayload = {
     equity_eur: 2000,
   },
   chill: { rows: [], total_pnl_pct: 0, total_pnl_eur: 0 },
+  possible: { rows: [], day: "", retry_min: 15, max_tries: 6 },
 };
 
 const emptyPaper: PaperPayload = {
@@ -65,7 +67,14 @@ const emptyPopular: PopularPayload = {
 /** Poll leve — não martela free tier / servidor. */
 const OPENS_POLL_MS = 2 * 60_000;
 
-type Tab = "opens" | "datas" | "popular" | "nop-chill" | "nop-pipoca" | "paper";
+type Tab =
+  | "opens"
+  | "possible"
+  | "datas"
+  | "popular"
+  | "nop-chill"
+  | "nop-pipoca"
+  | "paper";
 
 export function OpensApp() {
   const [tab, setTab] = useState<Tab>("opens");
@@ -130,6 +139,7 @@ export function OpensApp() {
         {(
           [
             ["opens", "Opens"],
+            ["possible", "Possible"],
             ["datas", "Datas"],
             ["popular", "Popular"],
             ["nop-chill", "NOP Chill"],
@@ -153,6 +163,19 @@ export function OpensApp() {
           updatedAt={opens.updated_at}
           pipoca={opens.pipoca}
           chill={opens.chill}
+        />
+      ) : null}
+      {tab === "possible" ? (
+        <PossibleDashboard
+          data={
+            opens.possible || {
+              rows: [],
+              day: "",
+              retry_min: 15,
+              max_tries: 6,
+            }
+          }
+          updatedAt={opens.updated_at}
         />
       ) : null}
       {tab === "datas" ? <DatasDashboard data={datas} /> : null}

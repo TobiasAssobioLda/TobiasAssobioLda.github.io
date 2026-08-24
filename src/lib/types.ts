@@ -35,4 +35,25 @@ export type OpensPayload = {
   when_label: string;
   pipoca: BookSnapshot;
   chill: BookSnapshot;
+  possible?: PossiblePayload;
+};
+
+export type PossibleRow = {
+  ticker: string;
+  book: string;
+  horse?: string;
+  impact: number;
+  tries: number;
+  max_tries?: number;
+  reason?: string;
+  next_check?: string;
+  first_seen?: string;
+  status?: string;
+};
+
+export type PossiblePayload = {
+  rows: PossibleRow[];
+  day?: string;
+  retry_min?: number;
+  max_tries?: number;
 };

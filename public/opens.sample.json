@@ -53,5 +53,24 @@
     ],
     "total_pnl_pct": 3.69,
     "total_pnl_eur": 1.48
+  },
+  "possible": {
+    "day": "2026-08-24",
+    "retry_min": 15,
+    "max_tries": 6,
+    "rows": [
+      {
+        "ticker": "NVDA",
+        "book": "pipoca",
+        "horse": "Chips",
+        "impact": 78,
+        "tries": 1,
+        "max_tries": 6,
+        "reason": "corr +0.82 · star +0.40",
+        "next_check": "2026-08-24T12:15:00+00:00",
+        "first_seen": "2026-08-24T12:00:00+00:00",
+        "status": "wait"
+      }
+    ]
   }
 }

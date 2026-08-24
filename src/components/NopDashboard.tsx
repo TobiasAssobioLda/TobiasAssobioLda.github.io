@@ -39,7 +39,7 @@ function impactBand(n: number): string {
   return "ruído";
 }
 
-/** Texto Gemini/Groq gravado; sem card → título/blurb da notícia. */
+/** Texto do card gravado; sem card → título/blurb da notícia. */
 function newsLines(row: OpenRow): { hook: string; what: string } {
   let hook = (row.news_hook || "").replace(/^🎤\s*/, "").trim();
   const what = (row.news_what || "").trim();
