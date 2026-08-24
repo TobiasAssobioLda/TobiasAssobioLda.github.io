@@ -4,8 +4,16 @@ import { useMemo, useState } from "react";
 import type { PaperItem, PaperPayload } from "@/lib/paper-types";
 
 function alike(a: string, b: string): boolean {
-  const na = a.toLowerCase().replace(/[^a-z0-9à-ú\s]/gi, " ").replace(/\s+/g, " ").trim();
-  const nb = b.toLowerCase().replace(/[^a-z0-9à-ú\s]/gi, " ").replace(/\s+/g, " ").trim();
+  const na = a
+    .toLowerCase()
+    .replace(/[^a-z0-9à-ú\s]/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  const nb = b
+    .toLowerCase()
+    .replace(/[^a-z0-9à-ú\s]/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
   if (!na || !nb) return false;
   if (na === nb) return true;
   if (na.includes(nb) || nb.includes(na)) return true;
@@ -16,6 +24,7 @@ function alike(a: string, b: string): boolean {
   return hits >= Math.ceil(wb.length * 0.6);
 }
 
+/** Bloco = chapado do card Telegram (hook + what), sem moldura TG. */
 function Story({ item, lead }: { item: PaperItem; lead?: boolean }) {
   const href = item.read_url || item.url;
   const headline = (item.hook || item.title || "").trim();
@@ -51,7 +60,7 @@ function editionVol(day: string): string {
   const [y, m, d] = day.split("-").map(Number);
   if (!y || !m || !d) return "edição da tarde";
   const n = m * 31 + d;
-  return `Vol. ${y - 2025} · Nº ${n} · Lisboa`;
+  return `Vol. ${y - 2025} · Nº ${n} · Viseu`;
 }
 
 export function PaperDashboard({
@@ -69,9 +78,6 @@ export function PaperDashboard({
     return items;
   }, [paper.items]);
 
-  const lead = ordered[0] || null;
-  const rest = lead ? ordered.slice(1) : [];
-
   const dayLabel = paper.day
     ? new Date(`${paper.day}T12:00:00`).toLocaleDateString("pt-PT", {
         weekday: "long",
@@ -83,13 +89,12 @@ export function PaperDashboard({
 
   return (
     <main className="paper-page">
-      {/* Masthead = só marca. Zero texto da notícia (sem Gemini). */}
-      <header className="paper-masthead">
+      <header className="paper-masthead paper-masthead--fixed">
         <p className="paper-eyebrow">{editionVol(paper.day)}</p>
         <div className="paper-rule double" />
         <p className="paper-brand">{paper.masthead || "O Rumors"}</p>
         <p className="paper-tag">
-          {paper.tagline || "geopolítica & mercados · sem o ruído"}
+          {paper.tagline || "geopolítica & mercados"}
         </p>
         <div className="paper-rule double" />
         <p className="paper-date">{dayLabel}</p>
@@ -101,50 +106,47 @@ export function PaperDashboard({
         </p>
       </header>
 
-      {!lead ? (
-        <p className="paper-empty">
-          Ainda sem edição — o bot grava o jornal às 14:00 com os Rumors do dia.
-        </p>
-      ) : (
-        <>
-          <Story item={lead} lead />
-          {rest.length > 0 ? (
-            <>
-              <div className="paper-rule thick" />
-              <p className="paper-section">também hoje</p>
-              <div className="paper-grid">
-                {rest.map((it) => (
-                  <Story key={it.uid} item={it} />
-                ))}
+      <div className="paper-body">
+        <div className="paper-rule thick" aria-hidden />
+        {ordered.length === 0 ? (
+          <p className="paper-empty">
+            Ainda sem edição — o bot grava o jornal às 14:00 com os Rumors do dia.
+          </p>
+        ) : (
+          <div className="paper-stack">
+            {ordered.map((it, i) => (
+              <div key={it.uid} className="paper-block">
+                {i > 0 ? <div className="paper-rule thick" aria-hidden /> : null}
+                <Story item={it} lead={i === 0} />
               </div>
-            </>
-          ) : null}
-        </>
-      )}
-
-      <div className="paper-archive-wrap">
-        <button
-          type="button"
-          className="paper-archive-toggle"
-          onClick={() => setShowArchive((v) => !v)}
-        >
-          {showArchive ? "esconder arquivo" : "arquivo…"}
-        </button>
-        {showArchive && (paper.archive_days || []).length > 0 ? (
-          <ul className="paper-archive">
-            {(paper.archive_days || []).map((d) => (
-              <li key={d}>
-                <button
-                  type="button"
-                  className={d === paper.day ? "active" : ""}
-                  onClick={() => onPickDay?.(d)}
-                >
-                  {d}
-                </button>
-              </li>
             ))}
-          </ul>
-        ) : null}
+          </div>
+        )}
+
+        <div className="paper-archive-wrap">
+          <button
+            type="button"
+            className="paper-archive-toggle"
+            onClick={() => setShowArchive((v) => !v)}
+          >
+            {showArchive ? "esconder arquivo" : "arquivo…"}
+          </button>
+          {showArchive && (paper.archive_days || []).length > 0 ? (
+            <ul className="paper-archive">
+              {(paper.archive_days || []).map((d) => (
+                <li key={d}>
+                  <button
+                    type="button"
+                    className={d === paper.day ? "active" : ""}
+                    onClick={() => onPickDay?.(d)}
+                  >
+                    {d}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          ) : null}
+        </div>
       </div>
     </main>
   );

@@ -24,7 +24,7 @@ const emptyPaper: PaperPayload = {
   cutoff: "13:55",
   count: 0,
   masthead: "O Rumors",
-  tagline: "edição da tarde · geopolítica & mercados",
+  tagline: "geopolítica & mercados",
   lead_uid: "",
   items: [],
   archive_days: [],
