@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-25T00:11:58+01:00",
+  "updated_at": "2026-08-25T00:51:28+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 587,
+  "n_events": 593,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
@@ -17,8 +17,8 @@
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 115,
-      "as_up": 100,
+      "total": 117,
+      "as_up": 102,
       "as_down": 15,
       "last_horse": "Irão"
     },
@@ -51,9 +51,9 @@
     {
       "rank": 6,
       "ticker": "KO",
-      "total": 71,
+      "total": 74,
       "as_up": 0,
-      "as_down": 71,
+      "as_down": 74,
       "last_horse": "Trump"
     },
     {
@@ -75,17 +75,17 @@
     {
       "rank": 9,
       "ticker": "FOXA",
-      "total": 47,
-      "as_up": 47,
+      "total": 50,
+      "as_up": 50,
       "as_down": 0,
       "last_horse": "Trump"
     },
     {
       "rank": 10,
       "ticker": "UAL",
-      "total": 47,
+      "total": 48,
       "as_up": 0,
-      "as_down": 47,
+      "as_down": 48,
       "last_horse": "Irão"
     },
     {
@@ -162,11 +162,11 @@
     },
     {
       "rank": 20,
-      "ticker": "AMD",
+      "ticker": "MSFT",
       "total": 7,
-      "as_up": 2,
-      "as_down": 5,
-      "last_horse": "Chips"
+      "as_up": 3,
+      "as_down": 4,
+      "last_horse": "Trump"
     }
   ],
   "count": 20,
@@ -182,8 +182,8 @@
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 115,
-      "as_up": 100,
+      "total": 117,
+      "as_up": 102,
       "as_down": 15,
       "last_horse": "Irão"
     },
@@ -214,9 +214,9 @@
     {
       "rank": 6,
       "ticker": "KO",
-      "total": 71,
+      "total": 74,
       "as_up": 0,
-      "as_down": 71,
+      "as_down": 74,
       "last_horse": "Trump"
     },
     {
@@ -238,17 +238,17 @@
     {
       "rank": 9,
       "ticker": "FOXA",
-      "total": 47,
-      "as_up": 47,
+      "total": 50,
+      "as_up": 50,
       "as_down": 0,
       "last_horse": "Trump"
     },
     {
       "rank": 10,
       "ticker": "UAL",
-      "total": 47,
+      "total": 48,
       "as_up": 0,
-      "as_down": 47,
+      "as_down": 48,
       "last_horse": "Irão"
     },
     {
@@ -325,11 +325,11 @@
     },
     {
       "rank": 20,
-      "ticker": "AMD",
+      "ticker": "MSFT",
       "total": 7,
-      "as_up": 2,
-      "as_down": 5,
-      "last_horse": "Chips"
+      "as_up": 3,
+      "as_down": 4,
+      "last_horse": "Trump"
     }
   ]
 }
