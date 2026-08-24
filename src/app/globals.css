@@ -15,8 +15,9 @@
   --paper-rule: #2c2c2c;
   --paper-accent: #8b1e1e;
   --paper-capa: #f0d84a;
-  --paper-zebra-a: #efeae0;
-  --paper-zebra-b: #d9e3ea;
+  /* zebra: ambos “papel”, distintos entre si e do fundo */
+  --paper-zebra-a: #f3efe6;
+  --paper-zebra-b: #dcd6cb;
   --serif: "Libre Baskerville", "Georgia", serif;
   --display: "Playfair Display", "Georgia", serif;
 }
