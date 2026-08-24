@@ -12,6 +12,12 @@ export type PopularPayload = {
   timezone: string;
   days: number;
   n_events: number;
-  count: number;
-  rows: PopularRow[];
+  top5_count: number;
+  top6_20_count: number;
+  top5: PopularRow[];
+  top6_20: PopularRow[];
+  /** @deprecated use top5 + top6_20 */
+  count?: number;
+  /** @deprecated */
+  rows?: PopularRow[];
 };

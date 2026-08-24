@@ -1,8 +1,33 @@
 {
-  "updated_at": "2026-08-24T21:00:00+01:00",
+  "updated_at": "2026-08-24T21:30:00+01:00",
   "timezone": "Europe/Lisbon",
-  "count": 2,
-  "rows": [
+  "opens_count": 1,
+  "calendar_count": 2,
+  "opens_rows": [
+    {
+      "rank": 1,
+      "event_date": "2026-08-26",
+      "date_label": "26/08",
+      "title": "Nvidia earnings — posição TSM",
+      "horse": "Chips",
+      "tickers": "TSM",
+      "ticker_up": "TSM",
+      "ticker_down": "",
+      "ticker_open": "TSM",
+      "book": "pipoca",
+      "action": "open",
+      "status": "open",
+      "score": 72,
+      "price": 185.2,
+      "sl": 172.5,
+      "tp1": 210.6,
+      "tp2": 225.0,
+      "url": "",
+      "source": "position",
+      "note": "pipoca"
+    }
+  ],
+  "calendar_rows": [
     {
       "rank": 1,
       "event_date": "2026-08-26",

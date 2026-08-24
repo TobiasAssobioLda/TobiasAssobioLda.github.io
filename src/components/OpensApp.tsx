@@ -44,8 +44,10 @@ const emptyPaper: PaperPayload = {
 const emptyDatas: DatasPayload = {
   updated_at: "",
   timezone: "Europe/Lisbon",
-  count: 0,
-  rows: [],
+  opens_count: 0,
+  calendar_count: 0,
+  opens_rows: [],
+  calendar_rows: [],
 };
 
 const emptyPopular: PopularPayload = {
@@ -53,8 +55,10 @@ const emptyPopular: PopularPayload = {
   timezone: "Europe/Lisbon",
   days: 7,
   n_events: 0,
-  count: 0,
-  rows: [],
+  top5_count: 0,
+  top6_20_count: 0,
+  top5: [],
+  top6_20: [],
 };
 
 function opensTarget(): string {

@@ -7,6 +7,8 @@ export type DatasRow = {
   tickers: string;
   ticker_up: string;
   ticker_down: string;
+  ticker_open?: string;
+  book?: string;
   action: string;
   status: string;
   score: number;
@@ -22,6 +24,12 @@ export type DatasRow = {
 export type DatasPayload = {
   updated_at: string;
   timezone: string;
-  count: number;
-  rows: DatasRow[];
+  opens_count: number;
+  calendar_count: number;
+  opens_rows: DatasRow[];
+  calendar_rows: DatasRow[];
+  /** @deprecated use calendar_rows */
+  count?: number;
+  /** @deprecated use calendar_rows */
+  rows?: DatasRow[];
 };

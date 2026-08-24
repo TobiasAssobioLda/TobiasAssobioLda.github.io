@@ -1,49 +1,22 @@
 {
-  "updated_at": "2026-08-24T21:00:00+01:00",
+  "updated_at": "2026-08-24T21:30:00+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
   "n_events": 42,
-  "count": 5,
-  "rows": [
-    {
-      "rank": 1,
-      "ticker": "NVDA",
-      "total": 12,
-      "as_up": 10,
-      "as_down": 2,
-      "last_horse": "Chips"
-    },
-    {
-      "rank": 2,
-      "ticker": "TSM",
-      "total": 9,
-      "as_up": 8,
-      "as_down": 1,
-      "last_horse": "Chips"
-    },
-    {
-      "rank": 3,
-      "ticker": "AMD",
-      "total": 8,
-      "as_up": 2,
-      "as_down": 6,
-      "last_horse": "Chips"
-    },
-    {
-      "rank": 4,
-      "ticker": "ORCL",
-      "total": 5,
-      "as_up": 5,
-      "as_down": 0,
-      "last_horse": "AI"
-    },
-    {
-      "rank": 5,
-      "ticker": "MSFT",
-      "total": 4,
-      "as_up": 1,
-      "as_down": 3,
-      "last_horse": "AI"
-    }
+  "top5_count": 5,
+  "top6_20_count": 5,
+  "top5": [
+    { "rank": 1, "ticker": "NVDA", "total": 12, "as_up": 10, "as_down": 2, "last_horse": "Chips" },
+    { "rank": 2, "ticker": "TSM", "total": 9, "as_up": 8, "as_down": 1, "last_horse": "Chips" },
+    { "rank": 3, "ticker": "AMD", "total": 8, "as_up": 2, "as_down": 6, "last_horse": "Chips" },
+    { "rank": 4, "ticker": "ORCL", "total": 5, "as_up": 5, "as_down": 0, "last_horse": "AI" },
+    { "rank": 5, "ticker": "MSFT", "total": 4, "as_up": 1, "as_down": 3, "last_horse": "AI" }
+  ],
+  "top6_20": [
+    { "rank": 6, "ticker": "PLTR", "total": 4, "as_up": 4, "as_down": 0, "last_horse": "Trump" },
+    { "rank": 7, "ticker": "FOXA", "total": 3, "as_up": 3, "as_down": 0, "last_horse": "Trump" },
+    { "rank": 8, "ticker": "KO", "total": 3, "as_up": 0, "as_down": 3, "last_horse": "Trump" },
+    { "rank": 9, "ticker": "XLF", "total": 2, "as_up": 2, "as_down": 0, "last_horse": "Fed" },
+    { "rank": 10, "ticker": "TLT", "total": 2, "as_up": 0, "as_down": 2, "last_horse": "Fed" }
   ]
 }
