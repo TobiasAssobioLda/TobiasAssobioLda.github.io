@@ -4,7 +4,7 @@
   "days": 7,
   "n_events": 42,
   "top5_count": 5,
-  "top6_20_count": 5,
+  "top6_20_count": 15,
   "top5": [
     { "rank": 1, "ticker": "NVDA", "total": 12, "as_up": 10, "as_down": 2, "last_horse": "Chips" },
     { "rank": 2, "ticker": "TSM", "total": 9, "as_up": 8, "as_down": 1, "last_horse": "Chips" },
@@ -17,6 +17,16 @@
     { "rank": 7, "ticker": "FOXA", "total": 3, "as_up": 3, "as_down": 0, "last_horse": "Trump" },
     { "rank": 8, "ticker": "KO", "total": 3, "as_up": 0, "as_down": 3, "last_horse": "Trump" },
     { "rank": 9, "ticker": "XLF", "total": 2, "as_up": 2, "as_down": 0, "last_horse": "Fed" },
-    { "rank": 10, "ticker": "TLT", "total": 2, "as_up": 0, "as_down": 2, "last_horse": "Fed" }
+    { "rank": 10, "ticker": "TLT", "total": 2, "as_up": 0, "as_down": 2, "last_horse": "Fed" },
+    { "rank": 11, "ticker": "AAPL", "total": 2, "as_up": 2, "as_down": 0, "last_horse": "Earnings" },
+    { "rank": 12, "ticker": "GOOGL", "total": 2, "as_up": 1, "as_down": 1, "last_horse": "AI" },
+    { "rank": 13, "ticker": "META", "total": 1, "as_up": 1, "as_down": 0, "last_horse": "AI" },
+    { "rank": 14, "ticker": "AMZN", "total": 1, "as_up": 1, "as_down": 0, "last_horse": "Earnings" },
+    { "rank": 15, "ticker": "JPM", "total": 1, "as_up": 0, "as_down": 1, "last_horse": "Bancos" },
+    { "rank": 16, "ticker": "BAC", "total": 1, "as_up": 0, "as_down": 1, "last_horse": "Bancos" },
+    { "rank": 17, "ticker": "XOM", "total": 1, "as_up": 1, "as_down": 0, "last_horse": "Petróleo" },
+    { "rank": 18, "ticker": "CVX", "total": 1, "as_up": 0, "as_down": 1, "last_horse": "Petróleo" },
+    { "rank": 19, "ticker": "GLD", "total": 1, "as_up": 1, "as_down": 0, "last_horse": "Ouro" },
+    { "rank": 20, "ticker": "SLV", "total": 1, "as_up": 0, "as_down": 1, "last_horse": "Prata" }
   ]
 }

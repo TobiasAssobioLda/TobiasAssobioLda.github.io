@@ -1,21 +1,11 @@
 import type { PopularPayload, PopularRow } from "@/lib/popular-types";
 
-function PopularTable({
-  title,
-  rows,
-  empty,
-}: {
-  title: string;
-  rows: PopularRow[];
-  empty: string;
-}) {
+function PopularTable({ title, rows }: { title: string; rows: PopularRow[] }) {
   return (
     <section className="book">
-      <h2>
-        {title} <span className="count">{rows.length}</span>
-      </h2>
+      <h2>{title}</h2>
       {!rows.length ? (
-        <p className="empty">{empty}</p>
+        <p className="empty">—</p>
       ) : (
         <div className="table-wrap">
           <table>
@@ -34,9 +24,7 @@ function PopularTable({
                 <tr key={`${title}-${r.ticker}`}>
                   <td>{r.rank}</td>
                   <td className="ticker">{r.ticker}</td>
-                  <td>
-                    <strong>{r.total}</strong>
-                  </td>
+                  <td>{r.total}</td>
                   <td className="pos">{r.as_up}</td>
                   <td className="neg">{r.as_down}</td>
                   <td>{r.last_horse || "—"}</td>
@@ -51,31 +39,23 @@ function PopularTable({
 }
 
 export function PopularDashboard({ data }: { data: PopularPayload }) {
-  const top5 = data.top5?.length ? data.top5 : (data.rows || []).slice(0, 5);
-  const top6_20 = data.top6_20?.length
-    ? data.top6_20
-    : (data.rows || []).slice(5, 20);
+  const all =
+    data.top5?.length || data.top6_20?.length
+      ? [...(data.top5 || []), ...(data.top6_20 || [])]
+      : (data.rows || []).slice(0, 20);
+
+  const top5 = all.slice(0, 5);
+  const rest = all.slice(5, 20);
 
   return (
     <main className="page">
       <header>
-        <p className="brand">Trade1</p>
         <h1>Popular</h1>
-        <p className="meta">
-          Tickers nas notícias · janela {data.days || 7}d
-          {data.updated_at ? ` · ${data.updated_at}` : ""}
-        </p>
+        <p className="meta">tickers nas notícias</p>
       </header>
 
-      <PopularTable title="Top 5" rows={top5} empty="sem hits esta semana" />
-
-      <PopularTable
-        title="Top 6–20"
-        rows={top6_20}
-        empty="menos de 6 tickers com hits"
-      />
-
-      <footer>#1 = mais citado nos cards Spam/Rumors (últimos {data.days || 7} dias).</footer>
+      <PopularTable title="Top 5" rows={top5} />
+      <PopularTable title="6–20" rows={rest} />
     </main>
   );
 }

@@ -5,22 +5,12 @@ function fmtPx(n?: number | null): string {
   return n.toFixed(2);
 }
 
-function DatasTable({
-  title,
-  rows,
-  empty,
-}: {
-  title: string;
-  rows: DatasRow[];
-  empty: string;
-}) {
+function DatasTable({ title, rows }: { title: string; rows: DatasRow[] }) {
   return (
     <section className="book">
-      <h2>
-        {title} <span className="count">{rows.length}</span>
-      </h2>
+      <h2>{title}</h2>
       {!rows.length ? (
-        <p className="empty">{empty}</p>
+        <p className="empty">—</p>
       ) : (
         <div className="table-wrap">
           <table>
@@ -49,9 +39,6 @@ function DatasTable({
                     ) : (
                       r.title
                     )}
-                    <span className="cell-sub">
-                      {[r.horse, r.book, r.status].filter(Boolean).join(" · ")}
-                    </span>
                   </td>
                   <td className="ticker">
                     {r.ticker_open || r.tickers || r.ticker_up || "—"}
@@ -69,9 +56,7 @@ function DatasTable({
 }
 
 export function DatasDashboard({ data }: { data: DatasPayload }) {
-  const opens = data.opens_rows?.length
-    ? data.opens_rows
-    : [];
+  const opens = data.opens_rows?.length ? data.opens_rows : [];
   const calendar = data.calendar_rows?.length
     ? data.calendar_rows
     : data.rows || [];
@@ -79,30 +64,12 @@ export function DatasDashboard({ data }: { data: DatasPayload }) {
   return (
     <main className="page">
       <header>
-        <p className="brand">Trade1</p>
         <h1>Datas</h1>
-        <p className="meta">
-          Opens + agenda · passado desaparece
-          {data.updated_at ? ` · ${data.updated_at}` : ""}
-        </p>
+        <p className="meta">open + agenda</p>
       </header>
 
-      <DatasTable
-        title="Opens — datas das posições"
-        rows={opens}
-        empty="sem opens com data à frente"
-      />
-
-      <DatasTable
-        title="Agenda — todas as datas"
-        rows={calendar}
-        empty="sem datas futuras"
-      />
-
-      <footer>
-        Tabela 1 = Pipoca/Chill abertas. Tabela 2 = calendário + spam (some
-        depois do dia).
-      </footer>
+      <DatasTable title="Open" rows={opens} />
+      <DatasTable title="Agenda" rows={calendar} />
     </main>
   );
 }
