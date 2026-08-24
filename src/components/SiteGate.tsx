@@ -2,29 +2,46 @@
 
 import { FormEvent, ReactNode, useEffect, useState } from "react";
 
-const STORAGE_KEY = "trade1_gate_ok";
-
 function expectedPassword(): string {
   return (process.env.NEXT_PUBLIC_SITE_PASSWORD || "").trim();
 }
 
+/** Chave muda se a pass mudar no deploy → pede outra vez. */
+function gateStorageKey(): string {
+  const pw = expectedPassword();
+  let h = 0;
+  for (let i = 0; i < pw.length; i += 1) {
+    h = (h * 31 + pw.charCodeAt(i)) | 0;
+  }
+  return `trade1_gate_${h}`;
+}
+
+function isStoredUnlock(): boolean {
+  if (typeof window === "undefined") return false;
+  try {
+    return localStorage.getItem(gateStorageKey()) === "1";
+  } catch {
+    return false;
+  }
+}
+
+function rememberUnlock(): void {
+  try {
+    localStorage.setItem(gateStorageKey(), "1");
+  } catch {
+    /* ignore */
+  }
+}
+
 export function SiteGate({ children }: { children: ReactNode }) {
   const password = expectedPassword();
-  const [unlocked, setUnlocked] = useState(() => !password);
+  const [unlocked, setUnlocked] = useState(() => !password || isStoredUnlock());
   const [value, setValue] = useState("");
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    if (!password) {
+    if (!password || isStoredUnlock()) {
       setUnlocked(true);
-      return;
-    }
-    try {
-      if (sessionStorage.getItem(STORAGE_KEY) === "1") {
-        setUnlocked(true);
-      }
-    } catch {
-      /* ignore */
     }
   }, [password]);
 
@@ -35,11 +52,7 @@ export function SiteGate({ children }: { children: ReactNode }) {
   function onSubmit(e: FormEvent) {
     e.preventDefault();
     if (value === password) {
-      try {
-        sessionStorage.setItem(STORAGE_KEY, "1");
-      } catch {
-        /* ignore */
-      }
+      rememberUnlock();
       setError(false);
       setUnlocked(true);
       return;
