@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-08-24T22:52:57+01:00",
+  "updated_at": "2026-08-24T23:22:59+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 578,
+  "n_events": 582,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
     {
       "rank": 1,
       "ticker": "GLD",
-      "total": 201,
+      "total": 202,
       "as_up": 27,
-      "as_down": 174,
-      "last_horse": "Rússia"
+      "as_down": 175,
+      "last_horse": "Irão"
     },
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 113,
-      "as_up": 98,
+      "total": 115,
+      "as_up": 100,
       "as_down": 15,
-      "last_horse": "Chips"
+      "last_horse": "Irão"
     },
     {
       "rank": 3,
@@ -51,9 +51,9 @@
     {
       "rank": 6,
       "ticker": "KO",
-      "total": 65,
+      "total": 67,
       "as_up": 0,
-      "as_down": 65,
+      "as_down": 67,
       "last_horse": "Trump"
     },
     {
@@ -75,16 +75,16 @@
     {
       "rank": 9,
       "ticker": "UAL",
-      "total": 46,
+      "total": 47,
       "as_up": 0,
-      "as_down": 46,
+      "as_down": 47,
       "last_horse": "Irão"
     },
     {
       "rank": 10,
       "ticker": "FOXA",
-      "total": 42,
-      "as_up": 42,
+      "total": 44,
+      "as_up": 44,
       "as_down": 0,
       "last_horse": "Trump"
     },
@@ -174,18 +174,18 @@
     {
       "rank": 1,
       "ticker": "GLD",
-      "total": 201,
+      "total": 202,
       "as_up": 27,
-      "as_down": 174,
-      "last_horse": "Rússia"
+      "as_down": 175,
+      "last_horse": "Irão"
     },
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 113,
-      "as_up": 98,
+      "total": 115,
+      "as_up": 100,
       "as_down": 15,
-      "last_horse": "Chips"
+      "last_horse": "Irão"
     },
     {
       "rank": 3,
@@ -214,9 +214,9 @@
     {
       "rank": 6,
       "ticker": "KO",
-      "total": 65,
+      "total": 67,
       "as_up": 0,
-      "as_down": 65,
+      "as_down": 67,
       "last_horse": "Trump"
     },
     {
@@ -238,16 +238,16 @@
     {
       "rank": 9,
       "ticker": "UAL",
-      "total": 46,
+      "total": 47,
       "as_up": 0,
-      "as_down": 46,
+      "as_down": 47,
       "last_horse": "Irão"
     },
     {
       "rank": 10,
       "ticker": "FOXA",
-      "total": 42,
-      "as_up": 42,
+      "total": 44,
+      "as_up": 44,
       "as_down": 0,
       "last_horse": "Trump"
     },
