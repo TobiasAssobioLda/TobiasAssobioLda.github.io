@@ -17,7 +17,7 @@ function fmtBank(n: number): string {
   });
 }
 
-function BankLine({ book }: { book: BookSnapshot }) {
+function PipocaBankLine({ book }: { book: BookSnapshot }) {
   const bank = book.bank_eur && book.bank_eur > 0 ? book.bank_eur : 0;
   if (!bank) return null;
   const equity =
@@ -35,19 +35,45 @@ function BankLine({ book }: { book: BookSnapshot }) {
   );
 }
 
+function ChillTotalLine({ book }: { book: BookSnapshot }) {
+  const rows = book.rows || [];
+  if (!rows.length) return null;
+  return (
+    <p className="bank-line">
+      Total opens
+      <span className="bank-sep">·</span>
+      <span className={book.total_pnl_pct >= 0 ? "pos" : "neg"}>
+        {fmtPct(book.total_pnl_pct)}
+      </span>
+      <span className="bank-sep">·</span>
+      <span className={book.total_pnl_eur >= 0 ? "pos" : "neg"}>
+        {fmtUsd(book.total_pnl_eur || 0)}
+      </span>
+    </p>
+  );
+}
+
 function OpenTable({
   title,
   book,
+  summary,
 }: {
   title: string;
   book: BookSnapshot;
+  summary: "pipoca" | "chill";
 }) {
   const rows = book.rows || [];
+  const Summary =
+    summary === "pipoca" ? (
+      <PipocaBankLine book={book} />
+    ) : (
+      <ChillTotalLine book={book} />
+    );
   if (!rows.length) {
     return (
       <section className="book">
         <h2>{title}</h2>
-        <BankLine book={book} />
+        {Summary}
         <p className="empty">sem posições abertas</p>
       </section>
     );
@@ -58,7 +84,7 @@ function OpenTable({
       <h2>
         {title} <span className="count">{rows.length} open</span>
       </h2>
-      <BankLine book={book} />
+      {Summary}
       <div className="table-wrap">
         <table>
           <thead>
@@ -123,8 +149,8 @@ export function OpensDashboard({
           {updatedAt ? ` · ${updatedAt}` : ""}
         </p>
       </header>
-      <OpenTable title="Pipoca" book={pipoca} />
-      <OpenTable title="Chill" book={chill} />
+      <OpenTable title="Pipoca" book={pipoca} summary="pipoca" />
+      <OpenTable title="Chill" book={chill} summary="chill" />
       <footer>
         Valores Alpaca (posição real). Notícia da entrada → abas NOP.
       </footer>
