@@ -1,11 +1,11 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T21:14:14+01:00",
+  "published_at": "2026-08-25T21:17:02+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
   "max_items": 20,
-  "count": 8,
+  "count": 9,
   "masthead": "O Rumors",
   "tagline": "geopolítica & mercados · Rumors do dia",
   "paper_since": "2026-08-25T15:46:13.860066+00:00",
@@ -186,6 +186,28 @@
       "vibe": "olha o barómetro do petróleo cair",
       "ticker_up": "XOM",
       "ticker_down": "LMT"
+    },
+    {
+      "uid": "0acaea2caab0e76ffe236f33",
+      "title": "Iran Generals and Oil markets brace for a forever war",
+      "url": "https://thenorthlines.com/irans-generals-and-oil-markets-brace-for-a-forever-war/",
+      "source": "thenorthlines.com",
+      "horse": "Irão",
+      "sent_at": "2026-08-25T20:17:02.919499+00:00",
+      "impact": 55,
+      "impact_band": "médio",
+      "when_label": "25/08 · 21:17",
+      "read_url": "https://thenorthlines.com/irans-generals-and-oil-markets-brace-for-a-forever-war/",
+      "kind": "RUMOR",
+      "badge": "🟠",
+      "horse_emoji": "☢️",
+      "hook": "Irão × guerra eterna no horizonte",
+      "what": "Generais iranianos preparam cenário de conflito prolongado",
+      "up": "o petróleo vai custar mais caro que o café",
+      "down": "e os contratos de defesa nunca vão acabar",
+      "vibe": "tensão no ar e preços a subir",
+      "ticker_up": "OXY",
+      "ticker_down": "XOM"
     }
   ],
   "archive_days": [
