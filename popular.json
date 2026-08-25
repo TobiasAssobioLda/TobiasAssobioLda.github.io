@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-08-25T14:16:51+01:00",
+  "updated_at": "2026-08-25T14:51:43+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 612,
+  "n_events": 621,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
     {
       "rank": 1,
       "ticker": "GLD",
-      "total": 209,
+      "total": 214,
       "as_up": 27,
-      "as_down": 182,
-      "last_horse": "Chips"
+      "as_down": 187,
+      "last_horse": "Ucrânia"
     },
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 123,
-      "as_up": 107,
-      "as_down": 16,
-      "last_horse": "Irão"
+      "total": 127,
+      "as_up": 110,
+      "as_down": 17,
+      "last_horse": "Ucrânia"
     },
     {
       "rank": 3,
@@ -41,10 +41,10 @@
     {
       "rank": 5,
       "ticker": "PLTR",
-      "total": 78,
-      "as_up": 78,
+      "total": 79,
+      "as_up": 79,
       "as_down": 0,
-      "last_horse": "Trump"
+      "last_horse": "Ucrânia"
     }
   ],
   "top6_20": [
@@ -115,8 +115,8 @@
     {
       "rank": 14,
       "ticker": "EE",
-      "total": 17,
-      "as_up": 17,
+      "total": 18,
+      "as_up": 18,
       "as_down": 0,
       "last_horse": "Ucrânia"
     },
@@ -130,6 +130,14 @@
     },
     {
       "rank": 16,
+      "ticker": "F",
+      "total": 11,
+      "as_up": 9,
+      "as_down": 2,
+      "last_horse": "Trump"
+    },
+    {
+      "rank": 17,
       "ticker": "TSLA",
       "total": 10,
       "as_up": 10,
@@ -137,36 +145,28 @@
       "last_horse": "Musk"
     },
     {
-      "rank": 17,
-      "ticker": "F",
+      "rank": 18,
+      "ticker": "LMT",
       "total": 10,
       "as_up": 8,
       "as_down": 2,
+      "last_horse": "Ucrânia"
+    },
+    {
+      "rank": 19,
+      "ticker": "GM",
+      "total": 10,
+      "as_up": 1,
+      "as_down": 9,
       "last_horse": "Trump"
     },
     {
-      "rank": 18,
+      "rank": 20,
       "ticker": "TSM",
       "total": 9,
       "as_up": 9,
       "as_down": 0,
       "last_horse": "China"
-    },
-    {
-      "rank": 19,
-      "ticker": "GM",
-      "total": 9,
-      "as_up": 1,
-      "as_down": 8,
-      "last_horse": "Trump"
-    },
-    {
-      "rank": 20,
-      "ticker": "IEF",
-      "total": 9,
-      "as_up": 0,
-      "as_down": 9,
-      "last_horse": "Fed"
     }
   ],
   "count": 20,
@@ -174,18 +174,18 @@
     {
       "rank": 1,
       "ticker": "GLD",
-      "total": 209,
+      "total": 214,
       "as_up": 27,
-      "as_down": 182,
-      "last_horse": "Chips"
+      "as_down": 187,
+      "last_horse": "Ucrânia"
     },
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 123,
-      "as_up": 107,
-      "as_down": 16,
-      "last_horse": "Irão"
+      "total": 127,
+      "as_up": 110,
+      "as_down": 17,
+      "last_horse": "Ucrânia"
     },
     {
       "rank": 3,
@@ -206,10 +206,10 @@
     {
       "rank": 5,
       "ticker": "PLTR",
-      "total": 78,
-      "as_up": 78,
+      "total": 79,
+      "as_up": 79,
       "as_down": 0,
-      "last_horse": "Trump"
+      "last_horse": "Ucrânia"
     },
     {
       "rank": 6,
@@ -278,8 +278,8 @@
     {
       "rank": 14,
       "ticker": "EE",
-      "total": 17,
-      "as_up": 17,
+      "total": 18,
+      "as_up": 18,
       "as_down": 0,
       "last_horse": "Ucrânia"
     },
@@ -293,6 +293,14 @@
     },
     {
       "rank": 16,
+      "ticker": "F",
+      "total": 11,
+      "as_up": 9,
+      "as_down": 2,
+      "last_horse": "Trump"
+    },
+    {
+      "rank": 17,
       "ticker": "TSLA",
       "total": 10,
       "as_up": 10,
@@ -300,36 +308,28 @@
       "last_horse": "Musk"
     },
     {
-      "rank": 17,
-      "ticker": "F",
+      "rank": 18,
+      "ticker": "LMT",
       "total": 10,
       "as_up": 8,
       "as_down": 2,
+      "last_horse": "Ucrânia"
+    },
+    {
+      "rank": 19,
+      "ticker": "GM",
+      "total": 10,
+      "as_up": 1,
+      "as_down": 9,
       "last_horse": "Trump"
     },
     {
-      "rank": 18,
+      "rank": 20,
       "ticker": "TSM",
       "total": 9,
       "as_up": 9,
       "as_down": 0,
       "last_horse": "China"
-    },
-    {
-      "rank": 19,
-      "ticker": "GM",
-      "total": 9,
-      "as_up": 1,
-      "as_down": 8,
-      "last_horse": "Trump"
-    },
-    {
-      "rank": 20,
-      "ticker": "IEF",
-      "total": 9,
-      "as_up": 0,
-      "as_down": 9,
-      "last_horse": "Fed"
     }
   ]
 }
