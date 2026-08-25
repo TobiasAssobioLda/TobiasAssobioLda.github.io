@@ -1,6 +1,6 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T14:37:32+01:00",
+  "published_at": "2026-08-25T14:40:32+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -189,6 +189,26 @@
       "up": "o jogo de brincar a ser mais duro que o vizinho",
       "down": "sanções que picam mas não matam o dragão",
       "vibe": "ar pesado e café frio"
+    },
+    {
+      "uid": "d2e8adc177e09184ff99e77e",
+      "title": "Can Pakistan Asim Munir convince Iran military chiefs to return to talks ? | US - Israel war on Iran News",
+      "url": "https://www.aljazeera.com/news/2026/8/25/can-pakistans-asim-munir-convince-iran-military-chiefs-to-return-to-talks",
+      "source": "aljazeera.com",
+      "horse": "Irão",
+      "sent_at": "2026-08-25T13:38:55.640560+00:00",
+      "impact": 82,
+      "impact_band": "alto",
+      "when_label": "25/08 · 14:38",
+      "read_url": "https://www.aljazeera.com/news/2026/8/25/can-pakistans-asim-munir-convince-iran-military-chiefs-to-return-to-talks",
+      "kind": "RUMOR",
+      "badge": "🟠",
+      "horse_emoji": "☢️",
+      "hook": "Irão × General paquistanês faz mediação",
+      "what": "General paquistanês tenta convencer Irão a retomar negociações",
+      "up": "o vizinho a dizer 'paz' soa a piada negra",
+      "down": "ou o Irão só liga se houver comboio a chegar",
+      "vibe": "tensão no ar e muitos olhares tortos"
     },
     {
       "uid": "b3a7689fe4150f8a3a1656bc",
@@ -389,26 +409,6 @@
       "up": "O Canadá continua a recusar o passaporte de vassalo.",
       "down": "Afrontar o máximo poderio militar com diplomacia é ousado.",
       "vibe": "vizinhos barulhentos e sem limites"
-    },
-    {
-      "uid": "4f7d4c8cf85b1e479fab9b65",
-      "title": "Experts react: Will Trump’s Operation Economic Outcast isolate Iran? - Atlantic Council",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLVJzRzNvV3ZhV0dXZHJCVkZQUno2WkJ2ckRFQmVBYWo1X1V2VW9pSDNTSEZwakNNVU5tRUVJV09JT2ZYakZEQWk3T2I4eE9DYkdJWVhiR0FUanh6V2tRMnFlcXczWHZkM25GVVdxNFF5ZHp6dXUxbkFNYW1rY2VMZHJPRUFKYW5UYl92Z2lfVC1MQzhBbk5Mc0lNN1Q0dU10SDBkT0VOZW5ZYUZWVUE?oc=5",
-      "source": "Atlantic Council",
-      "horse": "Trump",
-      "sent_at": "2026-08-24T23:16:29.037205+00:00",
-      "impact": 74,
-      "impact_band": "alto",
-      "when_label": "25/08 · 00:16",
-      "read_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLVJzRzNvV3ZhV0dXZHJCVkZQUno2WkJ2ckRFQmVBYWo1X1V2VW9pSDNTSEZwakNNVU5tRUVJV09JT2ZYakZEQWk3T2I4eE9DYkdJWVhiR0FUanh6V2tRMnFlcXczWHZkM25GVVdxNFF5ZHp6dXUxbkFNYW1rY2VMZHJPRUFKYW5UYl92Z2lfVC1MQzhBbk5Mc0lNN1Q0dU10SDBkT0VOZW5ZYUZWVUE?oc=5",
-      "kind": "OFICIAL",
-      "badge": "✅",
-      "horse_emoji": "🦅",
-      "hook": "Trump × Irão no gelo económico",
-      "what": "Especialistas debatem se sanções de Trump isolam o Irão",
-      "up": "o vizinho rude corta a ficha eléctrica",
-      "down": "ou o Irão já tem pilhas próprias",
-      "vibe": "tapar buracos com dinheiro velho"
     }
   ],
   "archive_days": [
