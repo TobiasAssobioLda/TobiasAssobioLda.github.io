@@ -18,6 +18,15 @@ export type OpenRow = {
   news_blurb?: string;
   news_impact?: number;
   opened_at?: string;
+  /** Report / Nerd */
+  diag?: string;
+  corr_score?: number;
+  sinal_score?: number;
+  tp_tip?: string;
+  tp_gap?: number | null;
+  tp_sugerido_mid?: number | null;
+  event_date?: string;
+  horizon_days?: number | null;
 };
 
 export type BookSnapshot = {

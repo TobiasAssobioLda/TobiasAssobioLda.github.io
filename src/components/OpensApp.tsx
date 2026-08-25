@@ -7,6 +7,7 @@ import type { DatasPayload } from "@/lib/datas-types";
 import type { PopularPayload } from "@/lib/popular-types";
 import { OpensDashboard } from "./OpensDashboard";
 import { NopDashboard } from "./NopDashboard";
+import { NerdDashboard } from "./NerdDashboard";
 import { PaperDashboard } from "./PaperDashboard";
 import { DatasDashboard } from "./DatasDashboard";
 import { PopularDashboard } from "./PopularDashboard";
@@ -76,7 +77,7 @@ const emptyPopular: PopularPayload = {
 const OPENS_POLL_MS = 2 * 60_000;
 const PAPER_POLL_MS = 3 * 60_000;
 
-type Tab = "opens" | "possible" | "datas" | "popular" | "nop" | "paper";
+type Tab = "opens" | "possible" | "datas" | "popular" | "nop" | "nerd" | "paper";
 type OpenBook = "pipoca" | "chill" | "pipoca_all";
 type NopBook = "chill" | "pipoca" | "pipoca_all";
 
@@ -84,6 +85,7 @@ export function OpensApp() {
   const [tab, setTab] = useState<Tab>("opens");
   const [openBook, setOpenBook] = useState<OpenBook>("pipoca");
   const [nopBook, setNopBook] = useState<NopBook>("chill");
+  const [nerdBook, setNerdBook] = useState<NopBook>("chill");
   const [opens, setOpens] = useState<OpensPayload>(emptyOpens);
   const [paper, setPaper] = useState<PaperPayload>(emptyPaper);
   const [datas, setDatas] = useState<DatasPayload>(emptyDatas);
@@ -166,6 +168,19 @@ export function OpensApp() {
         ? "Pipoca All"
         : "Pipoca";
 
+  const nerdSnap =
+    nerdBook === "chill"
+      ? opens.chill
+      : nerdBook === "pipoca_all"
+        ? opens.pipoca_all || emptyBook
+        : opens.pipoca;
+  const nerdLabel =
+    nerdBook === "chill"
+      ? "Chill"
+      : nerdBook === "pipoca_all"
+        ? "Pipoca All"
+        : "Pipoca";
+
   return (
     <>
       <nav className="tabs">
@@ -176,6 +191,7 @@ export function OpensApp() {
             ["datas", "Datas"],
             ["popular", "Popular"],
             ["nop", "NOP"],
+            ["nerd", "Nerd"],
             ["paper", "Jornal"],
           ] as const
         ).map(([id, label]) => (
@@ -267,6 +283,34 @@ export function OpensApp() {
           <NopDashboard
             book={nopSnap}
             label={nopLabel}
+            updatedAt={opens.updated_at}
+          />
+        </>
+      ) : null}
+
+      {tab === "nerd" ? (
+        <>
+          <nav className="tabs subtabs">
+            {(
+              [
+                ["chill", "Chill"],
+                ["pipoca", "Pipoca"],
+                ["pipoca_all", "Pipoca All"],
+              ] as const
+            ).map(([id, label]) => (
+              <button
+                key={id}
+                type="button"
+                className={nerdBook === id ? "tab active" : "tab"}
+                onClick={() => setNerdBook(id)}
+              >
+                {label}
+              </button>
+            ))}
+          </nav>
+          <NerdDashboard
+            book={nerdSnap}
+            label={nerdLabel}
             updatedAt={opens.updated_at}
           />
         </>

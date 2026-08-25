@@ -27,10 +27,6 @@ const HORSE_EMOJI: Record<string, string> = {
   Saúde: "💊",
 };
 
-function fmtPct(n: number): string {
-  return `${n >= 0 ? "+" : ""}${n.toFixed(1)}%`;
-}
-
 function impactBand(n: number): string {
   if (n >= 90) return "extremo";
   if (n >= 70) return "alto";
@@ -48,84 +44,46 @@ function newsLines(row: OpenRow): { hook: string; what: string } {
     hook = blurb.replace(/^🎤\s*/, "").trim();
   }
   if (!hook && blurb) {
-    // título cru gravado na entrada (ex: "Irão: pending cluster")
     hook = blurb.split(/\s·\s/)[0].trim();
   }
   return { hook, what };
 }
 
+/** Chapado = Telegram / Jornal (🎰 ticker 🟢). Só opens — some ao fechar. */
 function NopCard({ row }: { row: OpenRow }) {
   const horse = (row.horse || "").trim();
   const horseEm = horse ? HORSE_EMOJI[horse] || "📌" : "📌";
   const { hook, what } = newsLines(row);
   const impact = row.news_impact || 0;
-  const hasCard = Boolean((row.news_hook || "").trim() || (row.news_what || "").trim());
+  const ticker = (row.ticker || "").toUpperCase();
 
   return (
-    <article className="nop-card">
-      <header className="nop-head">
-        <span className="nop-ticker">{row.ticker}</span>
+    <article className="nop-card paper-story">
+      <p className="tg-line">
+        🟠 <strong>RUMOR</strong>
         {horse ? (
-          <span className="nop-horse">
-            {horseEm} {horse}
-          </span>
+          <>
+            {" "}
+            · {horseEm} {horse}
+          </>
         ) : null}
-        {impact > 0 ? (
-          <span className="nop-impact">{impact}/99</span>
-        ) : null}
-      </header>
-
-      <div className="nop-news">
-        {horse ? (
-          <p className="tg-line">
-            🟠 <strong>RUMOR</strong> · {horseEm} {horse}
-          </p>
-        ) : null}
-        {hook ? (
-          <p className="tg-line tg-hook">
-            {hasCard ? (
-              <>
-                🎤 <strong>{hook}</strong>
-              </>
-            ) : (
-              <strong>{hook}</strong>
-            )}
-          </p>
-        ) : null}
-        {what ? <p className="tg-line">📋 {what}</p> : null}
-        {impact > 0 ? (
-          <p className="tg-line">
-            📊 impacto <strong>{impact}</strong>/99 · {impactBand(impact)}
-          </p>
-        ) : null}
-      </div>
-
-      <dl className="nop-nums">
-        <div>
-          <dt>entrada</dt>
-          <dd>{row.entry.toFixed(2)}</dd>
-        </div>
-        <div>
-          <dt>agora</dt>
-          <dd className={row.pnl_pct >= 0 ? "pos" : "neg"}>
-            {row.price.toFixed(2)}
-          </dd>
-        </div>
-        <div>
-          <dt>P/L</dt>
-          <dd className={row.pnl_pct >= 0 ? "pos" : "neg"}>
-            {fmtPct(row.pnl_pct)}
-          </dd>
-        </div>
-        <div>
-          <dt>SL</dt>
-          <dd>{(row.sl ?? 0).toFixed(2)}</dd>
-        </div>
-        <div>
-          <dt>TP1</dt>
-          <dd>{(row.tp1 ?? 0).toFixed(2)}</dd>
-        </div>
-      </dl>
+      </p>
+      {hook ? (
+        <p className="tg-line tg-hook">
+          🎤 <strong>{hook}</strong>
+        </p>
+      ) : null}
+      {what ? <p className="tg-line">📋 {what}</p> : null}
+      {ticker ? (
+        <p className="tg-line">
+          🎰 <strong>{ticker}</strong> 🟢
+        </p>
+      ) : null}
+      {impact > 0 ? (
+        <p className="tg-line">
+          📊 impacto <strong>{impact}</strong>/99 · {impactBand(impact)}
+        </p>
+      ) : null}
     </article>
   );
 }
@@ -146,7 +104,7 @@ export function NopDashboard({
         <p className="brand">Trade1</p>
         <h1>NOP · {label}</h1>
         <p className="meta">
-          notícia da entrada
+          card da entrada · some ao fechar
           {updatedAt ? ` · act. ${updatedAt.slice(11, 16)}` : ""}
         </p>
       </header>
@@ -162,7 +120,7 @@ export function NopDashboard({
           ))}
         </div>
       )}
-      <footer>Opens = Alpaca. Aqui = notícia da entrada (🎤/📋 ou título).</footer>
+      <footer>Igual Telegram / Jornal — 🎰 activo. Só enquanto open.</footer>
     </main>
   );
 }
