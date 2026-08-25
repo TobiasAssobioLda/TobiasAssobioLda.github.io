@@ -82,6 +82,22 @@ function Story({ item, capa }: { item: PaperItem; capa?: boolean }) {
       {what ? <p className="tg-line">📋 {what}</p> : null}
       {up ? <p className="tg-line">🟢 UP — {up}</p> : null}
       {down ? <p className="tg-line">🔴 DOWN — {down}</p> : null}
+      {item.ticker_up || item.ticker_down ? (
+        <p className="tg-line">
+          🎰{" "}
+          {item.ticker_up ? (
+            <>
+              <strong>{item.ticker_up}</strong> 🟢
+            </>
+          ) : null}
+          {item.ticker_up && item.ticker_down ? " · " : null}
+          {item.ticker_down ? (
+            <>
+              <strong>{item.ticker_down}</strong> 🔴
+            </>
+          ) : null}
+        </p>
+      ) : null}
       {vibe ? (
         <p className="tg-line tg-vibe">
           🍺 <em>{vibe}</em>

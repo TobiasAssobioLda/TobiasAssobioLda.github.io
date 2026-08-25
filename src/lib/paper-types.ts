@@ -15,6 +15,8 @@ export type PaperItem = {
   up?: string;
   down?: string;
   vibe?: string;
+  ticker_up?: string;
+  ticker_down?: string;
   when_label?: string;
   read_url?: string;
 };
