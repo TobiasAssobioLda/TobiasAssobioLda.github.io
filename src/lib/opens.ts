@@ -1,14 +1,14 @@
 import type { OpensPayload } from "./types";
 
-const GH_OPENS_API =
-  "https://api.github.com/repos/TobiasAssobioLda/TobiasAssobioLda.github.io/contents/opens.json";
-/** jsDelivr costuma refrescar mais rápido que raw.githubusercontent. */
+/** CDN primeiro — sem rate limit da API anónima. API só em último recurso. */
 const GH_OPENS_CDN =
   "https://cdn.jsdelivr.net/gh/TobiasAssobioLda/TobiasAssobioLda.github.io@main/opens.json";
 const GH_OPENS_RAW =
   "https://raw.githubusercontent.com/TobiasAssobioLda/TobiasAssobioLda.github.io/main/opens.json";
+const GH_OPENS_API =
+  "https://api.github.com/repos/TobiasAssobioLda/TobiasAssobioLda.github.io/contents/opens.json";
 
-/** URL pública do JSON. Vazio = API GitHub (live do bot). */
+/** URL pública do JSON. Vazio = CDN / raw / API (fallback). */
 export function opensUrl(): string {
   return (process.env.NEXT_PUBLIC_OPENS_URL || "").trim();
 }
@@ -21,24 +21,25 @@ function bust(url: string): string {
 
 function targets(): { url: string; headers?: HeadersInit }[] {
   const configured = opensUrl();
+  const cdn = { url: bust(GH_OPENS_CDN) };
+  const raw = { url: bust(GH_OPENS_RAW) };
   const api = {
     url: bust(`${GH_OPENS_API}?ref=main`),
     headers: { Accept: "application/vnd.github.raw+json" } as HeadersInit,
   };
-  const cdn = { url: bust(GH_OPENS_CDN) };
-  const raw = { url: bust(GH_OPENS_RAW) };
 
+  // Paz: CDN → raw → API (API anónima = 60/h; evitar no hot path)
   if (!configured) {
-    return [api, cdn, raw];
+    return [cdn, raw, api];
   }
   if (
     configured.includes("raw.githubusercontent.com") ||
     configured.includes("github.io") ||
     configured.includes("jsdelivr")
   ) {
-    return [api, cdn, raw];
+    return [cdn, raw, api];
   }
-  return [{ url: bust(configured) }, api, cdn, raw];
+  return [{ url: bust(configured) }, cdn, raw, api];
 }
 
 export async function fetchOpens(): Promise<OpensPayload> {
