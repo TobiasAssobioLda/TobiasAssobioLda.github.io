@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-25T01:08:55+01:00",
+  "updated_at": "2026-08-25T01:10:13+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "01:08",
+  "when_label": "01:10",
   "pipoca": {
     "rows": [
       {
@@ -568,6 +568,19 @@
         "first_seen": "2026-08-25T00:08:54.308481+00:00",
         "status": "wait",
         "lane": "out_market"
+      },
+      {
+        "ticker": "ORCL",
+        "book": "pipoca",
+        "horse": "Chips",
+        "impact": 74,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — reopen RTH",
+        "next_check": "2026-08-25T00:24:50.840611+00:00",
+        "first_seen": "2026-08-25T00:09:50.840611+00:00",
+        "status": "wait",
+        "lane": "out_market"
       }
     ],
     "rows": [
@@ -984,6 +997,19 @@
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
         "next_check": "2026-08-25T00:23:54.308481+00:00",
         "first_seen": "2026-08-25T00:08:54.308481+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "ORCL",
+        "book": "pipoca",
+        "horse": "Chips",
+        "impact": 74,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — reopen RTH",
+        "next_check": "2026-08-25T00:24:50.840611+00:00",
+        "first_seen": "2026-08-25T00:09:50.840611+00:00",
         "status": "wait",
         "lane": "out_market"
       }
