@@ -1,6 +1,6 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T13:43:29+01:00",
+  "published_at": "2026-08-25T13:46:29+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -109,6 +109,26 @@
       "up": "o FMI com inveja do orçamento americano",
       "down": "o rial já era, agora nem a sopa",
       "vibe": "poupança forçada a nível nacional"
+    },
+    {
+      "uid": "114d79063d0a64bf039557ad",
+      "title": "Trump trade war with Canada could rattle key Senate race states",
+      "url": "https://www.canoncitydailyrecord.com/2026/08/25/trump-trade-war-canada-senate-races/",
+      "source": "canoncitydailyrecord.com",
+      "horse": "Trump",
+      "sent_at": "2026-08-25T12:45:09.308193+00:00",
+      "impact": 84,
+      "impact_band": "alto",
+      "when_label": "25/08 · 13:45",
+      "read_url": "https://www.canoncitydailyrecord.com/2026/08/25/trump-trade-war-canada-senate-races/",
+      "kind": "RUMOR",
+      "badge": "🟠",
+      "horse_emoji": "🦅",
+      "hook": "Trump × Guerra comercial com o Canadá",
+      "what": "Tensões comerciais ameaçam estados-chave nas eleições para o Senado",
+      "up": "o Canadá paga a conta da campanha eleitoral",
+      "down": "votos evaporam mais rápido que a neve em janeiro",
+      "vibe": "política internacional a definir o almo…"
     },
     {
       "uid": "b3a7689fe4150f8a3a1656bc",
@@ -389,26 +409,6 @@
       "up": "O mercado adora o show, mas paga à conta",
       "down": "Ficou com medo do presidente antes do espetáculo",
       "vibe": "Café na mão e a ver o circo"
-    },
-    {
-      "uid": "b33e106b7ddba674f13eb87c",
-      "title": "As Ukraine’s allies gather for big anniversary, one key backer is absent - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSXFjbzJmNjUtNTBKRjhRR1NXcUprdjVVdUc4d3FsNURCUmhDRGM3Y1ZWeThINHRScTJ2dXdFNjZHQXlyUlhmQUJ1R3R0cC1KZU9FbEg3ZVEzZG1MZ2g4X0x3T0NMeE5YR3YyanZOOHVQSm9ZNUdNNmRCNUE5Qjg2WXB1SzBCMU5PQS1oNkstRF81Vi02bGFqOWh1SjV1dFRDaGZ5TUZB?oc=5",
-      "source": "NBC News",
-      "horse": "Ucrânia",
-      "sent_at": "2026-08-25T11:51:27.262722+00:00",
-      "impact": 58,
-      "impact_band": "médio",
-      "when_label": "25/08 · 12:51",
-      "read_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSXFjbzJmNjUtNTBKRjhRR1NXcUprdjVVdUc4d3FsNURCUmhDRGM3Y1ZWeThINHRScTJ2dXdFNjZHQXlyUlhmQUJ1R3R0cC1KZU9FbEg3ZVEzZG1MZ2g4X0x3T0NMeE5YR3YyanZOOHVQSm9ZNUdNNmRCNUE5Qjg2WXB1SzBCMU5PQS1oNkstRF81Vi02bGFqOWh1SjV1dFRDaGZ5TUZB?oc=5",
-      "kind": "OFICIAL",
-      "badge": "✅",
-      "horse_emoji": "🌻",
-      "hook": "Ucrânia × ausente no grande baile",
-      "what": "Um aliado chave ausenta-se da reunião de aniversário dos apoiantes da Ucrânia",
-      "up": "falta a caveira, mas o esqueleto continua em pé",
-      "down": "ou é só show para as câmaras",
-      "vibe": "sentir-se só na festa"
     }
   ],
   "archive_days": [
