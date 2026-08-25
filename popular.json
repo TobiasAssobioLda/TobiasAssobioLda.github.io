@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-25T19:18:58+01:00",
+  "updated_at": "2026-08-25T19:21:58+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 668,
+  "n_events": 672,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
@@ -147,10 +147,10 @@
     {
       "rank": 18,
       "ticker": "LMT",
-      "total": 12,
-      "as_up": 10,
+      "total": 13,
+      "as_up": 11,
       "as_down": 2,
-      "last_horse": "Gaza"
+      "last_horse": "Trump"
     },
     {
       "rank": 19,
@@ -310,10 +310,10 @@
     {
       "rank": 18,
       "ticker": "LMT",
-      "total": 12,
-      "as_up": 10,
+      "total": 13,
+      "as_up": 11,
       "as_down": 2,
-      "last_horse": "Gaza"
+      "last_horse": "Trump"
     },
     {
       "rank": 19,
