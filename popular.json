@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-25T19:33:19+01:00",
+  "updated_at": "2026-08-25T19:36:20+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 677,
+  "n_events": 681,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
@@ -99,8 +99,8 @@
     {
       "rank": 12,
       "ticker": "F",
-      "total": 25,
-      "as_up": 16,
+      "total": 26,
+      "as_up": 17,
       "as_down": 9,
       "last_horse": "Trump"
     },
@@ -139,9 +139,9 @@
     {
       "rank": 17,
       "ticker": "GM",
-      "total": 16,
+      "total": 17,
       "as_up": 1,
-      "as_down": 15,
+      "as_down": 16,
       "last_horse": "Trump"
     },
     {
@@ -154,18 +154,18 @@
     },
     {
       "rank": 19,
-      "ticker": "TSLA",
-      "total": 10,
-      "as_up": 10,
+      "ticker": "NVDA",
+      "total": 11,
+      "as_up": 11,
       "as_down": 0,
-      "last_horse": "Musk"
+      "last_horse": "Chips"
     },
     {
       "rank": 20,
-      "ticker": "NVDA",
-      "total": 9,
+      "ticker": "TSM",
+      "total": 11,
       "as_up": 9,
-      "as_down": 0,
+      "as_down": 2,
       "last_horse": "Chips"
     }
   ],
@@ -262,8 +262,8 @@
     {
       "rank": 12,
       "ticker": "F",
-      "total": 25,
-      "as_up": 16,
+      "total": 26,
+      "as_up": 17,
       "as_down": 9,
       "last_horse": "Trump"
     },
@@ -302,9 +302,9 @@
     {
       "rank": 17,
       "ticker": "GM",
-      "total": 16,
+      "total": 17,
       "as_up": 1,
-      "as_down": 15,
+      "as_down": 16,
       "last_horse": "Trump"
     },
     {
@@ -317,18 +317,18 @@
     },
     {
       "rank": 19,
-      "ticker": "TSLA",
-      "total": 10,
-      "as_up": 10,
+      "ticker": "NVDA",
+      "total": 11,
+      "as_up": 11,
       "as_down": 0,
-      "last_horse": "Musk"
+      "last_horse": "Chips"
     },
     {
       "rank": 20,
-      "ticker": "NVDA",
-      "total": 9,
+      "ticker": "TSM",
+      "total": 11,
       "as_up": 9,
-      "as_down": 0,
+      "as_down": 2,
       "last_horse": "Chips"
     }
   ]
