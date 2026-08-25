@@ -1,6 +1,6 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T20:23:35+01:00",
+  "published_at": "2026-08-25T20:26:25+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -162,7 +162,7 @@
       "up": "WY brilha quando o norte grelha o Texas",
       "down": "Ford chora porque o Canadá fecha a porta",
       "vibe": "vizinhos a brigar por causa do muro",
-      "ticker_up": "WY",
+      "ticker_up": "NUE",
       "ticker_down": "F"
     },
     {
