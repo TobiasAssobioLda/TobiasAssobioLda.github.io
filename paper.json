@@ -1,6 +1,6 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T14:53:38+01:00",
+  "published_at": "2026-08-25T14:56:38+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -109,6 +109,26 @@
       "up": "o FMI com inveja do orçamento americano",
       "down": "o rial já era, agora nem a sopa",
       "vibe": "poupança forçada a nível nacional"
+    },
+    {
+      "uid": "aa93ae2af1783fe3e3a96279",
+      "title": "U . S . cancels South Korea marine drills over tied up forces in Iran war",
+      "url": "https://www.nbcnews.com/world/asia/us-cancels-south-korea-marine-drills-tied-forces-iran-war-rcna594256",
+      "source": "nbcnews.com",
+      "horse": "Irão",
+      "sent_at": "2026-08-25T13:55:07.086677+00:00",
+      "impact": 88,
+      "impact_band": "alto",
+      "when_label": "25/08 · 14:55",
+      "read_url": "https://www.nbcnews.com/world/asia/us-cancels-south-korea-marine-drills-tied-forces-iran-war-rcna594256",
+      "kind": "OFICIAL",
+      "badge": "✅",
+      "horse_emoji": "☢️",
+      "hook": "Irão × EUA cancelam treino marítimo na Coreia",
+      "what": "EUA cancelam exercícios com Coreia do Sul por falta de tropas no conflito iraniano",
+      "up": "Coreia do Sul: 'muito obrigado por nos deixarem sós'",
+      "down": "EUA: 'desculpem, a marinha está toda no Golfo'",
+      "vibe": "lá vai o tratado de defesa"
     },
     {
       "uid": "114d79063d0a64bf039557ad",
@@ -389,26 +409,6 @@
       "up": "A credibilidade derreteu mais rápido que a poupança dos europeos.",
       "down": "Ou são tão fortes que o calor nem lhes fez cócegas.",
       "vibe": "confiança à venda por metro quadrado"
-    },
-    {
-      "uid": "e46c2f00a13cbfa8bfe7003b",
-      "title": "Hungary Cuts Interest Rate Again With Inflation at Decade-Low - Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlhnZGc0ZGoxRzNMSXloYmhjdkNrWjdXdldDaHMwdkFpYkd5ZV8yVl9LMVFkZmNPT0JQQTMxYlBSTktYNXdGa29qbDQwbWxtSkJrUWRqcmxHUTY3emFLbFpXQ0s4aUFsc1Mzb1BCWDROSXRuNFZRbjRLcWN6LXBiU0Z0MVVsaXlaVFBaTTJYVUthNjd1VURwbDNDMGZacjRNeWRhWnc2SGpidnNRbUxDQ2Nn?oc=5",
-      "source": "Bloomberg",
-      "horse": "Inflação",
-      "sent_at": "2026-08-25T12:09:11.341158+00:00",
-      "impact": 75,
-      "impact_band": "alto",
-      "when_label": "25/08 · 13:09",
-      "read_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlhnZGc0ZGoxRzNMSXloYmhjdkNrWjdXdldDaHMwdkFpYkd5ZV8yVl9LMVFkZmNPT0JQQTMxYlBSTktYNXdGa29qbDQwbWxtSkJrUWRqcmxHUTY3emFLbFpXQ0s4aUFsc1Mzb1BCWDROSXRuNFZRbjRLcWN6LXBiU0Z0MVVsaXlaVFBaTTJYVUthNjd1VURwbDNDMGZacjRNeWRhWnc2SGpidnNRbUxDQ2Nn?oc=5",
-      "kind": "OFICIAL",
-      "badge": "✅",
-      "horse_emoji": "📈",
-      "hook": "Inflação × Hungria corta juro",
-      "what": "Hungria corta juros com inflação no mínimo de 10 anos.",
-      "up": "O crédito barato volta, tempo de festa.",
-      "down": "A inflação é um gato que ronrona.",
-      "vibe": "café quente e juros a cair"
     }
   ],
   "archive_days": [
