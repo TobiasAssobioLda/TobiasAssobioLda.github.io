@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-25T16:35:09+01:00",
+  "updated_at": "2026-08-25T16:45:05+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 635,
+  "n_events": 636,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
@@ -17,10 +17,10 @@
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 131,
-      "as_up": 114,
+      "total": 132,
+      "as_up": 115,
       "as_down": 17,
-      "last_horse": "Irão"
+      "last_horse": "Trump"
     },
     {
       "rank": 3,
@@ -75,10 +75,10 @@
     {
       "rank": 9,
       "ticker": "UAL",
-      "total": 52,
+      "total": 53,
       "as_up": 0,
-      "as_down": 52,
-      "last_horse": "Petróleo"
+      "as_down": 53,
+      "last_horse": "Trump"
     },
     {
       "rank": 10,
@@ -182,10 +182,10 @@
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 131,
-      "as_up": 114,
+      "total": 132,
+      "as_up": 115,
       "as_down": 17,
-      "last_horse": "Irão"
+      "last_horse": "Trump"
     },
     {
       "rank": 3,
@@ -238,10 +238,10 @@
     {
       "rank": 9,
       "ticker": "UAL",
-      "total": 52,
+      "total": 53,
       "as_up": 0,
-      "as_down": 52,
-      "last_horse": "Petróleo"
+      "as_down": 53,
+      "last_horse": "Trump"
     },
     {
       "rank": 10,
