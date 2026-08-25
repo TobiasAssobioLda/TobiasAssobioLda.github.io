@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-25T15:19:11+01:00",
+  "updated_at": "2026-08-25T15:20:08+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 623,
+  "n_events": 624,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
@@ -51,26 +51,26 @@
     {
       "rank": 6,
       "ticker": "KO",
-      "total": 77,
+      "total": 78,
       "as_up": 0,
-      "as_down": 77,
+      "as_down": 78,
       "last_horse": "Inflação"
     },
     {
       "rank": 7,
+      "ticker": "FLO",
+      "total": 62,
+      "as_up": 62,
+      "as_down": 0,
+      "last_horse": "Inflação"
+    },
+    {
+      "rank": 8,
       "ticker": "FRO",
       "total": 62,
       "as_up": 62,
       "as_down": 0,
       "last_horse": "Irão"
-    },
-    {
-      "rank": 8,
-      "ticker": "FLO",
-      "total": 61,
-      "as_up": 61,
-      "as_down": 0,
-      "last_horse": "Inflação"
     },
     {
       "rank": 9,
@@ -214,26 +214,26 @@
     {
       "rank": 6,
       "ticker": "KO",
-      "total": 77,
+      "total": 78,
       "as_up": 0,
-      "as_down": 77,
+      "as_down": 78,
       "last_horse": "Inflação"
     },
     {
       "rank": 7,
+      "ticker": "FLO",
+      "total": 62,
+      "as_up": 62,
+      "as_down": 0,
+      "last_horse": "Inflação"
+    },
+    {
+      "rank": 8,
       "ticker": "FRO",
       "total": 62,
       "as_up": 62,
       "as_down": 0,
       "last_horse": "Irão"
-    },
-    {
-      "rank": 8,
-      "ticker": "FLO",
-      "total": 61,
-      "as_up": 61,
-      "as_down": 0,
-      "last_horse": "Inflação"
     },
     {
       "rank": 9,
