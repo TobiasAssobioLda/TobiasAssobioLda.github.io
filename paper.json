@@ -1,6 +1,6 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T14:04:05+01:00",
+  "published_at": "2026-08-25T14:07:05+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -129,6 +129,26 @@
       "up": "o Canadá paga a conta da campanha eleitoral",
       "down": "votos evaporam mais rápido que a neve em janeiro",
       "vibe": "política internacional a definir o almo…"
+    },
+    {
+      "uid": "4f70371b7085c5c16e7d1428",
+      "title": "Trump eyes changing Lake Ontario name amid trade war with Canada - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNmZpUWJzeGpJa0pnNTg0V2Y3MHliV0N3bk92ZnF2RFJSV3RqaThYTExpcEEwc0d3RV83eTk0X0NjNk1sYTVPenRaeUpvRFpiaUl4S0RQTWhVeHYtSURpZjAxRTV4TU9ZZzdUanVEcUNKMWpVNFpmSE1EZVFKbDgtZllzSEZhMHhoUTN2dXpnMnJIVGFRUWx4N3RJbzk4blU4MXJySHZzS2NXczdQOTdv0gG0AUFVX3lxTE4tc3pLc3N1WEQteGRjXy04Nmp6YnpiN0pkc2cya3VteUxWSWdPNEowdGFOYzBzZE5JNElyd2RKZl92SndENGdGWkhSNFktZ2M0UXB0djhDZGtzMDFFdWNNeGJWU3o2RHpKTC1xNFFVZnF0dzhNaVBtcU14dWxFZmF0bTFWZnlmakc1NlFZTF91ZDZNa2w2UUNndlh2V1l2QVdUYUh",
+      "source": "The Hill",
+      "horse": "Trump",
+      "sent_at": "2026-08-25T13:05:58.769953+00:00",
+      "impact": 84,
+      "impact_band": "alto",
+      "when_label": "25/08 · 14:05",
+      "read_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNmZpUWJzeGpJa0pnNTg0V2Y3MHliV0N3bk92ZnF2RFJSV3RqaThYTExpcEEwc0d3RV83eTk0X0NjNk1sYTVPenRaeUpvRFpiaUl4S0RQTWhVeHYtSURpZjAxRTV4TU9ZZzdUanVEcUNKMWpVNFpmSE1EZVFKbDgtZllzSEZhMHhoUTN2dXpnMnJIVGFRUWx4N3RJbzk4blU4MXJySHZzS2NXczdQOTdv0gG0AUFVX3lxTE4tc3pLc3N1WEQteGRjXy04Nmp6YnpiN0pkc2cya3VteUxWSWdPNEowdGFOYzBzZE5JNElyd2RKZl92SndENGdGWkhSNFktZ2M0UXB0djhDZGtzMDFFdWNNeGJWU3o2RHpKTC1xNFFVZnF0dzhNaVBtcU14dWxFZmF0bTFWZnlmakc1NlFZTF91ZDZNa2w2UUNndlh2V1l2QVdUYUh",
+      "kind": "RUMOR",
+      "badge": "🟠",
+      "horse_emoji": "🦅",
+      "hook": "Trump × renomeia lago na guerra comercial",
+      "what": "Trump considera mudar o nome do Lago Ontário no contexto do conflito comercial com o Canadá",
+      "up": "diplomacia de nível: apaga o vizinho do mapa",
+      "down": "geografia não é botão de reset político",
+      "vibe": "risada seca e o café esfria"
     },
     {
       "uid": "b3a7689fe4150f8a3a1656bc",
@@ -389,26 +409,6 @@
       "up": "O tesouro já não guarda ouro, guarda memes.",
       "down": "E a inflação a dançar tango com o Bitcoin.",
       "vibe": "risco calculado, ou pura loucura"
-    },
-    {
-      "uid": "be722cd7f849ba232833569d",
-      "title": "Dow Jones Futures: Trump, Bessent Comments Spark Tech Losses; Nvidia Sells Off Before Earnings - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRFZIaFY5UkpfTGhqVzNUZS00enZhN2pKRlFWcGJrVkI3dzZnZ0hQY3FEMlotRTJEOHE5OTNiVnREbjdZOUpla09mbEdKaVNVb2FQaXlkSlFWTFF2MlhZcjNlN1ZHb28zMnZRUFN5WERyX2RQV2FVWHRYZ2lRRUJlNXN0eWN2Q3BtNVhhOWhQM20yTC1OYkRxZVBCSEJhYThMWUtOd3JyS3hnVkJWdkRvSDZxRnl0N1NrNUE4eWJPUUE1OXlCanBuekJB?oc=5",
-      "source": "Investor's Business Daily",
-      "horse": "Trump",
-      "sent_at": "2026-08-25T11:51:26.678462+00:00",
-      "impact": 58,
-      "impact_band": "médio",
-      "when_label": "25/08 · 12:51",
-      "read_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRFZIaFY5UkpfTGhqVzNUZS00enZhN2pKRlFWcGJrVkI3dzZnZ0hQY3FEMlotRTJEOHE5OTNiVnREbjdZOUpla09mbEdKaVNVb2FQaXlkSlFWTFF2MlhZcjNlN1ZHb28zMnZRUFN5WERyX2RQV2FVWHRYZ2lRRUJlNXN0eWN2Q3BtNVhhOWhQM20yTC1OYkRxZVBCSEJhYThMWUtOd3JyS3hnVkJWdkRvSDZxRnl0N1NrNUE4eWJPUUE1OXlCanBuekJB?oc=5",
-      "kind": "RUMOR",
-      "badge": "🟠",
-      "horse_emoji": "🦅",
-      "hook": "Trump × Tech a sangrar antes dos números",
-      "what": "Comentários de Trump e Bessent provocam vendas em tecnologia",
-      "up": "O mercado adora o show, mas paga à conta",
-      "down": "Ficou com medo do presidente antes do espetáculo",
-      "vibe": "Café na mão e a ver o circo"
     }
   ],
   "archive_days": [
