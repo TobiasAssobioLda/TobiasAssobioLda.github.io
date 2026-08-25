@@ -1,6 +1,6 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T15:29:33+01:00",
+  "published_at": "2026-08-25T15:32:33+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -371,6 +371,26 @@
       "vibe": "vizinhos a discutir o muro de novo"
     },
     {
+      "uid": "cc31b8c9b951c95c993c9770",
+      "title": "Canada to unveil retaliatory measures against Trump’s latest tariffs - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMmFYWUFvT2x3RVJSdWxXY2JZYzRlUzgxQUVEZHNOVUxYNHExSFN1OXJWRzZIMVVwUkN2S2hsbTg5Z21heWIzV0o5cml0Q2tKY3E2YlZpUTYwM1hld1hkUC00UzgzVXlidnQwZ0JDM3MtUm41cUltbG1TVXJlVHVTX1pGNEVfb0pKZnVQQklYcmxvOEhSX3Yw?oc=5",
+      "source": "NBC News",
+      "horse": "Trump",
+      "sent_at": "2026-08-25T14:31:49.543899+00:00",
+      "impact": 81,
+      "impact_band": "alto",
+      "when_label": "25/08 · 15:31",
+      "read_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMmFYWUFvT2x3RVJSdWxXY2JZYzRlUzgxQUVEZHNOVUxYNHExSFN1OXJWRzZIMVVwUkN2S2hsbTg5Z21heWIzV0o5cml0Q2tKY3E2YlZpUTYwM1hld1hkUC00UzgzVXlidnQwZ0JDM3MtUm41cUltbG1TVXJlVHVTX1pGNEVfb0pKZnVQQklYcmxvOEhSX3Yw?oc=5",
+      "kind": "OFICIAL",
+      "badge": "✅",
+      "horse_emoji": "🦅",
+      "hook": "Trump × Canadá prepara resposta aos aranceis",
+      "what": "Canadá anuncia medidas de retaliação contra as novas tarifas dos EUA.",
+      "up": "os vizinhos do norte não vêm só para a festa",
+      "down": "guerra comercial ou treino para o último homem",
+      "vibe": "vizinhos a gritar pela vedação"
+    },
+    {
       "uid": "5d3e8dfef2aa946558e828a4",
       "title": "Dow Jones Top Financial Services Headlines at 7 AM ET : Global Bond Markets Stabilize as Investors Mull U . S . Buybacks , Iran Sanctions | Scotiabank ...",
       "url": "https://www.morningstar.com/news/dow-jones/202608252738/dow-jones-top-financial-services-headlines-at-7-am-et-global-bond-markets-stabilize-as-investors-mull-us-buybacks-iran-sanctions-scotiabank",
@@ -389,26 +409,6 @@
       "up": "O medo de Teerão é o único estabilizador que funciona",
       "down": "Ou é só o FMI a tentar não desmaiar",
       "vibe": "café na mão e a ver o circo"
-    },
-    {
-      "uid": "fac98f38a64bdc61f82cc12f",
-      "title": "Netanyahu : Iran försökte döda min son",
-      "url": "https://nyheter24.se/nyheter/utrikes/1507423-netanyahu-iran-forsokte-doda-min-son",
-      "source": "nyheter24.se",
-      "horse": "Irão",
-      "sent_at": "2026-08-24T23:35:49.170801+00:00",
-      "impact": 76,
-      "impact_band": "alto",
-      "when_label": "25/08 · 00:35",
-      "read_url": "https://nyheter24.se/nyheter/utrikes/1507423-netanyahu-iran-forsokte-doda-min-son",
-      "kind": "RUMOR",
-      "badge": "🟠",
-      "horse_emoji": "☢️",
-      "hook": "Irão × atentado ao filho de Netanyahu",
-      "what": "Netanyahu acusa o Irão de tentar assassinar o seu filho.",
-      "up": "a família política está mais em risco que a bolsa",
-      "down": "quem paga o prémio de seguro de vida do gajo",
-      "vibe": "café na mão e o coração na mão"
     }
   ],
   "archive_days": [
