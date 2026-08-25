@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-08-26T00:02:08+01:00",
+  "updated_at": "2026-08-26T00:08:08+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "00:02",
+  "when_label": "00:08",
   "pipoca": {
     "rows": [
       {
         "ticker": "ONDS",
         "entry": 8.35,
-        "price": 8.255,
+        "price": 8.26,
         "qty": 23.866348,
         "notional": 199.284,
-        "pnl_pct": -1.138,
-        "pnl_eur": -2.267303,
-        "pnl_r": -0.31,
+        "pnl_pct": -1.078,
+        "pnl_eur": -2.147972,
+        "pnl_r": -0.29,
         "sl": 8.04,
         "tp1": 9.8,
         "tp2": 10.38,
@@ -36,12 +36,12 @@
       {
         "ticker": "NVDA",
         "entry": 210.5201,
-        "price": 214.16,
+        "price": 214.04,
         "qty": 2.004403,
         "notional": 421.9671,
-        "pnl_pct": 1.729,
-        "pnl_eur": 7.295882,
-        "pnl_r": 0.46,
+        "pnl_pct": 1.672,
+        "pnl_eur": 7.055354,
+        "pnl_r": 0.44,
         "sl": 202.6,
         "tp1": 226.36,
         "tp2": 234.28,
@@ -65,12 +65,12 @@
       {
         "ticker": "AXTI",
         "entry": 67.8882,
-        "price": 67.55,
+        "price": 67.78,
         "qty": 3.390581,
         "notional": 230.1804,
-        "pnl_pct": -0.498,
-        "pnl_eur": -1.146606,
-        "pnl_r": -0.02,
+        "pnl_pct": -0.159,
+        "pnl_eur": -0.366773,
+        "pnl_r": -0.01,
         "sl": 52.91,
         "tp1": 97.68,
         "tp2": 112.61,
@@ -92,10 +92,10 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.45593489917508007,
-    "total_pnl_eur": 3.8819729999999995,
+    "total_pnl_pct": 0.5332912172775188,
+    "total_pnl_eur": 4.540609,
     "bank_eur": 2000.0,
-    "equity_eur": 2003.88
+    "equity_eur": 2004.54
   },
   "chill": {
     "rows": [
@@ -276,12 +276,12 @@
       {
         "ticker": "NVDA",
         "entry": 210.5201,
-        "price": 214.16,
+        "price": 214.04,
         "qty": 2.004403,
         "notional": 421.9671,
-        "pnl_pct": 1.729,
-        "pnl_eur": 7.295882,
-        "pnl_r": 0.46,
+        "pnl_pct": 1.672,
+        "pnl_eur": 7.055354,
+        "pnl_r": 0.44,
         "sl": 202.6,
         "tp1": 226.36,
         "tp2": 234.28,
@@ -305,12 +305,12 @@
       {
         "ticker": "F",
         "entry": 13.89,
-        "price": 13.9492,
+        "price": 13.9405,
         "qty": 2.878747,
         "notional": 39.9857,
-        "pnl_pct": 0.426,
-        "pnl_eur": 0.170483,
-        "pnl_r": 0.1,
+        "pnl_pct": 0.364,
+        "pnl_eur": 0.145438,
+        "pnl_r": 0.08,
         "sl": 13.29,
         "tp1": 15.02,
         "tp2": 15.59,
@@ -392,11 +392,11 @@
       {
         "ticker": "BMNR",
         "entry": 25.258,
-        "price": 24.79,
+        "price": 24.8,
         "qty": 0.791766,
         "notional": 19.9984,
-        "pnl_pct": -1.8530000000000002,
-        "pnl_eur": -0.370547,
+        "pnl_pct": -1.813,
+        "pnl_eur": -0.362629,
         "pnl_r": -0.12,
         "sl": 21.47,
         "tp1": 29.05,
@@ -421,12 +421,12 @@
       {
         "ticker": "AXTI",
         "entry": 67.8882,
-        "price": 67.55,
+        "price": 67.78,
         "qty": 3.390581,
         "notional": 230.1804,
-        "pnl_pct": -0.498,
-        "pnl_eur": -1.146606,
-        "pnl_r": -0.02,
+        "pnl_pct": -0.159,
+        "pnl_eur": -0.366773,
+        "pnl_r": -0.01,
         "sl": 52.91,
         "tp1": 97.68,
         "tp2": 112.61,
@@ -535,20 +535,20 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.7759142880325395,
-    "total_pnl_eur": 8.780364999999998
+    "total_pnl_pct": 0.8220587673447614,
+    "total_pnl_eur": 9.302543
   },
   "pipoca_all": {
     "rows": [
       {
         "ticker": "NVDA",
         "entry": 210.5201,
-        "price": 214.16,
+        "price": 214.04,
         "qty": 2.004403,
         "notional": 421.9671,
-        "pnl_pct": 1.729,
-        "pnl_eur": 7.295882,
-        "pnl_r": 0.46,
+        "pnl_pct": 1.672,
+        "pnl_eur": 7.055354,
+        "pnl_r": 0.44,
         "sl": 202.6,
         "tp1": 226.36,
         "tp2": 234.28,
@@ -572,12 +572,12 @@
       {
         "ticker": "AXTI",
         "entry": 67.8882,
-        "price": 67.55,
+        "price": 67.78,
         "qty": 3.390581,
         "notional": 230.1804,
-        "pnl_pct": -0.498,
-        "pnl_eur": -1.146606,
-        "pnl_r": -0.02,
+        "pnl_pct": -0.159,
+        "pnl_eur": -0.366773,
+        "pnl_r": -0.01,
         "sl": 52.91,
         "tp1": 97.68,
         "tp2": 112.61,
@@ -599,10 +599,10 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.9429272952253369,
-    "total_pnl_eur": 6.1492759999999995,
+    "total_pnl_pct": 1.0256240883033352,
+    "total_pnl_eur": 6.688581,
     "bank_eur": 10000.0,
-    "equity_eur": 10006.15
+    "equity_eur": 10006.69
   },
   "possible": {
     "quase": [],
