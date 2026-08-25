@@ -1,11 +1,11 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T19:39:39+01:00",
+  "published_at": "2026-08-25T19:42:15+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
   "max_items": 20,
-  "count": 6,
+  "count": 5,
   "masthead": "O Rumors",
   "tagline": "geopolítica & mercados · Rumors do dia",
   "paper_since": "2026-08-25T15:46:13.860066+00:00",
@@ -120,28 +120,6 @@
       "vibe": "olha o preço antes de comprar",
       "ticker_up": "FLO",
       "ticker_down": "KO"
-    },
-    {
-      "uid": "2153115537d9f06a415f919a",
-      "title": "Anthropicten yatırımcılara devasa  pazar  sunumu",
-      "url": "https://www.bloomberght.com/anthropic-ten-yatirimcilara-devasa-pazar-sunumu-3786422",
-      "source": "bloomberght.com",
-      "horse": "AI",
-      "sent_at": "2026-08-25T18:39:39.628132+00:00",
-      "impact": 56,
-      "impact_band": "médio",
-      "when_label": "25/08 · 19:39",
-      "read_url": "https://www.bloomberght.com/anthropic-ten-yatirimcilara-devasa-pazar-sunumu-3786422",
-      "kind": "RUMOR",
-      "badge": "🟠",
-      "horse_emoji": "🤖",
-      "hook": "AI × Anthropic desvenda o futuro",
-      "what": "Anthropic apresenta roadmap estratégico a investidores.",
-      "up": "Amazon fica com a pata na massa",
-      "down": "Microsoft corre atrás do carro",
-      "vibe": "quem paga a conta manda",
-      "ticker_up": "AMZN",
-      "ticker_down": "MSFT"
     }
   ],
   "archive_days": [
