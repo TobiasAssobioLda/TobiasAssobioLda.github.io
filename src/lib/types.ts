@@ -50,6 +50,7 @@ export type OpensPayload = {
   chill: BookSnapshot;
   pipoca_all?: BookSnapshot;
   max?: BookSnapshot;
+  rumors?: BookSnapshot;
   possible?: PossiblePayload;
 };
 

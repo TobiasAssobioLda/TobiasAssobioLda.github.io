@@ -42,4 +42,5 @@ export type ContasPayload = {
   chill: ContasBook;
   pipoca_all: ContasBook;
   max?: ContasBook;
+  rumors?: ContasBook;
 };

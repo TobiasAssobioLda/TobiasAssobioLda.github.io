@@ -82,11 +82,12 @@ export function OpensDashboard({
   whenLabel: string;
   updatedAt: string;
   book: BookSnapshot;
-  bookKey: "pipoca" | "chill" | "pipoca_all" | "max";
+  bookKey: "pipoca" | "chill" | "pipoca_all" | "max" | "rumors";
   title: string;
 }) {
   const rows = book.rows || [];
-  const withBank = bookKey === "pipoca" || bookKey === "pipoca_all";
+  const withBank =
+    bookKey === "pipoca" || bookKey === "pipoca_all" || bookKey === "rumors";
   const Summary = withBank ? <BankLine book={book} /> : <TotalLine book={book} />;
   const source = "Alpaca · posição real";
 

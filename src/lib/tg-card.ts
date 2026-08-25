@@ -87,5 +87,8 @@ export function rumorBadge(bookKey: string): { badge: string; kind: string } {
   if (bookKey === "max") {
     return { badge: "⚡", kind: "MAX" };
   }
+  if (bookKey === "rumors") {
+    return { badge: "🟠", kind: "RUMORS €10" };
+  }
   return { badge: "🟠", kind: "RUMOR" };
 }
