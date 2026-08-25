@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-25T16:45:05+01:00",
+  "updated_at": "2026-08-25T16:52:16+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 636,
+  "n_events": 643,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
@@ -17,10 +17,10 @@
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 132,
-      "as_up": 115,
+      "total": 134,
+      "as_up": 117,
       "as_down": 17,
-      "last_horse": "Trump"
+      "last_horse": "Irão"
     },
     {
       "rank": 3,
@@ -40,27 +40,27 @@
     },
     {
       "rank": 5,
-      "ticker": "PLTR",
-      "total": 79,
-      "as_up": 79,
-      "as_down": 0,
-      "last_horse": "Ucrânia"
+      "ticker": "KO",
+      "total": 80,
+      "as_up": 0,
+      "as_down": 80,
+      "last_horse": "Inflação"
     }
   ],
   "top6_20": [
     {
       "rank": 6,
-      "ticker": "KO",
+      "ticker": "PLTR",
       "total": 79,
-      "as_up": 0,
-      "as_down": 79,
-      "last_horse": "Inflação"
+      "as_up": 79,
+      "as_down": 0,
+      "last_horse": "Ucrânia"
     },
     {
       "rank": 7,
       "ticker": "FLO",
-      "total": 63,
-      "as_up": 63,
+      "total": 64,
+      "as_up": 64,
       "as_down": 0,
       "last_horse": "Inflação"
     },
@@ -75,16 +75,16 @@
     {
       "rank": 9,
       "ticker": "UAL",
-      "total": 53,
+      "total": 55,
       "as_up": 0,
-      "as_down": 53,
-      "last_horse": "Trump"
+      "as_down": 55,
+      "last_horse": "Irão"
     },
     {
       "rank": 10,
       "ticker": "FOXA",
-      "total": 50,
-      "as_up": 50,
+      "total": 51,
+      "as_up": 51,
       "as_down": 0,
       "last_horse": "Trump"
     },
@@ -107,10 +107,10 @@
     {
       "rank": 13,
       "ticker": "XLY",
-      "total": 19,
+      "total": 20,
       "as_up": 0,
-      "as_down": 19,
-      "last_horse": "Inflação"
+      "as_down": 20,
+      "last_horse": "Trump"
     },
     {
       "rank": 14,
@@ -131,9 +131,9 @@
     {
       "rank": 16,
       "ticker": "F",
-      "total": 14,
-      "as_up": 11,
-      "as_down": 3,
+      "total": 16,
+      "as_up": 12,
+      "as_down": 4,
       "last_horse": "Trump"
     },
     {
@@ -182,10 +182,10 @@
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 132,
-      "as_up": 115,
+      "total": 134,
+      "as_up": 117,
       "as_down": 17,
-      "last_horse": "Trump"
+      "last_horse": "Irão"
     },
     {
       "rank": 3,
@@ -205,6 +205,14 @@
     },
     {
       "rank": 5,
+      "ticker": "KO",
+      "total": 80,
+      "as_up": 0,
+      "as_down": 80,
+      "last_horse": "Inflação"
+    },
+    {
+      "rank": 6,
       "ticker": "PLTR",
       "total": 79,
       "as_up": 79,
@@ -212,18 +220,10 @@
       "last_horse": "Ucrânia"
     },
     {
-      "rank": 6,
-      "ticker": "KO",
-      "total": 79,
-      "as_up": 0,
-      "as_down": 79,
-      "last_horse": "Inflação"
-    },
-    {
       "rank": 7,
       "ticker": "FLO",
-      "total": 63,
-      "as_up": 63,
+      "total": 64,
+      "as_up": 64,
       "as_down": 0,
       "last_horse": "Inflação"
     },
@@ -238,16 +238,16 @@
     {
       "rank": 9,
       "ticker": "UAL",
-      "total": 53,
+      "total": 55,
       "as_up": 0,
-      "as_down": 53,
-      "last_horse": "Trump"
+      "as_down": 55,
+      "last_horse": "Irão"
     },
     {
       "rank": 10,
       "ticker": "FOXA",
-      "total": 50,
-      "as_up": 50,
+      "total": 51,
+      "as_up": 51,
       "as_down": 0,
       "last_horse": "Trump"
     },
@@ -270,10 +270,10 @@
     {
       "rank": 13,
       "ticker": "XLY",
-      "total": 19,
+      "total": 20,
       "as_up": 0,
-      "as_down": 19,
-      "last_horse": "Inflação"
+      "as_down": 20,
+      "last_horse": "Trump"
     },
     {
       "rank": 14,
@@ -294,9 +294,9 @@
     {
       "rank": 16,
       "ticker": "F",
-      "total": 14,
-      "as_up": 11,
-      "as_down": 3,
+      "total": 16,
+      "as_up": 12,
+      "as_down": 4,
       "last_horse": "Trump"
     },
     {
