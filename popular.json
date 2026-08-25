@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-25T18:01:49+01:00",
+  "updated_at": "2026-08-25T18:04:50+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 651,
+  "n_events": 653,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
@@ -17,10 +17,10 @@
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 135,
+      "total": 136,
       "as_up": 117,
-      "as_down": 18,
-      "last_horse": "Rússia"
+      "as_down": 19,
+      "last_horse": "Gaza"
     },
     {
       "rank": 3,
@@ -106,6 +106,14 @@
     },
     {
       "rank": 13,
+      "ticker": "F",
+      "total": 20,
+      "as_up": 13,
+      "as_down": 7,
+      "last_horse": "Trump"
+    },
+    {
+      "rank": 14,
       "ticker": "XLY",
       "total": 20,
       "as_up": 0,
@@ -113,20 +121,12 @@
       "last_horse": "Trump"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "ticker": "EE",
       "total": 19,
       "as_up": 19,
       "as_down": 0,
       "last_horse": "Rússia"
-    },
-    {
-      "rank": 15,
-      "ticker": "F",
-      "total": 19,
-      "as_up": 12,
-      "as_down": 7,
-      "last_horse": "Trump"
     },
     {
       "rank": 16,
@@ -139,18 +139,18 @@
     {
       "rank": 17,
       "ticker": "GM",
-      "total": 12,
+      "total": 13,
       "as_up": 1,
-      "as_down": 11,
+      "as_down": 12,
       "last_horse": "Trump"
     },
     {
       "rank": 18,
       "ticker": "LMT",
-      "total": 11,
-      "as_up": 9,
+      "total": 12,
+      "as_up": 10,
       "as_down": 2,
-      "last_horse": "Trump"
+      "last_horse": "Gaza"
     },
     {
       "rank": 19,
@@ -182,10 +182,10 @@
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 135,
+      "total": 136,
       "as_up": 117,
-      "as_down": 18,
-      "last_horse": "Rússia"
+      "as_down": 19,
+      "last_horse": "Gaza"
     },
     {
       "rank": 3,
@@ -269,6 +269,14 @@
     },
     {
       "rank": 13,
+      "ticker": "F",
+      "total": 20,
+      "as_up": 13,
+      "as_down": 7,
+      "last_horse": "Trump"
+    },
+    {
+      "rank": 14,
       "ticker": "XLY",
       "total": 20,
       "as_up": 0,
@@ -276,20 +284,12 @@
       "last_horse": "Trump"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "ticker": "EE",
       "total": 19,
       "as_up": 19,
       "as_down": 0,
       "last_horse": "Rússia"
-    },
-    {
-      "rank": 15,
-      "ticker": "F",
-      "total": 19,
-      "as_up": 12,
-      "as_down": 7,
-      "last_horse": "Trump"
     },
     {
       "rank": 16,
@@ -302,18 +302,18 @@
     {
       "rank": 17,
       "ticker": "GM",
-      "total": 12,
+      "total": 13,
       "as_up": 1,
-      "as_down": 11,
+      "as_down": 12,
       "last_horse": "Trump"
     },
     {
       "rank": 18,
       "ticker": "LMT",
-      "total": 11,
-      "as_up": 9,
+      "total": 12,
+      "as_up": 10,
       "as_down": 2,
-      "last_horse": "Trump"
+      "last_horse": "Gaza"
     },
     {
       "rank": 19,
