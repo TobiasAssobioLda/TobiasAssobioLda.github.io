@@ -1,6 +1,6 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T13:07:43+01:00",
+  "published_at": "2026-08-25T13:10:43+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -211,6 +211,26 @@
       "vibe": "confiança à venda por metro quadrado"
     },
     {
+      "uid": "e46c2f00a13cbfa8bfe7003b",
+      "title": "Hungary Cuts Interest Rate Again With Inflation at Decade-Low - Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlhnZGc0ZGoxRzNMSXloYmhjdkNrWjdXdldDaHMwdkFpYkd5ZV8yVl9LMVFkZmNPT0JQQTMxYlBSTktYNXdGa29qbDQwbWxtSkJrUWRqcmxHUTY3emFLbFpXQ0s4aUFsc1Mzb1BCWDROSXRuNFZRbjRLcWN6LXBiU0Z0MVVsaXlaVFBaTTJYVUthNjd1VURwbDNDMGZacjRNeWRhWnc2SGpidnNRbUxDQ2Nn?oc=5",
+      "source": "Bloomberg",
+      "horse": "Inflação",
+      "sent_at": "2026-08-25T12:09:11.341158+00:00",
+      "impact": 75,
+      "impact_band": "alto",
+      "when_label": "25/08 · 13:09",
+      "read_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYlhnZGc0ZGoxRzNMSXloYmhjdkNrWjdXdldDaHMwdkFpYkd5ZV8yVl9LMVFkZmNPT0JQQTMxYlBSTktYNXdGa29qbDQwbWxtSkJrUWRqcmxHUTY3emFLbFpXQ0s4aUFsc1Mzb1BCWDROSXRuNFZRbjRLcWN6LXBiU0Z0MVVsaXlaVFBaTTJYVUthNjd1VURwbDNDMGZacjRNeWRhWnc2SGpidnNRbUxDQ2Nn?oc=5",
+      "kind": "OFICIAL",
+      "badge": "✅",
+      "horse_emoji": "📈",
+      "hook": "Inflação × Hungria corta juro",
+      "what": "Hungria corta juros com inflação no mínimo de 10 anos.",
+      "up": "O crédito barato volta, tempo de festa.",
+      "down": "A inflação é um gato que ronrona.",
+      "vibe": "café quente e juros a cair"
+    },
+    {
       "uid": "755196b568169e33475ad483",
       "title": "Trump tells Canada to  fall in line  as Carney rejects  subordination",
       "url": "https://www.southwalesargus.co.uk/news/national/26491893.trump-tells-canada-fall-line-carney-rejects-subordination/",
@@ -389,26 +409,6 @@
       "up": "Carney recebe um abraço de urso canadiano",
       "down": "Trump continua a ser o saco dos punches",
       "vibe": "a política é um circo global"
-    },
-    {
-      "uid": "99c173c4b4e836d056369847",
-      "title": "Trump administration proposes $103 , 000 fee for H - 1B visas",
-      "url": "https://www.kten.com/news/politics/trump-administration-proposes-103-000-fee-for-h-1b-visas/article_b3432fdb-65ed-572b-9f81-ec69f0583146.html",
-      "source": "kten.com",
-      "horse": "Trump",
-      "sent_at": "2026-08-24T23:22:27.885419+00:00",
-      "impact": 38,
-      "impact_band": "baixo",
-      "when_label": "25/08 · 00:22",
-      "read_url": "https://www.kten.com/news/politics/trump-administration-proposes-103-000-fee-for-h-1b-visas/article_b3432fdb-65ed-572b-9f81-ec69f0583146.html",
-      "kind": "RUMOR",
-      "badge": "🟠",
-      "horse_emoji": "🦅",
-      "hook": "Trump × Visto H-1B a 103k dólares",
-      "what": "Administração Trump propõe taxa de 103 mil dólares para vistos H-1B",
-      "up": "importar cérebros agora sai mais caro que um Ferrari",
-      "down": "ou é só o Trump a cobrar portada da América",
-      "vibe": "carteira vazia e a fronteiras fechadas"
     }
   ],
   "archive_days": [
