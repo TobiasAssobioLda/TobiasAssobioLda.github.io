@@ -1,6 +1,6 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T13:26:53+01:00",
+  "published_at": "2026-08-25T13:29:53+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -169,6 +169,26 @@
       "up": "o Canadá paga a conta e ainda sorri",
       "down": "Shapiro a chorar porque o vizinho é rico",
       "vibe": "vizinhos a brigar pelo muro"
+    },
+    {
+      "uid": "4fa7b2655beeee71c5b7a941",
+      "title": "Canada plans tariff retaliation after Trump warns its leaders to 'fall in line' - Fox Business",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORW9LZ2c5R3BFT1hTaEFMbDlQR1ZFQXpUeGdXZzhqeEZDWW40SWI4eEVTMDh3YnB6dkZHMDlqZnZ0RW9jYXU3ZmNrMGtLUHkxY3lsT2JfcW01YUpfV05vMHR6Tm4zYjlGQkxMVHc4eE45YnRuVFpoazdaY2xVSmh1OHVnUnVsOTFoQkhscE05SzlEQ29sSjNVbVhXMlkzV0UtbXBXNEpsX3JaOGZB0gGyAUFVX3lxTE1FX1dsVjZzcVlpb0EyVFZSaEJDYkxFeGJTRjBDUnE5d1FhTUxqbEhJa3Q5V2FxbVZmWG44UkVPQUkyTDg2aUNzOGdTbkZFSVFaaW5JR0V0SFIzQS1qM2tMYkJxT1gwam1iOWJNY1c4UzJ5dEhaa052MUdva0hNdW1WMVdrc2R4ekFRNy1nbjlXbU1na3ZaOWhjaFdjYms0ek5lbTlOckQ",
+      "source": "Fox Business",
+      "horse": "Trump",
+      "sent_at": "2026-08-25T12:28:20.307582+00:00",
+      "impact": 81,
+      "impact_band": "alto",
+      "when_label": "25/08 · 13:28",
+      "read_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORW9LZ2c5R3BFT1hTaEFMbDlQR1ZFQXpUeGdXZzhqeEZDWW40SWI4eEVTMDh3YnB6dkZHMDlqZnZ0RW9jYXU3ZmNrMGtLUHkxY3lsT2JfcW01YUpfV05vMHR6Tm4zYjlGQkxMVHc4eE45YnRuVFpoazdaY2xVSmh1OHVnUnVsOTFoQkhscE05SzlEQ29sSjNVbVhXMlkzV0UtbXBXNEpsX3JaOGZB0gGyAUFVX3lxTE1FX1dsVjZzcVlpb0EyVFZSaEJDYkxFeGJTRjBDUnE5d1FhTUxqbEhJa3Q5V2FxbVZmWG44UkVPQUkyTDg2aUNzOGdTbkZFSVFaaW5JR0V0SFIzQS1qM2tMYkJxT1gwam1iOWJNY1c4UzJ5dEhaa052MUdva0hNdW1WMVdrc2R4ekFRNy1nbjlXbU1na3ZaOWhjaFdjYms0ek5lbTlOckQ",
+      "kind": "OFICIAL",
+      "badge": "✅",
+      "horse_emoji": "🦅",
+      "hook": "Trump × Canadá prepara contra-ataque fiscal",
+      "what": "Canadá planeia retaliação tarifária após ultimato de Trump",
+      "up": "o vizinho do norte também tem a seu martelo",
+      "down": "ou é só conversa de bar num frigobar",
+      "vibe": "guerra comercial de vizinhos chateados"
     },
     {
       "uid": "fac98f38a64bdc61f82cc12f",
@@ -389,26 +409,6 @@
       "up": "a frota de foguetões agora com cérebro de última geração",
       "down": "cuidado para não ficarem mais espertos que os pilotos",
       "vibe": "baterias carregadas para o próximo salto"
-    },
-    {
-      "uid": "8603f02d19eff1458c7a6d19",
-      "title": "Taiwan charges 9 over illegal AI server exports to China, including Nvidia and Super Micro staffers - PBS",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNi1qaXh2TU1uMjdEZVEzd3VDZHM4TWEyYUpRbnFBaXdTUmVjVlFENGU3ZmxCT3NZLXhkakVwXzU5NmRkRl9Lc0tWNkQyTXpjQjZoSDdrcElnODhwR0wwcV9yeEZhZkZrd1hSODJBVGlCclU5UzdnQ1VGeWdMU0JaUXhvRHc2WjBoQ3ljek1uY3FXelhfNTJPZXFtUGhSa01ENnNYTmNSR3VjSktlN002NjBTVlpqYUxmTHhqQ3hWLUkwdXZlaWNiemdXLUJwQdIB0wFBVV95cUxONHQxVXp4OWZFSWR1UlVfcHRTRnNmdG9DMjdnT0stLXE4MTF3NzljZGFBSUNPMHR1LXRyaW80MDdIRGpaX1ZJbDFTWjQ5WGtFSF9BSnZ1ZUdta3QtRl8yUlo2TGxtRHJ4bE13MDBGVVdiQW9Da2VGc1dXcW1taUdGZmdIQnR",
-      "source": "PBS",
-      "horse": "China",
-      "sent_at": "2026-08-25T11:51:28.819512+00:00",
-      "impact": 58,
-      "impact_band": "médio",
-      "when_label": "25/08 · 12:51",
-      "read_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNi1qaXh2TU1uMjdEZVEzd3VDZHM4TWEyYUpRbnFBaXdTUmVjVlFENGU3ZmxCT3NZLXhkakVwXzU5NmRkRl9Lc0tWNkQyTXpjQjZoSDdrcElnODhwR0wwcV9yeEZhZkZrd1hSODJBVGlCclU5UzdnQ1VGeWdMU0JaUXhvRHc2WjBoQ3ljek1uY3FXelhfNTJPZXFtUGhSa01ENnNYTmNSR3VjSktlN002NjBTVlpqYUxmTHhqQ3hWLUkwdXZlaWNiemdXLUJwQdIB0wFBVV95cUxONHQxVXp4OWZFSWR1UlVfcHRTRnNmdG9DMjdnT0stLXE4MTF3NzljZGFBSUNPMHR1LXRyaW80MDdIRGpaX1ZJbDFTWjQ5WGtFSF9BSnZ1ZUdta3QtRl8yUlo2TGxtRHJ4bE13MDBGVVdiQW9Da2VGc1dXcW1taUdGZmdIQnR",
-      "kind": "OFICIAL",
-      "badge": "✅",
-      "horse_emoji": "🐉",
-      "hook": "China × Taiwan processa 9 por exportação ilegal",
-      "what": "Taiwan acusa nove pessoas, incluindo funcionários de gigantes tecnológicas, por exportação ilegal de servidor…",
-      "up": "o circuito integrado tem mais segurança do que o meu cofre",
-      "down": "os chineses devem estar a jogar às adivinhas com as placas",
-      "vibe": "guerra de chips sem tiros mas com prisõ…"
     }
   ],
   "archive_days": [
