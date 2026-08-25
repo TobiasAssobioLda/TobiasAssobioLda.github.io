@@ -1,6 +1,6 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T13:23:53+01:00",
+  "published_at": "2026-08-25T13:26:53+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -231,6 +231,26 @@
       "vibe": "café quente e juros a cair"
     },
     {
+      "uid": "0b1bdce03e3a3d8474da6ad1",
+      "title": "Stock futures rise as investors await Nvidia earnings, inflation report due later this week - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOOW9vMjJTQTJVN3FTcTR1RGhSd0xQbnFWbjlHaF9lYkRkU3RodENaaTFheGk3NnVEUXY3cnkwNXVJeERlZ21hR1dfQzFXd0lRUnV0Z0w1UkpwM2pENHZNNmRyYk13TC1jUU16eXVMQVJxWk5yeUtmSTJNT25KNWtBWGswUDMtb0JBWlFqUi1zbnlldHctODB2SW1OQTR2bFJqM3psanJKNVJ0bTRIQi1TaHluX05ERXVGYkROTVpSdnNJTDkyaGM1Qjlrek95dw?oc=5",
+      "source": "CNBC",
+      "horse": "Inflação",
+      "sent_at": "2026-08-25T12:25:21.513203+00:00",
+      "impact": 75,
+      "impact_band": "alto",
+      "when_label": "25/08 · 13:25",
+      "read_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOOW9vMjJTQTJVN3FTcTR1RGhSd0xQbnFWbjlHaF9lYkRkU3RodENaaTFheGk3NnVEUXY3cnkwNXVJeERlZ21hR1dfQzFXd0lRUnV0Z0w1UkpwM2pENHZNNmRyYk13TC1jUU16eXVMQVJxWk5yeUtmSTJNT25KNWtBWGswUDMtb0JBWlFqUi1zbnlldHctODB2SW1OQTR2bFJqM3psanJKNVJ0bTRIQi1TaHluX05ERXVGYkROTVpSdnNJTDkyaGM1Qjlrek95dw?oc=5",
+      "kind": "OFICIAL",
+      "badge": "✅",
+      "horse_emoji": "📈",
+      "hook": "Inflação × Nvidia",
+      "what": "Mercados sobem à espera de resultados da Nvidia e dados de inflação.",
+      "up": "O chip do ano paga o café que infla.",
+      "down": "Se a inflação subir, o lucro é papel.",
+      "vibe": "Manso, mas a ansiedade é só nossa"
+    },
+    {
       "uid": "755196b568169e33475ad483",
       "title": "Trump tells Canada to  fall in line  as Carney rejects  subordination",
       "url": "https://www.southwalesargus.co.uk/news/national/26491893.trump-tells-canada-fall-line-carney-rejects-subordination/",
@@ -389,26 +409,6 @@
       "up": "o circuito integrado tem mais segurança do que o meu cofre",
       "down": "os chineses devem estar a jogar às adivinhas com as placas",
       "vibe": "guerra de chips sem tiros mas com prisõ…"
-    },
-    {
-      "uid": "0dfc08d6d8a4aaba7e7b9d5e",
-      "title": "Doug Ford backs Mark Carney , rips Donald Trump",
-      "url": "https://www.saultstar.com/news/doug-ford-backs-mark-carney-rips-donald-trump-he-is-not-to-be-trusted",
-      "source": "saultstar.com",
-      "horse": "Trump",
-      "sent_at": "2026-08-24T23:09:44.980199+00:00",
-      "impact": 38,
-      "impact_band": "baixo",
-      "when_label": "25/08 · 00:09",
-      "read_url": "https://www.saultstar.com/news/doug-ford-backs-mark-carney-rips-donald-trump-he-is-not-to-be-trusted",
-      "kind": "RUMOR",
-      "badge": "🟠",
-      "horse_emoji": "🦅",
-      "hook": "Trump × Ford dá um chuto",
-      "what": "Doug Ford apoia Carney e ataca Trump publicamente",
-      "up": "Carney recebe um abraço de urso canadiano",
-      "down": "Trump continua a ser o saco dos punches",
-      "vibe": "a política é um circo global"
     }
   ],
   "archive_days": [
