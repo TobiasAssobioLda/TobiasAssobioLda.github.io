@@ -1,6 +1,6 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T14:22:32+01:00",
+  "published_at": "2026-08-25T14:25:32+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -149,6 +149,26 @@
       "up": "diplomacia de nível: apaga o vizinho do mapa",
       "down": "geografia não é botão de reset político",
       "vibe": "risada seca e o café esfria"
+    },
+    {
+      "uid": "417d916bf2e0dd99855d6e3e",
+      "title": "Iran defiant in face of new U . S . sanctions , promises to respond forcefully",
+      "url": "https://www.cbc.ca/news/world/us-iran-war-179-9.7319301",
+      "source": "cbc.ca",
+      "horse": "Irão",
+      "sent_at": "2026-08-25T13:24:11.750794+00:00",
+      "impact": 82,
+      "impact_band": "alto",
+      "when_label": "25/08 · 14:24",
+      "read_url": "https://www.cbc.ca/news/world/us-iran-war-179-9.7319301",
+      "kind": "RUMOR",
+      "badge": "🟠",
+      "horse_emoji": "☢️",
+      "hook": "Irão × resposta forte às sanções",
+      "what": "Teerão promete reagir com força às novas sanções dos EUA.",
+      "up": "os iranianos brincam de jogo do galo nuclear",
+      "down": "sanções que nem telemóvel sem cobertura",
+      "vibe": "tensão a subir no tabuleiro"
     },
     {
       "uid": "b3a7689fe4150f8a3a1656bc",
@@ -389,26 +409,6 @@
       "up": "o robólo já é o verdadeiro candidato a vice",
       "down": "vota no algoritmo que não faz gaffes ao vivo",
       "vibe": "tecnologia a vencer a política novamente"
-    },
-    {
-      "uid": "aa29ade3c9b1b02baad0e69b",
-      "title": "How Trump’s Crypto Push Is Linked to Bessent’s Treasury Moves - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZ3F3VHZrbWdLSmNBekY0WnR0dkx0Nl9rOWl4M2hTZDg0YnZuUU54MHo1SXRHT1VNbTcyRjhUQmdZVVlQbFJjcHd3TGt6TW5NSkktN3VtYUtvTEM4UVh3a0NMNHFwS3phZkxFRWtZTHJMNkZvT2VVNER3Z19PWjBxNGQ2RFl5N3JiakkwMFZMTm4wc215OGdzZHRzTHFnODlMMVppWHhmWU1nZHM?oc=5",
-      "source": "WSJ",
-      "horse": "Trump",
-      "sent_at": "2026-08-25T11:51:23.316340+00:00",
-      "impact": 58,
-      "impact_band": "médio",
-      "when_label": "25/08 · 12:51",
-      "read_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZ3F3VHZrbWdLSmNBekY0WnR0dkx0Nl9rOWl4M2hTZDg0YnZuUU54MHo1SXRHT1VNbTcyRjhUQmdZVVlQbFJjcHd3TGt6TW5NSkktN3VtYUtvTEM4UVh3a0NMNHFwS3phZkxFRWtZTHJMNkZvT2VVNER3Z19PWjBxNGQ2RFl5N3JiakkwMFZMTm4wc215OGdzZHRzTHFnODlMMVppWHhmWU1nZHM?oc=5",
-      "kind": "OFICIAL",
-      "badge": "✅",
-      "horse_emoji": "🦅",
-      "hook": "Trump × Bessent e a festa da cripto",
-      "what": "WSJ liga o impulso cripto de Trump às manobras do secretário Bessent.",
-      "up": "O tesouro já não guarda ouro, guarda memes.",
-      "down": "E a inflação a dançar tango com o Bitcoin.",
-      "vibe": "risco calculado, ou pura loucura"
     }
   ],
   "archive_days": [
