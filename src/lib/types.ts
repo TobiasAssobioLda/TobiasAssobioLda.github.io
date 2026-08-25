@@ -49,10 +49,14 @@ export type PossibleRow = {
   next_check?: string;
   first_seen?: string;
   status?: string;
+  /** quase = corr flat/soft; out_market = mercado fechado */
+  lane?: string;
 };
 
 export type PossiblePayload = {
   rows: PossibleRow[];
+  quase?: PossibleRow[];
+  out_market?: PossibleRow[];
   day?: string;
   retry_min?: number;
   max_tries?: number;

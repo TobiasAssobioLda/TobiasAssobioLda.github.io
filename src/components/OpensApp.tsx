@@ -28,7 +28,7 @@ const emptyOpens: OpensPayload = {
     equity_eur: 2000,
   },
   chill: { rows: [], total_pnl_pct: 0, total_pnl_eur: 0 },
-  possible: { rows: [], day: "", retry_min: 15, max_tries: 6 },
+  possible: { rows: [], quase: [], out_market: [], day: "", retry_min: 15, max_tries: 6 },
 };
 
 const emptyPaper: PaperPayload = {
@@ -177,6 +177,8 @@ export function OpensApp() {
           data={
             opens.possible || {
               rows: [],
+              quase: [],
+              out_market: [],
               day: "",
               retry_min: 15,
               max_tries: 6,
