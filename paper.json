@@ -1,11 +1,11 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T20:05:25+01:00",
+  "published_at": "2026-08-25T20:07:29+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
   "max_items": 20,
-  "count": 6,
+  "count": 7,
   "masthead": "O Rumors",
   "tagline": "geopolítica & mercados · Rumors do dia",
   "paper_since": "2026-08-25T15:46:13.860066+00:00",
@@ -142,6 +142,28 @@
       "vibe": "tensão geopolítica a ferver na mesa",
       "ticker_up": "XOM",
       "ticker_down": "GLD"
+    },
+    {
+      "uid": "12152a2557af24998345a7c2",
+      "title": "Trump says US Navy cleared Hormuz mines as Iran and Oman seek navigation deal",
+      "url": "http://www.albawaba.com/news/trump-says-us-navy-cleared-hormuz-mines-1635786",
+      "source": "albawaba.com",
+      "horse": "Trump",
+      "sent_at": "2026-08-25T19:07:29.091537+00:00",
+      "impact": 58,
+      "impact_band": "médio",
+      "when_label": "25/08 · 20:07",
+      "read_url": "http://www.albawaba.com/news/trump-says-us-navy-cleared-hormuz-mines-1635786",
+      "kind": "OFICIAL",
+      "badge": "✅",
+      "horse_emoji": "🦅",
+      "hook": "Trump × Mina limpa no Estreito",
+      "what": "Marinha EUA limpa minas no Ormuz enquanto Irão e Omã negociam",
+      "up": "XOM respira fundo: o bico de avião está livre",
+      "down": "LMT fica de braços crus: sem guerra, sem cheques",
+      "vibe": "olha o barómetro do petróleo cair",
+      "ticker_up": "XOM",
+      "ticker_down": "LMT"
     }
   ],
   "archive_days": [
