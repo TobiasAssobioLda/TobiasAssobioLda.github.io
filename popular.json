@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-25T18:52:18+01:00",
+  "updated_at": "2026-08-25T18:57:25+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 664,
+  "n_events": 665,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
@@ -131,8 +131,8 @@
     {
       "rank": 16,
       "ticker": "BAC",
-      "total": 17,
-      "as_up": 15,
+      "total": 18,
+      "as_up": 16,
       "as_down": 2,
       "last_horse": "Fed"
     },
@@ -294,8 +294,8 @@
     {
       "rank": 16,
       "ticker": "BAC",
-      "total": 17,
-      "as_up": 15,
+      "total": 18,
+      "as_up": 16,
       "as_down": 2,
       "last_horse": "Fed"
     },
