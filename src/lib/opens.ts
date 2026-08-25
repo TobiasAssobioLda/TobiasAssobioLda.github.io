@@ -1,6 +1,6 @@
 import type { OpensPayload } from "./types";
 
-/** CDN primeiro — sem rate limit da API anónima. API só em último recurso. */
+/** Raw GitHub primeiro — jsDelivr CDN atrasa. API só fallback. */
 const GH_OPENS_CDN =
   "https://cdn.jsdelivr.net/gh/TobiasAssobioLda/TobiasAssobioLda.github.io@main/opens.json";
 const GH_OPENS_RAW =
@@ -28,18 +28,18 @@ function targets(): { url: string; headers?: HeadersInit }[] {
     headers: { Accept: "application/vnd.github.raw+json" } as HeadersInit,
   };
 
-  // Paz: CDN → raw → API (API anónima = 60/h; evitar no hot path)
+  // Raw GitHub primeiro (fresco). CDN jsDelivr atrasa minutos/horas.
   if (!configured) {
-    return [cdn, raw, api];
+    return [raw, cdn, api];
   }
   if (
     configured.includes("raw.githubusercontent.com") ||
     configured.includes("github.io") ||
     configured.includes("jsdelivr")
   ) {
-    return [cdn, raw, api];
+    return [raw, cdn, api];
   }
-  return [{ url: bust(configured) }, cdn, raw, api];
+  return [{ url: bust(configured) }, raw, cdn, api];
 }
 
 export async function fetchOpens(): Promise<OpensPayload> {

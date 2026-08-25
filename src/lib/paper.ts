@@ -20,7 +20,7 @@ export function paperTarget(day?: string): string {
     return remote.replace(/paper\.json(?:\?.*)?$/, `paper/paper_${day}.json`);
   }
   if (remote && !day) return remote;
-  if (!day) return GH_PAPER_CDN;
+  if (!day) return GH_PAPER_RAW;
   return `/paper.sample.json`;
 }
 
@@ -52,9 +52,9 @@ function paperFetchTargets(day?: string): { url: string; headers?: HeadersInit }
         url.includes("jsdelivr") ||
         url.includes("github.io")
       ) {
-        return [{ url: cdn }, { url: raw }, api];
+        return [{ url: raw }, { url: cdn }, api];
       }
-      return [{ url: withBust(url) }, { url: cdn }, { url: raw }, api];
+      return [{ url: withBust(url) }, { url: raw }, { url: cdn }, api];
     }
     return [{ url: withBust("/paper.sample.json") }];
   }
@@ -68,16 +68,16 @@ function paperFetchTargets(day?: string): { url: string; headers?: HeadersInit }
   };
 
   if (!remote) {
-    return [cdn, raw, api];
+    return [raw, cdn, api];
   }
   if (
     remote.includes("raw.githubusercontent.com") ||
     remote.includes("jsdelivr") ||
     remote.includes("github.io")
   ) {
-    return [cdn, raw, api];
+    return [raw, cdn, api];
   }
-  return [{ url: withBust(remote) }, cdn, raw, api];
+  return [{ url: withBust(remote) }, raw, cdn, api];
 }
 
 export async function fetchPaper(day?: string): Promise<PaperPayload> {

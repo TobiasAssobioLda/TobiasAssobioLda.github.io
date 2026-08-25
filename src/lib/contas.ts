@@ -21,8 +21,8 @@ function targets(): { url: string; headers?: HeadersInit }[] {
     url: bust(`${GH_API}?ref=main`),
     headers: { Accept: "application/vnd.github.raw+json" } as HeadersInit,
   };
-  if (!configured) return [cdn, raw, api];
-  return [{ url: bust(configured) }, cdn, raw, api];
+  if (!configured) return [raw, cdn, api];
+  return [{ url: bust(configured) }, raw, cdn, api];
 }
 
 export async function fetchContas(): Promise<ContasPayload> {
