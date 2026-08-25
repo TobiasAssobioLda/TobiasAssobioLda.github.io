@@ -1,6 +1,6 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T19:47:16+01:00",
+  "published_at": "2026-08-25T19:49:52+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -128,7 +128,7 @@
       "source": "aljazeera.com",
       "horse": "Irão",
       "sent_at": "2026-08-25T18:47:16.289908+00:00",
-      "impact": 62,
+      "impact": 61,
       "impact_band": "médio",
       "when_label": "25/08 · 19:47",
       "read_url": "https://www.aljazeera.com/economy/2026/8/25/china-says-will-safeguard-its-own-interests-as-us-expands-iran-sanctions",
