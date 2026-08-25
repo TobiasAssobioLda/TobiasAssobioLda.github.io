@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-25T19:49:57+01:00",
+  "updated_at": "2026-08-25T19:52:29+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 689,
+  "n_events": 694,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
@@ -17,10 +17,10 @@
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 144,
+      "total": 145,
       "as_up": 124,
-      "as_down": 20,
-      "last_horse": "Irão"
+      "as_down": 21,
+      "last_horse": "Petróleo"
     },
     {
       "rank": 3,
@@ -147,25 +147,25 @@
     {
       "rank": 18,
       "ticker": "LMT",
-      "total": 13,
-      "as_up": 11,
+      "total": 14,
+      "as_up": 12,
       "as_down": 2,
-      "last_horse": "Trump"
+      "last_horse": "Rússia"
     },
     {
       "rank": 19,
       "ticker": "NVDA",
-      "total": 12,
-      "as_up": 12,
+      "total": 13,
+      "as_up": 13,
       "as_down": 0,
       "last_horse": "Chips"
     },
     {
       "rank": 20,
       "ticker": "TSM",
-      "total": 12,
+      "total": 13,
       "as_up": 9,
-      "as_down": 3,
+      "as_down": 4,
       "last_horse": "Chips"
     }
   ],
@@ -182,10 +182,10 @@
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 144,
+      "total": 145,
       "as_up": 124,
-      "as_down": 20,
-      "last_horse": "Irão"
+      "as_down": 21,
+      "last_horse": "Petróleo"
     },
     {
       "rank": 3,
@@ -310,25 +310,25 @@
     {
       "rank": 18,
       "ticker": "LMT",
-      "total": 13,
-      "as_up": 11,
+      "total": 14,
+      "as_up": 12,
       "as_down": 2,
-      "last_horse": "Trump"
+      "last_horse": "Rússia"
     },
     {
       "rank": 19,
       "ticker": "NVDA",
-      "total": 12,
-      "as_up": 12,
+      "total": 13,
+      "as_up": 13,
       "as_down": 0,
       "last_horse": "Chips"
     },
     {
       "rank": 20,
       "ticker": "TSM",
-      "total": 12,
+      "total": 13,
       "as_up": 9,
-      "as_down": 3,
+      "as_down": 4,
       "last_horse": "Chips"
     }
   ]
