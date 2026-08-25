@@ -18,6 +18,10 @@ export type OpenRow = {
   news_blurb?: string;
   news_impact?: number;
   opened_at?: string;
+  /** Dias desde abertura (calendário). */
+  open_days?: number;
+  /** Time stop deste livro (dias). */
+  time_stop_days?: number;
   /** Report / Nerd */
   diag?: string;
   corr_score?: number;

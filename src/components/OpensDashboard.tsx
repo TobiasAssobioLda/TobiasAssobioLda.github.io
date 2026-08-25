@@ -53,6 +53,25 @@ function TotalLine({ book }: { book: BookSnapshot }) {
   );
 }
 
+function openDays(r: OpenRow): number {
+  if (r.open_days != null && !Number.isNaN(r.open_days)) {
+    return Math.max(0, Math.floor(r.open_days));
+  }
+  const raw = (r.opened_at || "").trim();
+  if (!raw) return 0;
+  const t = Date.parse(raw);
+  if (Number.isNaN(t)) return 0;
+  const ms = Date.now() - t;
+  return Math.max(0, Math.floor(ms / 86400000));
+}
+
+function timeStopDays(r: OpenRow): number {
+  if (r.time_stop_days != null && r.time_stop_days > 0) {
+    return r.time_stop_days;
+  }
+  return 30;
+}
+
 export function OpensDashboard({
   whenLabel,
   updatedAt,
@@ -97,6 +116,7 @@ export function OpensDashboard({
               <thead>
                 <tr>
                   <th>Activo</th>
+                  <th>ODays</th>
                   <th>Px/INI</th>
                   <th>Px AC</th>
                   <th>P/L%</th>
@@ -107,6 +127,10 @@ export function OpensDashboard({
                 {rows.map((r: OpenRow) => (
                   <tr key={`${r.ticker}-${r.entry}-${r.opened_at || ""}`}>
                     <td className="ticker">{r.ticker}</td>
+                    <td className="odays" title={`time stop ${timeStopDays(r)}d`}>
+                      {openDays(r)}
+                      <span className="odays-max">/{timeStopDays(r)}</span>
+                    </td>
                     <td>{r.entry.toFixed(2)}</td>
                     <td>{r.price.toFixed(2)}</td>
                     <td className={r.pnl_pct >= 0 ? "pos" : "neg"}>
@@ -119,6 +143,7 @@ export function OpensDashboard({
                 ))}
                 <tr className="total">
                   <td>TOTAL</td>
+                  <td />
                   <td />
                   <td />
                   <td className={book.total_pnl_pct >= 0 ? "pos" : "neg"}>

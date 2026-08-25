@@ -163,6 +163,16 @@ th {
   font-weight: 600;
 }
 
+.odays {
+  color: var(--fg);
+  font-variant-numeric: tabular-nums;
+}
+
+.odays-max {
+  color: var(--muted);
+  font-size: 0.78em;
+}
+
 .pos {
   color: var(--pos);
 }
