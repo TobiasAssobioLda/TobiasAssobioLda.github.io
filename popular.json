@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-25T14:51:43+01:00",
+  "updated_at": "2026-08-25T15:00:04+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 621,
+  "n_events": 623,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
@@ -17,10 +17,10 @@
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 127,
-      "as_up": 110,
+      "total": 128,
+      "as_up": 111,
       "as_down": 17,
-      "last_horse": "Ucrânia"
+      "last_horse": "Irão"
     },
     {
       "rank": 3,
@@ -51,9 +51,9 @@
     {
       "rank": 6,
       "ticker": "KO",
-      "total": 76,
+      "total": 77,
       "as_up": 0,
-      "as_down": 76,
+      "as_down": 77,
       "last_horse": "Inflação"
     },
     {
@@ -67,8 +67,8 @@
     {
       "rank": 8,
       "ticker": "FLO",
-      "total": 60,
-      "as_up": 60,
+      "total": 61,
+      "as_up": 61,
       "as_down": 0,
       "last_horse": "Inflação"
     },
@@ -83,10 +83,10 @@
     {
       "rank": 10,
       "ticker": "UAL",
-      "total": 49,
+      "total": 50,
       "as_up": 0,
-      "as_down": 49,
-      "last_horse": "Trump"
+      "as_down": 50,
+      "last_horse": "Irão"
     },
     {
       "rank": 11,
@@ -182,10 +182,10 @@
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 127,
-      "as_up": 110,
+      "total": 128,
+      "as_up": 111,
       "as_down": 17,
-      "last_horse": "Ucrânia"
+      "last_horse": "Irão"
     },
     {
       "rank": 3,
@@ -214,9 +214,9 @@
     {
       "rank": 6,
       "ticker": "KO",
-      "total": 76,
+      "total": 77,
       "as_up": 0,
-      "as_down": 76,
+      "as_down": 77,
       "last_horse": "Inflação"
     },
     {
@@ -230,8 +230,8 @@
     {
       "rank": 8,
       "ticker": "FLO",
-      "total": 60,
-      "as_up": 60,
+      "total": 61,
+      "as_up": 61,
       "as_down": 0,
       "last_horse": "Inflação"
     },
@@ -246,10 +246,10 @@
     {
       "rank": 10,
       "ticker": "UAL",
-      "total": 49,
+      "total": 50,
       "as_up": 0,
-      "as_down": 49,
-      "last_horse": "Trump"
+      "as_down": 50,
+      "last_horse": "Irão"
     },
     {
       "rank": 11,
