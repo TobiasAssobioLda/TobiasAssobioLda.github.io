@@ -1,11 +1,11 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T19:25:21+01:00",
+  "published_at": "2026-08-25T19:28:09+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
   "max_items": 20,
-  "count": 6,
+  "count": 5,
   "masthead": "O Rumors",
   "tagline": "geopolítica & mercados · Rumors do dia",
   "paper_since": "2026-08-25T15:46:13.860066+00:00",
@@ -120,28 +120,6 @@
       "vibe": "olha o preço antes de comprar",
       "ticker_up": "FLO",
       "ticker_down": "KO"
-    },
-    {
-      "uid": "92049faef3040c1396d2a65b",
-      "title": "nd . DerTag : Strafmaßnahmen zulasten der Menschen - Kommentar zu dem von US - Präsident angekündigten  Wirtschaftskrieg  gegen den Iran und dessen Handelspartner",
-      "url": "https://www.politikexpress.de/nd-dertag-strafma-nahmen-zulasten-der-menschen-kommentar-zu-dem-von-us-pr-sident-angek-ndigten-wirtschaftskrieg-gegen-den-iran-und-dessen-handelspartner-2268781.html",
-      "source": "politikexpress.de",
-      "horse": "Irão",
-      "sent_at": "2026-08-25T18:25:21.395212+00:00",
-      "impact": 58,
-      "impact_band": "médio",
-      "when_label": "25/08 · 19:25",
-      "read_url": "https://www.politikexpress.de/nd-dertag-strafma-nahmen-zulasten-der-menschen-kommentar-zu-dem-von-us-pr-sident-angek-ndigten-wirtschaftskrieg-gegen-den-iran-und-dessen-handelspartner-2268781.html",
-      "kind": "RUMOR",
-      "badge": "🟠",
-      "horse_emoji": "☢️",
-      "hook": "Irão × guerra económica anunciada",
-      "what": "EUA anunciam guerra económica contra Irão e parceiros comerciais",
-      "up": "barreiras que cheiram a petróleo a subir logo",
-      "down": "sanções que parecem sapatilhas de corrida velozes",
-      "vibe": "o circo económico começou de novo",
-      "ticker_up": "XOM",
-      "ticker_down": "CVX"
     }
   ],
   "archive_days": [
