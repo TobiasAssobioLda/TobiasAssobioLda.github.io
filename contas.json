@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T23:13:05+01:00",
+  "updated_at": "2026-08-25T23:13:12+01:00",
   "timezone": "Europe/Lisbon",
   "when_label": "23:13",
   "pipoca": {
@@ -95,10 +95,10 @@
     "book": "chill",
     "label": "Chill",
     "bank_eur": 0.0,
-    "equity_eur": 7.18,
+    "equity_eur": 7.16,
     "open_count": 15,
     "open_notional": 340.0,
-    "open_pnl_eur": 8.36,
+    "open_pnl_eur": 8.34,
     "closed_count": 26,
     "realized_eur": -1.18,
     "realized_r": -2.0,
