@@ -3,7 +3,7 @@ import type { OpensPayload } from "./types";
 const GH_OPENS_API =
   "https://api.github.com/repos/TobiasAssobioLda/TobiasAssobioLda.github.io/contents/opens.json";
 
-/** URL pública do JSON (Kamatera / CDN). Vazio = sample em /opens.sample.json */
+/** URL pública do JSON. Vazio = GitHub API (sempre fresco). */
 export function opensUrl(): string {
   return (process.env.NEXT_PUBLIC_OPENS_URL || "").trim();
 }
@@ -18,7 +18,10 @@ function bust(url: string): string {
 function opensFetchTarget(): { url: string; headers?: HeadersInit } {
   const configured = opensUrl();
   if (!configured) {
-    return { url: "/opens.sample.json" };
+    return {
+      url: bust(`${GH_OPENS_API}?ref=main`),
+      headers: { Accept: "application/vnd.github.raw+json" },
+    };
   }
   if (
     configured.includes("raw.githubusercontent.com") &&
@@ -29,6 +32,16 @@ function opensFetchTarget(): { url: string; headers?: HeadersInit } {
       headers: {
         Accept: "application/vnd.github.raw+json",
       },
+    };
+  }
+  // github.io/opens.json 404 (Pages só serve /out) → API
+  if (
+    configured.includes("github.io") &&
+    configured.includes("opens.json")
+  ) {
+    return {
+      url: bust(`${GH_OPENS_API}?ref=main`),
+      headers: { Accept: "application/vnd.github.raw+json" },
     };
   }
   return { url: bust(configured) };
