@@ -1,24 +1,24 @@
 {
-  "updated_at": "2026-08-25T21:58:59+01:00",
+  "updated_at": "2026-08-25T22:01:58+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 705,
+  "n_events": 706,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
     {
       "rank": 1,
       "ticker": "GLD",
-      "total": 224,
+      "total": 225,
       "as_up": 27,
-      "as_down": 197,
+      "as_down": 198,
       "last_horse": "Irão"
     },
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 148,
-      "as_up": 126,
+      "total": 149,
+      "as_up": 127,
       "as_down": 22,
       "last_horse": "Irão"
     },
@@ -174,16 +174,16 @@
     {
       "rank": 1,
       "ticker": "GLD",
-      "total": 224,
+      "total": 225,
       "as_up": 27,
-      "as_down": 197,
+      "as_down": 198,
       "last_horse": "Irão"
     },
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 148,
-      "as_up": 126,
+      "total": 149,
+      "as_up": 127,
       "as_down": 22,
       "last_horse": "Irão"
     },
