@@ -1,6 +1,6 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T14:25:32+01:00",
+  "published_at": "2026-08-25T14:28:32+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -169,6 +169,26 @@
       "up": "os iranianos brincam de jogo do galo nuclear",
       "down": "sanções que nem telemóvel sem cobertura",
       "vibe": "tensão a subir no tabuleiro"
+    },
+    {
+      "uid": "2900d47731dc8061ba1b0d60",
+      "title": "Iran vows retaliation after U.S. widens sanctions, fueling fears of escalated war - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV1dSYy0tU2pDamRWcDVRblprd3lQbGtYb2E1SVBkWGQyUDBnMkhCTDhMR1NSWUdUMjRVdjdMVFRDVy01eFZ0aHRNUmZMR0tLUVE5R3ZmWnBBNDVCeVV1djFPaVhIcFBiVEo3WHMxNjF0azdmVjhGcUdxa1diQVUyVy1rWFhhbnpMaW1ad3JLNGpCQ3JjV2ZwZ1JyZkV5T3dxM2ZJalRpOGdfajV4bjJyOXpON2U1Zw?oc=5",
+      "source": "NBC News",
+      "horse": "Irão",
+      "sent_at": "2026-08-25T13:27:03.161505+00:00",
+      "impact": 82,
+      "impact_band": "alto",
+      "when_label": "25/08 · 14:27",
+      "read_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV1dSYy0tU2pDamRWcDVRblprd3lQbGtYb2E1SVBkWGQyUDBnMkhCTDhMR1NSWUdUMjRVdjdMVFRDVy01eFZ0aHRNUmZMR0tLUVE5R3ZmWnBBNDVCeVV1djFPaVhIcFBiVEo3WHMxNjF0azdmVjhGcUdxa1diQVUyVy1rWFhhbnpMaW1ad3JLNGpCQ3JjV2ZwZ1JyZkV5T3dxM2ZJalRpOGdfajV4bjJyOXpON2U1Zw?oc=5",
+      "kind": "OFICIAL",
+      "badge": "✅",
+      "horse_emoji": "☢️",
+      "hook": "Irão × vingança com sanções",
+      "what": "Irão promete retaliação após EUA alargarem sanções, reacendendo receios de guerra.",
+      "up": "o jogo de brincar a ser mais duro que o vizinho",
+      "down": "sanções que picam mas não matam o dragão",
+      "vibe": "ar pesado e café frio"
     },
     {
       "uid": "b3a7689fe4150f8a3a1656bc",
@@ -389,26 +409,6 @@
       "up": "o vizinho rude corta a ficha eléctrica",
       "down": "ou o Irão já tem pilhas próprias",
       "vibe": "tapar buracos com dinheiro velho"
-    },
-    {
-      "uid": "37c229ca2783babb8f3c6452",
-      "title": "Karl Rove alarmed as Trump AI obsession creates a massive midterm headache",
-      "url": "https://www.rawstory.com/karl-rove-2677770981/",
-      "source": "rawstory.com",
-      "horse": "Trump",
-      "sent_at": "2026-08-24T23:39:51.931997+00:00",
-      "impact": 74,
-      "impact_band": "alto",
-      "when_label": "25/08 · 00:39",
-      "read_url": "https://www.rawstory.com/karl-rove-2677770981/",
-      "kind": "RUMOR",
-      "badge": "🟠",
-      "horse_emoji": "🦅",
-      "hook": "Trump × obsessão IA dá dor de cabeça",
-      "what": "Karl Rove alerta para o risco eleitoral da fixação de Trump em IA",
-      "up": "o robólo já é o verdadeiro candidato a vice",
-      "down": "vota no algoritmo que não faz gaffes ao vivo",
-      "vibe": "tecnologia a vencer a política novamente"
     }
   ],
   "archive_days": [
