@@ -35,6 +35,7 @@ export type OpensPayload = {
   when_label: string;
   pipoca: BookSnapshot;
   chill: BookSnapshot;
+  pipoca_all?: BookSnapshot;
   possible?: PossiblePayload;
 };
 

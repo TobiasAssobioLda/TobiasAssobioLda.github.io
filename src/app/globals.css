@@ -210,6 +210,15 @@ footer {
   background: rgba(201, 162, 39, 0.12);
 }
 
+.tabs.subtabs {
+  padding-top: 0.55rem;
+}
+
+.tabs.subtabs .tab {
+  font-size: 0.78rem;
+  padding: 0.28rem 0.75rem;
+}
+
 .nop-list {
   display: flex;
   flex-direction: column;

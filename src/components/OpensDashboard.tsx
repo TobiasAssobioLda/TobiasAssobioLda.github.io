@@ -17,7 +17,7 @@ function fmtBank(n: number): string {
   });
 }
 
-function PipocaBankLine({ book }: { book: BookSnapshot }) {
+function BankLine({ book }: { book: BookSnapshot }) {
   const bank = book.bank_eur && book.bank_eur > 0 ? book.bank_eur : 0;
   if (!bank) return null;
   const equity =
@@ -35,7 +35,7 @@ function PipocaBankLine({ book }: { book: BookSnapshot }) {
   );
 }
 
-function ChillTotalLine({ book }: { book: BookSnapshot }) {
+function TotalLine({ book }: { book: BookSnapshot }) {
   const rows = book.rows || [];
   if (!rows.length) return null;
   return (
@@ -53,106 +53,89 @@ function ChillTotalLine({ book }: { book: BookSnapshot }) {
   );
 }
 
-function OpenTable({
-  title,
-  book,
-  summary,
-}: {
-  title: string;
-  book: BookSnapshot;
-  summary: "pipoca" | "chill";
-}) {
-  const rows = book.rows || [];
-  const Summary =
-    summary === "pipoca" ? (
-      <PipocaBankLine book={book} />
-    ) : (
-      <ChillTotalLine book={book} />
-    );
-  if (!rows.length) {
-    return (
-      <section className="book">
-        <h2>{title}</h2>
-        {Summary}
-        <p className="empty">sem posições abertas</p>
-      </section>
-    );
-  }
-
-  return (
-    <section className="book">
-      <h2>
-        {title} <span className="count">{rows.length} open</span>
-      </h2>
-      {Summary}
-      <div className="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Activo</th>
-              <th>Px/INI</th>
-              <th>Px AC</th>
-              <th>P/L%</th>
-              <th>P/L$</th>
-            </tr>
-          </thead>
-          <tbody>
-            {rows.map((r: OpenRow) => (
-              <tr key={`${r.ticker}-${r.entry}`}>
-                <td className="ticker">{r.ticker}</td>
-                <td>{r.entry.toFixed(2)}</td>
-                <td>{r.price.toFixed(2)}</td>
-                <td className={r.pnl_pct >= 0 ? "pos" : "neg"}>
-                  {fmtPct(r.pnl_pct)}
-                </td>
-                <td className={r.pnl_eur >= 0 ? "pos" : "neg"}>
-                  {fmtUsd(r.pnl_eur)}
-                </td>
-              </tr>
-            ))}
-            <tr className="total">
-              <td>TOTAL</td>
-              <td />
-              <td />
-              <td className={book.total_pnl_pct >= 0 ? "pos" : "neg"}>
-                {fmtPct(book.total_pnl_pct)}
-              </td>
-              <td className={book.total_pnl_eur >= 0 ? "pos" : "neg"}>
-                {fmtUsd(book.total_pnl_eur)}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-  );
-}
-
 export function OpensDashboard({
   whenLabel,
   updatedAt,
-  pipoca,
-  chill,
+  book,
+  bookKey,
+  title,
 }: {
   whenLabel: string;
   updatedAt: string;
-  pipoca: BookSnapshot;
-  chill: BookSnapshot;
+  book: BookSnapshot;
+  bookKey: "pipoca" | "chill" | "pipoca_all";
+  title: string;
 }) {
+  const rows = book.rows || [];
+  const withBank = bookKey === "pipoca" || bookKey === "pipoca_all";
+  const Summary = withBank ? <BankLine book={book} /> : <TotalLine book={book} />;
+  const source =
+    bookKey === "pipoca_all" ? "paper · mark" : "Alpaca · posição real";
+
   return (
     <main className="page">
       <header>
         <p className="brand">Trade1</p>
         <h1>Opens</h1>
         <p className="meta">
-          Alpaca · {whenLabel || "—"}
+          {source} · {whenLabel || "—"}
           {updatedAt ? ` · ${updatedAt}` : ""}
         </p>
       </header>
-      <OpenTable title="Pipoca" book={pipoca} summary="pipoca" />
-      <OpenTable title="Chill" book={chill} summary="chill" />
+      <section className="book">
+        <h2>
+          {title}{" "}
+          {rows.length ? (
+            <span className="count">{rows.length} open</span>
+          ) : null}
+        </h2>
+        {Summary}
+        {!rows.length ? (
+          <p className="empty">sem posições abertas</p>
+        ) : (
+          <div className="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Activo</th>
+                  <th>Px/INI</th>
+                  <th>Px AC</th>
+                  <th>P/L%</th>
+                  <th>P/L$</th>
+                </tr>
+              </thead>
+              <tbody>
+                {rows.map((r: OpenRow) => (
+                  <tr key={`${r.ticker}-${r.entry}-${r.opened_at || ""}`}>
+                    <td className="ticker">{r.ticker}</td>
+                    <td>{r.entry.toFixed(2)}</td>
+                    <td>{r.price.toFixed(2)}</td>
+                    <td className={r.pnl_pct >= 0 ? "pos" : "neg"}>
+                      {fmtPct(r.pnl_pct)}
+                    </td>
+                    <td className={r.pnl_eur >= 0 ? "pos" : "neg"}>
+                      {fmtUsd(r.pnl_eur)}
+                    </td>
+                  </tr>
+                ))}
+                <tr className="total">
+                  <td>TOTAL</td>
+                  <td />
+                  <td />
+                  <td className={book.total_pnl_pct >= 0 ? "pos" : "neg"}>
+                    {fmtPct(book.total_pnl_pct)}
+                  </td>
+                  <td className={book.total_pnl_eur >= 0 ? "pos" : "neg"}>
+                    {fmtUsd(book.total_pnl_eur)}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        )}
+      </section>
       <footer>
-        Valores Alpaca (posição real). Notícia da entrada → abas NOP.
+        Notícia da entrada → aba NOP · {title}.
       </footer>
     </main>
   );

@@ -16,19 +16,27 @@ import { fetchDatas } from "@/lib/datas";
 import { fetchPopular } from "@/lib/popular";
 import { fetchOpens } from "@/lib/opens";
 
+const emptyBook = {
+  rows: [] as OpensPayload["pipoca"]["rows"],
+  total_pnl_pct: 0,
+  total_pnl_eur: 0,
+};
+
 const emptyOpens: OpensPayload = {
   updated_at: "",
   timezone: "Europe/Lisbon",
   when_label: "offline",
-  pipoca: {
+  pipoca: { ...emptyBook, bank_eur: 2000, equity_eur: 2000 },
+  chill: { ...emptyBook },
+  pipoca_all: { ...emptyBook, bank_eur: 10000, equity_eur: 10000 },
+  possible: {
     rows: [],
-    total_pnl_pct: 0,
-    total_pnl_eur: 0,
-    bank_eur: 2000,
-    equity_eur: 2000,
+    quase: [],
+    out_market: [],
+    day: "",
+    retry_min: 15,
+    max_tries: 6,
   },
-  chill: { rows: [], total_pnl_pct: 0, total_pnl_eur: 0 },
-  possible: { rows: [], quase: [], out_market: [], day: "", retry_min: 15, max_tries: 6 },
 };
 
 const emptyPaper: PaperPayload = {
@@ -68,17 +76,14 @@ const emptyPopular: PopularPayload = {
 const OPENS_POLL_MS = 2 * 60_000;
 const PAPER_POLL_MS = 3 * 60_000;
 
-type Tab =
-  | "opens"
-  | "possible"
-  | "datas"
-  | "popular"
-  | "nop-chill"
-  | "nop-pipoca"
-  | "paper";
+type Tab = "opens" | "possible" | "datas" | "popular" | "nop" | "paper";
+type OpenBook = "pipoca" | "chill" | "pipoca_all";
+type NopBook = "chill" | "pipoca" | "pipoca_all";
 
 export function OpensApp() {
   const [tab, setTab] = useState<Tab>("opens");
+  const [openBook, setOpenBook] = useState<OpenBook>("pipoca");
+  const [nopBook, setNopBook] = useState<NopBook>("chill");
   const [opens, setOpens] = useState<OpensPayload>(emptyOpens);
   const [paper, setPaper] = useState<PaperPayload>(emptyPaper);
   const [datas, setDatas] = useState<DatasPayload>(emptyDatas);
@@ -140,6 +145,27 @@ export function OpensApp() {
     if (tab === "paper") loadPaper();
   }, [tab, loadPaper]);
 
+  const openSnap =
+    openBook === "chill"
+      ? opens.chill
+      : openBook === "pipoca_all"
+        ? opens.pipoca_all || emptyBook
+        : opens.pipoca;
+
+  const nopSnap =
+    nopBook === "chill"
+      ? opens.chill
+      : nopBook === "pipoca_all"
+        ? opens.pipoca_all || emptyBook
+        : opens.pipoca;
+
+  const nopLabel =
+    nopBook === "chill"
+      ? "Chill"
+      : nopBook === "pipoca_all"
+        ? "Pipoca All"
+        : "Pipoca";
+
   return (
     <>
       <nav className="tabs">
@@ -149,8 +175,7 @@ export function OpensApp() {
             ["possible", "Possible"],
             ["datas", "Datas"],
             ["popular", "Popular"],
-            ["nop-chill", "NOP Chill"],
-            ["nop-pipoca", "NOP Pipoca"],
+            ["nop", "NOP"],
             ["paper", "Jornal"],
           ] as const
         ).map(([id, label]) => (
@@ -164,14 +189,43 @@ export function OpensApp() {
           </button>
         ))}
       </nav>
+
       {tab === "opens" ? (
-        <OpensDashboard
-          whenLabel={opens.when_label}
-          updatedAt={opens.updated_at}
-          pipoca={opens.pipoca}
-          chill={opens.chill}
-        />
+        <>
+          <nav className="tabs subtabs">
+            {(
+              [
+                ["pipoca", "Pipoca"],
+                ["chill", "Chill"],
+                ["pipoca_all", "Pipoca All"],
+              ] as const
+            ).map(([id, label]) => (
+              <button
+                key={id}
+                type="button"
+                className={openBook === id ? "tab active" : "tab"}
+                onClick={() => setOpenBook(id)}
+              >
+                {label}
+              </button>
+            ))}
+          </nav>
+          <OpensDashboard
+            whenLabel={opens.when_label}
+            updatedAt={opens.updated_at}
+            book={openSnap}
+            bookKey={openBook}
+            title={
+              openBook === "chill"
+                ? "Chill"
+                : openBook === "pipoca_all"
+                  ? "Pipoca All"
+                  : "Pipoca"
+            }
+          />
+        </>
       ) : null}
+
       {tab === "possible" ? (
         <PossibleDashboard
           data={
@@ -189,20 +243,35 @@ export function OpensApp() {
       ) : null}
       {tab === "datas" ? <DatasDashboard data={datas} /> : null}
       {tab === "popular" ? <PopularDashboard data={popular} /> : null}
-      {tab === "nop-chill" ? (
-        <NopDashboard
-          book={opens.chill}
-          label="Chill"
-          updatedAt={opens.updated_at}
-        />
+
+      {tab === "nop" ? (
+        <>
+          <nav className="tabs subtabs">
+            {(
+              [
+                ["chill", "Chill"],
+                ["pipoca", "Pipoca"],
+                ["pipoca_all", "Pipoca All"],
+              ] as const
+            ).map(([id, label]) => (
+              <button
+                key={id}
+                type="button"
+                className={nopBook === id ? "tab active" : "tab"}
+                onClick={() => setNopBook(id)}
+              >
+                {label}
+              </button>
+            ))}
+          </nav>
+          <NopDashboard
+            book={nopSnap}
+            label={nopLabel}
+            updatedAt={opens.updated_at}
+          />
+        </>
       ) : null}
-      {tab === "nop-pipoca" ? (
-        <NopDashboard
-          book={opens.pipoca}
-          label="Pipoca"
-          updatedAt={opens.updated_at}
-        />
-      ) : null}
+
       {tab === "paper" ? (
         <PaperDashboard paper={paper} onPickDay={(d) => loadPaper(d)} />
       ) : null}
