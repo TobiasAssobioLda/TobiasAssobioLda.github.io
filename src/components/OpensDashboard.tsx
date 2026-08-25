@@ -69,8 +69,7 @@ export function OpensDashboard({
   const rows = book.rows || [];
   const withBank = bookKey === "pipoca" || bookKey === "pipoca_all";
   const Summary = withBank ? <BankLine book={book} /> : <TotalLine book={book} />;
-  const source =
-    bookKey === "pipoca_all" ? "paper · mark" : "Alpaca · posição real";
+  const source = "Alpaca · posição real";
 
   return (
     <main className="page">
