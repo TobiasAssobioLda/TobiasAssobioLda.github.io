@@ -8,6 +8,7 @@ import type { PopularPayload } from "@/lib/popular-types";
 import { OpensDashboard } from "./OpensDashboard";
 import { NopDashboard } from "./NopDashboard";
 import { NerdDashboard } from "./NerdDashboard";
+import { ContasDashboard } from "./ContasDashboard";
 import { PaperDashboard } from "./PaperDashboard";
 import { DatasDashboard } from "./DatasDashboard";
 import { PopularDashboard } from "./PopularDashboard";
@@ -16,6 +17,8 @@ import { fetchPaper } from "@/lib/paper";
 import { fetchDatas } from "@/lib/datas";
 import { fetchPopular } from "@/lib/popular";
 import { fetchOpens } from "@/lib/opens";
+import { fetchContas } from "@/lib/contas";
+import type { ContasPayload } from "@/lib/contas-types";
 
 const emptyBook = {
   rows: [] as OpensPayload["pipoca"]["rows"],
@@ -73,11 +76,51 @@ const emptyPopular: PopularPayload = {
   top6_20: [],
 };
 
+const emptyContasBook = {
+  book: "",
+  label: "",
+  bank_eur: 0,
+  equity_eur: 0,
+  open_count: 0,
+  open_notional: 0,
+  open_pnl_eur: 0,
+  closed_count: 0,
+  realized_eur: 0,
+  realized_r: 0,
+  wins: 0,
+  losses: 0,
+  win_rate: 0,
+  closed: [] as ContasPayload["pipoca"]["closed"],
+};
+
+const emptyContas: ContasPayload = {
+  updated_at: "",
+  timezone: "Europe/Lisbon",
+  when_label: "",
+  pipoca: { ...emptyContasBook, book: "pipoca", label: "Pipoca", bank_eur: 2000, equity_eur: 2000 },
+  chill: { ...emptyContasBook, book: "chill", label: "Chill" },
+  pipoca_all: {
+    ...emptyContasBook,
+    book: "pipoca_all",
+    label: "Pipoca All",
+    bank_eur: 10000,
+    equity_eur: 10000,
+  },
+};
+
 /** Poll leve — não martela free tier / servidor. */
 const OPENS_POLL_MS = 2 * 60_000;
 const PAPER_POLL_MS = 3 * 60_000;
 
-type Tab = "opens" | "possible" | "datas" | "popular" | "nop" | "nerd" | "paper";
+type Tab =
+  | "opens"
+  | "possible"
+  | "datas"
+  | "popular"
+  | "nop"
+  | "nerd"
+  | "contas"
+  | "paper";
 type OpenBook = "pipoca" | "chill" | "pipoca_all";
 type NopBook = "chill" | "pipoca" | "pipoca_all";
 
@@ -86,7 +129,9 @@ export function OpensApp() {
   const [openBook, setOpenBook] = useState<OpenBook>("pipoca");
   const [nopBook, setNopBook] = useState<NopBook>("chill");
   const [nerdBook, setNerdBook] = useState<NopBook>("chill");
+  const [contasBook, setContasBook] = useState<NopBook>("chill");
   const [opens, setOpens] = useState<OpensPayload>(emptyOpens);
+  const [contas, setContas] = useState<ContasPayload>(emptyContas);
   const [paper, setPaper] = useState<PaperPayload>(emptyPaper);
   const [datas, setDatas] = useState<DatasPayload>(emptyDatas);
   const [popular, setPopular] = useState<PopularPayload>(emptyPopular);
@@ -96,6 +141,14 @@ export function OpensApp() {
       setOpens(await fetchOpens());
     } catch {
       // mantém último load — não limpa para vazio
+    }
+  }, []);
+
+  const loadContas = useCallback(async () => {
+    try {
+      setContas(await fetchContas());
+    } catch {
+      /* keep */
     }
   }, []);
 
@@ -129,10 +182,12 @@ export function OpensApp() {
     loadPaper();
     loadDatas();
     loadPopular();
+    loadContas();
     const id = window.setInterval(() => {
       loadOpens();
       loadDatas();
       loadPopular();
+      loadContas();
     }, OPENS_POLL_MS);
     const paperId = window.setInterval(() => {
       loadPaper();
@@ -141,7 +196,7 @@ export function OpensApp() {
       window.clearInterval(id);
       window.clearInterval(paperId);
     };
-  }, [loadOpens, loadPaper, loadDatas, loadPopular]);
+  }, [loadOpens, loadPaper, loadDatas, loadPopular, loadContas]);
 
   useEffect(() => {
     if (tab === "paper") loadPaper();
@@ -181,6 +236,19 @@ export function OpensApp() {
         ? "Pipoca All"
         : "Pipoca";
 
+  const contasSnap =
+    contasBook === "chill"
+      ? contas.chill
+      : contasBook === "pipoca_all"
+        ? contas.pipoca_all
+        : contas.pipoca;
+  const contasLabel =
+    contasBook === "chill"
+      ? "Chill"
+      : contasBook === "pipoca_all"
+        ? "Pipoca All"
+        : "Pipoca";
+
   return (
     <>
       <nav className="tabs">
@@ -192,6 +260,7 @@ export function OpensApp() {
             ["popular", "Popular"],
             ["nop", "NOP"],
             ["nerd", "Nerd"],
+            ["contas", "Contas"],
             ["paper", "Jornal"],
           ] as const
         ).map(([id, label]) => (
@@ -312,6 +381,34 @@ export function OpensApp() {
             book={nerdSnap}
             label={nerdLabel}
             updatedAt={opens.updated_at}
+          />
+        </>
+      ) : null}
+
+      {tab === "contas" ? (
+        <>
+          <nav className="tabs subtabs">
+            {(
+              [
+                ["chill", "Chill"],
+                ["pipoca", "Pipoca"],
+                ["pipoca_all", "Pipoca All"],
+              ] as const
+            ).map(([id, label]) => (
+              <button
+                key={id}
+                type="button"
+                className={contasBook === id ? "tab active" : "tab"}
+                onClick={() => setContasBook(id)}
+              >
+                {label}
+              </button>
+            ))}
+          </nav>
+          <ContasDashboard
+            book={contasSnap}
+            label={contasLabel}
+            updatedAt={contas.updated_at}
           />
         </>
       ) : null}
