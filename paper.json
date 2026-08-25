@@ -1,6 +1,6 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T13:34:29+01:00",
+  "published_at": "2026-08-25T13:37:29+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -189,6 +189,26 @@
       "up": "o vizinho do norte também tem a seu martelo",
       "down": "ou é só conversa de bar num frigobar",
       "vibe": "guerra comercial de vizinhos chateados"
+    },
+    {
+      "uid": "5d3e8dfef2aa946558e828a4",
+      "title": "Dow Jones Top Financial Services Headlines at 7 AM ET : Global Bond Markets Stabilize as Investors Mull U . S . Buybacks , Iran Sanctions | Scotiabank ...",
+      "url": "https://www.morningstar.com/news/dow-jones/202608252738/dow-jones-top-financial-services-headlines-at-7-am-et-global-bond-markets-stabilize-as-investors-mull-us-buybacks-iran-sanctions-scotiabank",
+      "source": "morningstar.com",
+      "horse": "Irão",
+      "sent_at": "2026-08-25T12:36:23.919093+00:00",
+      "impact": 77,
+      "impact_band": "alto",
+      "when_label": "25/08 · 13:36",
+      "read_url": "https://www.morningstar.com/news/dow-jones/202608252738/dow-jones-top-financial-services-headlines-at-7-am-et-global-bond-markets-stabilize-as-investors-mull-us-buybacks-iran-sanctions-scotiabank",
+      "kind": "RUMOR",
+      "badge": "🟠",
+      "horse_emoji": "☢️",
+      "hook": "Irão × Óbice nos mercados globais",
+      "what": "Mercados de títulos estabilizam enquanto investidores ponderam compras e sanções ao Irão",
+      "up": "O medo de Teerão é o único estabilizador que funciona",
+      "down": "Ou é só o FMI a tentar não desmaiar",
+      "vibe": "café na mão e a ver o circo"
     },
     {
       "uid": "fac98f38a64bdc61f82cc12f",
@@ -389,26 +409,6 @@
       "up": "falta a caveira, mas o esqueleto continua em pé",
       "down": "ou é só show para as câmaras",
       "vibe": "sentir-se só na festa"
-    },
-    {
-      "uid": "b50c38f63c943444783d77cd",
-      "title": "SpaceXAI Adopts NVIDIA Vera CPU to Accelerate Agentic AI at Massive Scale - NVIDIA Newsroom",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ0VWYXd5MnAyUzdGRDB5YkJsdzk4ZW5zbDZnTUdRNVZDS1d1dE5ISUVkVzUyUmRLcDBjNzJLQ1dWMUNkUUI3MWxIT2xZWHp6bndLYy1hM2I2ZnF1emNZRWh5ZzAxQzVYWEI3ZTFVZzJpUjhLQ05rTmVybjVkeWNfMmtMQlFPSTZGX0ZPNnRIdDJ5bmoyZlJ6TVppbHVkWnJnVmJlMU1JNDhpV1VY?oc=5",
-      "source": "NVIDIA Newsroom",
-      "horse": "Musk",
-      "sent_at": "2026-08-25T11:51:27.871121+00:00",
-      "impact": 58,
-      "impact_band": "médio",
-      "when_label": "25/08 · 12:51",
-      "read_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ0VWYXd5MnAyUzdGRDB5YkJsdzk4ZW5zbDZnTUdRNVZDS1d1dE5ISUVkVzUyUmRLcDBjNzJLQ1dWMUNkUUI3MWxIT2xZWHp6bndLYy1hM2I2ZnF1emNZRWh5ZzAxQzVYWEI3ZTFVZzJpUjhLQ05rTmVybjVkeWNfMmtMQlFPSTZGX0ZPNnRIdDJ5bmoyZlJ6TVppbHVkWnJnVmJlMU1JNDhpV1VY?oc=5",
-      "kind": "OFICIAL",
-      "badge": "✅",
-      "horse_emoji": "🚀",
-      "hook": "Musk × chips que aceleram a IA",
-      "what": "A SpaceX adoptou processadores NVIDIA para escalar a sua inteligência artificial.",
-      "up": "a frota de foguetões agora com cérebro de última geração",
-      "down": "cuidado para não ficarem mais espertos que os pilotos",
-      "vibe": "baterias carregadas para o próximo salto"
     }
   ],
   "archive_days": [
