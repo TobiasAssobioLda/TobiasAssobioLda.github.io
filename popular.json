@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-25T21:24:35+01:00",
+  "updated_at": "2026-08-25T21:27:34+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 703,
+  "n_events": 704,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
@@ -17,8 +17,8 @@
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 147,
-      "as_up": 125,
+      "total": 148,
+      "as_up": 126,
       "as_down": 22,
       "last_horse": "Irão"
     },
@@ -182,8 +182,8 @@
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 147,
-      "as_up": 125,
+      "total": 148,
+      "as_up": 126,
       "as_down": 22,
       "last_horse": "Irão"
     },
