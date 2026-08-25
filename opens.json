@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-25T23:13:04+01:00",
+  "updated_at": "2026-08-25T23:14:12+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "23:13",
+  "when_label": "23:14",
   "pipoca": {
     "rows": [
       {
@@ -34,11 +34,11 @@
       {
         "ticker": "NVDA",
         "entry": 210.5201,
-        "price": 214.2,
+        "price": 214.1885,
         "qty": 2.004403,
         "notional": 421.9671,
-        "pnl_pct": 1.748,
-        "pnl_eur": 7.376059,
+        "pnl_pct": 1.743,
+        "pnl_eur": 7.353008,
         "pnl_r": 0.46,
         "sl": 202.6,
         "tp1": 226.36,
@@ -86,10 +86,10 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.5031048754234198,
-    "total_pnl_eur": 4.283593,
+    "total_pnl_pct": 0.500397552275916,
+    "total_pnl_eur": 4.260542,
     "bank_eur": 2000.0,
-    "equity_eur": 2004.28
+    "equity_eur": 2004.26
   },
   "chill": {
     "rows": [
@@ -258,11 +258,11 @@
       {
         "ticker": "NVDA",
         "entry": 210.5201,
-        "price": 214.2,
+        "price": 214.1885,
         "qty": 2.004403,
         "notional": 421.9671,
-        "pnl_pct": 1.748,
-        "pnl_eur": 7.376059,
+        "pnl_pct": 1.743,
+        "pnl_eur": 7.353008,
         "pnl_r": 0.46,
         "sl": 202.6,
         "tp1": 226.36,
@@ -339,12 +339,12 @@
       {
         "ticker": "XOM",
         "entry": 161.708,
-        "price": 160.11,
+        "price": 160.3,
         "qty": 0.123667,
         "notional": 19.9979,
-        "pnl_pct": -0.988,
-        "pnl_eur": -0.19762,
-        "pnl_r": -0.32,
+        "pnl_pct": -0.8710000000000001,
+        "pnl_eur": -0.174123,
+        "pnl_r": -0.28,
         "sl": 156.66,
         "tp1": 171.85,
         "tp2": 176.92,
@@ -366,11 +366,11 @@
       {
         "ticker": "BMNR",
         "entry": 25.258,
-        "price": 24.7699,
+        "price": 24.748,
         "qty": 0.791766,
         "notional": 19.9984,
-        "pnl_pct": -1.932,
-        "pnl_eur": -0.386461,
+        "pnl_pct": -2.019,
+        "pnl_eur": -0.403801,
         "pnl_r": -0.13,
         "sl": 21.47,
         "tp1": 29.05,
@@ -420,12 +420,12 @@
       {
         "ticker": "PLTR",
         "entry": 172.912,
-        "price": 172.5378,
+        "price": 172.49,
         "qty": 0.115647,
         "notional": 19.9968,
-        "pnl_pct": -0.216,
-        "pnl_eur": -0.043275,
-        "pnl_r": -0.03,
+        "pnl_pct": -0.244,
+        "pnl_eur": -0.048803,
+        "pnl_r": -0.04,
         "sl": 161.94,
         "tp1": 194.94,
         "tp2": 205.94,
@@ -499,19 +499,19 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.7387135723540036,
-    "total_pnl_eur": 8.359396
+    "total_pnl_pct": 0.7367321569838835,
+    "total_pnl_eur": 8.336974000000001
   },
   "pipoca_all": {
     "rows": [
       {
         "ticker": "NVDA",
         "entry": 210.5201,
-        "price": 214.2,
+        "price": 214.1885,
         "qty": 2.004403,
         "notional": 421.9671,
-        "pnl_pct": 1.748,
-        "pnl_eur": 7.376059,
+        "pnl_pct": 1.743,
+        "pnl_eur": 7.353008,
         "pnl_r": 0.46,
         "sl": 202.6,
         "tp1": 226.36,
@@ -559,10 +559,10 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 1.0228098473017488,
-    "total_pnl_eur": 6.670228,
+    "total_pnl_pct": 1.0192752170327157,
+    "total_pnl_eur": 6.647177,
     "bank_eur": 10000.0,
-    "equity_eur": 10006.67
+    "equity_eur": 10006.65
   },
   "possible": {
     "quase": [],
@@ -575,7 +575,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-08-25T22:24:11.294002+00:00",
+        "next_check": "2026-08-25T22:29:11.331478+00:00",
         "first_seen": "2026-08-25T21:17:21.272554+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -588,7 +588,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-08-25T22:24:11.383080+00:00",
+        "next_check": "2026-08-25T22:29:11.371292+00:00",
         "first_seen": "2026-08-25T20:18:08.451822+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -603,7 +603,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-08-25T22:24:11.294002+00:00",
+        "next_check": "2026-08-25T22:29:11.331478+00:00",
         "first_seen": "2026-08-25T21:17:21.272554+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -616,7 +616,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-08-25T22:24:11.383080+00:00",
+        "next_check": "2026-08-25T22:29:11.371292+00:00",
         "first_seen": "2026-08-25T20:18:08.451822+00:00",
         "status": "wait",
         "lane": "out_market"
