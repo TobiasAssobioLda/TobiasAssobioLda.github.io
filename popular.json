@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-25T21:14:18+01:00",
+  "updated_at": "2026-08-25T21:17:18+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 702,
+  "n_events": 703,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
@@ -155,9 +155,9 @@
     {
       "rank": 19,
       "ticker": "NVDA",
-      "total": 13,
+      "total": 14,
       "as_up": 13,
-      "as_down": 0,
+      "as_down": 1,
       "last_horse": "Chips"
     },
     {
@@ -318,9 +318,9 @@
     {
       "rank": 19,
       "ticker": "NVDA",
-      "total": 13,
+      "total": 14,
       "as_up": 13,
-      "as_down": 0,
+      "as_down": 1,
       "last_horse": "Chips"
     },
     {
