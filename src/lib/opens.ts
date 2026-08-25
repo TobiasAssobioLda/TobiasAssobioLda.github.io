@@ -2,8 +2,10 @@ import type { OpensPayload } from "./types";
 
 const GH_OPENS_API =
   "https://api.github.com/repos/TobiasAssobioLda/TobiasAssobioLda.github.io/contents/opens.json";
+const GH_OPENS_RAW =
+  "https://raw.githubusercontent.com/TobiasAssobioLda/TobiasAssobioLda.github.io/main/opens.json";
 
-/** URL pública do JSON. Vazio = GitHub API (sempre fresco). */
+/** URL pública do JSON. Vazio = raw GitHub (live do bot). */
 export function opensUrl(): string {
   return (process.env.NEXT_PUBLIC_OPENS_URL || "").trim();
 }
@@ -14,47 +16,45 @@ function bust(url: string): string {
   return `${url}${sep}v=${encodeURIComponent(build)}&t=${Date.now()}`;
 }
 
-/** raw.githubusercontent.com cacheia agressivo — API GitHub traz sempre o último commit. */
-function opensFetchTarget(): { url: string; headers?: HeadersInit } {
+function targets(): { url: string; headers?: HeadersInit }[] {
   const configured = opensUrl();
+  const api = {
+    url: bust(`${GH_OPENS_API}?ref=main`),
+    headers: { Accept: "application/vnd.github.raw+json" } as HeadersInit,
+  };
+  const raw = { url: bust(GH_OPENS_RAW) };
+
   if (!configured) {
-    return {
-      url: bust(`${GH_OPENS_API}?ref=main`),
-      headers: { Accept: "application/vnd.github.raw+json" },
-    };
+    // raw primeiro (sem rate limit apertado); API se raw falhar
+    return [raw, api];
   }
   if (
-    configured.includes("raw.githubusercontent.com") &&
-    configured.includes("opens.json")
+    configured.includes("raw.githubusercontent.com") ||
+    configured.includes("github.io")
   ) {
-    return {
-      url: bust(`${GH_OPENS_API}?ref=main`),
-      headers: {
-        Accept: "application/vnd.github.raw+json",
-      },
-    };
+    return [raw, api];
   }
-  // github.io/opens.json 404 (Pages só serve /out) → API
-  if (
-    configured.includes("github.io") &&
-    configured.includes("opens.json")
-  ) {
-    return {
-      url: bust(`${GH_OPENS_API}?ref=main`),
-      headers: { Accept: "application/vnd.github.raw+json" },
-    };
-  }
-  return { url: bust(configured) };
+  return [{ url: bust(configured) }, raw, api];
 }
 
 export async function fetchOpens(): Promise<OpensPayload> {
-  const { url, headers } = opensFetchTarget();
-  const res = await fetch(url, {
-    cache: "no-store",
-    headers,
-  });
-  if (!res.ok) {
-    throw new Error(`opens fetch ${res.status}`);
+  let lastErr: Error | null = null;
+  for (const { url, headers } of targets()) {
+    try {
+      const res = await fetch(url, { cache: "no-store", headers });
+      if (!res.ok) {
+        lastErr = new Error(`opens fetch ${res.status}`);
+        continue;
+      }
+      const data = (await res.json()) as OpensPayload;
+      if (!data || typeof data !== "object") {
+        lastErr = new Error("opens invalid json");
+        continue;
+      }
+      return data;
+    } catch (e) {
+      lastErr = e instanceof Error ? e : new Error(String(e));
+    }
   }
-  return res.json() as Promise<OpensPayload>;
+  throw lastErr || new Error("opens fetch failed");
 }
