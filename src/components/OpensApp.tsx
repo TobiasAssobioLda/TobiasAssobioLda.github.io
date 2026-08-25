@@ -93,7 +93,7 @@ export function OpensApp() {
     try {
       setOpens(await fetchOpens());
     } catch {
-      setOpens(emptyOpens);
+      // mantém último load — não limpa para vazio
     }
   }, []);
 

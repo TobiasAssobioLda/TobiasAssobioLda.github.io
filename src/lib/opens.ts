@@ -2,10 +2,13 @@ import type { OpensPayload } from "./types";
 
 const GH_OPENS_API =
   "https://api.github.com/repos/TobiasAssobioLda/TobiasAssobioLda.github.io/contents/opens.json";
+/** jsDelivr costuma refrescar mais rápido que raw.githubusercontent. */
+const GH_OPENS_CDN =
+  "https://cdn.jsdelivr.net/gh/TobiasAssobioLda/TobiasAssobioLda.github.io@main/opens.json";
 const GH_OPENS_RAW =
   "https://raw.githubusercontent.com/TobiasAssobioLda/TobiasAssobioLda.github.io/main/opens.json";
 
-/** URL pública do JSON. Vazio = raw GitHub (live do bot). */
+/** URL pública do JSON. Vazio = API GitHub (live do bot). */
 export function opensUrl(): string {
   return (process.env.NEXT_PUBLIC_OPENS_URL || "").trim();
 }
@@ -22,19 +25,20 @@ function targets(): { url: string; headers?: HeadersInit }[] {
     url: bust(`${GH_OPENS_API}?ref=main`),
     headers: { Accept: "application/vnd.github.raw+json" } as HeadersInit,
   };
+  const cdn = { url: bust(GH_OPENS_CDN) };
   const raw = { url: bust(GH_OPENS_RAW) };
 
   if (!configured) {
-    // raw primeiro (sem rate limit apertado); API se raw falhar
-    return [raw, api];
+    return [api, cdn, raw];
   }
   if (
     configured.includes("raw.githubusercontent.com") ||
-    configured.includes("github.io")
+    configured.includes("github.io") ||
+    configured.includes("jsdelivr")
   ) {
-    return [raw, api];
+    return [api, cdn, raw];
   }
-  return [{ url: bust(configured) }, raw, api];
+  return [{ url: bust(configured) }, api, cdn, raw];
 }
 
 export async function fetchOpens(): Promise<OpensPayload> {
@@ -47,8 +51,8 @@ export async function fetchOpens(): Promise<OpensPayload> {
         continue;
       }
       const data = (await res.json()) as OpensPayload;
-      if (!data || typeof data !== "object") {
-        lastErr = new Error("opens invalid json");
+      if (!data?.pipoca && !data?.chill) {
+        lastErr = new Error("opens invalid payload");
         continue;
       }
       return data;
