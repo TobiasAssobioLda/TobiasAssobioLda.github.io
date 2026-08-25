@@ -1,16 +1,39 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T16:49:13+01:00",
+  "published_at": "2026-08-25T16:51:53+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
   "max_items": 20,
-  "count": 0,
+  "count": 1,
   "masthead": "O Rumors",
   "tagline": "geopolítica & mercados · Rumors do dia",
   "paper_since": "2026-08-25T15:46:13.860066+00:00",
-  "lead_uid": "",
-  "items": [],
+  "lead_uid": "32e3dabc74483fd2a774479e",
+  "items": [
+    {
+      "uid": "32e3dabc74483fd2a774479e",
+      "title": "Are Inflation-Fighting Bonds on Sale? - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT2NLdFdsYWo0bFpCcFFzSHlPY1c0c0NucXdYMzdYTUV4WWtPQVNCN280SENLa1QtU3NEbVFvUHRkdWVpUGJDMmZ6V01lZmZsQk56VUtNaUEzbU4zZWh0QXBVR0NaX2FVb0VndnZCT04zV1lPcThDbEVqUjZGRnEzVnF0SDVvanNNRTRF?oc=5",
+      "source": "WSJ",
+      "horse": "Inflação",
+      "sent_at": "2026-08-25T15:51:53.292838+00:00",
+      "impact": 75,
+      "impact_band": "alto",
+      "when_label": "25/08 · 16:51",
+      "read_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPT2NLdFdsYWo0bFpCcFFzSHlPY1c0c0NucXdYMzdYTUV4WWtPQVNCN280SENLa1QtU3NEbVFvUHRkdWVpUGJDMmZ6V01lZmZsQk56VUtNaUEzbU4zZWh0QXBVR0NaX2FVb0VndnZCT04zV1lPcThDbEVqUjZGRnEzVnF0SDVvanNNRTRF?oc=5",
+      "kind": "OFICIAL",
+      "badge": "✅",
+      "horse_emoji": "📈",
+      "hook": "Inflação × Obrigações em promoção?",
+      "what": "WSJ questiona se títulos anti-inflação estão a ser vendidos com desconto.",
+      "up": "Proteger o poder de compra agora é barato.",
+      "down": "Ou é armadilha para quem confia no governo.",
+      "vibe": "olha o preço antes de comprar",
+      "ticker_up": "FLO",
+      "ticker_down": "KO"
+    }
+  ],
   "archive_days": [
     "2026-08-25",
     "2026-08-24"
