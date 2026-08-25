@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-25T13:51:58+01:00",
+  "updated_at": "2026-08-25T14:16:51+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 611,
+  "n_events": 612,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
@@ -138,6 +138,14 @@
     },
     {
       "rank": 17,
+      "ticker": "F",
+      "total": 10,
+      "as_up": 8,
+      "as_down": 2,
+      "last_horse": "Trump"
+    },
+    {
+      "rank": 18,
       "ticker": "TSM",
       "total": 9,
       "as_up": 9,
@@ -145,28 +153,20 @@
       "last_horse": "China"
     },
     {
-      "rank": 18,
-      "ticker": "F",
+      "rank": 19,
+      "ticker": "GM",
       "total": 9,
-      "as_up": 7,
-      "as_down": 2,
+      "as_up": 1,
+      "as_down": 8,
       "last_horse": "Trump"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "ticker": "IEF",
       "total": 9,
       "as_up": 0,
       "as_down": 9,
       "last_horse": "Fed"
-    },
-    {
-      "rank": 20,
-      "ticker": "LMT",
-      "total": 8,
-      "as_up": 6,
-      "as_down": 2,
-      "last_horse": "Drones"
     }
   ],
   "count": 20,
@@ -301,6 +301,14 @@
     },
     {
       "rank": 17,
+      "ticker": "F",
+      "total": 10,
+      "as_up": 8,
+      "as_down": 2,
+      "last_horse": "Trump"
+    },
+    {
+      "rank": 18,
       "ticker": "TSM",
       "total": 9,
       "as_up": 9,
@@ -308,28 +316,20 @@
       "last_horse": "China"
     },
     {
-      "rank": 18,
-      "ticker": "F",
+      "rank": 19,
+      "ticker": "GM",
       "total": 9,
-      "as_up": 7,
-      "as_down": 2,
+      "as_up": 1,
+      "as_down": 8,
       "last_horse": "Trump"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "ticker": "IEF",
       "total": 9,
       "as_up": 0,
       "as_down": 9,
       "last_horse": "Fed"
-    },
-    {
-      "rank": 20,
-      "ticker": "LMT",
-      "total": 8,
-      "as_up": 6,
-      "as_down": 2,
-      "last_horse": "Drones"
     }
   ]
 }
