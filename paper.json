@@ -1,11 +1,11 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T20:09:17+01:00",
+  "published_at": "2026-08-25T20:09:23+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
   "max_items": 20,
-  "count": 8,
+  "count": 7,
   "masthead": "O Rumors",
   "tagline": "geopolítica & mercados · Rumors do dia",
   "paper_since": "2026-08-25T15:46:13.860066+00:00",
@@ -164,28 +164,6 @@
       "vibe": "olha o barómetro do petróleo cair",
       "ticker_up": "XOM",
       "ticker_down": "LMT"
-    },
-    {
-      "uid": "d4e7ee4821fd5a54076f263e",
-      "title": "EU buries plan to steal Russian assets for Ukraine",
-      "url": "http://www.europesun.com/news/279264504/eu-buries-plan-to-steal-russian-assets-for-ukraine-euractiv",
-      "source": "europesun.com",
-      "horse": "Rússia",
-      "sent_at": "2026-08-25T19:09:17.996309+00:00",
-      "impact": 55,
-      "impact_band": "médio",
-      "when_label": "25/08 · 20:09",
-      "read_url": "http://www.europesun.com/news/279264504/eu-buries-plan-to-steal-russian-assets-for-ukraine-euractiv",
-      "kind": "RUMOR",
-      "badge": "🟠",
-      "horse_emoji": "🐻",
-      "hook": "Rússia × UE desiste de roubar",
-      "what": "UE arquiva plano de confiscar ativos russos para financiar a Ucrânia",
-      "up": "LMT respira aliviado: o seguro vale a pena",
-      "down": "Ucrânia sem caixa extra: guerra de desgaste",
-      "vibe": "o circo muda de palcete",
-      "ticker_up": "LMT",
-      "ticker_down": "NOC"
     }
   ],
   "archive_days": [
