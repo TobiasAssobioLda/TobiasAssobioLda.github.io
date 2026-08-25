@@ -1,6 +1,6 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T15:23:33+01:00",
+  "published_at": "2026-08-25T15:26:33+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -351,6 +351,26 @@
       "vibe": "guerra comercial com sabor a maple"
     },
     {
+      "uid": "5228189659505926087a6110",
+      "title": "Trump threatens even higher tariffs on Canadian exports after talks unravel",
+      "url": "https://www.westhawaiitoday.com/2026/08/25/nation-world-news/trump-threatens-even-higher-tariffs-on-canadian-exports-after-talks-unravel/",
+      "source": "westhawaiitoday.com",
+      "horse": "Trump",
+      "sent_at": "2026-08-25T14:25:49.724525+00:00",
+      "impact": 81,
+      "impact_band": "alto",
+      "when_label": "25/08 · 15:25",
+      "read_url": "https://www.westhawaiitoday.com/2026/08/25/nation-world-news/trump-threatens-even-higher-tariffs-on-canadian-exports-after-talks-unravel/",
+      "kind": "RUMOR",
+      "badge": "🟠",
+      "horse_emoji": "🦅",
+      "hook": "Trump × tarifas Canadá a subir",
+      "what": "Trump ameaça alinhar tarifas após colapso nas negociações comerciais",
+      "up": "o Canadá vai aprender a falar inglês",
+      "down": "a carne bovina canadiana vai ficar cara",
+      "vibe": "vizinhos a discutir o muro de novo"
+    },
+    {
       "uid": "5d3e8dfef2aa946558e828a4",
       "title": "Dow Jones Top Financial Services Headlines at 7 AM ET : Global Bond Markets Stabilize as Investors Mull U . S . Buybacks , Iran Sanctions | Scotiabank ...",
       "url": "https://www.morningstar.com/news/dow-jones/202608252738/dow-jones-top-financial-services-headlines-at-7-am-et-global-bond-markets-stabilize-as-investors-mull-us-buybacks-iran-sanctions-scotiabank",
@@ -389,26 +409,6 @@
       "up": "a família política está mais em risco que a bolsa",
       "down": "quem paga o prémio de seguro de vida do gajo",
       "vibe": "café na mão e o coração na mão"
-    },
-    {
-      "uid": "1241104e9fd9856e973c4c23",
-      "title": "Did the 2022 energy inflation surge dent European Central Bank and Fed credibility? Evidence across horizons - Bruegel",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdEJLLUNsaENvXzYyWmFXWS13MUpkVkNOOUo1c2tEYmlqdTJfVklGMXVsNURHYWdGQVBjX3RkVWlsMnZCTkVHcWthRTh6RG83bUpXMnJqLW9BQ3A3bHRsSERFdEk0MllmZTFvVVFjNGhjZXM2VVMyTjY4MkQ3am14NUh6NGRaV3B0NVg3YU1TNFBvTFJwb3Fpd2Zmd0M5LU1wMzFzQm5PeDc4SUFVRDZ1MG9jUENDcmc?oc=5",
-      "source": "Bruegel",
-      "horse": "Inflação",
-      "sent_at": "2026-08-25T12:00:08.020306+00:00",
-      "impact": 75,
-      "impact_band": "alto",
-      "when_label": "25/08 · 13:00",
-      "read_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdEJLLUNsaENvXzYyWmFXWS13MUpkVkNOOUo1c2tEYmlqdTJfVklGMXVsNURHYWdGQVBjX3RkVWlsMnZCTkVHcWthRTh6RG83bUpXMnJqLW9BQ3A3bHRsSERFdEk0MllmZTFvVVFjNGhjZXM2VVMyTjY4MkQ3am14NUh6NGRaV3B0NVg3YU1TNFBvTFJwb3Fpd2Zmd0M5LU1wMzFzQm5PeDc4SUFVRDZ1MG9jUENDcmc?oc=5",
-      "kind": "RUMOR",
-      "badge": "🟠",
-      "horse_emoji": "📈",
-      "hook": "Inflação × credibilidade dos bancos centrais",
-      "what": "Estudo Bruegel analisa se a inflação energética de 2022 abalou a confiança na BCE e Fed.",
-      "up": "A credibilidade derreteu mais rápido que a poupança dos europeos.",
-      "down": "Ou são tão fortes que o calor nem lhes fez cócegas.",
-      "vibe": "confiança à venda por metro quadrado"
     }
   ],
   "archive_days": [
