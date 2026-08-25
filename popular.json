@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-08-25T01:10:16+01:00",
+  "updated_at": "2026-08-25T12:48:51+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 594,
+  "n_events": 597,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
     {
       "rank": 1,
       "ticker": "GLD",
-      "total": 203,
+      "total": 204,
       "as_up": 27,
-      "as_down": 176,
+      "as_down": 177,
       "last_horse": "Irão"
     },
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 118,
-      "as_up": 103,
+      "total": 120,
+      "as_up": 105,
       "as_down": 15,
-      "last_horse": "Irão"
+      "last_horse": "Trump"
     },
     {
       "rank": 3,
@@ -83,10 +83,10 @@
     {
       "rank": 10,
       "ticker": "UAL",
-      "total": 48,
+      "total": 49,
       "as_up": 0,
-      "as_down": 48,
-      "last_horse": "Irão"
+      "as_down": 49,
+      "last_horse": "Trump"
     },
     {
       "rank": 11,
@@ -162,10 +162,10 @@
     },
     {
       "rank": 20,
-      "ticker": "MSFT",
+      "ticker": "F",
       "total": 7,
-      "as_up": 3,
-      "as_down": 4,
+      "as_up": 5,
+      "as_down": 2,
       "last_horse": "Trump"
     }
   ],
@@ -174,18 +174,18 @@
     {
       "rank": 1,
       "ticker": "GLD",
-      "total": 203,
+      "total": 204,
       "as_up": 27,
-      "as_down": 176,
+      "as_down": 177,
       "last_horse": "Irão"
     },
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 118,
-      "as_up": 103,
+      "total": 120,
+      "as_up": 105,
       "as_down": 15,
-      "last_horse": "Irão"
+      "last_horse": "Trump"
     },
     {
       "rank": 3,
@@ -246,10 +246,10 @@
     {
       "rank": 10,
       "ticker": "UAL",
-      "total": 48,
+      "total": 49,
       "as_up": 0,
-      "as_down": 48,
-      "last_horse": "Irão"
+      "as_down": 49,
+      "last_horse": "Trump"
     },
     {
       "rank": 11,
@@ -325,10 +325,10 @@
     },
     {
       "rank": 20,
-      "ticker": "MSFT",
+      "ticker": "F",
       "total": 7,
-      "as_up": 3,
-      "as_down": 4,
+      "as_up": 5,
+      "as_down": 2,
       "last_horse": "Trump"
     }
   ]
