@@ -1,6 +1,6 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T16:04:39+01:00",
+  "published_at": "2026-08-25T16:07:39+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -169,6 +169,26 @@
       "up": "diplomacia de nível: apaga o vizinho do mapa",
       "down": "geografia não é botão de reset político",
       "vibe": "risada seca e o café esfria"
+    },
+    {
+      "uid": "7ea5ccc7b05e1d176966f680",
+      "title": "Canada may cut U . S . power exports as Trump reignites trade war",
+      "url": "https://www.siliconvalley.com/2026/08/25/canada-threatens-cut-us-power-exports-trump-trade-war/",
+      "source": "siliconvalley.com",
+      "horse": "Trump",
+      "sent_at": "2026-08-25T15:06:59.360859+00:00",
+      "impact": 84,
+      "impact_band": "alto",
+      "when_label": "25/08 · 16:06",
+      "read_url": "https://www.siliconvalley.com/2026/08/25/canada-threatens-cut-us-power-exports-trump-trade-war/",
+      "kind": "RUMOR",
+      "badge": "🟠",
+      "horse_emoji": "🦅",
+      "hook": "Trump × Canadá corta energia aos EUA",
+      "what": "Canadá pode reduzir exportações de energia para os EUA por causa de Trump",
+      "up": "O vizinho desliga o aquecimento e o norte-americano gela",
+      "down": "A guerra comercial já chega ao contador do gás",
+      "vibe": "frio lá fora e calor na política"
     },
     {
       "uid": "417d916bf2e0dd99855d6e3e",
@@ -389,26 +409,6 @@
       "up": "os vizinhos do norte não vêm só para a festa",
       "down": "guerra comercial ou treino para o último homem",
       "vibe": "vizinhos a gritar pela vedação"
-    },
-    {
-      "uid": "5d3e8dfef2aa946558e828a4",
-      "title": "Dow Jones Top Financial Services Headlines at 7 AM ET : Global Bond Markets Stabilize as Investors Mull U . S . Buybacks , Iran Sanctions | Scotiabank ...",
-      "url": "https://www.morningstar.com/news/dow-jones/202608252738/dow-jones-top-financial-services-headlines-at-7-am-et-global-bond-markets-stabilize-as-investors-mull-us-buybacks-iran-sanctions-scotiabank",
-      "source": "morningstar.com",
-      "horse": "Irão",
-      "sent_at": "2026-08-25T12:36:23.919093+00:00",
-      "impact": 77,
-      "impact_band": "alto",
-      "when_label": "25/08 · 13:36",
-      "read_url": "https://www.morningstar.com/news/dow-jones/202608252738/dow-jones-top-financial-services-headlines-at-7-am-et-global-bond-markets-stabilize-as-investors-mull-us-buybacks-iran-sanctions-scotiabank",
-      "kind": "RUMOR",
-      "badge": "🟠",
-      "horse_emoji": "☢️",
-      "hook": "Irão × Óbice nos mercados globais",
-      "what": "Mercados de títulos estabilizam enquanto investidores ponderam compras e sanções ao Irão",
-      "up": "O medo de Teerão é o único estabilizador que funciona",
-      "down": "Ou é só o FMI a tentar não desmaiar",
-      "vibe": "café na mão e a ver o circo"
     }
   ],
   "archive_days": [
