@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-25T16:26:51+01:00",
+  "updated_at": "2026-08-25T16:34:50+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 634,
+  "n_events": 635,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
@@ -51,16 +51,16 @@
     {
       "rank": 6,
       "ticker": "KO",
-      "total": 78,
+      "total": 79,
       "as_up": 0,
-      "as_down": 78,
+      "as_down": 79,
       "last_horse": "Inflação"
     },
     {
       "rank": 7,
       "ticker": "FLO",
-      "total": 62,
-      "as_up": 62,
+      "total": 63,
+      "as_up": 63,
       "as_down": 0,
       "last_horse": "Inflação"
     },
@@ -214,16 +214,16 @@
     {
       "rank": 6,
       "ticker": "KO",
-      "total": 78,
+      "total": 79,
       "as_up": 0,
-      "as_down": 78,
+      "as_down": 79,
       "last_horse": "Inflação"
     },
     {
       "rank": 7,
       "ticker": "FLO",
-      "total": 62,
-      "as_up": 62,
+      "total": 63,
+      "as_up": 63,
       "as_down": 0,
       "last_horse": "Inflação"
     },
