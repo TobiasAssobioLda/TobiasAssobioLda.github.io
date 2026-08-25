@@ -33,6 +33,7 @@ const emptyOpens: OpensPayload = {
   pipoca: { ...emptyBook, bank_eur: 2000, equity_eur: 2000 },
   chill: { ...emptyBook },
   pipoca_all: { ...emptyBook, bank_eur: 10000, equity_eur: 10000 },
+  max: { ...emptyBook },
   possible: {
     rows: [],
     quase: [],
@@ -106,6 +107,7 @@ const emptyContas: ContasPayload = {
     bank_eur: 10000,
     equity_eur: 10000,
   },
+  max: { ...emptyContasBook, book: "max", label: "MAX" },
 };
 
 /** Poll leve — não martela free tier / servidor. */
@@ -121,8 +123,8 @@ type Tab =
   | "nerd"
   | "contas"
   | "paper";
-type OpenBook = "pipoca" | "chill" | "pipoca_all";
-type NopBook = "chill" | "pipoca" | "pipoca_all";
+type OpenBook = "pipoca" | "chill" | "pipoca_all" | "max";
+type NopBook = "chill" | "pipoca" | "pipoca_all" | "max";
 
 export function OpensApp() {
   const [tab, setTab] = useState<Tab>("opens");
@@ -207,47 +209,61 @@ export function OpensApp() {
       ? opens.chill
       : openBook === "pipoca_all"
         ? opens.pipoca_all || emptyBook
-        : opens.pipoca;
+        : openBook === "max"
+          ? opens.max || emptyBook
+          : opens.pipoca;
 
   const nopSnap =
     nopBook === "chill"
       ? opens.chill
       : nopBook === "pipoca_all"
         ? opens.pipoca_all || emptyBook
-        : opens.pipoca;
+        : nopBook === "max"
+          ? opens.max || emptyBook
+          : opens.pipoca;
 
   const nopLabel =
     nopBook === "chill"
       ? "Chill"
       : nopBook === "pipoca_all"
         ? "Pipoca All"
-        : "Pipoca";
+        : nopBook === "max"
+          ? "MAX"
+          : "Pipoca";
 
   const nerdSnap =
     nerdBook === "chill"
       ? opens.chill
       : nerdBook === "pipoca_all"
         ? opens.pipoca_all || emptyBook
-        : opens.pipoca;
+        : nerdBook === "max"
+          ? opens.max || emptyBook
+          : opens.pipoca;
   const nerdLabel =
     nerdBook === "chill"
       ? "Chill"
       : nerdBook === "pipoca_all"
         ? "Pipoca All"
-        : "Pipoca";
+        : nerdBook === "max"
+          ? "MAX"
+          : "Pipoca";
 
   const contasSnap =
     contasBook === "chill"
       ? contas.chill
       : contasBook === "pipoca_all"
         ? contas.pipoca_all
-        : contas.pipoca;
+        : contasBook === "max"
+          ? contas.max || emptyContasBook
+          : contas.pipoca;
   const contasLabel =
     contasBook === "chill"
       ? "Chill"
       : contasBook === "pipoca_all"
         ? "Pipoca All"
-        : "Pipoca";
+        : contasBook === "max"
+          ? "MAX"
+          : "Pipoca";
 
   return (
     <>
@@ -283,6 +299,7 @@ export function OpensApp() {
                 ["pipoca", "Pipoca"],
                 ["chill", "Chill"],
                 ["pipoca_all", "Pipoca All"],
+                ["max", "MAX"],
               ] as const
             ).map(([id, label]) => (
               <button
@@ -305,7 +322,9 @@ export function OpensApp() {
                 ? "Chill"
                 : openBook === "pipoca_all"
                   ? "Pipoca All"
-                  : "Pipoca"
+                  : openBook === "max"
+                    ? "MAX"
+                    : "Pipoca"
             }
           />
         </>
@@ -337,6 +356,7 @@ export function OpensApp() {
                 ["chill", "Chill"],
                 ["pipoca", "Pipoca"],
                 ["pipoca_all", "Pipoca All"],
+                ["max", "MAX"],
               ] as const
             ).map(([id, label]) => (
               <button
@@ -366,6 +386,7 @@ export function OpensApp() {
                 ["chill", "Chill"],
                 ["pipoca", "Pipoca"],
                 ["pipoca_all", "Pipoca All"],
+                ["max", "MAX"],
               ] as const
             ).map(([id, label]) => (
               <button
@@ -394,6 +415,7 @@ export function OpensApp() {
                 ["chill", "Chill"],
                 ["pipoca", "Pipoca"],
                 ["pipoca_all", "Pipoca All"],
+                ["max", "MAX"],
               ] as const
             ).map(([id, label]) => (
               <button

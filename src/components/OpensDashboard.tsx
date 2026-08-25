@@ -82,7 +82,7 @@ export function OpensDashboard({
   whenLabel: string;
   updatedAt: string;
   book: BookSnapshot;
-  bookKey: "pipoca" | "chill" | "pipoca_all";
+  bookKey: "pipoca" | "chill" | "pipoca_all" | "max";
   title: string;
 }) {
   const rows = book.rows || [];
