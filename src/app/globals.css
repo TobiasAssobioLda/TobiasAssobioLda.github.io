@@ -232,6 +232,83 @@ footer {
   padding: 1rem 1.1rem;
 }
 
+.nop-card .nop-news {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.nop-card .nop-news .tg-line {
+  margin: 0.25rem 0;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--fg);
+}
+
+.nop-card .nop-news .tg-hook {
+  font-size: 1.02rem;
+}
+
+.nerd-card .tg-line {
+  margin: 0.25rem 0;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--fg);
+}
+
+.nerd-corr-block {
+  margin: 0.65rem 0 0.85rem;
+  padding: 0.75rem 0.9rem;
+  border-radius: 10px;
+  background: rgba(201, 162, 39, 0.1);
+  border: 1px solid rgba(201, 162, 39, 0.35);
+}
+
+.nerd-corr-label {
+  margin: 0;
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brand);
+  font-weight: 650;
+}
+
+.nerd-corr-value {
+  margin: 0.15rem 0 0;
+  font-family: var(--mono);
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: var(--fg);
+  letter-spacing: 0.02em;
+}
+
+.nerd-corr-sub {
+  margin: 0.35rem 0 0;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.nerd-corr-sub strong {
+  color: var(--fg);
+  font-weight: 600;
+}
+
+.nerd-mono {
+  font-family: var(--mono);
+  font-size: 0.84rem;
+  color: var(--muted);
+}
+
+.nerd-diag {
+  font-size: 0.78rem;
+  color: var(--muted);
+  line-height: 1.35;
+  margin-top: 0.5rem !important;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--line);
+}
+
 .nop-head {
   display: flex;
   flex-wrap: wrap;

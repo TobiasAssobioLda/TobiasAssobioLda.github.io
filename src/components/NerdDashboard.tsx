@@ -1,32 +1,44 @@
 "use client";
 
 import type { BookSnapshot, OpenRow } from "@/lib/types";
+import { formatCorr, newsLines } from "@/lib/tg-card";
 
 function fmt(n: number | undefined | null, d = 2): string {
   if (n == null || Number.isNaN(n)) return "—";
   return Number(n).toFixed(d);
 }
 
-/** Canal Report Telegram — oráculo / números. Some ao fechar. */
+/** Canal Report — oráculo; corr em destaque. */
 function NerdCard({ row, bookLabel }: { row: OpenRow; bookLabel: string }) {
   const ticker = (row.ticker || "").toUpperCase();
-  const hook = (row.news_hook || row.news_blurb || row.horse || "—")
-    .replace(/^🎤\s*/, "")
-    .trim();
-  const what = (row.news_what || "").trim();
+  const { hook, what } = newsLines(row);
   const diag = (row.diag || "").trim();
   const corr = row.corr_score;
   const sinal = row.sinal_score;
   const tip = (row.tp_tip || "").trim();
   const gap = row.tp_gap;
   const mid = row.tp_sugerido_mid;
+  const hasCorr = corr != null && corr !== 0;
 
   return (
     <article className="nop-card nerd-card">
       <p className="tg-line">
         <strong>ORÁCULO</strong> · {bookLabel} · <strong>{ticker}</strong>
       </p>
-      <p className="tg-line tg-hook">🎤 {hook}</p>
+
+      {hasCorr ? (
+        <div className="nerd-corr-block" aria-label="Correlação">
+          <p className="nerd-corr-label">CORR</p>
+          <p className="nerd-corr-value">{formatCorr(corr)}</p>
+          {sinal != null && sinal !== 0 ? (
+            <p className="nerd-corr-sub">
+              score sinal <strong>{fmt(sinal, 1)}</strong>
+            </p>
+          ) : null}
+        </div>
+      ) : null}
+
+      {hook ? <p className="tg-line tg-hook">🎤 {hook}</p> : null}
       {what ? <p className="tg-line">📋 {what}</p> : null}
       <p className="tg-line nerd-mono">
         Entry {fmt(row.entry)} · SL {fmt(row.sl)} · TP {fmt(row.tp1)}/
@@ -36,13 +48,7 @@ function NerdCard({ row, bookLabel }: { row: OpenRow; bookLabel: string }) {
         Cavalo {(row.horse || "—").trim() || "—"}
         {row.news_impact ? ` · Impacto ${row.news_impact}/99` : ""}
       </p>
-      {corr != null && corr !== 0 ? (
-        <p className="tg-line">
-          Corr {corr >= 0 ? "+" : ""}
-          {fmt(corr)}
-        </p>
-      ) : null}
-      {sinal != null && sinal !== 0 ? (
+      {!hasCorr && sinal != null && sinal !== 0 ? (
         <p className="tg-line">Score sinal {fmt(sinal, 1)}</p>
       ) : null}
       {tip ? <p className="tg-line">{tip}</p> : null}

@@ -352,6 +352,7 @@ export function OpensApp() {
           <NopDashboard
             book={nopSnap}
             label={nopLabel}
+            bookKey={nopBook}
             updatedAt={opens.updated_at}
           />
         </>
