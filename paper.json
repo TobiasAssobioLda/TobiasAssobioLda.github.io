@@ -1,6 +1,6 @@
 {
   "day": "2026-08-25",
-  "published_at": "2026-08-25T22:50:53+01:00",
+  "published_at": "2026-08-25T22:51:59+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -122,6 +122,28 @@
       "ticker_down": "KO"
     },
     {
+      "uid": "c3527fc97f02889f20fd6e2a",
+      "title": "Secret Service confirms awareness of Iranian state media video threatening Barron Trump's life - PBS",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcXItMTEwU1RiRG1SOG42eFItU1RYRFpwdmZHREhzcmJCVXg3MkdDU2p3OTR6STJWR210eWdudTVWQ29Sa0lDN3pkMWZ2bnlHZnpHVE1pRXdoWkNmVllSYkN5RjltNDZ4cnB3Nm1CTTFueWJDd0dSdEVvNmlpamZEdEVRNEhib2VMRzJXSlc0M1lIRlZHNmxEd0d1aUU5VTFQaVZJZS1TR1k2dmNrS0xwTGpkbmVVa1dRazR3M3hIUS1ZM191SUVj0gHMAUFVX3lxTE9vQ3lNaUtNc3o3VnFJWk1SbGhUX1NjcXdSZUNCMUQzYjlfcm5Oa3dKb21peG5ZMTVfMXh0UHdXY05uMTM2MURxenIyUEhLbzNNdWtfQ0hVU0RkTS1sbTJmS2RIQUNGUF9uZUlfcGlsVWxFaDRYSUN4NTNmeHBxVm1uNWVIQ25jRHRGTHp",
+      "source": "PBS",
+      "horse": "Trump",
+      "sent_at": "2026-08-25T21:50:53.585818+00:00",
+      "impact": 67,
+      "impact_band": "médio",
+      "when_label": "25/08 · 22:50",
+      "read_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcXItMTEwU1RiRG1SOG42eFItU1RYRFpwdmZHREhzcmJCVXg3MkdDU2p3OTR6STJWR210eWdudTVWQ29Sa0lDN3pkMWZ2bnlHZnpHVE1pRXdoWkNmVllSYkN5RjltNDZ4cnB3Nm1CTTFueWJDd0dSdEVvNmlpamZEdEVRNEhib2VMRzJXSlc0M1lIRlZHNmxEd0d1aUU5VTFQaVZJZS1TR1k2dmNrS0xwTGpkbmVVa1dRazR3M3hIUS1ZM191SUVj0gHMAUFVX3lxTE9vQ3lNaUtNc3o3VnFJWk1SbGhUX1NjcXdSZUNCMUQzYjlfcm5Oa3dKb21peG5ZMTVfMXh0UHdXY05uMTM2MURxenIyUEhLbzNNdWtfQ0hVU0RkTS1sbTJmS2RIQUNGUF9uZUlfcGlsVWxFaDRYSUN4NTNmeHBxVm1uNWVIQ25jRHRGTHp",
+      "kind": "OFICIAL",
+      "badge": "✅",
+      "horse_emoji": "🦅",
+      "hook": "Trump × ameaça mortal a Barron",
+      "what": "Serviço Secreto confirma conhecimento de vídeo do Irão que ameaça a vida de Barron Trump",
+      "up": "segurança level máximo, nem o telemóvel toca",
+      "down": "FBI a tremer e a suar frio",
+      "vibe": "ar pesado e mãos no bolso",
+      "ticker_up": "LMT",
+      "ticker_down": "RTX"
+    },
+    {
       "uid": "0acaea2caab0e76ffe236f33",
       "title": "Iran Generals and Oil markets brace for a forever war",
       "url": "https://thenorthlines.com/irans-generals-and-oil-markets-brace-for-a-forever-war/",
@@ -230,28 +252,6 @@
       "vibe": "olha o barómetro do petróleo cair",
       "ticker_up": "XOM",
       "ticker_down": "LMT"
-    },
-    {
-      "uid": "c3527fc97f02889f20fd6e2a",
-      "title": "Secret Service confirms awareness of Iranian state media video threatening Barron Trump's life - PBS",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcXItMTEwU1RiRG1SOG42eFItU1RYRFpwdmZHREhzcmJCVXg3MkdDU2p3OTR6STJWR210eWdudTVWQ29Sa0lDN3pkMWZ2bnlHZnpHVE1pRXdoWkNmVllSYkN5RjltNDZ4cnB3Nm1CTTFueWJDd0dSdEVvNmlpamZEdEVRNEhib2VMRzJXSlc0M1lIRlZHNmxEd0d1aUU5VTFQaVZJZS1TR1k2dmNrS0xwTGpkbmVVa1dRazR3M3hIUS1ZM191SUVj0gHMAUFVX3lxTE9vQ3lNaUtNc3o3VnFJWk1SbGhUX1NjcXdSZUNCMUQzYjlfcm5Oa3dKb21peG5ZMTVfMXh0UHdXY05uMTM2MURxenIyUEhLbzNNdWtfQ0hVU0RkTS1sbTJmS2RIQUNGUF9uZUlfcGlsVWxFaDRYSUN4NTNmeHBxVm1uNWVIQ25jRHRGTHp",
-      "source": "PBS",
-      "horse": "Trump",
-      "sent_at": "2026-08-25T21:50:53.585818+00:00",
-      "impact": 55,
-      "impact_band": "médio",
-      "when_label": "25/08 · 22:50",
-      "read_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcXItMTEwU1RiRG1SOG42eFItU1RYRFpwdmZHREhzcmJCVXg3MkdDU2p3OTR6STJWR210eWdudTVWQ29Sa0lDN3pkMWZ2bnlHZnpHVE1pRXdoWkNmVllSYkN5RjltNDZ4cnB3Nm1CTTFueWJDd0dSdEVvNmlpamZEdEVRNEhib2VMRzJXSlc0M1lIRlZHNmxEd0d1aUU5VTFQaVZJZS1TR1k2dmNrS0xwTGpkbmVVa1dRazR3M3hIUS1ZM191SUVj0gHMAUFVX3lxTE9vQ3lNaUtNc3o3VnFJWk1SbGhUX1NjcXdSZUNCMUQzYjlfcm5Oa3dKb21peG5ZMTVfMXh0UHdXY05uMTM2MURxenIyUEhLbzNNdWtfQ0hVU0RkTS1sbTJmS2RIQUNGUF9uZUlfcGlsVWxFaDRYSUN4NTNmeHBxVm1uNWVIQ25jRHRGTHp",
-      "kind": "OFICIAL",
-      "badge": "✅",
-      "horse_emoji": "🦅",
-      "hook": "Trump × ameaça mortal a Barron",
-      "what": "Serviço Secreto confirma conhecimento de vídeo do Irão que ameaça a vida de Barron Trump",
-      "up": "segurança level máximo, nem o telemóvel toca",
-      "down": "FBI a tremer e a suar frio",
-      "vibe": "ar pesado e mãos no bolso",
-      "ticker_up": "LMT",
-      "ticker_down": "RTX"
     }
   ],
   "archive_days": [
