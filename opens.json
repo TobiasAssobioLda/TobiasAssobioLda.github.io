@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-26T21:12:34+01:00",
+  "updated_at": "2026-08-26T21:15:36+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "21:12",
+  "when_label": "21:15",
   "pipoca": {
     "rows": [
       {
@@ -458,12 +458,12 @@
       {
         "ticker": "GS",
         "entry": 1049.1255,
-        "price": 1040.46,
+        "price": 1039.5487,
         "qty": 0.009603,
         "notional": 10.0748,
-        "pnl_pct": -0.826,
-        "pnl_eur": -0.083216,
-        "pnl_r": -0.17,
+        "pnl_pct": -0.9129999999999999,
+        "pnl_eur": -0.091967,
+        "pnl_r": -0.19,
         "sl": 997.5,
         "tp1": 1121.13,
         "tp2": 1162.34,
@@ -485,10 +485,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.524240957662137,
-    "total_pnl_eur": -1.520432322361752,
+    "total_pnl_pct": -0.5272582788233808,
+    "total_pnl_eur": -1.529183322361752,
     "bank_eur": 50000.0,
-    "equity_eur": 49998.48
+    "equity_eur": 49998.47
   },
   "oficial": {
     "rows": [],
