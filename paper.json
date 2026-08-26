@@ -1,6 +1,6 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T12:23:02+01:00",
+  "published_at": "2026-08-26T12:24:40+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -338,8 +338,8 @@
       "up": "diplomacia de ténis de mesa com tiros cruzados",
       "down": "Xi ri-se e serve chá gelado aos americanos",
       "vibe": "puxa pela manta e torce o nariz",
-      "ticker_up": "BABA",
-      "ticker_down": "PDD"
+      "ticker_up": "XOM",
+      "ticker_down": ""
     }
   ],
   "archive_days": [
