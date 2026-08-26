@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-26T02:59:57+01:00",
+  "updated_at": "2026-08-26T03:03:03+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 721,
+  "n_events": 722,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
@@ -99,9 +99,9 @@
     {
       "rank": 12,
       "ticker": "F",
-      "total": 30,
+      "total": 31,
       "as_up": 18,
-      "as_down": 12,
+      "as_down": 13,
       "last_horse": "Trump"
     },
     {
@@ -262,9 +262,9 @@
     {
       "rank": 12,
       "ticker": "F",
-      "total": 30,
+      "total": 31,
       "as_up": 18,
-      "as_down": 12,
+      "as_down": 13,
       "last_horse": "Trump"
     },
     {
