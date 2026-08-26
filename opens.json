@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-26T04:12:44+01:00",
+  "updated_at": "2026-08-26T04:15:45+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "04:12",
+  "when_label": "04:15",
   "pipoca": {
     "rows": [
       {
@@ -65,12 +65,12 @@
       {
         "ticker": "AXTI",
         "entry": 67.8882,
-        "price": 66.6,
+        "price": 66.67,
         "qty": 3.390581,
         "notional": 230.1804,
-        "pnl_pct": -1.897,
-        "pnl_eur": -4.367658,
-        "pnl_r": -0.09,
+        "pnl_pct": -1.794,
+        "pnl_eur": -4.130318,
+        "pnl_r": -0.08,
         "sl": 52.91,
         "tp1": 97.68,
         "tp2": 112.61,
@@ -92,10 +92,10 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.00936951559984881,
-    "total_pnl_eur": -0.07977499999999971,
+    "total_pnl_pct": 0.018505894396617772,
+    "total_pnl_eur": 0.15756499999999996,
     "bank_eur": 2000.0,
-    "equity_eur": 1999.92
+    "equity_eur": 2000.16
   },
   "chill": {
     "rows": [
@@ -421,12 +421,12 @@
       {
         "ticker": "AXTI",
         "entry": 67.8882,
-        "price": 66.6,
+        "price": 66.67,
         "qty": 3.390581,
         "notional": 230.1804,
-        "pnl_pct": -1.897,
-        "pnl_eur": -4.367658,
-        "pnl_r": -0.09,
+        "pnl_pct": -1.794,
+        "pnl_eur": -4.130318,
+        "pnl_r": -0.08,
         "sl": 52.91,
         "tp1": 97.68,
         "tp2": 112.61,
@@ -450,12 +450,12 @@
       {
         "ticker": "PLTR",
         "entry": 172.912,
-        "price": 172.15,
+        "price": 172.29,
         "qty": 0.115647,
         "notional": 19.9968,
-        "pnl_pct": -0.441,
-        "pnl_eur": -0.088123,
-        "pnl_r": -0.07,
+        "pnl_pct": -0.36,
+        "pnl_eur": -0.071932,
+        "pnl_r": -0.06,
         "sl": 161.94,
         "tp1": 194.94,
         "tp2": 205.94,
@@ -535,8 +535,8 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.5061140361402282,
-    "total_pnl_eur": 5.727263999999999
+    "total_pnl_pct": 0.5285183809891242,
+    "total_pnl_eur": 5.980794999999999
   },
   "pipoca_all": {
     "rows": [
@@ -572,12 +572,12 @@
       {
         "ticker": "AXTI",
         "entry": 67.8882,
-        "price": 66.6,
+        "price": 66.67,
         "qty": 3.390581,
         "notional": 230.1804,
-        "pnl_pct": -1.897,
-        "pnl_eur": -4.367658,
-        "pnl_r": -0.09,
+        "pnl_pct": -1.794,
+        "pnl_eur": -4.130318,
+        "pnl_r": -0.08,
         "sl": 52.91,
         "tp1": 97.68,
         "tp2": 112.61,
@@ -599,21 +599,21 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.35373290453437467,
-    "total_pnl_eur": 2.3068600000000004,
+    "total_pnl_pct": 0.39012651644068386,
+    "total_pnl_eur": 2.5442,
     "bank_eur": 10000.0,
-    "equity_eur": 10002.31
+    "equity_eur": 10002.54
   },
   "max": {
     "rows": [
       {
         "ticker": "BTC-USD",
         "entry": 78466.1328,
-        "price": 79069.2422,
+        "price": 79046.0781,
         "qty": 0.000127,
         "notional": 10.0,
-        "pnl_pct": 0.7686238361424467,
-        "pnl_eur": 0.07686238361424466,
+        "pnl_pct": 0.7391026922126995,
+        "pnl_eur": 0.07391026922126995,
         "pnl_r": 0.1,
         "sl": 72511.81,
         "tp1": 90374.78,
@@ -636,8 +636,8 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.7686238361424467,
-    "total_pnl_eur": 0.07686238361424466
+    "total_pnl_pct": 0.7391026922126995,
+    "total_pnl_eur": 0.07391026922126995
   },
   "rumors": {
     "rows": [],
@@ -663,19 +663,6 @@
         "lane": "out_market"
       },
       {
-        "ticker": "LMT",
-        "book": "rumors",
-        "horse": "Trump",
-        "impact": 67,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-08-26T03:10:44.286416+00:00",
-        "first_seen": "2026-08-25T23:49:46.008140+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
         "ticker": "XOM",
         "book": "rumors",
         "horse": "Irão",
@@ -1166,6 +1153,19 @@
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
         "next_check": "2026-08-26T03:15:50.544238+00:00",
         "first_seen": "2026-08-25T23:45:49.540456+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "GLD",
+        "book": "max",
+        "horse": "Fed",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA abre as 14:30",
+        "next_check": "2026-08-26T03:15:50.547933+00:00",
+        "first_seen": "2026-08-25T23:45:49.555109+00:00",
         "status": "wait",
         "lane": "out_market"
       }
@@ -1185,19 +1185,6 @@
         "lane": "out_market"
       },
       {
-        "ticker": "LMT",
-        "book": "rumors",
-        "horse": "Trump",
-        "impact": 67,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-08-26T03:10:44.286416+00:00",
-        "first_seen": "2026-08-25T23:49:46.008140+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
         "ticker": "XOM",
         "book": "rumors",
         "horse": "Irão",
@@ -1688,6 +1675,19 @@
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
         "next_check": "2026-08-26T03:15:50.544238+00:00",
         "first_seen": "2026-08-25T23:45:49.540456+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "GLD",
+        "book": "max",
+        "horse": "Fed",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA abre as 14:30",
+        "next_check": "2026-08-26T03:15:50.547933+00:00",
+        "first_seen": "2026-08-25T23:45:49.555109+00:00",
         "status": "wait",
         "lane": "out_market"
       }
