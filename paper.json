@@ -1,11 +1,11 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T12:19:49+01:00",
+  "published_at": "2026-08-26T12:20:49+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
   "max_items": 20,
-  "count": 12,
+  "count": 13,
   "masthead": "O Rumors",
   "tagline": "geopolítica & mercados · Rumors do dia",
   "paper_since": "2026-08-25T15:46:13.860066+00:00",
@@ -274,6 +274,28 @@
       "vibe": "o circo digital gira sem parar",
       "ticker_up": "NVDA",
       "ticker_down": "TSM"
+    },
+    {
+      "uid": "0b334436534616e5029af1f4",
+      "title": "Fears grow for fourth rate hike after Australia sees higher-than-expected July inflation - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNelNFUWRrMGdUWXRzaHV2U2JJV0tac2liRFJtZ3l4aG9peWR3aFVfX2czOXVpTEpnanBtaTVWbF9ESFpQbUhQR0pkQ3VlcVA0VFMtUkZDS0o3dXd0bXJleVJSUVltUGhBa2ZtZnhxeUFqcTFKNGFhdHJKbkVRdi1oNTBkWG1qZlI3VE1VbkVQU3hZd015Wm9tdEhWUk11REI2Ql82Qm9jeWtMeWxWNnRuNDB4TF9QRjBKWTA1SjU0UldFa1hFWlBwc3pkbU5fUQ?oc=5",
+      "source": "The Guardian",
+      "horse": "Fed",
+      "sent_at": "2026-08-26T11:20:49.900622+00:00",
+      "impact": 55,
+      "impact_band": "médio",
+      "when_label": "26/08 · 12:20",
+      "read_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNelNFUWRrMGdUWXRzaHV2U2JJV0tac2liRFJtZ3l4aG9peWR3aFVfX2czOXVpTEpnanBtaTVWbF9ESFpQbUhQR0pkQ3VlcVA0VFMtUkZDS0o3dXd0bXJleVJSUVltUGhBa2ZtZnhxeUFqcTFKNGFhdHJKbkVRdi1oNTBkWG1qZlI3VE1VbkVQU3hZd015Wm9tdEhWUk11REI2Ql82Qm9jeWtMeWxWNnRuNDB4TF9QRjBKWTA1SjU0UldFa1hFWlBwc3pkbU5fUQ?oc=5",
+      "kind": "RUMOR",
+      "badge": "🟠",
+      "horse_emoji": "🏦",
+      "hook": "Fed × receio de novo aumento",
+      "what": "Inflação australiana subiu, alimentando receios de novo subida de juros.",
+      "up": "o banco central continua a ser chato na festa",
+      "down": "quem apostou na baixa já está a chorar",
+      "vibe": "café amargo e juros que não baixam",
+      "ticker_up": "GS",
+      "ticker_down": "MS"
     }
   ],
   "archive_days": [
