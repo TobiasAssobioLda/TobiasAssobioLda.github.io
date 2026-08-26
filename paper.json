@@ -1,16 +1,38 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T12:17:24+01:00",
+  "published_at": "2026-08-26T12:18:15+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
   "max_items": 20,
-  "count": 10,
+  "count": 11,
   "masthead": "O Rumors",
   "tagline": "geopolítica & mercados · Rumors do dia",
   "paper_since": "2026-08-25T15:46:13.860066+00:00",
-  "lead_uid": "53f59ab51f7edb450e05d77a",
+  "lead_uid": "22e98b2690f41dea19eb1be3",
   "items": [
+    {
+      "uid": "22e98b2690f41dea19eb1be3",
+      "title": "Gatwick takes  significant  passenger hit from Iran war",
+      "url": "https://www.cityam.com/gatwick-takes-significant-passenger-hit-from-iran-war/",
+      "source": "cityam.com",
+      "horse": "Irão",
+      "sent_at": "2026-08-26T11:18:15.313800+00:00",
+      "impact": 78,
+      "impact_band": "alto",
+      "when_label": "26/08 · 12:18",
+      "read_url": "https://www.cityam.com/gatwick-takes-significant-passenger-hit-from-iran-war/",
+      "kind": "RUMOR",
+      "badge": "🟠",
+      "horse_emoji": "☢️",
+      "hook": "Irão × Gatwick deserta pela guerra",
+      "what": "Gatwick regista queda significativa de passageiros devido à guerra no Irão",
+      "up": "o medo é o único destino fechado hoje",
+      "down": "as malas ficam guardadas e o bolso cheio",
+      "vibe": "café amargo e vazio no avião",
+      "ticker_up": "XOM",
+      "ticker_down": "CVX"
+    },
     {
       "uid": "53f59ab51f7edb450e05d77a",
       "title": "US ups unilateral sanctions on Iran",
@@ -229,7 +251,7 @@
       "down": "os verdes choram mas o betume não para",
       "vibe": "café quente e o asfalto escorre",
       "ticker_up": "EPD",
-      "ticker_down": "KMI"
+      "ticker_down": ""
     }
   ],
   "archive_days": [
