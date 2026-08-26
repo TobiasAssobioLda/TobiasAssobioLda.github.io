@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-26T01:18:04+01:00",
+  "updated_at": "2026-08-26T01:21:05+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "01:18",
+  "when_label": "01:21",
   "pipoca": {
     "rows": [
       {
@@ -36,11 +36,11 @@
       {
         "ticker": "NVDA",
         "entry": 210.5201,
-        "price": 213.6,
+        "price": 213.64,
         "qty": 2.004403,
         "notional": 421.9671,
-        "pnl_pct": 1.463,
-        "pnl_eur": 6.173417,
+        "pnl_pct": 1.482,
+        "pnl_eur": 6.253593,
         "pnl_r": 0.39,
         "sl": 202.6,
         "tp1": 226.36,
@@ -92,10 +92,10 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.18250054649439454,
-    "total_pnl_eur": 1.5538669999999999,
+    "total_pnl_pct": 0.19191715925194372,
+    "total_pnl_eur": 1.6340430000000006,
     "bank_eur": 2000.0,
-    "equity_eur": 2001.55
+    "equity_eur": 2001.63
   },
   "chill": {
     "rows": [
@@ -276,11 +276,11 @@
       {
         "ticker": "NVDA",
         "entry": 210.5201,
-        "price": 213.6,
+        "price": 213.64,
         "qty": 2.004403,
         "notional": 421.9671,
-        "pnl_pct": 1.463,
-        "pnl_eur": 6.173417,
+        "pnl_pct": 1.482,
+        "pnl_eur": 6.253593,
         "pnl_r": 0.39,
         "sl": 202.6,
         "tp1": 226.36,
@@ -392,12 +392,12 @@
       {
         "ticker": "BMNR",
         "entry": 25.258,
-        "price": 24.5,
+        "price": 24.59,
         "qty": 0.791766,
         "notional": 19.9984,
-        "pnl_pct": -3.001,
-        "pnl_eur": -0.600159,
-        "pnl_r": -0.2,
+        "pnl_pct": -2.645,
+        "pnl_eur": -0.5289,
+        "pnl_r": -0.18,
         "sl": 21.47,
         "tp1": 29.05,
         "tp2": 32.84,
@@ -535,19 +535,19 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.5897731187143715,
-    "total_pnl_eur": 6.6739630000000005
+    "total_pnl_pct": 0.6031553164029878,
+    "total_pnl_eur": 6.825398
   },
   "pipoca_all": {
     "rows": [
       {
         "ticker": "NVDA",
         "entry": 210.5201,
-        "price": 213.6,
+        "price": 213.64,
         "qty": 2.004403,
         "notional": 421.9671,
-        "pnl_pct": 1.463,
-        "pnl_eur": 6.173417,
+        "pnl_pct": 1.482,
+        "pnl_eur": 6.253593,
         "pnl_r": 0.39,
         "sl": 202.6,
         "tp1": 226.36,
@@ -599,22 +599,22 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.6408313352255444,
-    "total_pnl_eur": 4.179164999999999,
+    "total_pnl_pct": 0.6531254880367027,
+    "total_pnl_eur": 4.259341000000001,
     "bank_eur": 10000.0,
-    "equity_eur": 10004.18
+    "equity_eur": 10004.26
   },
   "max": {
     "rows": [
       {
         "ticker": "BTC-USD",
         "entry": 78466.1328,
-        "price": 78480.0703,
+        "price": 78549.2266,
         "qty": 0.000127,
         "notional": 10.0,
-        "pnl_pct": 0.017762440307240425,
-        "pnl_eur": 0.0017762440307240422,
-        "pnl_r": 0.0,
+        "pnl_pct": 0.10589766187634496,
+        "pnl_eur": 0.010589766187634497,
+        "pnl_r": 0.01,
         "sl": 72511.81,
         "tp1": 90374.78,
         "tp2": 96329.1,
@@ -636,8 +636,8 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.01776244030724042,
-    "total_pnl_eur": 0.0017762440307240422
+    "total_pnl_pct": 0.10589766187634496,
+    "total_pnl_eur": 0.010589766187634497
   },
   "rumors": {
     "rows": [],
