@@ -1,11 +1,11 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T14:50:40+01:00",
+  "published_at": "2026-08-26T14:52:26+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
   "max_items": 20,
-  "count": 17,
+  "count": 18,
   "masthead": "O Rumors",
   "tagline": "geopolítica & mercados · Rumors do dia",
   "paper_since": "2026-08-25T15:46:13.860066+00:00",
@@ -384,6 +384,28 @@
       "vibe": "puxa pela manta e torce o nariz",
       "ticker_up": "XOM",
       "ticker_down": ""
+    },
+    {
+      "uid": "5ea22cca95a69a8aaa2d7cba",
+      "title": "Oil Prices Fall as Oman-Iran Talks Raise Hopes for Hormuz Reopening - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSVhHOXdSamVOU0Q0TFI2d0NXdHg4RS1ETXZCc1I4dDBjcHUzLTBvcFBXSWFjRk03Sm1OZHdlN2l5YlktTXMtc1FXMVA3WlNCb2JXZ2toNmtkaU9yOUQwRXl1YlFwbzFTZ3RVRGFnV1JEVUE0LWJIbGpBdmpNNlhQMVFDLWFIS1RwaFh2M01ZZHJGM0dlXzI1NTJuQlRfbUNRX002OFZFanRQdHhRcXNEcGxRQ0s?oc=5",
+      "source": "WSJ",
+      "horse": "Irão",
+      "sent_at": "2026-08-26T13:52:26.095310+00:00",
+      "impact": 55,
+      "impact_band": "médio",
+      "when_label": "26/08 · 14:52",
+      "read_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSVhHOXdSamVOU0Q0TFI2d0NXdHg4RS1ETXZCc1I4dDBjcHUzLTBvcFBXSWFjRk03Sm1OZHdlN2l5YlktTXMtc1FXMVA3WlNCb2JXZ2toNmtkaU9yOUQwRXl1YlFwbzFTZ3RVRGFnV1JEVUE0LWJIbGpBdmpNNlhQMVFDLWFIS1RwaFh2M01ZZHJGM0dlXzI1NTJuQlRfbUNRX002OFZFanRQdHhRcXNEcGxRQ0s?oc=5",
+      "kind": "RUMOR",
+      "badge": "🟠",
+      "horse_emoji": "☢️",
+      "hook": "Irão × estreito a abrir",
+      "what": "Negociações Irão-Omã acalmam tensões no Estreito de Ormuz",
+      "up": "o petróleo respira fundo e desce",
+      "down": "quem apostou no caos chora",
+      "vibe": "café na mão e a ver o circo",
+      "ticker_up": "NEM",
+      "ticker_down": "GOLD"
     }
   ],
   "archive_days": [
