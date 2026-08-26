@@ -1,6 +1,6 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T12:13:54+01:00",
+  "published_at": "2026-08-26T12:15:40+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -185,7 +185,7 @@
       "down": "segurança nacional a tremer de frio",
       "vibe": "tensão a ferver sem saída",
       "ticker_up": "LMT",
-      "ticker_down": "RTX"
+      "ticker_down": ""
     }
   ],
   "archive_days": [
