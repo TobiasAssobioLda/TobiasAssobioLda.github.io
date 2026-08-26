@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T14:50:47+01:00",
+  "updated_at": "2026-08-26T14:52:37+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors",
   "default_window": "day",
@@ -8,18 +8,18 @@
       "key": "week",
       "label": "Week · Rumors desde sexta fecho NY",
       "from": "2026-08-21T21:00:00+01:00",
-      "to": "2026-08-26T14:50:47+01:00",
+      "to": "2026-08-26T14:52:37+01:00",
       "from_label": "21/08 21:00",
-      "to_label": "26/08 14:50",
-      "n_events": 129,
+      "to_label": "26/08 14:52",
+      "n_events": 130,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
         {
           "rank": 1,
           "ticker": "XOM",
-          "total": 49,
-          "as_up": 46,
+          "total": 50,
+          "as_up": 47,
           "as_down": 3,
           "last_horse": "Irão"
         },
@@ -283,15 +283,15 @@
       "to": "2026-08-26T21:00:00+01:00",
       "from_label": "25/08 21:00",
       "to_label": "26/08 21:00",
-      "n_events": 20,
+      "n_events": 21,
       "top5_count": 5,
       "top6_20_count": 5,
       "top5": [
         {
           "rank": 1,
           "ticker": "XOM",
-          "total": 12,
-          "as_up": 11,
+          "total": 13,
+          "as_up": 12,
           "as_down": 1,
           "last_horse": "Irão"
         },
@@ -373,15 +373,15 @@
       "source": "rumors"
     }
   },
-  "n_events": 20,
+  "n_events": 21,
   "top5_count": 5,
   "top6_20_count": 5,
   "top5": [
     {
       "rank": 1,
       "ticker": "XOM",
-      "total": 12,
-      "as_up": 11,
+      "total": 13,
+      "as_up": 12,
       "as_down": 1,
       "last_horse": "Irão"
     },
@@ -465,8 +465,8 @@
     {
       "rank": 1,
       "ticker": "XOM",
-      "total": 12,
-      "as_up": 11,
+      "total": 13,
+      "as_up": 12,
       "as_down": 1,
       "last_horse": "Irão"
     },
