@@ -1,11 +1,11 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T12:15:40+01:00",
+  "published_at": "2026-08-26T12:16:25+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
   "max_items": 20,
-  "count": 8,
+  "count": 9,
   "masthead": "O Rumors",
   "tagline": "geopolítica & mercados · Rumors do dia",
   "paper_since": "2026-08-25T15:46:13.860066+00:00",
@@ -186,6 +186,28 @@
       "vibe": "tensão a ferver sem saída",
       "ticker_up": "LMT",
       "ticker_down": ""
+    },
+    {
+      "uid": "15d884836ac5334a65730d09",
+      "title": "Crude oil price drop as Iran - Oman talks raise Hormuz hopes",
+      "url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-price-futures-fall-as-iran-oman-discuss-maritime-corridor-in-strait-of-hormuz/article71391402.ece",
+      "source": "thehindubusinessline.com",
+      "horse": "Irão",
+      "sent_at": "2026-08-26T11:16:25.456886+00:00",
+      "impact": 55,
+      "impact_band": "médio",
+      "when_label": "26/08 · 12:16",
+      "read_url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-price-futures-fall-as-iran-oman-discuss-maritime-corridor-in-strait-of-hormuz/article71391402.ece",
+      "kind": "RUMOR",
+      "badge": "🟠",
+      "horse_emoji": "☢️",
+      "hook": "Irão × calmaria no Estreito de Ormuz",
+      "what": "Negociações Irão-Oman acalmam temores de bloqueio no Ormuz, derrubando o petróleo.",
+      "up": "o baril desce e o bolso suspira aliviado",
+      "down": "quem apostou em guerra já está a chorar",
+      "vibe": "respiro fundo e volto a trabalhar",
+      "ticker_up": "OXY",
+      "ticker_down": "XOM"
     }
   ],
   "archive_days": [
