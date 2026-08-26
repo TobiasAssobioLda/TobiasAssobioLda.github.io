@@ -1,6 +1,6 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T12:12:14+01:00",
+  "published_at": "2026-08-26T12:12:40+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -141,7 +141,7 @@
       "down": "segurança nacional ou tarde de café?",
       "vibe": "fumo na mesa e silêncio pesado",
       "ticker_up": "LMT",
-      "ticker_down": "NOC"
+      "ticker_down": ""
     }
   ],
   "archive_days": [
