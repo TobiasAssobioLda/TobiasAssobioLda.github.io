@@ -1,6 +1,6 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T14:52:26+01:00",
+  "published_at": "2026-08-26T14:53:39+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -404,8 +404,8 @@
       "up": "o petróleo respira fundo e desce",
       "down": "quem apostou no caos chora",
       "vibe": "café na mão e a ver o circo",
-      "ticker_up": "NEM",
-      "ticker_down": "GOLD"
+      "ticker_up": "XOM",
+      "ticker_down": ""
     }
   ],
   "archive_days": [
