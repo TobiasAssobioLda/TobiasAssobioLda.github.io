@@ -1,11 +1,11 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T12:09:55+01:00",
+  "published_at": "2026-08-26T12:11:25+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
   "max_items": 20,
-  "count": 4,
+  "count": 5,
   "masthead": "O Rumors",
   "tagline": "geopolítica & mercados · Rumors do dia",
   "paper_since": "2026-08-25T15:46:13.860066+00:00",
@@ -56,6 +56,28 @@
       "ticker_down": ""
     },
     {
+      "uid": "12245bb883a1cf76a07b160d",
+      "title": "Gli Stati Uniti hanno annunciato nuove sanzioni per isolare lIran",
+      "url": "https://www.ilpost.it/2026/08/24/sanzioni-stati-uniti-iran/?homepagePosition=14.1&referrerPost=3662648",
+      "source": "ilpost.it",
+      "horse": "Irão",
+      "sent_at": "2026-08-26T11:11:25.430519+00:00",
+      "impact": 58,
+      "impact_band": "médio",
+      "when_label": "26/08 · 12:11",
+      "read_url": "https://www.ilpost.it/2026/08/24/sanzioni-stati-uniti-iran/?homepagePosition=14.1&referrerPost=3662648",
+      "kind": "OFICIAL",
+      "badge": "✅",
+      "horse_emoji": "☢️",
+      "hook": "Irão × novo pacote de sanções",
+      "what": "EUA anunciam novas sanções para isolar economicamente o Irão",
+      "up": "o petróleo apertou a cinto e respirou fundo",
+      "down": "o Riial foi a pedir esmola à esquina",
+      "vibe": "sanções pesam mas o circo continua",
+      "ticker_up": "XOM",
+      "ticker_down": "CVX"
+    },
+    {
       "uid": "5b4229d73e66781c60e6fb05",
       "title": "Crypto Braces  History Toughest US Sanction on Iran in Matter of Hours How Could XRP and Bitcoin Be Impacted ?",
       "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-braces-history-toughest-us-124626091.html",
@@ -96,8 +118,8 @@
       "up": "pedir favores ao dragão é pedir esmola",
       "down": "a aliança é feita de gelo e vento",
       "vibe": "o tabuleiro está todo desenhado",
-      "ticker_up": "JD",
-      "ticker_down": "AMZN"
+      "ticker_up": "XOM",
+      "ticker_down": ""
     }
   ],
   "archive_days": [
