@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-26T21:03:34+01:00",
+  "updated_at": "2026-08-26T21:06:34+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "21:03",
+  "when_label": "21:06",
   "pipoca": {
     "rows": [
       {
@@ -65,12 +65,12 @@
       {
         "ticker": "XOM",
         "entry": 159.461,
-        "price": 158.19,
+        "price": 158.5,
         "qty": 1.254358,
         "notional": 200.0212,
-        "pnl_pct": -0.7969999999999999,
-        "pnl_eur": -1.59428,
-        "pnl_r": -0.29,
+        "pnl_pct": -0.603,
+        "pnl_eur": -1.205429,
+        "pnl_r": -0.22,
         "sl": 155.14,
         "tp1": 170.44,
         "tp2": 175.54,
@@ -92,10 +92,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -5.76250488934074,
-    "total_pnl_eur": -34.57624937357961,
+    "total_pnl_pct": -5.697698676135984,
+    "total_pnl_eur": -34.18739837357961,
     "bank_eur": 2000.0,
-    "equity_eur": 1965.42
+    "equity_eur": 1965.81
   },
   "pipoca_all": {
     "rows": [
@@ -160,12 +160,12 @@
       {
         "ticker": "XOM",
         "entry": 159.461,
-        "price": 158.19,
+        "price": 158.5,
         "qty": 1.254358,
         "notional": 200.0212,
-        "pnl_pct": -0.7969999999999999,
-        "pnl_eur": -1.59428,
-        "pnl_r": -0.3,
+        "pnl_pct": -0.603,
+        "pnl_eur": -1.205429,
+        "pnl_r": -0.22,
         "sl": 155.18,
         "tp1": 170.48,
         "tp2": 175.58,
@@ -274,10 +274,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.8744372920261636,
-    "total_pnl_eur": -2.62240846867898,
+    "total_pnl_pct": -0.7447756395784992,
+    "total_pnl_eur": -2.2335574686789803,
     "bank_eur": 10000.0,
-    "equity_eur": 9997.38
+    "equity_eur": 9997.77
   },
   "rumors": {
     "rows": [
@@ -371,12 +371,12 @@
       {
         "ticker": "XOM",
         "entry": 159.461,
-        "price": 158.19,
+        "price": 158.5,
         "qty": 1.254358,
         "notional": 200.0212,
-        "pnl_pct": -0.7969999999999999,
-        "pnl_eur": -1.59428,
-        "pnl_r": -0.22,
+        "pnl_pct": -0.603,
+        "pnl_eur": -1.205429,
+        "pnl_r": -0.17,
         "sl": 153.65,
         "tp1": 169.12,
         "tp2": 174.27,
@@ -458,12 +458,12 @@
       {
         "ticker": "GS",
         "entry": 1049.1255,
-        "price": 1040.46,
+        "price": 1041.4,
         "qty": 0.009603,
         "notional": 10.0748,
-        "pnl_pct": -0.826,
-        "pnl_eur": -0.083216,
-        "pnl_r": -0.17,
+        "pnl_pct": -0.736,
+        "pnl_eur": -0.074189,
+        "pnl_r": -0.15,
         "sl": 997.5,
         "tp1": 1121.13,
         "tp2": 1162.34,
@@ -485,10 +485,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.6064158082754317,
-    "total_pnl_eur": -1.758760322361752,
+    "total_pnl_pct": -0.4692285486487136,
+    "total_pnl_eur": -1.360882322361752,
     "bank_eur": 50000.0,
-    "equity_eur": 49998.24
+    "equity_eur": 49998.64
   },
   "oficial": {
     "rows": [],
