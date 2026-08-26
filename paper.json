@@ -1,6 +1,6 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T12:20:49+01:00",
+  "published_at": "2026-08-26T12:21:40+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -295,7 +295,7 @@
       "down": "quem apostou na baixa já está a chorar",
       "vibe": "café amargo e juros que não baixam",
       "ticker_up": "GS",
-      "ticker_down": "MS"
+      "ticker_down": ""
     }
   ],
   "archive_days": [
