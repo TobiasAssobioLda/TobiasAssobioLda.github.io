@@ -949,7 +949,11 @@ footer {
   }
 }
 
-/* Full Report · Tobias */
+.popular-range {
+  margin: 0 0 1rem;
+  font-size: 0.85rem;
+}
+
 .tobias-sizes {
   margin-bottom: 0.85rem;
 }
