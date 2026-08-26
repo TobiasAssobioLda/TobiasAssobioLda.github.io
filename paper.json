@@ -1,6 +1,6 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T11:57:49+01:00",
+  "published_at": "2026-08-26T11:58:23+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -52,8 +52,8 @@
       "up": "o Bitcoin sorri, o Irão não compra nada",
       "down": "quem achava que a carteira era o paraíso",
       "vibe": "o barulho é sempre maior que o estrago",
-      "ticker_up": "XOM",
-      "ticker_down": "GLD"
+      "ticker_up": "NVDA",
+      "ticker_down": "TSM"
     }
   ],
   "archive_days": [
