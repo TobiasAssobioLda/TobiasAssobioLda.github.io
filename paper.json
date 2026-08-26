@@ -1,6 +1,6 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T12:02:53+01:00",
+  "published_at": "2026-08-26T12:04:10+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -40,8 +40,8 @@
       "source": "french.people.com.cn",
       "horse": "Irão",
       "sent_at": "2026-08-26T11:02:53.431017+00:00",
-      "impact": 69,
-      "impact_band": "médio",
+      "impact": 74,
+      "impact_band": "alto",
       "when_label": "26/08 · 12:02",
       "read_url": "http://french.people.com.cn/Chine/n3/2026/0826/c31354-20492410.html",
       "kind": "RUMOR",
