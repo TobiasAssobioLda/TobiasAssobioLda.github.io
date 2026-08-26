@@ -1,11 +1,11 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T12:11:25+01:00",
+  "published_at": "2026-08-26T12:12:14+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
   "max_items": 20,
-  "count": 5,
+  "count": 6,
   "masthead": "O Rumors",
   "tagline": "geopolítica & mercados · Rumors do dia",
   "paper_since": "2026-08-25T15:46:13.860066+00:00",
@@ -75,7 +75,7 @@
       "down": "o Riial foi a pedir esmola à esquina",
       "vibe": "sanções pesam mas o circo continua",
       "ticker_up": "XOM",
-      "ticker_down": "CVX"
+      "ticker_down": ""
     },
     {
       "uid": "5b4229d73e66781c60e6fb05",
@@ -120,6 +120,28 @@
       "vibe": "o tabuleiro está todo desenhado",
       "ticker_up": "XOM",
       "ticker_down": ""
+    },
+    {
+      "uid": "cdcf65b2241ed08681157a19",
+      "title": "Ukraine Invasion Day 1 , 644 : hybrid war continues . ( CIA ) Director Ratcliffe arrived in Moscow .",
+      "url": "https://www.dailykos.com/stories/2026/8/25/800089418/community/1644/",
+      "source": "dailykos.com",
+      "horse": "Rússia",
+      "sent_at": "2026-08-26T11:12:14.035525+00:00",
+      "impact": 55,
+      "impact_band": "médio",
+      "when_label": "26/08 · 12:12",
+      "read_url": "https://www.dailykos.com/stories/2026/8/25/800089418/community/1644/",
+      "kind": "OFICIAL",
+      "badge": "✅",
+      "horse_emoji": "🐻",
+      "hook": "Rússia × CIA em Moscovo",
+      "what": "Diretor da CIA chegou a Moscovo para contactos secretos",
+      "up": "o xadrez mundial joga-se agora na sombra",
+      "down": "segurança nacional ou tarde de café?",
+      "vibe": "fumo na mesa e silêncio pesado",
+      "ticker_up": "LMT",
+      "ticker_down": "NOC"
     }
   ],
   "archive_days": [
