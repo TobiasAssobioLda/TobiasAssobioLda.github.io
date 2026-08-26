@@ -1,11 +1,11 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T12:16:25+01:00",
+  "published_at": "2026-08-26T12:17:24+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
   "max_items": 20,
-  "count": 9,
+  "count": 10,
   "masthead": "O Rumors",
   "tagline": "geopolítica & mercados · Rumors do dia",
   "paper_since": "2026-08-25T15:46:13.860066+00:00",
@@ -206,8 +206,30 @@
       "up": "o baril desce e o bolso suspira aliviado",
       "down": "quem apostou em guerra já está a chorar",
       "vibe": "respiro fundo e volto a trabalhar",
-      "ticker_up": "OXY",
-      "ticker_down": "XOM"
+      "ticker_up": "XOM",
+      "ticker_down": ""
+    },
+    {
+      "uid": "90ee16f3581e78bdca661924",
+      "title": "California cant  veto  Trump restart of Santa Barbara County pipeline | News",
+      "url": "https://homenewshere.com/national/news/article_d471d3d2-6e45-5caf-9aab-bf6f5525b25d.html",
+      "source": "homenewshere.com",
+      "horse": "Trump",
+      "sent_at": "2026-08-26T11:17:24.573725+00:00",
+      "impact": 55,
+      "impact_band": "médio",
+      "when_label": "26/08 · 12:17",
+      "read_url": "https://homenewshere.com/national/news/article_d471d3d2-6e45-5caf-9aab-bf6f5525b25d.html",
+      "kind": "OFICIAL",
+      "badge": "✅",
+      "horse_emoji": "🦅",
+      "hook": "Trump × Califórnia travada no oleoduto",
+      "what": "Califórnia não pode vetar reinício do oleoduto condado Santa Barbara por Trump",
+      "up": "se for a sério, alguém fica a ganhar",
+      "down": "os verdes choram mas o betume não para",
+      "vibe": "café quente e o asfalto escorre",
+      "ticker_up": "EPD",
+      "ticker_down": "KMI"
     }
   ],
   "archive_days": [
