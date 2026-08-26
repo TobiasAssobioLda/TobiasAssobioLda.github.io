@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-26T03:57:48+01:00",
+  "updated_at": "2026-08-26T04:00:50+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 726,
+  "n_events": 727,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
@@ -155,17 +155,17 @@
     {
       "rank": 19,
       "ticker": "NVDA",
-      "total": 15,
-      "as_up": 14,
+      "total": 16,
+      "as_up": 15,
       "as_down": 1,
       "last_horse": "Chips"
     },
     {
       "rank": 20,
       "ticker": "TSM",
-      "total": 15,
+      "total": 16,
       "as_up": 10,
-      "as_down": 5,
+      "as_down": 6,
       "last_horse": "Chips"
     }
   ],
@@ -318,17 +318,17 @@
     {
       "rank": 19,
       "ticker": "NVDA",
-      "total": 15,
-      "as_up": 14,
+      "total": 16,
+      "as_up": 15,
       "as_down": 1,
       "last_horse": "Chips"
     },
     {
       "rank": 20,
       "ticker": "TSM",
-      "total": 15,
+      "total": 16,
       "as_up": 10,
-      "as_down": 5,
+      "as_down": 6,
       "last_horse": "Chips"
     }
   ]
