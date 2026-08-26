@@ -1,11 +1,11 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T18:47:32+01:00",
+  "published_at": "2026-08-26T18:48:08+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
   "max_items": 20,
-  "count": 19,
+  "count": 20,
   "masthead": "O Rumors",
   "tagline": "geopolítica & mercados · Rumors do dia",
   "paper_since": "2026-08-25T15:46:13.860066+00:00",
@@ -428,6 +428,28 @@
       "vibe": "café na mão e a ver o circo",
       "ticker_up": "XOM",
       "ticker_down": ""
+    },
+    {
+      "uid": "135e6ece21ab1948c870b64f",
+      "title": "White House Statement Free ride is over for Canada . - Investment Watch Blog",
+      "url": "https://www.investmentwatchblog.com/white-house-statement-free-ride-is-over-for-canada/",
+      "source": "investmentwatchblog.com",
+      "horse": "Trump",
+      "sent_at": "2026-08-26T17:48:08.330529+00:00",
+      "impact": 55,
+      "impact_band": "médio",
+      "when_label": "26/08 · 18:48",
+      "read_url": "https://www.investmentwatchblog.com/white-house-statement-free-ride-is-over-for-canada/",
+      "kind": "RUMOR",
+      "badge": "🟠",
+      "horse_emoji": "🦅",
+      "hook": "Trump × Fim do passe livre Canadá",
+      "what": "Casa Branca sinaliza fim de regimes preferenciais comerciais para o Canadá",
+      "up": "a fronteira agora cobra entrada",
+      "down": "o gelo derrete e o lucro também",
+      "vibe": "ar frio de ambas as partes",
+      "ticker_up": "NUE",
+      "ticker_down": "CLF"
     }
   ],
   "archive_days": [
