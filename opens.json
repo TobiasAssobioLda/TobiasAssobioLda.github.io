@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-26T10:39:35+01:00",
+  "updated_at": "2026-08-26T10:42:35+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "10:39",
+  "when_label": "10:42",
   "pipoca": {
     "rows": [
       {
@@ -36,12 +36,12 @@
       {
         "ticker": "NVDA",
         "entry": 210.5201,
-        "price": 213.5,
+        "price": 213.6,
         "qty": 2.004403,
         "notional": 421.9671,
-        "pnl_pct": 1.4160000000000001,
-        "pnl_eur": 5.972975,
-        "pnl_r": 0.38,
+        "pnl_pct": 1.463,
+        "pnl_eur": 6.173415,
+        "pnl_r": 0.39,
         "sl": 202.6,
         "tp1": 226.36,
         "tp2": 234.28,
@@ -92,10 +92,10 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.12776049462820796,
-    "total_pnl_eur": -1.0877929999999996,
+    "total_pnl_pct": -0.10421896278963384,
+    "total_pnl_eur": -0.8873529999999992,
     "bank_eur": 2000.0,
-    "equity_eur": 1998.91
+    "equity_eur": 1999.11
   },
   "chill": {
     "rows": [
@@ -276,12 +276,12 @@
       {
         "ticker": "NVDA",
         "entry": 210.5201,
-        "price": 213.5,
+        "price": 213.6,
         "qty": 2.004403,
         "notional": 421.9671,
-        "pnl_pct": 1.4160000000000001,
-        "pnl_eur": 5.972975,
-        "pnl_r": 0.38,
+        "pnl_pct": 1.463,
+        "pnl_eur": 6.173415,
+        "pnl_r": 0.39,
         "sl": 202.6,
         "tp1": 226.36,
         "tp2": 234.28,
@@ -392,12 +392,12 @@
       {
         "ticker": "BMNR",
         "entry": 25.258,
-        "price": 24.57,
+        "price": 24.55,
         "qty": 0.791766,
         "notional": 19.9984,
-        "pnl_pct": -2.724,
-        "pnl_eur": -0.544735,
-        "pnl_r": -0.18,
+        "pnl_pct": -2.803,
+        "pnl_eur": -0.560571,
+        "pnl_r": -0.19,
         "sl": 21.47,
         "tp1": 29.05,
         "tp2": 32.84,
@@ -450,12 +450,12 @@
       {
         "ticker": "PLTR",
         "entry": 172.912,
-        "price": 170.6,
+        "price": 170.7,
         "qty": 0.115647,
         "notional": 19.9968,
-        "pnl_pct": -1.337,
-        "pnl_eur": -0.267376,
-        "pnl_r": -0.21,
+        "pnl_pct": -1.279,
+        "pnl_eur": -0.255811,
+        "pnl_r": -0.2,
         "sl": 161.94,
         "tp1": 194.94,
         "tp2": 205.94,
@@ -535,20 +535,20 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.3659912435349884,
-    "total_pnl_eur": 4.1416129999999995
+    "total_pnl_pct": 0.3833265513614355,
+    "total_pnl_eur": 4.337782
   },
   "pipoca_all": {
     "rows": [
       {
         "ticker": "NVDA",
         "entry": 210.5201,
-        "price": 213.5,
+        "price": 213.6,
         "qty": 2.004403,
         "notional": 421.9671,
-        "pnl_pct": 1.4160000000000001,
-        "pnl_eur": 5.972975,
-        "pnl_r": 0.38,
+        "pnl_pct": 1.463,
+        "pnl_eur": 6.173415,
+        "pnl_r": 0.39,
         "sl": 202.6,
         "tp1": 226.36,
         "tp2": 234.28,
@@ -599,22 +599,22 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.23576034424204326,
-    "total_pnl_eur": 1.5375050000000003,
+    "total_pnl_pct": 0.2664957261756794,
+    "total_pnl_eur": 1.7379450000000007,
     "bank_eur": 10000.0,
-    "equity_eur": 10001.54
+    "equity_eur": 10001.74
   },
   "max": {
     "rows": [
       {
         "ticker": "BTC-USD",
         "entry": 78466.1328,
-        "price": 78496.1875,
+        "price": 78433.7969,
         "qty": 0.000127,
         "notional": 10.0,
-        "pnl_pct": 0.03830276697412736,
-        "pnl_eur": 0.0038302766974127357,
-        "pnl_r": 0.01,
+        "pnl_pct": -0.04121000850446588,
+        "pnl_eur": -0.004121000850446588,
+        "pnl_r": -0.01,
         "sl": 72511.81,
         "tp1": 90374.78,
         "tp2": 96329.1,
@@ -636,8 +636,8 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.03830276697412736,
-    "total_pnl_eur": 0.0038302766974127357
+    "total_pnl_pct": -0.04121000850446588,
+    "total_pnl_eur": -0.004121000850446588
   },
   "rumors": {
     "rows": [],
