@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-08-26T08:54:35+01:00",
+  "updated_at": "2026-08-26T08:57:34+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "08:54",
+  "when_label": "08:57",
   "pipoca": {
     "rows": [
       {
         "ticker": "ONDS",
         "entry": 8.35,
-        "price": 8.22,
+        "price": 8.23,
         "qty": 23.866348,
         "notional": 199.284,
-        "pnl_pct": -1.557,
-        "pnl_eur": -3.102625,
-        "pnl_r": -0.42,
+        "pnl_pct": -1.437,
+        "pnl_eur": -2.863962,
+        "pnl_r": -0.39,
         "sl": 8.04,
         "tp1": 9.8,
         "tp2": 10.38,
@@ -92,10 +92,10 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.2842795002545273,
-    "total_pnl_eur": -2.4204450000000004,
+    "total_pnl_pct": -0.256248704938275,
+    "total_pnl_eur": -2.181782,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.58
+    "equity_eur": 1997.82
   },
   "chill": {
     "rows": [
@@ -609,12 +609,12 @@
       {
         "ticker": "BTC-USD",
         "entry": 78466.1328,
-        "price": 78974.7188,
+        "price": 78970.7734,
         "qty": 0.000127,
         "notional": 10.0,
-        "pnl_pct": 0.6481598899442584,
-        "pnl_eur": 0.06481598899442584,
-        "pnl_r": 0.09,
+        "pnl_pct": 0.6431317333890562,
+        "pnl_eur": 0.06431317333890561,
+        "pnl_r": 0.08,
         "sl": 72511.81,
         "tp1": 90374.78,
         "tp2": 96329.1,
@@ -636,8 +636,8 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.6481598899442583,
-    "total_pnl_eur": 0.06481598899442584
+    "total_pnl_pct": 0.6431317333890562,
+    "total_pnl_eur": 0.06431317333890561
   },
   "rumors": {
     "rows": [],
