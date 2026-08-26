@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-08-26T03:57:44+01:00",
+  "updated_at": "2026-08-26T04:00:45+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "03:57",
+  "when_label": "04:00",
   "pipoca": {
     "rows": [
       {
         "ticker": "ONDS",
         "entry": 8.35,
-        "price": 8.26,
+        "price": 8.25,
         "qty": 23.866348,
         "notional": 199.284,
-        "pnl_pct": -1.078,
-        "pnl_eur": -2.147972,
-        "pnl_r": -0.29,
+        "pnl_pct": -1.198,
+        "pnl_eur": -2.386635,
+        "pnl_r": -0.32,
         "sl": 8.04,
         "tp1": 9.8,
         "tp2": 10.38,
@@ -36,11 +36,11 @@
       {
         "ticker": "NVDA",
         "entry": 210.5201,
-        "price": 213.84,
+        "price": 213.83,
         "qty": 2.004403,
         "notional": 421.9671,
-        "pnl_pct": 1.577,
-        "pnl_eur": 6.654474,
+        "pnl_pct": 1.572,
+        "pnl_eur": 6.634429,
         "pnl_r": 0.42,
         "sl": 202.6,
         "tp1": 226.36,
@@ -65,11 +65,11 @@
       {
         "ticker": "AXTI",
         "entry": 67.8882,
-        "price": 66.38,
+        "price": 66.45,
         "qty": 3.390581,
         "notional": 230.1804,
-        "pnl_pct": -2.222,
-        "pnl_eur": -5.113586,
+        "pnl_pct": -2.118,
+        "pnl_eur": -4.876246,
         "pnl_r": -0.1,
         "sl": 52.91,
         "tp1": 97.68,
@@ -92,10 +92,10 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.07130157328008323,
-    "total_pnl_eur": -0.6070840000000004,
+    "total_pnl_pct": -0.07381122930437115,
+    "total_pnl_eur": -0.6284520000000002,
     "bank_eur": 2000.0,
-    "equity_eur": 1999.39
+    "equity_eur": 1999.37
   },
   "chill": {
     "rows": [
@@ -276,11 +276,11 @@
       {
         "ticker": "NVDA",
         "entry": 210.5201,
-        "price": 213.84,
+        "price": 213.83,
         "qty": 2.004403,
         "notional": 421.9671,
-        "pnl_pct": 1.577,
-        "pnl_eur": 6.654474,
+        "pnl_pct": 1.572,
+        "pnl_eur": 6.634429,
         "pnl_r": 0.42,
         "sl": 202.6,
         "tp1": 226.36,
@@ -421,11 +421,11 @@
       {
         "ticker": "AXTI",
         "entry": 67.8882,
-        "price": 66.38,
+        "price": 66.45,
         "qty": 3.390581,
         "notional": 230.1804,
-        "pnl_pct": -2.222,
-        "pnl_eur": -5.113586,
+        "pnl_pct": -2.118,
+        "pnl_eur": -4.876246,
         "pnl_r": -0.1,
         "sl": 52.91,
         "tp1": 97.68,
@@ -535,19 +535,19 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.4328025511383009,
-    "total_pnl_eur": 4.897659999999998
+    "total_pnl_pct": 0.4520047477688544,
+    "total_pnl_eur": 5.114954999999998
   },
   "pipoca_all": {
     "rows": [
       {
         "ticker": "NVDA",
         "entry": 210.5201,
-        "price": 213.84,
+        "price": 213.83,
         "qty": 2.004403,
         "notional": 421.9671,
-        "pnl_pct": 1.577,
-        "pnl_eur": 6.654474,
+        "pnl_pct": 1.572,
+        "pnl_eur": 6.634429,
         "pnl_r": 0.42,
         "sl": 202.6,
         "tp1": 226.36,
@@ -572,11 +572,11 @@
       {
         "ticker": "AXTI",
         "entry": 67.8882,
-        "price": 66.38,
+        "price": 66.45,
         "qty": 3.390581,
         "notional": 230.1804,
-        "pnl_pct": -2.222,
-        "pnl_eur": -5.113586,
+        "pnl_pct": -2.118,
+        "pnl_eur": -4.876246,
         "pnl_r": -0.1,
         "sl": 52.91,
         "tp1": 97.68,
@@ -599,21 +599,21 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.23627909270704048,
-    "total_pnl_eur": 1.5408879999999998,
+    "total_pnl_pct": 0.2695990130709971,
+    "total_pnl_eur": 1.7581829999999998,
     "bank_eur": 10000.0,
-    "equity_eur": 10001.54
+    "equity_eur": 10001.76
   },
   "max": {
     "rows": [
       {
         "ticker": "BTC-USD",
         "entry": 78466.1328,
-        "price": 79122.5625,
+        "price": 79108.2969,
         "qty": 0.000127,
         "notional": 10.0,
-        "pnl_pct": 0.8365771022170131,
-        "pnl_eur": 0.0836577102217013,
+        "pnl_pct": 0.8183965197275459,
+        "pnl_eur": 0.0818396519727546,
         "pnl_r": 0.11,
         "sl": 72511.81,
         "tp1": 90374.78,
@@ -636,8 +636,8 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.8365771022170131,
-    "total_pnl_eur": 0.0836577102217013
+    "total_pnl_pct": 0.8183965197275459,
+    "total_pnl_eur": 0.0818396519727546
   },
   "rumors": {
     "rows": [],
@@ -663,19 +663,6 @@
         "lane": "out_market"
       },
       {
-        "ticker": "XOM",
-        "book": "rumors",
-        "horse": "Irão",
-        "impact": 74,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-08-26T02:55:44.247822+00:00",
-        "first_seen": "2026-08-26T00:36:25.776466+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
         "ticker": "DNN",
         "book": "max",
         "horse": "Nuclear",
@@ -1166,6 +1153,19 @@
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
         "next_check": "2026-08-26T03:00:51.467256+00:00",
         "first_seen": "2026-08-25T23:45:49.555109+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "BTG",
+        "book": "max",
+        "horse": "Ouro",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA abre as 14:30",
+        "next_check": "2026-08-26T03:00:51.473030+00:00",
+        "first_seen": "2026-08-25T23:45:49.559497+00:00",
         "status": "wait",
         "lane": "out_market"
       }
@@ -1185,19 +1185,6 @@
         "lane": "out_market"
       },
       {
-        "ticker": "XOM",
-        "book": "rumors",
-        "horse": "Irão",
-        "impact": 74,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-08-26T02:55:44.247822+00:00",
-        "first_seen": "2026-08-26T00:36:25.776466+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
         "ticker": "DNN",
         "book": "max",
         "horse": "Nuclear",
@@ -1688,6 +1675,19 @@
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
         "next_check": "2026-08-26T03:00:51.467256+00:00",
         "first_seen": "2026-08-25T23:45:49.555109+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "BTG",
+        "book": "max",
+        "horse": "Ouro",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA abre as 14:30",
+        "next_check": "2026-08-26T03:00:51.473030+00:00",
+        "first_seen": "2026-08-25T23:45:49.559497+00:00",
         "status": "wait",
         "lane": "out_market"
       }
