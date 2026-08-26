@@ -1,11 +1,11 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T12:18:40+01:00",
+  "published_at": "2026-08-26T12:19:49+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
   "max_items": 20,
-  "count": 11,
+  "count": 12,
   "masthead": "O Rumors",
   "tagline": "geopolítica & mercados · Rumors do dia",
   "paper_since": "2026-08-25T15:46:13.860066+00:00",
@@ -252,6 +252,28 @@
       "vibe": "café quente e o asfalto escorre",
       "ticker_up": "EPD",
       "ticker_down": ""
+    },
+    {
+      "uid": "84dd5def618a9a571792d59c",
+      "title": "CNBC Daily Open : Nvidia carries world of AI on its shoulders",
+      "url": "https://www.cnbc.com/2026/08/26/nvidia-ai-chips-demand.html",
+      "source": "cnbc.com",
+      "horse": "Chips",
+      "sent_at": "2026-08-26T11:19:49.194840+00:00",
+      "impact": 55,
+      "impact_band": "médio",
+      "when_label": "26/08 · 12:19",
+      "read_url": "https://www.cnbc.com/2026/08/26/nvidia-ai-chips-demand.html",
+      "kind": "OFICIAL",
+      "badge": "✅",
+      "horse_emoji": "💾",
+      "hook": "Chips × Nvidia carrega o mundo",
+      "what": "Nvidia lidera a demanda global por infraestrutura de inteligência artificial",
+      "up": "o chip que paga a conta da festa",
+      "down": "quem não tem chip fica sem dança",
+      "vibe": "o circo digital gira sem parar",
+      "ticker_up": "NVDA",
+      "ticker_down": "TSM"
     }
   ],
   "archive_days": [
