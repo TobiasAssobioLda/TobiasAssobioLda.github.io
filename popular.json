@@ -1,172 +1,700 @@
 {
-  "updated_at": "2026-08-26T12:36:50+01:00",
+  "updated_at": "2026-08-26T12:39:50+01:00",
   "timezone": "Europe/Lisbon",
-  "days": 7,
-  "n_events": 758,
+  "default_window": "day",
+  "windows": {
+    "week": {
+      "key": "week",
+      "label": "Week · desde sexta fecho NY",
+      "from": "2026-08-21T21:00:00+01:00",
+      "to": "2026-08-26T12:39:50+01:00",
+      "from_label": "21/08 21:00",
+      "to_label": "26/08 12:39",
+      "n_events": 2005,
+      "top5_count": 5,
+      "top6_20_count": 15,
+      "top5": [
+        {
+          "rank": 1,
+          "ticker": "GLD",
+          "total": 923,
+          "as_up": 0,
+          "as_down": 923,
+          "last_horse": "Rússia"
+        },
+        {
+          "rank": 2,
+          "ticker": "F",
+          "total": 702,
+          "as_up": 702,
+          "as_down": 0,
+          "last_horse": "Trump"
+        },
+        {
+          "rank": 3,
+          "ticker": "UAL",
+          "total": 459,
+          "as_up": 0,
+          "as_down": 459,
+          "last_horse": "Irão"
+        },
+        {
+          "rank": 4,
+          "ticker": "XOM",
+          "total": 410,
+          "as_up": 410,
+          "as_down": 0,
+          "last_horse": "Irão"
+        },
+        {
+          "rank": 5,
+          "ticker": "AMD",
+          "total": 200,
+          "as_up": 200,
+          "as_down": 0,
+          "last_horse": "Chips"
+        }
+      ],
+      "top6_20": [
+        {
+          "rank": 6,
+          "ticker": "JNJ",
+          "total": 200,
+          "as_up": 0,
+          "as_down": 200,
+          "last_horse": "Chips"
+        },
+        {
+          "rank": 7,
+          "ticker": "TLT",
+          "total": 198,
+          "as_up": 0,
+          "as_down": 198,
+          "last_horse": "Inflação"
+        },
+        {
+          "rank": 8,
+          "ticker": "CVX",
+          "total": 194,
+          "as_up": 194,
+          "as_down": 0,
+          "last_horse": "Inflação"
+        },
+        {
+          "rank": 9,
+          "ticker": "KSPI",
+          "total": 105,
+          "as_up": 105,
+          "as_down": 0,
+          "last_horse": "Rússia"
+        },
+        {
+          "rank": 10,
+          "ticker": "XLP",
+          "total": 104,
+          "as_up": 0,
+          "as_down": 104,
+          "last_horse": "Saúde"
+        },
+        {
+          "rank": 11,
+          "ticker": "ABCL",
+          "total": 64,
+          "as_up": 64,
+          "as_down": 0,
+          "last_horse": "Saúde"
+        },
+        {
+          "rank": 12,
+          "ticker": "TSLA",
+          "total": 60,
+          "as_up": 60,
+          "as_down": 0,
+          "last_horse": "Musk"
+        },
+        {
+          "rank": 13,
+          "ticker": "COIN",
+          "total": 56,
+          "as_up": 56,
+          "as_down": 0,
+          "last_horse": "Cripto"
+        },
+        {
+          "rank": 14,
+          "ticker": "PLTR",
+          "total": 51,
+          "as_up": 51,
+          "as_down": 0,
+          "last_horse": "Ucrânia"
+        },
+        {
+          "rank": 15,
+          "ticker": "XLU",
+          "total": 51,
+          "as_up": 0,
+          "as_down": 51,
+          "last_horse": "Ucrânia"
+        },
+        {
+          "rank": 16,
+          "ticker": "BP",
+          "total": 49,
+          "as_up": 49,
+          "as_down": 0,
+          "last_horse": "Petróleo"
+        },
+        {
+          "rank": 17,
+          "ticker": "TSM",
+          "total": 32,
+          "as_up": 32,
+          "as_down": 0,
+          "last_horse": "China"
+        },
+        {
+          "rank": 18,
+          "ticker": "BAC",
+          "total": 28,
+          "as_up": 28,
+          "as_down": 0,
+          "last_horse": "Fed"
+        },
+        {
+          "rank": 19,
+          "ticker": "IEF",
+          "total": 28,
+          "as_up": 0,
+          "as_down": 28,
+          "last_horse": "Fed"
+        },
+        {
+          "rank": 20,
+          "ticker": "KOPN",
+          "total": 24,
+          "as_up": 24,
+          "as_down": 0,
+          "last_horse": "Drones"
+        }
+      ]
+    },
+    "pre": {
+      "key": "pre",
+      "label": "Pre · fecho NY → abertura NY",
+      "from": "2026-08-25T21:00:00+01:00",
+      "to": "2026-08-26T14:30:00+01:00",
+      "from_label": "25/08 21:00",
+      "to_label": "26/08 14:30",
+      "n_events": 942,
+      "top5_count": 5,
+      "top6_20_count": 15,
+      "top5": [
+        {
+          "rank": 1,
+          "ticker": "GLD",
+          "total": 415,
+          "as_up": 0,
+          "as_down": 415,
+          "last_horse": "Rússia"
+        },
+        {
+          "rank": 2,
+          "ticker": "F",
+          "total": 286,
+          "as_up": 286,
+          "as_down": 0,
+          "last_horse": "Trump"
+        },
+        {
+          "rank": 3,
+          "ticker": "UAL",
+          "total": 200,
+          "as_up": 0,
+          "as_down": 200,
+          "last_horse": "Irão"
+        },
+        {
+          "rank": 4,
+          "ticker": "XOM",
+          "total": 173,
+          "as_up": 173,
+          "as_down": 0,
+          "last_horse": "Irão"
+        },
+        {
+          "rank": 5,
+          "ticker": "AMD",
+          "total": 114,
+          "as_up": 114,
+          "as_down": 0,
+          "last_horse": "Chips"
+        }
+      ],
+      "top6_20": [
+        {
+          "rank": 6,
+          "ticker": "JNJ",
+          "total": 114,
+          "as_up": 0,
+          "as_down": 114,
+          "last_horse": "Chips"
+        },
+        {
+          "rank": 7,
+          "ticker": "TLT",
+          "total": 86,
+          "as_up": 0,
+          "as_down": 86,
+          "last_horse": "Inflação"
+        },
+        {
+          "rank": 8,
+          "ticker": "CVX",
+          "total": 85,
+          "as_up": 85,
+          "as_down": 0,
+          "last_horse": "Inflação"
+        },
+        {
+          "rank": 9,
+          "ticker": "XLP",
+          "total": 63,
+          "as_up": 0,
+          "as_down": 63,
+          "last_horse": "Saúde"
+        },
+        {
+          "rank": 10,
+          "ticker": "KSPI",
+          "total": 59,
+          "as_up": 59,
+          "as_down": 0,
+          "last_horse": "Rússia"
+        },
+        {
+          "rank": 11,
+          "ticker": "TSLA",
+          "total": 46,
+          "as_up": 46,
+          "as_down": 0,
+          "last_horse": "Musk"
+        },
+        {
+          "rank": 12,
+          "ticker": "ABCL",
+          "total": 39,
+          "as_up": 39,
+          "as_down": 0,
+          "last_horse": "Saúde"
+        },
+        {
+          "rank": 13,
+          "ticker": "BP",
+          "total": 27,
+          "as_up": 27,
+          "as_down": 0,
+          "last_horse": "Petróleo"
+        },
+        {
+          "rank": 14,
+          "ticker": "PLTR",
+          "total": 25,
+          "as_up": 25,
+          "as_down": 0,
+          "last_horse": "Ucrânia"
+        },
+        {
+          "rank": 15,
+          "ticker": "XLU",
+          "total": 25,
+          "as_up": 0,
+          "as_down": 25,
+          "last_horse": "Ucrânia"
+        },
+        {
+          "rank": 16,
+          "ticker": "COIN",
+          "total": 24,
+          "as_up": 24,
+          "as_down": 0,
+          "last_horse": "Cripto"
+        },
+        {
+          "rank": 17,
+          "ticker": "TSM",
+          "total": 18,
+          "as_up": 18,
+          "as_down": 0,
+          "last_horse": "China"
+        },
+        {
+          "rank": 18,
+          "ticker": "KOPN",
+          "total": 16,
+          "as_up": 16,
+          "as_down": 0,
+          "last_horse": "Drones"
+        },
+        {
+          "rank": 19,
+          "ticker": "KO",
+          "total": 16,
+          "as_up": 0,
+          "as_down": 16,
+          "last_horse": "Drones"
+        },
+        {
+          "rank": 20,
+          "ticker": "BAC",
+          "total": 12,
+          "as_up": 12,
+          "as_down": 0,
+          "last_horse": "Fed"
+        }
+      ]
+    },
+    "day": {
+      "key": "day",
+      "label": "Day · fecho NY → próximo fecho",
+      "from": "2026-08-25T21:00:00+01:00",
+      "to": "2026-08-26T21:00:00+01:00",
+      "from_label": "25/08 21:00",
+      "to_label": "26/08 21:00",
+      "n_events": 942,
+      "top5_count": 5,
+      "top6_20_count": 15,
+      "top5": [
+        {
+          "rank": 1,
+          "ticker": "GLD",
+          "total": 415,
+          "as_up": 0,
+          "as_down": 415,
+          "last_horse": "Rússia"
+        },
+        {
+          "rank": 2,
+          "ticker": "F",
+          "total": 286,
+          "as_up": 286,
+          "as_down": 0,
+          "last_horse": "Trump"
+        },
+        {
+          "rank": 3,
+          "ticker": "UAL",
+          "total": 200,
+          "as_up": 0,
+          "as_down": 200,
+          "last_horse": "Irão"
+        },
+        {
+          "rank": 4,
+          "ticker": "XOM",
+          "total": 173,
+          "as_up": 173,
+          "as_down": 0,
+          "last_horse": "Irão"
+        },
+        {
+          "rank": 5,
+          "ticker": "AMD",
+          "total": 114,
+          "as_up": 114,
+          "as_down": 0,
+          "last_horse": "Chips"
+        }
+      ],
+      "top6_20": [
+        {
+          "rank": 6,
+          "ticker": "JNJ",
+          "total": 114,
+          "as_up": 0,
+          "as_down": 114,
+          "last_horse": "Chips"
+        },
+        {
+          "rank": 7,
+          "ticker": "TLT",
+          "total": 86,
+          "as_up": 0,
+          "as_down": 86,
+          "last_horse": "Inflação"
+        },
+        {
+          "rank": 8,
+          "ticker": "CVX",
+          "total": 85,
+          "as_up": 85,
+          "as_down": 0,
+          "last_horse": "Inflação"
+        },
+        {
+          "rank": 9,
+          "ticker": "XLP",
+          "total": 63,
+          "as_up": 0,
+          "as_down": 63,
+          "last_horse": "Saúde"
+        },
+        {
+          "rank": 10,
+          "ticker": "KSPI",
+          "total": 59,
+          "as_up": 59,
+          "as_down": 0,
+          "last_horse": "Rússia"
+        },
+        {
+          "rank": 11,
+          "ticker": "TSLA",
+          "total": 46,
+          "as_up": 46,
+          "as_down": 0,
+          "last_horse": "Musk"
+        },
+        {
+          "rank": 12,
+          "ticker": "ABCL",
+          "total": 39,
+          "as_up": 39,
+          "as_down": 0,
+          "last_horse": "Saúde"
+        },
+        {
+          "rank": 13,
+          "ticker": "BP",
+          "total": 27,
+          "as_up": 27,
+          "as_down": 0,
+          "last_horse": "Petróleo"
+        },
+        {
+          "rank": 14,
+          "ticker": "PLTR",
+          "total": 25,
+          "as_up": 25,
+          "as_down": 0,
+          "last_horse": "Ucrânia"
+        },
+        {
+          "rank": 15,
+          "ticker": "XLU",
+          "total": 25,
+          "as_up": 0,
+          "as_down": 25,
+          "last_horse": "Ucrânia"
+        },
+        {
+          "rank": 16,
+          "ticker": "COIN",
+          "total": 24,
+          "as_up": 24,
+          "as_down": 0,
+          "last_horse": "Cripto"
+        },
+        {
+          "rank": 17,
+          "ticker": "TSM",
+          "total": 18,
+          "as_up": 18,
+          "as_down": 0,
+          "last_horse": "China"
+        },
+        {
+          "rank": 18,
+          "ticker": "KOPN",
+          "total": 16,
+          "as_up": 16,
+          "as_down": 0,
+          "last_horse": "Drones"
+        },
+        {
+          "rank": 19,
+          "ticker": "KO",
+          "total": 16,
+          "as_up": 0,
+          "as_down": 16,
+          "last_horse": "Drones"
+        },
+        {
+          "rank": 20,
+          "ticker": "BAC",
+          "total": 12,
+          "as_up": 12,
+          "as_down": 0,
+          "last_horse": "Fed"
+        }
+      ]
+    }
+  },
+  "days": 1,
+  "n_events": 942,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
     {
       "rank": 1,
       "ticker": "GLD",
-      "total": 227,
-      "as_up": 27,
-      "as_down": 200,
-      "last_horse": "Irão"
+      "total": 415,
+      "as_up": 0,
+      "as_down": 415,
+      "last_horse": "Rússia"
     },
     {
       "rank": 2,
-      "ticker": "XOM",
-      "total": 158,
-      "as_up": 135,
-      "as_down": 23,
-      "last_horse": "Irão"
-    },
-    {
-      "rank": 3,
-      "ticker": "ENPH",
-      "total": 98,
-      "as_up": 0,
-      "as_down": 98,
-      "last_horse": "Irão"
-    },
-    {
-      "rank": 4,
-      "ticker": "FOX",
-      "total": 82,
-      "as_up": 82,
+      "ticker": "F",
+      "total": 286,
+      "as_up": 286,
       "as_down": 0,
       "last_horse": "Trump"
     },
     {
-      "rank": 5,
-      "ticker": "KO",
-      "total": 81,
+      "rank": 3,
+      "ticker": "UAL",
+      "total": 200,
       "as_up": 0,
-      "as_down": 81,
-      "last_horse": "Inflação"
+      "as_down": 200,
+      "last_horse": "Irão"
+    },
+    {
+      "rank": 4,
+      "ticker": "XOM",
+      "total": 173,
+      "as_up": 173,
+      "as_down": 0,
+      "last_horse": "Irão"
+    },
+    {
+      "rank": 5,
+      "ticker": "AMD",
+      "total": 114,
+      "as_up": 114,
+      "as_down": 0,
+      "last_horse": "Chips"
     }
   ],
   "top6_20": [
     {
       "rank": 6,
-      "ticker": "PLTR",
-      "total": 79,
-      "as_up": 79,
-      "as_down": 0,
-      "last_horse": "Ucrânia"
+      "ticker": "JNJ",
+      "total": 114,
+      "as_up": 0,
+      "as_down": 114,
+      "last_horse": "Chips"
     },
     {
       "rank": 7,
-      "ticker": "FLO",
-      "total": 65,
-      "as_up": 65,
-      "as_down": 0,
+      "ticker": "TLT",
+      "total": 86,
+      "as_up": 0,
+      "as_down": 86,
       "last_horse": "Inflação"
     },
     {
       "rank": 8,
-      "ticker": "FRO",
-      "total": 62,
-      "as_up": 62,
+      "ticker": "CVX",
+      "total": 85,
+      "as_up": 85,
       "as_down": 0,
-      "last_horse": "Irão"
-    },
-    {
-      "rank": 9,
-      "ticker": "UAL",
-      "total": 55,
-      "as_up": 0,
-      "as_down": 55,
-      "last_horse": "Irão"
-    },
-    {
-      "rank": 10,
-      "ticker": "FOXA",
-      "total": 51,
-      "as_up": 51,
-      "as_down": 0,
-      "last_horse": "Trump"
-    },
-    {
-      "rank": 11,
-      "ticker": "QQQ",
-      "total": 41,
-      "as_up": 0,
-      "as_down": 41,
-      "last_horse": "Gaza"
-    },
-    {
-      "rank": 12,
-      "ticker": "F",
-      "total": 31,
-      "as_up": 18,
-      "as_down": 13,
-      "last_horse": "Trump"
-    },
-    {
-      "rank": 13,
-      "ticker": "LMT",
-      "total": 27,
-      "as_up": 24,
-      "as_down": 3,
-      "last_horse": "Trump"
-    },
-    {
-      "rank": 14,
-      "ticker": "DXY",
-      "total": 23,
-      "as_up": 0,
-      "as_down": 23,
       "last_horse": "Inflação"
     },
     {
-      "rank": 15,
-      "ticker": "EE",
-      "total": 20,
-      "as_up": 20,
+      "rank": 9,
+      "ticker": "XLP",
+      "total": 63,
+      "as_up": 0,
+      "as_down": 63,
+      "last_horse": "Saúde"
+    },
+    {
+      "rank": 10,
+      "ticker": "KSPI",
+      "total": 59,
+      "as_up": 59,
       "as_down": 0,
       "last_horse": "Rússia"
     },
     {
-      "rank": 16,
-      "ticker": "XLY",
-      "total": 20,
+      "rank": 11,
+      "ticker": "TSLA",
+      "total": 46,
+      "as_up": 46,
+      "as_down": 0,
+      "last_horse": "Musk"
+    },
+    {
+      "rank": 12,
+      "ticker": "ABCL",
+      "total": 39,
+      "as_up": 39,
+      "as_down": 0,
+      "last_horse": "Saúde"
+    },
+    {
+      "rank": 13,
+      "ticker": "BP",
+      "total": 27,
+      "as_up": 27,
+      "as_down": 0,
+      "last_horse": "Petróleo"
+    },
+    {
+      "rank": 14,
+      "ticker": "PLTR",
+      "total": 25,
+      "as_up": 25,
+      "as_down": 0,
+      "last_horse": "Ucrânia"
+    },
+    {
+      "rank": 15,
+      "ticker": "XLU",
+      "total": 25,
       "as_up": 0,
-      "as_down": 20,
-      "last_horse": "Trump"
+      "as_down": 25,
+      "last_horse": "Ucrânia"
+    },
+    {
+      "rank": 16,
+      "ticker": "COIN",
+      "total": 24,
+      "as_up": 24,
+      "as_down": 0,
+      "last_horse": "Cripto"
     },
     {
       "rank": 17,
       "ticker": "TSM",
-      "total": 19,
-      "as_up": 10,
-      "as_down": 9,
-      "last_horse": "Chips"
+      "total": 18,
+      "as_up": 18,
+      "as_down": 0,
+      "last_horse": "China"
     },
     {
       "rank": 18,
-      "ticker": "NVDA",
-      "total": 18,
-      "as_up": 17,
-      "as_down": 1,
-      "last_horse": "Chips"
+      "ticker": "KOPN",
+      "total": 16,
+      "as_up": 16,
+      "as_down": 0,
+      "last_horse": "Drones"
     },
     {
       "rank": 19,
-      "ticker": "BAC",
-      "total": 18,
-      "as_up": 16,
-      "as_down": 2,
-      "last_horse": "Fed"
+      "ticker": "KO",
+      "total": 16,
+      "as_up": 0,
+      "as_down": 16,
+      "last_horse": "Drones"
     },
     {
       "rank": 20,
-      "ticker": "GM",
-      "total": 18,
-      "as_up": 1,
-      "as_down": 17,
-      "last_horse": "Trump"
+      "ticker": "BAC",
+      "total": 12,
+      "as_up": 12,
+      "as_down": 0,
+      "last_horse": "Fed"
     }
   ],
   "count": 20,
@@ -174,162 +702,162 @@
     {
       "rank": 1,
       "ticker": "GLD",
-      "total": 227,
-      "as_up": 27,
+      "total": 415,
+      "as_up": 0,
+      "as_down": 415,
+      "last_horse": "Rússia"
+    },
+    {
+      "rank": 2,
+      "ticker": "F",
+      "total": 286,
+      "as_up": 286,
+      "as_down": 0,
+      "last_horse": "Trump"
+    },
+    {
+      "rank": 3,
+      "ticker": "UAL",
+      "total": 200,
+      "as_up": 0,
       "as_down": 200,
       "last_horse": "Irão"
     },
     {
-      "rank": 2,
-      "ticker": "XOM",
-      "total": 158,
-      "as_up": 135,
-      "as_down": 23,
-      "last_horse": "Irão"
-    },
-    {
-      "rank": 3,
-      "ticker": "ENPH",
-      "total": 98,
-      "as_up": 0,
-      "as_down": 98,
-      "last_horse": "Irão"
-    },
-    {
       "rank": 4,
-      "ticker": "FOX",
-      "total": 82,
-      "as_up": 82,
+      "ticker": "XOM",
+      "total": 173,
+      "as_up": 173,
       "as_down": 0,
-      "last_horse": "Trump"
+      "last_horse": "Irão"
     },
     {
       "rank": 5,
-      "ticker": "KO",
-      "total": 81,
-      "as_up": 0,
-      "as_down": 81,
-      "last_horse": "Inflação"
+      "ticker": "AMD",
+      "total": 114,
+      "as_up": 114,
+      "as_down": 0,
+      "last_horse": "Chips"
     },
     {
       "rank": 6,
-      "ticker": "PLTR",
-      "total": 79,
-      "as_up": 79,
-      "as_down": 0,
-      "last_horse": "Ucrânia"
+      "ticker": "JNJ",
+      "total": 114,
+      "as_up": 0,
+      "as_down": 114,
+      "last_horse": "Chips"
     },
     {
       "rank": 7,
-      "ticker": "FLO",
-      "total": 65,
-      "as_up": 65,
-      "as_down": 0,
+      "ticker": "TLT",
+      "total": 86,
+      "as_up": 0,
+      "as_down": 86,
       "last_horse": "Inflação"
     },
     {
       "rank": 8,
-      "ticker": "FRO",
-      "total": 62,
-      "as_up": 62,
+      "ticker": "CVX",
+      "total": 85,
+      "as_up": 85,
       "as_down": 0,
-      "last_horse": "Irão"
-    },
-    {
-      "rank": 9,
-      "ticker": "UAL",
-      "total": 55,
-      "as_up": 0,
-      "as_down": 55,
-      "last_horse": "Irão"
-    },
-    {
-      "rank": 10,
-      "ticker": "FOXA",
-      "total": 51,
-      "as_up": 51,
-      "as_down": 0,
-      "last_horse": "Trump"
-    },
-    {
-      "rank": 11,
-      "ticker": "QQQ",
-      "total": 41,
-      "as_up": 0,
-      "as_down": 41,
-      "last_horse": "Gaza"
-    },
-    {
-      "rank": 12,
-      "ticker": "F",
-      "total": 31,
-      "as_up": 18,
-      "as_down": 13,
-      "last_horse": "Trump"
-    },
-    {
-      "rank": 13,
-      "ticker": "LMT",
-      "total": 27,
-      "as_up": 24,
-      "as_down": 3,
-      "last_horse": "Trump"
-    },
-    {
-      "rank": 14,
-      "ticker": "DXY",
-      "total": 23,
-      "as_up": 0,
-      "as_down": 23,
       "last_horse": "Inflação"
     },
     {
-      "rank": 15,
-      "ticker": "EE",
-      "total": 20,
-      "as_up": 20,
+      "rank": 9,
+      "ticker": "XLP",
+      "total": 63,
+      "as_up": 0,
+      "as_down": 63,
+      "last_horse": "Saúde"
+    },
+    {
+      "rank": 10,
+      "ticker": "KSPI",
+      "total": 59,
+      "as_up": 59,
       "as_down": 0,
       "last_horse": "Rússia"
     },
     {
-      "rank": 16,
-      "ticker": "XLY",
-      "total": 20,
+      "rank": 11,
+      "ticker": "TSLA",
+      "total": 46,
+      "as_up": 46,
+      "as_down": 0,
+      "last_horse": "Musk"
+    },
+    {
+      "rank": 12,
+      "ticker": "ABCL",
+      "total": 39,
+      "as_up": 39,
+      "as_down": 0,
+      "last_horse": "Saúde"
+    },
+    {
+      "rank": 13,
+      "ticker": "BP",
+      "total": 27,
+      "as_up": 27,
+      "as_down": 0,
+      "last_horse": "Petróleo"
+    },
+    {
+      "rank": 14,
+      "ticker": "PLTR",
+      "total": 25,
+      "as_up": 25,
+      "as_down": 0,
+      "last_horse": "Ucrânia"
+    },
+    {
+      "rank": 15,
+      "ticker": "XLU",
+      "total": 25,
       "as_up": 0,
-      "as_down": 20,
-      "last_horse": "Trump"
+      "as_down": 25,
+      "last_horse": "Ucrânia"
+    },
+    {
+      "rank": 16,
+      "ticker": "COIN",
+      "total": 24,
+      "as_up": 24,
+      "as_down": 0,
+      "last_horse": "Cripto"
     },
     {
       "rank": 17,
       "ticker": "TSM",
-      "total": 19,
-      "as_up": 10,
-      "as_down": 9,
-      "last_horse": "Chips"
+      "total": 18,
+      "as_up": 18,
+      "as_down": 0,
+      "last_horse": "China"
     },
     {
       "rank": 18,
-      "ticker": "NVDA",
-      "total": 18,
-      "as_up": 17,
-      "as_down": 1,
-      "last_horse": "Chips"
+      "ticker": "KOPN",
+      "total": 16,
+      "as_up": 16,
+      "as_down": 0,
+      "last_horse": "Drones"
     },
     {
       "rank": 19,
-      "ticker": "BAC",
-      "total": 18,
-      "as_up": 16,
-      "as_down": 2,
-      "last_horse": "Fed"
+      "ticker": "KO",
+      "total": 16,
+      "as_up": 0,
+      "as_down": 16,
+      "last_horse": "Drones"
     },
     {
       "rank": 20,
-      "ticker": "GM",
-      "total": 18,
-      "as_up": 1,
-      "as_down": 17,
-      "last_horse": "Trump"
+      "ticker": "BAC",
+      "total": 12,
+      "as_up": 12,
+      "as_down": 0,
+      "last_horse": "Fed"
     }
   ]
 }
