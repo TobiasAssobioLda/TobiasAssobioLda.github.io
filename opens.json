@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-26T08:42:34+01:00",
+  "updated_at": "2026-08-26T08:45:34+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "08:42",
+  "when_label": "08:45",
   "pipoca": {
     "rows": [
       {
@@ -392,11 +392,11 @@
       {
         "ticker": "BMNR",
         "entry": 25.258,
-        "price": 24.86,
+        "price": 24.85,
         "qty": 0.791766,
         "notional": 19.9984,
-        "pnl_pct": -1.576,
-        "pnl_eur": -0.315123,
+        "pnl_pct": -1.6150000000000002,
+        "pnl_eur": -0.323041,
         "pnl_r": -0.11,
         "sl": 21.47,
         "tp1": 29.05,
@@ -535,8 +535,8 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.28085851523794114,
-    "total_pnl_eur": 3.1782380000000012
+    "total_pnl_pct": 0.2801588074993595,
+    "total_pnl_eur": 3.170320000000001
   },
   "pipoca_all": {
     "rows": [
@@ -609,11 +609,11 @@
       {
         "ticker": "BTC-USD",
         "entry": 78466.1328,
-        "price": 78957.9922,
+        "price": 78971.2422,
         "qty": 0.000127,
         "notional": 10.0,
-        "pnl_pct": 0.626842922479272,
-        "pnl_eur": 0.0626842922479272,
+        "pnl_pct": 0.6437291886009534,
+        "pnl_eur": 0.06437291886009534,
         "pnl_r": 0.08,
         "sl": 72511.81,
         "tp1": 90374.78,
@@ -636,8 +636,8 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.626842922479272,
-    "total_pnl_eur": 0.0626842922479272
+    "total_pnl_pct": 0.6437291886009534,
+    "total_pnl_eur": 0.06437291886009534
   },
   "rumors": {
     "rows": [],
