@@ -1,6 +1,6 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T22:12:25+01:00",
+  "published_at": "2026-08-26T22:12:32+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "fecho-NY",
   "window": "2026-08-26T20:00 → 2026-08-27T20:00 UTC",
@@ -8,7 +8,7 @@
   "count": 0,
   "masthead": "O Rumors",
   "tagline": "geopolítica & mercados · desde fecho NY",
-  "paper_since": "",
+  "paper_since": "2026-08-25T15:46:13.860066+00:00",
   "lead_uid": "",
   "items": [],
   "archive_days": [
