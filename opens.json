@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-26T02:20:53+01:00",
+  "updated_at": "2026-08-26T02:23:53+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "02:20",
+  "when_label": "02:23",
   "pipoca": {
     "rows": [
       {
@@ -36,12 +36,12 @@
       {
         "ticker": "NVDA",
         "entry": 210.5201,
-        "price": 212.9,
+        "price": 212.85,
         "qty": 2.004403,
         "notional": 421.9671,
-        "pnl_pct": 1.13,
-        "pnl_eur": 4.770335,
-        "pnl_r": 0.3,
+        "pnl_pct": 1.107,
+        "pnl_eur": 4.670115,
+        "pnl_r": 0.29,
         "sl": 202.6,
         "tp1": 226.36,
         "tp2": 234.28,
@@ -92,10 +92,10 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.4443824714230684,
-    "total_pnl_eur": -3.7836119999999998,
+    "total_pnl_pct": -0.45615323737000485,
+    "total_pnl_eur": -3.883832,
     "bank_eur": 2000.0,
-    "equity_eur": 1996.22
+    "equity_eur": 1996.12
   },
   "chill": {
     "rows": [
@@ -276,12 +276,12 @@
       {
         "ticker": "NVDA",
         "entry": 210.5201,
-        "price": 212.9,
+        "price": 212.85,
         "qty": 2.004403,
         "notional": 421.9671,
-        "pnl_pct": 1.13,
-        "pnl_eur": 4.770335,
-        "pnl_r": 0.3,
+        "pnl_pct": 1.107,
+        "pnl_eur": 4.670115,
+        "pnl_r": 0.29,
         "sl": 202.6,
         "tp1": 226.36,
         "tp2": 234.28,
@@ -392,11 +392,11 @@
       {
         "ticker": "BMNR",
         "entry": 25.258,
-        "price": 24.7,
+        "price": 24.68,
         "qty": 0.791766,
         "notional": 19.9984,
-        "pnl_pct": -2.2089999999999996,
-        "pnl_eur": -0.441806,
+        "pnl_pct": -2.2880000000000003,
+        "pnl_eur": -0.457641,
         "pnl_r": -0.15,
         "sl": 21.47,
         "tp1": 29.05,
@@ -535,20 +535,20 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.04118422482376325,
-    "total_pnl_eur": 0.4660470000000013
+    "total_pnl_pct": 0.030928531273709627,
+    "total_pnl_eur": 0.349992000000001
   },
   "pipoca_all": {
     "rows": [
       {
         "ticker": "NVDA",
         "entry": 210.5201,
-        "price": 212.9,
+        "price": 212.85,
         "qty": 2.004403,
         "notional": 421.9671,
-        "pnl_pct": 1.13,
-        "pnl_eur": 4.770335,
-        "pnl_r": 0.3,
+        "pnl_pct": 1.107,
+        "pnl_eur": 4.670115,
+        "pnl_r": 0.29,
         "sl": 202.6,
         "tp1": 226.36,
         "tp2": 234.28,
@@ -599,22 +599,22 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.1410187292055164,
-    "total_pnl_eur": -0.9196499999999999,
+    "total_pnl_pct": -0.15638642021946397,
+    "total_pnl_eur": -1.01987,
     "bank_eur": 10000.0,
-    "equity_eur": 9999.08
+    "equity_eur": 9998.98
   },
   "max": {
     "rows": [
       {
         "ticker": "BTC-USD",
         "entry": 78466.1328,
-        "price": 78853.3516,
+        "price": 78828.6172,
         "qty": 0.000127,
         "notional": 10.0,
-        "pnl_pct": 0.49348526068814724,
-        "pnl_eur": 0.04934852606881472,
-        "pnl_r": 0.07,
+        "pnl_pct": 0.46196287119681606,
+        "pnl_eur": 0.0461962871196816,
+        "pnl_r": 0.06,
         "sl": 72511.81,
         "tp1": 90374.78,
         "tp2": 96329.1,
@@ -636,8 +636,8 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.49348526068814724,
-    "total_pnl_eur": 0.04934852606881472
+    "total_pnl_pct": 0.46196287119681606,
+    "total_pnl_eur": 0.0461962871196816
   },
   "rumors": {
     "rows": [],
@@ -651,19 +651,6 @@
     "out_market": [
       {
         "ticker": "LMT",
-        "book": "rumors",
-        "horse": "Trump",
-        "impact": 67,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-08-26T00:41:04.204325+00:00",
-        "first_seen": "2026-08-25T23:49:46.008140+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "LMT",
         "book": "chill",
         "horse": "Irão",
         "impact": 55,
@@ -672,58 +659,6 @@
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
         "next_check": "2026-08-26T00:46:04.636042+00:00",
         "first_seen": "2026-08-26T00:21:41.969895+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "XOM",
-        "book": "rumors",
-        "horse": "Irão",
-        "impact": 74,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-08-26T00:51:25.776466+00:00",
-        "first_seen": "2026-08-26T00:36:25.776466+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "LMT",
-        "book": "chill",
-        "horse": "Irão",
-        "impact": 22,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-08-26T01:32:53.643576+00:00",
-        "first_seen": "2026-08-25T23:58:35.259639+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "XOM",
-        "book": "pipoca",
-        "horse": "Irão",
-        "impact": 74,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-08-26T01:32:54.399779+00:00",
-        "first_seen": "2026-08-26T00:36:39.871413+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "XOM",
-        "book": "pipoca_all",
-        "horse": "Irão",
-        "impact": 74,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-08-26T01:32:54.588212+00:00",
-        "first_seen": "2026-08-26T00:36:39.876464+00:00",
         "status": "wait",
         "lane": "out_market"
       },
@@ -1166,6 +1101,71 @@
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
         "next_check": "2026-08-26T01:33:00.217679+00:00",
         "first_seen": "2026-08-25T23:45:49.529378+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "XOM",
+        "book": "max",
+        "horse": "Petróleo",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA abre as 14:30",
+        "next_check": "2026-08-26T01:33:00.221619+00:00",
+        "first_seen": "2026-08-25T23:45:49.533069+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "QS",
+        "book": "max",
+        "horse": "China",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA abre as 14:30",
+        "next_check": "2026-08-26T01:33:00.229063+00:00",
+        "first_seen": "2026-08-25T23:45:49.536701+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "TSLA",
+        "book": "max",
+        "horse": "Musk",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA abre as 14:30",
+        "next_check": "2026-08-26T01:33:00.233378+00:00",
+        "first_seen": "2026-08-25T23:45:49.540456+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "GLD",
+        "book": "max",
+        "horse": "Fed",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA abre as 14:30",
+        "next_check": "2026-08-26T01:33:00.237688+00:00",
+        "first_seen": "2026-08-25T23:45:49.555109+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "BTG",
+        "book": "max",
+        "horse": "Ouro",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA abre as 14:30",
+        "next_check": "2026-08-26T01:33:00.241916+00:00",
+        "first_seen": "2026-08-25T23:45:49.559497+00:00",
         "status": "wait",
         "lane": "out_market"
       }
@@ -1173,19 +1173,6 @@
     "rows": [
       {
         "ticker": "LMT",
-        "book": "rumors",
-        "horse": "Trump",
-        "impact": 67,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-08-26T00:41:04.204325+00:00",
-        "first_seen": "2026-08-25T23:49:46.008140+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "LMT",
         "book": "chill",
         "horse": "Irão",
         "impact": 55,
@@ -1194,58 +1181,6 @@
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
         "next_check": "2026-08-26T00:46:04.636042+00:00",
         "first_seen": "2026-08-26T00:21:41.969895+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "XOM",
-        "book": "rumors",
-        "horse": "Irão",
-        "impact": 74,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-08-26T00:51:25.776466+00:00",
-        "first_seen": "2026-08-26T00:36:25.776466+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "LMT",
-        "book": "chill",
-        "horse": "Irão",
-        "impact": 22,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-08-26T01:32:53.643576+00:00",
-        "first_seen": "2026-08-25T23:58:35.259639+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "XOM",
-        "book": "pipoca",
-        "horse": "Irão",
-        "impact": 74,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-08-26T01:32:54.399779+00:00",
-        "first_seen": "2026-08-26T00:36:39.871413+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "XOM",
-        "book": "pipoca_all",
-        "horse": "Irão",
-        "impact": 74,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-08-26T01:32:54.588212+00:00",
-        "first_seen": "2026-08-26T00:36:39.876464+00:00",
         "status": "wait",
         "lane": "out_market"
       },
@@ -1688,6 +1623,71 @@
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
         "next_check": "2026-08-26T01:33:00.217679+00:00",
         "first_seen": "2026-08-25T23:45:49.529378+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "XOM",
+        "book": "max",
+        "horse": "Petróleo",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA abre as 14:30",
+        "next_check": "2026-08-26T01:33:00.221619+00:00",
+        "first_seen": "2026-08-25T23:45:49.533069+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "QS",
+        "book": "max",
+        "horse": "China",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA abre as 14:30",
+        "next_check": "2026-08-26T01:33:00.229063+00:00",
+        "first_seen": "2026-08-25T23:45:49.536701+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "TSLA",
+        "book": "max",
+        "horse": "Musk",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA abre as 14:30",
+        "next_check": "2026-08-26T01:33:00.233378+00:00",
+        "first_seen": "2026-08-25T23:45:49.540456+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "GLD",
+        "book": "max",
+        "horse": "Fed",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA abre as 14:30",
+        "next_check": "2026-08-26T01:33:00.237688+00:00",
+        "first_seen": "2026-08-25T23:45:49.555109+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "BTG",
+        "book": "max",
+        "horse": "Ouro",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA abre as 14:30",
+        "next_check": "2026-08-26T01:33:00.241916+00:00",
+        "first_seen": "2026-08-25T23:45:49.559497+00:00",
         "status": "wait",
         "lane": "out_market"
       }
