@@ -1,6 +1,6 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T12:18:15+01:00",
+  "published_at": "2026-08-26T12:18:40+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -31,7 +31,7 @@
       "down": "as malas ficam guardadas e o bolso cheio",
       "vibe": "café amargo e vazio no avião",
       "ticker_up": "XOM",
-      "ticker_down": "CVX"
+      "ticker_down": ""
     },
     {
       "uid": "53f59ab51f7edb450e05d77a",
