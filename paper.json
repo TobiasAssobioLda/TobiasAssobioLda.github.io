@@ -1,11 +1,11 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T12:13:05+01:00",
+  "published_at": "2026-08-26T12:13:54+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
   "max_items": 20,
-  "count": 7,
+  "count": 8,
   "masthead": "O Rumors",
   "tagline": "geopolítica & mercados · Rumors do dia",
   "paper_since": "2026-08-25T15:46:13.860066+00:00",
@@ -97,7 +97,7 @@
       "down": "o óleo chegou, mas o armazém não",
       "vibe": "tremores na cadeia de abastecimento",
       "ticker_up": "XOM",
-      "ticker_down": "BP"
+      "ticker_down": ""
     },
     {
       "uid": "5b4229d73e66781c60e6fb05",
@@ -164,6 +164,28 @@
       "vibe": "fumo na mesa e silêncio pesado",
       "ticker_up": "LMT",
       "ticker_down": ""
+    },
+    {
+      "uid": "d9475b20f642c7edac1293c5",
+      "title": "Irán pone en su diana al hijo menor de Trump : ¿ Dónde matar a Barron ?",
+      "url": "https://www.diariodenavarra.es/noticias/actualidad/internacional/2026/08/26/iran-pone-diana-hijo-menor-trump-matar-barron-832808-29.html",
+      "source": "diariodenavarra.es",
+      "horse": "Trump",
+      "sent_at": "2026-08-26T11:13:54.617802+00:00",
+      "impact": 55,
+      "impact_band": "médio",
+      "when_label": "26/08 · 12:13",
+      "read_url": "https://www.diariodenavarra.es/noticias/actualidad/internacional/2026/08/26/iran-pone-diana-hijo-menor-trump-matar-barron-832808-29.html",
+      "kind": "RUMOR",
+      "badge": "🟠",
+      "horse_emoji": "🦅",
+      "hook": "Trump × ameaça fatal ao filho",
+      "what": "Fontes iranianas sugerem alvos para assassinato de Barron Trump",
+      "up": "segurança privada com fatura de três zeros",
+      "down": "segurança nacional a tremer de frio",
+      "vibe": "tensão a ferver sem saída",
+      "ticker_up": "LMT",
+      "ticker_down": "RTX"
     }
   ],
   "archive_days": [
