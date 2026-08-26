@@ -1,46 +1,34 @@
 {
-  "updated_at": "2026-08-26T23:42:43+01:00",
+  "updated_at": "2026-08-26T23:48:13+01:00",
   "timezone": "Europe/Lisbon",
-  "source": "rumors",
+  "source": "rumors_avg_high",
+  "bands": [
+    "pipoca_avg",
+    "pipoca_high"
+  ],
   "default_window": "day",
   "windows": {
     "week": {
       "key": "week",
-      "label": "Week · Rumors desde sexta fecho NY",
+      "label": "Week · AVG+High desde sexta fecho NY",
       "from": "2026-08-21T21:00:00+01:00",
-      "to": "2026-08-26T23:42:43+01:00",
+      "to": "2026-08-26T23:48:13+01:00",
       "from_label": "21/08 21:00",
-      "to_label": "26/08 23:42",
-      "n_events": 133,
+      "to_label": "26/08 23:48",
+      "n_events": 112,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
         {
           "rank": 1,
           "ticker": "XOM",
-          "total": 50,
-          "as_up": 48,
+          "total": 45,
+          "as_up": 43,
           "as_down": 2,
           "last_horse": "Irão"
         },
         {
           "rank": 2,
-          "ticker": "ENPH",
-          "total": 22,
-          "as_up": 0,
-          "as_down": 22,
-          "last_horse": "Irão"
-        },
-        {
-          "rank": 3,
-          "ticker": "UAL",
-          "total": 20,
-          "as_up": 0,
-          "as_down": 20,
-          "last_horse": "Trump"
-        },
-        {
-          "rank": 4,
           "ticker": "GLD",
           "total": 19,
           "as_up": 0,
@@ -48,10 +36,26 @@
           "last_horse": "Irão"
         },
         {
+          "rank": 3,
+          "ticker": "ENPH",
+          "total": 18,
+          "as_up": 0,
+          "as_down": 18,
+          "last_horse": "Irão"
+        },
+        {
+          "rank": 4,
+          "ticker": "UAL",
+          "total": 17,
+          "as_up": 0,
+          "as_down": 17,
+          "last_horse": "Trump"
+        },
+        {
           "rank": 5,
           "ticker": "FRO",
-          "total": 13,
-          "as_up": 13,
+          "total": 10,
+          "as_up": 10,
           "as_down": 0,
           "last_horse": "Irão"
         }
@@ -60,37 +64,21 @@
         {
           "rank": 6,
           "ticker": "KO",
-          "total": 13,
+          "total": 9,
           "as_up": 0,
-          "as_down": 13,
+          "as_down": 9,
           "last_horse": "Inflação"
         },
         {
           "rank": 7,
-          "ticker": "FOXA",
-          "total": 9,
-          "as_up": 9,
-          "as_down": 0,
-          "last_horse": "Trump"
-        },
-        {
-          "rank": 8,
           "ticker": "LMT",
-          "total": 9,
-          "as_up": 8,
+          "total": 8,
+          "as_up": 7,
           "as_down": 1,
           "last_horse": "Ucrânia"
         },
         {
-          "rank": 9,
-          "ticker": "BAC",
-          "total": 7,
-          "as_up": 7,
-          "as_down": 0,
-          "last_horse": "Irão"
-        },
-        {
-          "rank": 10,
+          "rank": 8,
           "ticker": "F",
           "total": 7,
           "as_up": 3,
@@ -98,7 +86,15 @@
           "last_horse": "Trump"
         },
         {
-          "rank": 11,
+          "rank": 9,
+          "ticker": "BAC",
+          "total": 6,
+          "as_up": 6,
+          "as_down": 0,
+          "last_horse": "Irão"
+        },
+        {
+          "rank": 10,
           "ticker": "FOX",
           "total": 6,
           "as_up": 6,
@@ -106,31 +102,15 @@
           "last_horse": "Trump"
         },
         {
-          "rank": 12,
-          "ticker": "TSM",
+          "rank": 11,
+          "ticker": "FOXA",
           "total": 6,
-          "as_up": 3,
-          "as_down": 3,
-          "last_horse": "Chips"
-        },
-        {
-          "rank": 13,
-          "ticker": "EE",
-          "total": 5,
-          "as_up": 5,
+          "as_up": 6,
           "as_down": 0,
-          "last_horse": "Ucrânia"
+          "last_horse": "Trump"
         },
         {
-          "rank": 14,
-          "ticker": "FLO",
-          "total": 5,
-          "as_up": 5,
-          "as_down": 0,
-          "last_horse": "Inflação"
-        },
-        {
-          "rank": 15,
+          "rank": 12,
           "ticker": "PLTR",
           "total": 5,
           "as_up": 5,
@@ -138,7 +118,23 @@
           "last_horse": "Ucrânia"
         },
         {
-          "rank": 16,
+          "rank": 13,
+          "ticker": "EE",
+          "total": 4,
+          "as_up": 4,
+          "as_down": 0,
+          "last_horse": "Ucrânia"
+        },
+        {
+          "rank": 14,
+          "ticker": "FLO",
+          "total": 4,
+          "as_up": 4,
+          "as_down": 0,
+          "last_horse": "Inflação"
+        },
+        {
+          "rank": 15,
           "ticker": "KSPI",
           "total": 3,
           "as_up": 3,
@@ -146,15 +142,7 @@
           "last_horse": "Rússia"
         },
         {
-          "rank": 17,
-          "ticker": "NVDA",
-          "total": 3,
-          "as_up": 3,
-          "as_down": 0,
-          "last_horse": "Chips"
-        },
-        {
-          "rank": 18,
+          "rank": 16,
           "ticker": "WY",
           "total": 3,
           "as_up": 3,
@@ -162,7 +150,7 @@
           "last_horse": "Trump"
         },
         {
-          "rank": 19,
+          "rank": 17,
           "ticker": "GS",
           "total": 3,
           "as_up": 2,
@@ -170,19 +158,35 @@
           "last_horse": "Fed"
         },
         {
-          "rank": 20,
-          "ticker": "CVX",
+          "rank": 18,
+          "ticker": "TSM",
+          "total": 3,
+          "as_up": 1,
+          "as_down": 2,
+          "last_horse": "Chips"
+        },
+        {
+          "rank": 19,
+          "ticker": "GM",
           "total": 3,
           "as_up": 0,
           "as_down": 3,
-          "last_horse": "Irão"
+          "last_horse": "Trump"
+        },
+        {
+          "rank": 20,
+          "ticker": "ICLN",
+          "total": 3,
+          "as_up": 0,
+          "as_down": 3,
+          "last_horse": "Rússia"
         }
       ],
-      "source": "rumors"
+      "source": "rumors_avg_high"
     },
     "pre": {
       "key": "pre",
-      "label": "Pre · Rumors fecho→abertura NY",
+      "label": "Pre · AVG+High fecho→abertura NY",
       "from": "2026-08-26T21:00:00+01:00",
       "to": "2026-08-27T14:30:00+01:00",
       "from_label": "26/08 21:00",
@@ -192,11 +196,11 @@
       "top6_20_count": 0,
       "top5": [],
       "top6_20": [],
-      "source": "rumors"
+      "source": "rumors_avg_high"
     },
     "day": {
       "key": "day",
-      "label": "Day · Rumors fecho→próximo fecho NY",
+      "label": "Day · AVG+High fecho→próximo fecho NY",
       "from": "2026-08-26T21:00:00+01:00",
       "to": "2026-08-27T21:00:00+01:00",
       "from_label": "26/08 21:00",
@@ -206,7 +210,7 @@
       "top6_20_count": 0,
       "top5": [],
       "top6_20": [],
-      "source": "rumors"
+      "source": "rumors_avg_high"
     }
   },
   "n_events": 0,
