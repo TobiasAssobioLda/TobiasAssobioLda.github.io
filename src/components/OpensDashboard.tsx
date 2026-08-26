@@ -117,7 +117,7 @@ export function OpensDashboard({
               <thead>
                 <tr>
                   <th>Activo</th>
-                  <th>ODays</th>
+                  <th>Days</th>
                   <th>Px/INI</th>
                   <th>Px AC</th>
                   <th>P/L%</th>
@@ -128,9 +128,8 @@ export function OpensDashboard({
                 {rows.map((r: OpenRow) => (
                   <tr key={`${r.ticker}-${r.entry}-${r.opened_at || ""}`}>
                     <td className="ticker">{r.ticker}</td>
-                    <td className="odays" title={`time stop ${timeStopDays(r)}d`}>
+                    <td className="odays" title={`day ${openDays(r)} · stop ${timeStopDays(r)}d`}>
                       {openDays(r)}
-                      <span className="odays-max">/{timeStopDays(r)}</span>
                     </td>
                     <td>{r.entry.toFixed(2)}</td>
                     <td>{r.price.toFixed(2)}</td>

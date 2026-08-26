@@ -9,6 +9,7 @@ import { OpensDashboard } from "./OpensDashboard";
 import { NopDashboard } from "./NopDashboard";
 import { NerdDashboard } from "./NerdDashboard";
 import { ContasDashboard } from "./ContasDashboard";
+import { TobiasDashboard } from "./TobiasDashboard";
 import { PaperDashboard } from "./PaperDashboard";
 import { DatasDashboard } from "./DatasDashboard";
 import { PopularDashboard } from "./PopularDashboard";
@@ -18,7 +19,9 @@ import { fetchDatas } from "@/lib/datas";
 import { fetchPopular } from "@/lib/popular";
 import { fetchOpens } from "@/lib/opens";
 import { fetchContas } from "@/lib/contas";
+import { fetchTobias } from "@/lib/tobias";
 import type { ContasPayload } from "@/lib/contas-types";
+import type { TobiasPayload } from "@/lib/tobias-types";
 
 const emptyBook = {
   rows: [] as OpensPayload["pipoca"]["rows"],
@@ -118,6 +121,27 @@ const emptyContas: ContasPayload = {
   },
 };
 
+const emptyTobias: TobiasPayload = {
+  updated_at: "",
+  timezone: "Europe/Lisbon",
+  when_label: "",
+  title: "Full Report · Tobias",
+  note: "",
+  stats: {
+    n: 0,
+    tp: 0,
+    sl: 0,
+    out: 0,
+    correto: 0,
+    erro: 0,
+    trainable: 0,
+    realized_eur: 0,
+    realized_r: 0,
+  },
+  rows: [],
+  page_sizes: [10, 20, 30],
+};
+
 /** Poll leve — não martela free tier / servidor. */
 const OPENS_POLL_MS = 2 * 60_000;
 const PAPER_POLL_MS = 3 * 60_000;
@@ -130,6 +154,7 @@ type Tab =
   | "nop"
   | "nerd"
   | "contas"
+  | "tobias"
   | "paper";
 type OpenBook = "pipoca" | "chill" | "pipoca_all" | "max" | "rumors";
 type NopBook = "chill" | "pipoca" | "pipoca_all" | "max" | "rumors";
@@ -142,6 +167,7 @@ export function OpensApp() {
   const [contasBook, setContasBook] = useState<NopBook>("chill");
   const [opens, setOpens] = useState<OpensPayload>(emptyOpens);
   const [contas, setContas] = useState<ContasPayload>(emptyContas);
+  const [tobias, setTobias] = useState<TobiasPayload>(emptyTobias);
   const [paper, setPaper] = useState<PaperPayload>(emptyPaper);
   const [datas, setDatas] = useState<DatasPayload>(emptyDatas);
   const [popular, setPopular] = useState<PopularPayload>(emptyPopular);
@@ -157,6 +183,14 @@ export function OpensApp() {
   const loadContas = useCallback(async () => {
     try {
       setContas(await fetchContas());
+    } catch {
+      /* keep */
+    }
+  }, []);
+
+  const loadTobias = useCallback(async () => {
+    try {
+      setTobias(await fetchTobias());
     } catch {
       /* keep */
     }
@@ -193,11 +227,13 @@ export function OpensApp() {
     loadDatas();
     loadPopular();
     loadContas();
+    loadTobias();
     const id = window.setInterval(() => {
       loadOpens();
       loadDatas();
       loadPopular();
       loadContas();
+      loadTobias();
     }, OPENS_POLL_MS);
     const paperId = window.setInterval(() => {
       loadPaper();
@@ -206,11 +242,15 @@ export function OpensApp() {
       window.clearInterval(id);
       window.clearInterval(paperId);
     };
-  }, [loadOpens, loadPaper, loadDatas, loadPopular, loadContas]);
+  }, [loadOpens, loadPaper, loadDatas, loadPopular, loadContas, loadTobias]);
 
   useEffect(() => {
     if (tab === "paper") loadPaper();
   }, [tab, loadPaper]);
+
+  useEffect(() => {
+    if (tab === "tobias") loadTobias();
+  }, [tab, loadTobias]);
 
   const openSnap =
     openBook === "chill"
@@ -299,6 +339,7 @@ export function OpensApp() {
             ["nop", "NOP"],
             ["nerd", "Nerd"],
             ["contas", "Contas"],
+            ["tobias", "Full Report"],
             ["paper", "Jornal"],
           ] as const
         ).map(([id, label]) => (
@@ -463,6 +504,8 @@ export function OpensApp() {
           />
         </>
       ) : null}
+
+      {tab === "tobias" ? <TobiasDashboard data={tobias} /> : null}
 
       {tab === "paper" ? (
         <PaperDashboard paper={paper} onPickDay={(d) => loadPaper(d)} />

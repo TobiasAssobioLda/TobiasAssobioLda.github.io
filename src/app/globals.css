@@ -41,6 +41,36 @@ body {
   padding: 2.5rem 1.25rem 4rem;
 }
 
+@media (max-width: 640px) {
+  .page {
+    padding: 1.5rem 0.65rem 3rem; /* puxa à esquerda · mais largura útil */
+  }
+
+  .book {
+    padding: 0.85rem 0.55rem 1rem;
+    border-radius: 10px;
+  }
+
+  table {
+    font-size: 0.78rem;
+  }
+
+  th,
+  td {
+    padding: 0.4rem 0.18rem;
+  }
+
+  th {
+    font-size: 0.65rem;
+    letter-spacing: 0.02em;
+  }
+
+  .tabs {
+    padding-left: 0.65rem;
+    padding-right: 0.65rem;
+  }
+}
+
 header {
   margin-bottom: 2rem;
 }
@@ -73,6 +103,7 @@ h1 {
   border-radius: 12px;
   padding: 1rem 1.1rem 1.15rem;
   margin-bottom: 1rem;
+  overflow: hidden;
 }
 
 .book h2 {
@@ -113,6 +144,7 @@ td.cell-title {
   font-family: var(--font);
   font-size: 0.82rem;
   line-height: 1.35;
+  white-space: normal;
 }
 
 td.cell-title a {
@@ -131,6 +163,12 @@ td.cell-title a:hover {
   font-size: 0.75rem;
 }
 
+.table-wrap {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
 
 table {
   width: 100%;
@@ -142,7 +180,7 @@ table {
 th,
 td {
   text-align: right;
-  padding: 0.45rem 0.35rem;
+  padding: 0.45rem 0.28rem;
   border-bottom: 1px solid var(--line);
 }
 
@@ -166,11 +204,11 @@ th {
 .odays {
   color: var(--fg);
   font-variant-numeric: tabular-nums;
+  width: 2.4rem;
 }
 
 .odays-max {
-  color: var(--muted);
-  font-size: 0.78em;
+  display: none;
 }
 
 .pos {
@@ -909,4 +947,86 @@ footer {
   .gate-cover-wrap {
     max-height: 52vh;
   }
+}
+
+/* Full Report · Tobias */
+.tobias-sizes {
+  margin-bottom: 0.85rem;
+}
+
+.tobias-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.tobias-row {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.7rem 0.85rem;
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.tobias-row.is-tp {
+  border-color: rgba(61, 214, 140, 0.45);
+  background: rgba(61, 214, 140, 0.06);
+}
+
+.tobias-row-top,
+.tobias-row-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.45rem 0.7rem;
+}
+
+.tobias-row-main {
+  margin-top: 0.35rem;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.92rem;
+}
+
+.tobias-row .push {
+  margin-left: auto;
+}
+
+.tobias-row .badge {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 0.12rem 0.4rem;
+  border-radius: 4px;
+}
+
+.badge-tp {
+  background: rgba(61, 214, 140, 0.2);
+  color: var(--pos);
+}
+
+.badge-sl {
+  background: rgba(240, 113, 120, 0.2);
+  color: var(--neg);
+}
+
+.badge-out {
+  background: rgba(139, 152, 165, 0.2);
+  color: var(--muted);
+}
+
+.label-pill {
+  font-size: 0.72rem;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.08rem 0.45rem;
+}
+
+.tobias-reason {
+  margin: 0.4rem 0 0;
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.35;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
