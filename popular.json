@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-26T02:35:58+01:00",
+  "updated_at": "2026-08-26T02:38:57+01:00",
   "timezone": "Europe/Lisbon",
   "days": 7,
-  "n_events": 720,
+  "n_events": 721,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
@@ -163,8 +163,8 @@
     {
       "rank": 20,
       "ticker": "TSM",
-      "total": 14,
-      "as_up": 9,
+      "total": 15,
+      "as_up": 10,
       "as_down": 5,
       "last_horse": "Chips"
     }
@@ -326,8 +326,8 @@
     {
       "rank": 20,
       "ticker": "TSM",
-      "total": 14,
-      "as_up": 9,
+      "total": 15,
+      "as_up": 10,
       "as_down": 5,
       "last_horse": "Chips"
     }
