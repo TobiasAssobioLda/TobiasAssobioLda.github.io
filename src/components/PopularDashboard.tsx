@@ -98,7 +98,7 @@ export function PopularDashboard({ data }: { data: PopularPayload }) {
         <p className="brand">Trade1</p>
         <h1>Popular</h1>
         <p className="meta">
-          tickers nas notícias
+          só Rumors · quantas vezes cada activo
           {data.updated_at ? ` · act. ${data.updated_at.slice(11, 16)}` : ""}
         </p>
       </header>
