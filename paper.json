@@ -1,6 +1,6 @@
 {
   "day": "2026-08-26",
-  "published_at": "2026-08-26T01:36:24+01:00",
+  "published_at": "2026-08-26T01:38:59+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "meia-noite",
   "window": "00:00–24:00",
@@ -18,8 +18,8 @@
       "source": "europe.chinadaily.com.cn",
       "horse": "Irão",
       "sent_at": "2026-08-26T00:36:24.833277+00:00",
-      "impact": 55,
-      "impact_band": "médio",
+      "impact": 74,
+      "impact_band": "alto",
       "when_label": "26/08 · 01:36",
       "read_url": "http://europe.chinadaily.com.cn/a/202608/26/WS6a8dc32ee4b0366a3c29f8ef.html",
       "kind": "OFICIAL",
@@ -30,8 +30,8 @@
       "up": "o petróleo sobe e as carteiras transpiram",
       "down": "o ouro brilha enquanto o caos se instala",
       "vibe": "tensão no Golfo e café frio",
-      "ticker_up": "LMT",
-      "ticker_down": "RTX"
+      "ticker_up": "XOM",
+      "ticker_down": "GLD"
     }
   ],
   "archive_days": [
