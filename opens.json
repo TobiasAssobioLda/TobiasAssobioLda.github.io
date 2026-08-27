@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-27T22:39:20+01:00",
+  "updated_at": "2026-08-27T22:42:20+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "22:39",
+  "when_label": "22:42",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -347,34 +347,7 @@
     "equity_eur": 5005.33
   },
   "possible": {
-    "quase": [
-      {
-        "ticker": "TLT",
-        "book": "pipoca_high",
-        "horse": "Inflação",
-        "impact": 89,
-        "tries": 1,
-        "max_tries": 6,
-        "reason": "corr +0.19 · star +0.07 · MDY c0.55 d+0.23 · EFA c0.49 d-0.17 · VIXY c-0.27 d-0.27",
-        "next_check": "2026-08-27T21:40:07.970508+00:00",
-        "first_seen": "2026-08-27T21:20:21.649110+00:00",
-        "status": "wait",
-        "lane": "quase"
-      },
-      {
-        "ticker": "XLE",
-        "book": "pipoca_high",
-        "horse": "Irão",
-        "impact": 88,
-        "tries": 1,
-        "max_tries": 6,
-        "reason": "corr +0.05 · star +0.59 · VIXY c0.31 d-0.27 · EFA c-0.34 d-0.17 · QQQ c-0.33 d+0.10",
-        "next_check": "2026-08-27T21:40:08.584162+00:00",
-        "first_seen": "2026-08-27T21:20:21.658154+00:00",
-        "status": "wait",
-        "lane": "quase"
-      }
-    ],
+    "quase": [],
     "out_market": [
       {
         "ticker": "KRW",
@@ -386,6 +359,32 @@
         "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
         "next_check": "2026-08-27T21:45:17.662381+00:00",
         "first_seen": "2026-08-27T21:20:21.634406+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "TLT",
+        "book": "pipoca_high",
+        "horse": "Inflação",
+        "impact": 89,
+        "tries": 1,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
+        "next_check": "2026-08-27T21:55:17.537164+00:00",
+        "first_seen": "2026-08-27T21:20:21.649110+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "XLE",
+        "book": "pipoca_high",
+        "horse": "Irão",
+        "impact": 88,
+        "tries": 1,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
+        "next_check": "2026-08-27T21:55:17.541634+00:00",
+        "first_seen": "2026-08-27T21:20:21.658154+00:00",
         "status": "wait",
         "lane": "out_market"
       }
@@ -784,32 +783,6 @@
         "lane": "wait_window"
       },
       {
-        "ticker": "TLT",
-        "book": "pipoca_high",
-        "horse": "Inflação",
-        "impact": 89,
-        "tries": 1,
-        "max_tries": 6,
-        "reason": "corr +0.19 · star +0.07 · MDY c0.55 d+0.23 · EFA c0.49 d-0.17 · VIXY c-0.27 d-0.27",
-        "next_check": "2026-08-27T21:40:07.970508+00:00",
-        "first_seen": "2026-08-27T21:20:21.649110+00:00",
-        "status": "wait",
-        "lane": "quase"
-      },
-      {
-        "ticker": "XLE",
-        "book": "pipoca_high",
-        "horse": "Irão",
-        "impact": 88,
-        "tries": 1,
-        "max_tries": 6,
-        "reason": "corr +0.05 · star +0.59 · VIXY c0.31 d-0.27 · EFA c-0.34 d-0.17 · QQQ c-0.33 d+0.10",
-        "next_check": "2026-08-27T21:40:08.584162+00:00",
-        "first_seen": "2026-08-27T21:20:21.658154+00:00",
-        "status": "wait",
-        "lane": "quase"
-      },
-      {
         "ticker": "KRW",
         "book": "pipoca_extreme",
         "horse": "Inflação",
@@ -819,6 +792,32 @@
         "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
         "next_check": "2026-08-27T21:45:17.662381+00:00",
         "first_seen": "2026-08-27T21:20:21.634406+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "TLT",
+        "book": "pipoca_high",
+        "horse": "Inflação",
+        "impact": 89,
+        "tries": 1,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
+        "next_check": "2026-08-27T21:55:17.537164+00:00",
+        "first_seen": "2026-08-27T21:20:21.649110+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "XLE",
+        "book": "pipoca_high",
+        "horse": "Irão",
+        "impact": 88,
+        "tries": 1,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
+        "next_check": "2026-08-27T21:55:17.541634+00:00",
+        "first_seen": "2026-08-27T21:20:21.658154+00:00",
         "status": "wait",
         "lane": "out_market"
       }
