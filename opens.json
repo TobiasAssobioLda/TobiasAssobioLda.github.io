@@ -1,38 +1,9 @@
 {
-  "updated_at": "2026-08-27T15:52:19+01:00",
+  "updated_at": "2026-08-27T15:55:17+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "15:52",
+  "when_label": "15:55",
   "pipoca": {
     "rows": [
-      {
-        "ticker": "NVDA",
-        "entry": 210.52,
-        "price": 225.71,
-        "qty": 0.950029,
-        "notional": 200.0,
-        "pnl_pct": 7.215466463993918,
-        "pnl_eur": 14.430932927987838,
-        "pnl_r": 1.92,
-        "sl": 202.6,
-        "tp1": 226.36,
-        "tp2": 234.28,
-        "horse": "Chips",
-        "news_hook": "",
-        "news_what": "",
-        "news_blurb": "",
-        "news_impact": 74,
-        "opened_at": "2026-08-25T13:31:34.753143+00:00",
-        "open_days": 2,
-        "time_stop_days": 30,
-        "diag": "🎤 Chips: pending cluster · sinal 6.2 · corr +2.59 · star -0.60 · AMD c0.46 d-1.45 · AVGO c0.43 d-1.26 · SMCI c0.49 d-0.86 · PREPARAR · reteste · TP sugerido · fecho gap @224.86 (há 5d) · médio gap/2R @225.61 · noticia a meio-gás",
-        "corr_score": 2.59,
-        "sinal_score": 6.2,
-        "tp_tip": "",
-        "tp_gap": null,
-        "tp_sugerido_mid": null,
-        "event_date": "",
-        "horizon_days": 15
-      },
       {
         "ticker": "AXTI",
         "entry": 67.835,
@@ -65,12 +36,12 @@
       {
         "ticker": "XOM",
         "entry": 159.3759,
-        "price": 156.7367,
+        "price": 156.69,
         "qty": 1.130691,
         "notional": 180.2048,
-        "pnl_pct": -1.656,
-        "pnl_eur": -2.984071,
-        "pnl_r": -0.62,
+        "pnl_pct": -1.685,
+        "pnl_eur": -3.036874,
+        "pnl_r": -0.63,
         "sl": 155.14,
         "tp1": 170.44,
         "tp2": 175.54,
@@ -92,10 +63,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 1.2487815280698087,
-    "total_pnl_eur": 7.245490954301696,
+    "total_pnl_pct": -1.9037750388506074,
+    "total_pnl_eur": -7.238244973686142,
     "bank_eur": 2000.0,
-    "equity_eur": 2007.25
+    "equity_eur": 1992.76
   },
   "pipoca_avg": {
     "rows": [],
