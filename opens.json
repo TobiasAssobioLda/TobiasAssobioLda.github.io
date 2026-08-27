@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-08-27T14:28:25+01:00",
+  "updated_at": "2026-08-27T14:34:54+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "14:28",
+  "when_label": "14:34",
   "pipoca": {
     "rows": [
       {
         "ticker": "NVDA",
         "entry": 210.52,
-        "price": 223.655,
+        "price": 222.745,
         "qty": 0.950029,
         "notional": 200.0,
-        "pnl_pct": 6.239312179365377,
-        "pnl_eur": 12.478624358730753,
-        "pnl_r": 1.66,
+        "pnl_pct": 5.8070492114763415,
+        "pnl_eur": 11.614098422952683,
+        "pnl_r": 1.54,
         "sl": 202.6,
         "tp1": 226.36,
         "tp2": 234.28,
@@ -22,7 +22,7 @@
         "news_blurb": "",
         "news_impact": 74,
         "opened_at": "2026-08-25T13:31:34.753143+00:00",
-        "open_days": 1,
+        "open_days": 2,
         "time_stop_days": 30,
         "diag": "🎤 Chips: pending cluster · sinal 6.2 · corr +2.59 · star -0.60 · AMD c0.46 d-1.45 · AVGO c0.43 d-1.26 · SMCI c0.49 d-0.86 · PREPARAR · reteste · TP sugerido · fecho gap @224.86 (há 5d) · médio gap/2R @225.61 · noticia a meio-gás",
         "corr_score": 2.59,
@@ -36,12 +36,12 @@
       {
         "ticker": "AXTI",
         "entry": 67.835,
-        "price": 70.26,
+        "price": 69.0,
         "qty": 2.948331,
         "notional": 200.0,
-        "pnl_pct": 3.5748507407680568,
-        "pnl_eur": 7.149701481536115,
-        "pnl_r": 0.16,
+        "pnl_pct": 1.7174025208225936,
+        "pnl_eur": 3.4348050416451876,
+        "pnl_r": 0.08,
         "sl": 52.91,
         "tp1": 97.68,
         "tp2": 112.61,
@@ -65,12 +65,12 @@
       {
         "ticker": "XOM",
         "entry": 159.3759,
-        "price": 157.61,
+        "price": 157.24,
         "qty": 1.254358,
         "notional": 199.9144,
-        "pnl_pct": -1.1079999999999999,
-        "pnl_eur": -2.215017,
-        "pnl_r": -0.42,
+        "pnl_pct": -1.34,
+        "pnl_eur": -2.679129,
+        "pnl_r": -0.5,
         "sl": 155.14,
         "tp1": 170.44,
         "tp2": 175.54,
@@ -92,10 +92,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 2.9026323408417953,
-    "total_pnl_eur": 17.41330884026687,
+    "total_pnl_pct": 2.061923310452841,
+    "total_pnl_eur": 12.369774464597871,
     "bank_eur": 2000.0,
-    "equity_eur": 2017.41
+    "equity_eur": 2012.37
   },
   "pipoca_avg": {
     "rows": [],
