@@ -1,32 +1,9 @@
 {
-  "updated_at": "2026-08-27T19:36:38+01:00",
+  "updated_at": "2026-08-27T19:42:03+01:00",
   "timezone": "Europe/Lisbon",
-  "opens_count": 1,
+  "opens_count": 0,
   "calendar_count": 1,
-  "opens_rows": [
-    {
-      "event_date": "2026-08-27",
-      "date_label": "27/08",
-      "title": "Silver prices today, Thursday, August 27, 2026: Silver prices steady following inflation report - Yahoo Finance",
-      "horse": "Inflação",
-      "tickers": "GOLD",
-      "ticker_up": "GOLD",
-      "ticker_down": "",
-      "ticker_open": "GOLD",
-      "book": "chill",
-      "action": "open",
-      "status": "open",
-      "score": 32,
-      "price": 46.34,
-      "sl": 42.97,
-      "tp1": 53.07,
-      "tp2": 56.43,
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQWDNkQ0NtZzktZUp1cVV1U1o0U1E3QzhyU1hVb2VaOHpFRjgtVXB1NzVvZnBIdjB5bzZJQzJrd2ZMWVQ1dlM4cEJuV1NlQjJ2ZmxkLUZOTUhwM21PQmpEbDIzVDRic3JPcGtfZU1ONjdCeFpFbklITkxOZ1VoU3UyR3llZDNUWHdCcDdrc1lUNnJPaFY3NDg3QUFrV3JwOWtMdmtZTmY1aENhOWxqdmFiczNZalR5MVRoR2NBeUwxREdzd0d0ZkJjY1dHYWR2OWhPWk5yWXBqa2xCNVJQSzBOQjgwcGJFTXcyeWl6WHRvQ3FBYlozVmwySEtBUQ?oc=5",
-      "source": "open-match",
-      "note": "chill",
-      "rank": 1
-    }
-  ],
+  "opens_rows": [],
   "calendar_rows": [
     {
       "event_date": "2026-08-27",
