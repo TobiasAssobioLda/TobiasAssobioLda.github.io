@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-27T16:07:18+01:00",
+  "updated_at": "2026-08-27T16:13:17+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "16:07",
+  "when_label": "16:13",
   "pipoca": {
     "rows": [
       {
@@ -36,11 +36,11 @@
       {
         "ticker": "XOM",
         "entry": 159.3759,
-        "price": 156.695,
+        "price": 156.71,
         "qty": 1.130691,
         "notional": 180.2048,
-        "pnl_pct": -1.6820000000000002,
-        "pnl_eur": -3.031221,
+        "pnl_pct": -1.6729999999999998,
+        "pnl_eur": -3.01426,
         "pnl_r": -0.63,
         "sl": 155.14,
         "tp1": 170.44,
@@ -51,7 +51,7 @@
         "news_blurb": "🎤 Irão × filas de gasolina e recusa",
         "news_impact": 69,
         "opened_at": "2026-08-26T15:08:42.326014+00:00",
-        "open_days": 0,
+        "open_days": 1,
         "time_stop_days": 30,
         "diag": "🎤 Irão × filas de gasolina e recusa · 📋 Irão nega-se a ceder às sanções dos EUA apesar do agravamento da escassez de combustível. · ora Irão→XOM 0/10 · sinal 6.5 · corr +1.83 · star +0.10 · XLE c0.91 d+0.56 · CVX c0.87 d+0.57 · TSLA c-0.31 d-1.51 · ESPERAR · compressao · TP sugerido · fecho gap @160.49 (há 0d) · médio gap/2R @165.47 · setup normal",
         "corr_score": 1.83,
@@ -63,10 +63,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -1.9022882087787123,
-    "total_pnl_eur": -7.232591973686143,
+    "total_pnl_pct": -1.897827192530805,
+    "total_pnl_eur": -7.215630973686142,
     "bank_eur": 2000.0,
-    "equity_eur": 1992.77
+    "equity_eur": 1992.78
   },
   "pipoca_avg": {
     "rows": [],
