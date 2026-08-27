@@ -1,13 +1,43 @@
 {
-  "updated_at": "2026-08-27T19:42:25+01:00",
+  "updated_at": "2026-08-27T19:47:56+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "19:42",
+  "when_label": "19:47",
   "pipoca": {
-    "rows": [],
-    "total_pnl_pct": 0.0,
-    "total_pnl_eur": 0.0,
+    "rows": [
+      {
+        "ticker": "XOM",
+        "entry": 157.34,
+        "price": 157.32,
+        "qty": 1.270729,
+        "notional": 199.9365,
+        "pnl_pct": -0.013,
+        "pnl_eur": -0.025415,
+        "pnl_r": -0.0,
+        "sl": 152.37,
+        "tp1": 167.43,
+        "tp2": 172.45,
+        "horse": "Irão",
+        "news_hook": "Irão × trégua à vista",
+        "news_what": "Sinais de possível cessar-fogo emergem no conflito regional iraniano",
+        "news_blurb": "🎤 Irão × trégua à vista",
+        "news_impact": 68,
+        "opened_at": "2026-08-27T18:43:56.667343+00:00",
+        "open_days": 0,
+        "time_stop_days": 15,
+        "diag": "🎤 Irão × trégua à vista · 📋 Sinais de possível cessar-fogo emergem no conflito regional iraniano · ora Irão→XOM 0/10 · sinal 5.7 · corr +1.18 · star -1.03 · COP c0.84 d-0.96 · ENPH c-0.2 d+3.27 · XLE c0.92 d+0.59 · PREPARAR · reteste · setup normal",
+        "corr_score": 1.18,
+        "sinal_score": 5.7,
+        "tp_tip": "",
+        "tp_gap": null,
+        "tp_sugerido_mid": null,
+        "event_date": "",
+        "horizon_days": 15
+      }
+    ],
+    "total_pnl_pct": -0.012711535849074402,
+    "total_pnl_eur": -0.025415,
     "bank_eur": 2000.0,
-    "equity_eur": 2000.0
+    "equity_eur": 1999.97
   },
   "pipoca_avg": {
     "rows": [],
