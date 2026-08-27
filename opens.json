@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-08-27T05:53:03+01:00",
+  "updated_at": "2026-08-27T05:56:04+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "05:53",
+  "when_label": "05:56",
   "pipoca": {
     "rows": [
       {
         "ticker": "NVDA",
         "entry": 210.52,
-        "price": 212.47,
+        "price": 209.66,
         "qty": 0.950029,
         "notional": 200.0,
-        "pnl_pct": 0.9262777883336446,
-        "pnl_eur": 1.8525555766672892,
-        "pnl_r": 0.25,
+        "pnl_pct": -0.4085122553676675,
+        "pnl_eur": -0.817024510735335,
+        "pnl_r": -0.11,
         "sl": 202.6,
         "tp1": 226.36,
         "tp2": 234.28,
@@ -92,10 +92,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -5.936018266632033,
-    "total_pnl_eur": -35.61736637357961,
+    "total_pnl_pct": -6.380932581656008,
+    "total_pnl_eur": -38.286946460982236,
     "bank_eur": 2000.0,
-    "equity_eur": 1964.38
+    "equity_eur": 1961.71
   },
   "pipoca_avg": {
     "rows": [],
