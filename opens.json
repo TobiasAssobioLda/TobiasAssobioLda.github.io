@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-27T17:54:03+01:00",
+  "updated_at": "2026-08-27T17:58:38+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "17:54",
+  "when_label": "17:58",
   "pipoca": {
     "rows": [
       {
@@ -23,7 +23,7 @@
         "news_impact": 74,
         "opened_at": "2026-08-25T17:21:10.425201+00:00",
         "open_days": 1,
-        "time_stop_days": 30,
+        "time_stop_days": 15,
         "diag": "🎤 Chips: pending cluster · sinal 5.3 · corr +1.80 · star -0.30 · AAOI c0.63 d-1.36 · LITE c0.69 d-0.84 · SMTC c0.62 d-0.50 · PREPARAR · reteste · noticia a meio-gás",
         "corr_score": 1.8,
         "sinal_score": 5.3,
@@ -36,11 +36,11 @@
       {
         "ticker": "XOM",
         "entry": 160.24,
-        "price": 157.545,
+        "price": 157.555,
         "qty": 1.248128,
         "notional": 200.0,
-        "pnl_pct": -1.681852221667512,
-        "pnl_eur": -3.3637044433350245,
+        "pnl_pct": -1.675611582626062,
+        "pnl_eur": -3.3512231652521245,
         "pnl_r": -0.53,
         "sl": 155.14,
         "tp1": 170.44,
@@ -63,10 +63,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -1.8912688542552916,
-    "total_pnl_eur": -7.565075417021166,
+    "total_pnl_pct": -1.8881485347345666,
+    "total_pnl_eur": -7.552594138938266,
     "bank_eur": 2000.0,
-    "equity_eur": 1992.43
+    "equity_eur": 1992.45
   },
   "pipoca_avg": {
     "rows": [],
