@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-27T10:50:16+01:00",
+  "updated_at": "2026-08-27T10:53:16+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "10:50",
+  "when_label": "10:53",
   "pipoca": {
     "rows": [
       {
@@ -36,12 +36,12 @@
       {
         "ticker": "AXTI",
         "entry": 67.835,
-        "price": 56.02,
+        "price": 65.18,
         "qty": 2.948331,
         "notional": 200.0,
-        "pnl_pct": -17.417262475123447,
-        "pnl_eur": -34.8345249502469,
-        "pnl_r": -0.79,
+        "pnl_pct": -3.913908749170763,
+        "pnl_eur": -7.827817498341527,
+        "pnl_r": -0.18,
         "sl": 52.91,
         "tp1": 97.68,
         "tp2": 112.61,
@@ -92,10 +92,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -6.036364108027543,
-    "total_pnl_eur": -36.213016373579606,
+    "total_pnl_pct": -1.5346038056844375,
+    "total_pnl_eur": -9.206308921674237,
     "bank_eur": 2000.0,
-    "equity_eur": 1963.79
+    "equity_eur": 1990.79
   },
   "pipoca_avg": {
     "rows": [],
