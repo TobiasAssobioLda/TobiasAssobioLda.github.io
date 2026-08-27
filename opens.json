@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-08-27T16:43:17+01:00",
+  "updated_at": "2026-08-27T16:47:15+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "16:43",
+  "when_label": "16:47",
   "pipoca": {
     "rows": [
       {
         "ticker": "AXTI",
         "entry": 67.835,
-        "price": 66.41,
+        "price": 64.455,
         "qty": 2.948331,
         "notional": 200.0,
-        "pnl_pct": -2.100685486843071,
-        "pnl_eur": -4.201370973686142,
-        "pnl_r": -0.1,
+        "pnl_pct": -4.982678558266375,
+        "pnl_eur": -9.965357116532752,
+        "pnl_r": -0.23,
         "sl": 52.91,
         "tp1": 97.68,
         "tp2": 112.61,
@@ -36,12 +36,12 @@
       {
         "ticker": "XOM",
         "entry": 159.3759,
-        "price": 157.06,
+        "price": 157.12,
         "qty": 1.130691,
         "notional": 180.2048,
-        "pnl_pct": -1.4529999999999998,
-        "pnl_eur": -2.618519,
-        "pnl_r": -0.55,
+        "pnl_pct": -1.415,
+        "pnl_eur": -2.550677,
+        "pnl_r": -0.53,
         "sl": 155.14,
         "tp1": 170.44,
         "tp2": 175.54,
@@ -63,10 +63,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -1.7937409339987036,
-    "total_pnl_eur": -6.819889973686142,
+    "total_pnl_pct": -3.291918610530695,
+    "total_pnl_eur": -12.516034116532753,
     "bank_eur": 2000.0,
-    "equity_eur": 1993.18
+    "equity_eur": 1987.48
   },
   "pipoca_avg": {
     "rows": [],
