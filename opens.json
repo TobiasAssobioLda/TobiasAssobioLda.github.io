@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-27T17:05:03+01:00",
+  "updated_at": "2026-08-27T17:08:03+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "17:05",
+  "when_label": "17:08",
   "pipoca": {
     "rows": [
       {
@@ -36,12 +36,12 @@
       {
         "ticker": "XOM",
         "entry": 160.24,
-        "price": 157.305,
+        "price": 157.125,
         "qty": 1.248128,
         "notional": 200.0,
-        "pnl_pct": -1.8316275586620083,
-        "pnl_eur": -3.6632551173240167,
-        "pnl_r": -0.58,
+        "pnl_pct": -1.9439590614078937,
+        "pnl_eur": -3.8879181228157877,
+        "pnl_r": -0.61,
         "sl": 155.14,
         "tp1": 170.44,
         "tp2": 175.54,
@@ -63,10 +63,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.5177891607712589,
-    "total_pnl_eur": -2.0711566430850357,
+    "total_pnl_pct": -0.5739549121442017,
+    "total_pnl_eur": -2.2958196485768068,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.93
+    "equity_eur": 1997.7
   },
   "pipoca_avg": {
     "rows": [],
