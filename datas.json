@@ -1,46 +1,10 @@
 {
-  "updated_at": "2026-08-27T21:13:40+01:00",
+  "updated_at": "2026-08-27T21:13:54+01:00",
   "timezone": "Europe/Lisbon",
   "opens_count": 0,
-  "calendar_count": 1,
+  "calendar_count": 0,
   "opens_rows": [],
-  "calendar_rows": [
-    {
-      "event_date": "2026-08-27",
-      "date_label": "27/08",
-      "title": "Silver prices today, Thursday, August 27, 2026: Silver prices steady following inflation report - Yahoo Finance",
-      "horse": "Inflação",
-      "tickers": "GOLD / NEM",
-      "ticker_up": "GOLD",
-      "ticker_down": "NEM",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 50,
-      "range": "",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQWDNkQ0NtZzktZUp1cVV1U1o0U1E3QzhyU1hVb2VaOHpFRjgtVXB1NzVvZnBIdjB5bzZJQzJrd2ZMWVQ1dlM4cEJuV1NlQjJ2ZmxkLUZOTUhwM21PQmpEbDIzVDRic3JPcGtfZU1ONjdCeFpFbklITkxOZ1VoU3UyR3llZDNUWHdCcDdrc1lUNnJPaFY3NDg3QUFrV3JwOWtMdmtZTmY1aENhOWxqdmFiczNZalR5MVRoR2NBeUwxREdzd0d0ZkJjY1dHYWR2OWhPWk5yWXBqa2xCNVJQSzBOQjgwcGJFTXcyeWl6WHRvQ3FBYlozVmwySEtBUQ?oc=5",
-      "source": "spam",
-      "note": "date-hint",
-      "rank": 1
-    }
-  ],
-  "count": 1,
-  "rows": [
-    {
-      "event_date": "2026-08-27",
-      "date_label": "27/08",
-      "title": "Silver prices today, Thursday, August 27, 2026: Silver prices steady following inflation report - Yahoo Finance",
-      "horse": "Inflação",
-      "tickers": "GOLD / NEM",
-      "ticker_up": "GOLD",
-      "ticker_down": "NEM",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 50,
-      "range": "",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQWDNkQ0NtZzktZUp1cVV1U1o0U1E3QzhyU1hVb2VaOHpFRjgtVXB1NzVvZnBIdjB5bzZJQzJrd2ZMWVQ1dlM4cEJuV1NlQjJ2ZmxkLUZOTUhwM21PQmpEbDIzVDRic3JPcGtfZU1ONjdCeFpFbklITkxOZ1VoU3UyR3llZDNUWHdCcDdrc1lUNnJPaFY3NDg3QUFrV3JwOWtMdmtZTmY1aENhOWxqdmFiczNZalR5MVRoR2NBeUwxREdzd0d0ZkJjY1dHYWR2OWhPWk5yWXBqa2xCNVJQSzBOQjgwcGJFTXcyeWl6WHRvQ3FBYlozVmwySEtBUQ?oc=5",
-      "source": "spam",
-      "note": "date-hint",
-      "rank": 1
-    }
-  ]
+  "calendar_rows": [],
+  "count": 0,
+  "rows": []
 }
