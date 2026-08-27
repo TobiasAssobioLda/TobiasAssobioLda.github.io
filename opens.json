@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-27T23:54:45+01:00",
+  "updated_at": "2026-08-27T23:57:45+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "23:54",
+  "when_label": "23:57",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -350,6 +350,19 @@
     "quase": [],
     "out_market": [
       {
+        "ticker": "KRW",
+        "book": "pipoca_extreme",
+        "horse": "Inflação",
+        "impact": 92,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
+        "next_check": "2026-08-27T23:00:42.631084+00:00",
+        "first_seen": "2026-08-27T21:20:21.634406+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
         "ticker": "TLT",
         "book": "pipoca_high",
         "horse": "Inflação",
@@ -357,7 +370,7 @@
         "tries": 1,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-08-27T22:50:42.662462+00:00",
+        "next_check": "2026-08-27T23:10:42.629116+00:00",
         "first_seen": "2026-08-27T21:20:21.649110+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -370,21 +383,8 @@
         "tries": 1,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-08-27T22:50:42.666277+00:00",
+        "next_check": "2026-08-27T23:10:42.634009+00:00",
         "first_seen": "2026-08-27T21:20:21.658154+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "KRW",
-        "book": "pipoca_extreme",
-        "horse": "Inflação",
-        "impact": 92,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-08-27T23:00:42.631084+00:00",
-        "first_seen": "2026-08-27T21:20:21.634406+00:00",
         "status": "wait",
         "lane": "out_market"
       }
@@ -783,6 +783,19 @@
         "lane": "wait_window"
       },
       {
+        "ticker": "KRW",
+        "book": "pipoca_extreme",
+        "horse": "Inflação",
+        "impact": 92,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
+        "next_check": "2026-08-27T23:00:42.631084+00:00",
+        "first_seen": "2026-08-27T21:20:21.634406+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
         "ticker": "TLT",
         "book": "pipoca_high",
         "horse": "Inflação",
@@ -790,7 +803,7 @@
         "tries": 1,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-08-27T22:50:42.662462+00:00",
+        "next_check": "2026-08-27T23:10:42.629116+00:00",
         "first_seen": "2026-08-27T21:20:21.649110+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -803,21 +816,8 @@
         "tries": 1,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-08-27T22:50:42.666277+00:00",
+        "next_check": "2026-08-27T23:10:42.634009+00:00",
         "first_seen": "2026-08-27T21:20:21.658154+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "KRW",
-        "book": "pipoca_extreme",
-        "horse": "Inflação",
-        "impact": 92,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-08-27T23:00:42.631084+00:00",
-        "first_seen": "2026-08-27T21:20:21.634406+00:00",
         "status": "wait",
         "lane": "out_market"
       }
