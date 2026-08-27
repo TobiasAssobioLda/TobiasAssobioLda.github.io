@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-08-27T20:05:36+01:00",
+  "updated_at": "2026-08-27T20:08:36+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "20:05",
+  "when_label": "20:08",
   "pipoca": {
     "rows": [
       {
         "ticker": "XOM",
         "entry": 157.0399,
-        "price": 156.9,
+        "price": 156.99,
         "qty": 7.641117,
         "notional": 1199.96,
-        "pnl_pct": -0.089,
-        "pnl_eur": -1.068748,
-        "pnl_r": -0.03,
+        "pnl_pct": -0.032,
+        "pnl_eur": -0.381047,
+        "pnl_r": -0.01,
         "sl": 152.37,
         "tp1": 167.43,
         "tp2": 172.45,
@@ -34,22 +34,22 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.08906530180562144,
-    "total_pnl_eur": -1.068748,
+    "total_pnl_pct": -0.03175497503352206,
+    "total_pnl_eur": -0.381047,
     "bank_eur": 2000.0,
-    "equity_eur": 1998.93
+    "equity_eur": 1999.62
   },
   "pipoca_avg": {
     "rows": [
       {
         "ticker": "LMT",
         "entry": 563.3293,
-        "price": 563.12,
+        "price": 563.645,
         "qty": 1.79367,
         "notional": 1010.4269,
-        "pnl_pct": -0.037,
-        "pnl_eur": -0.375464,
-        "pnl_r": -0.01,
+        "pnl_pct": 0.055999999999999994,
+        "pnl_eur": 0.566213,
+        "pnl_r": 0.02,
         "sl": 543.07,
         "tp1": 603.52,
         "tp2": 623.67,
@@ -73,12 +73,12 @@
       {
         "ticker": "AVGO",
         "entry": 369.178,
-        "price": 369.3433,
+        "price": 368.91,
         "qty": 0.027094,
         "notional": 10.0025,
-        "pnl_pct": 0.045,
-        "pnl_eur": 0.004478,
-        "pnl_r": 0.01,
+        "pnl_pct": -0.073,
+        "pnl_eur": -0.007261,
+        "pnl_r": -0.01,
         "sl": 347.54,
         "tp1": 412.16,
         "tp2": 433.7,
@@ -100,8 +100,8 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.03635587054216096,
-    "total_pnl_eur": -0.37098600000000004
+    "total_pnl_pct": 0.05477615476401252,
+    "total_pnl_eur": 0.558952
   },
   "pipoca_high": {
     "rows": [],
@@ -113,12 +113,12 @@
       {
         "ticker": "NVDA",
         "entry": 226.0798,
-        "price": 226.0699,
+        "price": 226.28,
         "qty": 4.467881,
         "notional": 1010.0976,
-        "pnl_pct": -0.004,
-        "pnl_eur": -0.044151,
-        "pnl_r": -0.0,
+        "pnl_pct": 0.089,
+        "pnl_eur": 0.894551,
+        "pnl_r": 0.01,
         "sl": 206.49,
         "tp1": 264.57,
         "tp2": 283.93,
@@ -142,12 +142,12 @@
       {
         "ticker": "ASML",
         "entry": 1725.234,
-        "price": 1725.92,
+        "price": 1724.5,
         "qty": 0.005798,
         "notional": 10.0029,
-        "pnl_pct": 0.04,
-        "pnl_eur": 0.003977,
-        "pnl_r": 0.01,
+        "pnl_pct": -0.043,
+        "pnl_eur": -0.004256,
+        "pnl_r": -0.01,
         "sl": 1650.52,
         "tp1": 1872.85,
         "tp2": 1946.96,
@@ -169,8 +169,8 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.003938239538246894,
-    "total_pnl_eur": -0.040174
+    "total_pnl_pct": 0.0872752270051157,
+    "total_pnl_eur": 0.890295
   },
   "oficial": {
     "rows": [],
