@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-28T00:54:48+01:00",
+  "updated_at": "2026-08-28T00:57:49+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "00:54",
+  "when_label": "00:57",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -171,12 +171,12 @@
       {
         "ticker": "ASML",
         "entry": 1734.85,
-        "price": 1734.85,
+        "price": 1747.32,
         "qty": 0.005764,
         "notional": 10.0,
-        "pnl_pct": 0.0,
-        "pnl_eur": 0.0,
-        "pnl_r": 0.0,
+        "pnl_pct": 0.7187941320575282,
+        "pnl_eur": 0.07187941320575282,
+        "pnl_r": 0.17,
         "sl": 1660.74,
         "tp1": 1883.07,
         "tp2": 1957.18,
@@ -227,8 +227,8 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.02081781128106212,
-    "total_pnl_eur": -0.008327124512424847
+    "total_pnl_pct": 0.15888072173331994,
+    "total_pnl_eur": 0.06355228869332798
   },
   "oficial": {
     "rows": [],
