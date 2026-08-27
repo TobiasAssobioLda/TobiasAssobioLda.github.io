@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-27T21:03:13+01:00",
+  "updated_at": "2026-08-27T21:07:24+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "21:03",
+  "when_label": "21:07",
   "pipoca": {
     "rows": [
       {
@@ -256,12 +256,12 @@
       {
         "ticker": "TLT",
         "entry": 83.095,
-        "price": 83.105,
+        "price": 83.125,
         "qty": 12.034418,
         "notional": 1000.0,
-        "pnl_pct": 0.012034418436735202,
-        "pnl_eur": 0.12034418436735202,
-        "pnl_r": 0.0,
+        "pnl_pct": 0.03610325531018851,
+        "pnl_eur": 0.36103255310188503,
+        "pnl_r": 0.01,
         "sl": 81.0176,
         "tp1": 87.2498,
         "tp2": 87.2498,
@@ -312,10 +312,10 @@
         "horizon_days": 5
       }
     ],
-    "total_pnl_pct": -2.0628865611206058,
-    "total_pnl_eur": -82.51546244482424,
+    "total_pnl_pct": -2.0568693519022423,
+    "total_pnl_eur": -82.2747740760897,
     "bank_eur": 5000.0,
-    "equity_eur": 4917.48
+    "equity_eur": 4917.73
   },
   "possible": {
     "quase": [
