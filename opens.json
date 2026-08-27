@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-08-27T19:15:56+01:00",
+  "updated_at": "2026-08-27T19:20:56+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "19:15",
+  "when_label": "19:20",
   "pipoca": {
     "rows": [
       {
         "ticker": "XOM",
-        "entry": 157.65,
-        "price": 157.84,
-        "qty": 1.268955,
-        "notional": 200.0508,
-        "pnl_pct": 0.121,
-        "pnl_eur": 0.241101,
-        "pnl_r": 0.04,
+        "entry": 157.6684,
+        "price": 157.79,
+        "qty": 1.395927,
+        "notional": 220.0935,
+        "pnl_pct": 0.077,
+        "pnl_eur": 0.169781,
+        "pnl_r": 0.02,
         "sl": 152.59,
         "tp1": 167.65,
         "tp2": 172.67,
@@ -34,10 +34,10 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.12051991445610932,
-    "total_pnl_eur": 0.241101,
+    "total_pnl_pct": 0.07714038312982743,
+    "total_pnl_eur": 0.169781,
     "bank_eur": 2000.0,
-    "equity_eur": 2000.24
+    "equity_eur": 2000.17
   },
   "pipoca_avg": {
     "rows": [],
@@ -48,13 +48,13 @@
     "rows": [
       {
         "ticker": "XOM",
-        "entry": 157.515,
-        "price": 157.665,
-        "qty": 0.063486,
-        "notional": 10.0,
-        "pnl_pct": 0.0952290258070696,
-        "pnl_eur": 0.009522902580706961,
-        "pnl_r": 0.03,
+        "entry": 157.6684,
+        "price": 157.79,
+        "qty": 1.395927,
+        "notional": 220.0935,
+        "pnl_pct": 0.077,
+        "pnl_eur": 0.169781,
+        "pnl_r": 0.02,
         "sl": 152.5,
         "tp1": 167.54,
         "tp2": 172.56,
@@ -77,13 +77,13 @@
       },
       {
         "ticker": "LMT",
-        "entry": 563.61,
-        "price": 563.955,
+        "entry": 563.822,
+        "price": 563.59,
         "qty": 0.017743,
-        "notional": 10.0,
-        "pnl_pct": 0.06121254058658066,
-        "pnl_eur": 0.006121254058658067,
-        "pnl_r": 0.02,
+        "notional": 10.0039,
+        "pnl_pct": -0.041,
+        "pnl_eur": -0.004117,
+        "pnl_r": -0.01,
         "sl": 543.46,
         "tp1": 603.91,
         "tp2": 624.06,
@@ -106,13 +106,13 @@
       },
       {
         "ticker": "AVGO",
-        "entry": 367.45,
-        "price": 368.34,
+        "entry": 367.456,
+        "price": 367.695,
         "qty": 0.027215,
-        "notional": 10.0,
-        "pnl_pct": 0.24220982446591005,
-        "pnl_eur": 0.024220982446591002,
-        "pnl_r": 0.04,
+        "notional": 10.0003,
+        "pnl_pct": 0.065,
+        "pnl_eur": 0.006504,
+        "pnl_r": 0.01,
         "sl": 347.54,
         "tp1": 407.27,
         "tp2": 427.18,
@@ -134,20 +134,20 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.13288379695318675,
-    "total_pnl_eur": 0.03986513908595603
+    "total_pnl_pct": 0.07170746111409815,
+    "total_pnl_eur": 0.172168
   },
   "pipoca_extreme": {
     "rows": [
       {
         "ticker": "XOM",
-        "entry": 157.515,
-        "price": 157.53,
-        "qty": 0.063486,
-        "notional": 10.0,
-        "pnl_pct": 0.009522902580715982,
-        "pnl_eur": 0.0009522902580715983,
-        "pnl_r": 0.0,
+        "entry": 157.6684,
+        "price": 157.79,
+        "qty": 1.395927,
+        "notional": 220.0935,
+        "pnl_pct": 0.077,
+        "pnl_eur": 0.169781,
+        "pnl_r": 0.02,
         "sl": 152.5,
         "tp1": 167.54,
         "tp2": 172.56,
@@ -170,13 +170,13 @@
       },
       {
         "ticker": "ASML",
-        "entry": 1724.45,
-        "price": 1815.5,
+        "entry": 1724.776,
+        "price": 1725.18,
         "qty": 0.005799,
-        "notional": 10.0,
-        "pnl_pct": 5.279944330076254,
-        "pnl_eur": 0.5279944330076254,
-        "pnl_r": 1.23,
+        "notional": 10.002,
+        "pnl_pct": 0.023,
+        "pnl_eur": 0.002343,
+        "pnl_r": 0.01,
         "sl": 1650.55,
         "tp1": 1872.25,
         "tp2": 1946.15,
@@ -198,8 +198,8 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 2.644733616328485,
-    "total_pnl_eur": 0.528946723265697
+    "total_pnl_pct": 0.07480545600897325,
+    "total_pnl_eur": 0.172124
   },
   "oficial": {
     "rows": [],
