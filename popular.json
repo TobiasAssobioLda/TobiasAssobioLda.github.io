@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T20:22:03+01:00",
+  "updated_at": "2026-08-27T20:22:44+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -12,7 +12,7 @@
       "key": "week",
       "label": "Week · AVG+High desde sexta fecho NY",
       "from": "2026-08-21T21:00:00+01:00",
-      "to": "2026-08-27T20:22:03+01:00",
+      "to": "2026-08-27T20:22:44+01:00",
       "from_label": "21/08 21:00",
       "to_label": "27/08 20:22",
       "n_events": 244,
@@ -64,8 +64,8 @@
         {
           "rank": 6,
           "ticker": "NVDA",
-          "total": 15,
-          "as_up": 14,
+          "total": 14,
+          "as_up": 13,
           "as_down": 1,
           "last_horse": "Trump"
         },
@@ -221,37 +221,37 @@
         },
         {
           "rank": 4,
-          "ticker": "NVDA",
-          "total": 8,
-          "as_up": 8,
-          "as_down": 0,
-          "last_horse": "Rússia"
-        },
-        {
-          "rank": 5,
           "ticker": "NEM",
           "total": 8,
           "as_up": 0,
           "as_down": 8,
+          "last_horse": "Inflação"
+        },
+        {
+          "rank": 5,
+          "ticker": "GOLD",
+          "total": 7,
+          "as_up": 7,
+          "as_down": 0,
           "last_horse": "Inflação"
         }
       ],
       "top6_20": [
         {
           "rank": 6,
-          "ticker": "GOLD",
-          "total": 7,
-          "as_up": 7,
-          "as_down": 0,
-          "last_horse": "Inflação"
-        },
-        {
-          "rank": 7,
           "ticker": "GS",
           "total": 7,
           "as_up": 7,
           "as_down": 0,
           "last_horse": "Fed"
+        },
+        {
+          "rank": 7,
+          "ticker": "NVDA",
+          "total": 7,
+          "as_up": 7,
+          "as_down": 0,
+          "last_horse": "Chips"
         },
         {
           "rank": 8,
@@ -398,8 +398,8 @@
         {
           "rank": 4,
           "ticker": "NVDA",
-          "total": 10,
-          "as_up": 9,
+          "total": 9,
+          "as_up": 8,
           "as_down": 1,
           "last_horse": "Trump"
         },
@@ -568,8 +568,8 @@
     {
       "rank": 4,
       "ticker": "NVDA",
-      "total": 10,
-      "as_up": 9,
+      "total": 9,
+      "as_up": 8,
       "as_down": 1,
       "last_horse": "Trump"
     },
@@ -733,8 +733,8 @@
     {
       "rank": 4,
       "ticker": "NVDA",
-      "total": 10,
-      "as_up": 9,
+      "total": 9,
+      "as_up": 8,
       "as_down": 1,
       "last_horse": "Trump"
     },
