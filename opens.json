@@ -1,25 +1,55 @@
 {
-  "updated_at": "2026-08-28T15:02:29+01:00",
+  "updated_at": "2026-08-28T15:05:29+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "15:02",
+  "when_label": "15:05",
   "pipoca": {
-    "rows": [],
-    "total_pnl_pct": 0.0,
-    "total_pnl_eur": 0.0,
+    "rows": [
+      {
+        "ticker": "XOM",
+        "entry": 156.335,
+        "price": 156.665,
+        "qty": 1.279304,
+        "notional": 200.0,
+        "pnl_pct": 0.2110851696676906,
+        "pnl_eur": 0.4221703393353812,
+        "pnl_r": 0.08,
+        "sl": 151.96,
+        "tp1": 165.09,
+        "tp2": 169.46,
+        "horse": "Irão",
+        "news_hook": "Irão × trégua à vista",
+        "news_what": "Sinais de possível cessar-fogo emergem no conflito regional iraniano",
+        "news_blurb": "🎤 Irão × trégua à vista",
+        "news_impact": 68,
+        "opened_at": "2026-08-28T14:04:29.045576+00:00",
+        "open_days": 0,
+        "time_stop_days": 15,
+        "diag": "🎤 Irão × trégua à vista · 📋 Sinais de possível cessar-fogo emergem no conflito regional iraniano · ora Irão→XOM 0/10 · sinal 5.7 · corr +2.14 · star -0.91 · COP c0.85 d-0.60 · ENPH c-0.26 d+1.91 · XLE c0.89 d-0.45 · PREPARAR · reteste · setup normal",
+        "corr_score": 2.14,
+        "sinal_score": 5.7,
+        "tp_tip": "",
+        "tp_gap": null,
+        "tp_sugerido_mid": null,
+        "event_date": "",
+        "horizon_days": 15
+      }
+    ],
+    "total_pnl_pct": 0.2110851696676906,
+    "total_pnl_eur": 0.4221703393353812,
     "bank_eur": 2000.0,
-    "equity_eur": 2000.0
+    "equity_eur": 2000.42
   },
   "pipoca_avg": {
     "rows": [
       {
         "ticker": "XOM",
         "entry": 156.44,
-        "price": 156.235,
+        "price": 156.665,
         "qty": 0.063922,
         "notional": 10.0,
-        "pnl_pct": -0.13104065456403996,
-        "pnl_eur": -0.013104065456403994,
-        "pnl_r": -0.04,
+        "pnl_pct": 0.14382510866785625,
+        "pnl_eur": 0.014382510866785625,
+        "pnl_r": 0.04,
         "sl": 151.42,
         "tp1": 166.48,
         "tp2": 171.5,
@@ -41,20 +71,20 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.13104065456403996,
-    "total_pnl_eur": -0.013104065456403994
+    "total_pnl_pct": 0.14382510866785625,
+    "total_pnl_eur": 0.014382510866785625
   },
   "pipoca_high": {
     "rows": [
       {
         "ticker": "XOM",
         "entry": 156.44,
-        "price": 156.235,
+        "price": 156.665,
         "qty": 0.063922,
         "notional": 10.0,
-        "pnl_pct": -0.13104065456403996,
-        "pnl_eur": -0.013104065456403994,
-        "pnl_r": -0.04,
+        "pnl_pct": 0.14382510866785625,
+        "pnl_eur": 0.014382510866785625,
+        "pnl_r": 0.04,
         "sl": 151.42,
         "tp1": 166.48,
         "tp2": 171.5,
@@ -78,12 +108,12 @@
       {
         "ticker": "HPQ",
         "entry": 29.625,
-        "price": 29.845,
+        "price": 29.865,
         "qty": 0.337553,
         "notional": 10.0,
-        "pnl_pct": 0.7426160337552704,
-        "pnl_eur": 0.07426160337552704,
-        "pnl_r": 0.07,
+        "pnl_pct": 0.8101265822784757,
+        "pnl_eur": 0.08101265822784758,
+        "pnl_r": 0.08,
         "sl": 26.46,
         "tp1": 35.95,
         "tp2": 39.12,
@@ -105,20 +135,20 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.3057876895956152,
-    "total_pnl_eur": 0.06115753791912304
+    "total_pnl_pct": 0.476975845473166,
+    "total_pnl_eur": 0.0953951690946332
   },
   "pipoca_extreme": {
     "rows": [
       {
         "ticker": "NVDA",
         "entry": 228.17,
-        "price": 224.115,
+        "price": 223.995,
         "qty": 0.043827,
         "notional": 10.0,
-        "pnl_pct": -1.7771836788359463,
-        "pnl_eur": -0.1777183678835946,
-        "pnl_r": -0.21,
+        "pnl_pct": -1.8297760441775797,
+        "pnl_eur": -0.18297760441775793,
+        "pnl_r": -0.22,
         "sl": 208.81,
         "tp1": 266.89,
         "tp2": 286.25,
@@ -142,12 +172,12 @@
       {
         "ticker": "NEE",
         "entry": 83.47,
-        "price": 82.6,
+        "price": 82.2,
         "qty": 0.119804,
         "notional": 10.0,
-        "pnl_pct": -1.0422906433449197,
-        "pnl_eur": -0.10422906433449199,
-        "pnl_r": -0.42,
+        "pnl_pct": -1.521504732239123,
+        "pnl_eur": -0.1521504732239123,
+        "pnl_r": -0.61,
         "sl": 81.38,
         "tp1": 87.65,
         "tp2": 89.74,
@@ -171,12 +201,12 @@
       {
         "ticker": "ASML",
         "entry": 1734.85,
-        "price": 1728.245,
+        "price": 1726.81,
         "qty": 0.005764,
         "notional": 10.0,
-        "pnl_pct": -0.38072455831916413,
-        "pnl_eur": -0.038072455831916416,
-        "pnl_r": -0.09,
+        "pnl_pct": -0.46344064328327894,
+        "pnl_eur": -0.0463440643283279,
+        "pnl_r": -0.11,
         "sl": 1660.74,
         "tp1": 1883.07,
         "tp2": 1957.18,
@@ -200,12 +230,12 @@
       {
         "ticker": "NUE",
         "entry": 252.4,
-        "price": 245.305,
+        "price": 250.445,
         "qty": 0.03962,
         "notional": 10.0,
-        "pnl_pct": -2.811014263074484,
-        "pnl_eur": -0.28110142630744844,
-        "pnl_r": -0.55,
+        "pnl_pct": -0.7745641838351871,
+        "pnl_eur": -0.07745641838351872,
+        "pnl_r": -0.15,
         "sl": 239.56,
         "tp1": 278.08,
         "tp2": 290.92,
@@ -227,8 +257,8 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -1.5028032858936284,
-    "total_pnl_eur": -0.6011213143574514
+    "total_pnl_pct": -1.147321400883792,
+    "total_pnl_eur": -0.4589285603535168
   },
   "oficial": {
     "rows": [],
@@ -261,19 +291,6 @@
   "possible": {
     "quase": [],
     "out_market": [
-      {
-        "ticker": "XOM",
-        "book": "pipoca",
-        "horse": "Irão",
-        "impact": 68,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · RED NEWS a decorrer (GDP m/m)",
-        "next_check": "2026-08-28T14:14:26.946987+00:00",
-        "first_seen": "2026-08-28T07:01:15.820352+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
       {
         "ticker": "XOM",
         "book": "pipoca",
@@ -459,19 +476,6 @@
     ],
     "wait_window": [],
     "rows": [
-      {
-        "ticker": "XOM",
-        "book": "pipoca",
-        "horse": "Irão",
-        "impact": 68,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · RED NEWS a decorrer (GDP m/m)",
-        "next_check": "2026-08-28T14:14:26.946987+00:00",
-        "first_seen": "2026-08-28T07:01:15.820352+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
       {
         "ticker": "XOM",
         "book": "pipoca",
