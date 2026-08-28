@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T18:51:50+01:00",
+  "updated_at": "2026-08-28T18:52:00+01:00",
   "timezone": "Europe/Lisbon",
   "day": "2026-08-28",
   "total": 64,
@@ -8,9 +8,9 @@
   "extreme": 5,
   "scalper": 6,
   "by_lane": {
-    "nao_entrou": 49,
+    "nao_entrou": 43,
     "entrou": 8,
-    "no_pass": 7
+    "no_pass": 13
   },
   "rows": [
     {
@@ -678,7 +678,7 @@
       "book": "pipoca_high",
       "book_label": "High",
       "kind": "—",
-      "lane": "nao_entrou",
+      "lane": "no_pass",
       "window": "all_in",
       "impact": 76,
       "ticker_up": "",
@@ -783,7 +783,7 @@
       "book": "pipoca_avg",
       "book_label": "Pipoca",
       "kind": "—",
-      "lane": "nao_entrou",
+      "lane": "no_pass",
       "window": "all_in",
       "impact": 70,
       "ticker_up": "",
@@ -813,7 +813,7 @@
       "book": "pipoca_high",
       "book_label": "High",
       "kind": "—",
-      "lane": "nao_entrou",
+      "lane": "no_pass",
       "window": "all_in",
       "impact": 76,
       "ticker_up": "",
@@ -858,7 +858,7 @@
       "book": "pipoca_avg",
       "book_label": "Pipoca",
       "kind": "—",
-      "lane": "nao_entrou",
+      "lane": "no_pass",
       "window": "all_in",
       "impact": 72,
       "ticker_up": "",
@@ -903,7 +903,7 @@
       "book": "pipoca_avg",
       "book_label": "Pipoca",
       "kind": "—",
-      "lane": "nao_entrou",
+      "lane": "no_pass",
       "window": "all_in",
       "impact": 72,
       "ticker_up": "",
@@ -963,7 +963,7 @@
       "book": "pipoca_avg",
       "book_label": "Pipoca",
       "kind": "—",
-      "lane": "nao_entrou",
+      "lane": "no_pass",
       "window": "all_in",
       "impact": 72,
       "ticker_up": "",
