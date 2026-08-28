@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-08-28T18:19:59+01:00",
+  "updated_at": "2026-08-28T18:24:23+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "18:19",
+  "when_label": "18:24",
   "title": "Full Report · Tobias",
   "note": "Todos os fechos · TP no topo · treino Tobias",
   "stats": {
-    "n": 32,
+    "n": 33,
     "tp": 0,
     "sl": 1,
-    "out": 31,
+    "out": 32,
     "correto": 0,
     "erro": 3,
     "trainable": 3,
-    "realized_eur": -50.17,
-    "realized_r": -3.11
+    "realized_eur": -50.19,
+    "realized_r": -3.2
   },
   "rows": [
     {
@@ -37,6 +37,28 @@
       "opened_at": "2026-08-28T15:00:05.376322+00:00",
       "closed_at": "2026-08-28T15:01:03.866686+00:00",
       "news_hook": "SCALPER_1600 Popular #3 · 7× cards · sem oráculo · LMT"
+    },
+    {
+      "id": 151,
+      "book": "pipoca_high",
+      "book_label": "Pipoca High",
+      "ticker": "XOM",
+      "horse": "Irão",
+      "kind": "out",
+      "label": "NEUTRO",
+      "entry": 156.39,
+      "exit": 156.01,
+      "sl": 151.94,
+      "tp1": 165.29,
+      "pnl_eur": -0.02,
+      "pnl_pct": -0.24,
+      "pnl_r": -0.09,
+      "corr": 1.18,
+      "impact": 85,
+      "exit_reason": "GUI CLOSE ALL",
+      "opened_at": "2026-08-28T16:45:07.886534+00:00",
+      "closed_at": "2026-08-28T17:21:16.583450+00:00",
+      "news_hook": ""
     },
     {
       "id": 150,
