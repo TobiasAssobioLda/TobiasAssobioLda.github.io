@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-08-28T16:15:39+01:00",
+  "updated_at": "2026-08-28T16:15:53+01:00",
   "timezone": "Europe/Lisbon",
   "when_label": "16:15",
   "title": "Full Report · Tobias",
   "note": "Todos os fechos · TP no topo · treino Tobias",
   "stats": {
-    "n": 12,
+    "n": 13,
     "tp": 0,
     "sl": 1,
-    "out": 11,
+    "out": 12,
     "correto": 0,
     "erro": 2,
     "trainable": 2,
-    "realized_eur": -50.48,
-    "realized_r": -2.17
+    "realized_eur": -50.14,
+    "realized_r": -1.85
   },
   "rows": [
     {
@@ -37,6 +37,28 @@
       "opened_at": "2026-08-28T15:00:05.376322+00:00",
       "closed_at": "2026-08-28T15:01:03.866686+00:00",
       "news_hook": "SCALPER_1600 Popular #3 · 7× cards · sem oráculo · LMT"
+    },
+    {
+      "id": 123,
+      "book": "pipoca_high",
+      "book_label": "Pipoca High",
+      "ticker": "HPQ",
+      "horse": "Earnings",
+      "kind": "out",
+      "label": "NEUTRO",
+      "entry": 29.625,
+      "exit": 30.63,
+      "sl": 26.46,
+      "tp1": 35.95,
+      "pnl_eur": 0.34,
+      "pnl_pct": 3.39,
+      "pnl_r": 0.32,
+      "corr": 1.31,
+      "impact": 78,
+      "exit_reason": "GUI CLOSE ALL",
+      "opened_at": "2026-08-27T21:25:10.329735+00:00",
+      "closed_at": "2026-08-28T15:15:45.936770+00:00",
+      "news_hook": ""
     },
     {
       "id": 122,
