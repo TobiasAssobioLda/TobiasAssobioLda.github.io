@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T17:39:42+01:00",
+  "updated_at": "2026-08-28T17:42:42+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,18 +13,18 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-08-21T21:00:00+01:00",
-      "to": "2026-08-28T17:39:42+01:00",
+      "to": "2026-08-28T17:42:42+01:00",
       "from_label": "21/08 21:00",
-      "to_label": "28/08 17:39",
-      "n_events": 338,
+      "to_label": "28/08 17:42",
+      "n_events": 343,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
         {
           "rank": 1,
           "ticker": "XOM",
-          "total": 102,
-          "as_up": 99,
+          "total": 104,
+          "as_up": 101,
           "as_down": 3,
           "last_horse": "Irão",
           "band": "all",
@@ -96,8 +96,8 @@
           "rank": 8,
           "ticker": "FRO",
           "total": 15,
-          "as_up": 14,
-          "as_down": 1,
+          "as_up": 15,
+          "as_down": 0,
           "last_horse": "Irão",
           "band": "all",
           "direction": "all"
@@ -114,6 +114,26 @@
         },
         {
           "rank": 10,
+          "ticker": "GOLD",
+          "total": 13,
+          "as_up": 11,
+          "as_down": 2,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 11,
+          "ticker": "XLE",
+          "total": 13,
+          "as_up": 10,
+          "as_down": 3,
+          "last_horse": "Rússia",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 12,
           "ticker": "NEM",
           "total": 13,
           "as_up": 1,
@@ -123,7 +143,7 @@
           "direction": "all"
         },
         {
-          "rank": 11,
+          "rank": 13,
           "ticker": "CVX",
           "total": 13,
           "as_up": 0,
@@ -133,32 +153,12 @@
           "direction": "all"
         },
         {
-          "rank": 12,
-          "ticker": "GOLD",
-          "total": 12,
-          "as_up": 11,
-          "as_down": 1,
-          "last_horse": "Inflação",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 13,
+          "rank": 14,
           "ticker": "F",
           "total": 12,
           "as_up": 4,
           "as_down": 8,
           "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 14,
-          "ticker": "XLE",
-          "total": 11,
-          "as_up": 9,
-          "as_down": 2,
-          "last_horse": "Rússia",
           "band": "all",
           "direction": "all"
         },
@@ -332,8 +332,8 @@
           "rank": 10,
           "ticker": "XLE",
           "total": 4,
-          "as_up": 4,
-          "as_down": 0,
+          "as_up": 3,
+          "as_down": 1,
           "last_horse": "Irão",
           "band": "all",
           "direction": "all"
@@ -445,18 +445,18 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-08-28T00:00:00+01:00",
-      "to": "2026-08-28T17:39:42+01:00",
+      "to": "2026-08-28T17:42:42+01:00",
       "from_label": "28/08 00:00",
-      "to_label": "28/08 17:39",
-      "n_events": 58,
+      "to_label": "28/08 17:42",
+      "n_events": 63,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
         {
           "rank": 1,
           "ticker": "XOM",
-          "total": 17,
-          "as_up": 17,
+          "total": 19,
+          "as_up": 19,
           "as_down": 0,
           "last_horse": "Irão",
           "band": "all",
@@ -484,6 +484,16 @@
         },
         {
           "rank": 4,
+          "ticker": "XLE",
+          "total": 6,
+          "as_up": 5,
+          "as_down": 1,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 5,
           "ticker": "CVX",
           "total": 6,
           "as_up": 0,
@@ -491,35 +501,25 @@
           "last_horse": "Irão",
           "band": "all",
           "direction": "all"
-        },
-        {
-          "rank": 5,
-          "ticker": "GLD",
-          "total": 5,
-          "as_up": 1,
-          "as_down": 4,
-          "last_horse": "Inflação",
-          "band": "all",
-          "direction": "all"
         }
       ],
       "top6_20": [
         {
           "rank": 6,
-          "ticker": "XLE",
-          "total": 4,
-          "as_up": 4,
-          "as_down": 0,
+          "ticker": "GOLD",
+          "total": 5,
+          "as_up": 3,
+          "as_down": 2,
           "last_horse": "Irão",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 7,
-          "ticker": "GOLD",
-          "total": 4,
-          "as_up": 3,
-          "as_down": 1,
+          "ticker": "GLD",
+          "total": 5,
+          "as_up": 1,
+          "as_down": 4,
           "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
@@ -537,15 +537,25 @@
         {
           "rank": 9,
           "ticker": "AMZN",
-          "total": 3,
+          "total": 4,
           "as_up": 0,
-          "as_down": 3,
+          "as_down": 4,
           "last_horse": "Trump",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 10,
+          "ticker": "FBP",
+          "total": 2,
+          "as_up": 2,
+          "as_down": 0,
+          "last_horse": "Trump",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 11,
           "ticker": "GS",
           "total": 2,
           "as_up": 2,
@@ -555,7 +565,7 @@
           "direction": "all"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "ticker": "MSFT",
           "total": 2,
           "as_up": 2,
@@ -565,7 +575,7 @@
           "direction": "all"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "ticker": "F",
           "total": 2,
           "as_up": 1,
@@ -575,7 +585,7 @@
           "direction": "all"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "ticker": "SPY",
           "total": 2,
           "as_up": 1,
@@ -585,7 +595,7 @@
           "direction": "all"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "ticker": "AAPL",
           "total": 2,
           "as_up": 0,
@@ -595,7 +605,7 @@
           "direction": "all"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "ticker": "RTX",
           "total": 2,
           "as_up": 0,
@@ -605,7 +615,17 @@
           "direction": "all"
         },
         {
-          "rank": 16,
+          "rank": 17,
+          "ticker": "USB",
+          "total": 2,
+          "as_up": 0,
+          "as_down": 2,
+          "last_horse": "Trump",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 18,
           "ticker": "ANTH",
           "total": 1,
           "as_up": 1,
@@ -615,38 +635,18 @@
           "direction": "all"
         },
         {
-          "rank": 17,
-          "ticker": "FBP",
-          "total": 1,
-          "as_up": 1,
-          "as_down": 0,
-          "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 18,
-          "ticker": "JD",
-          "total": 1,
-          "as_up": 1,
-          "as_down": 0,
-          "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
           "rank": 19,
-          "ticker": "MSTR",
+          "ticker": "FRO",
           "total": 1,
           "as_up": 1,
           "as_down": 0,
-          "last_horse": "Cripto",
+          "last_horse": "Irão",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 20,
-          "ticker": "NEE",
+          "ticker": "JD",
           "total": 1,
           "as_up": 1,
           "as_down": 0,
@@ -658,15 +658,15 @@
       "source": "rumors_avg_high"
     }
   },
-  "n_events": 58,
+  "n_events": 63,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
     {
       "rank": 1,
       "ticker": "XOM",
-      "total": 17,
-      "as_up": 17,
+      "total": 19,
+      "as_up": 19,
       "as_down": 0,
       "last_horse": "Irão",
       "band": "all",
@@ -694,6 +694,16 @@
     },
     {
       "rank": 4,
+      "ticker": "XLE",
+      "total": 6,
+      "as_up": 5,
+      "as_down": 1,
+      "last_horse": "Irão",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 5,
       "ticker": "CVX",
       "total": 6,
       "as_up": 0,
@@ -701,35 +711,25 @@
       "last_horse": "Irão",
       "band": "all",
       "direction": "all"
-    },
-    {
-      "rank": 5,
-      "ticker": "GLD",
-      "total": 5,
-      "as_up": 1,
-      "as_down": 4,
-      "last_horse": "Inflação",
-      "band": "all",
-      "direction": "all"
     }
   ],
   "top6_20": [
     {
       "rank": 6,
-      "ticker": "XLE",
-      "total": 4,
-      "as_up": 4,
-      "as_down": 0,
+      "ticker": "GOLD",
+      "total": 5,
+      "as_up": 3,
+      "as_down": 2,
       "last_horse": "Irão",
       "band": "all",
       "direction": "all"
     },
     {
       "rank": 7,
-      "ticker": "GOLD",
-      "total": 4,
-      "as_up": 3,
-      "as_down": 1,
+      "ticker": "GLD",
+      "total": 5,
+      "as_up": 1,
+      "as_down": 4,
       "last_horse": "Inflação",
       "band": "all",
       "direction": "all"
@@ -747,15 +747,25 @@
     {
       "rank": 9,
       "ticker": "AMZN",
-      "total": 3,
+      "total": 4,
       "as_up": 0,
-      "as_down": 3,
+      "as_down": 4,
       "last_horse": "Trump",
       "band": "all",
       "direction": "all"
     },
     {
       "rank": 10,
+      "ticker": "FBP",
+      "total": 2,
+      "as_up": 2,
+      "as_down": 0,
+      "last_horse": "Trump",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 11,
       "ticker": "GS",
       "total": 2,
       "as_up": 2,
@@ -765,7 +775,7 @@
       "direction": "all"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "ticker": "MSFT",
       "total": 2,
       "as_up": 2,
@@ -775,7 +785,7 @@
       "direction": "all"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "ticker": "F",
       "total": 2,
       "as_up": 1,
@@ -785,7 +795,7 @@
       "direction": "all"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "ticker": "SPY",
       "total": 2,
       "as_up": 1,
@@ -795,7 +805,7 @@
       "direction": "all"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "ticker": "AAPL",
       "total": 2,
       "as_up": 0,
@@ -805,7 +815,7 @@
       "direction": "all"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "ticker": "RTX",
       "total": 2,
       "as_up": 0,
@@ -815,7 +825,17 @@
       "direction": "all"
     },
     {
-      "rank": 16,
+      "rank": 17,
+      "ticker": "USB",
+      "total": 2,
+      "as_up": 0,
+      "as_down": 2,
+      "last_horse": "Trump",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 18,
       "ticker": "ANTH",
       "total": 1,
       "as_up": 1,
@@ -825,38 +845,18 @@
       "direction": "all"
     },
     {
-      "rank": 17,
-      "ticker": "FBP",
-      "total": 1,
-      "as_up": 1,
-      "as_down": 0,
-      "last_horse": "Trump",
-      "band": "all",
-      "direction": "all"
-    },
-    {
-      "rank": 18,
-      "ticker": "JD",
-      "total": 1,
-      "as_up": 1,
-      "as_down": 0,
-      "last_horse": "Trump",
-      "band": "all",
-      "direction": "all"
-    },
-    {
       "rank": 19,
-      "ticker": "MSTR",
+      "ticker": "FRO",
       "total": 1,
       "as_up": 1,
       "as_down": 0,
-      "last_horse": "Cripto",
+      "last_horse": "Irão",
       "band": "all",
       "direction": "all"
     },
     {
       "rank": 20,
-      "ticker": "NEE",
+      "ticker": "JD",
       "total": 1,
       "as_up": 1,
       "as_down": 0,
@@ -870,8 +870,8 @@
     {
       "rank": 1,
       "ticker": "XOM",
-      "total": 17,
-      "as_up": 17,
+      "total": 19,
+      "as_up": 19,
       "as_down": 0,
       "last_horse": "Irão",
       "band": "all",
@@ -899,6 +899,16 @@
     },
     {
       "rank": 4,
+      "ticker": "XLE",
+      "total": 6,
+      "as_up": 5,
+      "as_down": 1,
+      "last_horse": "Irão",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 5,
       "ticker": "CVX",
       "total": 6,
       "as_up": 0,
@@ -908,31 +918,21 @@
       "direction": "all"
     },
     {
-      "rank": 5,
-      "ticker": "GLD",
-      "total": 5,
-      "as_up": 1,
-      "as_down": 4,
-      "last_horse": "Inflação",
-      "band": "all",
-      "direction": "all"
-    },
-    {
       "rank": 6,
-      "ticker": "XLE",
-      "total": 4,
-      "as_up": 4,
-      "as_down": 0,
+      "ticker": "GOLD",
+      "total": 5,
+      "as_up": 3,
+      "as_down": 2,
       "last_horse": "Irão",
       "band": "all",
       "direction": "all"
     },
     {
       "rank": 7,
-      "ticker": "GOLD",
-      "total": 4,
-      "as_up": 3,
-      "as_down": 1,
+      "ticker": "GLD",
+      "total": 5,
+      "as_up": 1,
+      "as_down": 4,
       "last_horse": "Inflação",
       "band": "all",
       "direction": "all"
@@ -950,15 +950,25 @@
     {
       "rank": 9,
       "ticker": "AMZN",
-      "total": 3,
+      "total": 4,
       "as_up": 0,
-      "as_down": 3,
+      "as_down": 4,
       "last_horse": "Trump",
       "band": "all",
       "direction": "all"
     },
     {
       "rank": 10,
+      "ticker": "FBP",
+      "total": 2,
+      "as_up": 2,
+      "as_down": 0,
+      "last_horse": "Trump",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 11,
       "ticker": "GS",
       "total": 2,
       "as_up": 2,
@@ -968,7 +978,7 @@
       "direction": "all"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "ticker": "MSFT",
       "total": 2,
       "as_up": 2,
@@ -978,7 +988,7 @@
       "direction": "all"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "ticker": "F",
       "total": 2,
       "as_up": 1,
@@ -988,7 +998,7 @@
       "direction": "all"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "ticker": "SPY",
       "total": 2,
       "as_up": 1,
@@ -998,7 +1008,7 @@
       "direction": "all"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "ticker": "AAPL",
       "total": 2,
       "as_up": 0,
@@ -1008,7 +1018,7 @@
       "direction": "all"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "ticker": "RTX",
       "total": 2,
       "as_up": 0,
@@ -1018,7 +1028,17 @@
       "direction": "all"
     },
     {
-      "rank": 16,
+      "rank": 17,
+      "ticker": "USB",
+      "total": 2,
+      "as_up": 0,
+      "as_down": 2,
+      "last_horse": "Trump",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 18,
       "ticker": "ANTH",
       "total": 1,
       "as_up": 1,
@@ -1028,38 +1048,18 @@
       "direction": "all"
     },
     {
-      "rank": 17,
-      "ticker": "FBP",
-      "total": 1,
-      "as_up": 1,
-      "as_down": 0,
-      "last_horse": "Trump",
-      "band": "all",
-      "direction": "all"
-    },
-    {
-      "rank": 18,
-      "ticker": "JD",
-      "total": 1,
-      "as_up": 1,
-      "as_down": 0,
-      "last_horse": "Trump",
-      "band": "all",
-      "direction": "all"
-    },
-    {
       "rank": 19,
-      "ticker": "MSTR",
+      "ticker": "FRO",
       "total": 1,
       "as_up": 1,
       "as_down": 0,
-      "last_horse": "Cripto",
+      "last_horse": "Irão",
       "band": "all",
       "direction": "all"
     },
     {
       "rank": 20,
-      "ticker": "NEE",
+      "ticker": "JD",
       "total": 1,
       "as_up": 1,
       "as_down": 0,
