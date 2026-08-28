@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T18:47:10+01:00",
+  "updated_at": "2026-08-28T18:50:11+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-08-21T21:00:00+01:00",
-      "to": "2026-08-28T18:47:10+01:00",
+      "to": "2026-08-28T18:50:11+01:00",
       "from_label": "21/08 21:00",
-      "to_label": "28/08 18:47",
+      "to_label": "28/08 18:50",
       "n_events": 350,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -23,8 +23,8 @@
         {
           "rank": 1,
           "ticker": "XOM",
-          "total": 104,
-          "as_up": 101,
+          "total": 103,
+          "as_up": 100,
           "as_down": 3,
           "last_horse": "Irão",
           "band": "all",
@@ -104,21 +104,21 @@
         },
         {
           "rank": 9,
-          "ticker": "FRO",
-          "total": 14,
-          "as_up": 14,
-          "as_down": 0,
-          "last_horse": "Irão",
+          "ticker": "XLE",
+          "total": 15,
+          "as_up": 13,
+          "as_down": 2,
+          "last_horse": "Rússia",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 10,
-          "ticker": "XLE",
+          "ticker": "FRO",
           "total": 14,
-          "as_up": 12,
-          "as_down": 2,
-          "last_horse": "Rússia",
+          "as_up": 14,
+          "as_down": 0,
+          "last_horse": "Irão",
           "band": "all",
           "direction": "all"
         },
@@ -239,8 +239,8 @@
         {
           "rank": 1,
           "ticker": "XOM",
-          "total": 23,
-          "as_up": 23,
+          "total": 22,
+          "as_up": 22,
           "as_down": 0,
           "last_horse": "Trump",
           "band": "all",
@@ -290,6 +290,16 @@
       "top6_20": [
         {
           "rank": 6,
+          "ticker": "XLE",
+          "total": 5,
+          "as_up": 5,
+          "as_down": 0,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 7,
           "ticker": "GOLD",
           "total": 5,
           "as_up": 4,
@@ -299,7 +309,7 @@
           "direction": "all"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "ticker": "NEM",
           "total": 5,
           "as_up": 1,
@@ -309,7 +319,7 @@
           "direction": "all"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "ticker": "NUE",
           "total": 4,
           "as_up": 4,
@@ -319,22 +329,12 @@
           "direction": "all"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "ticker": "NVDA",
           "total": 4,
           "as_up": 4,
           "as_down": 0,
           "last_horse": "Chips",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 10,
-          "ticker": "XLE",
-          "total": 4,
-          "as_up": 4,
-          "as_down": 0,
-          "last_horse": "Irão",
           "band": "all",
           "direction": "all"
         },
@@ -420,21 +420,21 @@
         },
         {
           "rank": 19,
-          "ticker": "RTX",
-          "total": 2,
-          "as_up": 0,
-          "as_down": 2,
-          "last_horse": "Irão",
+          "ticker": "ANAB",
+          "total": 1,
+          "as_up": 1,
+          "as_down": 0,
+          "last_horse": "Trump",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 20,
-          "ticker": "ANTH",
+          "ticker": "EUR",
           "total": 1,
           "as_up": 1,
           "as_down": 0,
-          "last_horse": "Trump",
+          "last_horse": "Fed",
           "band": "all",
           "direction": "all"
         }
@@ -445,9 +445,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-08-28T00:00:00+01:00",
-      "to": "2026-08-28T18:47:10+01:00",
+      "to": "2026-08-28T18:50:11+01:00",
       "from_label": "28/08 00:00",
-      "to_label": "28/08 18:47",
+      "to_label": "28/08 18:50",
       "n_events": 70,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -455,8 +455,8 @@
         {
           "rank": 1,
           "ticker": "XOM",
-          "total": 19,
-          "as_up": 19,
+          "total": 18,
+          "as_up": 18,
           "as_down": 0,
           "last_horse": "Irão",
           "band": "all",
@@ -475,8 +475,8 @@
         {
           "rank": 3,
           "ticker": "XLE",
-          "total": 7,
-          "as_up": 7,
+          "total": 8,
+          "as_up": 8,
           "as_down": 0,
           "last_horse": "Irão",
           "band": "all",
@@ -636,20 +636,20 @@
         },
         {
           "rank": 19,
-          "ticker": "RTX",
+          "ticker": "USB",
           "total": 2,
           "as_up": 0,
           "as_down": 2,
-          "last_horse": "Irão",
+          "last_horse": "Trump",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 20,
-          "ticker": "USB",
-          "total": 2,
-          "as_up": 0,
-          "as_down": 2,
+          "ticker": "ANAB",
+          "total": 1,
+          "as_up": 1,
+          "as_down": 0,
           "last_horse": "Trump",
           "band": "all",
           "direction": "all"
@@ -665,8 +665,8 @@
     {
       "rank": 1,
       "ticker": "XOM",
-      "total": 19,
-      "as_up": 19,
+      "total": 18,
+      "as_up": 18,
       "as_down": 0,
       "last_horse": "Irão",
       "band": "all",
@@ -685,8 +685,8 @@
     {
       "rank": 3,
       "ticker": "XLE",
-      "total": 7,
-      "as_up": 7,
+      "total": 8,
+      "as_up": 8,
       "as_down": 0,
       "last_horse": "Irão",
       "band": "all",
@@ -846,20 +846,20 @@
     },
     {
       "rank": 19,
-      "ticker": "RTX",
+      "ticker": "USB",
       "total": 2,
       "as_up": 0,
       "as_down": 2,
-      "last_horse": "Irão",
+      "last_horse": "Trump",
       "band": "all",
       "direction": "all"
     },
     {
       "rank": 20,
-      "ticker": "USB",
-      "total": 2,
-      "as_up": 0,
-      "as_down": 2,
+      "ticker": "ANAB",
+      "total": 1,
+      "as_up": 1,
+      "as_down": 0,
       "last_horse": "Trump",
       "band": "all",
       "direction": "all"
@@ -870,8 +870,8 @@
     {
       "rank": 1,
       "ticker": "XOM",
-      "total": 19,
-      "as_up": 19,
+      "total": 18,
+      "as_up": 18,
       "as_down": 0,
       "last_horse": "Irão",
       "band": "all",
@@ -890,8 +890,8 @@
     {
       "rank": 3,
       "ticker": "XLE",
-      "total": 7,
-      "as_up": 7,
+      "total": 8,
+      "as_up": 8,
       "as_down": 0,
       "last_horse": "Irão",
       "band": "all",
@@ -1049,20 +1049,20 @@
     },
     {
       "rank": 19,
-      "ticker": "RTX",
+      "ticker": "USB",
       "total": 2,
       "as_up": 0,
       "as_down": 2,
-      "last_horse": "Irão",
+      "last_horse": "Trump",
       "band": "all",
       "direction": "all"
     },
     {
       "rank": 20,
-      "ticker": "USB",
-      "total": 2,
-      "as_up": 0,
-      "as_down": 2,
+      "ticker": "ANAB",
+      "total": 1,
+      "as_up": 1,
+      "as_down": 0,
       "last_horse": "Trump",
       "band": "all",
       "direction": "all"
