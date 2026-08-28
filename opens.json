@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-28T14:41:30+01:00",
+  "updated_at": "2026-08-28T14:44:34+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "14:41",
+  "when_label": "14:44",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -14,12 +14,12 @@
       {
         "ticker": "XOM",
         "entry": 156.44,
-        "price": 152.675,
+        "price": 152.22,
         "qty": 0.063922,
         "notional": 10.0,
-        "pnl_pct": -2.4066734850421803,
-        "pnl_eur": -0.240667348504218,
-        "pnl_r": -0.75,
+        "pnl_pct": -2.6975198159038603,
+        "pnl_eur": -0.269751981590386,
+        "pnl_r": -0.84,
         "sl": 151.42,
         "tp1": 166.48,
         "tp2": 171.5,
@@ -41,20 +41,20 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -2.4066734850421803,
-    "total_pnl_eur": -0.240667348504218
+    "total_pnl_pct": -2.6975198159038603,
+    "total_pnl_eur": -0.269751981590386
   },
   "pipoca_high": {
     "rows": [
       {
         "ticker": "XOM",
         "entry": 156.44,
-        "price": 152.675,
+        "price": 152.22,
         "qty": 0.063922,
         "notional": 10.0,
-        "pnl_pct": -2.4066734850421803,
-        "pnl_eur": -0.240667348504218,
-        "pnl_r": -0.75,
+        "pnl_pct": -2.6975198159038603,
+        "pnl_eur": -0.269751981590386,
+        "pnl_r": -0.84,
         "sl": 151.42,
         "tp1": 166.48,
         "tp2": 171.5,
@@ -78,12 +78,12 @@
       {
         "ticker": "HPQ",
         "entry": 29.625,
-        "price": 30.045,
+        "price": 30.46,
         "qty": 0.337553,
         "notional": 10.0,
-        "pnl_pct": 1.4177215189873476,
-        "pnl_eur": 0.14177215189873474,
-        "pnl_r": 0.13,
+        "pnl_pct": 2.8185654008438847,
+        "pnl_eur": 0.2818565400843885,
+        "pnl_r": 0.26,
         "sl": 26.46,
         "tp1": 35.95,
         "tp2": 39.12,
@@ -105,20 +105,20 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.49447598302741635,
-    "total_pnl_eur": -0.09889519660548327
+    "total_pnl_pct": 0.06052279247001247,
+    "total_pnl_eur": 0.012104558494002493
   },
   "pipoca_extreme": {
     "rows": [
       {
         "ticker": "NVDA",
         "entry": 228.17,
-        "price": 228.645,
+        "price": 227.39,
         "qty": 0.043827,
         "notional": 10.0,
-        "pnl_pct": 0.20817811281063364,
-        "pnl_eur": 0.020817811281063362,
-        "pnl_r": 0.02,
+        "pnl_pct": -0.34185037472060353,
+        "pnl_eur": -0.03418503747206036,
+        "pnl_r": -0.04,
         "sl": 208.81,
         "tp1": 266.89,
         "tp2": 286.25,
@@ -142,12 +142,12 @@
       {
         "ticker": "NEE",
         "entry": 83.47,
-        "price": 82.125,
+        "price": 82.27,
         "qty": 0.119804,
         "notional": 10.0,
-        "pnl_pct": -1.6113573739067915,
-        "pnl_eur": -0.16113573739067916,
-        "pnl_r": -0.64,
+        "pnl_pct": -1.4376422666826438,
+        "pnl_eur": -0.14376422666826438,
+        "pnl_r": -0.57,
         "sl": 81.38,
         "tp1": 87.65,
         "tp2": 89.74,
@@ -171,12 +171,12 @@
       {
         "ticker": "ASML",
         "entry": 1734.85,
-        "price": 1733.705,
+        "price": 1736.54,
         "qty": 0.005764,
         "notional": 10.0,
-        "pnl_pct": -0.0659999423581279,
-        "pnl_eur": -0.006599994235812791,
-        "pnl_r": -0.02,
+        "pnl_pct": 0.09741476208318037,
+        "pnl_eur": 0.009741476208318037,
+        "pnl_r": 0.02,
         "sl": 1660.74,
         "tp1": 1883.07,
         "tp2": 1957.18,
@@ -200,12 +200,12 @@
       {
         "ticker": "NUE",
         "entry": 252.4,
-        "price": 255.325,
+        "price": 258.705,
         "qty": 0.03962,
         "notional": 10.0,
-        "pnl_pct": 1.1588748019017365,
-        "pnl_eur": 0.11588748019017364,
-        "pnl_r": 0.23,
+        "pnl_pct": 2.4980190174326378,
+        "pnl_eur": 0.2498019017432638,
+        "pnl_r": 0.49,
         "sl": 239.56,
         "tp1": 278.08,
         "tp2": 290.92,
@@ -227,8 +227,8 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.07757610038813735,
-    "total_pnl_eur": -0.03103044015525494
+    "total_pnl_pct": 0.20398528452814274,
+    "total_pnl_eur": 0.08159411381125709
   },
   "oficial": {
     "rows": [],
@@ -256,12 +256,12 @@
       {
         "ticker": "XOM",
         "entry": 156.8,
-        "price": 152.675,
+        "price": 152.22,
         "qty": 6.377551,
         "notional": 1000.0,
-        "pnl_pct": -2.6307397959183674,
-        "pnl_eur": -26.30739795918367,
-        "pnl_r": -1.05,
+        "pnl_pct": -2.9209183673469465,
+        "pnl_eur": -29.209183673469465,
+        "pnl_r": -1.17,
         "sl": 152.88,
         "tp1": 164.64,
         "tp2": 164.64,
@@ -285,12 +285,12 @@
       {
         "ticker": "WMB",
         "entry": 73.875,
-        "price": 74.485,
+        "price": 74.46,
         "qty": 13.536379,
         "notional": 1000.0,
-        "pnl_pct": 0.8257191201353631,
-        "pnl_eur": 8.257191201353631,
-        "pnl_r": 0.33,
+        "pnl_pct": 0.791878172588824,
+        "pnl_eur": 7.91878172588824,
+        "pnl_r": 0.32,
         "sl": 72.0281,
         "tp1": 77.5687,
         "tp2": 77.5687,
@@ -343,12 +343,12 @@
       {
         "ticker": "TLT",
         "entry": 83.025,
-        "price": 83.035,
+        "price": 83.015,
         "qty": 12.044565,
         "notional": 1000.0,
-        "pnl_pct": 0.01204456489008239,
-        "pnl_eur": 0.1204456489008239,
-        "pnl_r": 0.0,
+        "pnl_pct": -0.012044564890099505,
+        "pnl_eur": -0.12044564890099506,
+        "pnl_r": -0.0,
         "sl": 80.9494,
         "tp1": 87.1763,
         "tp2": 87.1763,
@@ -370,27 +370,14 @@
         "horizon_days": 5
       }
     ],
-    "total_pnl_pct": -0.3843310496290915,
-    "total_pnl_eur": -15.373241985163657,
+    "total_pnl_pct": -0.47135821181791654,
+    "total_pnl_eur": -18.85432847271666,
     "bank_eur": 5000.0,
-    "equity_eur": 4984.63
+    "equity_eur": 4981.15
   },
   "possible": {
     "quase": [],
     "out_market": [
-      {
-        "ticker": "XOM",
-        "book": "pipoca",
-        "horse": "Irão",
-        "impact": 68,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · RED NEWS a decorrer (GDP m/m)",
-        "next_check": "2026-08-28T13:54:26.932867+00:00",
-        "first_seen": "2026-08-28T07:01:15.820352+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
       {
         "ticker": "XOM",
         "book": "tobias_swing",
@@ -471,19 +458,6 @@
       },
       {
         "ticker": "XOM",
-        "book": "pipoca",
-        "horse": "Irão",
-        "impact": 69,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · RED NEWS a decorrer (GDP m/m)",
-        "next_check": "2026-08-28T13:54:29.299994+00:00",
-        "first_seen": "2026-08-28T07:01:17.073091+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "XOM",
         "book": "tobias_swing",
         "horse": "Irão",
         "impact": 74,
@@ -538,11 +512,37 @@
         "ticker": "XOM",
         "book": "pipoca",
         "horse": "Irão",
+        "impact": 68,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · RED NEWS a decorrer (GDP m/m)",
+        "next_check": "2026-08-28T13:59:26.942082+00:00",
+        "first_seen": "2026-08-28T07:01:15.820352+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "XOM",
+        "book": "pipoca",
+        "horse": "Irão",
+        "impact": 69,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · RED NEWS a decorrer (GDP m/m)",
+        "next_check": "2026-08-28T13:59:28.507238+00:00",
+        "first_seen": "2026-08-28T07:01:17.073091+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "XOM",
+        "book": "pipoca",
+        "horse": "Irão",
         "impact": 78,
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · RED NEWS a decorrer (GDP m/m)",
-        "next_check": "2026-08-28T13:54:30.358044+00:00",
+        "next_check": "2026-08-28T13:59:29.704237+00:00",
         "first_seen": "2026-08-28T07:01:17.940762+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -555,7 +555,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · RED NEWS a decorrer (GDP m/m)",
-        "next_check": "2026-08-28T13:54:31.800591+00:00",
+        "next_check": "2026-08-28T13:59:31.451576+00:00",
         "first_seen": "2026-08-28T07:01:19.246557+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -568,7 +568,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · RED NEWS a decorrer (GDP m/m)",
-        "next_check": "2026-08-28T13:54:31.806781+00:00",
+        "next_check": "2026-08-28T13:59:31.458229+00:00",
         "first_seen": "2026-08-28T07:01:19.250814+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -578,19 +578,6 @@
     "rows": [
       {
         "ticker": "XOM",
-        "book": "pipoca",
-        "horse": "Irão",
-        "impact": 68,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · RED NEWS a decorrer (GDP m/m)",
-        "next_check": "2026-08-28T13:54:26.932867+00:00",
-        "first_seen": "2026-08-28T07:01:15.820352+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "XOM",
         "book": "tobias_swing",
         "horse": "Irão",
         "impact": 69,
@@ -669,19 +656,6 @@
       },
       {
         "ticker": "XOM",
-        "book": "pipoca",
-        "horse": "Irão",
-        "impact": 69,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · RED NEWS a decorrer (GDP m/m)",
-        "next_check": "2026-08-28T13:54:29.299994+00:00",
-        "first_seen": "2026-08-28T07:01:17.073091+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "XOM",
         "book": "tobias_swing",
         "horse": "Irão",
         "impact": 74,
@@ -736,11 +710,37 @@
         "ticker": "XOM",
         "book": "pipoca",
         "horse": "Irão",
+        "impact": 68,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · RED NEWS a decorrer (GDP m/m)",
+        "next_check": "2026-08-28T13:59:26.942082+00:00",
+        "first_seen": "2026-08-28T07:01:15.820352+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "XOM",
+        "book": "pipoca",
+        "horse": "Irão",
+        "impact": 69,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · RED NEWS a decorrer (GDP m/m)",
+        "next_check": "2026-08-28T13:59:28.507238+00:00",
+        "first_seen": "2026-08-28T07:01:17.073091+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "XOM",
+        "book": "pipoca",
+        "horse": "Irão",
         "impact": 78,
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · RED NEWS a decorrer (GDP m/m)",
-        "next_check": "2026-08-28T13:54:30.358044+00:00",
+        "next_check": "2026-08-28T13:59:29.704237+00:00",
         "first_seen": "2026-08-28T07:01:17.940762+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -753,7 +753,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · RED NEWS a decorrer (GDP m/m)",
-        "next_check": "2026-08-28T13:54:31.800591+00:00",
+        "next_check": "2026-08-28T13:59:31.451576+00:00",
         "first_seen": "2026-08-28T07:01:19.246557+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -766,7 +766,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · RED NEWS a decorrer (GDP m/m)",
-        "next_check": "2026-08-28T13:54:31.806781+00:00",
+        "next_check": "2026-08-28T13:59:31.458229+00:00",
         "first_seen": "2026-08-28T07:01:19.250814+00:00",
         "status": "wait",
         "lane": "out_market"
