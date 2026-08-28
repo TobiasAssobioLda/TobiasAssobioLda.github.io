@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-28T19:09:47+01:00",
+  "updated_at": "2026-08-28T19:15:07+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "19:09",
+  "when_label": "19:15",
   "title": "Full Report · Tobias",
   "note": "Todos os fechos · TP no topo · treino Tobias",
   "stats": {
@@ -10,8 +10,8 @@
     "sl": 2,
     "out": 37,
     "correto": 0,
-    "erro": 6,
-    "trainable": 6,
+    "erro": 5,
+    "trainable": 5,
     "realized_eur": -93.2,
     "realized_r": -4.92
   },
@@ -67,7 +67,7 @@
       "ticker": "XOM",
       "horse": "Popular",
       "kind": "out",
-      "label": "ERRO",
+      "label": "NEUTRO",
       "entry": 155.75,
       "exit": 155.645,
       "sl": 151.8562,
