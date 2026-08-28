@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T16:15:37+01:00",
+  "updated_at": "2026-08-28T16:15:50+01:00",
   "timezone": "Europe/Lisbon",
   "when_label": "16:15",
   "pipoca": {
@@ -8,12 +8,12 @@
         "id": 138,
         "ticker": "XOM",
         "entry": 156.11,
-        "price": 156.015,
+        "price": 156.335,
         "qty": 1.281148,
         "notional": 200.0,
-        "pnl_pct": -0.06085452565500434,
-        "pnl_eur": -0.1217090513100087,
-        "pnl_r": -0.02,
+        "pnl_pct": 0.14412913970917576,
+        "pnl_eur": 0.2882582794183516,
+        "pnl_r": 0.05,
         "sl": 151.66,
         "tp1": 165.01,
         "tp2": 169.46,
@@ -35,10 +35,10 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.06085452565500435,
-    "total_pnl_eur": -0.1217090513100087,
+    "total_pnl_pct": 0.1441291397091758,
+    "total_pnl_eur": 0.2882582794183516,
     "bank_eur": 2000.0,
-    "equity_eur": 1999.88
+    "equity_eur": 2000.29
   },
   "pipoca_avg": {
     "rows": [],
@@ -46,40 +46,9 @@
     "total_pnl_eur": 0.0
   },
   "pipoca_high": {
-    "rows": [
-      {
-        "id": 123,
-        "ticker": "HPQ",
-        "entry": 29.625,
-        "price": 30.755,
-        "qty": 0.337553,
-        "notional": 10.0,
-        "pnl_pct": 3.814345991561178,
-        "pnl_eur": 0.38143459915611777,
-        "pnl_r": 0.36,
-        "sl": 26.46,
-        "tp1": 35.95,
-        "tp2": 39.12,
-        "horse": "Earnings",
-        "news_hook": "",
-        "news_what": "",
-        "news_blurb": "",
-        "news_impact": 78,
-        "opened_at": "2026-08-27T21:25:10.329735+00:00",
-        "open_days": 0,
-        "time_stop_days": 15,
-        "diag": "🏷 CorrHigh · 🎤 Earnings: ALL IN · WAIT · i78 · prep · sinal 6.4 · corr +1.31 · star +0.00 · LOGI c0.65 d+0.89 · DELL c0.49 d+1.00 · CSCO c0.15 d+0.68 · NAO PERSEGUIR · watchlist · pipoca_high €10",
-        "corr_score": 1.31,
-        "sinal_score": 6.4,
-        "tp_tip": "",
-        "tp_gap": null,
-        "tp_sugerido_mid": null,
-        "event_date": "",
-        "horizon_days": 15
-      }
-    ],
-    "total_pnl_pct": 3.814345991561178,
-    "total_pnl_eur": 0.38143459915611777
+    "rows": [],
+    "total_pnl_pct": 0.0,
+    "total_pnl_eur": 0.0
   },
   "pipoca_extreme": {
     "rows": [
@@ -87,11 +56,11 @@
         "id": 118,
         "ticker": "NVDA",
         "entry": 228.17,
-        "price": 224.435,
+        "price": 224.425,
         "qty": 0.043827,
         "notional": 10.0,
-        "pnl_pct": -1.636937371258266,
-        "pnl_eur": -0.16369373712582658,
+        "pnl_pct": -1.6413200683700644,
+        "pnl_eur": -0.16413200683700643,
         "pnl_r": -0.19,
         "sl": 208.81,
         "tp1": 266.89,
@@ -117,12 +86,12 @@
         "id": 119,
         "ticker": "NEE",
         "entry": 83.47,
-        "price": 82.195,
+        "price": 82.175,
         "qty": 0.119804,
         "notional": 10.0,
-        "pnl_pct": -1.5274949083503124,
-        "pnl_eur": -0.15274949083503123,
-        "pnl_r": -0.61,
+        "pnl_pct": -1.5514556127950183,
+        "pnl_eur": -0.15514556127950183,
+        "pnl_r": -0.62,
         "sl": 81.38,
         "tp1": 87.65,
         "tp2": 89.74,
@@ -204,8 +173,8 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.35989871581402455,
-    "total_pnl_eur": -0.14395948632560981
+    "total_pnl_pct": -0.36698456620315073,
+    "total_pnl_eur": -0.1467938264812603
   },
   "oficial": {
     "rows": [],
@@ -220,12 +189,12 @@
         "id": 130,
         "ticker": "XOM",
         "entry": 155.43,
-        "price": 156.34,
+        "price": 156.335,
         "qty": 0.321688,
         "notional": 50.0,
-        "pnl_pct": 0.5854725599948507,
-        "pnl_eur": 0.2927362799974254,
-        "pnl_r": 0.21,
+        "pnl_pct": 0.5822556777970798,
+        "pnl_eur": 0.2911278388985399,
+        "pnl_r": 0.2,
         "sl": 151.0,
         "tp1": 164.29,
         "tp2": 168.72,
@@ -247,8 +216,8 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.5854725599948508,
-    "total_pnl_eur": 0.2927362799974254,
+    "total_pnl_pct": 0.5822556777970798,
+    "total_pnl_eur": 0.2911278388985399,
     "bank_eur": 2000.0,
     "equity_eur": 2000.29
   },
@@ -258,11 +227,11 @@
         "id": 131,
         "ticker": "XOM",
         "entry": 155.43,
-        "price": 156.34,
+        "price": 156.335,
         "qty": 0.160844,
         "notional": 25.0,
-        "pnl_pct": 0.5854725599948507,
-        "pnl_eur": 0.1463681399987127,
+        "pnl_pct": 0.5822556777970798,
+        "pnl_eur": 0.14556391944926994,
         "pnl_r": 0.02,
         "sl": 105.6924,
         "tp1": 230.0364,
@@ -285,8 +254,8 @@
         "horizon_days": 1
       }
     ],
-    "total_pnl_pct": 0.5854725599948508,
-    "total_pnl_eur": 0.1463681399987127,
+    "total_pnl_pct": 0.5822556777970798,
+    "total_pnl_eur": 0.14556391944926994,
     "bank_eur": 2000.0,
     "equity_eur": 2000.15
   },
@@ -296,12 +265,12 @@
         "id": 139,
         "ticker": "XOM",
         "entry": 156.2269,
-        "price": 156.34,
+        "price": 156.015,
         "qty": 1.281148,
         "notional": 1000.0,
-        "pnl_pct": 0.07239470283286864,
-        "pnl_eur": 0.14489783880000368,
-        "pnl_r": 0.01,
+        "pnl_pct": -0.13563605243400093,
+        "pnl_eur": -0.2714752612000182,
+        "pnl_r": -0.01,
         "sl": 136.7132,
         "tp1": 195.2544,
         "tp2": 195.2544,
@@ -323,10 +292,10 @@
         "horizon_days": 5
       }
     ],
-    "total_pnl_pct": 0.014489783880000367,
-    "total_pnl_eur": 0.14489783880000368,
+    "total_pnl_pct": -0.02714752612000182,
+    "total_pnl_eur": -0.2714752612000182,
     "bank_eur": 5000.0,
-    "equity_eur": 5000.14
+    "equity_eur": 4999.73
   },
   "scalper_1600": {
     "rows": [
@@ -364,12 +333,12 @@
         "id": 134,
         "ticker": "TLT",
         "entry": 83.515,
-        "price": 83.225,
+        "price": 83.235,
         "qty": 11.973897,
         "notional": 1000.0,
-        "pnl_pct": -0.34724301023768933,
-        "pnl_eur": -3.4724301023768938,
-        "pnl_r": -0.14,
+        "pnl_pct": -0.3352691133329355,
+        "pnl_eur": -3.3526911333293556,
+        "pnl_r": -0.13,
         "sl": 81.4271,
         "tp1": 87.6907,
         "tp2": 87.6907,
@@ -394,11 +363,11 @@
         "id": 136,
         "ticker": "CVX",
         "entry": 199.79,
-        "price": 201.61,
+        "price": 201.595,
         "qty": 5.005256,
         "notional": 1000.0,
-        "pnl_pct": 0.9109565043295569,
-        "pnl_eur": 9.10956504329557,
+        "pnl_pct": 0.9034486210521081,
+        "pnl_eur": 9.034486210521083,
         "pnl_r": 0.36,
         "sl": 194.7952,
         "tp1": 209.7795,
@@ -424,12 +393,12 @@
         "id": 137,
         "ticker": "GLD",
         "entry": 417.915,
-        "price": 418.905,
+        "price": 418.915,
         "qty": 2.392831,
         "notional": 1000.0,
-        "pnl_pct": 0.23689027673090274,
-        "pnl_eur": 2.3689027673090273,
-        "pnl_r": 0.09,
+        "pnl_pct": 0.2392831078090042,
+        "pnl_eur": 2.392831078090042,
+        "pnl_r": 0.1,
         "sl": 407.4671,
         "tp1": 438.8108,
         "tp2": 438.8108,
@@ -451,10 +420,10 @@
         "horizon_days": 5
       }
     ],
-    "total_pnl_pct": 0.276497863112018,
-    "total_pnl_eur": 11.059914524480721,
+    "total_pnl_pct": 0.27821257428836965,
+    "total_pnl_eur": 11.128502971534786,
     "bank_eur": 5000.0,
-    "equity_eur": 5011.06
+    "equity_eur": 5011.13
   },
   "possible": {
     "quase": [],
