@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T14:53:24+01:00",
+  "updated_at": "2026-08-28T14:53:30+01:00",
   "timezone": "Europe/Lisbon",
   "when_label": "14:53",
   "pipoca": {
@@ -38,10 +38,10 @@
     "book": "pipoca_high",
     "label": "Pipoca High",
     "bank_eur": 0.0,
-    "equity_eur": 0.08,
+    "equity_eur": 0.1,
     "open_count": 2,
     "open_notional": 20.0,
-    "open_pnl_eur": 0.08,
+    "open_pnl_eur": 0.1,
     "closed_count": 0,
     "realized_eur": 0.0,
     "realized_r": 0.0,
