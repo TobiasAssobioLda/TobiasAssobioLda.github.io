@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T07:24:50+01:00",
+  "updated_at": "2026-08-28T07:27:50+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -12,9 +12,9 @@
       "key": "week",
       "label": "Week · AVG+High desde sexta fecho NY",
       "from": "2026-08-21T21:00:00+01:00",
-      "to": "2026-08-28T07:24:50+01:00",
+      "to": "2026-08-28T07:27:50+01:00",
       "from_label": "21/08 21:00",
-      "to_label": "28/08 07:24",
+      "to_label": "28/08 07:27",
       "n_events": 247,
       "top5_count": 5,
       "top6_20_count": 15,
