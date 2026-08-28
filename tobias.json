@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-08-28T16:16:37+01:00",
+  "updated_at": "2026-08-28T16:16:49+01:00",
   "timezone": "Europe/Lisbon",
   "when_label": "16:16",
   "title": "Full Report · Tobias",
   "note": "Todos os fechos · TP no topo · treino Tobias",
   "stats": {
-    "n": 16,
+    "n": 17,
     "tp": 0,
     "sl": 1,
-    "out": 15,
+    "out": 16,
     "correto": 0,
     "erro": 3,
     "trainable": 3,
-    "realized_eur": -50.49,
-    "realized_r": -2.72
+    "realized_eur": -50.6,
+    "realized_r": -2.93
   },
   "rows": [
     {
@@ -37,6 +37,28 @@
       "opened_at": "2026-08-28T15:00:05.376322+00:00",
       "closed_at": "2026-08-28T15:01:03.866686+00:00",
       "news_hook": "SCALPER_1600 Popular #3 · 7× cards · sem oráculo · LMT"
+    },
+    {
+      "id": 121,
+      "book": "pipoca_extreme",
+      "book_label": "Pipoca Extreme",
+      "ticker": "NUE",
+      "horse": "Trump",
+      "kind": "out",
+      "label": "NEUTRO",
+      "entry": 252.4,
+      "exit": 249.73,
+      "sl": 239.56,
+      "tp1": 278.08,
+      "pnl_eur": -0.11,
+      "pnl_pct": -1.06,
+      "pnl_r": -0.21,
+      "corr": -0.51,
+      "impact": 90,
+      "exit_reason": "GUI CLOSE ALL",
+      "opened_at": "2026-08-27T21:25:07.540749+00:00",
+      "closed_at": "2026-08-28T15:16:43.975711+00:00",
+      "news_hook": ""
     },
     {
       "id": 120,
