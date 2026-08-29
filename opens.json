@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-29T23:58:50+01:00",
+  "updated_at": "2026-08-30T00:01:50+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "23:58",
+  "when_label": "00:01",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -308,7 +308,7 @@
     "out_market": [],
     "wait_window": [],
     "rows": [],
-    "day": "2026-08-29",
+    "day": "2026-08-30",
     "retry_min": 15,
     "max_tries": 6
   }
