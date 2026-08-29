@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T05:33:09+01:00",
+  "updated_at": "2026-08-29T05:36:09+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-08-28T21:00:00+01:00",
-      "to": "2026-08-29T05:33:09+01:00",
+      "to": "2026-08-29T05:36:09+01:00",
       "from_label": "28/08 21:00",
-      "to_label": "29/08 05:33",
+      "to_label": "29/08 05:36",
       "n_events": 0,
       "top5_count": 0,
       "top6_20_count": 0,
@@ -30,7 +30,7 @@
       "to": "2026-08-31T14:15:00+01:00",
       "from_label": "28/08 21:00",
       "to_label": "31/08 14:15",
-      "n_events": 18,
+      "n_events": 19,
       "top5_count": 5,
       "top6_20_count": 11,
       "top5": [
@@ -109,15 +109,25 @@
         {
           "rank": 8,
           "ticker": "BABA",
-          "total": 1,
-          "as_up": 1,
+          "total": 2,
+          "as_up": 2,
           "as_down": 0,
-          "last_horse": "Trump",
+          "last_horse": "China",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 9,
+          "ticker": "PDD",
+          "total": 2,
+          "as_up": 0,
+          "as_down": 2,
+          "last_horse": "China",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 10,
           "ticker": "NUE",
           "total": 1,
           "as_up": 1,
@@ -127,7 +137,7 @@
           "direction": "all"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "ticker": "NVDA",
           "total": 1,
           "as_up": 1,
@@ -137,7 +147,7 @@
           "direction": "all"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "ticker": "AMD",
           "total": 1,
           "as_up": 0,
@@ -147,7 +157,7 @@
           "direction": "all"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "ticker": "BAC",
           "total": 1,
           "as_up": 0,
@@ -157,7 +167,7 @@
           "direction": "all"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "ticker": "CLF",
           "total": 1,
           "as_up": 0,
@@ -167,22 +177,12 @@
           "direction": "all"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "ticker": "KGC",
           "total": 1,
           "as_up": 0,
           "as_down": 1,
           "last_horse": "Ouro",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 15,
-          "ticker": "PDD",
-          "total": 1,
-          "as_up": 0,
-          "as_down": 1,
-          "last_horse": "Trump",
           "band": "all",
           "direction": "all"
         },
@@ -203,9 +203,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-08-29T00:00:00+01:00",
-      "to": "2026-08-29T05:33:09+01:00",
+      "to": "2026-08-29T05:36:09+01:00",
       "from_label": "29/08 00:00",
-      "to_label": "29/08 05:33",
+      "to_label": "29/08 05:36",
       "n_events": 0,
       "top5_count": 0,
       "top6_20_count": 0,
