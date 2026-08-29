@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T05:51:09+01:00",
+  "updated_at": "2026-08-29T05:54:08+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-08-28T21:00:00+01:00",
-      "to": "2026-08-29T05:51:09+01:00",
+      "to": "2026-08-29T05:54:08+01:00",
       "from_label": "28/08 21:00",
-      "to_label": "29/08 05:51",
+      "to_label": "29/08 05:54",
       "n_events": 0,
       "top5_count": 0,
       "top6_20_count": 0,
@@ -30,15 +30,15 @@
       "to": "2026-08-31T14:15:00+01:00",
       "from_label": "28/08 21:00",
       "to_label": "31/08 14:15",
-      "n_events": 19,
+      "n_events": 21,
       "top5_count": 5,
-      "top6_20_count": 11,
+      "top6_20_count": 13,
       "top5": [
         {
           "rank": 1,
           "ticker": "XOM",
-          "total": 8,
-          "as_up": 8,
+          "total": 9,
+          "as_up": 9,
           "as_down": 0,
           "last_horse": "Irão",
           "band": "all",
@@ -56,6 +56,16 @@
         },
         {
           "rank": 3,
+          "ticker": "CVX",
+          "total": 4,
+          "as_up": 0,
+          "as_down": 4,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 4,
           "ticker": "GS",
           "total": 3,
           "as_up": 3,
@@ -65,7 +75,7 @@
           "direction": "all"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "ticker": "GOLD",
           "total": 3,
           "as_up": 2,
@@ -73,26 +83,16 @@
           "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
-        },
-        {
-          "rank": 5,
-          "ticker": "NEM",
-          "total": 3,
-          "as_up": 1,
-          "as_down": 2,
-          "last_horse": "Ouro",
-          "band": "all",
-          "direction": "all"
         }
       ],
       "top6_20": [
         {
           "rank": 6,
-          "ticker": "CVX",
+          "ticker": "NEM",
           "total": 3,
-          "as_up": 0,
-          "as_down": 3,
-          "last_horse": "Irão",
+          "as_up": 1,
+          "as_down": 2,
+          "last_horse": "Ouro",
           "band": "all",
           "direction": "all"
         },
@@ -128,6 +128,16 @@
         },
         {
           "rank": 10,
+          "ticker": "MRVL",
+          "total": 1,
+          "as_up": 1,
+          "as_down": 0,
+          "last_horse": "Earnings",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 11,
           "ticker": "NUE",
           "total": 1,
           "as_up": 1,
@@ -137,7 +147,7 @@
           "direction": "all"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "ticker": "NVDA",
           "total": 1,
           "as_up": 1,
@@ -147,7 +157,7 @@
           "direction": "all"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "ticker": "AMD",
           "total": 1,
           "as_up": 0,
@@ -157,7 +167,7 @@
           "direction": "all"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "ticker": "BAC",
           "total": 1,
           "as_up": 0,
@@ -167,7 +177,7 @@
           "direction": "all"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "ticker": "CLF",
           "total": 1,
           "as_up": 0,
@@ -177,7 +187,17 @@
           "direction": "all"
         },
         {
-          "rank": 15,
+          "rank": 16,
+          "ticker": "GOOGL",
+          "total": 1,
+          "as_up": 0,
+          "as_down": 1,
+          "last_horse": "Earnings",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 17,
           "ticker": "KGC",
           "total": 1,
           "as_up": 0,
@@ -187,7 +207,7 @@
           "direction": "all"
         },
         {
-          "rank": 16,
+          "rank": 18,
           "ticker": "SCHW",
           "total": 1,
           "as_up": 0,
@@ -203,9 +223,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-08-29T00:00:00+01:00",
-      "to": "2026-08-29T05:51:09+01:00",
+      "to": "2026-08-29T05:54:08+01:00",
       "from_label": "29/08 00:00",
-      "to_label": "29/08 05:51",
+      "to_label": "29/08 05:54",
       "n_events": 0,
       "top5_count": 0,
       "top6_20_count": 0,
