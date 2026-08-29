@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-29T20:14:15+01:00",
+  "updated_at": "2026-08-29T20:17:15+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "20:14",
+  "when_label": "20:17",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -249,7 +249,7 @@
         "news_blurb": "🎤 sync · Alpaca mãe · LMT",
         "news_impact": 0,
         "opened_at": "2026-08-28T19:15:01.027215+00:00",
-        "open_days": 0,
+        "open_days": 1,
         "time_stop_days": 15,
         "diag": "scalper · sync Alpaca · €1000 · sync · Alpaca mãe · LMT",
         "corr_score": 0.0,
@@ -279,7 +279,7 @@
         "news_blurb": "🎤 sync · Alpaca mãe · MSTR",
         "news_impact": 0,
         "opened_at": "2026-08-28T19:15:01.033364+00:00",
-        "open_days": 0,
+        "open_days": 1,
         "time_stop_days": 15,
         "diag": "scalper · sync Alpaca · €1000 · sync · Alpaca mãe · MSTR",
         "corr_score": 0.0,
