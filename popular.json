@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T21:35:15+01:00",
+  "updated_at": "2026-08-30T21:38:12+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-08-28T21:00:00+01:00",
-      "to": "2026-08-30T21:35:15+01:00",
+      "to": "2026-08-30T21:38:12+01:00",
       "from_label": "28/08 21:00",
-      "to_label": "30/08 21:35",
+      "to_label": "30/08 21:38",
       "n_events": 93,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -232,7 +232,7 @@
       "to": "2026-08-31T14:15:00+01:00",
       "from_label": "28/08 21:00",
       "to_label": "31/08 14:15",
-      "n_events": 106,
+      "n_events": 108,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
@@ -320,6 +320,16 @@
         },
         {
           "rank": 9,
+          "ticker": "GS",
+          "total": 5,
+          "as_up": 4,
+          "as_down": 1,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 10,
           "ticker": "F",
           "total": 5,
           "as_up": 1,
@@ -329,22 +339,12 @@
           "direction": "all"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "ticker": "PDD",
           "total": 5,
           "as_up": 0,
           "as_down": 5,
           "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 11,
-          "ticker": "GS",
-          "total": 4,
-          "as_up": 4,
-          "as_down": 0,
-          "last_horse": "Fed",
           "band": "all",
           "direction": "all"
         },
@@ -420,21 +420,21 @@
         },
         {
           "rank": 19,
-          "ticker": "HD",
+          "ticker": "BAC",
           "total": 2,
           "as_up": 1,
           "as_down": 1,
-          "last_horse": "Earnings",
+          "last_horse": "Irão",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 20,
-          "ticker": "SMH",
+          "ticker": "HD",
           "total": 2,
           "as_up": 1,
           "as_down": 1,
-          "last_horse": "China",
+          "last_horse": "Earnings",
           "band": "all",
           "direction": "all"
         }
@@ -445,9 +445,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-08-30T00:00:00+01:00",
-      "to": "2026-08-30T21:35:15+01:00",
+      "to": "2026-08-30T21:38:12+01:00",
       "from_label": "30/08 00:00",
-      "to_label": "30/08 21:35",
+      "to_label": "30/08 21:38",
       "n_events": 35,
       "top5_count": 5,
       "top6_20_count": 15,
