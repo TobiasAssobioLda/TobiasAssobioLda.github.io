@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-30T14:04:44+01:00",
+  "updated_at": "2026-08-30T14:07:44+01:00",
   "timezone": "Europe/Lisbon",
   "opens_count": 0,
-  "calendar_count": 2,
+  "calendar_count": 1,
   "opens_rows": [],
   "calendar_rows": [
     {
@@ -21,26 +21,9 @@
       "source": "spam",
       "note": "noise",
       "rank": 1
-    },
-    {
-      "event_date": "2026-09-01",
-      "date_label": "01/09",
-      "title": "NIO Next Earnings Report on September 1 Could Send the Stock Soaring . Here Why .",
-      "horse": "Earnings",
-      "tickers": "MSFT / AAPL",
-      "ticker_up": "MSFT",
-      "ticker_down": "AAPL",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 50,
-      "range": "",
-      "url": "https://www.aol.com/articles/nios-next-earnings-report-september-225001000.html",
-      "source": "spam",
-      "note": "noise",
-      "rank": 2
     }
   ],
-  "count": 2,
+  "count": 1,
   "rows": [
     {
       "event_date": "2026-09-01",
@@ -58,23 +41,6 @@
       "source": "spam",
       "note": "noise",
       "rank": 1
-    },
-    {
-      "event_date": "2026-09-01",
-      "date_label": "01/09",
-      "title": "NIO Next Earnings Report on September 1 Could Send the Stock Soaring . Here Why .",
-      "horse": "Earnings",
-      "tickers": "MSFT / AAPL",
-      "ticker_up": "MSFT",
-      "ticker_down": "AAPL",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 50,
-      "range": "",
-      "url": "https://www.aol.com/articles/nios-next-earnings-report-september-225001000.html",
-      "source": "spam",
-      "note": "noise",
-      "rank": 2
     }
   ]
 }
