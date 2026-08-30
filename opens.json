@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-30T20:11:08+01:00",
+  "updated_at": "2026-08-30T20:14:08+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "20:11",
+  "when_label": "20:14",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -181,7 +181,7 @@
         "news_blurb": "🎤 ALL IN · WAIT · i85 · prep",
         "news_impact": 85,
         "opened_at": "2026-08-28T19:12:35.497291+00:00",
-        "open_days": 1,
+        "open_days": 2,
         "time_stop_days": 15,
         "diag": "🎤 ALL IN · WAIT · i85 · prep · sinal 5.7 · corr +1.16 · star +0.00 · GD c0.61 d+0.68 · NOC c0.68 d+0.50 · ITA c0.55 d+0.46 · PREPARAR · reteste · tobias scalper micro",
         "corr_score": 1.16,
@@ -211,7 +211,7 @@
         "news_blurb": "🎤 ALL IN · WAIT · i76 · prep",
         "news_impact": 76,
         "opened_at": "2026-08-28T19:13:15.031236+00:00",
-        "open_days": 1,
+        "open_days": 2,
         "time_stop_days": 15,
         "diag": "🎤 ALL IN · WAIT · i76 · prep · sinal 5.0 · corr +1.24 · star -2.91 · MARA c0.41 d-1.45 · IBIT c0.8 d-0.33 · GBTC c0.8 d-0.30 · NAO PERSEGUIR · watchlist · TP sugerido · fecho gap @144.39 (há 61d) · médio gap/2R @148.19 · tobias scalper micro",
         "corr_score": 1.24,
