@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T16:55:12+01:00",
+  "updated_at": "2026-08-31T17:00:22+01:00",
   "timezone": "Europe/Lisbon",
   "day": "2026-08-31",
   "total": 65,
@@ -8,9 +8,9 @@
   "extreme": 11,
   "scalper": 5,
   "by_lane": {
-    "no_pass": 29,
-    "entrou": 12,
-    "nao_entrou": 24
+    "no_pass": 35,
+    "entrou": 18,
+    "nao_entrou": 12
   },
   "rows": [
     {
@@ -715,7 +715,7 @@
       "book": "pipoca_extreme",
       "book_label": "Extreme",
       "kind": "—",
-      "lane": "nao_entrou",
+      "lane": "entrou",
       "window": "all_in",
       "impact": 92,
       "ticker_up": "",
@@ -725,7 +725,7 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · i92 · prep"
+      "nota": "ENTRY · i92"
     },
     {
       "ticker": "XOM",
@@ -742,14 +742,14 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · Pipoca cand · i85"
+      "nota": "NOT ENTRY · Pipoca · i85"
     },
     {
       "ticker": "LMT",
       "book": "pipoca_extreme",
       "book_label": "Extreme",
       "kind": "—",
-      "lane": "nao_entrou",
+      "lane": "entrou",
       "window": "all_in",
       "impact": 95,
       "ticker_up": "",
@@ -759,7 +759,7 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · i95 · prep"
+      "nota": "ENTRY · i95"
     },
     {
       "ticker": "LMT",
@@ -776,14 +776,14 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · Pipoca cand · i78"
+      "nota": "NOT ENTRY · Pipoca · i78"
     },
     {
       "ticker": "XLE",
       "book": "pipoca_extreme",
       "book_label": "Extreme",
       "kind": "—",
-      "lane": "nao_entrou",
+      "lane": "entrou",
       "window": "all_in",
       "impact": 92,
       "ticker_up": "",
@@ -793,7 +793,7 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · i92 · prep"
+      "nota": "ENTRY · i92"
     },
     {
       "ticker": "XLE",
@@ -810,7 +810,7 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · Pipoca cand · i82"
+      "nota": "NOT ENTRY · Pipoca · i82"
     },
     {
       "ticker": "TLT",
@@ -827,7 +827,7 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · i92 · prep"
+      "nota": "NOT ENTRY · i92"
     },
     {
       "ticker": "TLT",
@@ -844,14 +844,14 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · Pipoca cand · i82"
+      "nota": "NOT ENTRY · Pipoca · i82"
     },
     {
       "ticker": "LMT",
       "book": "pipoca_high",
       "book_label": "High",
       "kind": "—",
-      "lane": "nao_entrou",
+      "lane": "no_pass",
       "window": "all_in",
       "impact": 78,
       "ticker_up": "",
@@ -861,14 +861,14 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · i78 · prep"
+      "nota": "NO PASS · corr +0.14"
     },
     {
       "ticker": "TLT",
       "book": "pipoca_high",
       "book_label": "High",
       "kind": "—",
-      "lane": "nao_entrou",
+      "lane": "no_pass",
       "window": "all_in",
       "impact": 82,
       "ticker_up": "",
@@ -878,14 +878,14 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · i82 · prep"
+      "nota": "NO PASS · corr +0.96"
     },
     {
       "ticker": "GLD",
       "book": "pipoca_high",
       "book_label": "High",
       "kind": "—",
-      "lane": "nao_entrou",
+      "lane": "entrou",
       "window": "all_in",
       "impact": 88,
       "ticker_up": "",
@@ -895,7 +895,7 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · i88 · prep"
+      "nota": "ENTRY · i88"
     },
     {
       "ticker": "GLD",
@@ -912,14 +912,14 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · Pipoca cand · i88"
+      "nota": "NOT ENTRY · Pipoca · i88"
     },
     {
       "ticker": "XOM",
       "book": "pipoca_high",
       "book_label": "High",
       "kind": "—",
-      "lane": "nao_entrou",
+      "lane": "entrou",
       "window": "all_in",
       "impact": 85,
       "ticker_up": "",
@@ -929,14 +929,14 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · i85 · prep"
+      "nota": "ENTRY · i85"
     },
     {
       "ticker": "XLE",
       "book": "pipoca_high",
       "book_label": "High",
       "kind": "—",
-      "lane": "nao_entrou",
+      "lane": "no_pass",
       "window": "all_in",
       "impact": 82,
       "ticker_up": "",
@@ -946,7 +946,7 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · i82 · prep"
+      "nota": "NO PASS · corr -1.53"
     },
     {
       "ticker": "NUE",
@@ -963,7 +963,7 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · i85 · prep"
+      "nota": "NOT ENTRY · corr +1.22"
     },
     {
       "ticker": "NUE",
@@ -980,14 +980,14 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · Pipoca cand · i85"
+      "nota": "NOT ENTRY · Pipoca · i85"
     },
     {
       "ticker": "UUP",
       "book": "pipoca_high",
       "book_label": "High",
       "kind": "—",
-      "lane": "nao_entrou",
+      "lane": "no_pass",
       "window": "all_in",
       "impact": 85,
       "ticker_up": "",
@@ -997,7 +997,7 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · i85 · prep"
+      "nota": "NO PASS · corr -2.01"
     },
     {
       "ticker": "UUP",
@@ -1014,14 +1014,14 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · Pipoca cand · i85"
+      "nota": "NOT ENTRY · Pipoca · i85"
     },
     {
       "ticker": "NVDA",
       "book": "pipoca_high",
       "book_label": "High",
       "kind": "—",
-      "lane": "nao_entrou",
+      "lane": "entrou",
       "window": "all_in",
       "impact": 85,
       "ticker_up": "",
@@ -1031,7 +1031,7 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · i85 · prep"
+      "nota": "ENTRY · i85"
     },
     {
       "ticker": "NVDA",
@@ -1048,12 +1048,29 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · Pipoca cand · i85"
+      "nota": "NOT ENTRY · Pipoca · i85"
     },
     {
       "ticker": "CAT",
       "book": "pipoca_high",
       "book_label": "High",
+      "kind": "—",
+      "lane": "no_pass",
+      "window": "all_in",
+      "impact": 82,
+      "ticker_up": "",
+      "ticker_down": "",
+      "force_10": 0.0,
+      "force_n": 0,
+      "force_bar": "ALL IN",
+      "forca": "ALL IN",
+      "tg_status": "",
+      "nota": "NO PASS · corr +0.00"
+    },
+    {
+      "ticker": "CAT",
+      "book": "pipoca",
+      "book_label": "Pipoca",
       "kind": "—",
       "lane": "nao_entrou",
       "window": "all_in",
@@ -1065,31 +1082,14 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · i82 · prep"
-    },
-    {
-      "ticker": "CAT",
-      "book": "pipoca",
-      "book_label": "Pipoca",
-      "kind": "—",
-      "lane": "nao_entrou",
-      "window": "all_in",
-      "impact": 82,
-      "ticker_up": "",
-      "ticker_down": "",
-      "force_10": 0.0,
-      "force_n": 0,
-      "force_bar": "ALL IN",
-      "forca": "ALL IN",
-      "tg_status": "",
-      "nota": "ALL IN · Pipoca cand · i82"
+      "nota": "NOT ENTRY · Pipoca · i82"
     },
     {
       "ticker": "CBA.AX",
       "book": "pipoca_high",
       "book_label": "High",
       "kind": "—",
-      "lane": "nao_entrou",
+      "lane": "no_pass",
       "window": "all_in",
       "impact": 78,
       "ticker_up": "",
@@ -1099,7 +1099,7 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · i78 · prep"
+      "nota": "NO PASS · corr +0.00"
     },
     {
       "ticker": "CBA.AX",
@@ -1116,7 +1116,7 @@
       "force_bar": "ALL IN",
       "forca": "ALL IN",
       "tg_status": "",
-      "nota": "ALL IN · Pipoca cand · i78"
+      "nota": "NOT ENTRY · Pipoca · i78"
     }
   ]
 }
