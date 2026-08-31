@@ -1,10 +1,46 @@
 {
-  "updated_at": "2026-08-31T12:44:47+01:00",
+  "updated_at": "2026-08-31T12:47:46+01:00",
   "timezone": "Europe/Lisbon",
   "opens_count": 0,
-  "calendar_count": 0,
+  "calendar_count": 1,
   "opens_rows": [],
-  "calendar_rows": [],
-  "count": 0,
-  "rows": []
+  "calendar_rows": [
+    {
+      "event_date": "2026-09-30",
+      "date_label": "30/09",
+      "title": "Conagra Brands to Release Fiscal 2027 First Quarter Earnings on September 30, 2026 - Morningstar",
+      "horse": "Earnings",
+      "tickers": "MSFT / AAPL",
+      "ticker_up": "MSFT",
+      "ticker_down": "AAPL",
+      "action": "alerta",
+      "status": "candidate",
+      "score": 50,
+      "range": "",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSmRvajBqYnkwQjZJbkNYWDRwTGhHeUNmS2txa0J1QnV2SDFPQzBCampMSFdIVkRQRE5wWFZmSTZwUmU4ZDJNRGlpaTBqTjlLb21ZTUpkYmNSeE9BVGxMS1ZjbHY3cWZyWFdDS1Y5QzNScFJ0MlBudXNrWm9lbmRod2tCa01vZ0p1TDAxSGlwVGt3bGxzMUNPREc3MWkzeTBiT0o0bS1RcHJjRlRmTjIzRWpwZGZCNm0zS1pWcWNaS0hETU9ZemVkYlBHYzNBV1BhbXJ3NmhNUS1adw?oc=5",
+      "source": "spam",
+      "note": "noise",
+      "rank": 1
+    }
+  ],
+  "count": 1,
+  "rows": [
+    {
+      "event_date": "2026-09-30",
+      "date_label": "30/09",
+      "title": "Conagra Brands to Release Fiscal 2027 First Quarter Earnings on September 30, 2026 - Morningstar",
+      "horse": "Earnings",
+      "tickers": "MSFT / AAPL",
+      "ticker_up": "MSFT",
+      "ticker_down": "AAPL",
+      "action": "alerta",
+      "status": "candidate",
+      "score": 50,
+      "range": "",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSmRvajBqYnkwQjZJbkNYWDRwTGhHeUNmS2txa0J1QnV2SDFPQzBCampMSFdIVkRQRE5wWFZmSTZwUmU4ZDJNRGlpaTBqTjlLb21ZTUpkYmNSeE9BVGxMS1ZjbHY3cWZyWFdDS1Y5QzNScFJ0MlBudXNrWm9lbmRod2tCa01vZ0p1TDAxSGlwVGt3bGxzMUNPREc3MWkzeTBiT0o0bS1RcHJjRlRmTjIzRWpwZGZCNm0zS1pWcWNaS0hETU9ZemVkYlBHYzNBV1BhbXJ3NmhNUS1adw?oc=5",
+      "source": "spam",
+      "note": "noise",
+      "rank": 1
+    }
+  ]
 }
