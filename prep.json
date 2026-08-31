@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-31T17:00:25+01:00",
+  "updated_at": "2026-08-31T17:05:24+01:00",
   "timezone": "Europe/Lisbon",
   "day": "2026-08-31",
-  "total": 65,
+  "total": 70,
   "avg": 8,
   "high": 25,
   "extreme": 11,
-  "scalper": 5,
+  "scalper": 10,
   "by_lane": {
     "no_pass": 35,
-    "entrou": 18,
-    "nao_entrou": 12
+    "entrou": 22,
+    "nao_entrou": 13
   },
   "rows": [
     {
@@ -1117,6 +1117,91 @@
       "forca": "ALL IN",
       "tg_status": "",
       "nota": "NOT ENTRY · Pipoca · i78"
+    },
+    {
+      "ticker": "XOM",
+      "book": "scalper",
+      "book_label": "Scalper",
+      "kind": "Popular",
+      "lane": "entrou",
+      "window": "all_in",
+      "impact": 0,
+      "ticker_up": "",
+      "ticker_down": "",
+      "force_10": 0.0,
+      "force_n": 0,
+      "force_bar": "Popular top5",
+      "forca": "Popular top5",
+      "tg_status": "",
+      "nota": "ENTRY · Scalper Popular"
+    },
+    {
+      "ticker": "LMT",
+      "book": "scalper",
+      "book_label": "Scalper",
+      "kind": "Popular",
+      "lane": "entrou",
+      "window": "all_in",
+      "impact": 0,
+      "ticker_up": "",
+      "ticker_down": "",
+      "force_10": 0.0,
+      "force_n": 0,
+      "force_bar": "Popular top5",
+      "forca": "Popular top5",
+      "tg_status": "",
+      "nota": "ENTRY · Scalper Popular"
+    },
+    {
+      "ticker": "TLT",
+      "book": "scalper",
+      "book_label": "Scalper",
+      "kind": "Popular",
+      "lane": "entrou",
+      "window": "all_in",
+      "impact": 0,
+      "ticker_up": "",
+      "ticker_down": "",
+      "force_10": 0.0,
+      "force_n": 0,
+      "force_bar": "Popular top5",
+      "forca": "Popular top5",
+      "tg_status": "",
+      "nota": "ENTRY · Scalper Popular"
+    },
+    {
+      "ticker": "GLD",
+      "book": "scalper",
+      "book_label": "Scalper",
+      "kind": "Popular",
+      "lane": "entrou",
+      "window": "all_in",
+      "impact": 0,
+      "ticker_up": "",
+      "ticker_down": "",
+      "force_10": 0.0,
+      "force_n": 0,
+      "force_bar": "Popular top5",
+      "forca": "Popular top5",
+      "tg_status": "",
+      "nota": "ENTRY · Scalper Popular"
+    },
+    {
+      "ticker": "GS",
+      "book": "scalper",
+      "book_label": "Scalper",
+      "kind": "Popular",
+      "lane": "nao_entrou",
+      "window": "all_in",
+      "impact": 0,
+      "ticker_up": "",
+      "ticker_down": "",
+      "force_10": 0.0,
+      "force_n": 0,
+      "force_bar": "Popular top5",
+      "forca": "Popular top5",
+      "tg_status": "",
+      "nota": "NOT ENTRY"
     }
   ]
 }
