@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T22:39:51+01:00",
+  "updated_at": "2026-08-31T22:42:51+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-08-28T21:00:00+01:00",
-      "to": "2026-08-31T22:39:51+01:00",
+      "to": "2026-08-31T22:42:51+01:00",
       "from_label": "28/08 21:00",
-      "to_label": "31/08 22:39",
+      "to_label": "31/08 22:42",
       "n_events": 176,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -232,9 +232,9 @@
       "to": "2026-09-01T14:15:00+01:00",
       "from_label": "31/08 21:00",
       "to_label": "01/09 14:15",
-      "n_events": 8,
+      "n_events": 9,
       "top5_count": 5,
-      "top6_20_count": 7,
+      "top6_20_count": 8,
       "top5": [
         {
           "rank": 1,
@@ -258,6 +258,16 @@
         },
         {
           "rank": 3,
+          "ticker": "MS",
+          "total": 2,
+          "as_up": 1,
+          "as_down": 1,
+          "last_horse": "Fed",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 4,
           "ticker": "NEM",
           "total": 2,
           "as_up": 0,
@@ -267,7 +277,7 @@
           "direction": "all"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "ticker": "BABA",
           "total": 1,
           "as_up": 1,
@@ -275,22 +285,12 @@
           "last_horse": "Trump",
           "band": "all",
           "direction": "all"
-        },
-        {
-          "rank": 5,
-          "ticker": "IBN",
-          "total": 1,
-          "as_up": 1,
-          "as_down": 0,
-          "last_horse": "Índia",
-          "band": "all",
-          "direction": "all"
         }
       ],
       "top6_20": [
         {
           "rank": 6,
-          "ticker": "MS",
+          "ticker": "GS",
           "total": 1,
           "as_up": 1,
           "as_down": 0,
@@ -300,6 +300,16 @@
         },
         {
           "rank": 7,
+          "ticker": "IBN",
+          "total": 1,
+          "as_up": 1,
+          "as_down": 0,
+          "last_horse": "Índia",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 8,
           "ticker": "MSFT",
           "total": 1,
           "as_up": 1,
@@ -309,7 +319,7 @@
           "direction": "all"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "ticker": "CVX",
           "total": 1,
           "as_up": 0,
@@ -319,7 +329,7 @@
           "direction": "all"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "ticker": "GOOGL",
           "total": 1,
           "as_up": 0,
@@ -329,7 +339,7 @@
           "direction": "all"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "ticker": "INFY",
           "total": 1,
           "as_up": 0,
@@ -339,7 +349,7 @@
           "direction": "all"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "ticker": "PDD",
           "total": 1,
           "as_up": 0,
@@ -349,7 +359,7 @@
           "direction": "all"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "ticker": "SCHW",
           "total": 1,
           "as_up": 0,
@@ -365,9 +375,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-08-31T00:00:00+01:00",
-      "to": "2026-08-31T22:39:51+01:00",
+      "to": "2026-08-31T22:42:51+01:00",
       "from_label": "31/08 00:00",
-      "to_label": "31/08 22:39",
+      "to_label": "31/08 22:42",
       "n_events": 67,
       "top5_count": 5,
       "top6_20_count": 15,
