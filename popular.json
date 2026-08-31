@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T20:57:50+01:00",
+  "updated_at": "2026-08-31T21:00:50+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-08-28T21:00:00+01:00",
-      "to": "2026-08-31T20:57:50+01:00",
+      "to": "2026-08-31T21:00:50+01:00",
       "from_label": "28/08 21:00",
-      "to_label": "31/08 20:57",
+      "to_label": "31/08 21:00",
       "n_events": 176,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -228,226 +228,24 @@
     "pre": {
       "key": "pre",
       "label": "Pre · AVG+High+Extreme · fecho NY → Qwen−5",
-      "from": "2026-08-28T21:00:00+01:00",
-      "to": "2026-08-31T14:15:00+01:00",
-      "from_label": "28/08 21:00",
-      "to_label": "31/08 14:15",
-      "n_events": 188,
-      "top5_count": 5,
-      "top6_20_count": 15,
-      "top5": [
-        {
-          "rank": 1,
-          "ticker": "XOM",
-          "total": 65,
-          "as_up": 62,
-          "as_down": 3,
-          "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 2,
-          "ticker": "LMT",
-          "total": 30,
-          "as_up": 21,
-          "as_down": 9,
-          "last_horse": "Irão",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 3,
-          "ticker": "TLT",
-          "total": 26,
-          "as_up": 17,
-          "as_down": 9,
-          "last_horse": "Irão",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 4,
-          "ticker": "GOLD",
-          "total": 24,
-          "as_up": 23,
-          "as_down": 1,
-          "last_horse": "Inflação",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 5,
-          "ticker": "NEM",
-          "total": 23,
-          "as_up": 0,
-          "as_down": 23,
-          "last_horse": "Inflação",
-          "band": "all",
-          "direction": "all"
-        }
-      ],
-      "top6_20": [
-        {
-          "rank": 6,
-          "ticker": "GLD",
-          "total": 20,
-          "as_up": 4,
-          "as_down": 16,
-          "last_horse": "Irão",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 7,
-          "ticker": "SPY",
-          "total": 16,
-          "as_up": 0,
-          "as_down": 16,
-          "last_horse": "Irão",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 8,
-          "ticker": "CVX",
-          "total": 14,
-          "as_up": 1,
-          "as_down": 13,
-          "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 9,
-          "ticker": "BABA",
-          "total": 10,
-          "as_up": 8,
-          "as_down": 2,
-          "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 10,
-          "ticker": "NUE",
-          "total": 8,
-          "as_up": 6,
-          "as_down": 2,
-          "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 11,
-          "ticker": "PDD",
-          "total": 8,
-          "as_up": 0,
-          "as_down": 8,
-          "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 12,
-          "ticker": "F",
-          "total": 7,
-          "as_up": 2,
-          "as_down": 5,
-          "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 13,
-          "ticker": "XLE",
-          "total": 6,
-          "as_up": 6,
-          "as_down": 0,
-          "last_horse": "Irão",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 14,
-          "ticker": "GS",
-          "total": 5,
-          "as_up": 5,
-          "as_down": 0,
-          "last_horse": "Fed",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 15,
-          "ticker": "MS",
-          "total": 5,
-          "as_up": 1,
-          "as_down": 4,
-          "last_horse": "Fed",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 16,
-          "ticker": "XLF",
-          "total": 5,
-          "as_up": 0,
-          "as_down": 5,
-          "last_horse": "Fed",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 17,
-          "ticker": "CLF",
-          "total": 4,
-          "as_up": 0,
-          "as_down": 4,
-          "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 18,
-          "ticker": "NVDA",
-          "total": 3,
-          "as_up": 3,
-          "as_down": 0,
-          "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 19,
-          "ticker": "USO",
-          "total": 3,
-          "as_up": 3,
-          "as_down": 0,
-          "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 20,
-          "ticker": "ESLT",
-          "total": 2,
-          "as_up": 2,
-          "as_down": 0,
-          "last_horse": "Gaza",
-          "band": "all",
-          "direction": "all"
-        }
-      ],
+      "from": "2026-08-31T21:00:00+01:00",
+      "to": "2026-09-01T14:15:00+01:00",
+      "from_label": "31/08 21:00",
+      "to_label": "01/09 14:15",
+      "n_events": 0,
+      "top5_count": 0,
+      "top6_20_count": 0,
+      "top5": [],
+      "top6_20": [],
       "source": "rumors_avg_high"
     },
     "day": {
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-08-31T00:00:00+01:00",
-      "to": "2026-08-31T20:57:50+01:00",
+      "to": "2026-08-31T21:00:50+01:00",
       "from_label": "31/08 00:00",
-      "to_label": "31/08 20:57",
+      "to_label": "31/08 21:00",
       "n_events": 67,
       "top5_count": 5,
       "top6_20_count": 15,
