@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-31T01:52:17+01:00",
+  "updated_at": "2026-08-31T01:55:16+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "01:52",
+  "when_label": "01:55",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -196,12 +196,12 @@
         "id": 164,
         "ticker": "MSTR",
         "entry": 127.68,
-        "price": 128.17,
+        "price": 128.42,
         "qty": 0.195802,
         "notional": 25.0,
         "pnl_pct": 0.01,
-        "pnl_eur": 0.12453,
-        "pnl_r": 0.01,
+        "pnl_eur": 0.173481,
+        "pnl_r": 0.02,
         "sl": 86.8224,
         "tp1": 188.9664,
         "tp2": 188.9664,
@@ -223,10 +223,10 @@
         "horizon_days": 1
       }
     ],
-    "total_pnl_pct": 0.008094899999999999,
-    "total_pnl_eur": 0.161898,
+    "total_pnl_pct": 0.01054245,
+    "total_pnl_eur": 0.210849,
     "bank_eur": 2000.0,
-    "equity_eur": 2000.16
+    "equity_eur": 2000.21
   },
   "scalper": {
     "rows": [
@@ -264,11 +264,11 @@
         "id": 166,
         "ticker": "MSTR",
         "entry": 127.57,
-        "price": 128.17,
+        "price": 128.42,
         "qty": 0.195802,
         "notional": 1000.0,
         "pnl_pct": 0.0,
-        "pnl_eur": 0.12453,
+        "pnl_eur": 0.173481,
         "pnl_r": 0.01,
         "sl": 63.785,
         "tp1": 382.93,
@@ -291,10 +291,10 @@
         "horizon_days": 5
       }
     ],
-    "total_pnl_pct": 0.00323796,
-    "total_pnl_eur": 0.161898,
+    "total_pnl_pct": 0.00421698,
+    "total_pnl_eur": 0.210849,
     "bank_eur": 5000.0,
-    "equity_eur": 5000.16
+    "equity_eur": 5000.21
   },
   "scalper_1600": {
     "rows": [],
