@@ -1,6 +1,6 @@
 {
   "day": "2026-08-31",
-  "updated_at": "2026-08-31T16:55:03+01:00",
+  "updated_at": "2026-08-31T16:55:12+01:00",
   "window": "all_in",
   "note": "Ensaio ALL IN — prep 16:55 · open 17:00.",
   "rows": [
@@ -17,7 +17,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i98 · prep",
       "news_uid": "84c63943cbd70109688a48f4",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -32,7 +32,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i98",
       "news_uid": "84c63943cbd70109688a48f4",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -47,7 +47,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i98 · prep",
       "news_uid": "83804d5bd5064c67ba894c80",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -62,10 +62,10 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i98",
       "news_uid": "83804d5bd5064c67ba894c80",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
-      "ticker": "XOM",
+      "ticker": "LMT",
       "book": "pipoca_extreme",
       "book_label": "Extreme",
       "kind": "—",
@@ -77,10 +77,10 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i97 · prep",
       "news_uid": "d6ba0793a08e3dee81a4c9e8",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
-      "ticker": "XOM",
+      "ticker": "LMT",
       "book": "pipoca",
       "book_label": "Pipoca",
       "kind": "—",
@@ -92,10 +92,10 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i97",
       "news_uid": "d6ba0793a08e3dee81a4c9e8",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
-      "ticker": "XOM",
+      "ticker": "LMT",
       "book": "pipoca_extreme",
       "book_label": "Extreme",
       "kind": "—",
@@ -107,10 +107,10 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i96 · prep",
       "news_uid": "de448be73e936889f712520a",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
-      "ticker": "XOM",
+      "ticker": "LMT",
       "book": "pipoca",
       "book_label": "Pipoca",
       "kind": "—",
@@ -122,10 +122,10 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i96",
       "news_uid": "de448be73e936889f712520a",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
-      "ticker": "XOM",
+      "ticker": "LMT",
       "book": "pipoca_extreme",
       "book_label": "Extreme",
       "kind": "—",
@@ -137,10 +137,10 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i95 · prep",
       "news_uid": "23067567e2d487b5cc357f2e",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
-      "ticker": "XOM",
+      "ticker": "LMT",
       "book": "pipoca",
       "book_label": "Pipoca",
       "kind": "—",
@@ -152,7 +152,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i95",
       "news_uid": "23067567e2d487b5cc357f2e",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -167,7 +167,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i93 · prep",
       "news_uid": "f43c3ba404cf7b960ac06a95",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -182,7 +182,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i93",
       "news_uid": "f43c3ba404cf7b960ac06a95",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -197,7 +197,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i92 · prep",
       "news_uid": "d31f468b147a7dad25ccf4d5",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -212,7 +212,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i92",
       "news_uid": "d31f468b147a7dad25ccf4d5",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -227,7 +227,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i92 · prep",
       "news_uid": "5de8d6960b075f36b736b104",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -242,7 +242,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i92",
       "news_uid": "5de8d6960b075f36b736b104",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -257,7 +257,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i92 · prep",
       "news_uid": "9026188ed1676ab88581b7bf",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -272,7 +272,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i92",
       "news_uid": "9026188ed1676ab88581b7bf",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -287,7 +287,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i92 · prep",
       "news_uid": "d27eff5e6c1690cba277dce9",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -302,7 +302,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i92",
       "news_uid": "d27eff5e6c1690cba277dce9",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -317,7 +317,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i92 · prep",
       "news_uid": "cdd07a05d4c096b82ef67c76",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -332,7 +332,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i92",
       "news_uid": "cdd07a05d4c096b82ef67c76",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -347,7 +347,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i92 · prep",
       "news_uid": "81571ae3241838d4a4d23cb3",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -362,7 +362,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i92",
       "news_uid": "81571ae3241838d4a4d23cb3",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -377,7 +377,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i92 · prep",
       "news_uid": "b104e133a90eb0f5bf6b0010",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -392,7 +392,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i92",
       "news_uid": "b104e133a90eb0f5bf6b0010",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -407,7 +407,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i92 · prep",
       "news_uid": "709edbca6fdd804c1a20bfd1",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -422,7 +422,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i92",
       "news_uid": "709edbca6fdd804c1a20bfd1",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -437,7 +437,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i92 · prep",
       "news_uid": "210a5fad2d08fbc7c1ffa380",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -452,7 +452,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i92",
       "news_uid": "210a5fad2d08fbc7c1ffa380",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -467,7 +467,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i92 · prep",
       "news_uid": "edd5abb9da0935cf2ee26bb3",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -482,7 +482,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i92",
       "news_uid": "edd5abb9da0935cf2ee26bb3",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -497,7 +497,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i92 · prep",
       "news_uid": "c4db0a34fbdedc4c00f88aa9",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -512,7 +512,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i92",
       "news_uid": "c4db0a34fbdedc4c00f88aa9",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -527,7 +527,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i92 · prep",
       "news_uid": "56a50ed78a9064f8c16bf907",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -542,7 +542,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i92",
       "news_uid": "56a50ed78a9064f8c16bf907",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XLE",
@@ -557,7 +557,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i92 · prep",
       "news_uid": "b3ada5263854e2d3127613ee",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XLE",
@@ -572,7 +572,37 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i92",
       "news_uid": "b3ada5263854e2d3127613ee",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
+    },
+    {
+      "ticker": "TLT",
+      "book": "pipoca_extreme",
+      "book_label": "Extreme",
+      "kind": "—",
+      "lane": "nao_entrou",
+      "impact": 92,
+      "window": "all_in",
+      "band_window": "all_in",
+      "force_bar": "ALL IN",
+      "forca": "ALL IN",
+      "nota": "ALL IN · i92 · prep",
+      "news_uid": "b0ee549e00c9ef4c5228ac79",
+      "first_seen": "2026-08-31T16:55:12+01:00"
+    },
+    {
+      "ticker": "TLT",
+      "book": "pipoca",
+      "book_label": "Pipoca",
+      "kind": "—",
+      "lane": "nao_entrou",
+      "impact": 92,
+      "window": "all_in",
+      "band_window": "all_in",
+      "force_bar": "ALL IN",
+      "forca": "ALL IN",
+      "nota": "ALL IN · Pipoca cand · i92",
+      "news_uid": "b0ee549e00c9ef4c5228ac79",
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "LMT",
@@ -587,7 +617,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i88 · prep",
       "news_uid": "bec52f9651caa441a61c0b65",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "LMT",
@@ -602,7 +632,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i88",
       "news_uid": "bec52f9651caa441a61c0b65",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "TLT",
@@ -617,7 +647,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i88 · prep",
       "news_uid": "3e967cabaf56dee8ddd4dd12",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "TLT",
@@ -632,7 +662,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i88",
       "news_uid": "3e967cabaf56dee8ddd4dd12",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "GLD",
@@ -647,7 +677,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i88 · prep",
       "news_uid": "1b01eb2493c1a818c461ba17",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "GLD",
@@ -662,7 +692,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i88",
       "news_uid": "1b01eb2493c1a818c461ba17",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "TLT",
@@ -677,7 +707,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i88 · prep",
       "news_uid": "5fb6144f4c90ff76d375c7d7",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "TLT",
@@ -692,7 +722,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i88",
       "news_uid": "5fb6144f4c90ff76d375c7d7",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "GLD",
@@ -707,7 +737,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i88 · prep",
       "news_uid": "dcccccae95f64695ccfa1ed7",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "GLD",
@@ -722,7 +752,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i88",
       "news_uid": "dcccccae95f64695ccfa1ed7",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -737,7 +767,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i88 · prep",
       "news_uid": "d468a5ed90b48d269721a153",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -752,7 +782,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i88",
       "news_uid": "d468a5ed90b48d269721a153",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XLE",
@@ -767,7 +797,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i85 · prep",
       "news_uid": "74240183ba23115046327c9b",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XLE",
@@ -782,7 +812,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i85",
       "news_uid": "74240183ba23115046327c9b",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "NUE",
@@ -797,7 +827,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i85 · prep",
       "news_uid": "c5ea2805fc8ec3f8bf373a4c",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "NUE",
@@ -812,7 +842,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i85",
       "news_uid": "c5ea2805fc8ec3f8bf373a4c",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "UUP",
@@ -827,7 +857,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i85 · prep",
       "news_uid": "4ec41d14e567212c870e5a3f",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "UUP",
@@ -842,7 +872,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i85",
       "news_uid": "4ec41d14e567212c870e5a3f",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "LMT",
@@ -857,7 +887,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i85 · prep",
       "news_uid": "76de9d54562485b9cb4294d9",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "LMT",
@@ -872,7 +902,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i85",
       "news_uid": "76de9d54562485b9cb4294d9",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -887,7 +917,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i85 · prep",
       "news_uid": "19e54c911e78a62d681e04ce",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XOM",
@@ -902,7 +932,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i85",
       "news_uid": "19e54c911e78a62d681e04ce",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "NVDA",
@@ -917,7 +947,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i85 · prep",
       "news_uid": "4815eb4a066e1946d6acbb95",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "NVDA",
@@ -932,7 +962,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i85",
       "news_uid": "4815eb4a066e1946d6acbb95",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XLE",
@@ -947,7 +977,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i82 · prep",
       "news_uid": "0274637ac850e81e5b10c48e",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "XLE",
@@ -962,7 +992,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i82",
       "news_uid": "0274637ac850e81e5b10c48e",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "TLT",
@@ -977,7 +1007,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i82 · prep",
       "news_uid": "86124ad192b888d48ed69847",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "TLT",
@@ -992,7 +1022,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i82",
       "news_uid": "86124ad192b888d48ed69847",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "CAT",
@@ -1007,7 +1037,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i82 · prep",
       "news_uid": "a38c4843e8d6c842f004cb6f",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "CAT",
@@ -1022,7 +1052,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i82",
       "news_uid": "a38c4843e8d6c842f004cb6f",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "LMT",
@@ -1037,7 +1067,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i78 · prep",
       "news_uid": "b9cf71326df3405fcb1220b1",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "LMT",
@@ -1052,7 +1082,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i78",
       "news_uid": "b9cf71326df3405fcb1220b1",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "CBA.AX",
@@ -1067,7 +1097,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · i78 · prep",
       "news_uid": "3fbf5bb9fe7f97ea5b4cd486",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     },
     {
       "ticker": "CBA.AX",
@@ -1082,37 +1112,7 @@
       "forca": "ALL IN",
       "nota": "ALL IN · Pipoca cand · i78",
       "news_uid": "3fbf5bb9fe7f97ea5b4cd486",
-      "first_seen": "2026-08-31T16:55:03+01:00"
-    },
-    {
-      "ticker": "NUE",
-      "book": "pipoca_high",
-      "book_label": "High",
-      "kind": "—",
-      "lane": "nao_entrou",
-      "impact": 76,
-      "window": "all_in",
-      "band_window": "all_in",
-      "force_bar": "ALL IN",
-      "forca": "ALL IN",
-      "nota": "ALL IN · i76 · prep",
-      "news_uid": "498b6731b700aade106120b8",
-      "first_seen": "2026-08-31T16:55:03+01:00"
-    },
-    {
-      "ticker": "NUE",
-      "book": "pipoca",
-      "book_label": "Pipoca",
-      "kind": "—",
-      "lane": "nao_entrou",
-      "impact": 76,
-      "window": "all_in",
-      "band_window": "all_in",
-      "force_bar": "ALL IN",
-      "forca": "ALL IN",
-      "nota": "ALL IN · Pipoca cand · i76",
-      "news_uid": "498b6731b700aade106120b8",
-      "first_seen": "2026-08-31T16:55:03+01:00"
+      "first_seen": "2026-08-31T16:55:12+01:00"
     }
   ]
 }
