@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-31T23:15:45+01:00",
+  "updated_at": "2026-08-31T23:18:45+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "23:15",
+  "when_label": "23:18",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -50,12 +50,12 @@
         "id": 179,
         "ticker": "GLD",
         "entry": 406.99,
-        "price": 395.34,
+        "price": 408.42,
         "qty": 0.024571,
         "notional": 10.0,
-        "pnl_pct": -2.86,
-        "pnl_eur": -0.28624781935674176,
-        "pnl_r": -1.05,
+        "pnl_pct": 0.35,
+        "pnl_eur": 0.035135998427479956,
+        "pnl_r": 0.13,
         "sl": 395.87,
         "tp1": 429.23,
         "tp2": 440.35,
@@ -80,12 +80,12 @@
         "id": 187,
         "ticker": "NVDA",
         "entry": 219.72,
-        "price": 220.86,
+        "price": 218.84,
         "qty": 0.045512,
         "notional": 10.0,
-        "pnl_pct": 0.52,
-        "pnl_eur": 0.05188421627526009,
-        "pnl_r": 0.1,
+        "pnl_pct": -0.4,
+        "pnl_eur": -0.040050973966866715,
+        "pnl_r": -0.07,
         "sl": 207.91,
         "tp1": 243.34,
         "tp2": 255.15,
@@ -107,8 +107,8 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -1.1216014406107555,
-    "total_pnl_eur": -0.33648043218322665
+    "total_pnl_pct": -0.3567726821371059,
+    "total_pnl_eur": -0.10703180464113175
   },
   "pipoca_extreme": {
     "rows": [],
