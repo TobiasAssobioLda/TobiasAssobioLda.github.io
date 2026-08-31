@@ -1,6 +1,6 @@
 {
   "day": "2026-08-31",
-  "updated_at": "2026-08-31T17:00:25+01:00",
+  "updated_at": "2026-08-31T17:05:24+01:00",
   "window": "all_in",
   "note": "Ensaio ALL IN — prep 16:55 · open 17:00.",
   "rows": [
@@ -1113,6 +1113,81 @@
       "nota": "NOT ENTRY · Pipoca · i78",
       "news_uid": "3fbf5bb9fe7f97ea5b4cd486",
       "first_seen": "2026-08-31T16:55:12+01:00"
+    },
+    {
+      "ticker": "XOM",
+      "book": "scalper",
+      "book_label": "Scalper",
+      "kind": "Popular",
+      "lane": "entrou",
+      "impact": 0,
+      "window": "all_in",
+      "band_window": "all_in",
+      "force_bar": "Popular top5",
+      "forca": "Popular top5",
+      "nota": "ENTRY · Scalper Popular",
+      "news_uid": "scalper:popular:20260831:XOM",
+      "first_seen": "2026-08-31T17:05:21+01:00"
+    },
+    {
+      "ticker": "LMT",
+      "book": "scalper",
+      "book_label": "Scalper",
+      "kind": "Popular",
+      "lane": "entrou",
+      "impact": 0,
+      "window": "all_in",
+      "band_window": "all_in",
+      "force_bar": "Popular top5",
+      "forca": "Popular top5",
+      "nota": "ENTRY · Scalper Popular",
+      "news_uid": "scalper:popular:20260831:LMT",
+      "first_seen": "2026-08-31T17:05:21+01:00"
+    },
+    {
+      "ticker": "TLT",
+      "book": "scalper",
+      "book_label": "Scalper",
+      "kind": "Popular",
+      "lane": "entrou",
+      "impact": 0,
+      "window": "all_in",
+      "band_window": "all_in",
+      "force_bar": "Popular top5",
+      "forca": "Popular top5",
+      "nota": "ENTRY · Scalper Popular",
+      "news_uid": "scalper:popular:20260831:TLT",
+      "first_seen": "2026-08-31T17:05:21+01:00"
+    },
+    {
+      "ticker": "GLD",
+      "book": "scalper",
+      "book_label": "Scalper",
+      "kind": "Popular",
+      "lane": "entrou",
+      "impact": 0,
+      "window": "all_in",
+      "band_window": "all_in",
+      "force_bar": "Popular top5",
+      "forca": "Popular top5",
+      "nota": "ENTRY · Scalper Popular",
+      "news_uid": "scalper:popular:20260831:GLD",
+      "first_seen": "2026-08-31T17:05:21+01:00"
+    },
+    {
+      "ticker": "GS",
+      "book": "scalper",
+      "book_label": "Scalper",
+      "kind": "Popular",
+      "lane": "nao_entrou",
+      "impact": 0,
+      "window": "all_in",
+      "band_window": "all_in",
+      "force_bar": "Popular top5",
+      "forca": "Popular top5",
+      "nota": "NOT ENTRY",
+      "news_uid": "scalper:popular:20260831:GS",
+      "first_seen": "2026-08-31T17:05:21+01:00"
     }
   ]
 }
