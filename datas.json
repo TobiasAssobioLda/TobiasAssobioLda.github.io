@@ -1,28 +1,11 @@
 {
-  "updated_at": "2026-09-01T04:37:59+01:00",
+  "updated_at": "2026-09-01T04:40:59+01:00",
   "timezone": "Europe/Lisbon",
   "opens_count": 0,
-  "calendar_count": 3,
+  "calendar_count": 2,
   "opens_rows": [],
   "calendar_rows": [
     {
-      "event_date": "2026-09-01",
-      "date_label": "01/09",
-      "title": "Dell's Next Earnings Report on September 1 Could Send the Stock Soaring. Here's Why. - Yahoo Finance",
-      "horse": "Earnings",
-      "tickers": "MSFT / AAPL",
-      "ticker_up": "MSFT",
-      "ticker_down": "AAPL",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 50,
-      "range": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNmlWekJReG1oWnh1WkJHRFFtVXdYaXRlYWYzZy05WW1pal8zOHd1U3lsaWllWUh0b2E0aEZMb21hckNKNkhTdTk4NXg2aW1mM1F4bVNCanJIMFEtaHktTFVib3pmbmtNeEpLSTNNT0ktQ25hYm5BQm1LaTNBUGZjY20xZnVkY3RpMDdFSlcwa19wQ1prdTYyZmlReVpMYW5hcVZj?oc=5",
-      "source": "spam",
-      "note": "noise",
-      "rank": 1
-    },
-    {
       "event_date": "2026-09-02",
       "date_label": "02/09",
       "title": "Broadcom's Next Earnings Report on September 2 Could Send the Stock Soaring. Here's Why. - Yahoo Finance",
@@ -37,7 +20,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdngxZFEyMGlRc25QSnc5X1Q0c2lsUTFwMm5OSWN6QXBWNnpSUUlSVjlkaVFaMjhLQ3hYVzhaMGh6RWNlUHJZaTFmWDRQZlNNaHlfSG9sMndnMUJ4UDFWTWJ3OTExbXNhX3l5bVlValRWMEdHR1cxRjI3eFNCUGE2RTFaVkM2UHp1VWR6OFpFNmRyeml4NHJ5YWpwdTVtYklTYWh4WjNFZnY?oc=5",
       "source": "spam",
       "note": "noise",
-      "rank": 2
+      "rank": 1
     },
     {
       "event_date": "2026-09-02",
@@ -54,28 +37,11 @@
       "url": "https://www.fool.com/investing/2026/08/31/broadcoms-next-earnings-report-on-september-2-could-send-the-stock-soaring-heres-why/",
       "source": "spam",
       "note": "noise",
-      "rank": 3
+      "rank": 2
     }
   ],
-  "count": 3,
+  "count": 2,
   "rows": [
-    {
-      "event_date": "2026-09-01",
-      "date_label": "01/09",
-      "title": "Dell's Next Earnings Report on September 1 Could Send the Stock Soaring. Here's Why. - Yahoo Finance",
-      "horse": "Earnings",
-      "tickers": "MSFT / AAPL",
-      "ticker_up": "MSFT",
-      "ticker_down": "AAPL",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 50,
-      "range": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNmlWekJReG1oWnh1WkJHRFFtVXdYaXRlYWYzZy05WW1pal8zOHd1U3lsaWllWUh0b2E0aEZMb21hckNKNkhTdTk4NXg2aW1mM1F4bVNCanJIMFEtaHktTFVib3pmbmtNeEpLSTNNT0ktQ25hYm5BQm1LaTNBUGZjY20xZnVkY3RpMDdFSlcwa19wQ1prdTYyZmlReVpMYW5hcVZj?oc=5",
-      "source": "spam",
-      "note": "noise",
-      "rank": 1
-    },
     {
       "event_date": "2026-09-02",
       "date_label": "02/09",
@@ -91,7 +57,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdngxZFEyMGlRc25QSnc5X1Q0c2lsUTFwMm5OSWN6QXBWNnpSUUlSVjlkaVFaMjhLQ3hYVzhaMGh6RWNlUHJZaTFmWDRQZlNNaHlfSG9sMndnMUJ4UDFWTWJ3OTExbXNhX3l5bVlValRWMEdHR1cxRjI3eFNCUGE2RTFaVkM2UHp1VWR6OFpFNmRyeml4NHJ5YWpwdTVtYklTYWh4WjNFZnY?oc=5",
       "source": "spam",
       "note": "noise",
-      "rank": 2
+      "rank": 1
     },
     {
       "event_date": "2026-09-02",
@@ -108,7 +74,7 @@
       "url": "https://www.fool.com/investing/2026/08/31/broadcoms-next-earnings-report-on-september-2-could-send-the-stock-soaring-heres-why/",
       "source": "spam",
       "note": "noise",
-      "rank": 3
+      "rank": 2
     }
   ]
 }
