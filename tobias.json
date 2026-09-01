@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-09-01T17:25:51+01:00",
+  "updated_at": "2026-09-01T17:28:51+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "17:25",
+  "when_label": "17:28",
   "title": "Full Report · Tobias",
   "note": "Todos os fechos · TP no topo · treino Tobias",
   "stats": {
-    "n": 110,
+    "n": 111,
     "tp": 0,
     "sl": 3,
-    "out": 107,
+    "out": 108,
     "correto": 8,
     "erro": 11,
     "trainable": 19,
-    "realized_eur": -76.39,
-    "realized_r": -2.68
+    "realized_eur": -76.48,
+    "realized_r": -2.73
   },
   "rows": [
     {
@@ -81,6 +81,28 @@
       "opened_at": "2026-08-28T15:00:05.376322+00:00",
       "closed_at": "2026-08-28T15:01:03.866686+00:00",
       "news_hook": "SCALPER_1600 Popular #3 · 7× cards · sem oráculo · LMT"
+    },
+    {
+      "id": 234,
+      "book": "tobias_swing",
+      "book_label": "Tobias Swing",
+      "ticker": "AMZN",
+      "horse": "Popular",
+      "kind": "out",
+      "label": "NEUTRO",
+      "entry": 254.755,
+      "exit": 254.3,
+      "sl": 245.77,
+      "tp1": 272.72,
+      "pnl_eur": -0.09,
+      "pnl_pct": -0.18,
+      "pnl_r": -0.05,
+      "corr": 2.16,
+      "impact": 50,
+      "exit_reason": "sync · Alpaca fechou · tobias_swing",
+      "opened_at": "2026-09-01T14:36:54.592878+00:00",
+      "closed_at": "2026-09-01T16:28:50.914612+00:00",
+      "news_hook": "OUT · RED NEWS a decorrer (ISM Manufacturing PMI)"
     },
     {
       "id": 230,
