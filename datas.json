@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-01T03:49:10+01:00",
+  "updated_at": "2026-09-01T03:52:10+01:00",
   "timezone": "Europe/Lisbon",
   "opens_count": 0,
-  "calendar_count": 2,
+  "calendar_count": 3,
   "opens_rows": [],
   "calendar_rows": [
     {
@@ -25,6 +25,23 @@
     {
       "event_date": "2026-09-02",
       "date_label": "02/09",
+      "title": "Broadcom's Next Earnings Report on September 2 Could Send the Stock Soaring. Here's Why. - Yahoo Finance",
+      "horse": "Earnings",
+      "tickers": "AVGO / NVDA",
+      "ticker_up": "AVGO",
+      "ticker_down": "NVDA",
+      "action": "alerta",
+      "status": "candidate",
+      "score": 50,
+      "range": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdngxZFEyMGlRc25QSnc5X1Q0c2lsUTFwMm5OSWN6QXBWNnpSUUlSVjlkaVFaMjhLQ3hYVzhaMGh6RWNlUHJZaTFmWDRQZlNNaHlfSG9sMndnMUJ4UDFWTWJ3OTExbXNhX3l5bVlValRWMEdHR1cxRjI3eFNCUGE2RTFaVkM2UHp1VWR6OFpFNmRyeml4NHJ5YWpwdTVtYklTYWh4WjNFZnY?oc=5",
+      "source": "spam",
+      "note": "noise",
+      "rank": 2
+    },
+    {
+      "event_date": "2026-09-02",
+      "date_label": "02/09",
       "title": "Broadcom Next Earnings Report on September 2 Could Send the Stock Soaring . Here Why .",
       "horse": "Earnings",
       "tickers": "AVGO / NVDA",
@@ -37,10 +54,10 @@
       "url": "https://www.fool.com/investing/2026/08/31/broadcoms-next-earnings-report-on-september-2-could-send-the-stock-soaring-heres-why/",
       "source": "spam",
       "note": "noise",
-      "rank": 2
+      "rank": 3
     }
   ],
-  "count": 2,
+  "count": 3,
   "rows": [
     {
       "event_date": "2026-09-01",
@@ -62,6 +79,23 @@
     {
       "event_date": "2026-09-02",
       "date_label": "02/09",
+      "title": "Broadcom's Next Earnings Report on September 2 Could Send the Stock Soaring. Here's Why. - Yahoo Finance",
+      "horse": "Earnings",
+      "tickers": "AVGO / NVDA",
+      "ticker_up": "AVGO",
+      "ticker_down": "NVDA",
+      "action": "alerta",
+      "status": "candidate",
+      "score": 50,
+      "range": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdngxZFEyMGlRc25QSnc5X1Q0c2lsUTFwMm5OSWN6QXBWNnpSUUlSVjlkaVFaMjhLQ3hYVzhaMGh6RWNlUHJZaTFmWDRQZlNNaHlfSG9sMndnMUJ4UDFWTWJ3OTExbXNhX3l5bVlValRWMEdHR1cxRjI3eFNCUGE2RTFaVkM2UHp1VWR6OFpFNmRyeml4NHJ5YWpwdTVtYklTYWh4WjNFZnY?oc=5",
+      "source": "spam",
+      "note": "noise",
+      "rank": 2
+    },
+    {
+      "event_date": "2026-09-02",
+      "date_label": "02/09",
       "title": "Broadcom Next Earnings Report on September 2 Could Send the Stock Soaring . Here Why .",
       "horse": "Earnings",
       "tickers": "AVGO / NVDA",
@@ -74,7 +108,7 @@
       "url": "https://www.fool.com/investing/2026/08/31/broadcoms-next-earnings-report-on-september-2-could-send-the-stock-soaring-heres-why/",
       "source": "spam",
       "note": "noise",
-      "rank": 2
+      "rank": 3
     }
   ]
 }
