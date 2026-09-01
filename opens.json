@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-01T15:55:47+01:00",
+  "updated_at": "2026-09-01T15:58:47+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "15:55",
+  "when_label": "15:58",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -20,12 +20,12 @@
         "id": 178,
         "ticker": "XOM",
         "entry": 161.09,
-        "price": 163.31,
+        "price": 163.37,
         "qty": 0.062077,
         "notional": 10.0,
-        "pnl_pct": 1.38,
-        "pnl_eur": 0.13781116146253639,
-        "pnl_r": 0.35,
+        "pnl_pct": 1.42,
+        "pnl_eur": 0.14153578744801049,
+        "pnl_r": 0.36,
         "sl": 154.69,
         "tp1": 173.89,
         "tp2": 180.29,
@@ -50,12 +50,12 @@
         "id": 179,
         "ticker": "GLD",
         "entry": 406.99,
-        "price": 399.96,
+        "price": 393.14,
         "qty": 0.024571,
         "notional": 10.0,
-        "pnl_pct": -1.73,
-        "pnl_eur": -0.17273151674488388,
-        "pnl_r": -0.63,
+        "pnl_pct": -3.4,
+        "pnl_eur": -0.34030320155286425,
+        "pnl_r": -1.25,
         "sl": 395.87,
         "tp1": 429.23,
         "tp2": 440.35,
@@ -80,12 +80,12 @@
         "id": 187,
         "ticker": "NVDA",
         "entry": 219.72,
-        "price": 217.745,
+        "price": 217.875,
         "qty": 0.045512,
         "notional": 10.0,
-        "pnl_pct": -0.9,
-        "pnl_eur": -0.08988712907336584,
-        "pnl_r": -0.17,
+        "pnl_pct": -0.84,
+        "pnl_eur": -0.0839705079191698,
+        "pnl_r": -0.16,
         "sl": 207.91,
         "tp1": 243.34,
         "tp2": 255.15,
@@ -107,8 +107,8 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.41602494785237776,
-    "total_pnl_eur": -0.12480748435571333
+    "total_pnl_pct": -0.9424597400800786,
+    "total_pnl_eur": -0.2827379220240236
   },
   "pipoca_extreme": {
     "rows": [],
@@ -151,34 +151,7 @@
     "equity_eur": 5000.0
   },
   "possible": {
-    "quase": [
-      {
-        "ticker": "PDD",
-        "book": "tobias_swing",
-        "horse": "Popular",
-        "impact": 50,
-        "tries": 5,
-        "max_tries": 6,
-        "reason": "corr -0.02 · star -0.87 · GLD c0.28 d-1.00 · AMZN c0.16 d-1.30 · XLY c0.16 d-0.37",
-        "next_check": "2026-09-01T15:01:57.716444+00:00",
-        "first_seen": "2026-09-01T13:35:36.959904+00:00",
-        "status": "wait",
-        "lane": "quase"
-      },
-      {
-        "ticker": "PDD",
-        "book": "tobias_scalper",
-        "horse": "Popular",
-        "impact": 50,
-        "tries": 5,
-        "max_tries": 6,
-        "reason": "corr -0.02 · star -0.87 · GLD c0.28 d-1.00 · AMZN c0.16 d-1.30 · XLY c0.16 d-0.37",
-        "next_check": "2026-09-01T15:01:58.136080+00:00",
-        "first_seen": "2026-09-01T13:35:37.202081+00:00",
-        "status": "wait",
-        "lane": "quase"
-      }
-    ],
+    "quase": [],
     "out_market": [
       {
         "ticker": "USO",
@@ -272,7 +245,73 @@
         "lane": "out_market"
       }
     ],
-    "wait_window": [],
+    "wait_window": [
+      {
+        "ticker": "XOM",
+        "book": "scalper_1600",
+        "horse": "Popular",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "16:00 Popular #1 · 10× cards · sem oráculo · XOM",
+        "next_check": "2026-09-01T15:03:00.012526+00:00",
+        "first_seen": "2026-09-01T14:58:00.012526+00:00",
+        "status": "wait",
+        "lane": "wait_window"
+      },
+      {
+        "ticker": "LMT",
+        "book": "scalper_1600",
+        "horse": "Popular",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "16:00 Popular #2 · 8× cards · sem oráculo · LMT",
+        "next_check": "2026-09-01T15:03:00.020654+00:00",
+        "first_seen": "2026-09-01T14:58:00.020654+00:00",
+        "status": "wait",
+        "lane": "wait_window"
+      },
+      {
+        "ticker": "TLT",
+        "book": "scalper_1600",
+        "horse": "Popular",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "16:00 Popular #3 · 5× cards · sem oráculo · TLT",
+        "next_check": "2026-09-01T15:03:00.026307+00:00",
+        "first_seen": "2026-09-01T14:58:00.026307+00:00",
+        "status": "wait",
+        "lane": "wait_window"
+      },
+      {
+        "ticker": "NOC",
+        "book": "scalper_1600",
+        "horse": "Popular",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "16:00 Popular #4 · 5× cards · sem oráculo · NOC",
+        "next_check": "2026-09-01T15:03:00.030839+00:00",
+        "first_seen": "2026-09-01T14:58:00.030839+00:00",
+        "status": "wait",
+        "lane": "wait_window"
+      },
+      {
+        "ticker": "BABA",
+        "book": "scalper_1600",
+        "horse": "Popular",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "16:00 Popular #5 · 4× cards · sem oráculo · BABA",
+        "next_check": "2026-09-01T15:03:00.034993+00:00",
+        "first_seen": "2026-09-01T14:58:00.034993+00:00",
+        "status": "wait",
+        "lane": "wait_window"
+      }
+    ],
     "rows": [
       {
         "ticker": "USO",
@@ -366,30 +405,69 @@
         "lane": "out_market"
       },
       {
-        "ticker": "PDD",
-        "book": "tobias_swing",
+        "ticker": "XOM",
+        "book": "scalper_1600",
         "horse": "Popular",
-        "impact": 50,
-        "tries": 5,
+        "impact": 0,
+        "tries": 0,
         "max_tries": 6,
-        "reason": "corr -0.02 · star -0.87 · GLD c0.28 d-1.00 · AMZN c0.16 d-1.30 · XLY c0.16 d-0.37",
-        "next_check": "2026-09-01T15:01:57.716444+00:00",
-        "first_seen": "2026-09-01T13:35:36.959904+00:00",
+        "reason": "16:00 Popular #1 · 10× cards · sem oráculo · XOM",
+        "next_check": "2026-09-01T15:03:00.012526+00:00",
+        "first_seen": "2026-09-01T14:58:00.012526+00:00",
         "status": "wait",
-        "lane": "quase"
+        "lane": "wait_window"
       },
       {
-        "ticker": "PDD",
-        "book": "tobias_scalper",
+        "ticker": "LMT",
+        "book": "scalper_1600",
         "horse": "Popular",
-        "impact": 50,
-        "tries": 5,
+        "impact": 0,
+        "tries": 0,
         "max_tries": 6,
-        "reason": "corr -0.02 · star -0.87 · GLD c0.28 d-1.00 · AMZN c0.16 d-1.30 · XLY c0.16 d-0.37",
-        "next_check": "2026-09-01T15:01:58.136080+00:00",
-        "first_seen": "2026-09-01T13:35:37.202081+00:00",
+        "reason": "16:00 Popular #2 · 8× cards · sem oráculo · LMT",
+        "next_check": "2026-09-01T15:03:00.020654+00:00",
+        "first_seen": "2026-09-01T14:58:00.020654+00:00",
         "status": "wait",
-        "lane": "quase"
+        "lane": "wait_window"
+      },
+      {
+        "ticker": "TLT",
+        "book": "scalper_1600",
+        "horse": "Popular",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "16:00 Popular #3 · 5× cards · sem oráculo · TLT",
+        "next_check": "2026-09-01T15:03:00.026307+00:00",
+        "first_seen": "2026-09-01T14:58:00.026307+00:00",
+        "status": "wait",
+        "lane": "wait_window"
+      },
+      {
+        "ticker": "NOC",
+        "book": "scalper_1600",
+        "horse": "Popular",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "16:00 Popular #4 · 5× cards · sem oráculo · NOC",
+        "next_check": "2026-09-01T15:03:00.030839+00:00",
+        "first_seen": "2026-09-01T14:58:00.030839+00:00",
+        "status": "wait",
+        "lane": "wait_window"
+      },
+      {
+        "ticker": "BABA",
+        "book": "scalper_1600",
+        "horse": "Popular",
+        "impact": 0,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "16:00 Popular #5 · 4× cards · sem oráculo · BABA",
+        "next_check": "2026-09-01T15:03:00.034993+00:00",
+        "first_seen": "2026-09-01T14:58:00.034993+00:00",
+        "status": "wait",
+        "lane": "wait_window"
       }
     ],
     "day": "2026-09-01",
