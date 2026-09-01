@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-01T15:43:48+01:00",
+  "updated_at": "2026-09-01T15:46:55+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "15:43",
+  "when_label": "15:46",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -20,12 +20,12 @@
         "id": 178,
         "ticker": "XOM",
         "entry": 161.09,
-        "price": 162.86,
+        "price": 163.065,
         "qty": 0.062077,
         "notional": 10.0,
-        "pnl_pct": 1.1,
-        "pnl_eur": 0.10987646657148241,
-        "pnl_r": 0.28,
+        "pnl_pct": 1.23,
+        "pnl_eur": 0.12260227202185078,
+        "pnl_r": 0.31,
         "sl": 154.69,
         "tp1": 173.89,
         "tp2": 180.29,
@@ -80,11 +80,11 @@
         "id": 187,
         "ticker": "NVDA",
         "entry": 219.72,
-        "price": 217.99,
+        "price": 217.9,
         "qty": 0.045512,
         "notional": 10.0,
-        "pnl_pct": -0.79,
-        "pnl_eur": -0.07873657382122655,
+        "pnl_pct": -0.83,
+        "pnl_eur": -0.08283269615874718,
         "pnl_r": -0.15,
         "sl": 207.91,
         "tp1": 243.34,
@@ -107,8 +107,8 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.9797650642487001,
-    "total_pnl_eur": -0.29392951927461003
+    "total_pnl_pct": -0.950999453872541,
+    "total_pnl_eur": -0.2852998361617623
   },
   "pipoca_extreme": {
     "rows": [],
