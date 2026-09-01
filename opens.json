@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-01T02:19:08+01:00",
+  "updated_at": "2026-09-01T02:22:08+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "02:19",
+  "when_label": "02:22",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -50,12 +50,12 @@
         "id": 179,
         "ticker": "GLD",
         "entry": 406.99,
-        "price": 408.42,
+        "price": 408.52,
         "qty": 0.024571,
         "notional": 10.0,
-        "pnl_pct": 0.35,
-        "pnl_eur": 0.035135998427479956,
-        "pnl_r": 0.13,
+        "pnl_pct": 0.38,
+        "pnl_eur": 0.03759306125457561,
+        "pnl_r": 0.14,
         "sl": 395.87,
         "tp1": 429.23,
         "tp2": 440.35,
@@ -107,8 +107,8 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.04535256501831194,
-    "total_pnl_eur": -0.013605769505493581
+    "total_pnl_pct": -0.03716235559465977,
+    "total_pnl_eur": -0.01114870667839793
   },
   "pipoca_extreme": {
     "rows": [],
