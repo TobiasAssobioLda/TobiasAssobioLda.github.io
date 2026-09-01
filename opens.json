@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-01T21:58:43+01:00",
+  "updated_at": "2026-09-01T22:01:43+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "21:58",
+  "when_label": "22:01",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -400,11 +400,11 @@
         "id": 268,
         "ticker": "NVDA",
         "entry": 217.615,
-        "price": 217.54,
+        "price": 217.51,
         "qty": 0.344646,
         "notional": 50.0,
         "pnl_pct": -0.0,
-        "pnl_eur": -0.046412,
+        "pnl_eur": -0.056752,
         "pnl_r": -0.01,
         "sl": 207.67,
         "tp1": 237.51,
@@ -427,10 +427,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.19489754999999997,
-    "total_pnl_eur": 3.897951,
+    "total_pnl_pct": 0.19438055,
+    "total_pnl_eur": 3.887611,
     "bank_eur": 2000.0,
-    "equity_eur": 2003.9
+    "equity_eur": 2003.89
   },
   "tobias_scalper": {
     "rows": [
@@ -558,11 +558,11 @@
         "id": 269,
         "ticker": "NVDA",
         "entry": 217.615,
-        "price": 217.54,
+        "price": 217.51,
         "qty": 0.344646,
         "notional": 25.0,
         "pnl_pct": -0.0,
-        "pnl_eur": -0.046412,
+        "pnl_eur": -0.056752,
         "pnl_r": -0.0,
         "sl": 147.9782,
         "tp1": 322.0702,
@@ -588,12 +588,12 @@
         "id": 270,
         "ticker": "BABA",
         "entry": 112.83,
-        "price": 112.9,
+        "price": 112.81,
         "qty": 0.221572,
         "notional": 25.0,
-        "pnl_pct": 0.0,
-        "pnl_eur": 0.014181,
-        "pnl_r": 0.0,
+        "pnl_pct": -0.0,
+        "pnl_eur": -0.005761,
+        "pnl_r": -0.0,
         "sl": 76.7244,
         "tp1": 166.9884,
         "tp2": 166.9884,
@@ -615,10 +615,10 @@
         "horizon_days": 1
       }
     ],
-    "total_pnl_pct": 0.1956066,
-    "total_pnl_eur": 3.9121319999999997,
+    "total_pnl_pct": 0.1940925,
+    "total_pnl_eur": 3.88185,
     "bank_eur": 2000.0,
-    "equity_eur": 2003.91
+    "equity_eur": 2003.88
   },
   "scalper": {
     "rows": [],
