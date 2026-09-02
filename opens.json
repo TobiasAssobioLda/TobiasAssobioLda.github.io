@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-02T07:13:43+01:00",
+  "updated_at": "2026-09-02T07:16:43+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "07:13",
+  "when_label": "07:16",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -588,12 +588,12 @@
         "id": 270,
         "ticker": "BABA",
         "entry": 112.83,
-        "price": 111.96,
+        "price": 111.88,
         "qty": 0.221572,
         "notional": 25.0,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.194097,
-        "pnl_r": -0.02,
+        "pnl_eur": -0.211823,
+        "pnl_r": -0.03,
         "sl": 76.7244,
         "tp1": 166.9884,
         "tp2": 166.9884,
@@ -615,10 +615,10 @@
         "horizon_days": 1
       }
     ],
-    "total_pnl_pct": 0.31069345,
-    "total_pnl_eur": 6.213869,
+    "total_pnl_pct": 0.30980715000000003,
+    "total_pnl_eur": 6.196143,
     "bank_eur": 2000.0,
-    "equity_eur": 2006.21
+    "equity_eur": 2006.2
   },
   "scalper": {
     "rows": [],
