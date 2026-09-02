@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-02T07:10:43+01:00",
+  "updated_at": "2026-09-02T07:13:43+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "07:10",
+  "when_label": "07:13",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -400,12 +400,12 @@
         "id": 268,
         "ticker": "NVDA",
         "entry": 217.615,
-        "price": 217.24,
+        "price": 217.3,
         "qty": 0.344646,
         "notional": 50.0,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.149806,
-        "pnl_r": -0.04,
+        "pnl_eur": -0.129127,
+        "pnl_r": -0.03,
         "sl": 207.67,
         "tp1": 237.51,
         "tp2": 247.45,
@@ -427,10 +427,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.31936435,
-    "total_pnl_eur": 6.387287000000001,
+    "total_pnl_pct": 0.3203983,
+    "total_pnl_eur": 6.407966,
     "bank_eur": 2000.0,
-    "equity_eur": 2006.39
+    "equity_eur": 2006.41
   },
   "tobias_scalper": {
     "rows": [
@@ -558,12 +558,12 @@
         "id": 269,
         "ticker": "NVDA",
         "entry": 217.615,
-        "price": 217.24,
+        "price": 217.3,
         "qty": 0.344646,
         "notional": 25.0,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.149806,
-        "pnl_r": -0.01,
+        "pnl_eur": -0.129127,
+        "pnl_r": -0.0,
         "sl": 147.9782,
         "tp1": 322.0702,
         "tp2": 322.0702,
@@ -615,10 +615,10 @@
         "horizon_days": 1
       }
     ],
-    "total_pnl_pct": 0.3096595,
-    "total_pnl_eur": 6.1931899999999995,
+    "total_pnl_pct": 0.31069345,
+    "total_pnl_eur": 6.213869,
     "bank_eur": 2000.0,
-    "equity_eur": 2006.19
+    "equity_eur": 2006.21
   },
   "scalper": {
     "rows": [],
@@ -693,12 +693,12 @@
         "id": 258,
         "ticker": "SPY",
         "entry": 761.76,
-        "price": 760.8,
+        "price": 760.95,
         "qty": 1.312706,
         "notional": 999.9669,
-        "pnl_pct": -0.03,
-        "pnl_eur": -1.260198,
-        "pnl_r": -0.05,
+        "pnl_pct": -0.02,
+        "pnl_eur": -1.063292,
+        "pnl_r": -0.04,
         "sl": 742.7154,
         "tp1": 799.8493,
         "tp2": 799.8493,
@@ -780,10 +780,10 @@
         "horizon_days": 5
       }
     ],
-    "total_pnl_pct": 0.08387154000000001,
-    "total_pnl_eur": 4.193577,
+    "total_pnl_pct": 0.08780966,
+    "total_pnl_eur": 4.390483,
     "bank_eur": 5000.0,
-    "equity_eur": 5004.19
+    "equity_eur": 5004.39
   },
   "possible": {
     "quase": [],
