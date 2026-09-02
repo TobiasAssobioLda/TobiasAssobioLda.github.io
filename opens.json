@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-02T05:43:46+01:00",
+  "updated_at": "2026-09-02T05:46:43+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "05:43",
+  "when_label": "05:46",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -400,12 +400,12 @@
         "id": 268,
         "ticker": "NVDA",
         "entry": 217.615,
-        "price": 217.23,
+        "price": 217.14,
         "qty": 0.344646,
         "notional": 50.0,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.153252,
-        "pnl_r": -0.04,
+        "pnl_eur": -0.184271,
+        "pnl_r": -0.05,
         "sl": 207.67,
         "tp1": 237.51,
         "tp2": 247.45,
@@ -427,10 +427,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.32422714999999996,
-    "total_pnl_eur": 6.4845429999999995,
+    "total_pnl_pct": 0.32267619999999997,
+    "total_pnl_eur": 6.453524,
     "bank_eur": 2000.0,
-    "equity_eur": 2006.48
+    "equity_eur": 2006.45
   },
   "tobias_scalper": {
     "rows": [
@@ -558,11 +558,11 @@
         "id": 269,
         "ticker": "NVDA",
         "entry": 217.615,
-        "price": 217.23,
+        "price": 217.14,
         "qty": 0.344646,
         "notional": 25.0,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.153252,
+        "pnl_eur": -0.184271,
         "pnl_r": -0.01,
         "sl": 147.9782,
         "tp1": 322.0702,
@@ -588,11 +588,11 @@
         "id": 270,
         "ticker": "BABA",
         "entry": 112.83,
-        "price": 110.88,
+        "price": 110.89,
         "qty": 0.221572,
         "notional": 25.0,
         "pnl_pct": -0.02,
-        "pnl_eur": -0.433395,
+        "pnl_eur": -0.431179,
         "pnl_r": -0.05,
         "sl": 76.7244,
         "tp1": 166.9884,
@@ -615,10 +615,10 @@
         "horizon_days": 1
       }
     ],
-    "total_pnl_pct": 0.3025574,
-    "total_pnl_eur": 6.0511479999999995,
+    "total_pnl_pct": 0.30111724999999995,
+    "total_pnl_eur": 6.022345,
     "bank_eur": 2000.0,
-    "equity_eur": 2006.05
+    "equity_eur": 2006.02
   },
   "scalper": {
     "rows": [],
