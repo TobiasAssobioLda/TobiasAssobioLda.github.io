@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T05:37:48+01:00",
+  "updated_at": "2026-09-02T05:40:48+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-08-28T21:00:00+01:00",
-      "to": "2026-09-02T05:37:48+01:00",
+      "to": "2026-09-02T05:40:48+01:00",
       "from_label": "28/08 21:00",
-      "to_label": "02/09 05:37",
+      "to_label": "02/09 05:40",
       "n_events": 244,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -232,15 +232,15 @@
       "to": "2026-09-02T14:15:00+01:00",
       "from_label": "01/09 21:00",
       "to_label": "02/09 14:15",
-      "n_events": 51,
+      "n_events": 54,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
         {
           "rank": 1,
           "ticker": "GOLD",
-          "total": 14,
-          "as_up": 14,
+          "total": 15,
+          "as_up": 15,
           "as_down": 0,
           "last_horse": "Inflação",
           "band": "all",
@@ -249,9 +249,9 @@
         {
           "rank": 2,
           "ticker": "NEM",
-          "total": 14,
+          "total": 15,
           "as_up": 0,
-          "as_down": 14,
+          "as_down": 15,
           "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
@@ -259,10 +259,10 @@
         {
           "rank": 3,
           "ticker": "LMT",
-          "total": 9,
-          "as_up": 8,
+          "total": 10,
+          "as_up": 9,
           "as_down": 1,
-          "last_horse": "Rússia",
+          "last_horse": "Irão",
           "band": "all",
           "direction": "all"
         },
@@ -321,9 +321,9 @@
         {
           "rank": 9,
           "ticker": "RTX",
-          "total": 5,
+          "total": 6,
           "as_up": 0,
-          "as_down": 5,
+          "as_down": 6,
           "last_horse": "Irão",
           "band": "all",
           "direction": "all"
@@ -341,8 +341,8 @@
         {
           "rank": 11,
           "ticker": "GS",
-          "total": 3,
-          "as_up": 1,
+          "total": 4,
+          "as_up": 2,
           "as_down": 2,
           "last_horse": "Fed",
           "band": "all",
@@ -370,6 +370,16 @@
         },
         {
           "rank": 14,
+          "ticker": "MS",
+          "total": 2,
+          "as_up": 0,
+          "as_down": 2,
+          "last_horse": "Fed",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 15,
           "ticker": "APA",
           "total": 1,
           "as_up": 1,
@@ -379,7 +389,7 @@
           "direction": "all"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "ticker": "BMNR",
           "total": 1,
           "as_up": 1,
@@ -389,7 +399,7 @@
           "direction": "all"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "ticker": "EE",
           "total": 1,
           "as_up": 1,
@@ -399,7 +409,7 @@
           "direction": "all"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "ticker": "GLAS",
           "total": 1,
           "as_up": 1,
@@ -409,7 +419,7 @@
           "direction": "all"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "ticker": "IBN",
           "total": 1,
           "as_up": 1,
@@ -419,22 +429,12 @@
           "direction": "all"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "ticker": "JD",
           "total": 1,
           "as_up": 1,
           "as_down": 0,
           "last_horse": "China",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 20,
-          "ticker": "AMZN",
-          "total": 1,
-          "as_up": 0,
-          "as_down": 1,
-          "last_horse": "Trump",
           "band": "all",
           "direction": "all"
         }
@@ -445,9 +445,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-02T00:00:00+01:00",
-      "to": "2026-09-02T05:37:48+01:00",
+      "to": "2026-09-02T05:40:48+01:00",
       "from_label": "02/09 00:00",
-      "to_label": "02/09 05:37",
+      "to_label": "02/09 05:40",
       "n_events": 0,
       "top5_count": 0,
       "top6_20_count": 0,
