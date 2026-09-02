@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-02T02:43:46+01:00",
+  "updated_at": "2026-09-02T02:46:43+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "02:43",
+  "when_label": "02:46",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -588,12 +588,12 @@
         "id": 270,
         "ticker": "BABA",
         "entry": 112.83,
-        "price": 111.23,
+        "price": 110.9,
         "qty": 0.221572,
         "notional": 25.0,
         "pnl_pct": -0.02,
-        "pnl_eur": -0.355844,
-        "pnl_r": -0.04,
+        "pnl_eur": -0.428963,
+        "pnl_r": -0.05,
         "sl": 76.7244,
         "tp1": 166.9884,
         "tp2": 166.9884,
@@ -615,10 +615,10 @@
         "horizon_days": 1
       }
     ],
-    "total_pnl_pct": 0.22448244999999997,
-    "total_pnl_eur": 4.489648999999999,
+    "total_pnl_pct": 0.2208265,
+    "total_pnl_eur": 4.41653,
     "bank_eur": 2000.0,
-    "equity_eur": 2004.49
+    "equity_eur": 2004.42
   },
   "scalper": {
     "rows": [],
@@ -693,11 +693,11 @@
         "id": 258,
         "ticker": "SPY",
         "entry": 761.76,
-        "price": 761.08,
+        "price": 760.95,
         "qty": 1.312706,
         "notional": 999.9669,
         "pnl_pct": -0.02,
-        "pnl_eur": -0.892641,
+        "pnl_eur": -1.063292,
         "pnl_r": -0.04,
         "sl": 742.7154,
         "tp1": 799.8493,
@@ -780,10 +780,10 @@
         "horizon_days": 5
       }
     ],
-    "total_pnl_pct": 0.06176714,
-    "total_pnl_eur": 3.0883570000000002,
+    "total_pnl_pct": 0.05835412000000002,
+    "total_pnl_eur": 2.917706000000001,
     "bank_eur": 5000.0,
-    "equity_eur": 5003.09
+    "equity_eur": 5002.92
   },
   "possible": {
     "quase": [],
