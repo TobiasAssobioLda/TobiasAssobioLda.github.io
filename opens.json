@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-02T01:34:43+01:00",
+  "updated_at": "2026-09-02T01:37:43+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "01:34",
+  "when_label": "01:37",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -400,12 +400,12 @@
         "id": 268,
         "ticker": "NVDA",
         "entry": 217.615,
-        "price": 217.66,
+        "price": 217.75,
         "qty": 0.344646,
         "notional": 50.0,
-        "pnl_pct": -0.0,
-        "pnl_eur": -0.005055,
-        "pnl_r": 0.0,
+        "pnl_pct": 0.0,
+        "pnl_eur": 0.025964,
+        "pnl_r": 0.01,
         "sl": 207.67,
         "tp1": 237.51,
         "tp2": 247.45,
@@ -427,10 +427,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.25573975,
-    "total_pnl_eur": 5.114795,
+    "total_pnl_pct": 0.2572907,
+    "total_pnl_eur": 5.145814,
     "bank_eur": 2000.0,
-    "equity_eur": 2005.11
+    "equity_eur": 2005.15
   },
   "tobias_scalper": {
     "rows": [
@@ -558,11 +558,11 @@
         "id": 269,
         "ticker": "NVDA",
         "entry": 217.615,
-        "price": 217.66,
+        "price": 217.75,
         "qty": 0.344646,
         "notional": 25.0,
-        "pnl_pct": -0.0,
-        "pnl_eur": -0.005055,
+        "pnl_pct": 0.0,
+        "pnl_eur": 0.025964,
         "pnl_r": 0.0,
         "sl": 147.9782,
         "tp1": 322.0702,
@@ -588,12 +588,12 @@
         "id": 270,
         "ticker": "BABA",
         "entry": 112.83,
-        "price": 112.89,
+        "price": 112.76,
         "qty": 0.221572,
         "notional": 25.0,
-        "pnl_pct": 0.0,
-        "pnl_eur": 0.011965,
-        "pnl_r": 0.0,
+        "pnl_pct": -0.0,
+        "pnl_eur": -0.016839,
+        "pnl_r": -0.0,
         "sl": 76.7244,
         "tp1": 166.9884,
         "tp2": 166.9884,
@@ -615,8 +615,8 @@
         "horizon_days": 1
       }
     ],
-    "total_pnl_pct": 0.256338,
-    "total_pnl_eur": 5.12676,
+    "total_pnl_pct": 0.25644875,
+    "total_pnl_eur": 5.128975,
     "bank_eur": 2000.0,
     "equity_eur": 2005.13
   },
