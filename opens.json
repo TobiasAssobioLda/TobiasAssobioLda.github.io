@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-02T01:52:43+01:00",
+  "updated_at": "2026-09-02T01:55:43+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "01:52",
+  "when_label": "01:55",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -693,12 +693,12 @@
         "id": 258,
         "ticker": "SPY",
         "entry": 761.76,
-        "price": 761.78,
+        "price": 761.73,
         "qty": 1.312706,
         "notional": 999.9669,
-        "pnl_pct": 0.0,
-        "pnl_eur": 0.026254,
-        "pnl_r": 0.0,
+        "pnl_pct": -0.0,
+        "pnl_eur": -0.039382,
+        "pnl_r": -0.0,
         "sl": 742.7154,
         "tp1": 799.8493,
         "tp2": 799.8493,
@@ -780,10 +780,10 @@
         "horizon_days": 5
       }
     ],
-    "total_pnl_pct": 0.07741310000000001,
-    "total_pnl_eur": 3.870655,
+    "total_pnl_pct": 0.07610038,
+    "total_pnl_eur": 3.8050189999999997,
     "bank_eur": 5000.0,
-    "equity_eur": 5003.87
+    "equity_eur": 5003.81
   },
   "possible": {
     "quase": [],
