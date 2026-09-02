@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-02T05:34:43+01:00",
+  "updated_at": "2026-09-02T05:37:43+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "05:34",
+  "when_label": "05:37",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -400,12 +400,12 @@
         "id": 268,
         "ticker": "NVDA",
         "entry": 217.615,
-        "price": 217.2,
+        "price": 217.3,
         "qty": 0.344646,
         "notional": 50.0,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.163592,
-        "pnl_r": -0.04,
+        "pnl_eur": -0.129127,
+        "pnl_r": -0.03,
         "sl": 207.67,
         "tp1": 237.51,
         "tp2": 247.45,
@@ -427,10 +427,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.32371015,
-    "total_pnl_eur": 6.474202999999999,
+    "total_pnl_pct": 0.32543340000000004,
+    "total_pnl_eur": 6.508668,
     "bank_eur": 2000.0,
-    "equity_eur": 2006.47
+    "equity_eur": 2006.51
   },
   "tobias_scalper": {
     "rows": [
@@ -558,12 +558,12 @@
         "id": 269,
         "ticker": "NVDA",
         "entry": 217.615,
-        "price": 217.2,
+        "price": 217.3,
         "qty": 0.344646,
         "notional": 25.0,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.163592,
-        "pnl_r": -0.01,
+        "pnl_eur": -0.129127,
+        "pnl_r": -0.0,
         "sl": 147.9782,
         "tp1": 322.0702,
         "tp2": 322.0702,
@@ -588,11 +588,11 @@
         "id": 270,
         "ticker": "BABA",
         "entry": 112.83,
-        "price": 110.89,
+        "price": 110.86,
         "qty": 0.221572,
         "notional": 25.0,
         "pnl_pct": -0.02,
-        "pnl_eur": -0.431179,
+        "pnl_eur": -0.437826,
         "pnl_r": -0.05,
         "sl": 76.7244,
         "tp1": 166.9884,
@@ -615,10 +615,10 @@
         "horizon_days": 1
       }
     ],
-    "total_pnl_pct": 0.30215119999999995,
-    "total_pnl_eur": 6.043023999999999,
+    "total_pnl_pct": 0.3035421,
+    "total_pnl_eur": 6.070842,
     "bank_eur": 2000.0,
-    "equity_eur": 2006.04
+    "equity_eur": 2006.07
   },
   "scalper": {
     "rows": [],
