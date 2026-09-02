@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-02T03:40:43+01:00",
+  "updated_at": "2026-09-02T03:43:46+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "03:40",
+  "when_label": "03:43",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -400,12 +400,12 @@
         "id": 268,
         "ticker": "NVDA",
         "entry": 217.615,
-        "price": 217.25,
+        "price": 217.28,
         "qty": 0.344646,
         "notional": 50.0,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.146359,
-        "pnl_r": -0.04,
+        "pnl_eur": -0.13602,
+        "pnl_r": -0.03,
         "sl": 207.67,
         "tp1": 237.51,
         "tp2": 247.45,
@@ -427,10 +427,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.27680619999999995,
-    "total_pnl_eur": 5.536123999999999,
+    "total_pnl_pct": 0.27732314999999996,
+    "total_pnl_eur": 5.546462999999999,
     "bank_eur": 2000.0,
-    "equity_eur": 2005.54
+    "equity_eur": 2005.55
   },
   "tobias_scalper": {
     "rows": [
@@ -558,12 +558,12 @@
         "id": 269,
         "ticker": "NVDA",
         "entry": 217.615,
-        "price": 217.25,
+        "price": 217.28,
         "qty": 0.344646,
         "notional": 25.0,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.146359,
-        "pnl_r": -0.01,
+        "pnl_eur": -0.13602,
+        "pnl_r": -0.0,
         "sl": 147.9782,
         "tp1": 322.0702,
         "tp2": 322.0702,
@@ -588,11 +588,11 @@
         "id": 270,
         "ticker": "BABA",
         "entry": 112.83,
-        "price": 110.51,
+        "price": 110.6,
         "qty": 0.221572,
         "notional": 25.0,
-        "pnl_pct": -0.03,
-        "pnl_eur": -0.515376,
+        "pnl_pct": -0.02,
+        "pnl_eur": -0.495435,
         "pnl_r": -0.06,
         "sl": 76.7244,
         "tp1": 166.9884,
@@ -615,10 +615,10 @@
         "horizon_days": 1
       }
     ],
-    "total_pnl_pct": 0.25103739999999997,
-    "total_pnl_eur": 5.020747999999999,
+    "total_pnl_pct": 0.2525514,
+    "total_pnl_eur": 5.051028,
     "bank_eur": 2000.0,
-    "equity_eur": 2005.02
+    "equity_eur": 2005.05
   },
   "scalper": {
     "rows": [],
