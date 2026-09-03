@@ -1,10 +1,46 @@
 {
-  "updated_at": "2026-09-03T05:58:13+01:00",
+  "updated_at": "2026-09-03T06:01:13+01:00",
   "timezone": "Europe/Lisbon",
   "opens_count": 0,
-  "calendar_count": 0,
+  "calendar_count": 1,
   "opens_rows": [],
-  "calendar_rows": [],
-  "count": 0,
-  "rows": []
+  "calendar_rows": [
+    {
+      "event_date": "2026-09-03",
+      "date_label": "03/09",
+      "title": "Zscaler's Next Earnings Report on September 3 Could Send the Stock Soaring. Here's Why. - finance.yahoo.com",
+      "horse": "Earnings",
+      "tickers": "MSFT / AAPL",
+      "ticker_up": "MSFT",
+      "ticker_down": "AAPL",
+      "action": "alerta",
+      "status": "candidate",
+      "score": 50,
+      "range": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTi1fcVJVZ1MzclBUNEdfenJfUlF4TmNwYTU2dXpacWVEY09oWi0yRFNQTXd5TTNaXzc2SzRxQ2g3T1l4RmdRaGxYcXlnUVRwMkRmMXQwWHM5ZTA3cFRPRGJYaVhfdkpaMk4tZDBuaHdqM0hRQlpRRHlTLWZVTmstbjhrYkh1SGFQb19uX1VYNURJODdSYWoxQkdPQ283bjBYUUlaSGtITQ?oc=5",
+      "source": "spam",
+      "note": "noise",
+      "rank": 1
+    }
+  ],
+  "count": 1,
+  "rows": [
+    {
+      "event_date": "2026-09-03",
+      "date_label": "03/09",
+      "title": "Zscaler's Next Earnings Report on September 3 Could Send the Stock Soaring. Here's Why. - finance.yahoo.com",
+      "horse": "Earnings",
+      "tickers": "MSFT / AAPL",
+      "ticker_up": "MSFT",
+      "ticker_down": "AAPL",
+      "action": "alerta",
+      "status": "candidate",
+      "score": 50,
+      "range": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTi1fcVJVZ1MzclBUNEdfenJfUlF4TmNwYTU2dXpacWVEY09oWi0yRFNQTXd5TTNaXzc2SzRxQ2g3T1l4RmdRaGxYcXlnUVRwMkRmMXQwWHM5ZTA3cFRPRGJYaVhfdkpaMk4tZDBuaHdqM0hRQlpRRHlTLWZVTmstbjhrYkh1SGFQb19uX1VYNURJODdSYWoxQkdPQ283bjBYUUlaSGtITQ?oc=5",
+      "source": "spam",
+      "note": "noise",
+      "rank": 1
+    }
+  ]
 }
