@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-03T21:10:08+01:00",
+  "updated_at": "2026-09-03T21:13:08+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "21:09",
+  "when_label": "21:12",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -447,12 +447,12 @@
         "id": 321,
         "ticker": "AVGO",
         "entry": 355.9653,
-        "price": 356.84,
+        "price": 357.184,
         "qty": 0.028093,
         "notional": 10.0,
-        "pnl_pct": 0.25,
-        "pnl_eur": 0.024572619859294195,
-        "pnl_r": 0.05,
+        "pnl_pct": 0.34,
+        "pnl_eur": 0.034236483162825494,
+        "pnl_r": 0.07,
         "sl": 338.48,
         "tp1": 390.94,
         "tp2": 408.42,
@@ -474,8 +474,8 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.026583307796129815,
-    "total_pnl_eur": -0.018608315457290872
+    "total_pnl_pct": -0.012777788791085105,
+    "total_pnl_eur": -0.008944452153759573
   },
   "oficial": {
     "rows": [],
@@ -700,12 +700,12 @@
         "id": 325,
         "ticker": "AVGO",
         "entry": 357.72,
-        "price": 356.8401,
+        "price": 357.184,
         "qty": 0.139774,
         "notional": 50.0,
-        "pnl_pct": -0.01,
-        "pnl_eur": -0.12298725259980159,
-        "pnl_r": -0.05,
+        "pnl_pct": -0.0,
+        "pnl_eur": -0.07491893100749208,
+        "pnl_r": -0.03,
         "sl": 340.05,
         "tp1": 393.06,
         "tp2": 410.73,
@@ -730,12 +730,12 @@
         "id": 326,
         "ticker": "CTSH",
         "entry": 64.79,
-        "price": 64.64,
+        "price": 64.69,
         "qty": 0.771724,
         "notional": 50.0,
-        "pnl_pct": -0.01,
-        "pnl_eur": -0.11575860472295545,
-        "pnl_r": -0.05,
+        "pnl_pct": -0.0,
+        "pnl_eur": -0.07717240314864061,
+        "pnl_r": -0.03,
         "sl": 61.81,
         "tp1": 70.75,
         "tp2": 73.73,
@@ -787,10 +787,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.05495481825751981,
-    "total_pnl_eur": 1.0990963651503962,
+    "total_pnl_pct": 0.05928754441585102,
+    "total_pnl_eur": 1.1857508883170205,
     "bank_eur": 2000.0,
-    "equity_eur": 2001.1
+    "equity_eur": 2001.19
   },
   "tobias_scalper": {
     "rows": [
