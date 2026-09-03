@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T14:18:51+01:00",
+  "updated_at": "2026-09-03T14:20:01+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,39 +13,39 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-08-28T21:00:00+01:00",
-      "to": "2026-09-03T14:18:51+01:00",
+      "to": "2026-09-03T14:20:01+01:00",
       "from_label": "28/08 21:00",
-      "to_label": "03/09 14:18",
-      "n_events": 264,
+      "to_label": "03/09 14:20",
+      "n_events": 268,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
         {
           "rank": 1,
           "ticker": "XOM",
-          "total": 98,
-          "as_up": 93,
+          "total": 100,
+          "as_up": 95,
           "as_down": 5,
-          "last_horse": "Irão",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 2,
-          "ticker": "TLT",
-          "total": 43,
-          "as_up": 28,
-          "as_down": 15,
           "last_horse": "Trump",
           "band": "all",
           "direction": "all"
         },
         {
-          "rank": 3,
+          "rank": 2,
           "ticker": "LMT",
-          "total": 42,
-          "as_up": 32,
+          "total": 43,
+          "as_up": 33,
           "as_down": 10,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 3,
+          "ticker": "TLT",
+          "total": 43,
+          "as_up": 28,
+          "as_down": 15,
           "last_horse": "Trump",
           "band": "all",
           "direction": "all"
@@ -94,6 +94,16 @@
         },
         {
           "rank": 8,
+          "ticker": "BABA",
+          "total": 14,
+          "as_up": 11,
+          "as_down": 3,
+          "last_horse": "Trump",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 9,
           "ticker": "NEM",
           "total": 14,
           "as_up": 0,
@@ -103,32 +113,22 @@
           "direction": "all"
         },
         {
-          "rank": 9,
-          "ticker": "BABA",
-          "total": 13,
-          "as_up": 10,
-          "as_down": 3,
-          "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
           "rank": 10,
-          "ticker": "GS",
-          "total": 10,
-          "as_up": 10,
-          "as_down": 0,
-          "last_horse": "Fed",
+          "ticker": "PDD",
+          "total": 11,
+          "as_up": 0,
+          "as_down": 11,
+          "last_horse": "Trump",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 11,
-          "ticker": "PDD",
+          "ticker": "GS",
           "total": 10,
-          "as_up": 0,
-          "as_down": 10,
-          "last_horse": "Trump",
+          "as_up": 10,
+          "as_down": 0,
+          "last_horse": "Fed",
           "band": "all",
           "direction": "all"
         },
@@ -232,7 +232,7 @@
       "to": "2026-09-03T14:15:00+01:00",
       "from_label": "02/09 21:00",
       "to_label": "03/09 14:15",
-      "n_events": 83,
+      "n_events": 82,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
@@ -278,10 +278,10 @@
         },
         {
           "rank": 5,
-          "ticker": "BABA",
+          "ticker": "CVX",
           "total": 10,
-          "as_up": 9,
-          "as_down": 1,
+          "as_up": 0,
+          "as_down": 10,
           "last_horse": "Trump",
           "band": "all",
           "direction": "all"
@@ -290,10 +290,10 @@
       "top6_20": [
         {
           "rank": 6,
-          "ticker": "CVX",
-          "total": 10,
-          "as_up": 0,
-          "as_down": 10,
+          "ticker": "BABA",
+          "total": 9,
+          "as_up": 8,
+          "as_down": 1,
           "last_horse": "Trump",
           "band": "all",
           "direction": "all"
@@ -301,9 +301,9 @@
         {
           "rank": 7,
           "ticker": "RTX",
-          "total": 10,
+          "total": 9,
           "as_up": 0,
-          "as_down": 10,
+          "as_down": 9,
           "last_horse": "Trump",
           "band": "all",
           "direction": "all"
@@ -311,9 +311,9 @@
         {
           "rank": 8,
           "ticker": "PDD",
-          "total": 9,
+          "total": 8,
           "as_up": 0,
-          "as_down": 9,
+          "as_down": 8,
           "last_horse": "Trump",
           "band": "all",
           "direction": "all"
@@ -445,23 +445,116 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-03T00:00:00+01:00",
-      "to": "2026-09-03T14:18:51+01:00",
+      "to": "2026-09-03T14:20:01+01:00",
       "from_label": "03/09 00:00",
-      "to_label": "03/09 14:18",
-      "n_events": 0,
-      "top5_count": 0,
+      "to_label": "03/09 14:20",
+      "n_events": 2,
+      "top5_count": 3,
       "top6_20_count": 0,
-      "top5": [],
+      "top5": [
+        {
+          "rank": 1,
+          "ticker": "BABA",
+          "total": 1,
+          "as_up": 1,
+          "as_down": 0,
+          "last_horse": "Trump",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 2,
+          "ticker": "LMT",
+          "total": 1,
+          "as_up": 1,
+          "as_down": 0,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 3,
+          "ticker": "PDD",
+          "total": 1,
+          "as_up": 0,
+          "as_down": 1,
+          "last_horse": "Trump",
+          "band": "all",
+          "direction": "all"
+        }
+      ],
       "top6_20": [],
       "source": "rumors_avg_high"
     }
   },
-  "n_events": 0,
-  "top5_count": 0,
+  "n_events": 2,
+  "top5_count": 3,
   "top6_20_count": 0,
-  "top5": [],
+  "top5": [
+    {
+      "rank": 1,
+      "ticker": "BABA",
+      "total": 1,
+      "as_up": 1,
+      "as_down": 0,
+      "last_horse": "Trump",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 2,
+      "ticker": "LMT",
+      "total": 1,
+      "as_up": 1,
+      "as_down": 0,
+      "last_horse": "Irão",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 3,
+      "ticker": "PDD",
+      "total": 1,
+      "as_up": 0,
+      "as_down": 1,
+      "last_horse": "Trump",
+      "band": "all",
+      "direction": "all"
+    }
+  ],
   "top6_20": [],
-  "count": 0,
-  "rows": [],
+  "count": 3,
+  "rows": [
+    {
+      "rank": 1,
+      "ticker": "BABA",
+      "total": 1,
+      "as_up": 1,
+      "as_down": 0,
+      "last_horse": "Trump",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 2,
+      "ticker": "LMT",
+      "total": 1,
+      "as_up": 1,
+      "as_down": 0,
+      "last_horse": "Irão",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 3,
+      "ticker": "PDD",
+      "total": 1,
+      "as_up": 0,
+      "as_down": 1,
+      "last_horse": "Trump",
+      "band": "all",
+      "direction": "all"
+    }
+  ],
   "days": 1
 }
