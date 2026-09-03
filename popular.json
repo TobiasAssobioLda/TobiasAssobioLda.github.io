@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T03:31:26+01:00",
+  "updated_at": "2026-09-03T03:34:25+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-08-28T21:00:00+01:00",
-      "to": "2026-09-03T03:31:26+01:00",
+      "to": "2026-09-03T03:34:25+01:00",
       "from_label": "28/08 21:00",
-      "to_label": "03/09 03:31",
+      "to_label": "03/09 03:34",
       "n_events": 264,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -232,7 +232,7 @@
       "to": "2026-09-03T14:15:00+01:00",
       "from_label": "02/09 21:00",
       "to_label": "03/09 14:15",
-      "n_events": 27,
+      "n_events": 28,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
@@ -330,6 +330,26 @@
         },
         {
           "rank": 10,
+          "ticker": "GS",
+          "total": 2,
+          "as_up": 1,
+          "as_down": 1,
+          "last_horse": "Fed",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 11,
+          "ticker": "MS",
+          "total": 2,
+          "as_up": 1,
+          "as_down": 1,
+          "last_horse": "Fed",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 12,
           "ticker": "RTX",
           "total": 2,
           "as_up": 0,
@@ -339,7 +359,7 @@
           "direction": "all"
         },
         {
-          "rank": 11,
+          "rank": 13,
           "ticker": "BAC",
           "total": 1,
           "as_up": 1,
@@ -349,7 +369,7 @@
           "direction": "all"
         },
         {
-          "rank": 12,
+          "rank": 14,
           "ticker": "EE",
           "total": 1,
           "as_up": 1,
@@ -359,7 +379,7 @@
           "direction": "all"
         },
         {
-          "rank": 13,
+          "rank": 15,
           "ticker": "ET",
           "total": 1,
           "as_up": 1,
@@ -369,7 +389,7 @@
           "direction": "all"
         },
         {
-          "rank": 14,
+          "rank": 16,
           "ticker": "EXE",
           "total": 1,
           "as_up": 1,
@@ -379,17 +399,7 @@
           "direction": "all"
         },
         {
-          "rank": 15,
-          "ticker": "MS",
-          "total": 1,
-          "as_up": 1,
-          "as_down": 0,
-          "last_horse": "Fed",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 16,
+          "rank": 17,
           "ticker": "NUE",
           "total": 1,
           "as_up": 1,
@@ -399,7 +409,7 @@
           "direction": "all"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "ticker": "TSM",
           "total": 1,
           "as_up": 1,
@@ -409,7 +419,7 @@
           "direction": "all"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "ticker": "AMD",
           "total": 1,
           "as_up": 0,
@@ -419,22 +429,12 @@
           "direction": "all"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "ticker": "CLF",
           "total": 1,
           "as_up": 0,
           "as_down": 1,
           "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 20,
-          "ticker": "GS",
-          "total": 1,
-          "as_up": 0,
-          "as_down": 1,
-          "last_horse": "Irão",
           "band": "all",
           "direction": "all"
         }
@@ -445,9 +445,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-03T00:00:00+01:00",
-      "to": "2026-09-03T03:31:26+01:00",
+      "to": "2026-09-03T03:34:25+01:00",
       "from_label": "03/09 00:00",
-      "to_label": "03/09 03:31",
+      "to_label": "03/09 03:34",
       "n_events": 0,
       "top5_count": 0,
       "top6_20_count": 0,
