@@ -1,46 +1,10 @@
 {
-  "updated_at": "2026-09-03T14:57:50+01:00",
+  "updated_at": "2026-09-03T15:01:02+01:00",
   "timezone": "Europe/Lisbon",
   "opens_count": 0,
-  "calendar_count": 1,
+  "calendar_count": 0,
   "opens_rows": [],
-  "calendar_rows": [
-    {
-      "event_date": "2026-09-24",
-      "date_label": "24/09",
-      "title": "Chinese President Xi Jinping to Visit US on September 24 ; Trump Expects Positive Outcomes",
-      "horse": "Trump",
-      "tickers": "ZH / BABA",
-      "ticker_up": "ZH",
-      "ticker_down": "BABA",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 85,
-      "range": "",
-      "url": "https://www.khaskhabar.com/news/world-news/news-chinese-president-xi-jinping-to-visit-us-on-september-24-trump-expects-positive-outcomes-news-hindi-1-841676-KKN.html",
-      "source": "spam",
-      "note": "to visit+leader+date-hint",
-      "rank": 1
-    }
-  ],
-  "count": 1,
-  "rows": [
-    {
-      "event_date": "2026-09-24",
-      "date_label": "24/09",
-      "title": "Chinese President Xi Jinping to Visit US on September 24 ; Trump Expects Positive Outcomes",
-      "horse": "Trump",
-      "tickers": "ZH / BABA",
-      "ticker_up": "ZH",
-      "ticker_down": "BABA",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 85,
-      "range": "",
-      "url": "https://www.khaskhabar.com/news/world-news/news-chinese-president-xi-jinping-to-visit-us-on-september-24-trump-expects-positive-outcomes-news-hindi-1-841676-KKN.html",
-      "source": "spam",
-      "note": "to visit+leader+date-hint",
-      "rank": 1
-    }
-  ]
+  "calendar_rows": [],
+  "count": 0,
+  "rows": []
 }
