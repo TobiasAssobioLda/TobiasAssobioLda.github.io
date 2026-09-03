@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-03T23:28:08+01:00",
+  "updated_at": "2026-09-03T23:31:08+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "23:27",
+  "when_label": "23:30",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -447,11 +447,11 @@
         "id": 321,
         "ticker": "AVGO",
         "entry": 355.9653,
-        "price": 356.4333,
+        "price": 356.5,
         "qty": 0.028093,
         "notional": 10.0,
-        "pnl_pct": 0.13,
-        "pnl_eur": 0.013147348912940697,
+        "pnl_pct": 0.15,
+        "pnl_eur": 0.015021127059294448,
         "pnl_r": 0.03,
         "sl": 338.48,
         "tp1": 390.94,
@@ -474,8 +474,8 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": -0.04290512343377767,
-    "total_pnl_eur": -0.03003358640364437
+    "total_pnl_pct": -0.04022829751041517,
+    "total_pnl_eur": -0.02815980825729062
   },
   "oficial": {
     "rows": [],
@@ -700,11 +700,11 @@
         "id": 325,
         "ticker": "AVGO",
         "entry": 357.72,
-        "price": 356.4333,
+        "price": 356.5,
         "qty": 0.139774,
         "notional": 50.0,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.17984736665549214,
+        "pnl_eur": -0.17052443251705623,
         "pnl_r": -0.07,
         "sl": 340.05,
         "tp1": 393.06,
@@ -787,10 +787,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.07372008543635289,
-    "total_pnl_eur": 1.474401708727058,
+    "total_pnl_pct": 0.07418623214327469,
+    "total_pnl_eur": 1.4837246428654938,
     "bank_eur": 2000.0,
-    "equity_eur": 2001.47
+    "equity_eur": 2001.48
   },
   "tobias_scalper": {
     "rows": [
