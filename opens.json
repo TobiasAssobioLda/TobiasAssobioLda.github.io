@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-03T09:09:46+01:00",
+  "updated_at": "2026-09-03T09:12:46+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "09:09",
+  "when_label": "09:12",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -340,12 +340,12 @@
         "id": 303,
         "ticker": "GLD",
         "entry": 401.33,
-        "price": 406.89,
+        "price": 406.62,
         "qty": 0.186879,
         "notional": 50.0,
         "pnl_pct": 0.05,
-        "pnl_eur": 1.035185,
-        "pnl_r": 0.47,
+        "pnl_eur": 0.984728,
+        "pnl_r": 0.44,
         "sl": 389.4,
         "tp1": 425.19,
         "tp2": 437.12,
@@ -367,10 +367,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.05175925000000001,
-    "total_pnl_eur": 1.035185,
+    "total_pnl_pct": 0.0492364,
+    "total_pnl_eur": 0.984728,
     "bank_eur": 2000.0,
-    "equity_eur": 2001.04
+    "equity_eur": 2000.98
   },
   "tobias_scalper": {
     "rows": [
@@ -378,12 +378,12 @@
         "id": 304,
         "ticker": "GLD",
         "entry": 401.33,
-        "price": 406.89,
+        "price": 406.62,
         "qty": 0.186879,
         "notional": 25.0,
         "pnl_pct": 0.05,
-        "pnl_eur": 1.035185,
-        "pnl_r": 0.92,
+        "pnl_eur": 0.984728,
+        "pnl_r": 0.88,
         "sl": 395.31,
         "tp1": 409.3566,
         "tp2": 409.3566,
@@ -405,10 +405,10 @@
         "horizon_days": 1
       }
     ],
-    "total_pnl_pct": 0.05175925000000001,
-    "total_pnl_eur": 1.035185,
+    "total_pnl_pct": 0.0492364,
+    "total_pnl_eur": 0.984728,
     "bank_eur": 2000.0,
-    "equity_eur": 2001.04
+    "equity_eur": 2000.98
   },
   "scalper": {
     "rows": [],
