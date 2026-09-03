@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-03T08:19:13+01:00",
+  "updated_at": "2026-09-03T08:22:14+01:00",
   "timezone": "Europe/Lisbon",
   "opens_count": 0,
-  "calendar_count": 2,
+  "calendar_count": 3,
   "opens_rows": [],
   "calendar_rows": [
     {
@@ -38,9 +38,26 @@
       "source": "spam",
       "note": "to visit+date-hint",
       "rank": 2
+    },
+    {
+      "event_date": "2026-09-24",
+      "date_label": "24/09",
+      "title": "Love to have him : Trump says Xi to visit US on September 24",
+      "horse": "Trump",
+      "tickers": "BABA / PDD",
+      "ticker_up": "BABA",
+      "ticker_down": "PDD",
+      "action": "alerta",
+      "status": "candidate",
+      "score": 65,
+      "range": "",
+      "url": "https://morungexpress.com/love-to-have-him-trump-says-xi-to-visit-us-on-september-24",
+      "source": "spam",
+      "note": "to visit+date-hint",
+      "rank": 3
     }
   ],
-  "count": 2,
+  "count": 3,
   "rows": [
     {
       "event_date": "2026-09-03",
@@ -75,6 +92,23 @@
       "source": "spam",
       "note": "to visit+date-hint",
       "rank": 2
+    },
+    {
+      "event_date": "2026-09-24",
+      "date_label": "24/09",
+      "title": "Love to have him : Trump says Xi to visit US on September 24",
+      "horse": "Trump",
+      "tickers": "BABA / PDD",
+      "ticker_up": "BABA",
+      "ticker_down": "PDD",
+      "action": "alerta",
+      "status": "candidate",
+      "score": 65,
+      "range": "",
+      "url": "https://morungexpress.com/love-to-have-him-trump-says-xi-to-visit-us-on-september-24",
+      "source": "spam",
+      "note": "to visit+date-hint",
+      "rank": 3
     }
   ]
 }
