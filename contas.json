@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-04T22:27:39+01:00",
+  "updated_at": "2026-09-04T22:30:39+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "22:27",
+  "when_label": "22:30",
   "pipoca": {
     "book": "pipoca",
     "label": "Pipoca",
@@ -149,7 +149,7 @@
     "book": "pipoca_avg",
     "label": "Pipoca AVG",
     "bank_eur": 0.0,
-    "equity_eur": -0.46,
+    "equity_eur": -0.47,
     "open_count": 4,
     "open_notional": 40.0,
     "open_pnl_eur": -0.34,
@@ -327,7 +327,7 @@
     "book": "pipoca_extreme",
     "label": "Pipoca Extreme",
     "bank_eur": 0.0,
-    "equity_eur": -1.38,
+    "equity_eur": -1.39,
     "open_count": 7,
     "open_notional": 70.0,
     "open_pnl_eur": -0.85,
