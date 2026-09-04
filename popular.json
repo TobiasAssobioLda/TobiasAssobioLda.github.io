@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T21:12:44+01:00",
+  "updated_at": "2026-09-04T21:15:44+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-04T21:00:00+01:00",
-      "to": "2026-09-04T21:12:44+01:00",
+      "to": "2026-09-04T21:15:44+01:00",
       "from_label": "04/09 21:00",
-      "to_label": "04/09 21:12",
+      "to_label": "04/09 21:15",
       "n_events": 0,
       "top5_count": 0,
       "top6_20_count": 0,
@@ -30,9 +30,9 @@
       "to": "2026-09-08T14:15:00+01:00",
       "from_label": "04/09 21:00",
       "to_label": "08/09 14:15",
-      "n_events": 2,
-      "top5_count": 4,
-      "top6_20_count": 0,
+      "n_events": 3,
+      "top5_count": 5,
+      "top6_20_count": 1,
       "top5": [
         {
           "rank": 1,
@@ -56,6 +56,26 @@
         },
         {
           "rank": 3,
+          "ticker": "ZH",
+          "total": 1,
+          "as_up": 1,
+          "as_down": 0,
+          "last_horse": "China",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 4,
+          "ticker": "BABA",
+          "total": 1,
+          "as_up": 0,
+          "as_down": 1,
+          "last_horse": "China",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 5,
           "ticker": "GLD",
           "total": 1,
           "as_up": 0,
@@ -63,9 +83,11 @@
           "last_horse": "Irão",
           "band": "all",
           "direction": "all"
-        },
+        }
+      ],
+      "top6_20": [
         {
-          "rank": 4,
+          "rank": 6,
           "ticker": "SCHW",
           "total": 1,
           "as_up": 0,
@@ -75,16 +97,15 @@
           "direction": "all"
         }
       ],
-      "top6_20": [],
       "source": "rumors_avg_high"
     },
     "day": {
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-04T00:00:00+01:00",
-      "to": "2026-09-04T21:12:44+01:00",
+      "to": "2026-09-04T21:15:44+01:00",
       "from_label": "04/09 00:00",
-      "to_label": "04/09 21:12",
+      "to_label": "04/09 21:15",
       "n_events": 24,
       "top5_count": 5,
       "top6_20_count": 15,
