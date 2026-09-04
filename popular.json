@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T02:14:04+01:00",
+  "updated_at": "2026-09-04T02:17:04+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-08-28T21:00:00+01:00",
-      "to": "2026-09-04T02:14:04+01:00",
+      "to": "2026-09-04T02:17:04+01:00",
       "from_label": "28/08 21:00",
-      "to_label": "04/09 02:14",
+      "to_label": "04/09 02:17",
       "n_events": 343,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -232,7 +232,7 @@
       "to": "2026-09-04T14:15:00+01:00",
       "from_label": "03/09 21:00",
       "to_label": "04/09 14:15",
-      "n_events": 20,
+      "n_events": 21,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
@@ -268,6 +268,16 @@
         },
         {
           "rank": 4,
+          "ticker": "XOM",
+          "total": 3,
+          "as_up": 3,
+          "as_down": 0,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 5,
           "ticker": "LMT",
           "total": 3,
           "as_up": 1,
@@ -275,9 +285,21 @@
           "last_horse": "Irão",
           "band": "all",
           "direction": "all"
+        }
+      ],
+      "top6_20": [
+        {
+          "rank": 6,
+          "ticker": "CVX",
+          "total": 3,
+          "as_up": 0,
+          "as_down": 3,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
         },
         {
-          "rank": 5,
+          "rank": 7,
           "ticker": "NEM",
           "total": 3,
           "as_up": 0,
@@ -285,11 +307,9 @@
           "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
-        }
-      ],
-      "top6_20": [
+        },
         {
-          "rank": 6,
+          "rank": 8,
           "ticker": "GD",
           "total": 2,
           "as_up": 2,
@@ -299,32 +319,12 @@
           "direction": "all"
         },
         {
-          "rank": 7,
-          "ticker": "XOM",
-          "total": 2,
-          "as_up": 2,
-          "as_down": 0,
-          "last_horse": "Irão",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 8,
+          "rank": 9,
           "ticker": "BABA",
           "total": 2,
           "as_up": 1,
           "as_down": 1,
           "last_horse": "China",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 9,
-          "ticker": "CVX",
-          "total": 2,
-          "as_up": 0,
-          "as_down": 2,
-          "last_horse": "Irão",
           "band": "all",
           "direction": "all"
         },
@@ -445,9 +445,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-04T00:00:00+01:00",
-      "to": "2026-09-04T02:14:04+01:00",
+      "to": "2026-09-04T02:17:04+01:00",
       "from_label": "04/09 00:00",
-      "to_label": "04/09 02:14",
+      "to_label": "04/09 02:17",
       "n_events": 0,
       "top5_count": 0,
       "top6_20_count": 0,
