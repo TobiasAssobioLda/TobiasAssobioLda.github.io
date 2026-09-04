@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T22:12:48+01:00",
+  "updated_at": "2026-09-04T22:15:51+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-04T21:00:00+01:00",
-      "to": "2026-09-04T22:12:48+01:00",
+      "to": "2026-09-04T22:15:51+01:00",
       "from_label": "04/09 21:00",
-      "to_label": "04/09 22:12",
+      "to_label": "04/09 22:15",
       "n_events": 0,
       "top5_count": 0,
       "top6_20_count": 0,
@@ -30,7 +30,7 @@
       "to": "2026-09-08T14:15:00+01:00",
       "from_label": "04/09 21:00",
       "to_label": "08/09 14:15",
-      "n_events": 16,
+      "n_events": 17,
       "top5_count": 5,
       "top6_20_count": 14,
       "top5": [
@@ -76,11 +76,11 @@
         },
         {
           "rank": 5,
-          "ticker": "MS",
+          "ticker": "XOM",
           "total": 2,
-          "as_up": 1,
-          "as_down": 1,
-          "last_horse": "Fed",
+          "as_up": 2,
+          "as_down": 0,
+          "last_horse": "Irão",
           "band": "all",
           "direction": "all"
         }
@@ -88,6 +88,26 @@
       "top6_20": [
         {
           "rank": 6,
+          "ticker": "MS",
+          "total": 2,
+          "as_up": 1,
+          "as_down": 1,
+          "last_horse": "Fed",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 7,
+          "ticker": "GLD",
+          "total": 2,
+          "as_up": 0,
+          "as_down": 2,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 8,
           "ticker": "PDD",
           "total": 2,
           "as_up": 0,
@@ -97,7 +117,7 @@
           "direction": "all"
         },
         {
-          "rank": 7,
+          "rank": 9,
           "ticker": "BMNR",
           "total": 1,
           "as_up": 1,
@@ -107,7 +127,7 @@
           "direction": "all"
         },
         {
-          "rank": 8,
+          "rank": 10,
           "ticker": "GS",
           "total": 1,
           "as_up": 1,
@@ -117,7 +137,7 @@
           "direction": "all"
         },
         {
-          "rank": 9,
+          "rank": 11,
           "ticker": "LLY",
           "total": 1,
           "as_up": 1,
@@ -127,7 +147,7 @@
           "direction": "all"
         },
         {
-          "rank": 10,
+          "rank": 12,
           "ticker": "TSM",
           "total": 1,
           "as_up": 1,
@@ -137,17 +157,7 @@
           "direction": "all"
         },
         {
-          "rank": 11,
-          "ticker": "XOM",
-          "total": 1,
-          "as_up": 1,
-          "as_down": 0,
-          "last_horse": "Irão",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 12,
+          "rank": 13,
           "ticker": "ZH",
           "total": 1,
           "as_up": 1,
@@ -157,7 +167,7 @@
           "direction": "all"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "ticker": "ASML",
           "total": 1,
           "as_up": 0,
@@ -167,22 +177,12 @@
           "direction": "all"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "ticker": "COIN",
           "total": 1,
           "as_up": 0,
           "as_down": 1,
           "last_horse": "Cripto",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 15,
-          "ticker": "GLD",
-          "total": 1,
-          "as_up": 0,
-          "as_down": 1,
-          "last_horse": "Irão",
           "band": "all",
           "direction": "all"
         },
@@ -233,9 +233,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-04T00:00:00+01:00",
-      "to": "2026-09-04T22:12:48+01:00",
+      "to": "2026-09-04T22:15:51+01:00",
       "from_label": "04/09 00:00",
-      "to_label": "04/09 22:12",
+      "to_label": "04/09 22:15",
       "n_events": 24,
       "top5_count": 5,
       "top6_20_count": 15,
