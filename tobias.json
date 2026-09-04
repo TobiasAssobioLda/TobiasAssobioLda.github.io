@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-09-04T14:32:58+01:00",
+  "updated_at": "2026-09-04T14:35:57+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "14:32",
+  "when_label": "14:35",
   "title": "Full Report · Tobias",
   "note": "Todos os fechos · TP no topo · treino Tobias",
   "stats": {
-    "n": 185,
+    "n": 186,
     "tp": 1,
-    "sl": 8,
+    "sl": 9,
     "out": 176,
     "correto": 13,
-    "erro": 19,
-    "trainable": 32,
-    "realized_eur": -183.69,
-    "realized_r": -8.24
+    "erro": 20,
+    "trainable": 33,
+    "realized_eur": -184.16,
+    "realized_r": -9.49
   },
   "rows": [
     {
@@ -37,6 +37,28 @@
       "opened_at": "2026-09-02T19:04:32.186848+00:00",
       "closed_at": "2026-09-03T13:45:51.376692+00:00",
       "news_hook": "ALL IN · WAIT · i88 · prep"
+    },
+    {
+      "id": 300,
+      "book": "tobias_scalper",
+      "book_label": "Tobias Scalper",
+      "ticker": "XOM",
+      "horse": "Irão",
+      "kind": "sl",
+      "label": "ERRO",
+      "entry": 163.05,
+      "exit": 160.0,
+      "sl": 160.6043,
+      "tp1": 166.311,
+      "pnl_eur": -0.47,
+      "pnl_pct": -1.87,
+      "pnl_r": -1.25,
+      "corr": 1.18,
+      "impact": 90,
+      "exit_reason": "SAIDA SL",
+      "opened_at": "2026-09-02T17:04:27.184049+00:00",
+      "closed_at": "2026-09-04T13:35:52.972827+00:00",
+      "news_hook": "ALL IN · WAIT · i90 · prep"
     },
     {
       "id": 310,
