@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-04T12:02:55+01:00",
+  "updated_at": "2026-09-04T12:05:55+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "12:02",
+  "when_label": "12:05",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -447,12 +447,12 @@
         "id": 321,
         "ticker": "AVGO",
         "entry": 355.9653,
-        "price": 361.24,
+        "price": 360.97,
         "qty": 0.028093,
         "notional": 10.0,
-        "pnl_pct": 1.48,
-        "pnl_eur": 0.1481801737416539,
-        "pnl_r": 0.3,
+        "pnl_pct": 1.41,
+        "pnl_eur": 0.14059516475341877,
+        "pnl_r": 0.29,
         "sl": 338.48,
         "tp1": 390.94,
         "tp2": 408.42,
@@ -474,8 +474,8 @@
         "horizon_days": 15
       }
     ],
-    "total_pnl_pct": 0.14999891203581261,
-    "total_pnl_eur": 0.10499923842506884
+    "total_pnl_pct": 0.13916318490976243,
+    "total_pnl_eur": 0.0974142294368337
   },
   "oficial": {
     "rows": [],
@@ -700,12 +700,12 @@
         "id": 325,
         "ticker": "AVGO",
         "entry": 357.72,
-        "price": 361.24,
+        "price": 360.97,
         "qty": 0.139774,
         "notional": 50.0,
         "pnl_pct": 0.02,
-        "pnl_eur": 0.49200492004919794,
-        "pnl_r": 0.2,
+        "pnl_eur": 0.45426590629542657,
+        "pnl_r": 0.18,
         "sl": 340.05,
         "tp1": 393.06,
         "tp2": 410.73,
@@ -787,10 +787,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.10731269977158742,
-    "total_pnl_eur": 2.1462539954317483,
+    "total_pnl_pct": 0.10542574908389885,
+    "total_pnl_eur": 2.1085149816779767,
     "bank_eur": 2000.0,
-    "equity_eur": 2002.15
+    "equity_eur": 2002.11
   },
   "tobias_scalper": {
     "rows": [
@@ -975,7 +975,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.866379+00:00",
+        "next_check": "2026-09-04T11:20:44.888067+00:00",
         "first_seen": "2026-09-04T07:00:44.870590+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -988,7 +988,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.870725+00:00",
+        "next_check": "2026-09-04T11:20:44.896089+00:00",
         "first_seen": "2026-09-04T07:00:44.875066+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1001,7 +1001,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.875757+00:00",
+        "next_check": "2026-09-04T11:20:44.901480+00:00",
         "first_seen": "2026-09-04T07:00:44.879700+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1014,7 +1014,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.881060+00:00",
+        "next_check": "2026-09-04T11:20:44.906929+00:00",
         "first_seen": "2026-09-04T07:00:44.886572+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1027,7 +1027,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.886127+00:00",
+        "next_check": "2026-09-04T11:20:44.912589+00:00",
         "first_seen": "2026-09-04T07:00:44.892435+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1040,7 +1040,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.904038+00:00",
+        "next_check": "2026-09-04T11:20:44.926540+00:00",
         "first_seen": "2026-09-04T07:00:44.908765+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1053,7 +1053,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.908545+00:00",
+        "next_check": "2026-09-04T11:20:44.930669+00:00",
         "first_seen": "2026-09-04T07:00:44.916010+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1066,7 +1066,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.913342+00:00",
+        "next_check": "2026-09-04T11:20:44.935699+00:00",
         "first_seen": "2026-09-04T07:00:44.921330+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1079,7 +1079,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.918478+00:00",
+        "next_check": "2026-09-04T11:20:44.940615+00:00",
         "first_seen": "2026-09-04T07:00:44.926334+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1092,7 +1092,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.923084+00:00",
+        "next_check": "2026-09-04T11:20:44.945003+00:00",
         "first_seen": "2026-09-04T07:00:44.931182+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1105,7 +1105,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.927800+00:00",
+        "next_check": "2026-09-04T11:20:44.948948+00:00",
         "first_seen": "2026-09-04T07:00:44.936333+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1118,7 +1118,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.933362+00:00",
+        "next_check": "2026-09-04T11:20:44.954009+00:00",
         "first_seen": "2026-09-04T07:00:44.940994+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1131,7 +1131,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.937678+00:00",
+        "next_check": "2026-09-04T11:20:44.958456+00:00",
         "first_seen": "2026-09-04T07:00:44.944706+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1144,7 +1144,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.948565+00:00",
+        "next_check": "2026-09-04T11:20:44.969133+00:00",
         "first_seen": "2026-09-04T07:00:44.953626+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1157,7 +1157,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.954189+00:00",
+        "next_check": "2026-09-04T11:20:44.974331+00:00",
         "first_seen": "2026-09-04T07:00:44.957945+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1173,7 +1173,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.866379+00:00",
+        "next_check": "2026-09-04T11:20:44.888067+00:00",
         "first_seen": "2026-09-04T07:00:44.870590+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1186,7 +1186,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.870725+00:00",
+        "next_check": "2026-09-04T11:20:44.896089+00:00",
         "first_seen": "2026-09-04T07:00:44.875066+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1199,7 +1199,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.875757+00:00",
+        "next_check": "2026-09-04T11:20:44.901480+00:00",
         "first_seen": "2026-09-04T07:00:44.879700+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1212,7 +1212,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.881060+00:00",
+        "next_check": "2026-09-04T11:20:44.906929+00:00",
         "first_seen": "2026-09-04T07:00:44.886572+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1225,7 +1225,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.886127+00:00",
+        "next_check": "2026-09-04T11:20:44.912589+00:00",
         "first_seen": "2026-09-04T07:00:44.892435+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1238,7 +1238,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.904038+00:00",
+        "next_check": "2026-09-04T11:20:44.926540+00:00",
         "first_seen": "2026-09-04T07:00:44.908765+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1251,7 +1251,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.908545+00:00",
+        "next_check": "2026-09-04T11:20:44.930669+00:00",
         "first_seen": "2026-09-04T07:00:44.916010+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1264,7 +1264,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.913342+00:00",
+        "next_check": "2026-09-04T11:20:44.935699+00:00",
         "first_seen": "2026-09-04T07:00:44.921330+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1277,7 +1277,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.918478+00:00",
+        "next_check": "2026-09-04T11:20:44.940615+00:00",
         "first_seen": "2026-09-04T07:00:44.926334+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1290,7 +1290,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.923084+00:00",
+        "next_check": "2026-09-04T11:20:44.945003+00:00",
         "first_seen": "2026-09-04T07:00:44.931182+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1303,7 +1303,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.927800+00:00",
+        "next_check": "2026-09-04T11:20:44.948948+00:00",
         "first_seen": "2026-09-04T07:00:44.936333+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1316,7 +1316,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.933362+00:00",
+        "next_check": "2026-09-04T11:20:44.954009+00:00",
         "first_seen": "2026-09-04T07:00:44.940994+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1329,7 +1329,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.937678+00:00",
+        "next_check": "2026-09-04T11:20:44.958456+00:00",
         "first_seen": "2026-09-04T07:00:44.944706+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1342,7 +1342,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.948565+00:00",
+        "next_check": "2026-09-04T11:20:44.969133+00:00",
         "first_seen": "2026-09-04T07:00:44.953626+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1355,7 +1355,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · EUA fechado — EUA abre as 14:30",
-        "next_check": "2026-09-04T11:15:44.954189+00:00",
+        "next_check": "2026-09-04T11:20:44.974331+00:00",
         "first_seen": "2026-09-04T07:00:44.957945+00:00",
         "status": "wait",
         "lane": "out_market"
