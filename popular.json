@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T22:45:43+01:00",
+  "updated_at": "2026-09-04T22:48:44+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-04T21:00:00+01:00",
-      "to": "2026-09-04T22:45:43+01:00",
+      "to": "2026-09-04T22:48:44+01:00",
       "from_label": "04/09 21:00",
-      "to_label": "04/09 22:45",
+      "to_label": "04/09 22:48",
       "n_events": 0,
       "top5_count": 0,
       "top6_20_count": 0,
@@ -30,7 +30,7 @@
       "to": "2026-09-08T14:15:00+01:00",
       "from_label": "04/09 21:00",
       "to_label": "08/09 14:15",
-      "n_events": 21,
+      "n_events": 22,
       "top5_count": 5,
       "top6_20_count": 14,
       "top5": [
@@ -57,8 +57,8 @@
         {
           "rank": 3,
           "ticker": "BABA",
-          "total": 4,
-          "as_up": 3,
+          "total": 5,
+          "as_up": 4,
           "as_down": 1,
           "last_horse": "Trump",
           "band": "all",
@@ -76,11 +76,11 @@
         },
         {
           "rank": 5,
-          "ticker": "GS",
-          "total": 3,
-          "as_up": 3,
-          "as_down": 0,
-          "last_horse": "Fed",
+          "ticker": "PDD",
+          "total": 4,
+          "as_up": 0,
+          "as_down": 4,
+          "last_horse": "Trump",
           "band": "all",
           "direction": "all"
         }
@@ -88,11 +88,11 @@
       "top6_20": [
         {
           "rank": 6,
-          "ticker": "PDD",
+          "ticker": "GS",
           "total": 3,
-          "as_up": 0,
-          "as_down": 3,
-          "last_horse": "Trump",
+          "as_up": 3,
+          "as_down": 0,
+          "last_horse": "Fed",
           "band": "all",
           "direction": "all"
         },
@@ -233,9 +233,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-04T00:00:00+01:00",
-      "to": "2026-09-04T22:45:43+01:00",
+      "to": "2026-09-04T22:48:44+01:00",
       "from_label": "04/09 00:00",
-      "to_label": "04/09 22:45",
+      "to_label": "04/09 22:48",
       "n_events": 24,
       "top5_count": 5,
       "top6_20_count": 15,
