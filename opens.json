@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-05T18:14:11+01:00",
+  "updated_at": "2026-09-05T18:17:10+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "18:14",
+  "when_label": "18:17",
   "pipoca": {
     "rows": [
       {
@@ -896,7 +896,7 @@
         "news_blurb": "🎤 ALL IN · Pipoca cand · i82",
         "news_impact": 82,
         "opened_at": "2026-09-02T17:14:31.005534+00:00",
-        "open_days": 2,
+        "open_days": 3,
         "time_stop_days": 30,
         "diag": "🎤 ALL IN · Pipoca cand · i82 · sinal 7.9 · corr +2.47 · star -0.13 · XOM c0.88 d-1.03 · COP c0.87 d-0.96 · ENPH c-0.25 d+3.27 · NAO PERSEGUIR · topo20_sma20 · tobias swing 30d",
         "corr_score": 2.47,
