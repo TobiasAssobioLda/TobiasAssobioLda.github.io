@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-05T20:42:01+01:00",
+  "updated_at": "2026-09-05T20:45:01+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "20:41",
+  "when_label": "20:44",
   "pipoca": {
     "rows": [
       {
@@ -1076,7 +1076,7 @@
         "news_blurb": "🎤 ALL IN · WAIT · i92 · prep",
         "news_impact": 92,
         "opened_at": "2026-09-03T19:44:12.131194+00:00",
-        "open_days": 1,
+        "open_days": 2,
         "time_stop_days": 30,
         "diag": "🎤 ALL IN · WAIT · i92 · prep · sinal 5.5 · corr +1.16 · star +0.00 · GGG c0.63 d+0.80 · AME c0.64 d+0.51 · PH c0.5 d+0.82 · ESPERAR · base · tobias swing 30d",
         "corr_score": 1.16,
