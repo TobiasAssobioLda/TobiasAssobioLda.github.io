@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-05T20:12:01+01:00",
+  "updated_at": "2026-09-05T20:15:01+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "20:11",
+  "when_label": "20:14",
   "pipoca": {
     "rows": [
       {
@@ -956,7 +956,7 @@
         "news_blurb": "🎤 ALL IN · Pipoca cand · i85",
         "news_impact": 85,
         "opened_at": "2026-09-02T19:14:32.228761+00:00",
-        "open_days": 2,
+        "open_days": 3,
         "time_stop_days": 30,
         "diag": "🎤 ALL IN · Pipoca cand · i85 · sinal 7.0 · corr +1.59 · star +0.91 · SNAP c0.36 d+3.11 · APP c0.29 d+1.19 · TTD c0.23 d+1.73 · NAO PERSEGUIR · watchlist · TP sugerido · fecho gap @624.07 (há 29d) · médio gap/2R @652.39 · tobias swing 30d",
         "corr_score": 1.59,
