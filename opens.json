@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-05T20:24:02+01:00",
+  "updated_at": "2026-09-05T20:27:02+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "20:23",
+  "when_label": "20:26",
   "pipoca": {
     "rows": [
       {
@@ -1016,7 +1016,7 @@
         "news_blurb": "🎤 ALL IN · Pipoca cand · i91",
         "news_impact": 91,
         "opened_at": "2026-09-03T19:24:14.459682+00:00",
-        "open_days": 1,
+        "open_days": 2,
         "time_stop_days": 30,
         "diag": "🎤 ALL IN · Pipoca cand · i91 · sinal 4.9 · corr +2.97 · star +0.34 · ANET c0.54 d+3.09 · MRVL c0.56 d+2.39 · INTC c0.47 d+1.37 · ESPERAR · base · TP sugerido · fecho gap @364.80 (há 0d) · médio gap/2R @378.93 · tobias swing 30d",
         "corr_score": 2.97,
