@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-05T14:28:19+01:00",
+  "updated_at": "2026-09-05T14:31:19+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "14:28",
+  "when_label": "14:31",
   "pipoca": {
     "rows": [
       {
@@ -643,7 +643,7 @@
         "news_blurb": "🎤 Trump: Trump : Announces end of war with Iran as polls",
         "news_impact": 95,
         "opened_at": "2026-09-03T13:31:07.175217+00:00",
-        "open_days": 1,
+        "open_days": 2,
         "time_stop_days": 15,
         "diag": "🏷 NakedExtreme · 🎤 Trump: Trump : Announces end of war with Iran as polls · sinal 5.0 · NakedExtreme · ESPERAR · base · TP sugerido · fecho gap @111.53 (há 0d) · médio gap/2R @116.63 · pipoca_extreme €10",
         "corr_score": 0.57,
@@ -673,7 +673,7 @@
         "news_blurb": "🎤 China: US imposes tariffs of up to 100 % on drones , targeting China dominance in the market",
         "news_impact": 92,
         "opened_at": "2026-09-03T13:31:08.317331+00:00",
-        "open_days": 1,
+        "open_days": 2,
         "time_stop_days": 15,
         "diag": "🏷 NakedExtreme · 🎤 China: US imposes tariffs of up to 100 % on drones , targeting China dominance in the market · sinal 5.0 · NakedExtreme · ESPERAR · base · pipoca_extreme €10",
         "corr_score": 0.07,
@@ -703,7 +703,7 @@
         "news_blurb": "🎤 Irão: U.S. strikes Iran again as Tehran targets American allies in Gulf region - PBS",
         "news_impact": 92,
         "opened_at": "2026-09-03T13:31:09.442722+00:00",
-        "open_days": 1,
+        "open_days": 2,
         "time_stop_days": 15,
         "diag": "🏷 CorrExtreme · 🎤 Irão: U.S. strikes Iran again as Tehran targets American allies in Gulf region - PBS · sinal 5.5 · CorrExtreme · ESPERAR · base · pipoca_extreme €10",
         "corr_score": 2.61,
@@ -1106,7 +1106,7 @@
         "news_blurb": "🎤 OUT · EUA fechado — EUA abre as 14:30",
         "news_impact": 55,
         "opened_at": "2026-09-04T13:30:53.527811+00:00",
-        "open_days": 0,
+        "open_days": 1,
         "time_stop_days": 30,
         "diag": "🎤 OUT · EUA fechado — EUA abre as 14:30 · sinal 7.9 · corr +3.40 · star -0.49 · AMLP c0.82 d-0.77 · PAA c0.71 d-0.72 · OKE c0.68 d-0.65 · PREPARAR · topo20_sma20 · tobias swing 30d",
         "corr_score": 3.4,
