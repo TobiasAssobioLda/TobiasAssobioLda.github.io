@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-05T17:41:16+01:00",
+  "updated_at": "2026-09-05T17:44:10+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "17:41",
+  "when_label": "17:44",
   "pipoca": {
     "rows": [
       {
@@ -806,7 +806,7 @@
         "news_blurb": "🎤 ALL IN · WAIT · i91 · prep",
         "news_impact": 91,
         "opened_at": "2026-09-02T16:41:55.025049+00:00",
-        "open_days": 2,
+        "open_days": 3,
         "time_stop_days": 30,
         "diag": "🎤 ALL IN · WAIT · i91 · prep · sinal 5.0 · corr +1.02 · star +0.00 · NOC c0.75 d+0.50 · ITA c0.79 d+0.46 · GD c0.55 d+0.68 · ESPERAR · base · tobias swing 30d",
         "corr_score": 1.02,
@@ -1136,7 +1136,7 @@
         "news_blurb": "🎤 ALL IN · Pipoca cand · i75",
         "news_impact": 75,
         "opened_at": "2026-09-04T16:41:57.708446+00:00",
-        "open_days": 0,
+        "open_days": 1,
         "time_stop_days": 30,
         "diag": "🎤 ALL IN · Pipoca cand · i75 · sinal 5.0 · corr +5.99 · star -1.61 · TSLA c0.7 d-4.06 · VCR c0.98 d-1.35 · FDIS c0.96 d-1.22 · ESPERAR · base · tobias swing 30d",
         "corr_score": 5.99,
@@ -1204,7 +1204,7 @@
         "news_blurb": "🎤 ALL IN · WAIT · i92 · prep",
         "news_impact": 92,
         "opened_at": "2026-09-02T16:41:52.600079+00:00",
-        "open_days": 2,
+        "open_days": 3,
         "time_stop_days": 15,
         "diag": "🎤 ALL IN · WAIT · i92 · prep · sinal 4.0 · corr +1.16 · star +0.00 · GD c0.61 d+0.68 · NOC c0.68 d+0.50 · ITA c0.55 d+0.46 · ESPERAR · base · tobias scalper micro",
         "corr_score": 1.16,
@@ -1234,7 +1234,7 @@
         "news_blurb": "🎤 ALL IN · WAIT · i91 · prep",
         "news_impact": 91,
         "opened_at": "2026-09-02T16:41:56.154060+00:00",
-        "open_days": 2,
+        "open_days": 3,
         "time_stop_days": 15,
         "diag": "🎤 ALL IN · WAIT · i91 · prep · sinal 5.0 · corr +1.02 · star +0.00 · NOC c0.75 d+0.50 · ITA c0.79 d+0.46 · GD c0.55 d+0.68 · ESPERAR · base · tobias scalper micro",
         "corr_score": 1.02,
