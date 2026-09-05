@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-05T16:56:10+01:00",
+  "updated_at": "2026-09-05T16:59:10+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "16:56",
+  "when_label": "16:59",
   "pipoca": {
     "rows": [
       {
@@ -517,7 +517,7 @@
         "news_blurb": "🎤 Irão: Retired Major General on when Iran War may end - FOX Carolina News",
         "news_impact": 88,
         "opened_at": "2026-09-04T15:56:30.859373+00:00",
-        "open_days": 0,
+        "open_days": 1,
         "time_stop_days": 15,
         "diag": "🏷 CorrHigh · 🎤 Irão: Retired Major General on when Iran War may end - FOX Carolina News · sinal 5.0 · corr +2.01 · star -0.96 · NOC c0.61 d-1.04 · RTX c0.55 d-1.09 · LHX c0.55 d-1.06 · ESPERAR · base · pipoca_high €10",
         "corr_score": 2.01,
