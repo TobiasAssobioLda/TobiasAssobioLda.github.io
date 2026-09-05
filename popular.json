@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T02:36:30+01:00",
+  "updated_at": "2026-09-05T02:39:30+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-04T21:00:00+01:00",
-      "to": "2026-09-05T02:36:30+01:00",
+      "to": "2026-09-05T02:39:30+01:00",
       "from_label": "04/09 21:00",
-      "to_label": "05/09 02:36",
+      "to_label": "05/09 02:39",
       "n_events": 0,
       "top5_count": 0,
       "top6_20_count": 0,
@@ -30,7 +30,7 @@
       "to": "2026-09-08T14:15:00+01:00",
       "from_label": "04/09 21:00",
       "to_label": "08/09 14:15",
-      "n_events": 45,
+      "n_events": 47,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
@@ -57,8 +57,8 @@
         {
           "rank": 3,
           "ticker": "BABA",
-          "total": 9,
-          "as_up": 8,
+          "total": 10,
+          "as_up": 9,
           "as_down": 1,
           "last_horse": "Trump",
           "band": "all",
@@ -76,11 +76,11 @@
         },
         {
           "rank": 5,
-          "ticker": "GS",
-          "total": 8,
-          "as_up": 8,
-          "as_down": 0,
-          "last_horse": "Fed",
+          "ticker": "PDD",
+          "total": 9,
+          "as_up": 0,
+          "as_down": 9,
+          "last_horse": "Trump",
           "band": "all",
           "direction": "all"
         }
@@ -88,11 +88,11 @@
       "top6_20": [
         {
           "rank": 6,
-          "ticker": "PDD",
+          "ticker": "GS",
           "total": 8,
-          "as_up": 0,
-          "as_down": 8,
-          "last_horse": "Trump",
+          "as_up": 8,
+          "as_down": 0,
+          "last_horse": "Fed",
           "band": "all",
           "direction": "all"
         },
@@ -188,6 +188,16 @@
         },
         {
           "rank": 16,
+          "ticker": "MSFT",
+          "total": 1,
+          "as_up": 1,
+          "as_down": 0,
+          "last_horse": "Earnings",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 17,
           "ticker": "TSM",
           "total": 1,
           "as_up": 1,
@@ -197,7 +207,7 @@
           "direction": "all"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "ticker": "WK",
           "total": 1,
           "as_up": 1,
@@ -207,7 +217,7 @@
           "direction": "all"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "ticker": "ZH",
           "total": 1,
           "as_up": 1,
@@ -217,22 +227,12 @@
           "direction": "all"
         },
         {
-          "rank": 19,
-          "ticker": "ASML",
-          "total": 1,
-          "as_up": 0,
-          "as_down": 1,
-          "last_horse": "Chips",
-          "band": "all",
-          "direction": "all"
-        },
-        {
           "rank": 20,
-          "ticker": "BAC",
+          "ticker": "AAPL",
           "total": 1,
           "as_up": 0,
           "as_down": 1,
-          "last_horse": "Inflação",
+          "last_horse": "Earnings",
           "band": "all",
           "direction": "all"
         }
@@ -243,9 +243,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-05T00:00:00+01:00",
-      "to": "2026-09-05T02:36:30+01:00",
+      "to": "2026-09-05T02:39:30+01:00",
       "from_label": "05/09 00:00",
-      "to_label": "05/09 02:36",
+      "to_label": "05/09 02:39",
       "n_events": 0,
       "top5_count": 0,
       "top6_20_count": 0,
