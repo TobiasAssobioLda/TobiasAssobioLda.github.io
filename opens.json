@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-05T17:38:11+01:00",
+  "updated_at": "2026-09-05T17:41:16+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "17:38",
+  "when_label": "17:41",
   "pipoca": {
     "rows": [
       {
@@ -241,7 +241,7 @@
         "news_blurb": "🎤 Irão: Report : Iran warns US against Israeli attack on Ali al - Taher",
         "news_impact": 72,
         "opened_at": "2026-09-04T16:40:30.037455+00:00",
-        "open_days": 0,
+        "open_days": 1,
         "time_stop_days": 15,
         "diag": "🏷 CorrAvg · 🎤 Irão: Report : Iran warns US against Israeli attack on Ali al - Taher · sinal 5.0 · corr +3.24 · star -1.09 · NOC c0.73 d-1.04 · LHX c0.67 d-1.06 · GD c0.72 d-0.96 · ESPERAR · base · pipoca_avg €10",
         "corr_score": 3.24,
