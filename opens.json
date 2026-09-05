@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-05T15:04:19+01:00",
+  "updated_at": "2026-09-05T15:08:11+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "15:04",
+  "when_label": "15:08",
   "pipoca": {
     "rows": [
       {
@@ -53,7 +53,7 @@
         "news_blurb": "🎤 Trump × China na guerra ao Irão",
         "news_impact": 55,
         "opened_at": "2026-09-04T14:06:32.182530+00:00",
-        "open_days": 0,
+        "open_days": 1,
         "time_stop_days": 15,
         "diag": "🎤 Trump × China na guerra ao Irão · 📋 Trump tenta envolver China na pressão económica contra Teerã, tarefa difícil com Xi. · ora Trump→XOM 0/10 · sinal 5.7 · corr +3.80 · star -1.36 · EOG c0.8 d-1.39 · XLE c0.89 d-1.09 · TSLA c-0.24 d-3.66 · PREPARAR · reteste · setup normal",
         "corr_score": 3.8,
