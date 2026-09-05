@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-05T20:33:03+01:00",
+  "updated_at": "2026-09-05T20:36:02+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "20:32",
+  "when_label": "20:35",
   "pipoca": {
     "rows": [
       {
@@ -1046,7 +1046,7 @@
         "news_blurb": "🎤 ALL IN · WAIT · i69 · prep",
         "news_impact": 69,
         "opened_at": "2026-09-03T19:34:30.892272+00:00",
-        "open_days": 1,
+        "open_days": 2,
         "time_stop_days": 30,
         "diag": "🎤 ALL IN · WAIT · i69 · prep · sinal 8.4 · corr +3.22 · star -0.36 · ACN c0.87 d-3.05 · IT c0.64 d-1.50 · KO c0.26 d-0.98 · NAO PERSEGUIR · topo20_sma20 · TP sugerido · fecho gap @81.95 (há 147d) · médio gap/2R @76.35 · tobias swing 30d",
         "corr_score": 3.22,
