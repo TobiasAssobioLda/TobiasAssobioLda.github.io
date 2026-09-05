@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-05T20:03:02+01:00",
+  "updated_at": "2026-09-05T20:06:02+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "20:02",
+  "when_label": "20:05",
   "pipoca": {
     "rows": [
       {
@@ -926,7 +926,7 @@
         "news_blurb": "🎤 ALL IN · WAIT · i88 · prep",
         "news_impact": 88,
         "opened_at": "2026-09-02T19:04:30.995911+00:00",
-        "open_days": 2,
+        "open_days": 3,
         "time_stop_days": 30,
         "diag": "🎤 ALL IN · WAIT · i88 · prep · sinal 6.2 · corr +4.90 · star +0.51 · GDXJ c0.92 d+1.48 · GDX c0.92 d+0.96 · NEM c0.9 d+0.60 · PREPARAR · reteste · TP sugerido · fecho gap @404.92 (há 1d) · médio gap/2R @415.06 · tobias swing 30d",
         "corr_score": 4.9,
