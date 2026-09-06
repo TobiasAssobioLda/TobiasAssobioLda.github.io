@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-06T14:40:16+01:00",
+  "updated_at": "2026-09-06T14:43:14+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "14:40",
+  "when_label": "14:43",
   "pipoca": {
     "rows": [
       {
@@ -277,7 +277,7 @@
         "news_blurb": "🎤 Irão: Depleted US oil stash loses potency as Iran war grinds on - Reuters",
         "news_impact": 88,
         "opened_at": "2026-08-31T13:40:40.373595+00:00",
-        "open_days": 5,
+        "open_days": 6,
         "time_stop_days": 15,
         "diag": "🏷 CorrHigh · 🎤 Irão: Depleted US oil stash loses potency as Iran war grinds on - Reuters · sinal 7.0 · corr +1.27 · star +0.51 · EOG c0.8 d-0.48 · CVX c0.84 d+0.45 · ENPH c-0.24 d-1.54 · ESPERAR · compressao · pipoca_high €10",
         "corr_score": 1.27,
@@ -307,7 +307,7 @@
         "news_blurb": "🎤 Irão: U.S. Military Commanders Warn of Attrition in Iran War - IranWire",
         "news_impact": 88,
         "opened_at": "2026-08-31T13:40:41.464594+00:00",
-        "open_days": 5,
+        "open_days": 6,
         "time_stop_days": 15,
         "diag": "🏷 CorrHigh · 🎤 Irão: U.S. Military Commanders Warn of Attrition in Iran War - IranWire · sinal 6.5 · corr +9.16 · star -1.46 · CEF c0.96 d-1.79 · GDXJ c0.91 d-1.54 · PHYS c1.0 d-1.39 · ESPERAR · compressao · TP sugerido · fecho gap @456.92 (há 114d) · médio gap/2R @443.08 · pipoca_high €10",
         "corr_score": 9.16,
