@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-06T15:55:14+01:00",
+  "updated_at": "2026-09-06T15:58:14+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "15:55",
+  "when_label": "15:58",
   "pipoca": {
     "rows": [
       {
@@ -211,7 +211,7 @@
         "news_blurb": "🎤 Chips: Nvidia acquires open - source AI platform Hugging Face for $12 . 9bn",
         "news_impact": 72,
         "opened_at": "2026-09-04T14:55:32.913197+00:00",
-        "open_days": 1,
+        "open_days": 2,
         "time_stop_days": 15,
         "diag": "🏷 CorrAvg · 🎤 Chips: Nvidia acquires open - source AI platform Hugging Face for $12 . 9bn · sinal 8.4 · corr +1.14 · star +0.35 · ANET c0.52 d+1.20 · SMCI c0.5 d+1.25 · ASML c0.48 d-0.79 · NAO PERSEGUIR · topo20_sma20 · pipoca_avg €10",
         "corr_score": 1.14,
@@ -457,7 +457,7 @@
         "news_blurb": "🎤 Fed: Blowout jobs report raises worries of Fed rate hike : AlphaCheck",
         "news_impact": 84,
         "opened_at": "2026-09-04T14:55:30.054574+00:00",
-        "open_days": 1,
+        "open_days": 2,
         "time_stop_days": 15,
         "diag": "🏷 CorrHigh · 🎤 Fed: Blowout jobs report raises worries of Fed rate hike : AlphaCheck · sinal 5.0 · corr +3.14 · star +1.51 · IBKR c0.7 d+1.84 · MS c0.9 d+1.30 · C c0.52 d+1.26 · ESPERAR · base · pipoca_high €10",
         "corr_score": 3.14,
@@ -487,7 +487,7 @@
         "news_blurb": "🎤 Inflação: Airport parking rates rise by twice the rate of inflation since 2020",
         "news_impact": 75,
         "opened_at": "2026-09-04T14:55:31.344718+00:00",
-        "open_days": 1,
+        "open_days": 2,
         "time_stop_days": 15,
         "diag": "🏷 CorrHigh · 🎤 Inflação: Airport parking rates rise by twice the rate of inflation since 2020 · sinal 5.0 · corr +2.52 · star +0.38 · VCR c0.98 d+0.71 · FDIS c0.96 d+0.68 · AMZN c0.7 d+0.80 · ESPERAR · base · pipoca_high €10",
         "corr_score": 2.52,
