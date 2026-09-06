@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-06T18:02:06+01:00",
+  "updated_at": "2026-09-06T18:05:06+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "18:01",
+  "when_label": "18:04",
   "pipoca": {
     "rows": [
       {
@@ -836,7 +836,7 @@
         "news_blurb": "🎤 ALL IN · WAIT · i92 · prep",
         "news_impact": 92,
         "opened_at": "2026-09-02T17:04:24.167411+00:00",
-        "open_days": 3,
+        "open_days": 4,
         "time_stop_days": 30,
         "diag": "🎤 ALL IN · WAIT · i92 · prep · sinal 6.5 · corr +1.18 · star -1.03 · COP c0.84 d-0.96 · ENPH c-0.2 d+3.27 · XLE c0.92 d+0.59 · ESPERAR · rejeicao_resistencia · tobias swing 30d",
         "corr_score": 1.18,
@@ -866,7 +866,7 @@
         "news_blurb": "🎤 ALL IN · Pipoca cand · i92",
         "news_impact": 92,
         "opened_at": "2026-09-02T17:04:25.642825+00:00",
-        "open_days": 3,
+        "open_days": 4,
         "time_stop_days": 30,
         "diag": "🎤 ALL IN · Pipoca cand · i92 · sinal 4.0 · corr +1.16 · star +0.00 · GD c0.61 d+0.68 · NOC c0.68 d+0.50 · ITA c0.55 d+0.46 · ESPERAR · base · tobias swing 30d",
         "corr_score": 1.16,
@@ -1264,7 +1264,7 @@
         "news_blurb": "🎤 ALL IN · Pipoca cand · i82",
         "news_impact": 82,
         "opened_at": "2026-09-02T17:04:34.786794+00:00",
-        "open_days": 3,
+        "open_days": 4,
         "time_stop_days": 15,
         "diag": "🎤 ALL IN · Pipoca cand · i82 · sinal 7.9 · corr +2.47 · star -0.13 · XOM c0.88 d-1.03 · COP c0.87 d-0.96 · ENPH c-0.25 d+3.27 · NAO PERSEGUIR · topo20_sma20 · tobias scalper micro",
         "corr_score": 2.47,
