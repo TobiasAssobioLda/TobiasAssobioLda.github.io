@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-06T15:19:14+01:00",
+  "updated_at": "2026-09-06T15:22:14+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "15:19",
+  "when_label": "15:22",
   "pipoca": {
     "rows": [
       {
@@ -986,7 +986,7 @@
         "news_blurb": "🎤 corr +0.57 · star -0.29 · PDD c0.52 d-0.74 · VIPS c0.46 d-0.73 · FXI c0.65 d+0.37",
         "news_impact": 50,
         "opened_at": "2026-09-03T14:20:47.947882+00:00",
-        "open_days": 2,
+        "open_days": 3,
         "time_stop_days": 30,
         "diag": "🎤 corr +0.57 · star -0.29 · PDD c0.52 d-0.74 · VIPS c0.46 d-0.73 · FXI c0.65 d+0.37 · sinal 5.0 · corr +1.10 · star -0.29 · JD c0.63 d-0.93 · PDD c0.52 d-0.74 · VIPS c0.46 d-0.73 · ESPERAR · base · TP sugerido · fecho gap @111.53 (há 0d) · médio gap/2R @116.88 · tobias swing 30d",
         "corr_score": 1.1,
@@ -1294,7 +1294,7 @@
         "news_blurb": "🎤 corr +0.57 · star -0.29 · PDD c0.52 d-0.74 · VIPS c0.46 d-0.73 · FXI c0.65 d+0.37",
         "news_impact": 50,
         "opened_at": "2026-09-03T14:20:50.544993+00:00",
-        "open_days": 2,
+        "open_days": 3,
         "time_stop_days": 15,
         "diag": "🎤 corr +0.57 · star -0.29 · PDD c0.52 d-0.74 · VIPS c0.46 d-0.73 · FXI c0.65 d+0.37 · sinal 5.0 · corr +1.10 · star -0.29 · JD c0.63 d-0.93 · PDD c0.52 d-0.74 · VIPS c0.46 d-0.73 · ESPERAR · base · TP sugerido · fecho gap @111.53 (há 0d) · médio gap/2R @116.88 · tobias scalper micro",
         "corr_score": 1.1,
