@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T09:28:03+01:00",
+  "updated_at": "2026-09-06T09:31:08+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-04T21:00:00+01:00",
-      "to": "2026-09-06T09:28:03+01:00",
+      "to": "2026-09-06T09:31:08+01:00",
       "from_label": "04/09 21:00",
-      "to_label": "06/09 09:28",
+      "to_label": "06/09 09:31",
       "n_events": 49,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -232,7 +232,7 @@
       "to": "2026-09-08T14:15:00+01:00",
       "from_label": "04/09 21:00",
       "to_label": "08/09 14:15",
-      "n_events": 143,
+      "n_events": 144,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
@@ -410,6 +410,16 @@
         },
         {
           "rank": 18,
+          "ticker": "MSFT",
+          "total": 3,
+          "as_up": 3,
+          "as_down": 0,
+          "last_horse": "Earnings",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 19,
           "ticker": "NUE",
           "total": 3,
           "as_up": 3,
@@ -419,22 +429,12 @@
           "direction": "all"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "ticker": "NVDA",
           "total": 3,
           "as_up": 3,
           "as_down": 0,
           "last_horse": "Earnings",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 20,
-          "ticker": "TSLA",
-          "total": 3,
-          "as_up": 3,
-          "as_down": 0,
-          "last_horse": "Musk",
           "band": "all",
           "direction": "all"
         }
@@ -445,9 +445,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-06T00:00:00+01:00",
-      "to": "2026-09-06T09:28:03+01:00",
+      "to": "2026-09-06T09:31:08+01:00",
       "from_label": "06/09 00:00",
-      "to_label": "06/09 09:28",
+      "to_label": "06/09 09:31",
       "n_events": 0,
       "top5_count": 0,
       "top6_20_count": 0,
