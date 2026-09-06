@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-06T16:49:14+01:00",
+  "updated_at": "2026-09-06T16:52:14+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "16:49",
+  "when_label": "16:52",
   "pipoca": {
     "rows": [
       {
@@ -113,7 +113,7 @@
         "news_blurb": "🎤 Fed × receio de novo aumento",
         "news_impact": 55,
         "opened_at": "2026-09-04T15:51:39.025832+00:00",
-        "open_days": 1,
+        "open_days": 2,
         "time_stop_days": 15,
         "diag": "🎤 Fed × receio de novo aumento · 📋 Inflação australiana subiu, alimentando receios de novo subida de juros. · ora Fed→GS 0/10 · sinal 5.0 · corr +3.14 · star +1.51 · IBKR c0.7 d+1.84 · MS c0.9 d+1.30 · C c0.52 d+1.26 · ESPERAR · base · setup normal",
         "corr_score": 3.14,
