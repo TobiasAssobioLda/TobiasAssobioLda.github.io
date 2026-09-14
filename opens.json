@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-14T17:44:43+01:00",
+  "updated_at": "2026-09-14T17:45:34+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "17:44",
+  "when_label": "17:45",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -98,7 +98,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i82 · prep",
-        "next_check": "2026-09-14T16:45:04.948851+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.948851+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -111,7 +111,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i82",
-        "next_check": "2026-09-14T16:45:04.979739+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.979739+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -124,7 +124,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i78 · prep",
-        "next_check": "2026-09-14T16:45:04.982332+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.982332+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -137,7 +137,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i78",
-        "next_check": "2026-09-14T16:45:04.984139+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.984139+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -150,7 +150,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i75 · prep",
-        "next_check": "2026-09-14T16:45:04.985667+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.985667+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -163,7 +163,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i75",
-        "next_check": "2026-09-14T16:45:04.987313+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.987313+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -176,7 +176,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i75 · prep",
-        "next_check": "2026-09-14T16:45:04.989136+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.989136+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -189,7 +189,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i75",
-        "next_check": "2026-09-14T16:45:04.992107+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.992107+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -202,7 +202,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i75 · prep",
-        "next_check": "2026-09-14T16:45:04.996245+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.996245+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -215,7 +215,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i75",
-        "next_check": "2026-09-14T16:45:04.997778+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.997778+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -228,7 +228,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i75 · prep",
-        "next_check": "2026-09-14T16:45:04.999335+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.999335+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -241,7 +241,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i75",
-        "next_check": "2026-09-14T16:45:05.000879+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.000879+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -254,7 +254,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i75 · prep",
-        "next_check": "2026-09-14T16:45:05.003054+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.003054+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -267,7 +267,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i75",
-        "next_check": "2026-09-14T16:45:05.004697+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.004697+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -280,7 +280,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i75 · prep",
-        "next_check": "2026-09-14T16:45:05.006223+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.006223+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -293,7 +293,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i75",
-        "next_check": "2026-09-14T16:45:05.009502+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.009502+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -306,7 +306,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i75 · prep",
-        "next_check": "2026-09-14T16:45:05.011461+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.011461+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -319,7 +319,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i75",
-        "next_check": "2026-09-14T16:45:05.013248+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.013248+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -332,7 +332,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i72 · prep",
-        "next_check": "2026-09-14T16:45:05.015147+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.015147+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -345,7 +345,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i72",
-        "next_check": "2026-09-14T16:45:05.016986+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.016986+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -358,7 +358,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i72 · prep",
-        "next_check": "2026-09-14T16:45:05.018623+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.018623+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -371,7 +371,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i72",
-        "next_check": "2026-09-14T16:45:05.020452+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.020452+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -384,7 +384,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i72 · prep",
-        "next_check": "2026-09-14T16:45:05.025501+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.025501+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -397,7 +397,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i72",
-        "next_check": "2026-09-14T16:45:05.027432+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.027432+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -410,7 +410,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i70 · prep",
-        "next_check": "2026-09-14T16:45:05.029196+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.029196+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -423,7 +423,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i70",
-        "next_check": "2026-09-14T16:45:05.030897+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.030897+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -436,7 +436,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i70 · prep",
-        "next_check": "2026-09-14T16:45:05.033297+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.033297+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -449,7 +449,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i70",
-        "next_check": "2026-09-14T16:45:05.035134+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.035134+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -462,7 +462,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i70 · prep",
-        "next_check": "2026-09-14T16:45:05.036898+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.036898+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -475,7 +475,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i70",
-        "next_check": "2026-09-14T16:45:05.039091+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.039091+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -516,7 +516,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i82 · prep",
-        "next_check": "2026-09-14T16:45:04.948851+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.948851+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -529,7 +529,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i82",
-        "next_check": "2026-09-14T16:45:04.979739+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.979739+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -542,7 +542,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i78 · prep",
-        "next_check": "2026-09-14T16:45:04.982332+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.982332+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -555,7 +555,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i78",
-        "next_check": "2026-09-14T16:45:04.984139+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.984139+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -568,7 +568,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i75 · prep",
-        "next_check": "2026-09-14T16:45:04.985667+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.985667+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -581,7 +581,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i75",
-        "next_check": "2026-09-14T16:45:04.987313+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.987313+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -594,7 +594,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i75 · prep",
-        "next_check": "2026-09-14T16:45:04.989136+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.989136+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -607,7 +607,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i75",
-        "next_check": "2026-09-14T16:45:04.992107+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.992107+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -620,7 +620,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i75 · prep",
-        "next_check": "2026-09-14T16:45:04.996245+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.996245+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -633,7 +633,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i75",
-        "next_check": "2026-09-14T16:45:04.997778+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.997778+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -646,7 +646,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i75 · prep",
-        "next_check": "2026-09-14T16:45:04.999335+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:04.999335+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -659,7 +659,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i75",
-        "next_check": "2026-09-14T16:45:05.000879+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.000879+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -672,7 +672,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i75 · prep",
-        "next_check": "2026-09-14T16:45:05.003054+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.003054+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -685,7 +685,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i75",
-        "next_check": "2026-09-14T16:45:05.004697+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.004697+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -698,7 +698,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i75 · prep",
-        "next_check": "2026-09-14T16:45:05.006223+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.006223+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -711,7 +711,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i75",
-        "next_check": "2026-09-14T16:45:05.009502+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.009502+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -724,7 +724,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i75 · prep",
-        "next_check": "2026-09-14T16:45:05.011461+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.011461+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -737,7 +737,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i75",
-        "next_check": "2026-09-14T16:45:05.013248+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.013248+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -750,7 +750,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i72 · prep",
-        "next_check": "2026-09-14T16:45:05.015147+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.015147+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -763,7 +763,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i72",
-        "next_check": "2026-09-14T16:45:05.016986+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.016986+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -776,7 +776,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i72 · prep",
-        "next_check": "2026-09-14T16:45:05.018623+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.018623+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -789,7 +789,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i72",
-        "next_check": "2026-09-14T16:45:05.020452+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.020452+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -802,7 +802,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i72 · prep",
-        "next_check": "2026-09-14T16:45:05.025501+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.025501+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -815,7 +815,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i72",
-        "next_check": "2026-09-14T16:45:05.027432+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.027432+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -828,7 +828,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i70 · prep",
-        "next_check": "2026-09-14T16:45:05.029196+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.029196+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -841,7 +841,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i70",
-        "next_check": "2026-09-14T16:45:05.030897+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.030897+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -854,7 +854,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i70 · prep",
-        "next_check": "2026-09-14T16:45:05.033297+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.033297+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -867,7 +867,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i70",
-        "next_check": "2026-09-14T16:45:05.035134+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.035134+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -880,7 +880,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · WAIT · i70 · prep",
-        "next_check": "2026-09-14T16:45:05.036898+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.036898+00:00",
         "status": "wait",
         "lane": "wait_window"
@@ -893,7 +893,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "ALL IN · Pipoca cand · i70",
-        "next_check": "2026-09-14T16:45:05.039091+00:00",
+        "next_check": "2026-09-14T16:45:00.003059+00:00",
         "first_seen": "2026-09-14T16:40:05.039091+00:00",
         "status": "wait",
         "lane": "wait_window"
