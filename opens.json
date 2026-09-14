@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-14T17:45:34+01:00",
+  "updated_at": "2026-09-14T17:47:48+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "17:45",
+  "when_label": "17:47",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -83,7 +83,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · Europa fechada — Europa fechada (pos-sessao)",
-        "next_check": "2026-09-14T16:42:37.251782+00:00",
+        "next_check": "2026-09-14T17:02:40.608756+00:00",
         "first_seen": "2026-09-14T16:27:37.251782+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -496,19 +496,6 @@
         "lane": "out_market"
       },
       {
-        "ticker": "NANO.PA",
-        "book": "tobias_swing",
-        "horse": "FreeHunt",
-        "impact": 99,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · Europa fechada — Europa fechada (pos-sessao)",
-        "next_check": "2026-09-14T16:42:37.251782+00:00",
-        "first_seen": "2026-09-14T16:27:37.251782+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
         "ticker": "XOM",
         "book": "pipoca_high",
         "horse": "Trump",
@@ -897,6 +884,19 @@
         "first_seen": "2026-09-14T16:40:05.039091+00:00",
         "status": "wait",
         "lane": "wait_window"
+      },
+      {
+        "ticker": "NANO.PA",
+        "book": "tobias_swing",
+        "horse": "FreeHunt",
+        "impact": 99,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · Europa fechada — Europa fechada (pos-sessao)",
+        "next_check": "2026-09-14T17:02:40.608756+00:00",
+        "first_seen": "2026-09-14T16:27:37.251782+00:00",
+        "status": "wait",
+        "lane": "out_market"
       }
     ],
     "day": "2026-09-14",
