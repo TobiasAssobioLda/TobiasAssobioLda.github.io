@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-14T16:56:41+01:00",
+  "updated_at": "2026-09-14T16:59:41+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "16:56",
+  "when_label": "16:59",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -61,9 +61,37 @@
   },
   "possible": {
     "quase": [],
-    "out_market": [],
+    "out_market": [
+      {
+        "ticker": "NANO.PA",
+        "book": "week1_free",
+        "horse": "FreeHunt",
+        "impact": 99,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · Europa fechada — Europa fechada (pos-sessao)",
+        "next_check": "2026-09-14T16:13:53.804196+00:00",
+        "first_seen": "2026-09-14T15:58:53.804196+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      }
+    ],
     "wait_window": [],
-    "rows": [],
+    "rows": [
+      {
+        "ticker": "NANO.PA",
+        "book": "week1_free",
+        "horse": "FreeHunt",
+        "impact": 99,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · Europa fechada — Europa fechada (pos-sessao)",
+        "next_check": "2026-09-14T16:13:53.804196+00:00",
+        "first_seen": "2026-09-14T15:58:53.804196+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      }
+    ],
     "day": "2026-09-14",
     "retry_min": 15,
     "max_tries": 6
