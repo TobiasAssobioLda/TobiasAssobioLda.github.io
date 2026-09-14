@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-14T18:57:58+01:00",
+  "updated_at": "2026-09-14T19:01:02+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "18:57",
+  "when_label": "19:00",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -37,12 +37,12 @@
         "id": 1934,
         "ticker": "XOM",
         "entry": 165.304,
-        "price": 165.515,
+        "price": 165.47,
         "qty": 0.060297,
         "notional": 9.9673,
         "pnl_pct": 0.0,
-        "pnl_eur": 0.012722666999999055,
-        "pnl_r": 0.03,
+        "pnl_eur": 0.010009301999999809,
+        "pnl_r": 0.02,
         "sl": 158.08,
         "tp1": 181.37,
         "tp2": 189.14,
@@ -67,11 +67,11 @@
         "id": 1935,
         "ticker": "LMT",
         "entry": 529.014,
-        "price": 527.61,
+        "price": 527.57,
         "qty": 0.018916,
         "notional": 10.0068,
         "pnl_pct": -0.0,
-        "pnl_eur": -0.02655806399999993,
+        "pnl_eur": -0.027314703999999242,
         "pnl_r": -0.07,
         "sl": 509.4,
         "tp1": 563.83,
@@ -94,10 +94,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.0006917698500000438,
-    "total_pnl_eur": -0.013835397000000875,
+    "total_pnl_pct": -0.0008652700999999718,
+    "total_pnl_eur": -0.017305401999999435,
     "bank_eur": 2000.0,
-    "equity_eur": 1999.99
+    "equity_eur": 1999.98
   },
   "tobias_scalper": {
     "rows": [],
