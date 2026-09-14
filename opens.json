@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-14T19:57:57+01:00",
+  "updated_at": "2026-09-14T20:01:05+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "19:57",
+  "when_label": "20:00",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -37,12 +37,12 @@
         "id": 1934,
         "ticker": "XOM",
         "entry": 165.304,
-        "price": 164.69,
+        "price": 164.665,
         "qty": 0.060297,
         "notional": 9.9673,
         "pnl_pct": -0.0,
-        "pnl_eur": -0.03702235800000026,
-        "pnl_r": -0.08,
+        "pnl_eur": -0.03852978300000061,
+        "pnl_r": -0.09,
         "sl": 158.08,
         "tp1": 181.37,
         "tp2": 189.14,
@@ -67,11 +67,11 @@
         "id": 1935,
         "ticker": "LMT",
         "entry": 529.014,
-        "price": 529.52,
+        "price": 529.555,
         "qty": 0.018916,
         "notional": 10.0068,
         "pnl_pct": 0.0,
-        "pnl_eur": 0.009571495999999466,
+        "pnl_eur": 0.010233555999998863,
         "pnl_r": 0.03,
         "sl": 509.4,
         "tp1": 563.83,
@@ -94,8 +94,8 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.0013725431000000399,
-    "total_pnl_eur": -0.027450862000000797,
+    "total_pnl_pct": -0.0014148113500000873,
+    "total_pnl_eur": -0.028296227000001745,
     "bank_eur": 2000.0,
     "equity_eur": 1999.97
   },
@@ -123,6 +123,32 @@
   "possible": {
     "quase": [
       {
+        "ticker": "GS",
+        "book": "tobias_swing",
+        "horse": "Fed",
+        "impact": 70,
+        "tries": 5,
+        "max_tries": 6,
+        "reason": "corr -0.51 · star +0.00 · MS c0.89 d-0.35 · IBKR c0.65 d-0.31 · XBI c0.32 d-0.31",
+        "next_check": "2026-09-14T18:56:18.175315+00:00",
+        "first_seen": "2026-09-14T16:48:10.910060+00:00",
+        "status": "wait",
+        "lane": "quase"
+      },
+      {
+        "ticker": "TLT",
+        "book": "tobias_swing",
+        "horse": "Irão",
+        "impact": 70,
+        "tries": 5,
+        "max_tries": 6,
+        "reason": "corr +0.19 · star +0.07 · MDY c0.55 d+0.23 · EFA c0.49 d-0.17 · VIXY c-0.27 d-0.27",
+        "next_check": "2026-09-14T18:56:19.238610+00:00",
+        "first_seen": "2026-09-14T16:48:12.257756+00:00",
+        "status": "wait",
+        "lane": "quase"
+      },
+      {
         "ticker": "SPY",
         "book": "tobias_swing",
         "horse": "Inflação",
@@ -130,7 +156,7 @@
         "tries": 5,
         "max_tries": 6,
         "reason": "corr +0.49 · star +0.00 · XLK c0.83 d+0.36 · TAIL c-0.56 d-0.24 · QQQ c0.91 d+0.10",
-        "next_check": "2026-09-14T18:56:10.928629+00:00",
+        "next_check": "2026-09-14T19:15:55.786979+00:00",
         "first_seen": "2026-09-14T16:47:56.692016+00:00",
         "status": "wait",
         "lane": "quase"
@@ -143,7 +169,7 @@
         "tries": 5,
         "max_tries": 6,
         "reason": "corr +0.55 · star -1.25 · MSTR c0.41 d-2.91 · GDX c0.63 d-1.52 · B c0.54 d-2.44",
-        "next_check": "2026-09-14T18:56:11.577075+00:00",
+        "next_check": "2026-09-14T19:15:57.070839+00:00",
         "first_seen": "2026-09-14T16:47:57.648101+00:00",
         "status": "wait",
         "lane": "quase"
@@ -156,7 +182,7 @@
         "tries": 5,
         "max_tries": 6,
         "reason": "corr +0.55 · star -1.25 · MSTR c0.41 d-2.91 · GDX c0.63 d-1.52 · B c0.54 d-2.44",
-        "next_check": "2026-09-14T18:56:12.485440+00:00",
+        "next_check": "2026-09-14T19:15:58.160351+00:00",
         "first_seen": "2026-09-14T16:47:58.872706+00:00",
         "status": "wait",
         "lane": "quase"
@@ -169,7 +195,7 @@
         "tries": 5,
         "max_tries": 6,
         "reason": "corr +0.55 · star -1.25 · MSTR c0.41 d-2.91 · GDX c0.63 d-1.52 · B c0.54 d-2.44",
-        "next_check": "2026-09-14T18:56:13.203374+00:00",
+        "next_check": "2026-09-14T19:15:59.487908+00:00",
         "first_seen": "2026-09-14T16:48:00.030927+00:00",
         "status": "wait",
         "lane": "quase"
@@ -182,7 +208,7 @@
         "tries": 5,
         "max_tries": 6,
         "reason": "corr +0.55 · star -1.25 · MSTR c0.41 d-2.91 · GDX c0.63 d-1.52 · B c0.54 d-2.44",
-        "next_check": "2026-09-14T18:56:13.911864+00:00",
+        "next_check": "2026-09-14T19:16:00.728373+00:00",
         "first_seen": "2026-09-14T16:48:01.157567+00:00",
         "status": "wait",
         "lane": "quase"
@@ -195,34 +221,8 @@
         "tries": 5,
         "max_tries": 6,
         "reason": "corr -0.09 · star +0.00 · PNC c0.74 d-0.20 · USB c0.76 d+0.10 · WFC c0.82 d+0.07",
-        "next_check": "2026-09-14T18:56:14.436199+00:00",
+        "next_check": "2026-09-14T19:16:02.029894+00:00",
         "first_seen": "2026-09-14T16:48:02.244239+00:00",
-        "status": "wait",
-        "lane": "quase"
-      },
-      {
-        "ticker": "GOLD",
-        "book": "tobias_swing",
-        "horse": "Inflação",
-        "impact": 75,
-        "tries": 5,
-        "max_tries": 6,
-        "reason": "corr +0.55 · star -1.25 · MSTR c0.41 d-2.91 · GDX c0.63 d-1.52 · B c0.54 d-2.44",
-        "next_check": "2026-09-14T18:56:15.298743+00:00",
-        "first_seen": "2026-09-14T16:48:03.366359+00:00",
-        "status": "wait",
-        "lane": "quase"
-      },
-      {
-        "ticker": "GOLD",
-        "book": "tobias_swing",
-        "horse": "Inflação",
-        "impact": 75,
-        "tries": 5,
-        "max_tries": 6,
-        "reason": "corr +0.55 · star -1.25 · MSTR c0.41 d-2.91 · GDX c0.63 d-1.52 · B c0.54 d-2.44",
-        "next_check": "2026-09-14T18:56:16.512321+00:00",
-        "first_seen": "2026-09-14T16:48:04.451892+00:00",
         "status": "wait",
         "lane": "quase"
       }
@@ -249,7 +249,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · Europa fechada — Europa fechada (pos-sessao)",
-        "next_check": "2026-09-14T18:56:09.870545+00:00",
+        "next_check": "2026-09-14T19:15:53.910451+00:00",
         "first_seen": "2026-09-14T16:27:37.251782+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1052,6 +1052,32 @@
         "lane": "wait_window"
       },
       {
+        "ticker": "GS",
+        "book": "tobias_swing",
+        "horse": "Fed",
+        "impact": 70,
+        "tries": 5,
+        "max_tries": 6,
+        "reason": "corr -0.51 · star +0.00 · MS c0.89 d-0.35 · IBKR c0.65 d-0.31 · XBI c0.32 d-0.31",
+        "next_check": "2026-09-14T18:56:18.175315+00:00",
+        "first_seen": "2026-09-14T16:48:10.910060+00:00",
+        "status": "wait",
+        "lane": "quase"
+      },
+      {
+        "ticker": "TLT",
+        "book": "tobias_swing",
+        "horse": "Irão",
+        "impact": 70,
+        "tries": 5,
+        "max_tries": 6,
+        "reason": "corr +0.19 · star +0.07 · MDY c0.55 d+0.23 · EFA c0.49 d-0.17 · VIXY c-0.27 d-0.27",
+        "next_check": "2026-09-14T18:56:19.238610+00:00",
+        "first_seen": "2026-09-14T16:48:12.257756+00:00",
+        "status": "wait",
+        "lane": "quase"
+      },
+      {
         "ticker": "NANO.PA",
         "book": "tobias_swing",
         "horse": "FreeHunt",
@@ -1059,7 +1085,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · Europa fechada — Europa fechada (pos-sessao)",
-        "next_check": "2026-09-14T18:56:09.870545+00:00",
+        "next_check": "2026-09-14T19:15:53.910451+00:00",
         "first_seen": "2026-09-14T16:27:37.251782+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -1072,7 +1098,7 @@
         "tries": 5,
         "max_tries": 6,
         "reason": "corr +0.49 · star +0.00 · XLK c0.83 d+0.36 · TAIL c-0.56 d-0.24 · QQQ c0.91 d+0.10",
-        "next_check": "2026-09-14T18:56:10.928629+00:00",
+        "next_check": "2026-09-14T19:15:55.786979+00:00",
         "first_seen": "2026-09-14T16:47:56.692016+00:00",
         "status": "wait",
         "lane": "quase"
@@ -1085,7 +1111,7 @@
         "tries": 5,
         "max_tries": 6,
         "reason": "corr +0.55 · star -1.25 · MSTR c0.41 d-2.91 · GDX c0.63 d-1.52 · B c0.54 d-2.44",
-        "next_check": "2026-09-14T18:56:11.577075+00:00",
+        "next_check": "2026-09-14T19:15:57.070839+00:00",
         "first_seen": "2026-09-14T16:47:57.648101+00:00",
         "status": "wait",
         "lane": "quase"
@@ -1098,7 +1124,7 @@
         "tries": 5,
         "max_tries": 6,
         "reason": "corr +0.55 · star -1.25 · MSTR c0.41 d-2.91 · GDX c0.63 d-1.52 · B c0.54 d-2.44",
-        "next_check": "2026-09-14T18:56:12.485440+00:00",
+        "next_check": "2026-09-14T19:15:58.160351+00:00",
         "first_seen": "2026-09-14T16:47:58.872706+00:00",
         "status": "wait",
         "lane": "quase"
@@ -1111,7 +1137,7 @@
         "tries": 5,
         "max_tries": 6,
         "reason": "corr +0.55 · star -1.25 · MSTR c0.41 d-2.91 · GDX c0.63 d-1.52 · B c0.54 d-2.44",
-        "next_check": "2026-09-14T18:56:13.203374+00:00",
+        "next_check": "2026-09-14T19:15:59.487908+00:00",
         "first_seen": "2026-09-14T16:48:00.030927+00:00",
         "status": "wait",
         "lane": "quase"
@@ -1124,7 +1150,7 @@
         "tries": 5,
         "max_tries": 6,
         "reason": "corr +0.55 · star -1.25 · MSTR c0.41 d-2.91 · GDX c0.63 d-1.52 · B c0.54 d-2.44",
-        "next_check": "2026-09-14T18:56:13.911864+00:00",
+        "next_check": "2026-09-14T19:16:00.728373+00:00",
         "first_seen": "2026-09-14T16:48:01.157567+00:00",
         "status": "wait",
         "lane": "quase"
@@ -1137,34 +1163,8 @@
         "tries": 5,
         "max_tries": 6,
         "reason": "corr -0.09 · star +0.00 · PNC c0.74 d-0.20 · USB c0.76 d+0.10 · WFC c0.82 d+0.07",
-        "next_check": "2026-09-14T18:56:14.436199+00:00",
+        "next_check": "2026-09-14T19:16:02.029894+00:00",
         "first_seen": "2026-09-14T16:48:02.244239+00:00",
-        "status": "wait",
-        "lane": "quase"
-      },
-      {
-        "ticker": "GOLD",
-        "book": "tobias_swing",
-        "horse": "Inflação",
-        "impact": 75,
-        "tries": 5,
-        "max_tries": 6,
-        "reason": "corr +0.55 · star -1.25 · MSTR c0.41 d-2.91 · GDX c0.63 d-1.52 · B c0.54 d-2.44",
-        "next_check": "2026-09-14T18:56:15.298743+00:00",
-        "first_seen": "2026-09-14T16:48:03.366359+00:00",
-        "status": "wait",
-        "lane": "quase"
-      },
-      {
-        "ticker": "GOLD",
-        "book": "tobias_swing",
-        "horse": "Inflação",
-        "impact": 75,
-        "tries": 5,
-        "max_tries": 6,
-        "reason": "corr +0.55 · star -1.25 · MSTR c0.41 d-2.91 · GDX c0.63 d-1.52 · B c0.54 d-2.44",
-        "next_check": "2026-09-14T18:56:16.512321+00:00",
-        "first_seen": "2026-09-14T16:48:04.451892+00:00",
         "status": "wait",
         "lane": "quase"
       }
