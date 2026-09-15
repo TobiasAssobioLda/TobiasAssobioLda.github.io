@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T21:30:32+01:00",
+  "updated_at": "2026-09-15T21:33:32+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-11T21:00:00+01:00",
-      "to": "2026-09-15T21:30:32+01:00",
+      "to": "2026-09-15T21:33:32+01:00",
       "from_label": "11/09 21:00",
-      "to_label": "15/09 21:30",
+      "to_label": "15/09 21:33",
       "n_events": 36,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -232,12 +232,22 @@
       "to": "2026-09-16T14:15:00+01:00",
       "from_label": "15/09 21:00",
       "to_label": "16/09 14:15",
-      "n_events": 1,
-      "top5_count": 2,
+      "n_events": 2,
+      "top5_count": 4,
       "top6_20_count": 0,
       "top5": [
         {
           "rank": 1,
+          "ticker": "GOLD",
+          "total": 1,
+          "as_up": 1,
+          "as_down": 0,
+          "last_horse": "Inflação",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 2,
           "ticker": "XOM",
           "total": 1,
           "as_up": 1,
@@ -247,12 +257,22 @@
           "direction": "all"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "ticker": "CVX",
           "total": 1,
           "as_up": 0,
           "as_down": 1,
           "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 4,
+          "ticker": "NEM",
+          "total": 1,
+          "as_up": 0,
+          "as_down": 1,
+          "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
         }
@@ -264,9 +284,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-15T00:00:00+01:00",
-      "to": "2026-09-15T21:30:32+01:00",
+      "to": "2026-09-15T21:33:32+01:00",
       "from_label": "15/09 00:00",
-      "to_label": "15/09 21:30",
+      "to_label": "15/09 21:33",
       "n_events": 18,
       "top5_count": 5,
       "top6_20_count": 9,
