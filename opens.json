@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-15T18:12:59+01:00",
+  "updated_at": "2026-09-15T18:16:00+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "18:12",
+  "when_label": "18:15",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -67,12 +67,12 @@
         "id": 1935,
         "ticker": "LMT",
         "entry": 529.014,
-        "price": 535.3925,
+        "price": 534.99,
         "qty": 0.018916,
         "notional": 10.0068,
         "pnl_pct": 0.01,
-        "pnl_eur": 0.12065570600000057,
-        "pnl_r": 0.33,
+        "pnl_eur": 0.11304201599999998,
+        "pnl_r": 0.3,
         "sl": 509.4,
         "tp1": 563.83,
         "tp2": 581.98,
@@ -97,12 +97,12 @@
         "id": 2740,
         "ticker": "SQM",
         "entry": 69.966,
-        "price": 69.5,
+        "price": 69.64,
         "qty": 0.143338,
         "notional": 10.0288,
         "pnl_pct": -0.0,
-        "pnl_eur": -0.06679550799999913,
-        "pnl_r": -0.11,
+        "pnl_eur": -0.04672818799999905,
+        "pnl_r": -0.08,
         "sl": 65.88,
         "tp1": 77.54,
         "tp2": 81.42,
@@ -124,10 +124,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.01434842000000003,
-    "total_pnl_eur": 0.28696840000000057,
+    "total_pnl_pct": 0.014971101500000004,
+    "total_pnl_eur": 0.29942203000000006,
     "bank_eur": 2000.0,
-    "equity_eur": 2000.29
+    "equity_eur": 2000.3
   },
   "tobias_scalper": {
     "rows": [],
