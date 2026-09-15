@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-15T23:03:32+01:00",
+  "updated_at": "2026-09-15T23:06:29+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "23:03",
+  "when_label": "23:06",
   "title": "Full Report · Tobias",
   "note": "Todos os fechos · TP no topo · treino Tobias",
   "stats": {
@@ -10,8 +10,8 @@
     "sl": 13,
     "out": 175,
     "correto": 23,
-    "erro": 19,
-    "trainable": 42,
+    "erro": 21,
+    "trainable": 44,
     "realized_eur": -160.7,
     "realized_r": -10.74
   },
@@ -1167,7 +1167,7 @@
       "ticker": "XOM",
       "horse": "Irão",
       "kind": "out",
-      "label": "NEUTRO",
+      "label": "ERRO",
       "entry": 162.23,
       "exit": 160.56,
       "sl": 154.67,
@@ -1189,7 +1189,7 @@
       "ticker": "BAC",
       "horse": "Irão",
       "kind": "out",
-      "label": "NEUTRO",
+      "label": "ERRO",
       "entry": 63.06,
       "exit": 62.85,
       "sl": 61.15,
