@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-16T00:48:27+01:00",
+  "updated_at": "2026-09-16T00:51:26+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "00:48",
+  "when_label": "00:51",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -97,12 +97,12 @@
         "id": 2740,
         "ticker": "SQM",
         "entry": 69.966,
-        "price": 69.29,
+        "price": 68.93,
         "qty": 0.143338,
         "notional": 10.0288,
-        "pnl_pct": -0.0,
-        "pnl_eur": -0.09689648799999824,
-        "pnl_r": -0.17,
+        "pnl_pct": -0.01,
+        "pnl_eur": -0.14849816799999815,
+        "pnl_r": -0.25,
         "sl": 65.88,
         "tp1": 77.54,
         "tp2": 81.42,
@@ -124,10 +124,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.011709028000000125,
-    "total_pnl_eur": 0.23418056000000248,
+    "total_pnl_pct": 0.009128944000000128,
+    "total_pnl_eur": 0.18257888000000255,
     "bank_eur": 2000.0,
-    "equity_eur": 2000.23
+    "equity_eur": 2000.18
   },
   "tobias_scalper": {
     "rows": [],
