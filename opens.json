@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-16T09:24:26+01:00",
+  "updated_at": "2026-09-16T09:27:26+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "09:24",
+  "when_label": "09:27",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -67,12 +67,12 @@
         "id": 1935,
         "ticker": "LMT",
         "entry": 529.014,
-        "price": 534.3,
+        "price": 534.66,
         "qty": 0.018916,
         "notional": 10.0068,
-        "pnl_pct": 0.0,
-        "pnl_eur": 0.09998997599999894,
-        "pnl_r": 0.27,
+        "pnl_pct": 0.01,
+        "pnl_eur": 0.1067997359999992,
+        "pnl_r": 0.29,
         "sl": 509.4,
         "tp1": 563.83,
         "tp2": 581.98,
@@ -124,10 +124,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.008747624500000006,
-    "total_pnl_eur": 0.17495249000000013,
+    "total_pnl_pct": 0.009088112500000018,
+    "total_pnl_eur": 0.18176225000000035,
     "bank_eur": 2000.0,
-    "equity_eur": 2000.17
+    "equity_eur": 2000.18
   },
   "tobias_scalper": {
     "rows": [],
