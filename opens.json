@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-16T22:18:54+01:00",
+  "updated_at": "2026-09-16T22:21:54+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "22:18",
+  "when_label": "22:21",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -337,11 +337,11 @@
         "id": 5015,
         "ticker": "AAL",
         "entry": 12.708,
-        "price": 12.7194,
+        "price": 12.7199,
         "qty": 0.786473,
         "notional": 9.9945,
         "pnl_pct": 0.0,
-        "pnl_eur": 0.00896579220000006,
+        "pnl_eur": 0.00935902870000054,
         "pnl_r": 0.05,
         "sl": 12.49,
         "tp1": 14.15,
@@ -487,12 +487,12 @@
         "id": 5380,
         "ticker": "ACHR",
         "entry": 5.3,
-        "price": 5.23,
+        "price": 5.2204,
         "qty": 1.888574,
         "notional": 10.0094,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.13220017999999886,
-        "pnl_r": -0.23,
+        "pnl_eur": -0.1503304904000002,
+        "pnl_r": -0.26,
         "sl": 4.99,
         "tp1": 6.02,
         "tp2": 6.37,
@@ -574,10 +574,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.13027467751999988,
-    "total_pnl_eur": -2.6054935503999976,
+    "total_pnl_pct": -0.1311615312149999,
+    "total_pnl_eur": -2.6232306242999983,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.39
+    "equity_eur": 1997.38
   },
   "tobias_scalper": {
     "rows": [],
