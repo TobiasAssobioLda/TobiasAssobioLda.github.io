@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T12:30:33+01:00",
+  "updated_at": "2026-09-16T12:33:32+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-11T21:00:00+01:00",
-      "to": "2026-09-16T12:30:33+01:00",
+      "to": "2026-09-16T12:33:32+01:00",
       "from_label": "11/09 21:00",
-      "to_label": "16/09 12:30",
+      "to_label": "16/09 12:33",
       "n_events": 36,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -232,9 +232,9 @@
       "to": "2026-09-16T14:15:00+01:00",
       "from_label": "15/09 21:00",
       "to_label": "16/09 14:15",
-      "n_events": 27,
+      "n_events": 28,
       "top5_count": 5,
-      "top6_20_count": 9,
+      "top6_20_count": 10,
       "top5": [
         {
           "rank": 1,
@@ -290,6 +290,16 @@
       "top6_20": [
         {
           "rank": 6,
+          "ticker": "LMT",
+          "total": 2,
+          "as_up": 2,
+          "as_down": 0,
+          "last_horse": "Rússia",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 7,
           "ticker": "AMZN",
           "total": 2,
           "as_up": 0,
@@ -299,7 +309,7 @@
           "direction": "all"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "ticker": "AG",
           "total": 1,
           "as_up": 1,
@@ -309,7 +319,7 @@
           "direction": "all"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "ticker": "BABA",
           "total": 1,
           "as_up": 1,
@@ -319,22 +329,12 @@
           "direction": "all"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "ticker": "FFIN",
           "total": 1,
           "as_up": 1,
           "as_down": 0,
           "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 10,
-          "ticker": "LMT",
-          "total": 1,
-          "as_up": 1,
-          "as_down": 0,
-          "last_horse": "Ucrânia",
           "band": "all",
           "direction": "all"
         },
@@ -360,6 +360,16 @@
         },
         {
           "rank": 13,
+          "ticker": "NOC",
+          "total": 1,
+          "as_up": 0,
+          "as_down": 1,
+          "last_horse": "Rússia",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 14,
           "ticker": "PDD",
           "total": 1,
           "as_up": 0,
@@ -369,7 +379,7 @@
           "direction": "all"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "ticker": "USB",
           "total": 1,
           "as_up": 0,
@@ -385,9 +395,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-16T00:00:00+01:00",
-      "to": "2026-09-16T12:30:33+01:00",
+      "to": "2026-09-16T12:33:32+01:00",
       "from_label": "16/09 00:00",
-      "to_label": "16/09 12:30",
+      "to_label": "16/09 12:33",
       "n_events": 0,
       "top5_count": 0,
       "top6_20_count": 0,
