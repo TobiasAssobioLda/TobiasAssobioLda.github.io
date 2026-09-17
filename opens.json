@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-17T06:27:53+01:00",
+  "updated_at": "2026-09-17T06:30:53+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "06:27",
+  "when_label": "06:30",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -247,12 +247,12 @@
         "id": 4712,
         "ticker": "CVX",
         "entry": 215.48,
-        "price": 212.16,
+        "price": 211.7,
         "qty": 0.046414,
         "notional": 10.0013,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.15409447999999967,
-        "pnl_r": -0.39,
+        "pnl_eur": -0.17544492000000003,
+        "pnl_r": -0.44,
         "sl": 206.98,
         "tp1": 226.21,
         "tp2": 232.62,
@@ -367,11 +367,11 @@
         "id": 5029,
         "ticker": "CMG",
         "entry": 35.208,
-        "price": 33.68,
+        "price": 33.69,
         "qty": 0.28397,
         "notional": 9.998,
         "pnl_pct": -0.02,
-        "pnl_eur": -0.43390615999999965,
+        "pnl_eur": -0.4310664600000002,
         "pnl_r": -0.58,
         "sl": 32.59,
         "tp1": 37.64,
@@ -574,10 +574,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.1032480952999999,
-    "total_pnl_eur": -2.064961905999998,
+    "total_pnl_pct": -0.10417363229999994,
+    "total_pnl_eur": -2.083472645999999,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.94
+    "equity_eur": 1997.92
   },
   "tobias_scalper": {
     "rows": [],
