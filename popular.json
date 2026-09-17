@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T14:22:40+01:00",
+  "updated_at": "2026-09-17T14:23:22+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,10 +13,10 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-11T21:00:00+01:00",
-      "to": "2026-09-17T14:22:40+01:00",
+      "to": "2026-09-17T14:23:22+01:00",
       "from_label": "11/09 21:00",
-      "to_label": "17/09 14:22",
-      "n_events": 121,
+      "to_label": "17/09 14:23",
+      "n_events": 136,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
@@ -32,6 +32,26 @@
         },
         {
           "rank": 2,
+          "ticker": "SPY",
+          "total": 28,
+          "as_up": 19,
+          "as_down": 9,
+          "last_horse": "Inflação",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 3,
+          "ticker": "TLT",
+          "total": 27,
+          "as_up": 12,
+          "as_down": 15,
+          "last_horse": "Inflação",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 4,
           "ticker": "CVX",
           "total": 26,
           "as_up": 0,
@@ -41,32 +61,12 @@
           "direction": "all"
         },
         {
-          "rank": 3,
+          "rank": 5,
           "ticker": "LMT",
           "total": 23,
           "as_up": 21,
           "as_down": 2,
           "last_horse": "Irão",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 4,
-          "ticker": "SPY",
-          "total": 21,
-          "as_up": 15,
-          "as_down": 6,
-          "last_horse": "Inflação",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 5,
-          "ticker": "TLT",
-          "total": 16,
-          "as_up": 8,
-          "as_down": 8,
-          "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
         }
@@ -94,6 +94,16 @@
         },
         {
           "rank": 8,
+          "ticker": "GLD",
+          "total": 8,
+          "as_up": 8,
+          "as_down": 0,
+          "last_horse": "Inflação",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 9,
           "ticker": "GS",
           "total": 7,
           "as_up": 7,
@@ -103,7 +113,7 @@
           "direction": "all"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "ticker": "MS",
           "total": 7,
           "as_up": 0,
@@ -113,17 +123,27 @@
           "direction": "all"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "ticker": "NEM",
-          "total": 5,
+          "total": 6,
           "as_up": 0,
-          "as_down": 5,
+          "as_down": 6,
           "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
         },
         {
-          "rank": 11,
+          "rank": 12,
+          "ticker": "GOLD",
+          "total": 5,
+          "as_up": 4,
+          "as_down": 1,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 13,
           "ticker": "NOC",
           "total": 4,
           "as_up": 0,
@@ -133,7 +153,7 @@
           "direction": "all"
         },
         {
-          "rank": 12,
+          "rank": 14,
           "ticker": "BABA",
           "total": 3,
           "as_up": 3,
@@ -143,17 +163,7 @@
           "direction": "all"
         },
         {
-          "rank": 13,
-          "ticker": "GLD",
-          "total": 3,
-          "as_up": 3,
-          "as_down": 0,
-          "last_horse": "Inflação",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 14,
+          "rank": 15,
           "ticker": "TGT",
           "total": 3,
           "as_up": 3,
@@ -163,22 +173,12 @@
           "direction": "all"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "ticker": "BA",
           "total": 3,
           "as_up": 2,
           "as_down": 1,
           "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 16,
-          "ticker": "GOLD",
-          "total": 3,
-          "as_up": 2,
-          "as_down": 1,
-          "last_horse": "Irão",
           "band": "all",
           "direction": "all"
         },
@@ -445,9 +445,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-17T00:00:00+01:00",
-      "to": "2026-09-17T14:22:40+01:00",
+      "to": "2026-09-17T14:23:22+01:00",
       "from_label": "17/09 00:00",
-      "to_label": "17/09 14:22",
+      "to_label": "17/09 14:23",
       "n_events": 23,
       "top5_count": 5,
       "top6_20_count": 12,
