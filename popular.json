@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T21:34:39+01:00",
+  "updated_at": "2026-09-17T21:37:40+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-11T21:00:00+01:00",
-      "to": "2026-09-17T21:34:39+01:00",
+      "to": "2026-09-17T21:37:40+01:00",
       "from_label": "11/09 21:00",
-      "to_label": "17/09 21:34",
+      "to_label": "17/09 21:37",
       "n_events": 147,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -232,17 +232,17 @@
       "to": "2026-09-18T14:15:00+01:00",
       "from_label": "17/09 21:00",
       "to_label": "18/09 14:15",
-      "n_events": 1,
-      "top5_count": 2,
+      "n_events": 2,
+      "top5_count": 3,
       "top6_20_count": 0,
       "top5": [
         {
           "rank": 1,
           "ticker": "XOM",
-          "total": 1,
-          "as_up": 1,
+          "total": 2,
+          "as_up": 2,
           "as_down": 0,
-          "last_horse": "Trump",
+          "last_horse": "Irão",
           "band": "all",
           "direction": "all"
         },
@@ -255,6 +255,16 @@
           "last_horse": "Trump",
           "band": "all",
           "direction": "all"
+        },
+        {
+          "rank": 3,
+          "ticker": "CVX",
+          "total": 1,
+          "as_up": 0,
+          "as_down": 1,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
         }
       ],
       "top6_20": [],
@@ -264,9 +274,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-17T00:00:00+01:00",
-      "to": "2026-09-17T21:34:39+01:00",
+      "to": "2026-09-17T21:37:40+01:00",
       "from_label": "17/09 00:00",
-      "to_label": "17/09 21:34",
+      "to_label": "17/09 21:37",
       "n_events": 34,
       "top5_count": 5,
       "top6_20_count": 15,
