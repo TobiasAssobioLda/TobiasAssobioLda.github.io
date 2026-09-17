@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-17T10:40:32+01:00",
+  "updated_at": "2026-09-17T10:43:31+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "10:40",
+  "when_label": "10:43",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -127,12 +127,12 @@
         "id": 4228,
         "ticker": "AGNC",
         "entry": 10.118,
-        "price": 9.88,
+        "price": 9.89,
         "qty": 0.988631,
         "notional": 10.003,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.23529417799999955,
-        "pnl_r": -0.7,
+        "pnl_eur": -0.22540786799999976,
+        "pnl_r": -0.67,
         "sl": 9.78,
         "tp1": 10.59,
         "tp2": 10.86,
@@ -487,12 +487,12 @@
         "id": 5380,
         "ticker": "ACHR",
         "entry": 5.3,
-        "price": 5.32,
+        "price": 5.33,
         "qty": 1.888574,
         "notional": 10.0094,
         "pnl_pct": 0.0,
-        "pnl_eur": 0.03777148000000087,
-        "pnl_r": 0.06,
+        "pnl_eur": 0.056657220000000466,
+        "pnl_r": 0.1,
         "sl": 4.99,
         "tp1": 6.02,
         "tp2": 6.37,
@@ -574,10 +574,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.07617161657999992,
-    "total_pnl_eur": -1.5234323315999985,
+    "total_pnl_pct": -0.07473301407999997,
+    "total_pnl_eur": -1.4946602815999992,
     "bank_eur": 2000.0,
-    "equity_eur": 1998.48
+    "equity_eur": 1998.51
   },
   "tobias_scalper": {
     "rows": [],
