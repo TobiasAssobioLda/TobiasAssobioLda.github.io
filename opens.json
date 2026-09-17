@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-17T06:15:52+01:00",
+  "updated_at": "2026-09-17T06:18:52+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "06:15",
+  "when_label": "06:18",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -187,12 +187,12 @@
         "id": 4590,
         "ticker": "CCL",
         "entry": 22.138,
-        "price": 22.61,
+        "price": 22.5,
         "qty": 0.451977,
         "notional": 10.0059,
         "pnl_pct": 0.01,
-        "pnl_eur": 0.213333143999999,
-        "pnl_r": 0.7,
+        "pnl_eur": 0.16361567399999924,
+        "pnl_r": 0.53,
         "sl": 21.46,
         "tp1": 24.32,
         "tp2": 25.28,
@@ -574,10 +574,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.0945703887999999,
-    "total_pnl_eur": -1.891407775999998,
+    "total_pnl_pct": -0.09705626229999989,
+    "total_pnl_eur": -1.941125245999998,
     "bank_eur": 2000.0,
-    "equity_eur": 1998.11
+    "equity_eur": 1998.06
   },
   "tobias_scalper": {
     "rows": [],
