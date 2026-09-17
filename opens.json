@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-17T03:06:53+01:00",
+  "updated_at": "2026-09-17T03:09:52+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "03:06",
+  "when_label": "03:09",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -277,11 +277,11 @@
         "id": 4713,
         "ticker": "DIA",
         "entry": 519.302,
-        "price": 518.32,
+        "price": 518.33,
         "qty": 0.019255,
         "notional": 9.9992,
         "pnl_pct": -0.0,
-        "pnl_eur": -0.018908409999999442,
+        "pnl_eur": -0.018715859999999616,
         "pnl_r": -0.08,
         "sl": 506.77,
         "tp1": 545.75,
@@ -367,12 +367,12 @@
         "id": 5029,
         "ticker": "CMG",
         "entry": 35.208,
-        "price": 33.69,
+        "price": 34.065,
         "qty": 0.28397,
         "notional": 9.998,
         "pnl_pct": -0.02,
-        "pnl_eur": -0.4310664600000002,
-        "pnl_r": -0.58,
+        "pnl_eur": -0.3245777100000002,
+        "pnl_r": -0.44,
         "sl": 32.59,
         "tp1": 37.64,
         "tp2": 39.33,
@@ -574,10 +574,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.11066405929999984,
-    "total_pnl_eur": -2.2132811859999966,
+    "total_pnl_pct": -0.10532999429999981,
+    "total_pnl_eur": -2.106599885999996,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.79
+    "equity_eur": 1997.89
   },
   "tobias_scalper": {
     "rows": [],
