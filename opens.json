@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-17T01:18:53+01:00",
+  "updated_at": "2026-09-17T01:21:52+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "01:18",
+  "when_label": "01:21",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -367,12 +367,12 @@
         "id": 5029,
         "ticker": "CMG",
         "entry": 35.208,
-        "price": 33.69,
+        "price": 34.065,
         "qty": 0.28397,
         "notional": 9.998,
         "pnl_pct": -0.02,
-        "pnl_eur": -0.4310664600000002,
-        "pnl_r": -0.58,
+        "pnl_eur": -0.3245777100000002,
+        "pnl_r": -0.44,
         "sl": 32.59,
         "tp1": 37.64,
         "tp2": 39.33,
@@ -574,10 +574,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.11480018879,
-    "total_pnl_eur": -2.2960037757999996,
+    "total_pnl_pct": -0.10947575128999998,
+    "total_pnl_eur": -2.1895150257999996,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.7
+    "equity_eur": 1997.81
   },
   "tobias_scalper": {
     "rows": [],
