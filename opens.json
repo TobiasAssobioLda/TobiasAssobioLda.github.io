@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-17T01:30:52+01:00",
+  "updated_at": "2026-09-17T01:33:53+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "01:30",
+  "when_label": "01:33",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -277,12 +277,12 @@
         "id": 4713,
         "ticker": "DIA",
         "entry": 519.302,
-        "price": 517.73,
+        "price": 518.0,
         "qty": 0.019255,
         "notional": 9.9992,
         "pnl_pct": -0.0,
-        "pnl_eur": -0.030268860000000054,
-        "pnl_r": -0.13,
+        "pnl_eur": -0.025070010000000406,
+        "pnl_r": -0.1,
         "sl": 506.77,
         "tp1": 545.75,
         "tp2": 558.75,
@@ -547,11 +547,11 @@
         "id": 6820,
         "ticker": "CSCO",
         "entry": 110.654,
-        "price": 108.219,
+        "price": 108.26,
         "qty": 0.090379,
         "notional": 10.0008,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.2200728650000002,
+        "pnl_eur": -0.21636732599999922,
         "pnl_r": -0.39,
         "sl": 104.47,
         "tp1": 114.56,
@@ -574,10 +574,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.10948916085499988,
-    "total_pnl_eur": -2.1897832170999973,
+    "total_pnl_pct": -0.10904394140499982,
+    "total_pnl_eur": -2.1808788280999964,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.81
+    "equity_eur": 1997.82
   },
   "tobias_scalper": {
     "rows": [],
