@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-17T07:58:31+01:00",
+  "updated_at": "2026-09-17T08:01:32+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "07:58",
+  "when_label": "08:01",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -127,12 +127,12 @@
         "id": 4228,
         "ticker": "AGNC",
         "entry": 10.118,
-        "price": 9.89,
+        "price": 9.88,
         "qty": 0.988631,
         "notional": 10.003,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.22540786799999976,
-        "pnl_r": -0.67,
+        "pnl_eur": -0.23529417799999955,
+        "pnl_r": -0.7,
         "sl": 9.78,
         "tp1": 10.59,
         "tp2": 10.86,
@@ -307,12 +307,12 @@
         "id": 4834,
         "ticker": "CPRT",
         "entry": 31.688,
-        "price": 30.67,
+        "price": 30.74,
         "qty": 0.315607,
         "notional": 10.001,
-        "pnl_pct": -0.02,
-        "pnl_eur": -0.3212879259999991,
-        "pnl_r": -0.38,
+        "pnl_pct": -0.01,
+        "pnl_eur": -0.29919543600000015,
+        "pnl_r": -0.35,
         "sl": 29.01,
         "tp1": 34.09,
         "tp2": 35.79,
@@ -574,10 +574,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.1053099367999999,
-    "total_pnl_eur": -2.106198735999998,
+    "total_pnl_pct": -0.10469962779999992,
+    "total_pnl_eur": -2.0939925559999986,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.89
+    "equity_eur": 1997.91
   },
   "tobias_scalper": {
     "rows": [],
