@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-17T04:00:53+01:00",
+  "updated_at": "2026-09-17T04:03:53+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "04:00",
+  "when_label": "04:03",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -127,12 +127,12 @@
         "id": 4228,
         "ticker": "AGNC",
         "entry": 10.118,
-        "price": 9.89,
+        "price": 9.88,
         "qty": 0.988631,
         "notional": 10.003,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.22540786799999976,
-        "pnl_r": -0.67,
+        "pnl_eur": -0.23529417799999955,
+        "pnl_r": -0.7,
         "sl": 9.78,
         "tp1": 10.59,
         "tp2": 10.86,
@@ -457,12 +457,12 @@
         "id": 5199,
         "ticker": "CVNA",
         "entry": 68.16,
-        "price": 65.93,
+        "price": 66.35,
         "qty": 0.146767,
         "notional": 10.0036,
-        "pnl_pct": -0.02,
-        "pnl_eur": -0.32729040999999853,
-        "pnl_r": -0.38,
+        "pnl_pct": -0.01,
+        "pnl_eur": -0.26564827000000035,
+        "pnl_r": -0.31,
         "sl": 62.24,
         "tp1": 75.27,
         "tp2": 79.62,
@@ -574,10 +574,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.10622263729999992,
-    "total_pnl_eur": -2.1244527459999984,
+    "total_pnl_pct": -0.1036348458,
+    "total_pnl_eur": -2.072696916,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.88
+    "equity_eur": 1997.93
   },
   "tobias_scalper": {
     "rows": [],
