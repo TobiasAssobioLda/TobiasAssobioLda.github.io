@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-18T00:28:33+01:00",
+  "updated_at": "2026-09-18T00:31:35+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "00:28",
+  "when_label": "00:31",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -277,11 +277,11 @@
         "id": 4713,
         "ticker": "DIA",
         "entry": 519.302,
-        "price": 517.84,
+        "price": 517.85,
         "qty": 0.019255,
         "notional": 9.9992,
         "pnl_pct": -0.0,
-        "pnl_eur": -0.02815080999999979,
+        "pnl_eur": -0.027958259999999967,
         "pnl_r": -0.12,
         "sl": 506.77,
         "tp1": 545.75,
@@ -397,12 +397,12 @@
         "id": 5041,
         "ticker": "DKNG",
         "entry": 24.888,
-        "price": 22.745,
+        "price": 22.47,
         "qty": 0.401849,
         "notional": 10.0012,
-        "pnl_pct": -0.04,
-        "pnl_eur": -0.8611624070000004,
-        "pnl_r": -1.02,
+        "pnl_pct": -0.05,
+        "pnl_eur": -0.9716708820000012,
+        "pnl_r": -1.15,
         "sl": 22.78,
         "tp1": 27.47,
         "tp2": 29.04,
@@ -544,10 +544,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.12732891909999977,
-    "total_pnl_eur": -2.5465783819999954,
+    "total_pnl_pct": -0.13284471534999984,
+    "total_pnl_eur": -2.6568943069999964,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.45
+    "equity_eur": 1997.34
   },
   "tobias_scalper": {
     "rows": [],
