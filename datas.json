@@ -1,46 +1,10 @@
 {
-  "updated_at": "2026-09-17T23:58:40+01:00",
+  "updated_at": "2026-09-18T00:01:41+01:00",
   "timezone": "Europe/Lisbon",
   "opens_count": 0,
-  "calendar_count": 1,
+  "calendar_count": 0,
   "opens_rows": [],
-  "calendar_rows": [
-    {
-      "event_date": "2026-09-17",
-      "date_label": "17/09",
-      "title": "Economic and event calendar in Asia Thursday, September 17, 2026. FOMC done, moving on!",
-      "horse": "Fed",
-      "tickers": "BAC / WFC",
-      "ticker_up": "BAC",
-      "ticker_down": "WFC",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 70,
-      "range": "",
-      "url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-thursday-september-17-2026-fomc-done-moving-on/",
-      "source": "spam",
-      "note": "fomc+date-hint+macro-event",
-      "rank": 1
-    }
-  ],
-  "count": 1,
-  "rows": [
-    {
-      "event_date": "2026-09-17",
-      "date_label": "17/09",
-      "title": "Economic and event calendar in Asia Thursday, September 17, 2026. FOMC done, moving on!",
-      "horse": "Fed",
-      "tickers": "BAC / WFC",
-      "ticker_up": "BAC",
-      "ticker_down": "WFC",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 70,
-      "range": "",
-      "url": "https://investinglive.com/news/economic-and-event-calendar-in-asia-thursday-september-17-2026-fomc-done-moving-on/",
-      "source": "spam",
-      "note": "fomc+date-hint+macro-event",
-      "rank": 1
-    }
-  ]
+  "calendar_rows": [],
+  "count": 0,
+  "rows": []
 }
