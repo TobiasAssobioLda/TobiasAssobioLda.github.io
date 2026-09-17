@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T22:34:40+01:00",
+  "updated_at": "2026-09-17T22:37:40+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-11T21:00:00+01:00",
-      "to": "2026-09-17T22:34:40+01:00",
+      "to": "2026-09-17T22:37:40+01:00",
       "from_label": "11/09 21:00",
-      "to_label": "17/09 22:34",
+      "to_label": "17/09 22:37",
       "n_events": 147,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -232,9 +232,9 @@
       "to": "2026-09-18T14:15:00+01:00",
       "from_label": "17/09 21:00",
       "to_label": "18/09 14:15",
-      "n_events": 4,
+      "n_events": 5,
       "top5_count": 5,
-      "top6_20_count": 1,
+      "top6_20_count": 3,
       "top5": [
         {
           "rank": 1,
@@ -248,6 +248,16 @@
         },
         {
           "rank": 2,
+          "ticker": "BABA",
+          "total": 1,
+          "as_up": 1,
+          "as_down": 0,
+          "last_horse": "Trump",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 3,
           "ticker": "GOLD",
           "total": 1,
           "as_up": 1,
@@ -257,7 +267,7 @@
           "direction": "all"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "ticker": "AMZN",
           "total": 1,
           "as_up": 0,
@@ -267,18 +277,8 @@
           "direction": "all"
         },
         {
-          "rank": 4,
-          "ticker": "CVX",
-          "total": 1,
-          "as_up": 0,
-          "as_down": 1,
-          "last_horse": "Irão",
-          "band": "all",
-          "direction": "all"
-        },
-        {
           "rank": 5,
-          "ticker": "GLD",
+          "ticker": "CVX",
           "total": 1,
           "as_up": 0,
           "as_down": 1,
@@ -290,11 +290,31 @@
       "top6_20": [
         {
           "rank": 6,
+          "ticker": "GLD",
+          "total": 1,
+          "as_up": 0,
+          "as_down": 1,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 7,
           "ticker": "NEM",
           "total": 1,
           "as_up": 0,
           "as_down": 1,
           "last_horse": "Inflação",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 8,
+          "ticker": "PDD",
+          "total": 1,
+          "as_up": 0,
+          "as_down": 1,
+          "last_horse": "Trump",
           "band": "all",
           "direction": "all"
         }
@@ -305,9 +325,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-17T00:00:00+01:00",
-      "to": "2026-09-17T22:34:40+01:00",
+      "to": "2026-09-17T22:37:40+01:00",
       "from_label": "17/09 00:00",
-      "to_label": "17/09 22:34",
+      "to_label": "17/09 22:37",
       "n_events": 34,
       "top5_count": 5,
       "top6_20_count": 15,
