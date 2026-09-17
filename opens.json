@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-17T01:00:54+01:00",
+  "updated_at": "2026-09-17T01:03:54+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "01:00",
+  "when_label": "01:03",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -127,12 +127,12 @@
         "id": 4228,
         "ticker": "AGNC",
         "entry": 10.118,
-        "price": 9.89,
+        "price": 10.118,
         "qty": 0.988631,
         "notional": 10.003,
-        "pnl_pct": -0.01,
-        "pnl_eur": -0.22540786799999976,
-        "pnl_r": -0.67,
+        "pnl_pct": 0.0,
+        "pnl_eur": 0.0,
+        "pnl_r": 0.0,
         "sl": 9.78,
         "tp1": 10.59,
         "tp2": 10.86,
@@ -574,10 +574,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.1144205320199998,
-    "total_pnl_eur": -2.288410640399996,
+    "total_pnl_pct": -0.10315013861999982,
+    "total_pnl_eur": -2.0630027723999964,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.71
+    "equity_eur": 1997.94
   },
   "tobias_scalper": {
     "rows": [],
