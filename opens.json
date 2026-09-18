@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-18T04:34:34+01:00",
+  "updated_at": "2026-09-18T04:37:35+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "04:34",
+  "when_label": "04:37",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -127,12 +127,12 @@
         "id": 4228,
         "ticker": "AGNC",
         "entry": 10.118,
-        "price": 9.91,
+        "price": 9.915,
         "qty": 0.988631,
         "notional": 10.003,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.2056352480000002,
-        "pnl_r": -0.62,
+        "pnl_eur": -0.20069209300000118,
+        "pnl_r": -0.6,
         "sl": 9.78,
         "tp1": 10.59,
         "tp2": 10.86,
@@ -367,12 +367,12 @@
         "id": 5029,
         "ticker": "CMG",
         "entry": 35.208,
-        "price": 33.49,
+        "price": 33.51,
         "qty": 0.28397,
         "notional": 9.998,
         "pnl_pct": -0.02,
-        "pnl_eur": -0.487860459999999,
-        "pnl_r": -0.66,
+        "pnl_eur": -0.4821810600000001,
+        "pnl_r": -0.65,
         "sl": 32.59,
         "tp1": 37.64,
         "tp2": 39.33,
@@ -544,10 +544,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.11523313929999981,
-    "total_pnl_eur": -2.304662785999996,
+    "total_pnl_pct": -0.11470201154999993,
+    "total_pnl_eur": -2.2940402309999985,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.7
+    "equity_eur": 1997.71
   },
   "tobias_scalper": {
     "rows": [],
