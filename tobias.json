@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-09-18T18:31:17+01:00",
+  "updated_at": "2026-09-18T18:34:21+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "18:31",
+  "when_label": "18:34",
   "title": "Full Report · Tobias",
   "note": "Todos os fechos · TP no topo · treino Tobias",
   "stats": {
     "n": 200,
     "tp": 12,
-    "sl": 14,
-    "out": 174,
+    "sl": 15,
+    "out": 173,
     "correto": 23,
-    "erro": 22,
-    "trainable": 45,
-    "realized_eur": -161.41,
-    "realized_r": -11.78
+    "erro": 23,
+    "trainable": 46,
+    "realized_eur": -161.8,
+    "realized_r": -12.82
   },
   "rows": [
     {
@@ -279,6 +279,28 @@
       "opened_at": "2026-09-02T19:04:32.186848+00:00",
       "closed_at": "2026-09-03T13:45:51.376692+00:00",
       "news_hook": "ALL IN · WAIT · i88 · prep"
+    },
+    {
+      "id": 5506,
+      "book": "tobias_swing",
+      "book_label": "Tobias Swing",
+      "ticker": "AA",
+      "horse": "FreeHunt",
+      "kind": "sl",
+      "label": "ERRO",
+      "entry": 46.422,
+      "exit": 44.65,
+      "sl": 44.65,
+      "tp1": 52.72,
+      "pnl_eur": -0.38,
+      "pnl_pct": -3.82,
+      "pnl_r": -1.0,
+      "corr": 1.29,
+      "impact": 99,
+      "exit_reason": "SAIDA SL",
+      "opened_at": "2026-09-16T15:59:02.690718+00:00",
+      "closed_at": "2026-09-18T17:34:15.937330+00:00",
+      "news_hook": "OUT · EUA fechado — EUA abre as 14:30"
     },
     {
       "id": 5034,
@@ -4392,28 +4414,6 @@
       "exit_reason": "test close",
       "opened_at": "2026-08-28T16:45:06.346274+00:00",
       "closed_at": "2026-08-28T17:19:14.979875+00:00",
-      "news_hook": ""
-    },
-    {
-      "id": 149,
-      "book": "pipoca_extreme",
-      "book_label": "Pipoca Extreme",
-      "ticker": "XLE",
-      "horse": "Irão",
-      "kind": "out",
-      "label": "NEUTRO",
-      "entry": 62.53,
-      "exit": 62.6,
-      "sl": 60.97,
-      "tp1": 65.65,
-      "pnl_eur": 0.01,
-      "pnl_pct": 0.11,
-      "pnl_r": 0.04,
-      "corr": 0.05,
-      "impact": 92,
-      "exit_reason": "test close",
-      "opened_at": "2026-08-28T16:45:05.353608+00:00",
-      "closed_at": "2026-08-28T17:19:14.604733+00:00",
       "news_hook": ""
     }
   ],
