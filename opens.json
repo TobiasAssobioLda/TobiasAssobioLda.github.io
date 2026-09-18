@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-18T07:10:33+01:00",
+  "updated_at": "2026-09-18T07:13:36+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "07:10",
+  "when_label": "07:13",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -37,11 +37,11 @@
         "id": 1934,
         "ticker": "XOM",
         "entry": 165.304,
-        "price": 163.25,
+        "price": 163.27,
         "qty": 0.060297,
         "notional": 9.9673,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.12385003800000013,
+        "pnl_eur": -0.12264409799999951,
         "pnl_r": -0.28,
         "sl": 158.08,
         "tp1": 181.37,
@@ -157,12 +157,12 @@
         "id": 4229,
         "ticker": "CMCSA",
         "entry": 24.598,
-        "price": 22.925,
+        "price": 22.88,
         "qty": 0.406587,
         "notional": 10.0012,
         "pnl_pct": -0.03,
-        "pnl_eur": -0.6802200509999993,
-        "pnl_r": -1.38,
+        "pnl_eur": -0.698516466,
+        "pnl_r": -1.42,
         "sl": 23.39,
         "tp1": 26.46,
         "tp2": 27.49,
@@ -544,10 +544,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.1000446992999999,
-    "total_pnl_eur": -2.000893985999998,
+    "total_pnl_pct": -0.1008992230499999,
+    "total_pnl_eur": -2.017984460999998,
     "bank_eur": 2000.0,
-    "equity_eur": 1998.0
+    "equity_eur": 1997.98
   },
   "tobias_scalper": {
     "rows": [],
