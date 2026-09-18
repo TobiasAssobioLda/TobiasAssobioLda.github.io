@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-18T09:16:31+01:00",
+  "updated_at": "2026-09-18T09:19:38+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "09:16",
+  "when_label": "09:19",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -457,11 +457,11 @@
         "id": 5380,
         "ticker": "ACHR",
         "entry": 5.3,
-        "price": 5.4393,
+        "price": 5.44,
         "qty": 1.888574,
         "notional": 10.0094,
         "pnl_pct": 0.01,
-        "pnl_eur": 0.2630783582000008,
+        "pnl_eur": 0.26440036000000106,
         "pnl_r": 0.45,
         "sl": 4.99,
         "tp1": 6.02,
@@ -517,12 +517,12 @@
         "id": 6820,
         "ticker": "CSCO",
         "entry": 110.654,
-        "price": 110.39,
+        "price": 110.79,
         "qty": 0.090379,
         "notional": 10.0008,
-        "pnl_pct": -0.0,
-        "pnl_eur": -0.02386005599999962,
-        "pnl_r": -0.04,
+        "pnl_pct": 0.0,
+        "pnl_eur": 0.012291544000000895,
+        "pnl_r": 0.02,
         "sl": 104.47,
         "tp1": 114.56,
         "tp2": 117.93,
@@ -544,10 +544,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.11963281663999988,
-    "total_pnl_eur": -2.3926563327999975,
+    "total_pnl_pct": -0.11775913654999982,
+    "total_pnl_eur": -2.3551827309999966,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.61
+    "equity_eur": 1997.64
   },
   "tobias_scalper": {
     "rows": [],
