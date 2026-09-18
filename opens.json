@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-18T09:10:33+01:00",
+  "updated_at": "2026-09-18T09:13:33+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "09:10",
+  "when_label": "09:13",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -157,12 +157,12 @@
         "id": 4229,
         "ticker": "CMCSA",
         "entry": 24.598,
-        "price": 22.88,
+        "price": 22.91,
         "qty": 0.406587,
         "notional": 10.0012,
         "pnl_pct": -0.03,
-        "pnl_eur": -0.698516466,
-        "pnl_r": -1.42,
+        "pnl_eur": -0.6863188559999995,
+        "pnl_r": -1.4,
         "sl": 23.39,
         "tp1": 26.46,
         "tp2": 27.49,
@@ -277,12 +277,12 @@
         "id": 4713,
         "ticker": "DIA",
         "entry": 519.302,
-        "price": 518.4,
+        "price": 518.22,
         "qty": 0.019255,
         "notional": 9.9992,
         "pnl_pct": -0.0,
-        "pnl_eur": -0.017368010000000843,
-        "pnl_r": -0.07,
+        "pnl_eur": -0.02083390999999988,
+        "pnl_r": -0.09,
         "sl": 506.77,
         "tp1": 545.75,
         "tp2": 558.75,
@@ -544,10 +544,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.10594726713999991,
-    "total_pnl_eur": -2.1189453427999982,
+    "total_pnl_pct": -0.10551068163999985,
+    "total_pnl_eur": -2.110213632799997,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.88
+    "equity_eur": 1997.89
   },
   "tobias_scalper": {
     "rows": [],
