@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-18T01:28:33+01:00",
+  "updated_at": "2026-09-18T01:31:33+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "01:28",
+  "when_label": "01:31",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -157,12 +157,12 @@
         "id": 4229,
         "ticker": "CMCSA",
         "entry": 24.598,
-        "price": 22.925,
+        "price": 24.598,
         "qty": 0.406587,
         "notional": 10.0012,
-        "pnl_pct": -0.03,
-        "pnl_eur": -0.6802200509999993,
-        "pnl_r": -1.38,
+        "pnl_pct": 0.0,
+        "pnl_eur": 0.0,
+        "pnl_r": 0.0,
         "sl": 23.39,
         "tp1": 26.46,
         "tp2": 27.49,
@@ -367,12 +367,12 @@
         "id": 5029,
         "ticker": "CMG",
         "entry": 35.208,
-        "price": 35.208,
+        "price": 33.49,
         "qty": 0.28397,
         "notional": 9.998,
-        "pnl_pct": 0.0,
-        "pnl_eur": 0.0,
-        "pnl_r": 0.0,
+        "pnl_pct": -0.02,
+        "pnl_eur": -0.487860459999999,
+        "pnl_r": -0.66,
         "sl": 32.59,
         "tp1": 37.64,
         "tp2": 39.33,
@@ -544,10 +544,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.08629492127999978,
-    "total_pnl_eur": -1.7258984255999956,
+    "total_pnl_pct": -0.07667694172999977,
+    "total_pnl_eur": -1.5335388345999954,
     "bank_eur": 2000.0,
-    "equity_eur": 1998.27
+    "equity_eur": 1998.47
   },
   "tobias_scalper": {
     "rows": [],
