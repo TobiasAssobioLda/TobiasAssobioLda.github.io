@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-18T07:19:45+01:00",
+  "updated_at": "2026-09-18T07:22:48+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "07:19",
+  "when_label": "07:22",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -397,12 +397,12 @@
         "id": 5041,
         "ticker": "DKNG",
         "entry": 24.888,
-        "price": 22.745,
+        "price": 22.47,
         "qty": 0.401849,
         "notional": 10.0012,
-        "pnl_pct": -0.04,
-        "pnl_eur": -0.8611624070000004,
-        "pnl_r": -1.02,
+        "pnl_pct": -0.05,
+        "pnl_eur": -0.9716708820000012,
+        "pnl_r": -1.15,
         "sl": 22.78,
         "tp1": 27.47,
         "tp2": 29.04,
@@ -544,10 +544,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.10038645179999992,
-    "total_pnl_eur": -2.0077290359999984,
+    "total_pnl_pct": -0.10591187554999998,
+    "total_pnl_eur": -2.1182375109999994,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.99
+    "equity_eur": 1997.88
   },
   "tobias_scalper": {
     "rows": [],
