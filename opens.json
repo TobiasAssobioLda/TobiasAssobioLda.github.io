@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-18T05:10:34+01:00",
+  "updated_at": "2026-09-18T05:13:32+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "05:10",
+  "when_label": "05:13",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -127,12 +127,12 @@
         "id": 4228,
         "ticker": "AGNC",
         "entry": 10.118,
-        "price": 9.91,
+        "price": 9.54,
         "qty": 0.988631,
         "notional": 10.003,
-        "pnl_pct": -0.01,
-        "pnl_eur": -0.2056352480000002,
-        "pnl_r": -0.62,
+        "pnl_pct": -0.03,
+        "pnl_eur": -0.5714287180000012,
+        "pnl_r": -1.71,
         "sl": 9.78,
         "tp1": 10.59,
         "tp2": 10.86,
@@ -397,12 +397,12 @@
         "id": 5041,
         "ticker": "DKNG",
         "entry": 24.888,
-        "price": 22.45,
+        "price": 22.745,
         "qty": 0.401849,
         "notional": 10.0012,
-        "pnl_pct": -0.05,
-        "pnl_eur": -0.979707862000001,
-        "pnl_r": -1.16,
+        "pnl_pct": -0.04,
+        "pnl_eur": -0.8611624070000004,
+        "pnl_r": -1.02,
         "sl": 22.78,
         "tp1": 27.47,
         "tp2": 29.04,
@@ -544,10 +544,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.11456037904999995,
-    "total_pnl_eur": -2.2912075809999988,
+    "total_pnl_pct": -0.12692277979999997,
+    "total_pnl_eur": -2.538455595999999,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.71
+    "equity_eur": 1997.46
   },
   "tobias_scalper": {
     "rows": [],
