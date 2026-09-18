@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-18T05:16:31+01:00",
+  "updated_at": "2026-09-18T05:19:32+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "05:16",
+  "when_label": "05:19",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -37,12 +37,12 @@
         "id": 1934,
         "ticker": "XOM",
         "entry": 165.304,
-        "price": 161.93,
+        "price": 163.25,
         "qty": 0.060297,
         "notional": 9.9673,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.20344207799999972,
-        "pnl_r": -0.47,
+        "pnl_eur": -0.12385003800000013,
+        "pnl_r": -0.28,
         "sl": 158.08,
         "tp1": 181.37,
         "tp2": 189.14,
@@ -367,12 +367,12 @@
         "id": 5029,
         "ticker": "CMG",
         "entry": 35.208,
-        "price": 33.82,
+        "price": 33.51,
         "qty": 0.28397,
         "notional": 9.998,
         "pnl_pct": -0.02,
-        "pnl_eur": -0.3941503599999995,
-        "pnl_r": -0.53,
+        "pnl_eur": -0.4821810600000001,
+        "pnl_r": -0.65,
         "sl": 32.59,
         "tp1": 37.64,
         "tp2": 39.33,
@@ -544,10 +544,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.12343606554999995,
-    "total_pnl_eur": -2.468721310999999,
+    "total_pnl_pct": -0.12385799855000003,
+    "total_pnl_eur": -2.4771599710000003,
     "bank_eur": 2000.0,
-    "equity_eur": 1997.53
+    "equity_eur": 1997.52
   },
   "tobias_scalper": {
     "rows": [],
