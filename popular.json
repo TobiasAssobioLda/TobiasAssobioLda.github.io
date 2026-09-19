@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T20:07:17+01:00",
+  "updated_at": "2026-09-19T20:10:15+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-18T21:00:00+01:00",
-      "to": "2026-09-19T20:07:17+01:00",
+      "to": "2026-09-19T20:10:15+01:00",
       "from_label": "18/09 21:00",
-      "to_label": "19/09 20:07",
+      "to_label": "19/09 20:10",
       "n_events": 18,
       "top5_count": 5,
       "top6_20_count": 7,
@@ -152,9 +152,9 @@
       "to": "2026-09-21T14:15:00+01:00",
       "from_label": "18/09 21:00",
       "to_label": "21/09 14:15",
-      "n_events": 21,
+      "n_events": 22,
       "top5_count": 5,
-      "top6_20_count": 11,
+      "top6_20_count": 13,
       "top5": [
         {
           "rank": 1,
@@ -210,6 +210,16 @@
       "top6_20": [
         {
           "rank": 6,
+          "ticker": "GOLD",
+          "total": 1,
+          "as_up": 1,
+          "as_down": 0,
+          "last_horse": "Inflação",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 7,
           "ticker": "GS",
           "total": 1,
           "as_up": 1,
@@ -219,7 +229,7 @@
           "direction": "all"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "ticker": "IBM",
           "total": 1,
           "as_up": 1,
@@ -229,7 +239,7 @@
           "direction": "all"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "ticker": "MSTR",
           "total": 1,
           "as_up": 1,
@@ -239,7 +249,7 @@
           "direction": "all"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "ticker": "GLD",
           "total": 1,
           "as_up": 0,
@@ -249,7 +259,7 @@
           "direction": "all"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "ticker": "INFY",
           "total": 1,
           "as_up": 0,
@@ -259,7 +269,7 @@
           "direction": "all"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "ticker": "MARA",
           "total": 1,
           "as_up": 0,
@@ -269,7 +279,7 @@
           "direction": "all"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "ticker": "MS",
           "total": 1,
           "as_up": 0,
@@ -279,18 +289,8 @@
           "direction": "all"
         },
         {
-          "rank": 13,
-          "ticker": "PDD",
-          "total": 1,
-          "as_up": 0,
-          "as_down": 1,
-          "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
           "rank": 14,
-          "ticker": "XLE",
+          "ticker": "NEM",
           "total": 1,
           "as_up": 0,
           "as_down": 1,
@@ -300,7 +300,7 @@
         },
         {
           "rank": 15,
-          "ticker": "XLF",
+          "ticker": "PDD",
           "total": 1,
           "as_up": 0,
           "as_down": 1,
@@ -310,6 +310,26 @@
         },
         {
           "rank": 16,
+          "ticker": "XLE",
+          "total": 1,
+          "as_up": 0,
+          "as_down": 1,
+          "last_horse": "Inflação",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 17,
+          "ticker": "XLF",
+          "total": 1,
+          "as_up": 0,
+          "as_down": 1,
+          "last_horse": "Trump",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 18,
           "ticker": "XLY",
           "total": 1,
           "as_up": 0,
@@ -325,9 +345,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-19T00:00:00+01:00",
-      "to": "2026-09-19T20:07:17+01:00",
+      "to": "2026-09-19T20:10:15+01:00",
       "from_label": "19/09 00:00",
-      "to_label": "19/09 20:07",
+      "to_label": "19/09 20:10",
       "n_events": 13,
       "top5_count": 5,
       "top6_20_count": 6,
