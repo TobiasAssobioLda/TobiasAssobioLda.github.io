@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T14:34:16+01:00",
+  "updated_at": "2026-09-19T14:37:12+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-18T21:00:00+01:00",
-      "to": "2026-09-19T14:34:16+01:00",
+      "to": "2026-09-19T14:37:12+01:00",
       "from_label": "18/09 21:00",
-      "to_label": "19/09 14:34",
+      "to_label": "19/09 14:37",
       "n_events": 12,
       "top5_count": 5,
       "top6_20_count": 2,
@@ -102,9 +102,9 @@
       "to": "2026-09-21T14:15:00+01:00",
       "from_label": "18/09 21:00",
       "to_label": "21/09 14:15",
-      "n_events": 13,
+      "n_events": 14,
       "top5_count": 5,
-      "top6_20_count": 4,
+      "top6_20_count": 5,
       "top5": [
         {
           "rank": 1,
@@ -118,6 +118,16 @@
         },
         {
           "rank": 2,
+          "ticker": "XOM",
+          "total": 2,
+          "as_up": 2,
+          "as_down": 0,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 3,
           "ticker": "GOLD",
           "total": 1,
           "as_up": 1,
@@ -127,17 +137,17 @@
           "direction": "all"
         },
         {
-          "rank": 3,
-          "ticker": "XOM",
+          "rank": 4,
+          "ticker": "CVX",
           "total": 1,
-          "as_up": 1,
-          "as_down": 0,
-          "last_horse": "Inflação",
+          "as_up": 0,
+          "as_down": 1,
+          "last_horse": "Irão",
           "band": "all",
           "direction": "all"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "ticker": "INFY",
           "total": 1,
           "as_up": 0,
@@ -145,22 +155,12 @@
           "last_horse": "Índia",
           "band": "all",
           "direction": "all"
-        },
-        {
-          "rank": 5,
-          "ticker": "NEM",
-          "total": 1,
-          "as_up": 0,
-          "as_down": 1,
-          "last_horse": "Inflação",
-          "band": "all",
-          "direction": "all"
         }
       ],
       "top6_20": [
         {
           "rank": 6,
-          "ticker": "TLT",
+          "ticker": "NEM",
           "total": 1,
           "as_up": 0,
           "as_down": 1,
@@ -170,7 +170,7 @@
         },
         {
           "rank": 7,
-          "ticker": "XLE",
+          "ticker": "TLT",
           "total": 1,
           "as_up": 0,
           "as_down": 1,
@@ -180,6 +180,16 @@
         },
         {
           "rank": 8,
+          "ticker": "XLE",
+          "total": 1,
+          "as_up": 0,
+          "as_down": 1,
+          "last_horse": "Inflação",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 9,
           "ticker": "XLF",
           "total": 1,
           "as_up": 0,
@@ -189,7 +199,7 @@
           "direction": "all"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "ticker": "XLY",
           "total": 1,
           "as_up": 0,
@@ -205,9 +215,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-19T00:00:00+01:00",
-      "to": "2026-09-19T14:34:16+01:00",
+      "to": "2026-09-19T14:37:12+01:00",
       "from_label": "19/09 00:00",
-      "to_label": "19/09 14:34",
+      "to_label": "19/09 14:37",
       "n_events": 7,
       "top5_count": 5,
       "top6_20_count": 0,
