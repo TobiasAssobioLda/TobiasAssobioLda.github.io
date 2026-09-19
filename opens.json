@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19T09:25:11+01:00",
+  "updated_at": "2026-09-19T09:28:10+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "09:24",
+  "when_label": "09:27",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -247,12 +247,12 @@
         "id": 4712,
         "ticker": "CVX",
         "entry": 215.48,
-        "price": 209.51,
+        "price": 209.4,
         "qty": 0.046414,
         "notional": 10.0013,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.27709157999999995,
-        "pnl_r": -0.7,
+        "pnl_eur": -0.28219711999999925,
+        "pnl_r": -0.72,
         "sl": 206.98,
         "tp1": 226.21,
         "tp2": 232.62,
@@ -397,12 +397,12 @@
         "id": 5041,
         "ticker": "DKNG",
         "entry": 24.888,
-        "price": 21.75,
+        "price": 20.82,
         "qty": 0.401849,
         "notional": 10.0012,
-        "pnl_pct": -0.06,
-        "pnl_eur": -1.2610021620000007,
-        "pnl_r": -1.49,
+        "pnl_pct": -0.08,
+        "pnl_eur": -1.6347217320000007,
+        "pnl_r": -1.93,
         "sl": 22.78,
         "tp1": 27.47,
         "tp2": 29.04,
@@ -514,10 +514,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.24478769600000003,
-    "total_pnl_eur": -4.895753920000001,
+    "total_pnl_pct": -0.26372895150000003,
+    "total_pnl_eur": -5.274579030000001,
     "bank_eur": 2000.0,
-    "equity_eur": 1995.1
+    "equity_eur": 1994.73
   },
   "tobias_scalper": {
     "rows": [],
