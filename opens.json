@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-19T21:19:09+01:00",
+  "updated_at": "2026-09-19T21:22:10+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "21:18",
+  "when_label": "21:21",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -37,12 +37,12 @@
         "id": 1934,
         "ticker": "XOM",
         "entry": 165.304,
-        "price": 163.54,
+        "price": 163.19,
         "qty": 0.060297,
         "notional": 9.9673,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.1063639080000006,
-        "pnl_r": -0.24,
+        "pnl_eur": -0.12746785800000027,
+        "pnl_r": -0.29,
         "sl": 158.08,
         "tp1": 181.37,
         "tp2": 189.14,
@@ -397,12 +397,12 @@
         "id": 5041,
         "ticker": "DKNG",
         "entry": 24.888,
-        "price": 20.82,
+        "price": 21.74,
         "qty": 0.401849,
         "notional": 10.0012,
-        "pnl_pct": -0.08,
-        "pnl_eur": -1.6347217320000007,
-        "pnl_r": -1.93,
+        "pnl_pct": -0.06,
+        "pnl_eur": -1.2650206520000014,
+        "pnl_r": -1.49,
         "sl": 22.78,
         "tp1": 27.47,
         "tp2": 29.04,
@@ -514,10 +514,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.26397610925,
-    "total_pnl_eur": -5.279522184999999,
+    "total_pnl_pct": -0.24654625274999997,
+    "total_pnl_eur": -4.9309250549999994,
     "bank_eur": 2000.0,
-    "equity_eur": 1994.72
+    "equity_eur": 1995.07
   },
   "tobias_scalper": {
     "rows": [],
