@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T16:52:16+01:00",
+  "updated_at": "2026-09-19T16:55:02+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,12 +13,12 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-18T21:00:00+01:00",
-      "to": "2026-09-19T16:52:16+01:00",
+      "to": "2026-09-19T16:55:02+01:00",
       "from_label": "18/09 21:00",
-      "to_label": "19/09 16:52",
-      "n_events": 15,
+      "to_label": "19/09 16:55",
+      "n_events": 18,
       "top5_count": 5,
-      "top6_20_count": 4,
+      "top6_20_count": 7,
       "top5": [
         {
           "rank": 1,
@@ -33,8 +33,8 @@
         {
           "rank": 2,
           "ticker": "XOM",
-          "total": 2,
-          "as_up": 2,
+          "total": 4,
+          "as_up": 4,
           "as_down": 0,
           "last_horse": "Irão",
           "band": "all",
@@ -42,6 +42,16 @@
         },
         {
           "rank": 3,
+          "ticker": "CVX",
+          "total": 2,
+          "as_up": 0,
+          "as_down": 2,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 4,
           "ticker": "TLT",
           "total": 2,
           "as_up": 0,
@@ -51,7 +61,7 @@
           "direction": "all"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "ticker": "IBM",
           "total": 1,
           "as_up": 1,
@@ -59,21 +69,31 @@
           "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
+        }
+      ],
+      "top6_20": [
+        {
+          "rank": 6,
+          "ticker": "MSTR",
+          "total": 1,
+          "as_up": 1,
+          "as_down": 0,
+          "last_horse": "Cripto",
+          "band": "all",
+          "direction": "all"
         },
         {
-          "rank": 5,
-          "ticker": "CVX",
+          "rank": 7,
+          "ticker": "GLD",
           "total": 1,
           "as_up": 0,
           "as_down": 1,
           "last_horse": "Irão",
           "band": "all",
           "direction": "all"
-        }
-      ],
-      "top6_20": [
+        },
         {
-          "rank": 6,
+          "rank": 8,
           "ticker": "INFY",
           "total": 1,
           "as_up": 0,
@@ -83,7 +103,17 @@
           "direction": "all"
         },
         {
-          "rank": 7,
+          "rank": 9,
+          "ticker": "MARA",
+          "total": 1,
+          "as_up": 0,
+          "as_down": 1,
+          "last_horse": "Cripto",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 10,
           "ticker": "XLE",
           "total": 1,
           "as_up": 0,
@@ -93,7 +123,7 @@
           "direction": "all"
         },
         {
-          "rank": 8,
+          "rank": 11,
           "ticker": "XLF",
           "total": 1,
           "as_up": 0,
@@ -103,7 +133,7 @@
           "direction": "all"
         },
         {
-          "rank": 9,
+          "rank": 12,
           "ticker": "XLY",
           "total": 1,
           "as_up": 0,
@@ -255,12 +285,12 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-19T00:00:00+01:00",
-      "to": "2026-09-19T16:52:16+01:00",
+      "to": "2026-09-19T16:55:02+01:00",
       "from_label": "19/09 00:00",
-      "to_label": "19/09 16:52",
-      "n_events": 10,
+      "to_label": "19/09 16:55",
+      "n_events": 13,
       "top5_count": 5,
-      "top6_20_count": 3,
+      "top6_20_count": 6,
       "top5": [
         {
           "rank": 1,
@@ -275,8 +305,8 @@
         {
           "rank": 2,
           "ticker": "XOM",
-          "total": 2,
-          "as_up": 2,
+          "total": 4,
+          "as_up": 4,
           "as_down": 0,
           "last_horse": "Irão",
           "band": "all",
@@ -284,6 +314,16 @@
         },
         {
           "rank": 3,
+          "ticker": "CVX",
+          "total": 2,
+          "as_up": 0,
+          "as_down": 2,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 4,
           "ticker": "IBM",
           "total": 1,
           "as_up": 1,
@@ -293,8 +333,20 @@
           "direction": "all"
         },
         {
-          "rank": 4,
-          "ticker": "CVX",
+          "rank": 5,
+          "ticker": "MSTR",
+          "total": 1,
+          "as_up": 1,
+          "as_down": 0,
+          "last_horse": "Cripto",
+          "band": "all",
+          "direction": "all"
+        }
+      ],
+      "top6_20": [
+        {
+          "rank": 6,
+          "ticker": "GLD",
           "total": 1,
           "as_up": 0,
           "as_down": 1,
@@ -303,7 +355,7 @@
           "direction": "all"
         },
         {
-          "rank": 5,
+          "rank": 7,
           "ticker": "INFY",
           "total": 1,
           "as_up": 0,
@@ -311,11 +363,19 @@
           "last_horse": "Índia",
           "band": "all",
           "direction": "all"
-        }
-      ],
-      "top6_20": [
+        },
         {
-          "rank": 6,
+          "rank": 8,
+          "ticker": "MARA",
+          "total": 1,
+          "as_up": 0,
+          "as_down": 1,
+          "last_horse": "Cripto",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 9,
           "ticker": "TLT",
           "total": 1,
           "as_up": 0,
@@ -325,7 +385,7 @@
           "direction": "all"
         },
         {
-          "rank": 7,
+          "rank": 10,
           "ticker": "XLE",
           "total": 1,
           "as_up": 0,
@@ -335,7 +395,7 @@
           "direction": "all"
         },
         {
-          "rank": 8,
+          "rank": 11,
           "ticker": "XLF",
           "total": 1,
           "as_up": 0,
@@ -348,9 +408,9 @@
       "source": "rumors_avg_high"
     }
   },
-  "n_events": 10,
+  "n_events": 13,
   "top5_count": 5,
-  "top6_20_count": 3,
+  "top6_20_count": 6,
   "top5": [
     {
       "rank": 1,
@@ -365,8 +425,8 @@
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 2,
-      "as_up": 2,
+      "total": 4,
+      "as_up": 4,
       "as_down": 0,
       "last_horse": "Irão",
       "band": "all",
@@ -374,6 +434,16 @@
     },
     {
       "rank": 3,
+      "ticker": "CVX",
+      "total": 2,
+      "as_up": 0,
+      "as_down": 2,
+      "last_horse": "Irão",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 4,
       "ticker": "IBM",
       "total": 1,
       "as_up": 1,
@@ -383,8 +453,20 @@
       "direction": "all"
     },
     {
-      "rank": 4,
-      "ticker": "CVX",
+      "rank": 5,
+      "ticker": "MSTR",
+      "total": 1,
+      "as_up": 1,
+      "as_down": 0,
+      "last_horse": "Cripto",
+      "band": "all",
+      "direction": "all"
+    }
+  ],
+  "top6_20": [
+    {
+      "rank": 6,
+      "ticker": "GLD",
       "total": 1,
       "as_up": 0,
       "as_down": 1,
@@ -393,7 +475,7 @@
       "direction": "all"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "ticker": "INFY",
       "total": 1,
       "as_up": 0,
@@ -401,11 +483,19 @@
       "last_horse": "Índia",
       "band": "all",
       "direction": "all"
-    }
-  ],
-  "top6_20": [
+    },
     {
-      "rank": 6,
+      "rank": 8,
+      "ticker": "MARA",
+      "total": 1,
+      "as_up": 0,
+      "as_down": 1,
+      "last_horse": "Cripto",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 9,
       "ticker": "TLT",
       "total": 1,
       "as_up": 0,
@@ -415,7 +505,7 @@
       "direction": "all"
     },
     {
-      "rank": 7,
+      "rank": 10,
       "ticker": "XLE",
       "total": 1,
       "as_up": 0,
@@ -425,7 +515,7 @@
       "direction": "all"
     },
     {
-      "rank": 8,
+      "rank": 11,
       "ticker": "XLF",
       "total": 1,
       "as_up": 0,
@@ -435,7 +525,7 @@
       "direction": "all"
     }
   ],
-  "count": 8,
+  "count": 11,
   "rows": [
     {
       "rank": 1,
@@ -450,8 +540,8 @@
     {
       "rank": 2,
       "ticker": "XOM",
-      "total": 2,
-      "as_up": 2,
+      "total": 4,
+      "as_up": 4,
       "as_down": 0,
       "last_horse": "Irão",
       "band": "all",
@@ -459,6 +549,16 @@
     },
     {
       "rank": 3,
+      "ticker": "CVX",
+      "total": 2,
+      "as_up": 0,
+      "as_down": 2,
+      "last_horse": "Irão",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 4,
       "ticker": "IBM",
       "total": 1,
       "as_up": 1,
@@ -468,8 +568,18 @@
       "direction": "all"
     },
     {
-      "rank": 4,
-      "ticker": "CVX",
+      "rank": 5,
+      "ticker": "MSTR",
+      "total": 1,
+      "as_up": 1,
+      "as_down": 0,
+      "last_horse": "Cripto",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 6,
+      "ticker": "GLD",
       "total": 1,
       "as_up": 0,
       "as_down": 1,
@@ -478,7 +588,7 @@
       "direction": "all"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "ticker": "INFY",
       "total": 1,
       "as_up": 0,
@@ -488,7 +598,17 @@
       "direction": "all"
     },
     {
-      "rank": 6,
+      "rank": 8,
+      "ticker": "MARA",
+      "total": 1,
+      "as_up": 0,
+      "as_down": 1,
+      "last_horse": "Cripto",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 9,
       "ticker": "TLT",
       "total": 1,
       "as_up": 0,
@@ -498,7 +618,7 @@
       "direction": "all"
     },
     {
-      "rank": 7,
+      "rank": 10,
       "ticker": "XLE",
       "total": 1,
       "as_up": 0,
@@ -508,7 +628,7 @@
       "direction": "all"
     },
     {
-      "rank": 8,
+      "rank": 11,
       "ticker": "XLF",
       "total": 1,
       "as_up": 0,
