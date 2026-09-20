@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20T17:58:09+01:00",
+  "updated_at": "2026-09-20T18:01:09+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "17:57",
+  "when_label": "18:00",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -247,12 +247,12 @@
         "id": 4712,
         "ticker": "CVX",
         "entry": 215.48,
-        "price": 207.71,
+        "price": 209.4,
         "qty": 0.046414,
         "notional": 10.0013,
-        "pnl_pct": -0.02,
-        "pnl_eur": -0.36063677999999916,
-        "pnl_r": -0.91,
+        "pnl_pct": -0.01,
+        "pnl_eur": -0.28219711999999925,
+        "pnl_r": -0.72,
         "sl": 206.98,
         "tp1": 226.21,
         "tp2": 232.62,
@@ -514,10 +514,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.26944760524999994,
-    "total_pnl_eur": -5.388952104999999,
+    "total_pnl_pct": -0.2655256222499999,
+    "total_pnl_eur": -5.310512444999999,
     "bank_eur": 2000.0,
-    "equity_eur": 1994.61
+    "equity_eur": 1994.69
   },
   "tobias_scalper": {
     "rows": [],
