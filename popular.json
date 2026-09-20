@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T18:49:22+01:00",
+  "updated_at": "2026-09-20T18:52:15+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-18T21:00:00+01:00",
-      "to": "2026-09-20T18:49:22+01:00",
+      "to": "2026-09-20T18:52:15+01:00",
       "from_label": "18/09 21:00",
-      "to_label": "20/09 18:49",
+      "to_label": "20/09 18:52",
       "n_events": 72,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -232,7 +232,7 @@
       "to": "2026-09-21T14:15:00+01:00",
       "from_label": "18/09 21:00",
       "to_label": "21/09 14:15",
-      "n_events": 80,
+      "n_events": 81,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
@@ -360,6 +360,16 @@
         },
         {
           "rank": 13,
+          "ticker": "COIN",
+          "total": 2,
+          "as_up": 1,
+          "as_down": 1,
+          "last_horse": "Cripto",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 14,
           "ticker": "GLD",
           "total": 2,
           "as_up": 0,
@@ -369,7 +379,7 @@
           "direction": "all"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "ticker": "MARA",
           "total": 2,
           "as_up": 0,
@@ -379,7 +389,7 @@
           "direction": "all"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "ticker": "NEM",
           "total": 2,
           "as_up": 0,
@@ -389,7 +399,7 @@
           "direction": "all"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "ticker": "AAPL",
           "total": 1,
           "as_up": 1,
@@ -399,7 +409,7 @@
           "direction": "all"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "ticker": "ASTS",
           "total": 1,
           "as_up": 1,
@@ -409,7 +419,7 @@
           "direction": "all"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "ticker": "BABA",
           "total": 1,
           "as_up": 1,
@@ -419,22 +429,12 @@
           "direction": "all"
         },
         {
-          "rank": 19,
-          "ticker": "COIN",
+          "rank": 20,
+          "ticker": "BMNR",
           "total": 1,
           "as_up": 1,
           "as_down": 0,
           "last_horse": "Cripto",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 20,
-          "ticker": "GD",
-          "total": 1,
-          "as_up": 1,
-          "as_down": 0,
-          "last_horse": "Irão",
           "band": "all",
           "direction": "all"
         }
@@ -445,9 +445,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-20T00:00:00+01:00",
-      "to": "2026-09-20T18:49:22+01:00",
+      "to": "2026-09-20T18:52:15+01:00",
       "from_label": "20/09 00:00",
-      "to_label": "20/09 18:49",
+      "to_label": "20/09 18:52",
       "n_events": 50,
       "top5_count": 5,
       "top6_20_count": 15,
