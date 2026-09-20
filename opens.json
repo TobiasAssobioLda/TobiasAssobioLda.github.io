@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20T18:52:09+01:00",
+  "updated_at": "2026-09-20T18:55:09+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "18:51",
+  "when_label": "18:54",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -307,11 +307,11 @@
         "id": 4834,
         "ticker": "CPRT",
         "entry": 31.688,
-        "price": 29.27,
+        "price": 29.28,
         "qty": 0.315607,
         "notional": 10.001,
         "pnl_pct": -0.04,
-        "pnl_eur": -0.7631377259999998,
+        "pnl_eur": -0.7599816559999993,
         "pnl_r": -0.9,
         "sl": 29.01,
         "tp1": 34.09,
@@ -397,12 +397,12 @@
         "id": 5041,
         "ticker": "DKNG",
         "entry": 24.888,
-        "price": 21.75,
+        "price": 20.82,
         "qty": 0.401849,
         "notional": 10.0012,
-        "pnl_pct": -0.06,
-        "pnl_eur": -1.2610021620000007,
-        "pnl_r": -1.49,
+        "pnl_pct": -0.08,
+        "pnl_eur": -1.6347217320000007,
+        "pnl_r": -1.93,
         "sl": 22.78,
         "tp1": 27.47,
         "tp2": 29.04,
@@ -514,10 +514,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.2508720635,
-    "total_pnl_eur": -5.01744127,
+    "total_pnl_pct": -0.2694002385,
+    "total_pnl_eur": -5.38800477,
     "bank_eur": 2000.0,
-    "equity_eur": 1994.98
+    "equity_eur": 1994.61
   },
   "tobias_scalper": {
     "rows": [],
