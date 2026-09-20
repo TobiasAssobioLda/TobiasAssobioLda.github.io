@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20T08:10:09+01:00",
+  "updated_at": "2026-09-20T08:13:10+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "08:09",
+  "when_label": "08:12",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -307,12 +307,12 @@
         "id": 4834,
         "ticker": "CPRT",
         "entry": 31.688,
-        "price": 29.575,
+        "price": 29.28,
         "qty": 0.315607,
         "notional": 10.001,
-        "pnl_pct": -0.03,
-        "pnl_eur": -0.6668775909999999,
-        "pnl_r": -0.79,
+        "pnl_pct": -0.04,
+        "pnl_eur": -0.7599816559999993,
+        "pnl_r": -0.9,
         "sl": 29.01,
         "tp1": 34.09,
         "tp2": 35.79,
@@ -514,10 +514,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.2421289545,
-    "total_pnl_eur": -4.84257909,
+    "total_pnl_pct": -0.24678415774999998,
+    "total_pnl_eur": -4.9356831549999995,
     "bank_eur": 2000.0,
-    "equity_eur": 1995.16
+    "equity_eur": 1995.06
   },
   "tobias_scalper": {
     "rows": [],
