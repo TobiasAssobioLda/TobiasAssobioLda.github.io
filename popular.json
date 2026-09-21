@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T05:37:16+01:00",
+  "updated_at": "2026-09-21T05:40:16+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-18T21:00:00+01:00",
-      "to": "2026-09-21T05:37:16+01:00",
+      "to": "2026-09-21T05:40:16+01:00",
       "from_label": "18/09 21:00",
-      "to_label": "21/09 05:37",
+      "to_label": "21/09 05:40",
       "n_events": 72,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -232,17 +232,17 @@
       "to": "2026-09-21T14:15:00+01:00",
       "from_label": "18/09 21:00",
       "to_label": "21/09 14:15",
-      "n_events": 109,
+      "n_events": 112,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
         {
           "rank": 1,
           "ticker": "XOM",
-          "total": 30,
-          "as_up": 30,
+          "total": 32,
+          "as_up": 32,
           "as_down": 0,
-          "last_horse": "Irão",
+          "last_horse": "Rússia",
           "band": "all",
           "direction": "all"
         },
@@ -269,9 +269,9 @@
         {
           "rank": 4,
           "ticker": "CVX",
-          "total": 17,
+          "total": 18,
           "as_up": 0,
-          "as_down": 17,
+          "as_down": 18,
           "last_horse": "Irão",
           "band": "all",
           "direction": "all"
@@ -370,6 +370,16 @@
         },
         {
           "rank": 14,
+          "ticker": "EQNR",
+          "total": 3,
+          "as_up": 0,
+          "as_down": 3,
+          "last_horse": "Rússia",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 15,
           "ticker": "ASTS",
           "total": 2,
           "as_up": 2,
@@ -379,7 +389,7 @@
           "direction": "all"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "ticker": "IEF",
           "total": 2,
           "as_up": 2,
@@ -389,7 +399,7 @@
           "direction": "all"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "ticker": "BAC",
           "total": 2,
           "as_up": 1,
@@ -399,7 +409,7 @@
           "direction": "all"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "ticker": "COIN",
           "total": 2,
           "as_up": 1,
@@ -409,18 +419,8 @@
           "direction": "all"
         },
         {
-          "rank": 18,
-          "ticker": "BP",
-          "total": 2,
-          "as_up": 0,
-          "as_down": 2,
-          "last_horse": "Rússia",
-          "band": "all",
-          "direction": "all"
-        },
-        {
           "rank": 19,
-          "ticker": "EQNR",
+          "ticker": "BP",
           "total": 2,
           "as_up": 0,
           "as_down": 2,
@@ -445,9 +445,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-21T00:00:00+01:00",
-      "to": "2026-09-21T05:37:16+01:00",
+      "to": "2026-09-21T05:40:16+01:00",
       "from_label": "21/09 00:00",
-      "to_label": "21/09 05:37",
+      "to_label": "21/09 05:40",
       "n_events": 0,
       "top5_count": 0,
       "top6_20_count": 0,
