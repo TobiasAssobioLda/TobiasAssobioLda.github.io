@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-21T07:58:07+01:00",
+  "updated_at": "2026-09-21T08:01:07+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "07:57",
+  "when_label": "08:00",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -337,12 +337,12 @@
         "id": 5015,
         "ticker": "AAL",
         "entry": 12.708,
-        "price": 13.07,
+        "price": 13.08,
         "qty": 0.786473,
         "notional": 9.9945,
         "pnl_pct": 0.01,
-        "pnl_eur": 0.2847032260000001,
-        "pnl_r": 1.66,
+        "pnl_eur": 0.2925679559999999,
+        "pnl_r": 1.71,
         "sl": 12.49,
         "tp1": 14.15,
         "tp2": 14.71,
@@ -514,10 +514,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.24093275700000005,
-    "total_pnl_eur": -4.818655140000001,
+    "total_pnl_pct": -0.24053952050000002,
+    "total_pnl_eur": -4.810790410000001,
     "bank_eur": 2000.0,
-    "equity_eur": 1995.18
+    "equity_eur": 1995.19
   },
   "tobias_scalper": {
     "rows": [],
