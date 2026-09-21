@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-21T04:13:07+01:00",
+  "updated_at": "2026-09-21T04:16:07+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "04:12",
+  "when_label": "04:15",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -277,11 +277,11 @@
         "id": 4713,
         "ticker": "DIA",
         "entry": 519.302,
-        "price": 517.58,
+        "price": 517.57,
         "qty": 0.019255,
         "notional": 9.9992,
         "pnl_pct": -0.0,
-        "pnl_eur": -0.033157109999999615,
+        "pnl_eur": -0.03334965999999944,
         "pnl_r": -0.14,
         "sl": 506.77,
         "tp1": 545.75,
@@ -514,8 +514,8 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.2527593484999998,
-    "total_pnl_eur": -5.055186969999997,
+    "total_pnl_pct": -0.25276897599999987,
+    "total_pnl_eur": -5.055379519999997,
     "bank_eur": 2000.0,
     "equity_eur": 1994.94
   },
