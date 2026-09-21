@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T21:34:07+01:00",
+  "updated_at": "2026-09-21T21:37:10+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-18T21:00:00+01:00",
-      "to": "2026-09-21T21:34:07+01:00",
+      "to": "2026-09-21T21:37:10+01:00",
       "from_label": "18/09 21:00",
-      "to_label": "21/09 21:34",
+      "to_label": "21/09 21:37",
       "n_events": 147,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -232,12 +232,22 @@
       "to": "2026-09-22T14:15:00+01:00",
       "from_label": "21/09 21:00",
       "to_label": "22/09 14:15",
-      "n_events": 2,
-      "top5_count": 4,
-      "top6_20_count": 0,
+      "n_events": 3,
+      "top5_count": 5,
+      "top6_20_count": 1,
       "top5": [
         {
           "rank": 1,
+          "ticker": "BAC",
+          "total": 1,
+          "as_up": 1,
+          "as_down": 0,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 2,
           "ticker": "GOLD",
           "total": 1,
           "as_up": 1,
@@ -247,7 +257,7 @@
           "direction": "all"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "ticker": "LMT",
           "total": 1,
           "as_up": 1,
@@ -257,7 +267,17 @@
           "direction": "all"
         },
         {
-          "rank": 3,
+          "rank": 4,
+          "ticker": "GS",
+          "total": 1,
+          "as_up": 0,
+          "as_down": 1,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 5,
           "ticker": "NEM",
           "total": 1,
           "as_up": 0,
@@ -265,9 +285,11 @@
           "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
-        },
+        }
+      ],
+      "top6_20": [
         {
-          "rank": 4,
+          "rank": 6,
           "ticker": "NOC",
           "total": 1,
           "as_up": 0,
@@ -277,16 +299,15 @@
           "direction": "all"
         }
       ],
-      "top6_20": [],
       "source": "rumors_avg_high"
     },
     "day": {
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-21T00:00:00+01:00",
-      "to": "2026-09-21T21:34:07+01:00",
+      "to": "2026-09-21T21:37:10+01:00",
       "from_label": "21/09 00:00",
-      "to_label": "21/09 21:34",
+      "to_label": "21/09 21:37",
       "n_events": 50,
       "top5_count": 5,
       "top6_20_count": 15,
