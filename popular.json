@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T14:22:16+01:00",
+  "updated_at": "2026-09-21T14:23:25+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,19 +13,19 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-18T21:00:00+01:00",
-      "to": "2026-09-21T14:22:16+01:00",
+      "to": "2026-09-21T14:23:25+01:00",
       "from_label": "18/09 21:00",
-      "to_label": "21/09 14:22",
-      "n_events": 125,
+      "to_label": "21/09 14:23",
+      "n_events": 138,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
         {
           "rank": 1,
           "ticker": "XOM",
-          "total": 40,
+          "total": 41,
           "as_up": 40,
-          "as_down": 0,
+          "as_down": 1,
           "last_horse": "Trump",
           "band": "all",
           "direction": "all"
@@ -33,8 +33,8 @@
         {
           "rank": 2,
           "ticker": "SPY",
-          "total": 31,
-          "as_up": 21,
+          "total": 35,
+          "as_up": 25,
           "as_down": 10,
           "last_horse": "Fed",
           "band": "all",
@@ -63,8 +63,8 @@
         {
           "rank": 5,
           "ticker": "GS",
-          "total": 13,
-          "as_up": 12,
+          "total": 14,
+          "as_up": 13,
           "as_down": 1,
           "last_horse": "Fed",
           "band": "all",
@@ -75,9 +75,9 @@
         {
           "rank": 6,
           "ticker": "MS",
-          "total": 12,
+          "total": 13,
           "as_up": 1,
-          "as_down": 11,
+          "as_down": 12,
           "last_horse": "Fed",
           "band": "all",
           "direction": "all"
@@ -85,15 +85,25 @@
         {
           "rank": 7,
           "ticker": "TLT",
-          "total": 9,
+          "total": 13,
           "as_up": 1,
-          "as_down": 8,
-          "last_horse": "Fed",
+          "as_down": 12,
+          "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 8,
+          "ticker": "GLD",
+          "total": 9,
+          "as_up": 8,
+          "as_down": 1,
+          "last_horse": "Inflação",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 9,
           "ticker": "NOC",
           "total": 8,
           "as_up": 0,
@@ -103,17 +113,27 @@
           "direction": "all"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "ticker": "GOLD",
-          "total": 5,
-          "as_up": 4,
+          "total": 6,
+          "as_up": 5,
           "as_down": 1,
           "last_horse": "Irão",
           "band": "all",
           "direction": "all"
         },
         {
-          "rank": 10,
+          "rank": 11,
+          "ticker": "NEM",
+          "total": 6,
+          "as_up": 0,
+          "as_down": 6,
+          "last_horse": "Inflação",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 12,
           "ticker": "RTX",
           "total": 5,
           "as_up": 0,
@@ -123,7 +143,7 @@
           "direction": "all"
         },
         {
-          "rank": 11,
+          "rank": 13,
           "ticker": "NVDA",
           "total": 4,
           "as_up": 4,
@@ -133,7 +153,7 @@
           "direction": "all"
         },
         {
-          "rank": 12,
+          "rank": 14,
           "ticker": "MARA",
           "total": 4,
           "as_up": 0,
@@ -143,7 +163,7 @@
           "direction": "all"
         },
         {
-          "rank": 13,
+          "rank": 15,
           "ticker": "AAPL",
           "total": 3,
           "as_up": 2,
@@ -153,7 +173,7 @@
           "direction": "all"
         },
         {
-          "rank": 14,
+          "rank": 16,
           "ticker": "XLF",
           "total": 3,
           "as_up": 2,
@@ -163,7 +183,7 @@
           "direction": "all"
         },
         {
-          "rank": 15,
+          "rank": 17,
           "ticker": "BABA",
           "total": 3,
           "as_up": 1,
@@ -173,7 +193,7 @@
           "direction": "all"
         },
         {
-          "rank": 16,
+          "rank": 18,
           "ticker": "TSM",
           "total": 3,
           "as_up": 1,
@@ -183,17 +203,7 @@
           "direction": "all"
         },
         {
-          "rank": 17,
-          "ticker": "NEM",
-          "total": 3,
-          "as_up": 0,
-          "as_down": 3,
-          "last_horse": "Inflação",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 18,
+          "rank": 19,
           "ticker": "CLF",
           "total": 2,
           "as_up": 2,
@@ -203,22 +213,12 @@
           "direction": "all"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "ticker": "IEF",
           "total": 2,
           "as_up": 2,
           "as_down": 0,
           "last_horse": "Irão",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 20,
-          "ticker": "MSTR",
-          "total": 2,
-          "as_up": 2,
-          "as_down": 0,
-          "last_horse": "Cripto",
           "band": "all",
           "direction": "all"
         }
@@ -232,16 +232,16 @@
       "to": "2026-09-21T14:15:00+01:00",
       "from_label": "18/09 21:00",
       "to_label": "21/09 14:15",
-      "n_events": 138,
+      "n_events": 137,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
         {
           "rank": 1,
           "ticker": "XOM",
-          "total": 40,
+          "total": 41,
           "as_up": 40,
-          "as_down": 0,
+          "as_down": 1,
           "last_horse": "Trump",
           "band": "all",
           "direction": "all"
@@ -249,8 +249,8 @@
         {
           "rank": 2,
           "ticker": "SPY",
-          "total": 30,
-          "as_up": 21,
+          "total": 34,
+          "as_up": 25,
           "as_down": 9,
           "last_horse": "Inflação",
           "band": "all",
@@ -269,27 +269,15 @@
         {
           "rank": 4,
           "ticker": "LMT",
-          "total": 20,
+          "total": 19,
           "as_up": 18,
-          "as_down": 2,
+          "as_down": 1,
           "last_horse": "Rússia",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 5,
-          "ticker": "GOLD",
-          "total": 15,
-          "as_up": 14,
-          "as_down": 1,
-          "last_horse": "Inflação",
-          "band": "all",
-          "direction": "all"
-        }
-      ],
-      "top6_20": [
-        {
-          "rank": 6,
           "ticker": "GS",
           "total": 14,
           "as_up": 13,
@@ -297,9 +285,11 @@
           "last_horse": "Fed",
           "band": "all",
           "direction": "all"
-        },
+        }
+      ],
+      "top6_20": [
         {
-          "rank": 7,
+          "rank": 6,
           "ticker": "MS",
           "total": 13,
           "as_up": 1,
@@ -309,27 +299,27 @@
           "direction": "all"
         },
         {
-          "rank": 8,
-          "ticker": "NEM",
+          "rank": 7,
+          "ticker": "TLT",
           "total": 13,
-          "as_up": 0,
-          "as_down": 13,
+          "as_up": 1,
+          "as_down": 12,
+          "last_horse": "Inflação",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 8,
+          "ticker": "GLD",
+          "total": 9,
+          "as_up": 8,
+          "as_down": 1,
           "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 9,
-          "ticker": "TLT",
-          "total": 9,
-          "as_up": 1,
-          "as_down": 8,
-          "last_horse": "Fed",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 10,
           "ticker": "NOC",
           "total": 8,
           "as_up": 0,
@@ -339,7 +329,27 @@
           "direction": "all"
         },
         {
+          "rank": 10,
+          "ticker": "GOLD",
+          "total": 6,
+          "as_up": 5,
+          "as_down": 1,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
           "rank": 11,
+          "ticker": "NEM",
+          "total": 6,
+          "as_up": 0,
+          "as_down": 6,
+          "last_horse": "Inflação",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 12,
           "ticker": "RTX",
           "total": 5,
           "as_up": 0,
@@ -349,7 +359,7 @@
           "direction": "all"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "ticker": "NVDA",
           "total": 4,
           "as_up": 4,
@@ -359,7 +369,7 @@
           "direction": "all"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "ticker": "MARA",
           "total": 4,
           "as_up": 0,
@@ -369,7 +379,7 @@
           "direction": "all"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "ticker": "AAPL",
           "total": 3,
           "as_up": 2,
@@ -379,7 +389,7 @@
           "direction": "all"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "ticker": "BABA",
           "total": 3,
           "as_up": 1,
@@ -389,7 +399,7 @@
           "direction": "all"
         },
         {
-          "rank": 16,
+          "rank": 17,
           "ticker": "TSM",
           "total": 3,
           "as_up": 1,
@@ -399,7 +409,7 @@
           "direction": "all"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "ticker": "CLF",
           "total": 2,
           "as_up": 2,
@@ -409,7 +419,7 @@
           "direction": "all"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "ticker": "IEF",
           "total": 2,
           "as_up": 2,
@@ -419,22 +429,12 @@
           "direction": "all"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "ticker": "MSTR",
           "total": 2,
           "as_up": 2,
           "as_down": 0,
           "last_horse": "Cripto",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 20,
-          "ticker": "BAC",
-          "total": 2,
-          "as_up": 1,
-          "as_down": 1,
-          "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
         }
@@ -445,25 +445,45 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-21T00:00:00+01:00",
-      "to": "2026-09-21T14:22:16+01:00",
+      "to": "2026-09-21T14:23:25+01:00",
       "from_label": "21/09 00:00",
-      "to_label": "21/09 14:22",
-      "n_events": 29,
+      "to_label": "21/09 14:23",
+      "n_events": 41,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
         {
           "rank": 1,
           "ticker": "XOM",
-          "total": 12,
+          "total": 13,
           "as_up": 12,
-          "as_down": 0,
+          "as_down": 1,
           "last_horse": "Trump",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 2,
+          "ticker": "SPY",
+          "total": 10,
+          "as_up": 5,
+          "as_down": 5,
+          "last_horse": "Fed",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 3,
+          "ticker": "GLD",
+          "total": 8,
+          "as_up": 8,
+          "as_down": 0,
+          "last_horse": "Inflação",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 4,
           "ticker": "CVX",
           "total": 8,
           "as_up": 0,
@@ -473,17 +493,19 @@
           "direction": "all"
         },
         {
-          "rank": 3,
-          "ticker": "SPY",
+          "rank": 5,
+          "ticker": "TLT",
           "total": 7,
-          "as_up": 2,
-          "as_down": 5,
-          "last_horse": "Fed",
+          "as_up": 1,
+          "as_down": 6,
+          "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
-        },
+        }
+      ],
+      "top6_20": [
         {
-          "rank": 4,
+          "rank": 6,
           "ticker": "LMT",
           "total": 3,
           "as_up": 3,
@@ -493,19 +515,17 @@
           "direction": "all"
         },
         {
-          "rank": 5,
-          "ticker": "TLT",
+          "rank": 7,
+          "ticker": "NEM",
           "total": 3,
-          "as_up": 1,
-          "as_down": 2,
-          "last_horse": "Fed",
+          "as_up": 0,
+          "as_down": 3,
+          "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
-        }
-      ],
-      "top6_20": [
+        },
         {
-          "rank": 6,
+          "rank": 8,
           "ticker": "NOC",
           "total": 3,
           "as_up": 0,
@@ -515,7 +535,17 @@
           "direction": "all"
         },
         {
-          "rank": 7,
+          "rank": 9,
+          "ticker": "GS",
+          "total": 2,
+          "as_up": 2,
+          "as_down": 0,
+          "last_horse": "Fed",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 10,
           "ticker": "XLF",
           "total": 2,
           "as_up": 2,
@@ -525,7 +555,7 @@
           "direction": "all"
         },
         {
-          "rank": 8,
+          "rank": 11,
           "ticker": "AAPL",
           "total": 2,
           "as_up": 1,
@@ -535,7 +565,7 @@
           "direction": "all"
         },
         {
-          "rank": 9,
+          "rank": 12,
           "ticker": "BABA",
           "total": 2,
           "as_up": 1,
@@ -545,7 +575,17 @@
           "direction": "all"
         },
         {
-          "rank": 10,
+          "rank": 13,
+          "ticker": "GOLD",
+          "total": 2,
+          "as_up": 1,
+          "as_down": 1,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 14,
           "ticker": "MARA",
           "total": 2,
           "as_up": 0,
@@ -555,7 +595,7 @@
           "direction": "all"
         },
         {
-          "rank": 11,
+          "rank": 15,
           "ticker": "AGCO",
           "total": 1,
           "as_up": 1,
@@ -565,7 +605,7 @@
           "direction": "all"
         },
         {
-          "rank": 12,
+          "rank": 16,
           "ticker": "BITO",
           "total": 1,
           "as_up": 1,
@@ -575,7 +615,7 @@
           "direction": "all"
         },
         {
-          "rank": 13,
+          "rank": 17,
           "ticker": "CLF",
           "total": 1,
           "as_up": 1,
@@ -585,27 +625,7 @@
           "direction": "all"
         },
         {
-          "rank": 14,
-          "ticker": "GLD",
-          "total": 1,
-          "as_up": 1,
-          "as_down": 0,
-          "last_horse": "Irão",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 15,
-          "ticker": "GS",
-          "total": 1,
-          "as_up": 1,
-          "as_down": 0,
-          "last_horse": "Fed",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 16,
+          "rank": 18,
           "ticker": "MSTR",
           "total": 1,
           "as_up": 1,
@@ -615,7 +635,7 @@
           "direction": "all"
         },
         {
-          "rank": 17,
+          "rank": 19,
           "ticker": "SEEK",
           "total": 1,
           "as_up": 1,
@@ -625,7 +645,7 @@
           "direction": "all"
         },
         {
-          "rank": 18,
+          "rank": 20,
           "ticker": "DE",
           "total": 1,
           "as_up": 0,
@@ -633,47 +653,47 @@
           "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
-        },
-        {
-          "rank": 19,
-          "ticker": "GOLD",
-          "total": 1,
-          "as_up": 0,
-          "as_down": 1,
-          "last_horse": "Irão",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 20,
-          "ticker": "PDD",
-          "total": 1,
-          "as_up": 0,
-          "as_down": 1,
-          "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
         }
       ],
       "source": "rumors_avg_high"
     }
   },
-  "n_events": 29,
+  "n_events": 41,
   "top5_count": 5,
   "top6_20_count": 15,
   "top5": [
     {
       "rank": 1,
       "ticker": "XOM",
-      "total": 12,
+      "total": 13,
       "as_up": 12,
-      "as_down": 0,
+      "as_down": 1,
       "last_horse": "Trump",
       "band": "all",
       "direction": "all"
     },
     {
       "rank": 2,
+      "ticker": "SPY",
+      "total": 10,
+      "as_up": 5,
+      "as_down": 5,
+      "last_horse": "Fed",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 3,
+      "ticker": "GLD",
+      "total": 8,
+      "as_up": 8,
+      "as_down": 0,
+      "last_horse": "Inflação",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 4,
       "ticker": "CVX",
       "total": 8,
       "as_up": 0,
@@ -683,17 +703,19 @@
       "direction": "all"
     },
     {
-      "rank": 3,
-      "ticker": "SPY",
+      "rank": 5,
+      "ticker": "TLT",
       "total": 7,
-      "as_up": 2,
-      "as_down": 5,
-      "last_horse": "Fed",
+      "as_up": 1,
+      "as_down": 6,
+      "last_horse": "Inflação",
       "band": "all",
       "direction": "all"
-    },
+    }
+  ],
+  "top6_20": [
     {
-      "rank": 4,
+      "rank": 6,
       "ticker": "LMT",
       "total": 3,
       "as_up": 3,
@@ -703,19 +725,17 @@
       "direction": "all"
     },
     {
-      "rank": 5,
-      "ticker": "TLT",
+      "rank": 7,
+      "ticker": "NEM",
       "total": 3,
-      "as_up": 1,
-      "as_down": 2,
-      "last_horse": "Fed",
+      "as_up": 0,
+      "as_down": 3,
+      "last_horse": "Inflação",
       "band": "all",
       "direction": "all"
-    }
-  ],
-  "top6_20": [
+    },
     {
-      "rank": 6,
+      "rank": 8,
       "ticker": "NOC",
       "total": 3,
       "as_up": 0,
@@ -725,7 +745,17 @@
       "direction": "all"
     },
     {
-      "rank": 7,
+      "rank": 9,
+      "ticker": "GS",
+      "total": 2,
+      "as_up": 2,
+      "as_down": 0,
+      "last_horse": "Fed",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 10,
       "ticker": "XLF",
       "total": 2,
       "as_up": 2,
@@ -735,7 +765,7 @@
       "direction": "all"
     },
     {
-      "rank": 8,
+      "rank": 11,
       "ticker": "AAPL",
       "total": 2,
       "as_up": 1,
@@ -745,7 +775,7 @@
       "direction": "all"
     },
     {
-      "rank": 9,
+      "rank": 12,
       "ticker": "BABA",
       "total": 2,
       "as_up": 1,
@@ -755,7 +785,17 @@
       "direction": "all"
     },
     {
-      "rank": 10,
+      "rank": 13,
+      "ticker": "GOLD",
+      "total": 2,
+      "as_up": 1,
+      "as_down": 1,
+      "last_horse": "Irão",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 14,
       "ticker": "MARA",
       "total": 2,
       "as_up": 0,
@@ -765,7 +805,7 @@
       "direction": "all"
     },
     {
-      "rank": 11,
+      "rank": 15,
       "ticker": "AGCO",
       "total": 1,
       "as_up": 1,
@@ -775,7 +815,7 @@
       "direction": "all"
     },
     {
-      "rank": 12,
+      "rank": 16,
       "ticker": "BITO",
       "total": 1,
       "as_up": 1,
@@ -785,7 +825,7 @@
       "direction": "all"
     },
     {
-      "rank": 13,
+      "rank": 17,
       "ticker": "CLF",
       "total": 1,
       "as_up": 1,
@@ -795,27 +835,7 @@
       "direction": "all"
     },
     {
-      "rank": 14,
-      "ticker": "GLD",
-      "total": 1,
-      "as_up": 1,
-      "as_down": 0,
-      "last_horse": "Irão",
-      "band": "all",
-      "direction": "all"
-    },
-    {
-      "rank": 15,
-      "ticker": "GS",
-      "total": 1,
-      "as_up": 1,
-      "as_down": 0,
-      "last_horse": "Fed",
-      "band": "all",
-      "direction": "all"
-    },
-    {
-      "rank": 16,
+      "rank": 18,
       "ticker": "MSTR",
       "total": 1,
       "as_up": 1,
@@ -825,7 +845,7 @@
       "direction": "all"
     },
     {
-      "rank": 17,
+      "rank": 19,
       "ticker": "SEEK",
       "total": 1,
       "as_up": 1,
@@ -835,32 +855,12 @@
       "direction": "all"
     },
     {
-      "rank": 18,
+      "rank": 20,
       "ticker": "DE",
       "total": 1,
       "as_up": 0,
       "as_down": 1,
       "last_horse": "Inflação",
-      "band": "all",
-      "direction": "all"
-    },
-    {
-      "rank": 19,
-      "ticker": "GOLD",
-      "total": 1,
-      "as_up": 0,
-      "as_down": 1,
-      "last_horse": "Irão",
-      "band": "all",
-      "direction": "all"
-    },
-    {
-      "rank": 20,
-      "ticker": "PDD",
-      "total": 1,
-      "as_up": 0,
-      "as_down": 1,
-      "last_horse": "Trump",
       "band": "all",
       "direction": "all"
     }
@@ -870,15 +870,35 @@
     {
       "rank": 1,
       "ticker": "XOM",
-      "total": 12,
+      "total": 13,
       "as_up": 12,
-      "as_down": 0,
+      "as_down": 1,
       "last_horse": "Trump",
       "band": "all",
       "direction": "all"
     },
     {
       "rank": 2,
+      "ticker": "SPY",
+      "total": 10,
+      "as_up": 5,
+      "as_down": 5,
+      "last_horse": "Fed",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 3,
+      "ticker": "GLD",
+      "total": 8,
+      "as_up": 8,
+      "as_down": 0,
+      "last_horse": "Inflação",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 4,
       "ticker": "CVX",
       "total": 8,
       "as_up": 0,
@@ -888,17 +908,17 @@
       "direction": "all"
     },
     {
-      "rank": 3,
-      "ticker": "SPY",
+      "rank": 5,
+      "ticker": "TLT",
       "total": 7,
-      "as_up": 2,
-      "as_down": 5,
-      "last_horse": "Fed",
+      "as_up": 1,
+      "as_down": 6,
+      "last_horse": "Inflação",
       "band": "all",
       "direction": "all"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "ticker": "LMT",
       "total": 3,
       "as_up": 3,
@@ -908,17 +928,17 @@
       "direction": "all"
     },
     {
-      "rank": 5,
-      "ticker": "TLT",
+      "rank": 7,
+      "ticker": "NEM",
       "total": 3,
-      "as_up": 1,
-      "as_down": 2,
-      "last_horse": "Fed",
+      "as_up": 0,
+      "as_down": 3,
+      "last_horse": "Inflação",
       "band": "all",
       "direction": "all"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "ticker": "NOC",
       "total": 3,
       "as_up": 0,
@@ -928,7 +948,17 @@
       "direction": "all"
     },
     {
-      "rank": 7,
+      "rank": 9,
+      "ticker": "GS",
+      "total": 2,
+      "as_up": 2,
+      "as_down": 0,
+      "last_horse": "Fed",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 10,
       "ticker": "XLF",
       "total": 2,
       "as_up": 2,
@@ -938,7 +968,7 @@
       "direction": "all"
     },
     {
-      "rank": 8,
+      "rank": 11,
       "ticker": "AAPL",
       "total": 2,
       "as_up": 1,
@@ -948,7 +978,7 @@
       "direction": "all"
     },
     {
-      "rank": 9,
+      "rank": 12,
       "ticker": "BABA",
       "total": 2,
       "as_up": 1,
@@ -958,7 +988,17 @@
       "direction": "all"
     },
     {
-      "rank": 10,
+      "rank": 13,
+      "ticker": "GOLD",
+      "total": 2,
+      "as_up": 1,
+      "as_down": 1,
+      "last_horse": "Irão",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 14,
       "ticker": "MARA",
       "total": 2,
       "as_up": 0,
@@ -968,7 +1008,7 @@
       "direction": "all"
     },
     {
-      "rank": 11,
+      "rank": 15,
       "ticker": "AGCO",
       "total": 1,
       "as_up": 1,
@@ -978,7 +1018,7 @@
       "direction": "all"
     },
     {
-      "rank": 12,
+      "rank": 16,
       "ticker": "BITO",
       "total": 1,
       "as_up": 1,
@@ -988,7 +1028,7 @@
       "direction": "all"
     },
     {
-      "rank": 13,
+      "rank": 17,
       "ticker": "CLF",
       "total": 1,
       "as_up": 1,
@@ -998,27 +1038,7 @@
       "direction": "all"
     },
     {
-      "rank": 14,
-      "ticker": "GLD",
-      "total": 1,
-      "as_up": 1,
-      "as_down": 0,
-      "last_horse": "Irão",
-      "band": "all",
-      "direction": "all"
-    },
-    {
-      "rank": 15,
-      "ticker": "GS",
-      "total": 1,
-      "as_up": 1,
-      "as_down": 0,
-      "last_horse": "Fed",
-      "band": "all",
-      "direction": "all"
-    },
-    {
-      "rank": 16,
+      "rank": 18,
       "ticker": "MSTR",
       "total": 1,
       "as_up": 1,
@@ -1028,7 +1048,7 @@
       "direction": "all"
     },
     {
-      "rank": 17,
+      "rank": 19,
       "ticker": "SEEK",
       "total": 1,
       "as_up": 1,
@@ -1038,32 +1058,12 @@
       "direction": "all"
     },
     {
-      "rank": 18,
+      "rank": 20,
       "ticker": "DE",
       "total": 1,
       "as_up": 0,
       "as_down": 1,
       "last_horse": "Inflação",
-      "band": "all",
-      "direction": "all"
-    },
-    {
-      "rank": 19,
-      "ticker": "GOLD",
-      "total": 1,
-      "as_up": 0,
-      "as_down": 1,
-      "last_horse": "Irão",
-      "band": "all",
-      "direction": "all"
-    },
-    {
-      "rank": 20,
-      "ticker": "PDD",
-      "total": 1,
-      "as_up": 0,
-      "as_down": 1,
-      "last_horse": "Trump",
       "band": "all",
       "direction": "all"
     }
