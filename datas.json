@@ -1,46 +1,10 @@
 {
-  "updated_at": "2026-09-22T21:04:23+01:00",
+  "updated_at": "2026-09-22T21:07:24+01:00",
   "timezone": "Europe/Lisbon",
   "opens_count": 0,
-  "calendar_count": 1,
+  "calendar_count": 0,
   "opens_rows": [],
-  "calendar_rows": [
-    {
-      "event_date": "2026-10-22",
-      "date_label": "22/10",
-      "title": "Ryder to Release Third Quarter 2026 Earnings on October 22, 2026 - Yahoo Finance",
-      "horse": "Earnings",
-      "tickers": "MSFT / AAPL",
-      "ticker_up": "MSFT",
-      "ticker_down": "AAPL",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 50,
-      "range": "",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORjBZY1F3MEVEMHo4NjdCRmZVbTNsUGJVejdXQnNFYkVZb0VFaE1mVHB2YVlGaEZfN3o2eklNVmZ5aG5zd1VDNGwwVVJHRmxMakFSeGxMLWtDS3dERGdEcXcxMXFjeFBjNGxMODR5ZGZ4MlBua055VVE1RU9PQjFrNllqcGV1Z0dzaHlWcndXMVFUUFlrd2hvWlkwSGw3UQ?oc=5",
-      "source": "spam",
-      "note": "noise",
-      "rank": 1
-    }
-  ],
-  "count": 1,
-  "rows": [
-    {
-      "event_date": "2026-10-22",
-      "date_label": "22/10",
-      "title": "Ryder to Release Third Quarter 2026 Earnings on October 22, 2026 - Yahoo Finance",
-      "horse": "Earnings",
-      "tickers": "MSFT / AAPL",
-      "ticker_up": "MSFT",
-      "ticker_down": "AAPL",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 50,
-      "range": "",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORjBZY1F3MEVEMHo4NjdCRmZVbTNsUGJVejdXQnNFYkVZb0VFaE1mVHB2YVlGaEZfN3o2eklNVmZ5aG5zd1VDNGwwVVJHRmxMakFSeGxMLWtDS3dERGdEcXcxMXFjeFBjNGxMODR5ZGZ4MlBua055VVE1RU9PQjFrNllqcGV1Z0dzaHlWcndXMVFUUFlrd2hvWlkwSGw3UQ?oc=5",
-      "source": "spam",
-      "note": "noise",
-      "rank": 1
-    }
-  ]
+  "calendar_rows": [],
+  "count": 0,
+  "rows": []
 }
