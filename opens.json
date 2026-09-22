@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-22T04:12:59+01:00",
+  "updated_at": "2026-09-22T04:15:58+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "04:12",
+  "when_label": "04:15",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -37,12 +37,12 @@
         "id": 1934,
         "ticker": "XOM",
         "entry": 165.304,
-        "price": 158.3,
+        "price": 159.395,
         "qty": 0.060297,
         "notional": 9.9673,
         "pnl_pct": -0.02,
-        "pnl_eur": -0.4223201879999995,
-        "pnl_r": -0.97,
+        "pnl_eur": -0.3562949729999995,
+        "pnl_r": -0.82,
         "sl": 158.08,
         "tp1": 181.37,
         "tp2": 189.14,
@@ -247,12 +247,12 @@
         "id": 4712,
         "ticker": "CVX",
         "entry": 215.48,
-        "price": 203.71,
+        "price": 205.495,
         "qty": 0.046414,
         "notional": 10.0013,
-        "pnl_pct": -0.03,
-        "pnl_eur": -0.5462927799999991,
-        "pnl_r": -1.38,
+        "pnl_pct": -0.02,
+        "pnl_eur": -0.4634437899999993,
+        "pnl_r": -1.17,
         "sl": 206.98,
         "tp1": 226.21,
         "tp2": 232.62,
@@ -544,10 +544,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.24167687124999992,
-    "total_pnl_eur": -4.8335374249999985,
+    "total_pnl_pct": -0.23423316099999997,
+    "total_pnl_eur": -4.684663219999999,
     "bank_eur": 2000.0,
-    "equity_eur": 1995.17
+    "equity_eur": 1995.32
   },
   "tobias_scalper": {
     "rows": [],
