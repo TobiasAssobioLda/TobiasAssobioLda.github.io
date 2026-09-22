@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-22T06:46:13+01:00",
+  "updated_at": "2026-09-22T06:49:13+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "06:46",
+  "when_label": "06:49",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -487,12 +487,12 @@
         "id": 6820,
         "ticker": "CSCO",
         "entry": 110.654,
-        "price": 111.67,
+        "price": 111.7,
         "qty": 0.090379,
         "notional": 10.0008,
         "pnl_pct": 0.0,
-        "pnl_eur": 0.09182506400000048,
-        "pnl_r": 0.16,
+        "pnl_eur": 0.09453643400000059,
+        "pnl_r": 0.17,
         "sl": 104.47,
         "tp1": 114.56,
         "tp2": 117.93,
@@ -544,8 +544,8 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.25722167524999995,
-    "total_pnl_eur": -5.1444335049999985,
+    "total_pnl_pct": -0.25708610674999993,
+    "total_pnl_eur": -5.141722134999998,
     "bank_eur": 2000.0,
     "equity_eur": 1994.86
   },
