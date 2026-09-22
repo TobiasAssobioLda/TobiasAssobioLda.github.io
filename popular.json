@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T00:16:24+01:00",
+  "updated_at": "2026-09-23T00:19:26+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-18T21:00:00+01:00",
-      "to": "2026-09-23T00:16:24+01:00",
+      "to": "2026-09-23T00:19:26+01:00",
       "from_label": "18/09 21:00",
-      "to_label": "23/09 00:16",
+      "to_label": "23/09 00:19",
       "n_events": 228,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -232,7 +232,7 @@
       "to": "2026-09-23T14:15:00+01:00",
       "from_label": "22/09 21:00",
       "to_label": "23/09 14:15",
-      "n_events": 18,
+      "n_events": 20,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
@@ -310,6 +310,16 @@
         },
         {
           "rank": 8,
+          "ticker": "AVGO",
+          "total": 1,
+          "as_up": 1,
+          "as_down": 0,
+          "last_horse": "Chips",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 9,
           "ticker": "BABA",
           "total": 1,
           "as_up": 1,
@@ -319,7 +329,7 @@
           "direction": "all"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "ticker": "FSS",
           "total": 1,
           "as_up": 1,
@@ -329,7 +339,7 @@
           "direction": "all"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "ticker": "GD",
           "total": 1,
           "as_up": 1,
@@ -339,7 +349,7 @@
           "direction": "all"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "ticker": "GSK",
           "total": 1,
           "as_up": 1,
@@ -349,7 +359,7 @@
           "direction": "all"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "ticker": "MSFT",
           "total": 1,
           "as_up": 1,
@@ -359,7 +369,7 @@
           "direction": "all"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "ticker": "MSTR",
           "total": 1,
           "as_up": 1,
@@ -369,7 +379,27 @@
           "direction": "all"
         },
         {
-          "rank": 14,
+          "rank": 15,
+          "ticker": "TSM",
+          "total": 1,
+          "as_up": 1,
+          "as_down": 0,
+          "last_horse": "Trump",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 16,
+          "ticker": "ASML",
+          "total": 1,
+          "as_up": 0,
+          "as_down": 1,
+          "last_horse": "Trump",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 17,
           "ticker": "CVX",
           "total": 1,
           "as_up": 0,
@@ -379,7 +409,7 @@
           "direction": "all"
         },
         {
-          "rank": 15,
+          "rank": 18,
           "ticker": "EQNR",
           "total": 1,
           "as_up": 0,
@@ -389,7 +419,7 @@
           "direction": "all"
         },
         {
-          "rank": 16,
+          "rank": 19,
           "ticker": "GOOGL",
           "total": 1,
           "as_up": 0,
@@ -399,42 +429,12 @@
           "direction": "all"
         },
         {
-          "rank": 17,
+          "rank": 20,
           "ticker": "MARA",
           "total": 1,
           "as_up": 0,
           "as_down": 1,
           "last_horse": "Cripto",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 18,
-          "ticker": "PDD",
-          "total": 1,
-          "as_up": 0,
-          "as_down": 1,
-          "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 19,
-          "ticker": "RTX",
-          "total": 1,
-          "as_up": 0,
-          "as_down": 1,
-          "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 20,
-          "ticker": "SAP",
-          "total": 1,
-          "as_up": 0,
-          "as_down": 1,
-          "last_horse": "Trump",
           "band": "all",
           "direction": "all"
         }
@@ -445,9 +445,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-23T00:00:00+01:00",
-      "to": "2026-09-23T00:16:24+01:00",
+      "to": "2026-09-23T00:19:26+01:00",
       "from_label": "23/09 00:00",
-      "to_label": "23/09 00:16",
+      "to_label": "23/09 00:19",
       "n_events": 0,
       "top5_count": 0,
       "top6_20_count": 0,
