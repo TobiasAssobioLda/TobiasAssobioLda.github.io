@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-23T07:22:13+01:00",
+  "updated_at": "2026-09-23T07:25:14+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "07:22",
+  "when_label": "07:25",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -367,12 +367,12 @@
         "id": 5041,
         "ticker": "DKNG",
         "entry": 24.888,
-        "price": 22.035,
+        "price": 21.79,
         "qty": 0.401849,
         "notional": 10.0012,
         "pnl_pct": -0.06,
-        "pnl_eur": -1.1464751970000007,
-        "pnl_r": -1.35,
+        "pnl_eur": -1.244928202000001,
+        "pnl_r": -1.47,
         "sl": 22.78,
         "tp1": 27.47,
         "tp2": 29.04,
@@ -457,12 +457,12 @@
         "id": 6820,
         "ticker": "CSCO",
         "entry": 110.654,
-        "price": 105.86,
+        "price": 110.654,
         "qty": 0.090379,
         "notional": 10.0008,
-        "pnl_pct": -0.02,
-        "pnl_eur": -0.43327692599999973,
-        "pnl_r": -0.78,
+        "pnl_pct": 0.0,
+        "pnl_eur": 0.0,
+        "pnl_r": 0.0,
         "sl": 104.47,
         "tp1": 114.56,
         "tp2": 117.93,
@@ -604,10 +604,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.24000334149999977,
-    "total_pnl_eur": -4.800066829999995,
+    "total_pnl_pct": -0.2232621454499998,
+    "total_pnl_eur": -4.465242908999996,
     "bank_eur": 2000.0,
-    "equity_eur": 1995.2
+    "equity_eur": 1995.53
   },
   "tobias_scalper": {
     "rows": [],
