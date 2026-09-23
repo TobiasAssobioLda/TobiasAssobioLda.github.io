@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T01:04:27+01:00",
+  "updated_at": "2026-09-23T01:07:25+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-18T21:00:00+01:00",
-      "to": "2026-09-23T01:04:27+01:00",
+      "to": "2026-09-23T01:07:25+01:00",
       "from_label": "18/09 21:00",
-      "to_label": "23/09 01:04",
+      "to_label": "23/09 01:07",
       "n_events": 228,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -232,15 +232,15 @@
       "to": "2026-09-23T14:15:00+01:00",
       "from_label": "22/09 21:00",
       "to_label": "23/09 14:15",
-      "n_events": 23,
+      "n_events": 26,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
         {
           "rank": 1,
           "ticker": "GOLD",
-          "total": 4,
-          "as_up": 4,
+          "total": 5,
+          "as_up": 5,
           "as_down": 0,
           "last_horse": "Inflação",
           "band": "all",
@@ -249,19 +249,19 @@
         {
           "rank": 2,
           "ticker": "LMT",
-          "total": 4,
+          "total": 5,
           "as_up": 3,
-          "as_down": 1,
-          "last_horse": "Rússia",
+          "as_down": 2,
+          "last_horse": "Trump",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 3,
           "ticker": "NEM",
-          "total": 4,
+          "total": 5,
           "as_up": 0,
-          "as_down": 4,
+          "as_down": 5,
           "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
@@ -278,11 +278,11 @@
         },
         {
           "rank": 5,
-          "ticker": "XOM",
+          "ticker": "MSFT",
           "total": 3,
           "as_up": 3,
           "as_down": 0,
-          "last_horse": "Irão",
+          "last_horse": "Earnings",
           "band": "all",
           "direction": "all"
         }
@@ -290,6 +290,16 @@
       "top6_20": [
         {
           "rank": 6,
+          "ticker": "XOM",
+          "total": 3,
+          "as_up": 3,
+          "as_down": 0,
+          "last_horse": "Irão",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 7,
           "ticker": "MS",
           "total": 3,
           "as_up": 0,
@@ -299,7 +309,7 @@
           "direction": "all"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "ticker": "BABA",
           "total": 2,
           "as_up": 2,
@@ -309,17 +319,17 @@
           "direction": "all"
         },
         {
-          "rank": 8,
-          "ticker": "MSFT",
+          "rank": 9,
+          "ticker": "GD",
           "total": 2,
           "as_up": 2,
           "as_down": 0,
-          "last_horse": "AI",
+          "last_horse": "Trump",
           "band": "all",
           "direction": "all"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "ticker": "GOOGL",
           "total": 2,
           "as_up": 0,
@@ -329,7 +339,7 @@
           "direction": "all"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "ticker": "NOC",
           "total": 2,
           "as_up": 0,
@@ -339,7 +349,7 @@
           "direction": "all"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "ticker": "PDD",
           "total": 2,
           "as_up": 0,
@@ -349,7 +359,7 @@
           "direction": "all"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "ticker": "AVGO",
           "total": 1,
           "as_up": 1,
@@ -359,22 +369,12 @@
           "direction": "all"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "ticker": "FSS",
           "total": 1,
           "as_up": 1,
           "as_down": 0,
           "last_horse": "Trump",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 14,
-          "ticker": "GD",
-          "total": 1,
-          "as_up": 1,
-          "as_down": 0,
-          "last_horse": "Irão",
           "band": "all",
           "direction": "all"
         },
@@ -410,6 +410,16 @@
         },
         {
           "rank": 18,
+          "ticker": "AAPL",
+          "total": 1,
+          "as_up": 0,
+          "as_down": 1,
+          "last_horse": "Earnings",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 19,
           "ticker": "ASML",
           "total": 1,
           "as_up": 0,
@@ -419,22 +429,12 @@
           "direction": "all"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "ticker": "CVX",
           "total": 1,
           "as_up": 0,
           "as_down": 1,
           "last_horse": "Irão",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 20,
-          "ticker": "EQNR",
-          "total": 1,
-          "as_up": 0,
-          "as_down": 1,
-          "last_horse": "Rússia",
           "band": "all",
           "direction": "all"
         }
@@ -445,9 +445,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-23T00:00:00+01:00",
-      "to": "2026-09-23T01:04:27+01:00",
+      "to": "2026-09-23T01:07:25+01:00",
       "from_label": "23/09 00:00",
-      "to_label": "23/09 01:04",
+      "to_label": "23/09 01:07",
       "n_events": 0,
       "top5_count": 0,
       "top6_20_count": 0,
