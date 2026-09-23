@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T07:55:24+01:00",
+  "updated_at": "2026-09-23T07:58:23+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-18T21:00:00+01:00",
-      "to": "2026-09-23T07:55:24+01:00",
+      "to": "2026-09-23T07:58:23+01:00",
       "from_label": "18/09 21:00",
-      "to_label": "23/09 07:55",
+      "to_label": "23/09 07:58",
       "n_events": 228,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -232,7 +232,7 @@
       "to": "2026-09-23T14:15:00+01:00",
       "from_label": "22/09 21:00",
       "to_label": "23/09 14:15",
-      "n_events": 60,
+      "n_events": 61,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
@@ -320,21 +320,21 @@
         },
         {
           "rank": 9,
-          "ticker": "GLD",
+          "ticker": "MSFT",
           "total": 4,
-          "as_up": 0,
-          "as_down": 4,
-          "last_horse": "Irão",
+          "as_up": 4,
+          "as_down": 0,
+          "last_horse": "Earnings",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 10,
-          "ticker": "MSFT",
-          "total": 3,
-          "as_up": 3,
-          "as_down": 0,
-          "last_horse": "Earnings",
+          "ticker": "GLD",
+          "total": 4,
+          "as_up": 0,
+          "as_down": 4,
+          "last_horse": "Irão",
           "band": "all",
           "direction": "all"
         },
@@ -410,6 +410,16 @@
         },
         {
           "rank": 18,
+          "ticker": "AAPL",
+          "total": 2,
+          "as_up": 0,
+          "as_down": 2,
+          "last_horse": "Earnings",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 19,
           "ticker": "ASML",
           "total": 2,
           "as_up": 0,
@@ -419,22 +429,12 @@
           "direction": "all"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "ticker": "EQNR",
           "total": 2,
           "as_up": 0,
           "as_down": 2,
           "last_horse": "Rússia",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 20,
-          "ticker": "GOOGL",
-          "total": 2,
-          "as_up": 0,
-          "as_down": 2,
-          "last_horse": "AI",
           "band": "all",
           "direction": "all"
         }
@@ -445,9 +445,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-23T00:00:00+01:00",
-      "to": "2026-09-23T07:55:24+01:00",
+      "to": "2026-09-23T07:58:23+01:00",
       "from_label": "23/09 00:00",
-      "to_label": "23/09 07:55",
+      "to_label": "23/09 07:58",
       "n_events": 0,
       "top5_count": 0,
       "top6_20_count": 0,
