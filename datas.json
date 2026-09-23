@@ -1,10 +1,46 @@
 {
-  "updated_at": "2026-09-23T13:21:54+01:00",
+  "updated_at": "2026-09-23T13:24:52+01:00",
   "timezone": "Europe/Lisbon",
   "opens_count": 0,
-  "calendar_count": 0,
+  "calendar_count": 1,
   "opens_rows": [],
-  "calendar_rows": [],
-  "count": 0,
-  "rows": []
+  "calendar_rows": [
+    {
+      "event_date": "2026-09-23",
+      "date_label": "23/09",
+      "title": "Silver price today , Wednesday , September 23 , 2026 : Silver prices settle ahead of key U . S .- China summit",
+      "horse": "Prata",
+      "tickers": "AG / HL",
+      "ticker_up": "AG",
+      "ticker_down": "HL",
+      "action": "alerta",
+      "status": "candidate",
+      "score": 65,
+      "range": "",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-wednesday-september-23-2026-silver-prices-settle-ahead-of-key-us-china-summit-111845856.html",
+      "source": "spam",
+      "note": "summit+date-hint",
+      "rank": 1
+    }
+  ],
+  "count": 1,
+  "rows": [
+    {
+      "event_date": "2026-09-23",
+      "date_label": "23/09",
+      "title": "Silver price today , Wednesday , September 23 , 2026 : Silver prices settle ahead of key U . S .- China summit",
+      "horse": "Prata",
+      "tickers": "AG / HL",
+      "ticker_up": "AG",
+      "ticker_down": "HL",
+      "action": "alerta",
+      "status": "candidate",
+      "score": 65,
+      "range": "",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-wednesday-september-23-2026-silver-prices-settle-ahead-of-key-us-china-summit-111845856.html",
+      "source": "spam",
+      "note": "summit+date-hint",
+      "rank": 1
+    }
+  ]
 }
