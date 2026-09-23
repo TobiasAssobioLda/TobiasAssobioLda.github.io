@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-23T04:58:14+01:00",
+  "updated_at": "2026-09-23T05:01:13+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "04:58",
+  "when_label": "05:01",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -427,12 +427,12 @@
         "id": 5380,
         "ticker": "ACHR",
         "entry": 5.3,
-        "price": 5.68,
+        "price": 5.7,
         "qty": 1.888574,
         "notional": 10.0094,
         "pnl_pct": 0.04,
-        "pnl_eur": 0.7176581199999998,
-        "pnl_r": 1.23,
+        "pnl_eur": 0.7554296000000007,
+        "pnl_r": 1.29,
         "sl": 4.99,
         "tp1": 6.02,
         "tp2": 6.37,
@@ -604,10 +604,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.23463681599999983,
-    "total_pnl_eur": -4.692736319999996,
+    "total_pnl_pct": -0.23274824199999972,
+    "total_pnl_eur": -4.6549648399999946,
     "bank_eur": 2000.0,
-    "equity_eur": 1995.31
+    "equity_eur": 1995.35
   },
   "tobias_scalper": {
     "rows": [],
