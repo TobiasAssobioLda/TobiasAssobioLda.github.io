@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-23T03:34:16+01:00",
+  "updated_at": "2026-09-23T03:37:22+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "03:34",
+  "when_label": "03:37",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -247,12 +247,12 @@
         "id": 4713,
         "ticker": "DIA",
         "entry": 519.302,
-        "price": 518.15,
+        "price": 518.32,
         "qty": 0.019255,
         "notional": 9.9992,
         "pnl_pct": -0.0,
-        "pnl_eur": -0.02218176000000084,
-        "pnl_r": -0.09,
+        "pnl_eur": -0.018908409999999442,
+        "pnl_r": -0.08,
         "sl": 506.77,
         "tp1": 545.75,
         "tp2": 558.75,
@@ -427,12 +427,12 @@
         "id": 5380,
         "ticker": "ACHR",
         "entry": 5.3,
-        "price": 5.7,
+        "price": 5.68,
         "qty": 1.888574,
         "notional": 10.0094,
         "pnl_pct": 0.04,
-        "pnl_eur": 0.7554296000000007,
-        "pnl_r": 1.29,
+        "pnl_eur": 0.7176581199999998,
+        "pnl_r": 1.23,
         "sl": 4.99,
         "tp1": 6.02,
         "tp2": 6.37,
@@ -604,10 +604,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.23477875999999986,
-    "total_pnl_eur": -4.695575199999997,
+    "total_pnl_pct": -0.23650366649999982,
+    "total_pnl_eur": -4.730073329999996,
     "bank_eur": 2000.0,
-    "equity_eur": 1995.3
+    "equity_eur": 1995.27
   },
   "tobias_scalper": {
     "rows": [],
