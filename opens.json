@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-23T22:10:48+01:00",
+  "updated_at": "2026-09-23T22:15:20+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "22:10",
+  "when_label": "22:13",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -307,12 +307,12 @@
         "id": 5015,
         "ticker": "AAL",
         "entry": 12.708,
-        "price": 13.35,
+        "price": 13.355,
         "qty": 0.786473,
         "notional": 9.9945,
         "pnl_pct": 0.03,
-        "pnl_eur": 0.5049156659999996,
-        "pnl_r": 2.94,
+        "pnl_eur": 0.5088480310000002,
+        "pnl_r": 2.97,
         "sl": 12.49,
         "tp1": 14.15,
         "tp2": 14.71,
@@ -547,12 +547,12 @@
         "id": 8159,
         "ticker": "NICE",
         "entry": 105.954,
-        "price": 98.61,
+        "price": 117.835,
         "qty": 0.188732,
         "notional": 19.9969,
-        "pnl_pct": -0.07,
-        "pnl_eur": -1.386047807999999,
-        "pnl_r": -1.32,
+        "pnl_pct": 0.11,
+        "pnl_eur": 2.242324892,
+        "pnl_r": 2.14,
         "sl": 100.4,
         "tp1": 139.32,
         "tp2": 152.3,
@@ -724,10 +724,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.5504704647850001,
-    "total_pnl_eur": -11.009409295700003,
+    "total_pnl_pct": -0.3688552115350002,
+    "total_pnl_eur": -7.377104230700005,
     "bank_eur": 2000.0,
-    "equity_eur": 1988.99
+    "equity_eur": 1992.62
   },
   "tobias_scalper": {
     "rows": [],
