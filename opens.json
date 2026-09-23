@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-23T11:09:47+01:00",
+  "updated_at": "2026-09-23T11:12:47+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "11:09",
+  "when_label": "11:12",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -547,12 +547,12 @@
         "id": 8159,
         "ticker": "NICE",
         "entry": 105.954,
-        "price": 117.55,
+        "price": 119.0,
         "qty": 0.188732,
         "notional": 19.9969,
-        "pnl_pct": 0.11,
-        "pnl_eur": 2.188536272000001,
-        "pnl_r": 2.09,
+        "pnl_pct": 0.12,
+        "pnl_eur": 2.462197672000001,
+        "pnl_r": 2.35,
         "sl": 100.4,
         "tp1": 139.32,
         "tp2": 152.3,
@@ -604,10 +604,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.24537735562000007,
-    "total_pnl_eur": -4.907547112400001,
+    "total_pnl_pct": -0.23169428562000005,
+    "total_pnl_eur": -4.633885712400001,
     "bank_eur": 2000.0,
-    "equity_eur": 1995.09
+    "equity_eur": 1995.37
   },
   "tobias_scalper": {
     "rows": [],
