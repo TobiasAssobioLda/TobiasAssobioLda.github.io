@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T19:51:38+01:00",
+  "updated_at": "2026-09-27T20:51:43+01:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,9 +13,9 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-09-25T21:00:00+01:00",
-      "to": "2026-09-27T19:51:38+01:00",
+      "to": "2026-09-27T20:51:43+01:00",
       "from_label": "25/09 21:00",
-      "to_label": "27/09 19:51",
+      "to_label": "27/09 20:51",
       "n_events": 58,
       "top5_count": 5,
       "top6_20_count": 15,
@@ -232,7 +232,7 @@
       "to": "2026-09-28T14:15:00+01:00",
       "from_label": "25/09 21:00",
       "to_label": "28/09 14:15",
-      "n_events": 67,
+      "n_events": 69,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
@@ -258,6 +258,16 @@
         },
         {
           "rank": 3,
+          "ticker": "GOLD",
+          "total": 9,
+          "as_up": 9,
+          "as_down": 0,
+          "last_horse": "Inflação",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 4,
           "ticker": "CVX",
           "total": 9,
           "as_up": 0,
@@ -267,21 +277,11 @@
           "direction": "all"
         },
         {
-          "rank": 4,
-          "ticker": "GOLD",
-          "total": 8,
-          "as_up": 8,
-          "as_down": 0,
-          "last_horse": "Inflação",
-          "band": "all",
-          "direction": "all"
-        },
-        {
           "rank": 5,
           "ticker": "NEM",
-          "total": 8,
+          "total": 9,
           "as_up": 0,
-          "as_down": 8,
+          "as_down": 9,
           "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
@@ -445,9 +445,9 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-09-27T00:00:00+01:00",
-      "to": "2026-09-27T19:51:38+01:00",
+      "to": "2026-09-27T20:51:43+01:00",
       "from_label": "27/09 00:00",
-      "to_label": "27/09 19:51",
+      "to_label": "27/09 20:51",
       "n_events": 37,
       "top5_count": 5,
       "top6_20_count": 14,
