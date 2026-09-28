@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-28T17:33:06+01:00",
+  "updated_at": "2026-09-28T17:36:06+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "17:32",
+  "when_label": "17:35",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -87,6 +87,32 @@
         "first_seen": "2026-09-28T16:22:36.555006+00:00",
         "status": "wait",
         "lane": "out_market"
+      },
+      {
+        "ticker": "NANO.PA",
+        "book": "tobias_swing",
+        "horse": "FreeHunt",
+        "impact": 99,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · Europa fechada — Europa fechada (pos-sessao)",
+        "next_check": "2026-09-28T16:48:58.333023+00:00",
+        "first_seen": "2026-09-28T16:33:58.333023+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "NANO.PA",
+        "book": "tobias_swing",
+        "horse": "FreeHunt",
+        "impact": 99,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · Europa fechada — Europa fechada (pos-sessao)",
+        "next_check": "2026-09-28T16:49:05.481596+00:00",
+        "first_seen": "2026-09-28T16:34:05.481596+00:00",
+        "status": "wait",
+        "lane": "out_market"
       }
     ],
     "wait_window": [],
@@ -114,6 +140,32 @@
         "reason": "OUT · Europa fechada — Europa fechada (pos-sessao)",
         "next_check": "2026-09-28T16:37:36.555006+00:00",
         "first_seen": "2026-09-28T16:22:36.555006+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "NANO.PA",
+        "book": "tobias_swing",
+        "horse": "FreeHunt",
+        "impact": 99,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · Europa fechada — Europa fechada (pos-sessao)",
+        "next_check": "2026-09-28T16:48:58.333023+00:00",
+        "first_seen": "2026-09-28T16:33:58.333023+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "NANO.PA",
+        "book": "tobias_swing",
+        "horse": "FreeHunt",
+        "impact": 99,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · Europa fechada — Europa fechada (pos-sessao)",
+        "next_check": "2026-09-28T16:49:05.481596+00:00",
+        "first_seen": "2026-09-28T16:34:05.481596+00:00",
         "status": "wait",
         "lane": "out_market"
       }
