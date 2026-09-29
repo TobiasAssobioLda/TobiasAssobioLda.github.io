@@ -1,9 +1,9 @@
 {
-  "day": "2026-09-28",
-  "published_at": "2026-09-29T20:57:34+01:00",
+  "day": "2026-09-29",
+  "published_at": "2026-09-29T21:00:34+01:00",
   "timezone": "Europe/Lisbon",
   "cutoff": "fecho-NY",
-  "window": "2026-09-28T20:00 → 2026-09-29T20:00 UTC",
+  "window": "2026-09-29T20:00 → 2026-09-30T20:00 UTC",
   "max_items": 20,
   "count": 0,
   "masthead": "O Rumors",
@@ -12,6 +12,7 @@
   "lead_uid": "",
   "items": [],
   "archive_days": [
+    "2026-09-29",
     "2026-09-28",
     "2026-09-27",
     "2026-09-25",
