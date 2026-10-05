@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-05T09:46:13+01:00",
+  "updated_at": "2026-10-05T09:49:06+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "09:45",
+  "when_label": "09:48",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -127,11 +127,11 @@
         "id": 3225,
         "ticker": "TER",
         "entry": 390.374,
-        "price": 447.0,
+        "price": 447.02,
         "qty": 0.025706,
         "notional": 10.035,
         "pnl_pct": 0.07,
-        "pnl_eur": 1.4556279559999994,
+        "pnl_eur": 1.456142075999999,
         "pnl_r": 3.16,
         "sl": 372.45,
         "tp1": 473.04,
@@ -184,8 +184,8 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.13046575959999987,
-    "total_pnl_eur": 2.6093151919999973,
+    "total_pnl_pct": 0.13049146559999986,
+    "total_pnl_eur": 2.6098293119999973,
     "bank_eur": 2000.0,
     "equity_eur": 2002.61
   },
