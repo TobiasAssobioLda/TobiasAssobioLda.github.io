@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-05T13:04:06+01:00",
+  "updated_at": "2026-10-05T13:07:06+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "13:03",
+  "when_label": "13:06",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -67,11 +67,11 @@
         "id": 2926,
         "ticker": "TENB",
         "entry": 38.316,
-        "price": 37.1,
+        "price": 37.12,
         "qty": 0.261917,
         "notional": 10.0356,
         "pnl_pct": -0.02,
-        "pnl_eur": -0.3184910720000003,
+        "pnl_eur": -0.3132527320000013,
         "pnl_r": -0.16,
         "sl": 30.73,
         "tp1": 40.59,
@@ -157,12 +157,12 @@
         "id": 3736,
         "ticker": "SRAD",
         "entry": 11.706,
-        "price": 11.96,
+        "price": 11.95,
         "qty": 0.854701,
         "notional": 10.0051,
         "pnl_pct": 0.01,
-        "pnl_eur": 0.21709405400000115,
-        "pnl_r": 0.27,
+        "pnl_eur": 0.20854704399999982,
+        "pnl_r": 0.26,
         "sl": 10.76,
         "tp1": 13.58,
         "tp2": 14.52,
@@ -184,10 +184,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.13889846809999984,
-    "total_pnl_eur": 2.777969361999997,
+    "total_pnl_pct": 0.13873303459999972,
+    "total_pnl_eur": 2.7746606919999945,
     "bank_eur": 2000.0,
-    "equity_eur": 2002.78
+    "equity_eur": 2002.77
   },
   "tobias_scalper": {
     "rows": [],
