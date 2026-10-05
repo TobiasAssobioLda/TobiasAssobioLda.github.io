@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-05T14:13:06+01:00",
+  "updated_at": "2026-10-05T14:16:17+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "14:12",
+  "when_label": "14:15",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -67,12 +67,12 @@
         "id": 2926,
         "ticker": "TENB",
         "entry": 38.316,
-        "price": 37.3,
+        "price": 37.24,
         "qty": 0.261917,
         "notional": 10.0356,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.2661076720000014,
-        "pnl_r": -0.13,
+        "pnl_eur": -0.28182269200000015,
+        "pnl_r": -0.14,
         "sl": 30.73,
         "tp1": 40.59,
         "tp2": 43.87,
@@ -184,10 +184,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.11179270113999971,
-    "total_pnl_eur": 2.235854022799994,
+    "total_pnl_pct": 0.11100695013999977,
+    "total_pnl_eur": 2.2201390027999954,
     "bank_eur": 2000.0,
-    "equity_eur": 2002.24
+    "equity_eur": 2002.22
   },
   "tobias_scalper": {
     "rows": [],
