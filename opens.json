@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-05T10:01:12+01:00",
+  "updated_at": "2026-10-05T10:04:06+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "10:00",
+  "when_label": "10:03",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -37,11 +37,11 @@
         "id": 2925,
         "ticker": "TEM",
         "entry": 66.712,
-        "price": 77.0,
+        "price": 76.76,
         "qty": 0.149858,
         "notional": 9.9973,
         "pnl_pct": 0.08,
-        "pnl_eur": 1.5417391039999995,
+        "pnl_eur": 1.5057731840000002,
         "pnl_r": 0.0,
         "sl": 74.17,
         "tp1": 103.69,
@@ -184,10 +184,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.13505669159999992,
-    "total_pnl_eur": 2.7011338319999987,
+    "total_pnl_pct": 0.13325839559999997,
+    "total_pnl_eur": 2.6651679119999994,
     "bank_eur": 2000.0,
-    "equity_eur": 2002.7
+    "equity_eur": 2002.67
   },
   "tobias_scalper": {
     "rows": [],
