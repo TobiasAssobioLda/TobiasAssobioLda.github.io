@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-07T18:58:12+01:00",
+  "updated_at": "2026-10-07T19:01:11+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "18:58",
+  "when_label": "19:01",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -37,12 +37,12 @@
         "id": 2926,
         "ticker": "TENB",
         "entry": 38.316,
-        "price": 38.99,
+        "price": 39.125,
         "qty": 0.261917,
         "notional": 10.0356,
         "pnl_pct": 0.01,
-        "pnl_eur": 0.17653205799999988,
-        "pnl_r": 0.09,
+        "pnl_eur": 0.21189085299999935,
+        "pnl_r": 0.11,
         "sl": 30.73,
         "tp1": 40.59,
         "tp2": 43.87,
@@ -97,12 +97,12 @@
         "id": 3225,
         "ticker": "TER",
         "entry": 390.374,
-        "price": 410.94,
+        "price": 411.18,
         "qty": 0.025706,
         "notional": 10.035,
         "pnl_pct": 0.03,
-        "pnl_eur": 0.5286695959999993,
-        "pnl_r": 1.15,
+        "pnl_eur": 0.5348390359999996,
+        "pnl_r": 1.16,
         "sl": 372.45,
         "tp1": 473.04,
         "tp2": 506.57,
@@ -154,10 +154,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.06991491739999987,
-    "total_pnl_eur": 1.3982983479999973,
+    "total_pnl_pct": 0.07199132914999984,
+    "total_pnl_eur": 1.4398265829999968,
     "bank_eur": 2000.0,
-    "equity_eur": 2001.4
+    "equity_eur": 2001.44
   },
   "tobias_scalper": {
     "rows": [],
