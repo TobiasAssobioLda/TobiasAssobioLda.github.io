@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-07T20:58:11+01:00",
+  "updated_at": "2026-10-07T21:01:11+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "20:58",
+  "when_label": "21:01",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -37,11 +37,11 @@
         "id": 2926,
         "ticker": "TENB",
         "entry": 38.316,
-        "price": 38.95,
+        "price": 38.94,
         "qty": 0.261917,
         "notional": 10.0356,
         "pnl_pct": 0.01,
-        "pnl_eur": 0.1660553780000001,
+        "pnl_eur": 0.16343620799999875,
         "pnl_r": 0.08,
         "sl": 30.73,
         "tp1": 40.59,
@@ -97,12 +97,12 @@
         "id": 3225,
         "ticker": "TER",
         "entry": 390.374,
-        "price": 412.2,
+        "price": 411.78,
         "qty": 0.025706,
         "notional": 10.035,
         "pnl_pct": 0.03,
-        "pnl_eur": 0.5610591559999991,
-        "pnl_r": 1.22,
+        "pnl_eur": 0.5502626359999987,
+        "pnl_r": 1.19,
         "sl": 372.45,
         "tp1": 473.04,
         "tp2": 506.57,
@@ -127,12 +127,12 @@
         "id": 3736,
         "ticker": "SRAD",
         "entry": 11.706,
-        "price": 12.09,
+        "price": 12.06,
         "qty": 0.854701,
         "notional": 10.0051,
         "pnl_pct": 0.02,
-        "pnl_eur": 0.3282051840000003,
-        "pnl_r": 0.41,
+        "pnl_eur": 0.30256415400000086,
+        "pnl_r": 0.37,
         "sl": 10.76,
         "tp1": 13.58,
         "tp2": 14.52,
@@ -154,10 +154,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.07170089789999978,
-    "total_pnl_eur": 1.4340179579999957,
+    "total_pnl_pct": 0.06974806189999971,
+    "total_pnl_eur": 1.3949612379999945,
     "bank_eur": 2000.0,
-    "equity_eur": 2001.43
+    "equity_eur": 2001.39
   },
   "tobias_scalper": {
     "rows": [],
@@ -182,9 +182,37 @@
   },
   "possible": {
     "quase": [],
-    "out_market": [],
+    "out_market": [
+      {
+        "ticker": "GGON",
+        "book": "week1_free2",
+        "horse": "FreeHunt",
+        "impact": 99,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
+        "next_check": "2026-10-07T20:15:14.046634+00:00",
+        "first_seen": "2026-10-07T20:00:14.046634+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      }
+    ],
     "wait_window": [],
-    "rows": [],
+    "rows": [
+      {
+        "ticker": "GGON",
+        "book": "week1_free2",
+        "horse": "FreeHunt",
+        "impact": 99,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
+        "next_check": "2026-10-07T20:15:14.046634+00:00",
+        "first_seen": "2026-10-07T20:00:14.046634+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      }
+    ],
     "day": "2026-10-07",
     "retry_min": 15,
     "max_tries": 6
