@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-12T15:27:57+01:00",
+  "updated_at": "2026-10-12T15:30:57+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "15:27",
+  "when_label": "15:30",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -37,12 +37,12 @@
         "id": 2927,
         "ticker": "TLS",
         "entry": 4.23,
-        "price": 4.36,
+        "price": 4.35,
         "qty": 4.733728,
         "notional": 20.0237,
         "pnl_pct": 0.03,
-        "pnl_eur": 0.6153846399999995,
-        "pnl_r": 0.28,
+        "pnl_eur": 0.5680473599999963,
+        "pnl_r": 0.26,
         "sl": 3.77,
         "tp1": 4.7,
         "tp2": 5.01,
@@ -67,12 +67,12 @@
         "id": 3225,
         "ticker": "TER",
         "entry": 390.374,
-        "price": 387.85,
+        "price": 386.47,
         "qty": 0.025706,
         "notional": 10.035,
-        "pnl_pct": -0.0,
-        "pnl_eur": -0.06488194400000002,
-        "pnl_r": -0.14,
+        "pnl_pct": -0.01,
+        "pnl_eur": -0.10035622399999991,
+        "pnl_r": -0.22,
         "sl": 372.45,
         "tp1": 473.04,
         "tp2": 506.57,
@@ -124,10 +124,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.06231146549999998,
-    "total_pnl_eur": 1.2462293099999995,
+    "total_pnl_pct": 0.05817088749999984,
+    "total_pnl_eur": 1.1634177499999967,
     "bank_eur": 2000.0,
-    "equity_eur": 2001.25
+    "equity_eur": 2001.16
   },
   "tobias_scalper": {
     "rows": [],
