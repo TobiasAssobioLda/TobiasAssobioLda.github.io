@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-12T16:24:57+01:00",
+  "updated_at": "2026-10-12T16:27:57+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "16:24",
+  "when_label": "16:27",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -67,11 +67,11 @@
         "id": 3225,
         "ticker": "TER",
         "entry": 390.374,
-        "price": 383.39,
+        "price": 383.375,
         "qty": 0.025706,
         "notional": 10.035,
         "pnl_pct": -0.01,
-        "pnl_eur": -0.17953070400000096,
+        "pnl_eur": -0.17991629400000062,
         "pnl_r": -0.39,
         "sl": 372.45,
         "tp1": 473.04,
@@ -97,12 +97,12 @@
         "id": 3736,
         "ticker": "SRAD",
         "entry": 11.706,
-        "price": 12.49,
+        "price": 12.515,
         "qty": 0.854701,
         "notional": 10.0051,
         "pnl_pct": 0.03,
-        "pnl_eur": 0.6700855840000006,
-        "pnl_r": 0.83,
+        "pnl_eur": 0.6914531090000009,
+        "pnl_r": 0.86,
         "sl": 10.76,
         "tp1": 13.58,
         "tp2": 14.52,
@@ -124,10 +124,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.03517863199999997,
-    "total_pnl_eur": 0.7035726399999993,
+    "total_pnl_pct": 0.03622772875,
+    "total_pnl_eur": 0.724554575,
     "bank_eur": 2000.0,
-    "equity_eur": 2000.7
+    "equity_eur": 2000.72
   },
   "tobias_scalper": {
     "rows": [],
