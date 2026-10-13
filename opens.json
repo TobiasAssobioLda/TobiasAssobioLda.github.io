@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-13T19:03:28+01:00",
+  "updated_at": "2026-10-13T19:06:30+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "19:03",
+  "when_label": "19:06",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -37,12 +37,12 @@
         "id": 2927,
         "ticker": "TLS",
         "entry": 4.23,
-        "price": 4.405,
+        "price": 4.41,
         "qty": 4.733728,
         "notional": 20.0237,
         "pnl_pct": 0.04,
-        "pnl_eur": 0.8284023999999992,
-        "pnl_r": 0.38,
+        "pnl_eur": 0.8520710399999987,
+        "pnl_r": 0.39,
         "sl": 3.77,
         "tp1": 4.7,
         "tp2": 5.01,
@@ -94,10 +94,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.07663380119999996,
-    "total_pnl_eur": 1.5326760239999992,
+    "total_pnl_pct": 0.07781723319999993,
+    "total_pnl_eur": 1.5563446639999987,
     "bank_eur": 2000.0,
-    "equity_eur": 2001.53
+    "equity_eur": 2001.56
   },
   "tobias_scalper": {
     "rows": [],
