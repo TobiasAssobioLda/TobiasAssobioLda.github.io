@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-10-13T15:42:40+01:00",
+  "updated_at": "2026-10-13T15:45:45+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "15:42",
+  "when_label": "15:45",
   "title": "Full Report · Tobias",
   "note": "Todos os fechos · TP no topo · treino Tobias",
   "stats": {
-    "n": 173,
+    "n": 174,
     "tp": 1,
-    "sl": 8,
+    "sl": 9,
     "out": 164,
     "correto": 12,
-    "erro": 18,
-    "trainable": 30,
-    "realized_eur": -182.5,
-    "realized_r": -8.48
+    "erro": 19,
+    "trainable": 31,
+    "realized_eur": -183.0,
+    "realized_r": -9.57
   },
   "rows": [
     {
@@ -36,6 +36,28 @@
       "exit_reason": "SAIDA TP1",
       "opened_at": "2026-09-29T14:47:52.081608+00:00",
       "closed_at": "2026-10-09T16:32:24.281330+00:00",
+      "news_hook": "OUT · EUA fechado — EUA abre as 14:30"
+    },
+    {
+      "id": 3225,
+      "book": "tobias_swing",
+      "book_label": "Tobias Swing",
+      "ticker": "TER",
+      "horse": "FreeHunt",
+      "kind": "sl",
+      "label": "ERRO",
+      "entry": 390.374,
+      "exit": 370.79,
+      "sl": 372.45,
+      "tp1": 473.04,
+      "pnl_eur": -0.5,
+      "pnl_pct": -5.02,
+      "pnl_r": -1.09,
+      "corr": 1.01,
+      "impact": 99,
+      "exit_reason": "SAIDA SL",
+      "opened_at": "2026-09-29T16:07:44.745874+00:00",
+      "closed_at": "2026-10-13T14:43:41.324678+00:00",
       "news_hook": "OUT · EUA fechado — EUA abre as 14:30"
     },
     {
