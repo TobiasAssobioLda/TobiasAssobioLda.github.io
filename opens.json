@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-12T21:42:57+01:00",
+  "updated_at": "2026-10-13T15:30:27+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "21:42",
+  "when_label": "15:30",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -37,12 +37,12 @@
         "id": 2927,
         "ticker": "TLS",
         "entry": 4.23,
-        "price": 4.38,
+        "price": 4.42,
         "qty": 4.733728,
         "notional": 20.0237,
         "pnl_pct": 0.04,
-        "pnl_eur": 0.7100591999999974,
-        "pnl_r": 0.33,
+        "pnl_eur": 0.8994083199999977,
+        "pnl_r": 0.41,
         "sl": 3.77,
         "tp1": 4.7,
         "tp2": 5.01,
@@ -67,12 +67,12 @@
         "id": 3225,
         "ticker": "TER",
         "entry": 390.374,
-        "price": 383.85,
+        "price": 371.255,
         "qty": 0.025706,
         "notional": 10.035,
-        "pnl_pct": -0.01,
-        "pnl_eur": -0.16770594400000002,
-        "pnl_r": -0.36,
+        "pnl_pct": -0.02,
+        "pnl_eur": -0.4914730140000007,
+        "pnl_r": -1.07,
         "sl": 372.45,
         "tp1": 473.04,
         "tp2": 506.57,
@@ -124,10 +124,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.06831425099999988,
-    "total_pnl_eur": 1.3662850199999976,
+    "total_pnl_pct": 0.061593353499999864,
+    "total_pnl_eur": 1.2318670699999974,
     "bank_eur": 2000.0,
-    "equity_eur": 2001.37
+    "equity_eur": 2001.23
   },
   "tobias_scalper": {
     "rows": [],
@@ -152,38 +152,10 @@
   },
   "possible": {
     "quase": [],
-    "out_market": [
-      {
-        "ticker": "GGON",
-        "book": "week1_free2",
-        "horse": "FreeHunt",
-        "impact": 99,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-10-12T20:15:28.280802+00:00",
-        "first_seen": "2026-10-12T20:00:28.280802+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      }
-    ],
+    "out_market": [],
     "wait_window": [],
-    "rows": [
-      {
-        "ticker": "GGON",
-        "book": "week1_free2",
-        "horse": "FreeHunt",
-        "impact": 99,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-10-12T20:15:28.280802+00:00",
-        "first_seen": "2026-10-12T20:00:28.280802+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      }
-    ],
-    "day": "2026-10-12",
+    "rows": [],
+    "day": "2026-10-13",
     "retry_min": 15,
     "max_tries": 6
   }
