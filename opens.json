@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-14T15:20:42+01:00",
+  "updated_at": "2026-10-14T15:23:43+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "15:20",
+  "when_label": "15:23",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -67,12 +67,12 @@
         "id": 3736,
         "ticker": "SRAD",
         "entry": 11.706,
-        "price": 12.0,
+        "price": 11.97,
         "qty": 0.854701,
         "notional": 10.0051,
         "pnl_pct": 0.01,
-        "pnl_eur": 0.2512820940000004,
-        "pnl_r": 0.31,
+        "pnl_eur": 0.22564106400000097,
+        "pnl_r": 0.28,
         "sl": 10.76,
         "tp1": 13.58,
         "tp2": 14.52,
@@ -94,10 +94,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.016114400699999944,
-    "total_pnl_eur": 0.3222880139999989,
+    "total_pnl_pct": 0.014832349199999973,
+    "total_pnl_eur": 0.29664698399999945,
     "bank_eur": 2000.0,
-    "equity_eur": 2000.32
+    "equity_eur": 2000.3
   },
   "tobias_scalper": {
     "rows": [],
