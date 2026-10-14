@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-14T21:02:33+01:00",
+  "updated_at": "2026-10-14T21:05:35+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "21:02",
+  "when_label": "21:05",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -200,6 +200,32 @@
         "first_seen": "2026-10-14T20:02:28.953771+00:00",
         "status": "wait",
         "lane": "out_market"
+      },
+      {
+        "ticker": "FIS",
+        "book": "week1_free2",
+        "horse": "FreeHunt",
+        "impact": 99,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
+        "next_check": "2026-10-14T20:17:36.808604+00:00",
+        "first_seen": "2026-10-14T20:02:36.808604+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "GGON",
+        "book": "week1_free2",
+        "horse": "FreeHunt",
+        "impact": 99,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
+        "next_check": "2026-10-14T20:17:39.183518+00:00",
+        "first_seen": "2026-10-14T20:02:39.183518+00:00",
+        "status": "wait",
+        "lane": "out_market"
       }
     ],
     "wait_window": [],
@@ -279,6 +305,32 @@
         "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
         "next_check": "2026-10-14T20:17:28.953771+00:00",
         "first_seen": "2026-10-14T20:02:28.953771+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "FIS",
+        "book": "week1_free2",
+        "horse": "FreeHunt",
+        "impact": 99,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
+        "next_check": "2026-10-14T20:17:36.808604+00:00",
+        "first_seen": "2026-10-14T20:02:36.808604+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "GGON",
+        "book": "week1_free2",
+        "horse": "FreeHunt",
+        "impact": 99,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
+        "next_check": "2026-10-14T20:17:39.183518+00:00",
+        "first_seen": "2026-10-14T20:02:39.183518+00:00",
         "status": "wait",
         "lane": "out_market"
       }
