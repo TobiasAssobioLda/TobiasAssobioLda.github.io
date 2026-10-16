@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-15T21:42:13+01:00",
+  "updated_at": "2026-10-16T08:00:12+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "21:42",
+  "when_label": "08:00",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -122,116 +122,10 @@
   },
   "possible": {
     "quase": [],
-    "out_market": [
-      {
-        "ticker": "NHIC",
-        "book": "week1_free2",
-        "horse": "FreeHunt",
-        "impact": 99,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-10-15T20:15:00.530726+00:00",
-        "first_seen": "2026-10-15T20:00:00.530726+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "PACS",
-        "book": "week1_free2",
-        "horse": "FreeHunt",
-        "impact": 99,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-10-15T20:15:01.903359+00:00",
-        "first_seen": "2026-10-15T20:00:01.903359+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "SQNS",
-        "book": "week1_free2",
-        "horse": "FreeHunt",
-        "impact": 99,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-10-15T20:15:09.056429+00:00",
-        "first_seen": "2026-10-15T20:00:09.056429+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "WRLD",
-        "book": "week1_free2",
-        "horse": "FreeHunt",
-        "impact": 99,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-10-15T20:15:13.596601+00:00",
-        "first_seen": "2026-10-15T20:00:13.596601+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      }
-    ],
+    "out_market": [],
     "wait_window": [],
-    "rows": [
-      {
-        "ticker": "NHIC",
-        "book": "week1_free2",
-        "horse": "FreeHunt",
-        "impact": 99,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-10-15T20:15:00.530726+00:00",
-        "first_seen": "2026-10-15T20:00:00.530726+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "PACS",
-        "book": "week1_free2",
-        "horse": "FreeHunt",
-        "impact": 99,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-10-15T20:15:01.903359+00:00",
-        "first_seen": "2026-10-15T20:00:01.903359+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "SQNS",
-        "book": "week1_free2",
-        "horse": "FreeHunt",
-        "impact": 99,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-10-15T20:15:09.056429+00:00",
-        "first_seen": "2026-10-15T20:00:09.056429+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      },
-      {
-        "ticker": "WRLD",
-        "book": "week1_free2",
-        "horse": "FreeHunt",
-        "impact": 99,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-10-15T20:15:13.596601+00:00",
-        "first_seen": "2026-10-15T20:00:13.596601+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      }
-    ],
-    "day": "2026-10-15",
+    "rows": [],
+    "day": "2026-10-16",
     "retry_min": 15,
     "max_tries": 6
   }
