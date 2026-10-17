@@ -1,46 +1,10 @@
 {
-  "updated_at": "2026-10-17T22:53:44+01:00",
+  "updated_at": "2026-10-17T23:51:19+01:00",
   "timezone": "Europe/Lisbon",
   "opens_count": 0,
-  "calendar_count": 1,
+  "calendar_count": 0,
   "opens_rows": [],
-  "calendar_rows": [
-    {
-      "event_date": "2026-10-17",
-      "date_label": "17/10",
-      "title": "This week on Tom Hardware Premium : October 17 , 2026 packaging roadmaps , Chinese DGX Spark rival emerges , and digging into ASML earnings",
-      "horse": "China",
-      "tickers": "ZH / BABA",
-      "ticker_up": "ZH",
-      "ticker_down": "BABA",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 50,
-      "range": "",
-      "url": "https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-october-17-2026-packaging-roadmaps-chinese-dgx-spark-rival-emerges-and-digging-into-asmls-earnings",
-      "source": "spam",
-      "note": "noise",
-      "rank": 1
-    }
-  ],
-  "count": 1,
-  "rows": [
-    {
-      "event_date": "2026-10-17",
-      "date_label": "17/10",
-      "title": "This week on Tom Hardware Premium : October 17 , 2026 packaging roadmaps , Chinese DGX Spark rival emerges , and digging into ASML earnings",
-      "horse": "China",
-      "tickers": "ZH / BABA",
-      "ticker_up": "ZH",
-      "ticker_down": "BABA",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 50,
-      "range": "",
-      "url": "https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-october-17-2026-packaging-roadmaps-chinese-dgx-spark-rival-emerges-and-digging-into-asmls-earnings",
-      "source": "spam",
-      "note": "noise",
-      "rank": 1
-    }
-  ]
+  "calendar_rows": [],
+  "count": 0,
+  "rows": []
 }
