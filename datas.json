@@ -1,10 +1,46 @@
 {
-  "updated_at": "2026-10-19T11:51:28+01:00",
+  "updated_at": "2026-10-19T13:51:27+01:00",
   "timezone": "Europe/Lisbon",
   "opens_count": 0,
-  "calendar_count": 0,
+  "calendar_count": 1,
   "opens_rows": [],
-  "calendar_rows": [],
-  "count": 0,
-  "rows": []
+  "calendar_rows": [
+    {
+      "event_date": "2026-11-02",
+      "date_label": "02/11",
+      "title": "Advanced Energy Announces Third Quarter 2026 Earnings Date on November 2 - Business Wire",
+      "horse": "Earnings",
+      "tickers": "BTE / XOM",
+      "ticker_up": "BTE",
+      "ticker_down": "XOM",
+      "action": "alerta",
+      "status": "candidate",
+      "score": 50,
+      "range": "",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOT09zVUkxVlk4Yl9pNTBrVGdXUk9ScW5UeHFJRTVHS0VfS1lJX013MzU4VkNIX0JkVTNuN2pIXzhWcWs1U3hySkpPa3JCUnNuNjRwcFNFMUlQSFRvZ1BUSlQ5d3Q4d3I1UnJZdlhRNmhRTzB2UDd2aEIwOGN2ZHhRVkRTZUJmcldaMldxNi1ySUFMeHRtT0Q4RkRXWFpqaTNVT3MxREJXVnRVbGJxM185WXNWMzV6b2k4al9ZbTk5Sjc2Tlg2NGQ4VQ?oc=5",
+      "source": "spam",
+      "note": "noise",
+      "rank": 1
+    }
+  ],
+  "count": 1,
+  "rows": [
+    {
+      "event_date": "2026-11-02",
+      "date_label": "02/11",
+      "title": "Advanced Energy Announces Third Quarter 2026 Earnings Date on November 2 - Business Wire",
+      "horse": "Earnings",
+      "tickers": "BTE / XOM",
+      "ticker_up": "BTE",
+      "ticker_down": "XOM",
+      "action": "alerta",
+      "status": "candidate",
+      "score": 50,
+      "range": "",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOT09zVUkxVlk4Yl9pNTBrVGdXUk9ScW5UeHFJRTVHS0VfS1lJX013MzU4VkNIX0JkVTNuN2pIXzhWcWs1U3hySkpPa3JCUnNuNjRwcFNFMUlQSFRvZ1BUSlQ5d3Q4d3I1UnJZdlhRNmhRTzB2UDd2aEIwOGN2ZHhRVkRTZUJmcldaMldxNi1ySUFMeHRtT0Q4RkRXWFpqaTNVT3MxREJXVnRVbGJxM185WXNWMzV6b2k4al9ZbTk5Sjc2Tlg2NGQ4VQ?oc=5",
+      "source": "spam",
+      "note": "noise",
+      "rank": 1
+    }
+  ]
 }
