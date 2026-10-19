@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-19T15:38:21+01:00",
+  "updated_at": "2026-10-19T15:41:21+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "15:38",
+  "when_label": "15:41",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -37,12 +37,12 @@
         "id": 2927,
         "ticker": "TLS",
         "entry": 4.23,
-        "price": 4.085,
+        "price": 4.095,
         "qty": 4.733728,
         "notional": 20.0237,
         "pnl_pct": -0.03,
-        "pnl_eur": -0.6863905600000022,
-        "pnl_r": -0.32,
+        "pnl_eur": -0.6390532800000032,
+        "pnl_r": -0.29,
         "sl": 3.77,
         "tp1": 4.7,
         "tp2": 5.01,
@@ -67,12 +67,12 @@
         "id": 3736,
         "ticker": "SRAD",
         "entry": 11.706,
-        "price": 11.815,
+        "price": 11.81,
         "qty": 0.854701,
         "notional": 10.0051,
         "pnl_pct": 0.0,
-        "pnl_eur": 0.09316240899999999,
-        "pnl_r": 0.12,
+        "pnl_eur": 0.08888890400000084,
+        "pnl_r": 0.11,
         "sl": 10.76,
         "tp1": 13.58,
         "tp2": 14.52,
@@ -94,10 +94,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": -0.029661407550000112,
-    "total_pnl_eur": -0.5932281510000023,
+    "total_pnl_pct": -0.027508218800000116,
+    "total_pnl_eur": -0.5501643760000023,
     "bank_eur": 2000.0,
-    "equity_eur": 1999.41
+    "equity_eur": 1999.45
   },
   "tobias_scalper": {
     "rows": [],
