@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-19T21:44:22+01:00",
+  "updated_at": "2026-10-20T08:02:34+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "21:44",
+  "when_label": "08:02",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -37,12 +37,12 @@
         "id": 2927,
         "ticker": "TLS",
         "entry": 4.23,
-        "price": 4.18,
+        "price": 4.31,
         "qty": 4.733728,
         "notional": 20.0237,
-        "pnl_pct": -0.01,
-        "pnl_eur": -0.23668640000000338,
-        "pnl_r": -0.11,
+        "pnl_pct": 0.02,
+        "pnl_eur": 0.37869823999999613,
+        "pnl_r": 0.17,
         "sl": 3.77,
         "tp1": 4.7,
         "tp2": 5.01,
@@ -94,10 +94,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.002011836199999824,
-    "total_pnl_eur": 0.04023672399999648,
+    "total_pnl_pct": 0.0327810681999998,
+    "total_pnl_eur": 0.6556213639999959,
     "bank_eur": 2000.0,
-    "equity_eur": 2000.04
+    "equity_eur": 2000.66
   },
   "tobias_scalper": {
     "rows": [],
@@ -122,38 +122,10 @@
   },
   "possible": {
     "quase": [],
-    "out_market": [
-      {
-        "ticker": "GGON",
-        "book": "week1_free2",
-        "horse": "FreeHunt",
-        "impact": 99,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-10-19T20:16:08.056823+00:00",
-        "first_seen": "2026-10-19T20:01:08.056823+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      }
-    ],
+    "out_market": [],
     "wait_window": [],
-    "rows": [
-      {
-        "ticker": "GGON",
-        "book": "week1_free2",
-        "horse": "FreeHunt",
-        "impact": 99,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-10-19T20:16:08.056823+00:00",
-        "first_seen": "2026-10-19T20:01:08.056823+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      }
-    ],
-    "day": "2026-10-19",
+    "rows": [],
+    "day": "2026-10-20",
     "retry_min": 15,
     "max_tries": 6
   }
