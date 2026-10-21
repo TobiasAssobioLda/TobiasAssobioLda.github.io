@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-21T18:26:21+01:00",
+  "updated_at": "2026-10-21T18:29:21+01:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "18:26",
+  "when_label": "18:29",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -67,12 +67,12 @@
         "id": 3736,
         "ticker": "SRAD",
         "entry": 11.706,
-        "price": 11.79,
+        "price": 11.805,
         "qty": 0.854701,
         "notional": 10.0051,
         "pnl_pct": 0.0,
-        "pnl_eur": 0.07179488399999968,
-        "pnl_r": 0.09,
+        "pnl_eur": 0.08461539900000017,
+        "pnl_r": 0.1,
         "sl": 10.76,
         "tp1": 13.58,
         "tp2": 14.52,
@@ -82,7 +82,7 @@
         "news_blurb": "🎤 OUT · EUA fechado — EUA abre as 14:30",
         "news_impact": 99,
         "opened_at": "2026-09-30T17:26:24.633101+00:00",
-        "open_days": 20,
+        "open_days": 21,
         "time_stop_days": 30,
         "diag": "🎤 OUT · EUA fechado — EUA abre as 14:30 · sinal 5.5 · corr +1.16 · star +1.31 · FLUT c0.39 d+1.70 · RSI c0.21 d+2.00 · SGHC c0.38 d-0.34 · ESPERAR · base · TP sugerido · fecho gap @14.30 (há 41d) · médio gap/2R @13.94 · tobias swing 30d",
         "corr_score": 1.16,
@@ -94,10 +94,10 @@
         "horizon_days": 30
       }
     ],
-    "total_pnl_pct": 0.08642998419999992,
-    "total_pnl_eur": 1.7285996839999982,
+    "total_pnl_pct": 0.08707100994999993,
+    "total_pnl_eur": 1.7414201989999987,
     "bank_eur": 2000.0,
-    "equity_eur": 2001.73
+    "equity_eur": 2001.74
   },
   "tobias_scalper": {
     "rows": [],
