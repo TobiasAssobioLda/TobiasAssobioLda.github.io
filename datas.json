@@ -1,80 +1,10 @@
 {
-  "updated_at": "2026-10-22T16:51:20+01:00",
+  "updated_at": "2026-10-22T19:50:15+01:00",
   "timezone": "Europe/Lisbon",
   "opens_count": 0,
-  "calendar_count": 2,
+  "calendar_count": 0,
   "opens_rows": [],
-  "calendar_rows": [
-    {
-      "event_date": "2026-11-10",
-      "date_label": "10/11",
-      "title": "Putin agrees to resume Russia - Ukraine - US trilateral talks after November 10 on ending war",
-      "horse": "Rússia",
-      "tickers": "LMT / NOC",
-      "ticker_up": "LMT",
-      "ticker_down": "NOC",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 50,
-      "range": "",
-      "url": "https://article.wn.com/view/2026/10/22/Putin_agrees_to_resume_RussiaUkraineUS_trilateral_talks_afte/",
-      "source": "spam",
-      "note": "leader+date-hint",
-      "rank": 1
-    },
-    {
-      "event_date": "2026-11-12",
-      "date_label": "12/11",
-      "title": "Laser Photonics to Host Third Quarter 2026 Earnings Call on November 12 , 2026 at 8 : 00 a . m . Eastern Time",
-      "horse": "Earnings",
-      "tickers": "COHR / SMH",
-      "ticker_up": "COHR",
-      "ticker_down": "SMH",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 50,
-      "range": "",
-      "url": "http://www.hawaiitelegraph.com/news/279392196/laser-photonics-to-host-third-quarter-2026-earnings-call-on-november-12-2026-at-800-am-eastern-time",
-      "source": "spam",
-      "note": "noise",
-      "rank": 2
-    }
-  ],
-  "count": 2,
-  "rows": [
-    {
-      "event_date": "2026-11-10",
-      "date_label": "10/11",
-      "title": "Putin agrees to resume Russia - Ukraine - US trilateral talks after November 10 on ending war",
-      "horse": "Rússia",
-      "tickers": "LMT / NOC",
-      "ticker_up": "LMT",
-      "ticker_down": "NOC",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 50,
-      "range": "",
-      "url": "https://article.wn.com/view/2026/10/22/Putin_agrees_to_resume_RussiaUkraineUS_trilateral_talks_afte/",
-      "source": "spam",
-      "note": "leader+date-hint",
-      "rank": 1
-    },
-    {
-      "event_date": "2026-11-12",
-      "date_label": "12/11",
-      "title": "Laser Photonics to Host Third Quarter 2026 Earnings Call on November 12 , 2026 at 8 : 00 a . m . Eastern Time",
-      "horse": "Earnings",
-      "tickers": "COHR / SMH",
-      "ticker_up": "COHR",
-      "ticker_down": "SMH",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 50,
-      "range": "",
-      "url": "http://www.hawaiitelegraph.com/news/279392196/laser-photonics-to-host-third-quarter-2026-earnings-call-on-november-12-2026-at-800-am-eastern-time",
-      "source": "spam",
-      "note": "noise",
-      "rank": 2
-    }
-  ]
+  "calendar_rows": [],
+  "count": 0,
+  "rows": []
 }
