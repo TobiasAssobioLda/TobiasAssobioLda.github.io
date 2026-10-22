@@ -1,46 +1,10 @@
 {
-  "updated_at": "2026-10-22T12:51:31+01:00",
+  "updated_at": "2026-10-22T13:50:03+01:00",
   "timezone": "Europe/Lisbon",
   "opens_count": 0,
-  "calendar_count": 1,
+  "calendar_count": 0,
   "opens_rows": [],
-  "calendar_rows": [
-    {
-      "event_date": "2026-11-10",
-      "date_label": "10/11",
-      "title": "Putin agrees to resume Russia - Ukraine - US trilateral talks after November 10 on ending war",
-      "horse": "Rússia",
-      "tickers": "LMT / NOC",
-      "ticker_up": "LMT",
-      "ticker_down": "NOC",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 50,
-      "range": "",
-      "url": "https://article.wn.com/view/2026/10/22/Putin_agrees_to_resume_RussiaUkraineUS_trilateral_talks_afte/",
-      "source": "spam",
-      "note": "leader+date-hint",
-      "rank": 1
-    }
-  ],
-  "count": 1,
-  "rows": [
-    {
-      "event_date": "2026-11-10",
-      "date_label": "10/11",
-      "title": "Putin agrees to resume Russia - Ukraine - US trilateral talks after November 10 on ending war",
-      "horse": "Rússia",
-      "tickers": "LMT / NOC",
-      "ticker_up": "LMT",
-      "ticker_down": "NOC",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 50,
-      "range": "",
-      "url": "https://article.wn.com/view/2026/10/22/Putin_agrees_to_resume_RussiaUkraineUS_trilateral_talks_afte/",
-      "source": "spam",
-      "note": "leader+date-hint",
-      "rank": 1
-    }
-  ]
+  "calendar_rows": [],
+  "count": 0,
+  "rows": []
 }
