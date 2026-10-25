@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T11:52:25+00:00",
+  "updated_at": "2026-10-25T12:51:54+00:00",
   "timezone": "Europe/Lisbon",
   "source": "rumors_avg_high",
   "bands": [
@@ -13,18 +13,18 @@
       "key": "week",
       "label": "Week · AVG+High+Extreme · 5 dias desde sexta fecho NY",
       "from": "2026-10-23T21:00:00+01:00",
-      "to": "2026-10-25T11:51:57+00:00",
+      "to": "2026-10-25T12:51:54+00:00",
       "from_label": "23/10 21:00",
-      "to_label": "25/10 11:51",
-      "n_events": 63,
+      "to_label": "25/10 12:51",
+      "n_events": 66,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
         {
           "rank": 1,
           "ticker": "XOM",
-          "total": 18,
-          "as_up": 18,
+          "total": 19,
+          "as_up": 19,
           "as_down": 0,
           "last_horse": "Irão",
           "band": "all",
@@ -33,18 +33,18 @@
         {
           "rank": 2,
           "ticker": "NEM",
-          "total": 15,
+          "total": 16,
           "as_up": 1,
-          "as_down": 14,
-          "last_horse": "Ouro",
+          "as_down": 15,
+          "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 3,
           "ticker": "GOLD",
-          "total": 13,
-          "as_up": 13,
+          "total": 14,
+          "as_up": 14,
           "as_down": 0,
           "last_horse": "Inflação",
           "band": "all",
@@ -232,7 +232,7 @@
       "to": "2026-10-26T14:15:00+00:00",
       "from_label": "23/10 21:00",
       "to_label": "26/10 14:15",
-      "n_events": 66,
+      "n_events": 69,
       "top5_count": 5,
       "top6_20_count": 15,
       "top5": [
@@ -249,9 +249,9 @@
         {
           "rank": 2,
           "ticker": "NEM",
-          "total": 16,
+          "total": 17,
           "as_up": 1,
-          "as_down": 15,
+          "as_down": 16,
           "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
@@ -259,8 +259,8 @@
         {
           "rank": 3,
           "ticker": "GOLD",
-          "total": 14,
-          "as_up": 14,
+          "total": 15,
+          "as_up": 15,
           "as_down": 0,
           "last_horse": "Inflação",
           "band": "all",
@@ -300,41 +300,41 @@
         },
         {
           "rank": 7,
-          "ticker": "CVX",
-          "total": 4,
-          "as_up": 0,
-          "as_down": 4,
-          "last_horse": "Irão",
-          "band": "all",
-          "direction": "all"
-        },
-        {
-          "rank": 8,
           "ticker": "BABA",
-          "total": 3,
-          "as_up": 2,
+          "total": 4,
+          "as_up": 3,
           "as_down": 1,
           "last_horse": "Trump",
           "band": "all",
           "direction": "all"
         },
         {
+          "rank": 8,
+          "ticker": "COIN",
+          "total": 3,
+          "as_up": 2,
+          "as_down": 1,
+          "last_horse": "Cripto",
+          "band": "all",
+          "direction": "all"
+        },
+        {
           "rank": 9,
-          "ticker": "GOOGL",
+          "ticker": "CVX",
           "total": 3,
           "as_up": 0,
           "as_down": 3,
-          "last_horse": "AI",
+          "last_horse": "Trump",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 10,
-          "ticker": "COIN",
-          "total": 2,
-          "as_up": 2,
-          "as_down": 0,
-          "last_horse": "Cripto",
+          "ticker": "PDD",
+          "total": 3,
+          "as_up": 0,
+          "as_down": 3,
+          "last_horse": "Trump",
           "band": "all",
           "direction": "all"
         },
@@ -370,21 +370,21 @@
         },
         {
           "rank": 14,
-          "ticker": "NVDA",
+          "ticker": "GOOGL",
           "total": 2,
           "as_up": 0,
           "as_down": 2,
-          "last_horse": "Chips",
+          "last_horse": "Earnings",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 15,
-          "ticker": "PDD",
+          "ticker": "NVDA",
           "total": 2,
           "as_up": 0,
           "as_down": 2,
-          "last_horse": "Trump",
+          "last_horse": "Chips",
           "band": "all",
           "direction": "all"
         },
@@ -430,11 +430,11 @@
         },
         {
           "rank": 20,
-          "ticker": "BTC-USD",
+          "ticker": "BMNR",
           "total": 1,
           "as_up": 1,
           "as_down": 0,
-          "last_horse": "Inflação",
+          "last_horse": "Cripto",
           "band": "all",
           "direction": "all"
         }
@@ -445,18 +445,18 @@
       "key": "day",
       "label": "Day · AVG+High+Extreme · meia-noite Lisboa → agora",
       "from": "2026-10-25T00:00:00+01:00",
-      "to": "2026-10-25T11:51:57+00:00",
+      "to": "2026-10-25T12:51:54+00:00",
       "from_label": "25/10 00:00",
-      "to_label": "25/10 11:51",
-      "n_events": 13,
+      "to_label": "25/10 12:51",
+      "n_events": 16,
       "top5_count": 5,
-      "top6_20_count": 8,
+      "top6_20_count": 9,
       "top5": [
         {
           "rank": 1,
           "ticker": "XOM",
-          "total": 4,
-          "as_up": 4,
+          "total": 5,
+          "as_up": 5,
           "as_down": 0,
           "last_horse": "Irão",
           "band": "all",
@@ -465,30 +465,30 @@
         {
           "rank": 2,
           "ticker": "NEM",
-          "total": 3,
+          "total": 4,
           "as_up": 1,
-          "as_down": 2,
-          "last_horse": "Ouro",
+          "as_down": 3,
+          "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 3,
-          "ticker": "COIN",
-          "total": 2,
-          "as_up": 2,
+          "ticker": "GOLD",
+          "total": 3,
+          "as_up": 3,
           "as_down": 0,
-          "last_horse": "Cripto",
+          "last_horse": "Inflação",
           "band": "all",
           "direction": "all"
         },
         {
           "rank": 4,
-          "ticker": "GOLD",
+          "ticker": "COIN",
           "total": 2,
           "as_up": 2,
           "as_down": 0,
-          "last_horse": "Inflação",
+          "last_horse": "Cripto",
           "band": "all",
           "direction": "all"
         },
@@ -526,6 +526,16 @@
         },
         {
           "rank": 8,
+          "ticker": "MSFT",
+          "total": 1,
+          "as_up": 1,
+          "as_down": 0,
+          "last_horse": "AI",
+          "band": "all",
+          "direction": "all"
+        },
+        {
+          "rank": 9,
           "ticker": "CVX",
           "total": 1,
           "as_up": 0,
@@ -535,7 +545,7 @@
           "direction": "all"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "ticker": "GM",
           "total": 1,
           "as_up": 0,
@@ -545,7 +555,7 @@
           "direction": "all"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "ticker": "KGC",
           "total": 1,
           "as_up": 0,
@@ -555,7 +565,7 @@
           "direction": "all"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "ticker": "NIO",
           "total": 1,
           "as_up": 0,
@@ -565,7 +575,7 @@
           "direction": "all"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "ticker": "NOC",
           "total": 1,
           "as_up": 0,
@@ -575,7 +585,7 @@
           "direction": "all"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "ticker": "RTX",
           "total": 1,
           "as_up": 0,
@@ -588,15 +598,15 @@
       "source": "rumors_avg_high"
     }
   },
-  "n_events": 13,
+  "n_events": 16,
   "top5_count": 5,
-  "top6_20_count": 8,
+  "top6_20_count": 9,
   "top5": [
     {
       "rank": 1,
       "ticker": "XOM",
-      "total": 4,
-      "as_up": 4,
+      "total": 5,
+      "as_up": 5,
       "as_down": 0,
       "last_horse": "Irão",
       "band": "all",
@@ -605,30 +615,30 @@
     {
       "rank": 2,
       "ticker": "NEM",
-      "total": 3,
+      "total": 4,
       "as_up": 1,
-      "as_down": 2,
-      "last_horse": "Ouro",
+      "as_down": 3,
+      "last_horse": "Inflação",
       "band": "all",
       "direction": "all"
     },
     {
       "rank": 3,
-      "ticker": "COIN",
-      "total": 2,
-      "as_up": 2,
+      "ticker": "GOLD",
+      "total": 3,
+      "as_up": 3,
       "as_down": 0,
-      "last_horse": "Cripto",
+      "last_horse": "Inflação",
       "band": "all",
       "direction": "all"
     },
     {
       "rank": 4,
-      "ticker": "GOLD",
+      "ticker": "COIN",
       "total": 2,
       "as_up": 2,
       "as_down": 0,
-      "last_horse": "Inflação",
+      "last_horse": "Cripto",
       "band": "all",
       "direction": "all"
     },
@@ -666,6 +676,16 @@
     },
     {
       "rank": 8,
+      "ticker": "MSFT",
+      "total": 1,
+      "as_up": 1,
+      "as_down": 0,
+      "last_horse": "AI",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 9,
       "ticker": "CVX",
       "total": 1,
       "as_up": 0,
@@ -675,7 +695,7 @@
       "direction": "all"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "ticker": "GM",
       "total": 1,
       "as_up": 0,
@@ -685,7 +705,7 @@
       "direction": "all"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "ticker": "KGC",
       "total": 1,
       "as_up": 0,
@@ -695,7 +715,7 @@
       "direction": "all"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "ticker": "NIO",
       "total": 1,
       "as_up": 0,
@@ -705,7 +725,7 @@
       "direction": "all"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "ticker": "NOC",
       "total": 1,
       "as_up": 0,
@@ -715,7 +735,7 @@
       "direction": "all"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "ticker": "RTX",
       "total": 1,
       "as_up": 0,
@@ -725,13 +745,13 @@
       "direction": "all"
     }
   ],
-  "count": 13,
+  "count": 14,
   "rows": [
     {
       "rank": 1,
       "ticker": "XOM",
-      "total": 4,
-      "as_up": 4,
+      "total": 5,
+      "as_up": 5,
       "as_down": 0,
       "last_horse": "Irão",
       "band": "all",
@@ -740,30 +760,30 @@
     {
       "rank": 2,
       "ticker": "NEM",
-      "total": 3,
+      "total": 4,
       "as_up": 1,
-      "as_down": 2,
-      "last_horse": "Ouro",
+      "as_down": 3,
+      "last_horse": "Inflação",
       "band": "all",
       "direction": "all"
     },
     {
       "rank": 3,
-      "ticker": "COIN",
-      "total": 2,
-      "as_up": 2,
+      "ticker": "GOLD",
+      "total": 3,
+      "as_up": 3,
       "as_down": 0,
-      "last_horse": "Cripto",
+      "last_horse": "Inflação",
       "band": "all",
       "direction": "all"
     },
     {
       "rank": 4,
-      "ticker": "GOLD",
+      "ticker": "COIN",
       "total": 2,
       "as_up": 2,
       "as_down": 0,
-      "last_horse": "Inflação",
+      "last_horse": "Cripto",
       "band": "all",
       "direction": "all"
     },
@@ -799,6 +819,16 @@
     },
     {
       "rank": 8,
+      "ticker": "MSFT",
+      "total": 1,
+      "as_up": 1,
+      "as_down": 0,
+      "last_horse": "AI",
+      "band": "all",
+      "direction": "all"
+    },
+    {
+      "rank": 9,
       "ticker": "CVX",
       "total": 1,
       "as_up": 0,
@@ -808,7 +838,7 @@
       "direction": "all"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "ticker": "GM",
       "total": 1,
       "as_up": 0,
@@ -818,7 +848,7 @@
       "direction": "all"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "ticker": "KGC",
       "total": 1,
       "as_up": 0,
@@ -828,7 +858,7 @@
       "direction": "all"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "ticker": "NIO",
       "total": 1,
       "as_up": 0,
@@ -838,7 +868,7 @@
       "direction": "all"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "ticker": "NOC",
       "total": 1,
       "as_up": 0,
@@ -848,7 +878,7 @@
       "direction": "all"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "ticker": "RTX",
       "total": 1,
       "as_up": 0,
