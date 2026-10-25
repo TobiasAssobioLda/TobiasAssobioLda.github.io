@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T13:50:10+00:00",
+  "updated_at": "2026-10-25T16:54:49+00:00",
   "timezone": "Europe/Lisbon",
   "opens_count": 0,
-  "calendar_count": 1,
+  "calendar_count": 2,
   "opens_rows": [],
   "calendar_rows": [
     {
@@ -21,9 +21,26 @@
       "source": "spam",
       "note": "noise",
       "rank": 1
+    },
+    {
+      "event_date": "2026-10-29",
+      "date_label": "29/10",
+      "title": "Amazon earnings history before its October 29 report - Opening Bell Daily",
+      "horse": "Earnings",
+      "tickers": "MSFT / AAPL",
+      "ticker_up": "MSFT",
+      "ticker_down": "AAPL",
+      "action": "alerta",
+      "status": "candidate",
+      "score": 50,
+      "range": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JZXhQT2d4elFlay1iTlBZY21nWElIRUZvbXA1a3ZtYlI3ZHczWTBNNUh5TU5GOW9TUUVKbnFfekdaT2ZMVjlQWFVndTd3NEF1ajZncXJJM0NkNmRaVWhoUk0tNFMyTnlodUVZa2tpRFQ3emFwZGNSREQtVzhIbGc?oc=5",
+      "source": "spam",
+      "note": "noise",
+      "rank": 2
     }
   ],
-  "count": 1,
+  "count": 2,
   "rows": [
     {
       "event_date": "2026-10-28",
@@ -41,6 +58,23 @@
       "source": "spam",
       "note": "noise",
       "rank": 1
+    },
+    {
+      "event_date": "2026-10-29",
+      "date_label": "29/10",
+      "title": "Amazon earnings history before its October 29 report - Opening Bell Daily",
+      "horse": "Earnings",
+      "tickers": "MSFT / AAPL",
+      "ticker_up": "MSFT",
+      "ticker_down": "AAPL",
+      "action": "alerta",
+      "status": "candidate",
+      "score": 50,
+      "range": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JZXhQT2d4elFlay1iTlBZY21nWElIRUZvbXA1a3ZtYlI3ZHczWTBNNUh5TU5GOW9TUUVKbnFfekdaT2ZMVjlQWFVndTd3NEF1ajZncXJJM0NkNmRaVWhoUk0tNFMyTnlodUVZa2tpRFQ3emFwZGNSREQtVzhIbGc?oc=5",
+      "source": "spam",
+      "note": "noise",
+      "rank": 2
     }
   ]
 }
