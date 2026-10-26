@@ -1,28 +1,11 @@
 {
-  "updated_at": "2026-10-26T17:51:23+00:00",
+  "updated_at": "2026-10-26T23:55:01+00:00",
   "timezone": "Europe/Lisbon",
   "opens_count": 0,
-  "calendar_count": 2,
+  "calendar_count": 1,
   "opens_rows": [],
   "calendar_rows": [
     {
-      "event_date": "2026-10-28",
-      "date_label": "28/10",
-      "title": "Microsoft earnings history before its October 28 report - Opening Bell Daily",
-      "horse": "Earnings",
-      "tickers": "MSFT / AAPL",
-      "ticker_up": "MSFT",
-      "ticker_down": "AAPL",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 50,
-      "range": "",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQc2RENm0zODZKVjBqYVM1ZHZLaEJydVNwaFFvcDhYeVBFSHZQNjM2eEVicWZEMG8zU0RLUVJpcW0zTlBjTDNCd1dBYmVBQ1FaaHE4VUxQSHN3MkQyR3RxOTJ0UmVMRHQ5ZExYS3o4d3lDeldWcVB4Tjkwd0hpRXFNcngtWQ?oc=5",
-      "source": "spam",
-      "note": "noise",
-      "rank": 1
-    },
-    {
       "event_date": "2026-10-29",
       "date_label": "29/10",
       "title": "Amazon earnings history before its October 29 report - Opening Bell Daily",
@@ -37,28 +20,11 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JZXhQT2d4elFlay1iTlBZY21nWElIRUZvbXA1a3ZtYlI3ZHczWTBNNUh5TU5GOW9TUUVKbnFfekdaT2ZMVjlQWFVndTd3NEF1ajZncXJJM0NkNmRaVWhoUk0tNFMyTnlodUVZa2tpRFQ3emFwZGNSREQtVzhIbGc?oc=5",
       "source": "spam",
       "note": "noise",
-      "rank": 2
+      "rank": 1
     }
   ],
-  "count": 2,
+  "count": 1,
   "rows": [
-    {
-      "event_date": "2026-10-28",
-      "date_label": "28/10",
-      "title": "Microsoft earnings history before its October 28 report - Opening Bell Daily",
-      "horse": "Earnings",
-      "tickers": "MSFT / AAPL",
-      "ticker_up": "MSFT",
-      "ticker_down": "AAPL",
-      "action": "alerta",
-      "status": "candidate",
-      "score": 50,
-      "range": "",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQc2RENm0zODZKVjBqYVM1ZHZLaEJydVNwaFFvcDhYeVBFSHZQNjM2eEVicWZEMG8zU0RLUVJpcW0zTlBjTDNCd1dBYmVBQ1FaaHE4VUxQSHN3MkQyR3RxOTJ0UmVMRHQ5ZExYS3o4d3lDeldWcVB4Tjkwd0hpRXFNcngtWQ?oc=5",
-      "source": "spam",
-      "note": "noise",
-      "rank": 1
-    },
     {
       "event_date": "2026-10-29",
       "date_label": "29/10",
@@ -74,7 +40,7 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JZXhQT2d4elFlay1iTlBZY21nWElIRUZvbXA1a3ZtYlI3ZHczWTBNNUh5TU5GOW9TUUVKbnFfekdaT2ZMVjlQWFVndTd3NEF1ajZncXJJM0NkNmRaVWhoUk0tNFMyTnlodUVZa2tpRFQ3emFwZGNSREQtVzhIbGc?oc=5",
       "source": "spam",
       "note": "noise",
-      "rank": 2
+      "rank": 1
     }
   ]
 }
