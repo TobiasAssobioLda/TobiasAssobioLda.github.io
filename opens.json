@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-02T18:55:55+00:00",
+  "updated_at": "2026-11-02T18:58:53+00:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "18:55",
+  "when_label": "18:58",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -96,7 +96,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · Europa fechada — Europa fechada (pos-sessao)",
-        "next_check": "2026-11-02T18:41:44.878365+00:00",
+        "next_check": "2026-11-02T19:11:48.386672+00:00",
         "first_seen": "2026-11-02T18:26:44.878365+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -109,7 +109,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · Europa fechada — Europa fechada (pos-sessao)",
-        "next_check": "2026-11-02T18:42:04.962810+00:00",
+        "next_check": "2026-11-02T19:11:50.551960+00:00",
         "first_seen": "2026-11-02T18:27:04.962810+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -151,7 +151,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · Europa fechada — Europa fechada (pos-sessao)",
-        "next_check": "2026-11-02T18:41:44.878365+00:00",
+        "next_check": "2026-11-02T19:11:48.386672+00:00",
         "first_seen": "2026-11-02T18:26:44.878365+00:00",
         "status": "wait",
         "lane": "out_market"
@@ -164,7 +164,7 @@
         "tries": 0,
         "max_tries": 6,
         "reason": "OUT · Europa fechada — Europa fechada (pos-sessao)",
-        "next_check": "2026-11-02T18:42:04.962810+00:00",
+        "next_check": "2026-11-02T19:11:50.551960+00:00",
         "first_seen": "2026-11-02T18:27:04.962810+00:00",
         "status": "wait",
         "lane": "out_market"
