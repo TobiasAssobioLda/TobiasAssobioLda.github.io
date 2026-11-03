@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-03T21:00:16+00:00",
+  "updated_at": "2026-11-03T21:02:57+00:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "20:59",
+  "when_label": "21:02",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -61,9 +61,63 @@
   },
   "possible": {
     "quase": [],
-    "out_market": [],
+    "out_market": [
+      {
+        "ticker": "GGON",
+        "book": "week1_free2",
+        "horse": "FreeHunt",
+        "impact": 99,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
+        "next_check": "2026-11-03T21:17:23.593751+00:00",
+        "first_seen": "2026-11-03T21:02:23.593751+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "MTUS",
+        "book": "week1_free2",
+        "horse": "FreeHunt",
+        "impact": 99,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
+        "next_check": "2026-11-03T21:17:28.479555+00:00",
+        "first_seen": "2026-11-03T21:02:28.479555+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      }
+    ],
     "wait_window": [],
-    "rows": [],
+    "rows": [
+      {
+        "ticker": "GGON",
+        "book": "week1_free2",
+        "horse": "FreeHunt",
+        "impact": 99,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
+        "next_check": "2026-11-03T21:17:23.593751+00:00",
+        "first_seen": "2026-11-03T21:02:23.593751+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      },
+      {
+        "ticker": "MTUS",
+        "book": "week1_free2",
+        "horse": "FreeHunt",
+        "impact": 99,
+        "tries": 0,
+        "max_tries": 6,
+        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
+        "next_check": "2026-11-03T21:17:28.479555+00:00",
+        "first_seen": "2026-11-03T21:02:28.479555+00:00",
+        "status": "wait",
+        "lane": "out_market"
+      }
+    ],
     "day": "2026-11-03",
     "retry_min": 15,
     "max_tries": 6
