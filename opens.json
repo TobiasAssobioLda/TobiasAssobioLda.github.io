@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-10T21:44:25+00:00",
+  "updated_at": "2026-11-11T14:33:56+00:00",
   "timezone": "Europe/Lisbon",
-  "when_label": "21:44",
+  "when_label": "14:33",
   "pipoca": {
     "rows": [],
     "total_pnl_pct": 0.0,
@@ -61,38 +61,10 @@
   },
   "possible": {
     "quase": [],
-    "out_market": [
-      {
-        "ticker": "GGON",
-        "book": "week1_free2",
-        "horse": "FreeHunt",
-        "impact": 99,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-11-10T21:15:51.844061+00:00",
-        "first_seen": "2026-11-10T21:00:51.844061+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      }
-    ],
+    "out_market": [],
     "wait_window": [],
-    "rows": [
-      {
-        "ticker": "GGON",
-        "book": "week1_free2",
-        "horse": "FreeHunt",
-        "impact": 99,
-        "tries": 0,
-        "max_tries": 6,
-        "reason": "OUT · EUA fechado — EUA fechado (pos-sessao)",
-        "next_check": "2026-11-10T21:15:51.844061+00:00",
-        "first_seen": "2026-11-10T21:00:51.844061+00:00",
-        "status": "wait",
-        "lane": "out_market"
-      }
-    ],
-    "day": "2026-11-10",
+    "rows": [],
+    "day": "2026-11-11",
     "retry_min": 15,
     "max_tries": 6
   }
