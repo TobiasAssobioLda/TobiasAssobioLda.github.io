@@ -7,27 +7,30 @@
   <link rel="preload" as="image" href="/capa/cover.png" />
   <style>
     * { box-sizing: border-box; }
+    html, body { height: 100%; }
     body {
       margin: 0;
       font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
       color: #f4f2f7;
+      overflow: hidden;
     }
     .gate-screen {
-      min-height: 100dvh;
+      height: 100dvh;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: max(1rem, env(safe-area-inset-top))
-        max(1rem, env(safe-area-inset-right))
-        max(1.25rem, env(safe-area-inset-bottom))
-        max(1rem, env(safe-area-inset-left));
+      padding: 1rem;
       background:
         radial-gradient(900px 700px at 50% -20%, rgba(180, 60, 255, 0.22), transparent 55%),
         radial-gradient(600px 500px at 100% 100%, rgba(255, 40, 140, 0.12), transparent 50%),
         #07040f;
     }
     .gate-card {
-      width: min(100%, 420px);
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      max-height: 100%;
+      width: min(100%, 480px);
       border-radius: 22px;
       overflow: hidden;
       border: 1px solid rgba(255, 255, 255, 0.1);
@@ -35,39 +38,37 @@
         0 24px 80px rgba(0, 0, 0, 0.55),
         0 0 0 1px rgba(255, 120, 220, 0.08),
         0 0 48px rgba(170, 60, 255, 0.15);
-      backdrop-filter: blur(12px);
     }
     .gate-cover-wrap {
-      width: 100%;
-      max-height: min(70vh, 640px);
-      aspect-ratio: 1132 / 1389;
-      background: #120818;
+      flex: 1 1 auto;
+      min-height: 0;
       display: flex;
       align-items: center;
       justify-content: center;
+      background: #120818;
     }
     .gate-cover {
       display: block;
       max-width: 100%;
       max-height: 100%;
-      width: 100%;
-      height: 100%;
+      width: auto;
+      height: auto;
       object-fit: contain;
     }
     .gate-panel {
-      padding: 1rem 1.1rem 1.15rem;
+      flex: 0 0 auto;
+      padding: 0.9rem 1.1rem 1rem;
       background: linear-gradient(
         180deg,
         rgba(18, 8, 28, 0.72) 0%,
         rgba(10, 5, 18, 0.92) 100%
       );
       border-top: 1px solid rgba(255, 255, 255, 0.08);
-      backdrop-filter: blur(18px) saturate(140%);
     }
     .gate-btn {
       display: block;
       width: 100%;
-      margin: 0.15rem 0 0;
+      margin: 0;
       padding: 0.85rem 1rem;
       border: none;
       border-radius: 14px;
@@ -87,9 +88,14 @@
     }
     .gate-btn:hover { filter: brightness(1.06); }
     .gate-btn:active { transform: scale(0.985); }
-    @media (min-width: 640px) {
-      .gate-cover-wrap { max-height: min(66vh, 700px); }
-      .gate-panel { padding: 1.1rem 1.25rem 1.25rem; }
+    @media (max-width: 480px) {
+      .gate-screen { padding: 0.75rem; }
+      .gate-card { border-radius: 18px; }
+      .gate-panel { padding: 0.75rem 0.9rem 0.9rem; }
+    }
+    @media (max-height: 500px) {
+      .gate-panel { padding: 0.5rem 0.9rem 0.6rem; }
+      .gate-btn { padding: 0.55rem 1rem; }
     }
   </style>
 </head>
