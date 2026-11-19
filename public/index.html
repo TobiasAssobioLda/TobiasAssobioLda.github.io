@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tobias &amp; Assobio, Lda</title>
+  <link rel="preload" as="image" href="/capa/cover.png" />
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      color: #f4f2f7;
+    }
+    .gate-screen {
+      min-height: 100dvh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: max(1rem, env(safe-area-inset-top))
+        max(1rem, env(safe-area-inset-right))
+        max(1.25rem, env(safe-area-inset-bottom))
+        max(1rem, env(safe-area-inset-left));
+      background:
+        radial-gradient(900px 700px at 50% -20%, rgba(180, 60, 255, 0.22), transparent 55%),
+        radial-gradient(600px 500px at 100% 100%, rgba(255, 40, 140, 0.12), transparent 50%),
+        #07040f;
+    }
+    .gate-card {
+      width: min(100%, 420px);
+      border-radius: 22px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow:
+        0 24px 80px rgba(0, 0, 0, 0.55),
+        0 0 0 1px rgba(255, 120, 220, 0.08),
+        0 0 48px rgba(170, 60, 255, 0.15);
+      backdrop-filter: blur(12px);
+    }
+    .gate-cover-wrap {
+      width: 100%;
+      max-height: min(70vh, 640px);
+      aspect-ratio: 1132 / 1389;
+      background: #120818;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .gate-cover {
+      display: block;
+      max-width: 100%;
+      max-height: 100%;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .gate-panel {
+      padding: 1rem 1.1rem 1.15rem;
+      background: linear-gradient(
+        180deg,
+        rgba(18, 8, 28, 0.72) 0%,
+        rgba(10, 5, 18, 0.92) 100%
+      );
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(18px) saturate(140%);
+    }
+    .gate-btn {
+      display: block;
+      width: 100%;
+      margin: 0.15rem 0 0;
+      padding: 0.85rem 1rem;
+      border: none;
+      border-radius: 14px;
+      cursor: pointer;
+      font: inherit;
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-align: center;
+      text-decoration: none;
+      text-transform: lowercase;
+      color: #fff;
+      background: linear-gradient(135deg, #ff3db8 0%, #9b4dff 52%, #4d8dff 100%);
+      box-shadow:
+        0 10px 28px rgba(155, 77, 255, 0.35),
+        inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    }
+    .gate-btn:hover { filter: brightness(1.06); }
+    .gate-btn:active { transform: scale(0.985); }
+    @media (min-width: 640px) {
+      .gate-cover-wrap { max-height: min(66vh, 700px); }
+      .gate-panel { padding: 1.1rem 1.25rem 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="gate-screen">
+    <div class="gate-card">
+      <div class="gate-cover-wrap">
+        <img src="/capa/cover.png" alt="Tobias &amp; Assobio, Lda" class="gate-cover"
+             width="1132" height="1389" decoding="async" />
+      </div>
+      <div class="gate-panel">
+        <a class="gate-btn" href="/main.html">OK</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

@@ -4,12 +4,7 @@ on:
   push:
     branches: [main]
     paths-ignore:
-      - "opens.json"
-      - "paper.json"
-      - "paper/**"
-      - "datas.json"
-      - "popular.json"
-      - "news.json"
+      - "**.json"
   workflow_dispatch:
 
 permissions:
@@ -22,35 +17,15 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
-      - run: npm ci
-      - run: npm run build
-        env:
-          NEXT_PUBLIC_BASE_PATH: ""
-          NEXT_PUBLIC_BUILD_ID: ${{ github.sha }}
-          NEXT_PUBLIC_OPENS_URL: ${{ secrets.NEXT_PUBLIC_OPENS_URL }}
-          NEXT_PUBLIC_PAPER_URL: ${{ secrets.NEXT_PUBLIC_PAPER_URL }}
-          NEXT_PUBLIC_NEWS_URL: ${{ secrets.NEXT_PUBLIC_NEWS_URL }}
-          NEXT_PUBLIC_DATAS_URL: ${{ secrets.NEXT_PUBLIC_DATAS_URL }}
-          NEXT_PUBLIC_POPULAR_URL: ${{ secrets.NEXT_PUBLIC_POPULAR_URL }}
-          NEXT_PUBLIC_SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: out
-
   deploy:
-    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
       - id: deployment
         uses: actions/deploy-pages@v4

@@ -2,10 +2,4 @@ node_modules
 .next
 out
 .env*.local
-.vercel
 *.log
-# Bot publica opens.json no repo — não versionar cópias locais stale
-/opens.json
-/datas.json
-/popular.json
-/public/opens.json
