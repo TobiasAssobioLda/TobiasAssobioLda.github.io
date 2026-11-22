@@ -1,3 +1,5 @@
+import type { EngineReading } from './demoReadings';
+
 /**
  * Federação Oráculo — contratos de domínio.
  *
@@ -39,6 +41,7 @@ export type SimMode =
 
 /** Uma única TIP demonstrativa (nunca uma previsão real). */
 export interface OracleDecision {
+  reading?: EngineReading;
   team: TeamRef;
   market: string;
   selection: string;

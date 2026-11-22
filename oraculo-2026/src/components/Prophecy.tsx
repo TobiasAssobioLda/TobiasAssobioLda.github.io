@@ -1,9 +1,10 @@
-import { useEffect, useRef, useState, type RefObject } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState, type RefObject } from 'react';
 import { RotateCcw } from 'lucide-react';
 import type { OracleDecision } from '../oracle/types';
 import { paintMist } from '../scene/paintMist';
 import Storm, { type StormFrame } from '../scene/Storm';
 import type { AbsorbFrame } from './Invocation';
+import EngineVerdict from './EngineVerdict';
 import './prophecy.css';
 
 const DISSOLVE_MS = 480, RECALL_MS = 3580;
@@ -16,10 +17,18 @@ export default function Prophecy({ decision, onNew, onFinish, reducedMotion, vor
 }) {
   const canvas = useRef<HTMLCanvasElement>(null);
   const layer = useRef<HTMLDivElement>(null);
+  const foreground = useRef<HTMLCanvasElement>(null);
+  const inkAt = useRef(0);
   const stormFrame = useRef<StormFrame | null>(null);
   const heading = useRef<HTMLHeadingElement>(null);
   const returnAt = useRef(0);
+  const mistAge = useRef(0);
   const [returning, setReturning] = useState(false);
+
+  useLayoutEffect(() => {
+    inkAt.current = decision ? performance.now() : 0;
+    if (decision) layer.current?.style.setProperty('--eddy', `${8 * Math.sin(mistAge.current * .61)}px`);
+  }, [decision]);
 
   useEffect(() => {
     if (decision) heading.current?.focus({ preventScroll: true });
@@ -79,6 +88,7 @@ export default function Prophecy({ decision, onNew, onFinish, reducedMotion, vor
       ctx?.setTransform(scale, 0, 0, scale, 0, pad*scale);
       ctx?.clearRect(0, -pad, w / scale, h / scale);
       const age = (now - start) / 1000;
+      mistAge.current = age;
       // Scrub the same spatial path backwards, after the lettering has dissolved.
       const returningMs = returnAt.current ? now - returnAt.current : 0;
       const u = Math.min(1, Math.max(0, (returningMs - DISSOLVE_MS) / RECALL_MS));
@@ -87,6 +97,8 @@ export default function Prophecy({ decision, onNew, onFinish, reducedMotion, vor
         : Math.min(1, Math.max(0, (age - .35) / 4.15));
       vortex.current = reducedMotion ? 0 : returnAt.current ? -progress : progress;
       const veil = Math.min(1, Math.max(0, (progress - .54) / .34));
+      // Widen only the settling mist, not the storm canvas or the glass.
+      surface.style.transform = `scale(${1 + .22*veil*veil},${1 + .28*veil*veil})`;
       plate.style.opacity = String(1 - veil * veil * (3 - 2 * veil));
       // One storm sample drives the moving sheet and the lettering caught in it.
       const entering = invoking && !returnAt.current && !reducedMotion;
@@ -99,6 +111,29 @@ export default function Prophecy({ decision, onNew, onFinish, reducedMotion, vor
       if (ctx && mist.complete && mist.naturalWidth) paintMist(ctx, mist, sx, sy,
         width / 2, height * .49, width * .90, height * .91, progress,
         age);
+      // A few curls of the existing mist pass in front of the forming ink.
+      // Sample the same sprite and phase as the surrounding cloud.
+      const veilCanvas = foreground.current;
+      if (veilCanvas && !veilCanvas.hidden && mist.complete && mist.naturalWidth) {
+        const elapsed = (now - inkAt.current) / 1600;
+        if (elapsed >= 1 || returningMs || reducedMotion) veilCanvas.hidden = true;
+        else {
+          const brush = veilCanvas.getContext('2d');
+          if (brush) {
+            const w = veilCanvas.width, h = veilCanvas.height;
+            brush.clearRect(0, 0, w, h);
+            for (let i=0; i<4; i++) {
+              const u = Math.min(1, Math.max(0, (elapsed - i*.045)*1.28));
+              brush.save();
+              brush.translate(w*(.14 + i*.24 + .06*Math.sin(age*.61+i*2.3)), h*(.32+.38*u));
+              brush.rotate(.25*Math.sin(age*.43+i));
+              brush.globalAlpha = .42*Math.min(1,Math.max(0,elapsed)*7)*(1-u*u);
+              brush.drawImage(mist, -w*.24, -h*.13, w*.48, h*.26);
+              brush.restore();
+            }
+          }
+        }
+      }
       if (returnAt.current && u === 1) onFinish();
     };
     const resize = () => { layout(); if (reducedMotion) {due = 0; render(performance.now());} };
@@ -120,20 +155,20 @@ export default function Prophecy({ decision, onNew, onFinish, reducedMotion, vor
     {!reducedMotion && <Storm frame={stormFrame} />}
     <canvas className="vision-mist" ref={canvas} aria-hidden="true" />
     <section className="vision-script" aria-label="Profecia demonstrativa" data-returning={returning}>
-      {decision && <div className="inscription">
-        <p className="vision-seal"><i /> Profecia · DEMO <i /></p>
+      {decision && <div className={decision.reading ? 'inscription engine-prophecy' : 'inscription'}>
         <h2 ref={heading} tabIndex={-1}>{decision.team.name}</h2>
-        <dl className="vision-terms">
+        {decision.reading ? <EngineVerdict decision={decision} reading={decision.reading} /> : <><dl className="vision-terms">
           <div><dt>Mercado</dt><dd>{decision.market}</dd></div>
           <div><dt>Seleção</dt><dd>{decision.selection}</dd></div>
           <div><dt>Odd</dt><dd>{decision.odd.toFixed(2)}</dd></div>
         </dl>
-        <p className="vision-reason">{decision.factors[0]}</p>
+        <p className="vision-reason">{decision.factors[0]}</p></>}
         <button type="button" disabled={returning} onClick={() => {
           returnAt.current = performance.now();
           setReturning(true);
           onNew(decision);
         }}><RotateCcw size={14} aria-hidden /> Nova consulta</button>
+        {decision.reading && !reducedMotion && <canvas className="ink-vapour" ref={foreground} width="480" height="320" aria-hidden="true" />}
       </div>}
     </section>
   </div>;

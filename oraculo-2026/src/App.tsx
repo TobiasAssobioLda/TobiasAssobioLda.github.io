@@ -7,7 +7,6 @@ import { findMatches, matchState } from './oracle/matches';
 import type { DemoMatch } from './oracle/matches';
 import type { OracleDecision, OraclePhase, OracleResponse, TeamRef } from './oracle/types';
 import { useQuality } from './fx/quality';
-import TopBar from './components/TopBar';
 import SearchBar from './components/SearchBar';
 import ResultPanel from './components/ResultPanel';
 import type { PanelState } from './components/ResultPanel';
@@ -263,18 +262,7 @@ export default function App() {
       <div className="fx-blob fx-blob-b" aria-hidden />
       <div className="fx-noise" aria-hidden />
 
-      <TopBar />
-
       <main className="stage">
-        <div className="intro" data-animate>
-          <p className="eyebrow">
-            <span className="rule" aria-hidden />
-            Oráculo · Época 2026
-            <span className="rule" aria-hidden />
-          </p>
-          <h1 className="title">A bola de cristal decide.</h1>
-        </div>
-
         <div className="orb-stage">
           <div className="orb-viewport">
             <div className="orb-canvas">
@@ -311,11 +299,7 @@ export default function App() {
         </div>
       </main>
 
-      <footer className="foot" data-animate>
-        <p>Demonstração — sem previsões reais.</p>
-      </footer>
-
-      <DemoDock />
+      {new URLSearchParams(location.search).has('dock') && <DemoDock />}
     </div>
   );
 }

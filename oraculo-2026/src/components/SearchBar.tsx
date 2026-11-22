@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import type { FormEvent, KeyboardEvent, RefObject } from 'react';
 import gsap from 'gsap';
-import { ArrowRight, LoaderCircle, Search } from 'lucide-react';
 import { findMatches, lockRemaining, matchState } from '../oracle/matches';
 import type { DemoMatch } from '../oracle/matches';
 import type { OraclePhase } from '../oracle/types';
@@ -175,14 +174,12 @@ export default function SearchBar({
     onSubmit(q);
   };
 
-  const status = busy ? 'a ler os sinais…' : charging ? 'a condensar a revelação…' : null;
   const activeId =
     open && active >= 0 && suggestions[active] ? `oracle-opt-${suggestions[active].id}` : undefined;
 
   return (
     <div className="search">
-      <form className="searchbar" role="search" onSubmit={submit}>
-        <Search className="searchbar-ico" size={20} strokeWidth={1.9} aria-hidden />
+      <form className="searchbar" role="search" onSubmit={submit} data-idle={!value && !locked || undefined}>
         <input
           ref={inputRef}
           type="text"
@@ -199,7 +196,6 @@ export default function SearchBar({
           inputMode="search"
           enterKeyHint="search"
           maxLength={60}
-          placeholder="Escreve a equipa ou o jogo…"
           value={value}
           disabled={locked}
           readOnly={confirmed !== null}
@@ -210,18 +206,6 @@ export default function SearchBar({
             if (suggestions.length > 0 && !locked) setOpen(true);
           }}
         />
-        <button
-          type="submit"
-          className="searchbar-go"
-          aria-label="Consultar o Oráculo"
-          disabled={locked || value.trim().length === 0}
-        >
-          {busy ? (
-            <LoaderCircle className="spin" size={20} aria-hidden />
-          ) : (
-            <ArrowRight size={20} aria-hidden />
-          )}
-        </button>
       </form>
 
       {open && suggestions.length > 0 && (
@@ -269,12 +253,6 @@ export default function SearchBar({
         </ul>
       )}
 
-      {status && (
-        <p className="search-status" aria-live="polite">
-          <span className="pulse-dot" aria-hidden />
-          {status}
-        </p>
-      )}
     </div>
   );
 }

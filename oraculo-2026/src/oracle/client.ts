@@ -1,4 +1,5 @@
 import { findTeams } from './teams';
+import { demoReadings } from './demoReadings';
 import type {
   MemberSession,
   OracleAuth,
@@ -54,6 +55,12 @@ const FACTORS: string[] = [
 ];
 
 export function demoDecision(team: TeamRef, mode: SimMode): OracleDecision {
+  const reading = demoReadings[team.id];
+  if (reading) {
+    const pick = reading.engines[reading.winner];
+    return { team, market: reading.market, selection: pick.selection, odd: pick.odd!,
+      reading, factors: [], generatedAt: new Date().toISOString() };
+  }
   const h = hash(`${team.id}:${mode}:demo`);
   const pick = <T>(arr: T[], offset = 0) => arr[(h + offset * 7) % arr.length];
   const m = pick(MARKETS);
