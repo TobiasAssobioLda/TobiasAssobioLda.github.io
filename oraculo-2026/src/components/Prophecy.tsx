@@ -3,11 +3,14 @@ import { RotateCcw } from 'lucide-react';
 import type { OracleDecision } from '../oracle/types';
 import { paintMist } from '../scene/paintMist';
 import Storm, { type StormFrame } from '../scene/Storm';
+import type { AbsorbFrame } from './Invocation';
 import './prophecy.css';
 
 const DISSOLVE_MS = 480, RECALL_MS = 3580;
 
-export default function Prophecy({ decision, onNew, onFinish, reducedMotion, vortex }: {
+export default function Prophecy({ decision, onNew, onFinish, reducedMotion, vortex, dormant, absorb }: {
+  absorb: RefObject<AbsorbFrame | null>;
+  dormant: boolean;
   vortex: RefObject<number>;
   decision: OracleDecision | null; onNew: (decision: OracleDecision) => void; onFinish: () => void; reducedMotion: boolean;
 }) {
@@ -43,9 +46,24 @@ export default function Prophecy({ decision, onNew, onFinish, reducedMotion, vor
       sx = orb.left - box.left - left + .49 * orb.width;
       sy = orb.top - box.top - top + .385 * orb.height;
     };
+    if (dormant) {
+      // Keep the transparent storm surface composited at its final resolution.
+      // Allocating/promoting it on the first pull can skip the visible overlap.
+      let raf = 0;
+      const warm = () => {
+        layout();
+        if (stormFrame.current) stormFrame.current(0, 0, true);
+        else raf = requestAnimationFrame(warm);
+      };
+      const ro = new ResizeObserver(() => { cancelAnimationFrame(raf); warm(); });
+      ro.observe(plate); ro.observe(viewport); ro.observe(plate.parentElement!);
+      warm();
+      return () => { cancelAnimationFrame(raf); ro.disconnect(); };
+    }
     const mist = new Image();
     mist.src = `${import.meta.env.BASE_URL}prophecy-mist.webp`;
     const start = performance.now();
+    const invoking = !!absorb.current;
     let raf = 0;
     const interval = matchMedia('(pointer: coarse)').matches ? 1000 / 30 : 1000 / 60;
     let due = 0;
@@ -70,7 +88,14 @@ export default function Prophecy({ decision, onNew, onFinish, reducedMotion, vor
       vortex.current = reducedMotion ? 0 : returnAt.current ? -progress : progress;
       const veil = Math.min(1, Math.max(0, (progress - .54) / .34));
       plate.style.opacity = String(1 - veil * veil * (3 - 2 * veil));
-      stormFrame.current?.(progress);
+      // One storm sample drives the moving sheet and the lettering caught in it.
+      const entering = invoking && !returnAt.current && !reducedMotion;
+      // The filaments continue their angular travel well past the point
+      // where the glass inscription loses cohesion (~0.40 s).
+      const turn = entering ? 2.1 * (1 - Math.exp(-2.32 * Math.max(0, age))) : 0;
+      stormFrame.current?.(progress, turn, entering);
+      if (stormFrame.current || reducedMotion || age > .45)
+        absorb.current?.(reducedMotion ? 2.1 : turn);
       if (ctx && mist.complete && mist.naturalWidth) paintMist(ctx, mist, sx, sy,
         width / 2, height * .49, width * .90, height * .91, progress,
         age);
@@ -89,9 +114,9 @@ export default function Prophecy({ decision, onNew, onFinish, reducedMotion, vor
       vortex.current = 0;
       plate.style.removeProperty('opacity');
     };
-  }, [reducedMotion, vortex, onFinish]);
+  }, [reducedMotion, vortex, onFinish, dormant, absorb]);
 
-  return <div className="vision-layer" ref={layer}>
+  return <div className={dormant ? 'vision-prewarm' : 'vision-layer'} data-prewarm={dormant || undefined} aria-hidden={dormant || undefined} ref={layer}>
     {!reducedMotion && <Storm frame={stormFrame} />}
     <canvas className="vision-mist" ref={canvas} aria-hidden="true" />
     <section className="vision-script" aria-label="Profecia demonstrativa" data-returning={returning}>

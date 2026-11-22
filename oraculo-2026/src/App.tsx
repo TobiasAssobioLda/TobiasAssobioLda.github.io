@@ -13,6 +13,7 @@ import ResultPanel from './components/ResultPanel';
 import type { PanelState } from './components/ResultPanel';
 import DemoDock from './components/DemoDock';
 import Prophecy from './components/Prophecy';
+import Invocation, { type AbsorbFrame } from './components/Invocation';
 
 /** Duração mínima da fase 'charging' — a revelação merece suspense. */
 const CHARGE_MS = 4500;
@@ -44,12 +45,28 @@ export default function App() {
 
   const rootRef = useRef<HTMLDivElement>(null);
   const vortex = useRef(0);
+  const absorb = useRef<AbsorbFrame | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const seqRef = useRef(0);
   const teamRef = useRef<TeamRef | null>(null);
   const chargeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const [ritual, setRitual] = useState<DOMRect | null>(null);
+  const releaseRitual = useRef<(() => void) | null>(null);
+  const beginStorm = useCallback(() => {
+    releaseRitual.current?.();
+    releaseRitual.current = null;
+  }, []);
+  const finishRitual = useCallback(() => {
+    beginStorm();
+    setRitual(null);
+  }, [beginStorm]);
 
-  const consult = useCallback(async (team: TeamRef, ready?: OracleDecision) => {
+  const consult = useCallback(async (team: TeamRef, ready?: OracleDecision, origin?: DOMRect) => {
+    if (releaseRitual.current) return;
+    const presentation = origin && new Promise<void>(resolve => {
+      releaseRitual.current = resolve;
+      setRitual(origin);
+    });
     teamRef.current = team;
     const seq = ++seqRef.current;
     if (chargeTimer.current) {
@@ -67,6 +84,7 @@ export default function App() {
         : await oracle.consult(team);
       if (seq !== seqRef.current) return;
       if (res.kind === 'decision') {
+        if (presentation) await presentation;
         // A second search can finish while the previous smoke is still on screen.
         // Queue only its KO-8 presentation, never the input or the lookup.
         if (recallDone.current) await recallDone.current;
@@ -82,15 +100,17 @@ export default function App() {
           setPhase('revealed');
         }, CHARGE_MS);
       } else {
+        if (presentation) finishRitual();
         setPanel({ type: 'oracle', response: res });
         setPhase('idle');
       }
     } catch {
       if (seq !== seqRef.current) return;
+      if (presentation) finishRitual();
       setPanel({ type: 'error' });
       setPhase('idle');
     }
-  }, []);
+  }, [finishRitual]);
 
   const reset = useCallback((focus = true) => {
     seqRef.current++;
@@ -127,7 +147,11 @@ export default function App() {
       const state = matchState(m, Date.now());
       if (state === 'locked') return;
       setQuery(m.label);
-      void consult(m.consultTeam, state === 'ready' ? m.prophecy ?? undefined : undefined);
+      const origin = state === 'invoke'
+        ? rootRef.current?.querySelector('.crystal-plate')?.getBoundingClientRect()
+        : undefined;
+      if (origin) inputRef.current?.blur();
+      void consult(m.consultTeam, state === 'ready' ? m.prophecy ?? undefined : undefined, origin);
     },
     [consult],
   );
@@ -228,8 +252,13 @@ export default function App() {
 
   const decision = panel?.type === 'oracle' && panel.response.kind === 'decision' ? panel.response.decision : null;
   const vision = phase === 'charging' || decision !== null;
+  // Prepare the storm context behind the search, never on the dissolve frame.
+  // Keep its key across the click so charging starts the approved clock in place.
+  const candidate = phase === 'idle' && query.trim().length >= 2 && findMatches(query, 1)[0];
+  const prewarm = !reducedMotion && !vision && !recall && !panel &&
+    (!!ritual || (candidate && matchState(candidate, Date.now()) === 'invoke'));
   return (
-    <div className="app" ref={rootRef} data-vision={vision || waitingForSearch || undefined}>
+    <div className="app" ref={rootRef} data-vision={vision || waitingForSearch || !!ritual || undefined}>
       <div className="fx-blob fx-blob-a" aria-hidden />
       <div className="fx-blob fx-blob-b" aria-hidden />
       <div className="fx-noise" aria-hidden />
@@ -249,10 +278,12 @@ export default function App() {
         <div className="orb-stage">
           <div className="orb-viewport">
             <div className="orb-canvas">
-              <CrystalBall phase={recall ? 'revealed' : phase} quality={tier} reducedMotion={reducedMotion} vortex={vortex} />
+              <CrystalBall phase={recall ? 'revealed' : phase} quality={tier} reducedMotion={reducedMotion} vortex={vortex}>
+                {ritual && <Invocation origin={ritual} reducedMotion={reducedMotion} absorb={absorb} onHandoff={beginStorm} onFinish={finishRitual} />}
+              </CrystalBall>
             </div>
 
-            <div className="search-float" data-animate data-covered={waitingForSearch || panel !== null || phase === 'charging'}>
+            <div className="search-float" data-animate data-covered={!!ritual || waitingForSearch || panel !== null || phase === 'charging'}>
               <SearchBar
                 value={query}
                 onChange={setQuery}
@@ -265,8 +296,8 @@ export default function App() {
               />
             </div>
 
-            {(vision || recall) && (
-              <Prophecy key={visionId} vortex={vortex} decision={recall ?? decision} onNew={newConsultation} onFinish={finishReturn} reducedMotion={reducedMotion} />
+            {(vision || recall || prewarm) && (
+              <Prophecy key={prewarm ? seqRef.current + (ritual ? 0 : 1) : visionId} dormant={!!prewarm} vortex={vortex} absorb={absorb} decision={recall ?? decision} onNew={newConsultation} onFinish={finishReturn} reducedMotion={reducedMotion} />
             )}
             {panel && !decision && (
               <ResultPanel

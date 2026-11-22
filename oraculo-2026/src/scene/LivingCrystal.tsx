@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type RefObject } from 'react';
+import { useEffect, useRef, useState, type ReactNode, type RefObject } from 'react';
 import type { CrystalBallProps } from '../oracle/types';
 import { drawChamber } from './drawChamber';
 import { Presence } from './presence';
@@ -6,7 +6,7 @@ import './livingCrystal.css';
 
 const asset = (name: string) => `${import.meta.env.BASE_URL}${name}.webp`;
 
-export default function LivingCrystal({ phase, quality, reducedMotion, vortex }: CrystalBallProps & { vortex: RefObject<number> }) {
+export default function LivingCrystal({ phase, quality, reducedMotion, vortex, children }: CrystalBallProps & { vortex: RefObject<number>; children?: ReactNode }) {
   const phaseRef = useRef(phase);
   const ref = useRef<HTMLCanvasElement>(null);
   const poster = useRef<HTMLImageElement>(null);
@@ -144,6 +144,7 @@ export default function LivingCrystal({ phase, quality, reducedMotion, vortex }:
       <div className="crystal-plate">
         <img ref={poster} src={asset('chamber')} alt="" />
         <canvas ref={ref} />
+        {children}
       </div>
     </div>
   );

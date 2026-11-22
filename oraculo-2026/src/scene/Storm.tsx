@@ -12,7 +12,7 @@ const fragment = `precision mediump float;
 varying vec2 uv;
 uniform sampler2D atlas;
 uniform vec2 size,origin;
-uniform float diameter,p;
+uniform float diameter,p,intake,twist;
 vec3 sheet(vec2 pos,float depth){
   float r=length(pos);
   float bloom=smoothstep(.12,.82,p);
@@ -20,7 +20,7 @@ vec3 sheet(vec2 pos,float depth){
   vec2 q=pos/scale;
   q.y-=depth*.12*bloom;
   float at=mix(.50,.76,depth);
-  float a=(p*p-at*at)*(5.6+depth*2.3)/(1.+1.65*r)
+  float a=((p*p-at*at)*(5.6+depth*2.3)+twist)/(1.+1.65*r)
     +.16*sin(7.*q.y+p*8.+depth)*sin(3.14159*p);
   float c=cos(a),s=sin(a);
   q=mat2(c,-s,s,c)*q;
@@ -42,11 +42,16 @@ void main(){
   float density=max(smoke.r,smoke.b);
   vec3 glow=min(vec3(1.),smoke*1.18);
   float alpha=max(max(glow.r,glow.b),smoothstep(.008,.7,density));
+  // At intake the same foreground filaments scatter light AND cast a shadow
+  // over the sockets. Let the original envelope take over as the sheet opens.
+  float curtain=intake*(1.-smoothstep(.18,.43,length(pos)));
+  alpha=mix(alpha,1.,curtain);
+  envelope=max(envelope,curtain);
   float edge=smoothstep(0.,.095,min(uv.x,1.-uv.x))*smoothstep(0.,.045,min(uv.y,1.-uv.y));
   gl_FragColor=vec4(glow,alpha)*envelope*edge;
 }`;
 
-export type StormFrame = (progress: number) => void;
+export type StormFrame = (progress: number, turn?: number, invoking?: boolean) => void;
 
 export default function Storm({frame}: {frame: RefObject<StormFrame | null>}) {
   const ref = useRef<HTMLCanvasElement>(null);
@@ -70,9 +75,9 @@ export default function Storm({frame}: {frame: RefObject<StormFrame | null>}) {
       gl.bindTexture(gl.TEXTURE_2D,texture);
       for (const param of [gl.TEXTURE_WRAP_S,gl.TEXTURE_WRAP_T]) gl.texParameteri(gl.TEXTURE_2D,param,gl.CLAMP_TO_EDGE);
       for (const param of [gl.TEXTURE_MIN_FILTER,gl.TEXTURE_MAG_FILTER]) gl.texParameteri(gl.TEXTURE_2D,param,gl.LINEAR);
-      const [size,origin,diameter,p]=['size','origin','diameter','p'].map(n=>gl.getUniformLocation(program,n));
-      const draw: StormFrame = v=>{
-        if (v===0 || v===1) {
+      const [size,origin,diameter,p,intake,twist]=['size','origin','diameter','p','intake','twist'].map(n=>gl.getUniformLocation(program,n));
+      const draw: StormFrame = (v,turn=0,invoking=false)=>{
+        if ((v===0 && !invoking) || v===1) {
           if (!clean) {gl.clear(gl.COLOR_BUFFER_BIT);canvas.style.visibility='hidden';clean=true;}
           return;
         }
@@ -85,6 +90,12 @@ export default function Storm({frame}: {frame: RefObject<StormFrame | null>}) {
         gl.uniform2f(size,b.width,b.height);
         gl.uniform2f(origin,o.x-b.x+o.width*.49,o.y-b.y+o.height*(.386+.09*v));
         gl.uniform1f(diameter,o.width*.73);gl.uniform1f(p,v);
+        const blend=Math.max(0,Math.min(1,(v-.18)/.21));
+        // Read the first bright ridge immediately, without blanketing the
+        // lettering in opaque smoke before it has travelled with the sheet.
+        const density = .23*(1-Math.exp(-5*turn)) + .77*Math.min(1,turn/1.28);
+        gl.uniform1f(intake,invoking ? density*(1-blend*blend*(3-2*blend)) : 0);
+        gl.uniform1f(twist,invoking ? (turn-2.1)*(1-blend) : 0);
         gl.drawArrays(gl.TRIANGLES,0,3);canvas.style.visibility='visible';
       };
       image.onload=()=>{
