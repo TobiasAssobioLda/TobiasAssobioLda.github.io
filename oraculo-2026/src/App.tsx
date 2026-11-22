@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
-import CrystalBall from './scene/CrystalBall';
+import CrystalBall from './scene/LivingCrystal';
 import { oracle } from './oracle/client';
 import { resolveTeam } from './oracle/teams';
 import type { OraclePhase, TeamRef } from './oracle/types';
