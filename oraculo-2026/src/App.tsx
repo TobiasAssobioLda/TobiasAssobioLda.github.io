@@ -100,6 +100,55 @@ export default function App() {
     if (teamRef.current) void consult(teamRef.current);
   }, [consult]);
 
+  useEffect(() => {
+    const app = rootRef.current;
+    if (!app) return;
+    const viewport = window.visualViewport;
+    const coarsePointer = matchMedia('(pointer: coarse)').matches;
+    let fullHeight = Math.max(window.innerHeight, viewport?.height ?? 0);
+    let raf = 0;
+    const update = () => {
+      raf = 0;
+      const height = viewport?.height ?? window.innerHeight;
+      const width = viewport?.width ?? window.innerWidth;
+      const top = viewport?.offsetTop ?? 0;
+      const left = viewport?.offsetLeft ?? 0;
+      const focused = document.activeElement === inputRef.current;
+      if (!focused) fullHeight = Math.max(fullHeight, window.innerHeight, height);
+      const keyboardOpen = coarsePointer && focused && fullHeight - height > 96;
+      app.style.setProperty('--vv-height', `${height}px`);
+      app.style.setProperty('--vv-width', `${width}px`);
+      app.style.setProperty('--vv-top', `${top}px`);
+      app.style.setProperty('--vv-left', `${left}px`);
+      app.classList.toggle('keyboard-open', keyboardOpen);
+      document.body.classList.toggle('keyboard-open', keyboardOpen);
+      if (keyboardOpen) {
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+        window.scrollTo(0, 0);
+      }
+    };
+    const schedule = () => {
+      if (!raf) raf = requestAnimationFrame(update);
+    };
+    viewport?.addEventListener('resize', schedule);
+    viewport?.addEventListener('scroll', schedule);
+    window.addEventListener('resize', schedule);
+    document.addEventListener('focusin', schedule);
+    document.addEventListener('focusout', schedule);
+    update();
+    return () => {
+      if (raf) cancelAnimationFrame(raf);
+      viewport?.removeEventListener('resize', schedule);
+      viewport?.removeEventListener('scroll', schedule);
+      window.removeEventListener('resize', schedule);
+      document.removeEventListener('focusin', schedule);
+      document.removeEventListener('focusout', schedule);
+      app.classList.remove('keyboard-open');
+      document.body.classList.remove('keyboard-open');
+    };
+  }, []);
+
   // Entrada escalonada: topbar → headline → orbe → pesquisa → rodapé/dock.
   useEffect(() => {
     if (reducedMotion) return;

@@ -15,6 +15,7 @@
     linear-gradient(to bottom, transparent, black 2% 90%, transparent),
     linear-gradient(to right, transparent, black 11% 89%, transparent);
   mask-composite: intersect;
+  transition: width 0.22s ease;
 }
 .crystal-plate > * {
   position: absolute;

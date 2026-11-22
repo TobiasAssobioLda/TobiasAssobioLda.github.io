@@ -31,7 +31,10 @@
 
 html,
 body {
+  width: 100%;
   height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
 }
 
 body {
@@ -44,6 +47,12 @@ body {
   -webkit-font-smoothing: antialiased;
   overflow: hidden;
   overscroll-behavior: none;
+}
+
+body.keyboard-open {
+  position: fixed;
+  inset: 0;
+  width: 100%;
 }
 
 button,
@@ -65,6 +74,10 @@ button {
 /* ------------------------------------------------------------------ */
 
 .app {
+  --vv-height: 100dvh;
+  --vv-width: 100vw;
+  --vv-top: 0px;
+  --vv-left: 0px;
   position: relative;
   height: 100dvh;
   display: flex;
@@ -400,6 +413,9 @@ button {
   box-shadow: 0 22px 60px rgba(0, 0, 0, 0.55);
   max-height: min(290px, 34dvh);
   overflow-y: auto;
+  overscroll-behavior: contain;
+  touch-action: pan-y;
+  -webkit-overflow-scrolling: touch;
   z-index: 30;
 }
 
@@ -851,6 +867,84 @@ button {
     margin-top: 4px;
     font-size: clamp(16px, 2.6vh, 22px);
   }
+}
+
+.app.keyboard-open {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: var(--vv-width);
+  height: var(--vv-height);
+  min-height: 0;
+  transform: translate3d(var(--vv-left), var(--vv-top), 0);
+  overflow: hidden;
+  contain: layout paint;
+}
+
+.app.keyboard-open .topbar {
+  padding-top: calc(8px + env(safe-area-inset-top, 0px));
+  padding-bottom: 3px;
+  transition: padding 0.22s ease;
+}
+
+.app.keyboard-open .brand-sigil {
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  transition:
+    width 0.22s ease,
+    height 0.22s ease,
+    border-radius 0.22s ease;
+}
+
+.app.keyboard-open .brand-text strong {
+  font-size: 10px;
+}
+
+.app.keyboard-open .brand-text span,
+.app.keyboard-open .demo-pill,
+.app.keyboard-open .foot,
+.app.keyboard-open .demo-dock {
+  display: none;
+}
+
+.app.keyboard-open .intro {
+  max-height: 0;
+  padding-top: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  transition:
+    max-height 0.22s ease,
+    padding 0.22s ease,
+    opacity 0.18s ease,
+    visibility 0.22s;
+}
+
+.app.keyboard-open .crystal-stage {
+  bottom: calc(76px + env(safe-area-inset-bottom, 0px));
+}
+
+.app.keyboard-open .crystal-plate {
+  width: min(96cqw, 82cqh);
+}
+
+.app.keyboard-open .search-float {
+  bottom: max(8px, env(safe-area-inset-bottom, 0px));
+  padding-inline: calc(12px + env(safe-area-inset-left, 0px)) calc(12px + env(safe-area-inset-right, 0px));
+  transition:
+    opacity 0.35s ease,
+    translate 0.35s ease,
+    visibility 0.35s;
+}
+
+.app.keyboard-open .suggest {
+  bottom: calc(100% + 8px);
+  max-height: clamp(72px, calc(var(--vv-height) * 0.42), 220px);
+}
+
+.app.keyboard-open .search-status {
+  display: none;
 }
 
 /* ------------------------------------------------------------------ */

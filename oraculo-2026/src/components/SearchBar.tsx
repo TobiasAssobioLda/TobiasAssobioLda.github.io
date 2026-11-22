@@ -201,7 +201,10 @@ export default function SearchBar({
               role="option"
               aria-selected={i === active}
               className={i === active ? 'suggest-item is-active' : 'suggest-item'}
-              onMouseDown={(e) => e.preventDefault()}
+              onPointerDown={(e) => {
+                e.preventDefault();
+                if (e.pointerType === 'touch') pick(team);
+              }}
               onClick={() => pick(team)}
               onMouseEnter={() => setActive(i)}
             >
