@@ -13,7 +13,7 @@
  */
 import { useEffect, useMemo, useRef } from 'react';
 import type { JSX } from 'react';
-import { useFrame } from '@react-three/fiber';
+import { useFrame, useThree } from '@react-three/fiber';
 import * as THREE from 'three';
 import type { OraclePhase, QualityTier } from '../oracle/types';
 import {
@@ -76,6 +76,14 @@ export default function OrbScene({
   pointer,
 }: OrbSceneProps): JSX.Element {
   const seg = SPHERE_SEGMENTS[quality];
+
+  // presença adaptada ao palco: desktop ~86% da altura, mobile mantém
+  // o bleed lateral imersivo (dia > largura do viewport)
+  const viewport = useThree((s) => s.viewport);
+  const viewScale = Math.min(
+    1.45,
+    Math.max(1.05, Math.min(viewport.height * 0.86, viewport.width * 1.42) / 2),
+  );
 
   const groupRef = useRef<THREE.Group>(null);
   const coreRef = useRef<THREE.Mesh>(null);
@@ -403,7 +411,7 @@ export default function OrbScene({
   });
 
   return (
-    <group>
+    <group scale={viewScale}>
       {/* halo radial atrás do orbe */}
       <sprite ref={haloRef} position={[0, 0, -1.3]} scale={[4.4, 4.4, 1]} renderOrder={-3}>
         <spriteMaterial
@@ -444,7 +452,7 @@ export default function OrbScene({
 
         {/* núcleo de energia líquida */}
         <mesh ref={coreRef} material={coreMat} renderOrder={0}>
-          <sphereGeometry args={[0.82, seg, seg]} />
+          <sphereGeometry args={[0.9, seg, seg]} />
         </mesh>
 
         {/* luz de alma no centro */}

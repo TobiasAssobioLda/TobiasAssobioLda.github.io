@@ -50,6 +50,10 @@ void main() {
   // rim principal
   vec3 col = uRimColor * fresnel * uIntensity;
 
+  // aresta de cristal — linha luminosa fina na silhueta
+  float edge = pow(1.0 - ndv, 16.0);
+  col += vec3(0.82, 0.72, 1.0) * edge * (1.1 + uFlash * 0.8);
+
   // softbox 1: faixa clara alta à esquerda (luz de estúdio)
   vec3 s1dir = normalize(vec3(-0.62, 0.72, 0.55));
   float s1 = pow(max(dot(reflect(-s1dir, n), v), 0.0), 160.0);
@@ -92,6 +96,9 @@ void main() {
   // centro translúcido escuro, bordas mais densas/luminosas
   float depth = pow(1.0 - ndv, 1.7);
   vec3 col = uDeepColor * (0.3 + depth * 1.15) * uGlow;
+
+  // haze azulado junto ao vidro — profundidade em vez de vazio
+  col += vec3(0.26, 0.3, 0.85) * pow(1.0 - ndv, 5.0) * 0.4 * uGlow;
   gl_FragColor = vec4(col, 1.0);
 }
 `;
@@ -184,7 +191,7 @@ void main() {
 
   // volume: bordas do globo mais ténues que o centro
   float ndv = clamp(dot(normalize(vNormal), normalize(vView)), 0.0, 1.0);
-  float body = 0.25 + 0.75 * pow(ndv, 0.65);
+  float body = 0.45 + 0.55 * pow(ndv, 0.6);
 
   float glow = (0.35 + n * 1.5) * (0.35 + uEnergy * 1.35);
   col = col * glow * body;
