@@ -24,8 +24,28 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: oraculo-2026/package-lock.json
+
+      - name: Build Oráculo (Vite)
+        working-directory: oraculo-2026
+        run: |
+          npm ci
+          npm run build
+
+      - name: Assemble site (capa + /oraculo/)
+        run: |
+          mkdir -p deploy/oraculo
+          cp -r public/. deploy/
+          cp -r oraculo-2026/dist/. deploy/oraculo/
+
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: public
+          path: deploy
+
       - id: deployment
         uses: actions/deploy-pages@v4
