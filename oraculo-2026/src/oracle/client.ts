@@ -53,7 +53,7 @@ const FACTORS: string[] = [
   'Melhor marcador em sequência de 4 jogos a marcar',
 ];
 
-function demoDecision(team: TeamRef, mode: SimMode): OracleDecision {
+export function demoDecision(team: TeamRef, mode: SimMode): OracleDecision {
   const h = hash(`${team.id}:${mode}:demo`);
   const pick = <T>(arr: T[], offset = 0) => arr[(h + offset * 7) % arr.length];
   const m = pick(MARKETS);

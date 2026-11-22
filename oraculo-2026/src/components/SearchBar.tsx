@@ -2,13 +2,14 @@ import { useEffect, useRef, useState } from 'react';
 import type { FormEvent, KeyboardEvent, RefObject } from 'react';
 import gsap from 'gsap';
 import { ArrowRight, LoaderCircle, Search } from 'lucide-react';
-import { oracle } from '../oracle/client';
-import type { OraclePhase, TeamRef } from '../oracle/types';
+import { findMatches, lockRemaining, matchState } from '../oracle/matches';
+import type { DemoMatch } from '../oracle/matches';
+import type { OraclePhase } from '../oracle/types';
 
 interface SearchBarProps {
   value: string;
   onChange: (value: string) => void;
-  onPick: (team: TeamRef) => void;
+  onPick: (match: DemoMatch) => void;
   onSubmit: (query: string) => void;
   phase: OraclePhase;
   /** true quando o painel de resultado cobre a barra. */
@@ -19,6 +20,14 @@ interface SearchBarProps {
 
 const DEBOUNCE_MS = 180;
 const MAX_SUGGESTIONS = 6;
+
+const pad = (n: number) => String(n).padStart(2, '0');
+
+/** HH:MM:SS — contado do relógio real até ao desbloqueio KO−9. */
+function countdown(ms: number): string {
+  const s = Math.ceil(ms / 1000);
+  return `${pad(Math.floor(s / 3600))}:${pad(Math.floor(s / 60) % 60)}:${pad(s % 60)}`;
+}
 
 /**
  * Barra de pesquisa cinematográfica com sugestões (combobox ARIA).
@@ -38,10 +47,12 @@ export default function SearchBar({
   const charging = phase === 'charging';
   const locked = busy || charging || covered;
 
-  const [suggestions, setSuggestions] = useState<TeamRef[]>([]);
+  const [suggestions, setSuggestions] = useState<DemoMatch[]>([]);
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(-1);
   const [confirmed, setConfirmed] = useState<string | null>(null);
+  const [now, setNow] = useState(() => Date.now());
+  const [shake, setShake] = useState<{ id: string; n: number } | null>(null);
   const pickTimer = useRef<number | null>(null);
   useEffect(() => () => { if (pickTimer.current !== null) window.clearTimeout(pickTimer.current); }, []);
 
@@ -65,22 +76,25 @@ export default function SearchBar({
     }
     const req = ++reqRef.current;
     const timer = window.setTimeout(() => {
-      oracle
-        .searchTeams(q, MAX_SUGGESTIONS)
-        .then((res) => {
-          if (req !== reqRef.current) return;
-          setSuggestions(res);
-          setActive(-1);
-          setOpen(res.length > 0);
-        })
-        .catch(() => {
-          if (req !== reqRef.current) return;
-          setSuggestions([]);
-          setOpen(false);
-        });
+      if (req !== reqRef.current) return;
+      // Linhas = jogos reais do catálogo DEMO — nunca equipas soltas.
+      const fixtures = findMatches(q, MAX_SUGGESTIONS);
+      setSuggestions(fixtures);
+      setActive(-1);
+      setOpen(fixtures.length > 0);
     }, DEBOUNCE_MS);
     return () => window.clearTimeout(timer);
   }, [value, locked]);
+
+  // O contador das linhas bloqueadas corre do relógio real — nunca de um
+  // timer aberto no clique. Só existe enquanto houver 🔒 à vista.
+  const hasLocked =
+    open && suggestions.some((m) => matchState(m, now) === 'locked');
+  useEffect(() => {
+    if (!hasLocked) return;
+    const id = window.setInterval(() => setNow(Date.now()), 500);
+    return () => window.clearInterval(id);
+  }, [hasLocked]);
 
   // Entrada animada da lista de sugestões.
   useEffect(() => {
@@ -106,16 +120,24 @@ export default function SearchBar({
     listRef.current.children[active]?.scrollIntoView({ block: 'nearest' });
   }, [active]);
 
-  const pick = (team: TeamRef) => {
+  const pick = (match: DemoMatch) => {
     if (locked || pickTimer.current !== null) return;
-    setConfirmed(team.id);
+    // 🔒 — a linha abana-se a si própria e não avança. Sem mensagens.
+    if (matchState(match, Date.now()) === 'locked') {
+      if (!reducedMotion) {
+        setShake((s) => ({ id: match.id, n: (s && s.id === match.id ? s.n : 0) + 1 }));
+      }
+      return;
+    }
+    setConfirmed(match.id);
     pickTimer.current = window.setTimeout(() => {
       pickTimer.current = null;
-      skipNext.current = team.name.trim();
+      skipNext.current = match.label;
       setOpen(false);
       setActive(-1);
       setConfirmed(null);
-      onPick(team);
+      inputRef.current?.blur(); // fecha o teclado antes da revelação
+      onPick(match);
     }, reducedMotion ? 100 : 230);
   };
 
@@ -204,25 +226,46 @@ export default function SearchBar({
 
       {open && suggestions.length > 0 && (
         <ul className="suggest" id="oracle-suggest" role="listbox" ref={listRef}>
-          {suggestions.map((team, i) => (
-            <li
-              key={team.id}
-              id={`oracle-opt-${team.id}`}
-              role="option"
-              aria-selected={i === active}
-              data-confirmed={confirmed === team.id || undefined}
-              className={i === active ? 'suggest-item is-active' : 'suggest-item'}
-              onPointerDown={(e) => {
-                e.preventDefault();
-              }}
-              onClick={() => pick(team)}
-              onMouseEnter={() => setActive(i)}
-            >
-              <span className="suggest-name">{team.name}</span>
-              <span className="suggest-country">{team.country}</span>
-              <ArrowRight className="suggest-arrow" size={15} aria-hidden />
-            </li>
-          ))}
+          {suggestions.map((match, i) => {
+            const state = matchState(match, now);
+            const shakes = shake && shake.id === match.id ? shake.n : 0;
+            return (
+              <li
+                key={match.id}
+                id={`oracle-opt-${match.id}`}
+                role="option"
+                aria-selected={i === active}
+                data-confirmed={confirmed === match.id || undefined}
+                className={i === active ? 'suggest-item is-active' : 'suggest-item'}
+                onPointerDown={(e) => {
+                  e.preventDefault();
+                }}
+                onClick={() => pick(match)}
+                onMouseEnter={() => setActive(i)}
+              >
+                <span className="suggest-name">{match.label}</span>
+                {state === 'ready' && (
+                  <span className="suggest-state st-ready">
+                    <span aria-hidden>✨</span> VOILÀ!
+                  </span>
+                )}
+                {state === 'locked' && (
+                  <span
+                    key={shakes}
+                    className={shakes ? 'suggest-state st-locked is-shaking' : 'suggest-state st-locked'}
+                    aria-label={`Ainda é cedo — faltam ${countdown(lockRemaining(match, now))}`}
+                  >
+                    <span aria-hidden>🔒</span> {countdown(lockRemaining(match, now))}
+                  </span>
+                )}
+                {state === 'invoke' && (
+                  <span className="suggest-state st-invoke">
+                    <span aria-hidden>😈</span> INVOCO!
+                  </span>
+                )}
+              </li>
+            );
+          })}
         </ul>
       )}
 

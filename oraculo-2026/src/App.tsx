@@ -3,6 +3,8 @@ import gsap from 'gsap';
 import CrystalBall from './scene/LivingCrystal';
 import { oracle } from './oracle/client';
 import { resolveTeam } from './oracle/teams';
+import { findMatches, matchState } from './oracle/matches';
+import type { DemoMatch } from './oracle/matches';
 import type { OracleDecision, OraclePhase, TeamRef } from './oracle/types';
 import { useQuality } from './fx/quality';
 import TopBar from './components/TopBar';
@@ -108,21 +110,47 @@ export default function App() {
     resolveRecall.current = recallDone.current = null;
   }, []);
 
-  const pickTeam = useCallback(
-    (team: TeamRef) => {
-      setQuery(team.name);
-      void consult(team);
+  // ✨ VOILÀ! — a profecia já existe: sem cálculo, sem espera, sem nova animação.
+  const voila = useCallback((m: DemoMatch) => {
+    if (!m.prophecy) return;
+    const seq = ++seqRef.current;
+    if (chargeTimer.current) {
+      clearTimeout(chargeTimer.current);
+      chargeTimer.current = null;
+    }
+    teamRef.current = m.consultTeam;
+    setVisionId(seq);
+    setPanel({ type: 'oracle', response: { kind: 'decision', decision: m.prophecy } });
+    setPhase('revealed');
+  }, []);
+
+  // Um clique na linha = uma ação. O estado sai dos dados + hora atual:
+  //   ready → VOILÀ (revelação imediata) · invoke → sequência cinematográfica
+  //   locked → a linha já se abanou no SearchBar; aqui não há nada a fazer.
+  const openMatch = useCallback(
+    (m: DemoMatch) => {
+      const state = matchState(m, Date.now());
+      if (state === 'locked') return;
+      setQuery(m.label);
+      if (state === 'ready') voila(m);
+      else void consult(m.consultTeam); // 😈 INVOCO! — cinemática existente
     },
-    [consult],
+    [consult, voila],
   );
 
   const submitFree = useCallback(
     (text: string) => {
+      const m = findMatches(text, 1)[0];
+      if (m) {
+        openMatch(m);
+        return;
+      }
+      // Texto fora do calendário demo → invocação direta (estados do dock).
       const team = resolveTeam(text);
       setQuery(team.name);
       void consult(team);
     },
-    [consult],
+    [consult, openMatch],
   );
 
   const retry = useCallback(() => {
@@ -234,7 +262,7 @@ export default function App() {
               <SearchBar
                 value={query}
                 onChange={setQuery}
-                onPick={pickTeam}
+                onPick={openMatch}
                 onSubmit={submitFree}
                 phase={phase}
                 covered={panel !== null || waitingForSearch}

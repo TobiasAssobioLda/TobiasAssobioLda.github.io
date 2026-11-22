@@ -444,29 +444,76 @@ button {
 }
 
 .suggest-name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   font-family: var(--font-head);
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.03em;
 }
 
-.suggest-country {
-  font-size: 11px;
-  letter-spacing: 0.08em;
+/* Estado do jogo na MESMA linha — separador fino + token à direita. */
+.suggest-state {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-head);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.suggest-state::before {
+  content: '';
+  width: 1px;
+  height: 13px;
+  flex: none;
+  background: var(--line);
+}
+
+.st-ready {
+  color: #ffdca5;
+  text-shadow: 0 0 10px rgba(255, 210, 125, 0.4);
+}
+
+.st-invoke {
+  color: #d5a8ff;
+  text-shadow: 0 0 10px rgba(168, 79, 255, 0.5);
+}
+
+.st-locked {
   color: var(--muted);
 }
 
-.suggest-arrow {
-  margin-left: auto;
-  flex: none;
-  color: var(--violet-soft);
-  opacity: 0;
-  transition: opacity 0.15s ease;
+/* abanão horizontal rápido — o cadeado resiste, mas não avança */
+.st-locked.is-shaking {
+  animation: lock-shake 0.42s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 
-.suggest-item.is-active .suggest-arrow,
-.suggest-item:hover .suggest-arrow {
-  opacity: 1;
+@keyframes lock-shake {
+  10%,
+  90% {
+    transform: translateX(-2px);
+  }
+  20%,
+  80% {
+    transform: translateX(4px);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translateX(-6px);
+  }
+  40%,
+  60% {
+    transform: translateX(6px);
+  }
 }
 
 /* Estado "a ler os sinais…" */
@@ -840,6 +887,16 @@ button {
     height: 46px;
   }
 
+  .suggest-name {
+    font-size: 12.5px;
+  }
+
+  .suggest-state {
+    font-size: 9px;
+    letter-spacing: 0.08em;
+    gap: 5px;
+  }
+
   /* em mobile as sugestões abrem para CIMA — não há espaço livre por baixo */
   .suggest {
     top: auto;
@@ -959,13 +1016,13 @@ button {
 @media (prefers-reduced-motion: reduce) {
   .fx-blob,
   .fx-noise,
-  .pulse-dot {
+  .pulse-dot,
+  .st-locked.is-shaking {
     animation: none;
   }
 
   .search-float,
   .suggest-item,
-  .suggest-arrow,
   .searchbar-go,
   .btn-ghost,
   .demo-chip {
