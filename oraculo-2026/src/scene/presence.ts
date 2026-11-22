@@ -42,6 +42,10 @@ export class Presence {
   step(dt: number, phase: OraclePhase) {
     this.time += dt;
     if (this.lastPhase !== phase) {
+      if (phase === 'idle' && this.lastPhase === 'revealed') {
+        this.start = this.time + range(4, 9);
+        this.noticed = -10;
+      }
       this.phaseAge = 0;
       this.lastPhase = phase;
       if (phase === 'charging') this.boltAt = this.time + range(.28, 1.1);

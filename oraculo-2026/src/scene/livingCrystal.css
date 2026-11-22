@@ -11,10 +11,8 @@
   position: relative;
   width: min(114cqw, 109.42cqh);
   aspect-ratio: 1312 / 1199;
-  mask-image: radial-gradient(ellipse 62% 69% at 50% 52%, black 68%, transparent 100%),
-    linear-gradient(to bottom, transparent, black 2% 90%, transparent),
-    linear-gradient(to right, transparent, black 11% 89%, transparent);
-  mask-composite: intersect;
+  /* One static matte follows the glass and metal; only the outer haze dissolves. */
+  mask: url('./chamber-matte.png') center / 100% 100% no-repeat;
   transition: width 0.22s ease;
 }
 .crystal-plate > * {

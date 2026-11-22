@@ -1,0 +1,72 @@
+.app[data-vision] .demo-dock { visibility: hidden; pointer-events: none; }
+.app[data-vision] .orb-viewport { max-width: 1120px; }
+.app[data-vision] .crystal-stage {
+  inset: 0 54% 0 1%;
+}
+.app[data-vision] .crystal-plate { width: min(102cqw, 105cqh); }
+.vision-mist { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.vision-script {
+  position: absolute; inset: 6% 1% 6% 45%; margin: auto;
+  max-height: 410px; display: grid; place-items: center;
+  color: #fff5ea; text-align: center;
+}
+.inscription { width: 82%; text-shadow: 0 1px 5px #130919, 0 0 9px #130919; }
+.inscription > * { animation: ink-condense .72s ease-out both; }
+.vision-seal {
+  display: flex; align-items: center; justify-content: center; gap: 9px;
+  color: #ffdab1; text-transform: uppercase; letter-spacing: .23em;
+  font: 600 10px/1.3 var(--font-head); letter-spacing: .23em; margin: 0;
+}
+.vision-seal i { width: 25px; height: 1px; background: linear-gradient(90deg, transparent,#d5aa84); }
+.vision-seal i:last-child { rotate: 180deg; }
+.inscription h2 {
+  font: italic 500 clamp(24px,3.5vw,45px)/1.04 Georgia, serif; margin: .24em 0 .4em;
+  overflow-wrap: anywhere; animation-delay: .16s;
+}
+.inscription h2:focus { outline: none; }
+.inscription button:focus-visible { outline: 2px solid #ffdfbb; outline-offset: 3px; }
+.vision-terms {
+  display: flex; align-items: start; justify-content: center; gap: clamp(10px,1.7vw,25px);
+  margin: 0; animation-delay: .38s;
+}
+.vision-terms dt { font: 600 10px/1.5 var(--font-head); text-transform: uppercase; letter-spacing: .14em; color: #dbc5df; }
+.vision-terms dd { font: 600 clamp(14px,1.45vw,20px)/1.18 var(--font-head); margin: 3px 0 0; }
+.vision-terms div:last-child dd { color: #ffcf8b; font-variant-numeric: tabular-nums; }
+.vision-reason { font: 400 clamp(13px,1.3vw,16px)/1.3 var(--font-body); margin: .9em auto .65em; animation-delay: .64s; }
+.inscription button {
+  display: inline-flex; gap: 8px; justify-content: center; align-items: center;
+  background: transparent; border: 0; border-bottom: 1px solid #c69d75;
+  color: #ffdfbb; min-height: 44px; padding: 0 6px;
+  font: 600 12px var(--font-head); letter-spacing: .1em; animation-delay: .84s;
+}
+.vision-script[data-returning="true"] .inscription { animation: ink-disperse .3s ease-in both; pointer-events: none; }
+@keyframes ink-condense { from { opacity: 0; filter: blur(4px); } }
+@keyframes ink-disperse { to { opacity: 0; filter: blur(4px); } }
+@media (orientation: portrait) {
+  .app[data-vision] .crystal-stage { inset: 0 0 50%; }
+  .vision-script { inset: 47% 0 0; max-height: 365px; }
+  .inscription { width: 87%; }
+}
+@media (max-height: 680px) {
+  .app[data-vision] .intro, .app[data-vision] .foot { display: none; }
+  .vision-script { inset-block: 0; }
+}
+@media (orientation: portrait) and (max-height: 680px) {
+  .app[data-vision] .crystal-stage { bottom: 56%; }
+  .vision-script { inset-block: 42% 0; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .app[data-vision] .crystal-stage { transition: inset .85s cubic-bezier(.26,.02,.19,1); }
+  .app[data-vision]:has([data-returning="true"]) .crystal-stage {
+    inset: 0 0 clamp(64px,13%,88px); transition-delay: .95s;
+  }
+  .app[data-vision]:has([data-returning="true"]) .crystal-plate {
+    width: min(114cqw,109.42cqh); transition-delay: .95s;
+  }
+}
+@media (max-width:640px) and (prefers-reduced-motion: no-preference) {
+  .app[data-vision]:has([data-returning="true"]) .crystal-stage { bottom: 15%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .inscription > *, .vision-script[data-returning="true"] .inscription { animation: none; }
+}

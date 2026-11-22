@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-import { Hourglass, RefreshCw, RotateCcw, TriangleAlert, Wrench, Zap } from 'lucide-react';
+import { Hourglass, RefreshCw, RotateCcw, TriangleAlert, Wrench } from 'lucide-react';
 import type { OracleResponse } from '../oracle/types';
 
 export type PanelState = { type: 'oracle'; response: OracleResponse } | { type: 'error' };
@@ -93,42 +93,5 @@ export default function ResultPanel({ state, onReset, onRetry, reducedMotion }: 
     );
   }
 
-  const { decision } = response;
-  const factors = decision.factors.slice(0, 3);
-
-  return (
-    <div className="result-panel is-tip" ref={ref}>
-      <p className="rp-tag is-gold rp-stagger">
-        <Zap size={12} aria-hidden />
-        TIP DEMONSTRATIVA
-      </p>
-      <h2 className="rp-title rp-stagger">{decision.team.name}</h2>
-      {decision.team.country !== '—' && (
-        <p className="rp-sub rp-stagger">{decision.team.country}</p>
-      )}
-      <div className="tip-grid rp-stagger">
-        <div className="tip-cell">
-          <span>Mercado</span>
-          <strong>{decision.market}</strong>
-        </div>
-        <div className="tip-cell">
-          <span>Seleção</span>
-          <strong>{decision.selection}</strong>
-        </div>
-        <div className="tip-cell">
-          <span>Odd</span>
-          <strong className="tip-odd">{decision.odd.toFixed(2)}</strong>
-        </div>
-      </div>
-      {factors.length > 0 && (
-        <ul className="tip-factors rp-stagger">
-          {factors.map((factor) => (
-            <li key={factor}>{factor}</li>
-          ))}
-        </ul>
-      )}
-      <p className="rp-micro rp-stagger">não é uma previsão real</p>
-      <div className="rp-actions rp-stagger">{resetButton}</div>
-    </div>
-  );
+  return null; // The KO-8 decision is drawn by Prophecy, not by this panel.
 }

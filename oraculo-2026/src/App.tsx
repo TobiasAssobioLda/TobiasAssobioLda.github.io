@@ -10,6 +10,7 @@ import SearchBar from './components/SearchBar';
 import ResultPanel from './components/ResultPanel';
 import type { PanelState } from './components/ResultPanel';
 import DemoDock from './components/DemoDock';
+import Prophecy from './components/Prophecy';
 
 /** Duração mínima da fase 'charging' — a revelação merece suspense. */
 const CHARGE_MS = 2600;
@@ -76,7 +77,7 @@ export default function App() {
     setPhase('idle');
     setPanel(null);
     setQuery('');
-    requestAnimationFrame(() => inputRef.current?.focus());
+    requestAnimationFrame(() => inputRef.current?.focus({ preventScroll: true }));
   }, []);
 
   const pickTeam = useCallback(
@@ -175,8 +176,9 @@ export default function App() {
     return () => ctx.revert();
   }, [reducedMotion]);
 
+  const vision = phase === 'charging' || phase === 'revealed';
   return (
-    <div className="app" ref={rootRef}>
+    <div className="app" ref={rootRef} data-vision={vision || undefined}>
       <div className="fx-blob fx-blob-a" aria-hidden />
       <div className="fx-blob fx-blob-b" aria-hidden />
       <div className="fx-noise" aria-hidden />
@@ -199,7 +201,7 @@ export default function App() {
               <CrystalBall phase={phase} quality={tier} reducedMotion={reducedMotion} />
             </div>
 
-            <div className="search-float" data-animate data-covered={panel !== null}>
+            <div className="search-float" data-animate data-covered={panel !== null || vision}>
               <SearchBar
                 value={query}
                 onChange={setQuery}
@@ -212,7 +214,10 @@ export default function App() {
               />
             </div>
 
-            {panel && (
+            {vision ? (
+              <Prophecy decision={panel?.type === 'oracle' && panel.response.kind === 'decision'
+                ? panel.response.decision : null} onReset={reset} reducedMotion={reducedMotion} />
+            ) : panel && (
               <ResultPanel
                 state={panel}
                 onReset={reset}
