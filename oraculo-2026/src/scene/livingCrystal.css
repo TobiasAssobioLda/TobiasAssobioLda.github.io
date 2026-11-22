@@ -5,7 +5,7 @@
   grid-template-columns: minmax(0, 1fr);
   place-items: center;
   container-type: size;
-  mix-blend-mode: screen;
+  contain: layout paint;
 }
 .crystal-plate {
   position: relative;
@@ -23,7 +23,7 @@
   height: 100%;
 }
 .crystal-plate canvas { opacity: 0; }
-.orb-canvas:has(.crystal-stage) { mix-blend-mode: screen; }
+.orb-canvas:has(.crystal-stage) { contain: layout paint; }
 @media (min-width: 1024px) {
   .orb-stage > .orb-viewport:has(.crystal-stage) { height: min(70dvh, 670px, 100%); }
 }

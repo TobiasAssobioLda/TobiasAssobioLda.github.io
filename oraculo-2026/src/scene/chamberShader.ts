@@ -21,9 +21,9 @@ vec2 current(vec2 p) {
   vec2 eddy = p-vec2(.42+.06*sin(.22*t),.48+.05*cos(.27*t));
   return v + vec2(-eddy.y,eddy.x)*8.*exp(-32.*dot(eddy,eddy));
 }
-vec3 plume(vec2 p,float weight) {
+vec3 plume(vec2 p,float weight,vec2 curl) {
   float a=fract(t*.18+p.y*.4), b=fract(a+.5);
-  vec2 drift=current(p)*weight*.080;
+  vec2 drift=curl*weight*.080;
   return mix(texture2D(chamber,p-(a-.5)*drift).rgb,
              texture2D(chamber,p-(b-.5)*drift).rgb,abs(2.*a-1.));
 }
@@ -41,9 +41,9 @@ void main() {
   float inside=(1.-smoothstep(.314,.355,r))*(1.-smoothstep(.68,.712,p.y));
   vec3 col=texture2D(chamber,p).rgb;
   if(inside>.0001) {
-    vec3 back=plume(p,inside);
     // A nearer curtain travels against the rear current and scatters its light.
     vec2 curl=current(p);
+    vec3 back=plume(p,inside,curl);
     vec3 farFog=texture2D(vapour,p*1.39+.084*curl+vec2(t*.014,-t*.021)).rgb;
     vec2 sheet=mat2(.91,-.42,.42,.91)*sphere*1.85+.11*curl+.15*farFog.rb;
     vec3 fog=texture2D(vapour,sheet+vec2(-.020,.034)*t).rgb;
