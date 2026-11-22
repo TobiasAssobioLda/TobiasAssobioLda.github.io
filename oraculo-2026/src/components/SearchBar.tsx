@@ -41,6 +41,9 @@ export default function SearchBar({
   const [suggestions, setSuggestions] = useState<TeamRef[]>([]);
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(-1);
+  const [confirmed, setConfirmed] = useState<string | null>(null);
+  const pickTimer = useRef<number | null>(null);
+  useEffect(() => () => { if (pickTimer.current !== null) window.clearTimeout(pickTimer.current); }, []);
 
   const listRef = useRef<HTMLUListElement>(null);
   const reqRef = useRef(0);
@@ -104,10 +107,16 @@ export default function SearchBar({
   }, [active]);
 
   const pick = (team: TeamRef) => {
-    skipNext.current = team.name.trim();
-    setOpen(false);
-    setActive(-1);
-    onPick(team);
+    if (locked || pickTimer.current !== null) return;
+    setConfirmed(team.id);
+    pickTimer.current = window.setTimeout(() => {
+      pickTimer.current = null;
+      skipNext.current = team.name.trim();
+      setOpen(false);
+      setActive(-1);
+      setConfirmed(null);
+      onPick(team);
+    }, reducedMotion ? 100 : 230);
   };
 
   const onKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
@@ -138,7 +147,7 @@ export default function SearchBar({
   const submit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const q = value.trim();
-    if (!q || locked) return;
+    if (!q || locked || pickTimer.current !== null) return;
     skipNext.current = q;
     setOpen(false);
     onSubmit(q);
@@ -171,6 +180,7 @@ export default function SearchBar({
           placeholder="Escreve a equipa ou o jogo…"
           value={value}
           disabled={locked}
+          readOnly={confirmed !== null}
           onChange={(e) => onChange(e.target.value)}
           onKeyDown={onKeyDown}
           onBlur={() => setOpen(false)}
@@ -200,10 +210,10 @@ export default function SearchBar({
               id={`oracle-opt-${team.id}`}
               role="option"
               aria-selected={i === active}
+              data-confirmed={confirmed === team.id || undefined}
               className={i === active ? 'suggest-item is-active' : 'suggest-item'}
               onPointerDown={(e) => {
                 e.preventDefault();
-                if (e.pointerType === 'touch') pick(team);
               }}
               onClick={() => pick(team)}
               onMouseEnter={() => setActive(i)}

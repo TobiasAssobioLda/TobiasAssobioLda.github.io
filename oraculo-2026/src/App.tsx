@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import CrystalBall from './scene/LivingCrystal';
 import { oracle } from './oracle/client';
 import { resolveTeam } from './oracle/teams';
-import type { OraclePhase, TeamRef } from './oracle/types';
+import type { OracleDecision, OraclePhase, TeamRef } from './oracle/types';
 import { useQuality } from './fx/quality';
 import TopBar from './components/TopBar';
 import SearchBar from './components/SearchBar';
@@ -13,7 +13,8 @@ import DemoDock from './components/DemoDock';
 import Prophecy from './components/Prophecy';
 
 /** Duração mínima da fase 'charging' — a revelação merece suspense. */
-const CHARGE_MS = 2600;
+const CHARGE_MS = 4500;
+const SEARCH_RETURN_MS = 4710; // V6.1: 480 ms dissolution + 3580 ms recall + 650 ms rest.
 
 /**
  * Federação Oráculo 2026 — experiência cinematográfica única.
@@ -27,9 +28,17 @@ export default function App() {
 
   const [phase, setPhase] = useState<OraclePhase>('idle');
   const [query, setQuery] = useState('');
+  const [recall, setRecall] = useState<OracleDecision | null>(null);
+  const [waitingForSearch, setWaitingForSearch] = useState(false);
+  const searchTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  useEffect(() => () => { if (searchTimer.current !== null) clearTimeout(searchTimer.current); }, []);
+  const [visionId, setVisionId] = useState(0);
+  const recallDone = useRef<Promise<void> | null>(null);
+  const resolveRecall = useRef<(() => void) | null>(null);
   const [panel, setPanel] = useState<PanelState | null>(null);
 
   const rootRef = useRef<HTMLDivElement>(null);
+  const vortex = useRef(0);
   const inputRef = useRef<HTMLInputElement>(null);
   const seqRef = useRef(0);
   const teamRef = useRef<TeamRef | null>(null);
@@ -48,8 +57,13 @@ export default function App() {
       const res = await oracle.consult(team);
       if (seq !== seqRef.current) return;
       if (res.kind === 'decision') {
+        // A second search can finish while the previous smoke is still on screen.
+        // Queue only its KO-8 presentation, never the input or the lookup.
+        if (recallDone.current) await recallDone.current;
+        if (seq !== seqRef.current) return;
         // KO−8: entra imediatamente em 'charging' (o orbe carrega),
         // e só revela a TIP passado o mínimo cinematográfico.
+        setVisionId(seq);
         setPhase('charging');
         chargeTimer.current = setTimeout(() => {
           chargeTimer.current = null;
@@ -68,7 +82,7 @@ export default function App() {
     }
   }, []);
 
-  const reset = useCallback(() => {
+  const reset = useCallback((focus = true) => {
     seqRef.current++;
     if (chargeTimer.current) {
       clearTimeout(chargeTimer.current);
@@ -77,7 +91,21 @@ export default function App() {
     setPhase('idle');
     setPanel(null);
     setQuery('');
-    requestAnimationFrame(() => inputRef.current?.focus({ preventScroll: true }));
+    if (focus) requestAnimationFrame(() => inputRef.current?.focus({ preventScroll: true }));
+  }, []);
+  const newConsultation = useCallback((previous: OracleDecision) => {
+    if (!reducedMotion) {
+      setWaitingForSearch(true);
+      searchTimer.current = setTimeout(() => setWaitingForSearch(false), SEARCH_RETURN_MS);
+    }
+    setRecall(previous);
+    recallDone.current = new Promise(resolve => { resolveRecall.current = resolve; });
+    reset(false);
+  }, [reset, reducedMotion]);
+  const finishReturn = useCallback(() => {
+    setRecall(null);
+    resolveRecall.current?.();
+    resolveRecall.current = recallDone.current = null;
   }, []);
 
   const pickTeam = useCallback(
@@ -176,9 +204,10 @@ export default function App() {
     return () => ctx.revert();
   }, [reducedMotion]);
 
-  const vision = phase === 'charging' || phase === 'revealed';
+  const decision = panel?.type === 'oracle' && panel.response.kind === 'decision' ? panel.response.decision : null;
+  const vision = phase === 'charging' || decision !== null;
   return (
-    <div className="app" ref={rootRef} data-vision={vision || undefined}>
+    <div className="app" ref={rootRef} data-vision={vision || waitingForSearch || undefined}>
       <div className="fx-blob fx-blob-a" aria-hidden />
       <div className="fx-blob fx-blob-b" aria-hidden />
       <div className="fx-noise" aria-hidden />
@@ -198,26 +227,26 @@ export default function App() {
         <div className="orb-stage">
           <div className="orb-viewport">
             <div className="orb-canvas">
-              <CrystalBall phase={phase} quality={tier} reducedMotion={reducedMotion} />
+              <CrystalBall phase={recall ? 'revealed' : phase} quality={tier} reducedMotion={reducedMotion} vortex={vortex} />
             </div>
 
-            <div className="search-float" data-animate data-covered={panel !== null || vision}>
+            <div className="search-float" data-animate data-covered={waitingForSearch || panel !== null || phase === 'charging'}>
               <SearchBar
                 value={query}
                 onChange={setQuery}
                 onPick={pickTeam}
                 onSubmit={submitFree}
                 phase={phase}
-                covered={panel !== null}
+                covered={panel !== null || waitingForSearch}
                 reducedMotion={reducedMotion}
                 inputRef={inputRef}
               />
             </div>
 
-            {vision ? (
-              <Prophecy decision={panel?.type === 'oracle' && panel.response.kind === 'decision'
-                ? panel.response.decision : null} onReset={reset} reducedMotion={reducedMotion} />
-            ) : panel && (
+            {(vision || recall) && (
+              <Prophecy key={visionId} vortex={vortex} decision={recall ?? decision} onNew={newConsultation} onFinish={finishReturn} reducedMotion={reducedMotion} />
+            )}
+            {panel && !decision && (
               <ResultPanel
                 state={panel}
                 onReset={reset}

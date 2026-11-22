@@ -1,16 +1,19 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, type RefObject } from 'react';
 import { RotateCcw } from 'lucide-react';
 import type { OracleDecision } from '../oracle/types';
 import { paintMist } from '../scene/paintMist';
+import Storm, { type StormFrame } from '../scene/Storm';
 import './prophecy.css';
 
-const RETURN_MS = 2150;
+const DISSOLVE_MS = 480, RECALL_MS = 3580;
 
-export default function Prophecy({ decision, onReset, reducedMotion }: {
-  decision: OracleDecision | null; onReset: () => void; reducedMotion: boolean;
+export default function Prophecy({ decision, onNew, onFinish, reducedMotion, vortex }: {
+  vortex: RefObject<number>;
+  decision: OracleDecision | null; onNew: (decision: OracleDecision) => void; onFinish: () => void; reducedMotion: boolean;
 }) {
   const canvas = useRef<HTMLCanvasElement>(null);
-  const altar = useRef<HTMLElement>(null);
+  const layer = useRef<HTMLDivElement>(null);
+  const stormFrame = useRef<StormFrame | null>(null);
   const heading = useRef<HTMLHeadingElement>(null);
   const returnAt = useRef(0);
   const [returning, setReturning] = useState(false);
@@ -20,58 +23,78 @@ export default function Prophecy({ decision, onReset, reducedMotion }: {
   }, [decision]);
 
   useEffect(() => {
-    if (!returning) return;
-    const timer = window.setTimeout(onReset, reducedMotion ? 0 : RETURN_MS);
-    return () => clearTimeout(timer);
-  }, [returning, reducedMotion, onReset]);
+    if (returning && reducedMotion) onFinish();
+  }, [returning, reducedMotion, onFinish]);
 
   useEffect(() => {
     const surface = canvas.current!;
-    const cloud = altar.current!;
-    const plate = surface.parentElement!.querySelector('.crystal-plate');
+    const cloud = layer.current!;
+    const viewport = cloud.parentElement!;
+    const plate = viewport.querySelector<HTMLElement>('.crystal-plate')!;
     const ctx = surface.getContext('2d');
-    if (!ctx || !plate) return;
+    let width = 0, height = 0, sx = 0, sy = 0;
+    const layout = () => {
+      const box = viewport.getBoundingClientRect(), orb = plate.getBoundingClientRect();
+      width = Math.min(box.width, Math.max(orb.width, Math.min(320, box.width)));
+      height = Math.min(box.height, Math.max(orb.height, 220));
+      const left = (box.width - width) / 2;
+      const top = Math.max(0, Math.min(box.height - height, orb.top - box.top + (orb.height - height) / 2));
+      Object.assign(cloud.style, {left:`${left}px`, top:`${top}px`, width:`${width}px`, height:`${height}px`});
+      sx = orb.left - box.left - left + .49 * orb.width;
+      sy = orb.top - box.top - top + .385 * orb.height;
+    };
     const mist = new Image();
     mist.src = `${import.meta.env.BASE_URL}prophecy-mist.webp`;
     const start = performance.now();
-    let raf = 0, last = -100;
+    let raf = 0;
+    const interval = matchMedia('(pointer: coarse)').matches ? 1000 / 30 : 1000 / 60;
+    let due = 0;
     const render = (now: number) => {
       if (!reducedMotion) raf = requestAnimationFrame(render);
-      if (now - last < 32 || document.hidden || !mist.naturalWidth) return;
-      last = now;
-      const box = surface.getBoundingClientRect(), orb = plate.getBoundingClientRect();
-      const target = cloud.getBoundingClientRect();
-      const scale = Math.min(1, 740 / Math.max(1, box.width), 650 / Math.max(1, box.height));
-      const w = Math.max(1, Math.round(box.width * scale)), h = Math.max(1, Math.round(box.height * scale));
+      if (now < due - 1 || document.hidden || !width || !height) return;
+      due = (now - due > interval ? now : due) + interval;
+      // Leave air above the crown so an escaping wisp isn't cut by the plate bounds.
+      const pad = height * .14;
+      const scale = Math.min(1, 600 / width, 600 / (height + 2*pad));
+      const w = Math.max(1, Math.round(width * scale)), h = Math.max(1, Math.round((height+2*pad) * scale));
       if (surface.width !== w || surface.height !== h) { surface.width = w; surface.height = h; }
-      ctx.setTransform(scale, 0, 0, scale, 0, 0);
-      ctx.clearRect(0, 0, w / scale, h / scale);
+      ctx?.setTransform(scale, 0, 0, scale, 0, pad*scale);
+      ctx?.clearRect(0, -pad, w / scale, h / scale);
       const age = (now - start) / 1000;
       // Scrub the same spatial path backwards, after the lettering has dissolved.
       const returningMs = returnAt.current ? now - returnAt.current : 0;
+      const u = Math.min(1, Math.max(0, (returningMs - DISSOLVE_MS) / RECALL_MS));
       const progress = reducedMotion ? 1 : returnAt.current
-        ? 1 - Math.min(1, Math.max(0, (returningMs - 280) / (RETURN_MS - 300)))
-        : Math.min(1, Math.max(0, (age - .38) / 2.2));
-      paintMist(ctx, mist, orb.left - box.left + .49 * orb.width,
-        orb.top - box.top + .35 * orb.height, target.left - box.left + target.width / 2,
-        target.top - box.top + target.height / 2, target.width, target.height,
-        progress, returnAt.current ? -returningMs / 1000 : age);
+        ? 1 - u*u*(3-2*u)
+        : Math.min(1, Math.max(0, (age - .35) / 4.15));
+      vortex.current = reducedMotion ? 0 : returnAt.current ? -progress : progress;
+      const veil = Math.min(1, Math.max(0, (progress - .54) / .34));
+      plate.style.opacity = String(1 - veil * veil * (3 - 2 * veil));
+      stormFrame.current?.(progress);
+      if (ctx && mist.complete && mist.naturalWidth) paintMist(ctx, mist, sx, sy,
+        width / 2, height * .49, width * .90, height * .91, progress,
+        age);
+      if (returnAt.current && u === 1) onFinish();
     };
-    const redraw = () => render(performance.now());
-    if (reducedMotion) {
-      mist.onload = redraw;
-      window.addEventListener('resize', redraw);
-    } else raf = requestAnimationFrame(render);
+    const resize = () => { layout(); if (reducedMotion) {due = 0; render(performance.now());} };
+    const ro = new ResizeObserver(resize);
+    ro.observe(plate); ro.observe(viewport); ro.observe(plate.parentElement!);
+    resize();
+    if (reducedMotion) mist.onload = resize;
+    else raf = requestAnimationFrame(render);
     return () => {
       cancelAnimationFrame(raf);
       mist.onload = null;
-      window.removeEventListener('resize', redraw);
+      ro.disconnect();
+      vortex.current = 0;
+      plate.style.removeProperty('opacity');
     };
-  }, [reducedMotion]);
+  }, [reducedMotion, vortex, onFinish]);
 
-  return <>
+  return <div className="vision-layer" ref={layer}>
+    {!reducedMotion && <Storm frame={stormFrame} />}
     <canvas className="vision-mist" ref={canvas} aria-hidden="true" />
-    <section className="vision-script" ref={altar} aria-label="Profecia demonstrativa" data-returning={returning}>
+    <section className="vision-script" aria-label="Profecia demonstrativa" data-returning={returning}>
       {decision && <div className="inscription">
         <p className="vision-seal"><i /> Profecia · DEMO <i /></p>
         <h2 ref={heading} tabIndex={-1}>{decision.team.name}</h2>
@@ -84,8 +107,9 @@ export default function Prophecy({ decision, onReset, reducedMotion }: {
         <button type="button" disabled={returning} onClick={() => {
           returnAt.current = performance.now();
           setReturning(true);
+          onNew(decision);
         }}><RotateCcw size={14} aria-hidden /> Nova consulta</button>
       </div>}
     </section>
-  </>;
+  </div>;
 }

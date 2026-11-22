@@ -44,9 +44,11 @@ export function drawChamber(gl: WebGLRenderingContext, images: HTMLImageElement[
     });
     const [t, presence, eyes, blink, energy, angle, flash, seed, gaze] =
       ['t','presence','eyelight','blink','energy','angle','flash','boltSeed','gaze'].map(uniform);
+    const vortex = uniform('vortex');
     return {
       dispose,
-      frame(s: Presence) {
+      frame(s: Presence, progress: number) {
+        gl.uniform1f(vortex, Math.abs(progress));
         gl.uniform1f(t, s.flow);
         gl.uniform1f(presence, s.face);
         gl.uniform1f(eyes, s.eyes);

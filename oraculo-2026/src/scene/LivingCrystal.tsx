@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, type RefObject } from 'react';
 import type { CrystalBallProps } from '../oracle/types';
 import { drawChamber } from './drawChamber';
 import { Presence } from './presence';
@@ -6,7 +6,7 @@ import './livingCrystal.css';
 
 const asset = (name: string) => `${import.meta.env.BASE_URL}${name}.webp`;
 
-export default function LivingCrystal({ phase, quality, reducedMotion }: CrystalBallProps) {
+export default function LivingCrystal({ phase, quality, reducedMotion, vortex }: CrystalBallProps & { vortex: RefObject<number> }) {
   const phaseRef = useRef(phase);
   const ref = useRef<HTMLCanvasElement>(null);
   const poster = useRef<HTMLImageElement>(null);
@@ -53,8 +53,8 @@ export default function LivingCrystal({ phase, quality, reducedMotion }: Crystal
       last = now;
       due += 1000 / fpsTarget;
       if (now - due > 80) due = now;
-      state.step(Math.min(.16, dt), phaseRef.current);
-      renderer.frame(state);
+      state.step(Math.min(.16, dt), phaseRef.current, vortex.current);
+      renderer.frame(state, vortex.current);
       if (canvas.style.opacity !== '1') {
         canvas.style.opacity = '1';
         base.style.visibility = 'hidden';
@@ -137,7 +137,7 @@ export default function LivingCrystal({ phase, quality, reducedMotion }: Crystal
       canvas.removeEventListener('pointermove', onPointer);
       canvas.removeEventListener('pointerdown', onPointer);
     };
-  }, [quality, reducedMotion, generation]);
+  }, [quality, reducedMotion, generation, vortex]);
 
   return (
     <div className="crystal-stage" aria-hidden="true">

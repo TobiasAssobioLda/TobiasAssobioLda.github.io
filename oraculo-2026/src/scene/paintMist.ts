@@ -5,9 +5,8 @@ export function paintMist(ctx: CanvasRenderingContext2D, sprite: HTMLImageElemen
   sx: number, sy: number, cx: number, cy: number, width: number, height: number,
   progress: number, time: number) {
   if (progress <= 0) return;
-  const dx = cx - sx, dy = cy - sy, len = Math.max(1, Math.hypot(dx, dy));
-  const nx = -dy / len, ny = dx / len, unit = Math.min(width, height);
-  const head = smooth(progress / .62), bloom = smooth((progress - .43) / .57);
+  const bloom = smooth((progress - .66) / .34);
+  const settle = smooth((progress - .82) / .18);
   const puff = (x: number, y: number, w: number, h: number, angle: number, alpha: number) => {
     ctx.save();
     ctx.translate(x, y); ctx.rotate(angle);
@@ -15,30 +14,18 @@ export function paintMist(ctx: CanvasRenderingContext2D, sprite: HTMLImageElemen
     ctx.drawImage(sprite, -w / 2, -h / 2, w, h);
     ctx.restore();
   };
-  // Two coiling filaments share their origin with the eye-light in the glass.
-  for (let i = 0; i < 36; i++) {
-    const u = (i + ((time * .84 % 1 + 1) % 1)) / 36;
-    if (u >= head) break;
-    const wave = Math.sin(Math.PI * u);
-    const bend = wave * unit * (.13 * Math.sin(u * 5.8 + .4) + .045 * Math.sin(u * 16 - time * 1.8));
-    const spread = unit * (.042 + .15 * u) * (.85 + .18 * Math.sin(i * .8 + time));
-    const alpha = smooth(u * 22) * smooth((head - u) * 13) * (.82 - .28 * bloom);
-    const x = sx + dx * u + nx * bend, y = sy + dy * u + ny * bend;
-    puff(x, y, spread * 1.6, spread, Math.atan2(dy, dx) + .5 * Math.sin(u*12-time), alpha);
-    puff(x - nx * wave * spread*.58, y - ny * wave * spread*.58,
-      spread, spread * .48, time * .19 + i * .6, alpha * .85);
-  }
   if (!bloom) return;
   ctx.save();
-  ctx.translate(cx, cy);
-  ctx.scale(bloom, bloom);
+  ctx.translate(sx+(cx-sx)*bloom, sy+(cy-sy)*bloom);
+  ctx.scale(.72+.28*bloom, .72+.28*bloom);
   for (let i = 0; i < 22; i++) {
-    const a = i * tau / 22;
+    const a = i * tau / 22 - (1-bloom)*2.1;
     const drift = .03*Math.sin(time*.61+i*2.3) + .035*Math.cos(i*3.7);
     puff(Math.cos(a)*( .356+drift)*width, Math.sin(a)*(.336+drift)*height,
-      width*(.36+.06*Math.sin(i)), height*(.41+.09*Math.cos(i)), .2*Math.sin(time*.43+i), .88);
+      width*(.36+.06*Math.sin(i)), height*(.41+.09*Math.cos(i)), .2*Math.sin(time*.43+i), .88*bloom);
   }
   ctx.save();
+  ctx.globalAlpha = settle;
   ctx.scale(width*.56, height*.54);
   const core = ctx.createRadialGradient(0, 0, 0, 0, 0, 1);
   core.addColorStop(0, '#110b20'); core.addColorStop(.57, 'rgba(23,13,37,.97)');

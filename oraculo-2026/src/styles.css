@@ -290,16 +290,12 @@ button {
   width: min(640px, 100%);
   padding-inline: 18px;
   z-index: 3;
-  transition:
-    opacity 0.35s ease,
-    translate 0.35s ease,
-    visibility 0.35s;
+  transition: opacity .9s ease-in-out;
 }
 
 .search-float[data-covered='true'] {
   opacity: 0;
   visibility: hidden;
-  translate: -50% 14px;
   pointer-events: none;
 }
 
@@ -432,6 +428,19 @@ button {
 .suggest-item.is-active,
 .suggest-item:hover {
   background: rgba(125, 49, 251, 0.16);
+}
+
+.suggest-item:active,
+.suggest-item[data-confirmed] {
+  background: rgba(156, 76, 247, .37);
+  box-shadow: inset 0 0 16px rgba(210, 156, 255, .38);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .suggest-item[data-confirmed] { animation: oracle-absorb .23s ease-in both; }
+  @keyframes oracle-absorb {
+    35% { scale: 1.015; }
+    to { scale: .93; opacity: .45; }
+  }
 }
 
 .suggest-name {
@@ -932,10 +941,6 @@ button {
 .app.keyboard-open .search-float {
   bottom: max(8px, env(safe-area-inset-bottom, 0px));
   padding-inline: calc(12px + env(safe-area-inset-left, 0px)) calc(12px + env(safe-area-inset-right, 0px));
-  transition:
-    opacity 0.35s ease,
-    translate 0.35s ease,
-    visibility 0.35s;
 }
 
 .app.keyboard-open .suggest {
