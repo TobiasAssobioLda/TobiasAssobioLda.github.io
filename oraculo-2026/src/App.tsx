@@ -5,7 +5,7 @@ import { oracle } from './oracle/client';
 import { resolveTeam } from './oracle/teams';
 import { findMatches, matchState } from './oracle/matches';
 import type { DemoMatch } from './oracle/matches';
-import type { OracleDecision, OraclePhase, TeamRef } from './oracle/types';
+import type { OracleDecision, OraclePhase, OracleResponse, TeamRef } from './oracle/types';
 import { useQuality } from './fx/quality';
 import TopBar from './components/TopBar';
 import SearchBar from './components/SearchBar';
@@ -17,6 +17,9 @@ import Prophecy from './components/Prophecy';
 /** Duração mínima da fase 'charging' — a revelação merece suspense. */
 const CHARGE_MS = 4500;
 const SEARCH_RETURN_MS = 4710; // V6.1: 480 ms dissolution + 3580 ms recall + 650 ms rest.
+/** Janela da fase 'consulting' — a mesma "leitura dos sinais" do KO−8 V6.3. */
+const CONSULT_MS = 1400;
+const sleep = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
 
 /**
  * Federação Oráculo 2026 — experiência cinematográfica única.
@@ -46,7 +49,7 @@ export default function App() {
   const teamRef = useRef<TeamRef | null>(null);
   const chargeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const consult = useCallback(async (team: TeamRef) => {
+  const consult = useCallback(async (team: TeamRef, ready?: OracleDecision) => {
     teamRef.current = team;
     const seq = ++seqRef.current;
     if (chargeTimer.current) {
@@ -56,7 +59,12 @@ export default function App() {
     setPanel(null);
     setPhase('consulting');
     try {
-      const res = await oracle.consult(team);
+      // Disponibilidade ≠ apresentação: com a decisão já calculada não se
+      // pede nada ao Oráculo, mas a coreografia é a mesma — 'consulting'
+      // respira a janela idêntica à da consulta KO−8 da V6.3.
+      const res: OracleResponse = ready
+        ? (await sleep(CONSULT_MS), { kind: 'decision', decision: ready })
+        : await oracle.consult(team);
       if (seq !== seqRef.current) return;
       if (res.kind === 'decision') {
         // A second search can finish while the previous smoke is still on screen.
@@ -110,32 +118,18 @@ export default function App() {
     resolveRecall.current = recallDone.current = null;
   }, []);
 
-  // ✨ VOILÀ! — a profecia já existe: sem cálculo, sem espera, sem nova animação.
-  const voila = useCallback((m: DemoMatch) => {
-    if (!m.prophecy) return;
-    const seq = ++seqRef.current;
-    if (chargeTimer.current) {
-      clearTimeout(chargeTimer.current);
-      chargeTimer.current = null;
-    }
-    teamRef.current = m.consultTeam;
-    setVisionId(seq);
-    setPanel({ type: 'oracle', response: { kind: 'decision', decision: m.prophecy } });
-    setPhase('revealed');
-  }, []);
-
   // Um clique na linha = uma ação. O estado sai dos dados + hora atual:
-  //   ready → VOILÀ (revelação imediata) · invoke → sequência cinematográfica
+  //   ready → VOILÀ: a decisão já existe, mas a coreografia é a de sempre
+  //   invoke → INVOCO: a decisão é obtida na mesma coreografia
   //   locked → a linha já se abanou no SearchBar; aqui não há nada a fazer.
   const openMatch = useCallback(
     (m: DemoMatch) => {
       const state = matchState(m, Date.now());
       if (state === 'locked') return;
       setQuery(m.label);
-      if (state === 'ready') voila(m);
-      else void consult(m.consultTeam); // 😈 INVOCO! — cinemática existente
+      void consult(m.consultTeam, state === 'ready' ? m.prophecy ?? undefined : undefined);
     },
-    [consult, voila],
+    [consult],
   );
 
   const submitFree = useCallback(
